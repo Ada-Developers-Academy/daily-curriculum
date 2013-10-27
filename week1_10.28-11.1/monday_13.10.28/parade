@@ -1,0 +1,13 @@
+title "My Presentation"
+
+theme "archetect"
+
+section "Schedule" do
+  slides "schedule.md"
+  slides "get-to-know-you-games.md"
+  slides "overview.md"
+end
+
+section "Installfest!" do
+  slides "installfest.md"
+end

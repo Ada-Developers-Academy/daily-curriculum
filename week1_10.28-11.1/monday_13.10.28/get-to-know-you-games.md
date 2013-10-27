@@ -1,0 +1,2 @@
+!SLIDE transition=fade
+
