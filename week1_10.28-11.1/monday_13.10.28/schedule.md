@@ -12,8 +12,8 @@ Monday, October 28
 | **10:30 - 12:30** | Installfest                             |
 
 ### Afternoon
-| Time          | Topic                   |
-:-------------- |:------------------------|
-| **1:30...**   | Installfest part 2!     |
-| *30 min*      | Introduction to Ruby    |
-| **...5:00**   | Overview of the program |
+| Time        | Topic                   |
+:------------ |:------------------------|
+| **1:30...** | Installfest part 2!     |
+| * 90 min *  | Introduction to *nix    |
+| * 45 min *  | Introduction to Ruby    |

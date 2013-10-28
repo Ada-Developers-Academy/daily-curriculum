@@ -11,3 +11,15 @@ end
 section "Installfest!" do
   slides "installfest.md"
 end
+
+section "*nix 101" do
+  slides "nix.md"
+end
+
+section "Ruby 101" do
+  slides "ruby_101.md"
+end
+
+section "Homework" do
+  slides "homework.md"
+end
