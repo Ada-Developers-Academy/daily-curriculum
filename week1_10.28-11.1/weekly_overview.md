@@ -42,24 +42,34 @@ Week One
 
 ### Tuesday, October 29
 #### Morning
-| Time             | Topic        |
-:------------------|:-------------|
-| **9:15 - 9:30**  | Standup      |
-| **9:30 - 12:30** | Intro to Git |
+| Time              | Topic                             |
+:-------------------|:----------------------------------|
+| **9:15 - 9:30**   | Standup                           |
+| **9:30 - 11:30**  | Recap and Introduction to Sublime |
+| **11:30 - 12:30** | Rails Bridge Part I               |
 
 
 #### Afternoon
-| Time             | Topic             |
-:------------------|:------------------|
-| **1:30 - 5:00 ** | Git Immersion lab |
+| Time             | Topic                |
+:------------------|:------------------   |
+| **1:30 - ??? **  | Rails Bridge Part II |
+| **??? - 5:00 **  | Git Immersion lab    |
+
+#### Homework
+
+- Read chapters 2-5 of Learn to Program.
+- Create a directory called `ltp_5_6` and initialize it into a git repo.
+- Complete the two exercises in section 5.6. (saving the files into the `ltp_5_6` dir).
+- Create a `ltp_5_6` repo on Github.com.
+- Push your assigments to Github!
 
 ---
 
 ### Wednesday, October 30
 #### Morning
-| Time              | Topic    |
-:-------------------|:---------|
-| **9:15 - 9:30**   | Standup  |
+| Time             | Topic    |
+:------------------|:---------|
+| **9:15 - 9:30**  | Standup  |
 | **9:30 - 12:30** | Ruby 101 |
 
 #### Afternoon
