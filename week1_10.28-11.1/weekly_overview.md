@@ -25,8 +25,8 @@ Week One
 ### Monday, October 28
 #### Morning
 
-| Time             | Topic                                    |
-:----------------- |:-----------------------------------------|
+| Time              | Topic                                   |
+:------------------ |:----------------------------------------|
 | **9:00 - 9:30**   | Welcome from the Ada Steering Committee |
 | **9:30 - 10:00**  | The Run Around Game & Sekrit Handshakes |
 | **10:00 - 10:30** | Overview of the program                 |

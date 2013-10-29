@@ -95,7 +95,7 @@ $ git config --get user.name
 $ git config --get user.email
 [Your Email]
 ```
-!SLIDE  title-and-content transition=fade
+
 
 !SLIDE  commandline transition=fade
 
@@ -106,6 +106,7 @@ $ git config --global color.diff auto
 $ git config --global color.status auto
 $ git config --global color.branch auto
 ```
+!SLIDE  title-and-content transition=fade
 
 RVM
 ===
