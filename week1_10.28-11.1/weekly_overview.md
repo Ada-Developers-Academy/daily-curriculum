@@ -55,6 +55,14 @@ Week One
 | **1:30 - 4:00 ** | Rails Bridge Part II   |
 | **4:00 - 5:00 ** | Git Immersion lab      |
 
+#### Homework
+
+- Read chapters 2-5 of Learn to Program.
+- Create a directory called `ltp_5_6` and initialize it into a git repo.
+- Complete the two exercises in section 5.6. (saving the files into the `ltp_5_6` dir).
+- Create a `ltp_5_6` repo on Github.com.
+- Push your assigments to Github!
+
 ---
 
 ### Wednesday, October 30
