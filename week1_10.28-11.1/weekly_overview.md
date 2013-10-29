@@ -25,8 +25,8 @@ Week One
 ### Monday, October 28
 #### Morning
 
-| Time             | Topic                                    |
-:----------------- |:-----------------------------------------|
+| Time              | Topic                                   |
+:------------------ |:----------------------------------------|
 | **9:00 - 9:30**   | Welcome from the Ada Steering Committee |
 | **9:30 - 10:00**  | The Run Around Game & Sekrit Handshakes |
 | **10:00 - 10:30** | Overview of the program                 |
@@ -42,17 +42,16 @@ Week One
 
 ### Tuesday, October 29
 #### Morning
-| Time             | Topic                                  |
-:------------------|:---------------------------------------|
-| **9:15 - 9:30**  | Standup                                |
-| **9:30 - 12:30** | Introduction to Bash, UNIX, Sublime    |
+| Time             | Topic        |
+:------------------|:-------------|
+| **9:15 - 9:30**  | Standup      |
+| **9:30 - 12:30** | Intro to Git |
 
 
 #### Afternoon
 | Time             | Topic             |
 :------------------|:------------------|
-| **1:30 - 2:45 ** | Intro to Git      |
-| **2:45 - 5:00 ** | Git Immersion lab |
+| **1:30 - 5:00 ** | Git Immersion lab |
 
 ---
 
