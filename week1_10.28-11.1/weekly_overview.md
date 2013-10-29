@@ -42,17 +42,18 @@ Week One
 
 ### Tuesday, October 29
 #### Morning
-| Time             | Topic                                  |
-:------------------|:---------------------------------------|
-| **9:15 - 9:30**  | Standup                                |
-| **9:30 - 12:30** | Introduction to Bash, UNIX, Sublime    |
+| Time              | Topic                                  |
+:-------------------|:---------------------------------------|
+| **9:15 - 9:30**   | Standup                                |
+| **9:30 - 11:30**  | Introduction to Bash, UNIX, Sublime    |
+| **11:30 - 12:30** | Rails Bridge Part I                    |
 
 
 #### Afternoon
-| Time             | Topic             |
-:------------------|:------------------|
-| **1:30 - 2:45 ** | Intro to Git      |
-| **2:45 - 5:00 ** | Git Immersion lab |
+| Time             | Topic                  |
+:------------------|:------------------     |
+| **1:30 - 4:00 ** | Rails Bridge Part II   |
+| **4:00 - 5:00 ** | Git Immersion lab      |
 
 ---
 
