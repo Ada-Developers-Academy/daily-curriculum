@@ -10,10 +10,10 @@ puts "add or subtract?"
 action = gets.downcase
 
 puts "First number?"
-first_num = gets.chomp
+first_num = gets.chomp.to_i
 
 puts "Second number?"
-second_num = gets.chomp
+second_num = gets.chomp.to_i
 
 if action == "add"
   result = add_numbers(first_num, second_num)
