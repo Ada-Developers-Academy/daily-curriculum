@@ -15,7 +15,12 @@ Next Steps
 1. If the user enters "nil" (just hits enter) instead of a number, what happens? Assuming they meant "0" instead, can our code adjust?
 1. What happens if the user enters a String instead of a Number? Can we print an error message if they do that?
 
+Quit early if the action is not within our parameters
 
+Allow for complex equations (i.e.  1 + (2 * 4))
 
+Ask for users name to replace dave, if no name then default to Dave.
+
+Smarts to return a float or Integer
 
 
