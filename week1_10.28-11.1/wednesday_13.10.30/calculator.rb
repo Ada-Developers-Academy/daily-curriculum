@@ -7,7 +7,7 @@ def self.subtract_numbers(first, second)
 end
 
 puts "add or subtract?"
-action = gets.chomp.downcase
+action = gets.downcase
 
 puts "First number?"
 first_num = gets.chomp
