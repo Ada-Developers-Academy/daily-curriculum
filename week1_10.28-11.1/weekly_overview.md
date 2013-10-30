@@ -101,10 +101,15 @@ Week One
 :-------------------|:-----------------|
 | **9:15 - 9:30**   | Standup          |
 | **9:30 - 11:30**  | Ruby 103 - Files |
-| **11:30 - 12:30** | PB & Jelly game  |
+| **11:30 - 12:00** | PB & Jelly game  |
+| **12:00 - 1:00**  | Staff Meeting    |
 
 #### Afternoon
-| Time            | Topic                   |
-:-----------------|:------------------------|
-| **1:30 - 5:00** | Pairing and socializing |
+| Time            | Topic                       |
+:-----------------|:----------------------------|
+| **1:00 - 2:30** | Promoting Our Class         |
+| **2:30 - 3:30** | Week One Blog Post          |
+| **3:30 - 4:00** | Quiz                        |
+| **4:00 - 5:00** | Week One Retro and Cupcakes |
+
 
