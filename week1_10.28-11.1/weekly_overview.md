@@ -67,10 +67,11 @@ Week One
 
 ### Wednesday, October 30
 #### Morning
-| Time             | Topic    |
-:------------------|:---------|
-| **9:15 - 9:30**  | Standup  |
-| **9:30 - 12:30** | Ruby 101 |
+| Time              | Topic     |
+:-------------------|:----------|
+| **9:15 - 9:30**   | Standup   |
+| **9:30 - 10:30**  | Git Recap |
+| **10:30 - 12:30** | Ruby 102  |
 
 #### Afternoon
 | Time             | Topic               |
