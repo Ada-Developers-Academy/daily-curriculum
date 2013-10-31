@@ -1,4 +1,4 @@
-puts "Hey! What’s your name?"
+gputs "Hey! What’s your name?"
 response = gets.chomp
 
 if response.downcase == 'computer'

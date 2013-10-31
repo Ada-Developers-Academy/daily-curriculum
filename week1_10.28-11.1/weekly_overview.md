@@ -67,10 +67,11 @@ Week One
 
 ### Wednesday, October 30
 #### Morning
-| Time             | Topic    |
-:------------------|:---------|
-| **9:15 - 9:30**  | Standup  |
-| **9:30 - 12:30** | Ruby 101 |
+| Time              | Topic     |
+:-------------------|:----------|
+| **9:15 - 9:30**   | Standup   |
+| **9:30 - 10:30**  | Git Recap |
+| **10:30 - 12:30** | Ruby 102  |
 
 #### Afternoon
 | Time             | Topic               |
@@ -101,10 +102,15 @@ Week One
 :-------------------|:-----------------|
 | **9:15 - 9:30**   | Standup          |
 | **9:30 - 11:30**  | Ruby 103 - Files |
-| **11:30 - 12:30** | PB & Jelly game  |
+| **11:30 - 12:00** | PB & Jelly game  |
+| **12:00 - 1:00**  | Staff Meeting    |
 
 #### Afternoon
-| Time            | Topic                   |
-:-----------------|:------------------------|
-| **1:30 - 5:00** | Pairing and socializing |
+| Time            | Topic                       |
+:-----------------|:----------------------------|
+| **1:00 - 2:30** | Promoting Our Class         |
+| **2:30 - 3:30** | Week One Blog Post          |
+| **3:30 - 4:00** | Quiz                        |
+| **4:00 - 5:00** | Week One Retro and Cupcakes |
+
 
