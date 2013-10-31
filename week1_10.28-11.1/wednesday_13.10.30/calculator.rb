@@ -21,11 +21,11 @@ end
 puts "What's your name?"
 name = gets.chomp
 
-if name == ""
+if name.empty?
   name = "Dave"
   puts "Fine, I'll call you Dave. What would you like me to do?"
 else
-  puts "Hi " + name + ". What would you like me to do?"
+  puts "Hi #{name}. What would you like me to do?"
 end
 
 puts "I can add, subtract, multiply, divide, or find an exponent or square root."
@@ -43,7 +43,7 @@ while action != "add"     and
   action != "^"           and 
   action != "square root" and
   action != "sqrt"
-  puts "C'mon, " + name + "... Add, subtract, multiply, divide, exponent, or square root?"
+  puts "C'mon, #{name}... Add, subtract, multiply, divide, exponent, or square root?"
   action = gets.chomp.downcase
 end
 
@@ -52,7 +52,7 @@ if action == "square root" or action == "sqrt"
   number = gets.chomp
 
   while number.to_i == 0
-    puts "Please enter an integer, " + name + "."
+    puts "Please enter an integer, #{name}."
     number = gets.chomp
   end
 
@@ -61,9 +61,9 @@ if action == "square root" or action == "sqrt"
 
   if sqrt[-1] == "0" and sqrt[-2] == "."
     sqrt = sqrt.to_i
-    puts "The square root of " + number.to_s + " is " + sqrt.to_s + "."
+    puts "The square root of " + number.to_s + " is #{sqrt}."
   else
-    puts "The square root of " + number.to_s + " is " + sqrt + "."
+    puts "The square root of " + number.to_s + " is #{sqrt}."
   end
   exit
 end
