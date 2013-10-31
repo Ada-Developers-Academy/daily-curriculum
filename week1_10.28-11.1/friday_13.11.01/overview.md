@@ -1,6 +1,6 @@
-!SLIDE transition=fade
+!SLIDE transition=fade 
 
-Friday, October 28
+Friday, November 1
 ==================
 ### Morning
 
@@ -21,42 +21,37 @@ Friday, October 28
 | **4:00 - 5:00** | Week One Retro and Cupcakes |
 
 
-!SLIDE title-and-content transition=fade
-
+!SLIDE center transition=fade
+ 
 Oh, hello! 
 ================
-![Elise](/images/elise.jpg "Elise")  
+![hello](/images/hello.gif) 
 
-![Cheri](/images/cheri.jpg "Cheri")
-
-!SLIDE title-and-content transition=fade
+!SLIDE section-header transition=fade
 Promoting Our Class
 ===================
-
-- Our Public Culture  
-- BSP (Blatant Self Promotion)  
-- Social Media
+## Who do we want to be?
 
 !SLIDE title-and-content transition=fade
 How Should We Represent Ourselves?
 ===================
+## We're the first!
+### We get to decide how Ada appears publicly.
+### <a href="http://adadevelopersacademy.org" target="blank">Ada's website</a>
 
-- We're the first cohort and get to define Ada's public identity
-- Our website needs some work (and personalization)
-- <http://adadevelopersacademy.org>
-
-!SLIDE title-and-content transition=fade
+!SLIDE bullets transition=fade
 Website Suggestions
 ===================
+What do you want to have on the Ada website?  
 
 - Name
 - Photo
 - Bio
-- Github Handle
-- Link to Your Own Blog (soon)
+- Github handle
+- Link to your blog (coming soon!)
 - Anything else?
 
-!SLIDE title-and-content transition=fade
+!SLIDE bullets transition=fade
 Pair Bio Writing
 ===================
 
@@ -67,121 +62,46 @@ Pair Bio Writing
   - What's your professional/educational background?
 - Examples: <http://rubyconf.org/program>  
 
-!SLIDE title-and-content transition=fade
+!SLIDE bullets transition=fade
 Submit it on GitHub
 ===================
 
 - Write the bio in markdown
-- Fork <the repo> 
-- Submit a pull request to fill in the section  
-
-!SLIDE title-and-content transition=fade
-MINASWAN
-========
-### Matz Is Nice And So We Are Nice
-
-!SLIDE title-and-content transition=fade
-Ruby Community
-==============
-
-+ Railsbridge & Rails Girls
-+ Ruby Nuby
-+ Twitter
-  + #fridayhug
-  + #rubythanks
-  + #rubyfriends
+- Fork <https://github.com/Ada-Developers-Academy/daily-curriculum>
+- Add the remote
+- Add, commit, push 
+- Submit a pull request!
 
 
 !SLIDE title-and-content transition=fade
-Our First Textbooks
+Your First Blog Post!
 ===================
-We'll be using Beginning Ruby by Peter Cooper and Learn to Program to get ourselves acquainted with Ruby. 
+
+- In a couple of weeks, you'll be creating blogs with Sinatra
+- Let's create some content to kick you off!
+- Extra credit: try writing it in HTML
+- <https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction>
 
 !SLIDE title-and-content transition=fade
-IRB
-===
-
-Ruby can be directly executed from your terminal using IRB (**I**nteractive **R**u **b**y). IRB is be a helpful tool for learning, quick computations, documentation, and debugging problems.
-
-
-!SLIDE title-and-content transition=fade
-Playing with IRB
-================
-
-From the command line, enter `irb`. Once you're in IRB:
-
-* Try inputting a string, like "hello world".
-
-!SLIDE title-and-content transition=fade
-What happened???
-================
-
-Did we just write the world’s shortest “Hello World” program? Not exactly. The second line is just IRB’s way of telling us the result of the last expression it evaluated. If we want to print out “Hello World” we need a bit more.
-
-!SLIDE text-size-80 title-and-content transition=fade
-Free calculators for everyone!
-==============================
-
-* Try doing some arithmetic in irb
-* 2 + 3
-* 2 * 3
-* 2 ** 3
-* 4/3 (Note what Ruby does with the decimal places.)
-
-!SLIDE text-size-80 title-and-content transition=fade
-Math ain't hard!
-================
-
-Try this:
-
-```
-Math.sqrt(9)
-```
-
-* What's going on here?
-
-!SLIDE text-size-80 title-and-content transition=fade
-Basic Variables
-===============
-A **variable** is just like "X" from high school algebra. It's a placeholder that stands in for a value. It's like a little post office box can be a number, a string, a piece of code.. it doesn't care how big a thing you put inside it, but you can only put one thing in it at a time.
-
-```
-a = 3 ** 2
-b = 4 ** 2
-Math.sqrt(a+b) => 5.0
-```
-!SLIDE text-size-80 title-and-content transition=fade
-Methods
-============
-We have to tell computers how to do every single step, but we don't have to tell them every step every single time.
-
-```
-def hello
-  puts "Hello World!"
-end
-```
-
-!SLIDE text-size-80 title-and-content transition=fade
-Methods part 2
+Blog Ideas
 ===================
-What if we wanted to say hello to specific people, not just the whole world?
 
-```
-def hello(name)
-  puts "Hello #{name}!"
-end
-```
+- What was the hardest problem you encountered this week?
+- What got you really fired up?
+- You've just finished your first week as a professional programmer. How does it feel?
 
-!SLIDE text-size-80 title-and-content transition=fade
-Basic Iterators
-===============
-An iterator does a piece of work over and over and over and over and over...
+!SLIDE title-and-content transition=fade
+Quiz Time
+===================
 
-```
-10.times do
-  puts "Hello World!"
-end
-```
+- ## Don't stress! There's no grading
+- See how well you're grasping core concepts
+- Also a place to tell us how we're doing
 
+!SLIDE title-and-content transition=fade
+Phew... at least it's...
+===================
+# CUPCAKE TIME!
+![Cupcat](/images/cupcat.gif) 
 
 
