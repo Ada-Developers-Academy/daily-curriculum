@@ -73,16 +73,18 @@ Submit it on GitHub
 - Submit a pull request!
 
 
-!SLIDE title-and-content transition=fade
+!SLIDE bullets transition=fade
 Your First Blog Post!
 ===================
 
-- In a couple of weeks, you'll be creating blogs with Sinatra
-- Let's create some content to kick you off!
-- Extra credit: try writing it in HTML
-- <https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction>
+- In 3 weeks, you'll have a Sinatra blog
+- Let's create some content to prepare!
+- Might want to write it in [Evernote](http://evernote.com) or save it in 
+a "blogs" directory to easily access it
+- Extra credit: try writing it in [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
 
-!SLIDE title-and-content transition=fade
+
+!SLIDE bullets transition=fade
 Blog Ideas
 ===================
 
@@ -90,18 +92,18 @@ Blog Ideas
 - What got you really fired up?
 - You've just finished your first week as a professional programmer. How does it feel?
 
-!SLIDE title-and-content transition=fade
+!SLIDE bullets transition=fade
 Quiz Time
 ===================
 
-- ## Don't stress! There's no grading
+- Don't stress! There's no grading
 - See how well you're grasping core concepts
 - Also a place to tell us how we're doing
 
-!SLIDE title-and-content transition=fade
-Phew... at least it's...
+!SLIDE bullets transition=fade
+We made it! 
 ===================
-# CUPCAKE TIME!
+## It's cupcake time!
 ![Cupcat](/images/cupcat.gif) 
 
 
