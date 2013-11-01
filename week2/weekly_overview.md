@@ -4,25 +4,39 @@
 + Enumerables
   + Arrays
   + Hashes
-+ While/Until
+  + While/Until
++ TBD!
 
 #### PM
-Examples from books
-Text Analyzer
+Text Analyzer from Beginning Ruby
 
 ### Tuesday
 #### AM
 + Methods
   + Public vs Private
 #### PM
-examples from book
+Orange Tree example from Learning to Program
+Hangman for 2 players
 
 ### Weds
-Objects
+#### AM
+Using our first gem ('colorize')
+
+#### PM
+Hangman for 2 players
+Mastermind
 
 ### Thurs
-Object Inheritence
+#### AM
+Object Inheritance
+
+#### PM
+Extending Hangman or Mastermind game
 
 ### Fri
+#### AM
 Working with Dates and Times
-Methods 2
+Methods part 2
+
+#### PM 
+rewriting calculator example from week 1

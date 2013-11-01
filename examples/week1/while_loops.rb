@@ -43,6 +43,8 @@ def number_stack(stack_size, step_size)
   	puts num
 	end
 
+numbers.each do |num|
+  puts num
 end
 
 puts "Give me your stack number"

@@ -13,7 +13,7 @@ else
 end
 ```
 
-!SLIDE text-size-90 title-and-content transition=fade
+!SLIDE text-size-70 title-and-content transition=fade
 
 Comparisons
 ===========
