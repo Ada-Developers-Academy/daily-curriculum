@@ -33,7 +33,11 @@ In her free time, Davida climbs, writes, plays ultimate frisbee and fantasy foot
 
 Elizabeth Uselton is a banana slug from UC Santa Cruz where she earned a BA in Theater Arts. As a mollusc, she has greatly enjoyed rainy Seattle since 2008. She enjoys Star Wars, using theatrical makeup to make people look gruesome and explaining brachiosaur cardiopulmonary systems. Computer Science has always been a peripheral part of her life as she several relatives in the field, including a grandmother with an MS in CS. However, Elizabeth’s interest in code comes from a more right-brained place. “I never wanted to choose a career because I didn’t want to close other doors and limit my options. Software development seemed like the perfect way to creatively reconcile my diverse interests.”
 
-## Ellen Wondra
+## Ellen Wondra-Lindley
+
+Ellen Wondra-Lindley is a trailblazing knitting guru (but not in that order) from Seattle, WA.
+
+Crafted from a family of programmers, Ellen joins her brothers and Father in the computer programming trade.  Ellen has always been interested in programming, dabbling in various courses through high school and college. At a previous job Ellen assisted in refacing the QA and Tech support portion of the website’s interface through personal testing on her own accord.Ellen’s educational background is in languages and international affairs. You can find Ellen knit bombing, nerdy knitting, and playing co-op Board Games.
 
 ## Galina Yermicheva
 
