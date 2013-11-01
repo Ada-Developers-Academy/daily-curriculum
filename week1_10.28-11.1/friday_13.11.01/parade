@@ -1,0 +1,5 @@
+title "Ada Week 1 Closing"
+
+theme "minimal"
+
+slides "overview.md"
