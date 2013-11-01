@@ -14,6 +14,7 @@ Anne Kimsey is a proto-developer and outdoor enthusiast in Seattle, WA. Anne has
 ## Asha Golveo
 
 ## Audrey Carlsen
+Audrey is a native Seattlite and current student at Ada Developers Academy. She came to programming after being a student at the Johns Hopkins University School of Medicine and a stint at NPR headquarters. In addition to creating the radio show “This Carleton Life” as an undergrad at Carleton College, she has also spent time reporting for an NPR member station in the Aleutian Islands. Audrey hopes to see her programming career diversify her skill set as well as merge her past and current passions. She thoroughly enjoys her synesthesia and would pick time manipulation as her superpower. Although flying would also be nice.
 
 ## Blake Johnson
 Blake Johnson, a lover of language and logic, lives in Capitol Hill, Seattle. After growing up in Denver, she graduated Summa Cum Laude from Duke University where she studied English, Spanish and film— and did a little sketch comedy on the side. Blake went on to do marketing for local farmers markets in New York while earning her MSSE in English Education. Before pursuing programming, Blake taught high school students to read, write and think critically. When she’s not thinking of new applications to write in Ruby, Blake cooks, runs marathons and reads the thickest novels she can find.
