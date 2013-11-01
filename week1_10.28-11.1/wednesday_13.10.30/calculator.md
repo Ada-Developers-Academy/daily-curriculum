@@ -1,4 +1,4 @@
-Calculator
+s2Calculator
 ==========
 
 There's a bug in this code! Can you find it?

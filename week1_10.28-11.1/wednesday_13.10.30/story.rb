@@ -16,10 +16,10 @@ if year >= 2013 # Off shoot 1
 end
 
 if year < 1500 # Off shoot 2
-	puts "You've landed in King Arthurs court! There aren't many friendly faces around. It looks like they may think you are a practitioner of the black arts. Luckily you know that a solar eclipse occurs at #{Time.now.strftime('%I:%M:%S %p')} on #{Date.today.strftime('%A, %b %d')}, #{year}"
+	puts "You've landed in King Arthurs court! There aren't many friendly faces around. It looks like they may think you are a practitioner of the black arts. Luckily you know that a solar eclipse occurs at #{Time.now.strftime('%I:%M:%S %p')}  on #{year}"
 	puts "Do you want to show off your 'black arts' by predicting the eclipse?"
 	response = gets.chomp
-	if response[0].downcase == "y"
+	if response[0].downcase == "y"	
 		puts "The kingdom is terrified of your great power. But you show compassion and let all know that you won't use your great power for harm unless you are threatened. You live a long and happy life as Merlins succussor."
 	else
 		puts "You are burned at the stake :("

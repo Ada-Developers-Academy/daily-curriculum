@@ -1,20 +1,26 @@
-i = 0
-numbers = []
+def new_loop(anything)
 
-while i < 6
+i = 0
+array = []
+
+while i < anything
   puts "At the top i is #{i}"
-  numbers.push(i)
+  array.push(i)
 
   i = i + 1
-  puts "Numbers now: #{numbers}"
+  puts "Array now: #{numbers}"
   puts "At the bottom i is #{i}"
 end
 
 puts "The numbers: "
 
-for num in numbers
-  puts num
+for array_element in array
+  puts array_element
 end
+end
+
+new_loop(4)
+
 
 # Next Steps
 # 1) Convert this while loop to a method that you can call, and replace 6 in the test (i < 6) with a variable.
