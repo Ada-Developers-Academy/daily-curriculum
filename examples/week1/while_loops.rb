@@ -12,7 +12,7 @@ end
 
 puts "The numbers: "
 
-for num in numbers
+numbers.each do |num|
   puts num
 end
 
