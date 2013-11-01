@@ -35,6 +35,7 @@
 ## Shadae Holmes
 
 ## Simone Sydnor
+Simone is a lover of challenge with a natural curiosity that has led her to a programming field. Simone enjoys deliberately crafting a lifestyle of happiness and purpose. She has a BA in Art History and pre Law.
 
 ## Sue White
 
