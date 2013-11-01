@@ -8,10 +8,13 @@ Friday, November 1
 | Time              | Topic              |
 :-------------------|:-------------------|
 | **9:15 - 9:30**   | Standup            |
-| **9:30 - 11:30**  | Ruby Misc. & Recap |
-| **11:30 - 12:00** | PB & Jelly game    | 
+| **9:30 - 10:30**  | Ruby Misc. & Recap |
+| **10:30 - 12:00** | Loop Exercises     | 
 
 ## Afternoon
-| Time            | Topic                   |
-:-----------------|:------------------------|
-| **1:30 - 5:00** | Pairing and socializing |
+| Time            | Topic                       |
+:-----------------|:----------------------------|
+| **1:00 - 2:30** | Promoting Our Class         |
+| **2:30 - 3:30** | Week One Blog Post          |
+| **3:30 - 4:00** | Quiz                        |
+| **4:00 - 5:00** | Week One Retro and Cupcakes |

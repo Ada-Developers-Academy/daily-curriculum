@@ -61,7 +61,7 @@ Week One
 - Create a directory called `ltp_5_6` and initialize it into a git repo.
 - Complete the two exercises in section 5.6. (saving the files into the `ltp_5_6` dir).
 - Create a `ltp_5_6` repo on Github.com.
-- Push your assigments to Github!
+- Push your assignments to Github!
 
 ---
 
@@ -97,13 +97,12 @@ Week One
 ---
 
 ### Friday, November 1
-#### Morning
-| Time              | Topic            |
-:-------------------|:-----------------|
-| **9:15 - 9:30**   | Standup          |
-| **9:30 - 11:30**  | Ruby 103 - Files |
-| **11:30 - 12:00** | PB & Jelly game  |
-| **12:00 - 1:00**  | Staff Meeting    |
+| Time              | Topic              |
+:-------------------|:-------------------|
+| **9:15 - 9:30**   | Standup            |
+| **9:30 - 10:30**  | Ruby Misc. & Recap |
+| **10:30 - 12:00** | Loop Exercises     | 
+
 
 #### Afternoon
 | Time            | Topic                       |
