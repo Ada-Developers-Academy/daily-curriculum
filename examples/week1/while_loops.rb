@@ -14,9 +14,8 @@ def fred(max_number, increment)
 
 puts "The numbers: "
 
-  for num in numbers
-    puts num
-  end
+numbers.each do |num|
+  puts num
 end
 
 fred(10, 2)
