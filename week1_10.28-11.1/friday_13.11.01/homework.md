@@ -7,7 +7,3 @@ Homework
 + read this about Arrays: http://ruby.learncodethehardway.org/book/ex34.html
 + Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com))  do merge section
 + Write down the three stand up questions
-
-**Feeling adventurous?**
-
-+ Create a Adventure story (similar to story.rb in this dir)

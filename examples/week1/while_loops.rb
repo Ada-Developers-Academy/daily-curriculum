@@ -21,7 +21,6 @@ end
 
 add_num(10, 5)
 
-
 # Next Steps
 # 1) Convert this while loop to a method that you can call, and replace 6 in the test (i < 6) with a variable.
 # 2) Now use this method to rewrite the script to try different numbers.
