@@ -1,9 +1,14 @@
 i = 0
 numbers = []
 
-while i < 6
-  puts "At the top i is #{i}"
-  numbers.push(i)
+puts "Which number would you like to end with? "
+numVar = gets.chomp
+
+
+def numLoop
+  while i <= numVar
+    puts "At the top i is #{i}"
+    numbers.push(i)
 
   i = i + 1
   puts "Numbers now: #{numbers}"
