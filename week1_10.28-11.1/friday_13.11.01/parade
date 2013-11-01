@@ -8,7 +8,7 @@ section "Starting Our Day" do
 end
 
 section "Ruby 103" do
-  slides "file_io.md"
+  slides "more_on_conditionals.md"
 end
 
 section "Homework" do

@@ -1,4 +1,4 @@
-!SLIDE title-and-content transition=fade
+!SLIDE text-size-70 title-and-content transition=fade
 
 Stand Up!
 =========
