@@ -25,14 +25,9 @@ def make_array
 	#   puts "The next number is #{lower}"
 	# end
 
-	puts "Let's see what's in your basket! "
-
-	numbers.each do |num|
-		puts num
-	end
-end 
-
-make_array
+numbers.each do |num|
+  puts num
+end
 
 # Next Steps
 # 1) Convert this while loop to a method that you can call, and replace 6 in the test (i < 6) with a variable.

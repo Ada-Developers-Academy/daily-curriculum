@@ -1,4 +1,4 @@
-!SLIDE title-and-content transition=fade
+!SLIDE text-size-90 title-and-content transition=fade
 
 Friday, November 1
 ==================

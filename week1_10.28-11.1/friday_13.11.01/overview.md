@@ -66,11 +66,9 @@ Pair Bio Writing
 Submit it on GitHub
 ===================
 
-- Write the bio in markdown
-- Fork <https://github.com/Ada-Developers-Academy/daily-curriculum>
-- Add the remote
-- Add, commit, push 
-- Submit a pull request!
+- We'll all do this together
+- Standard for how we'll submit assignments on GH from now on
+- <https://github.com/Ada-Developers-Academy/daily-curriculum>
 
 
 !SLIDE bullets transition=fade
