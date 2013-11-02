@@ -1,16 +1,29 @@
-i = 0
-numbers = []
+def make_array
+	puts "Enter your lower bound: "
+	lower = gets.chomp.to_i
+	puts "Enter your upper bound: "
+	upper = gets.chomp.to_i
+	puts "Enter your increment"
+	inc = gets.chomp.to_i
 
-while i < 6
-  puts "At the top i is #{i}"
-  numbers.push(i)
+	numbers = []
 
-  i = i + 1
-  puts "Numbers now: #{numbers}"
-  puts "At the bottom i is #{i}"
-end
+	(lower..upper).step(inc) do |number|
+		numbers.push(number)
+		puts "Your lower bound is #{number}"
+		puts "Now you have #{numbers}"
+		if number < upper - inc
+			puts "Your upper bound is #{number}"
+		end
+	end
+	# while lower <= upper
+	#   puts "Your lower bound is now #{lower}"
+	#   numbers.push(lower)
 
-puts "The numbers: "
+	#   lower = lower + 1
+	#   puts "Numbers now: #{numbers}"
+	#   puts "The next number is #{lower}"
+	# end
 
 numbers.each do |num|
   puts num

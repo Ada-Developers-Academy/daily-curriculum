@@ -16,7 +16,8 @@ if year >= 2013 # Off shoot 1
 end
 
 if year < 1500 # Off shoot 2
-	puts "You've landed in King Arthurs court! There aren't many friendly faces around. It looks like they may think you are a practitioner of the black arts. Luckily you know that a solar eclipse occurs at #{Time.now.strftime('%I:%M:%S %p')} on #{Date.today.strftime('%A, %b %d')}, #{year}"
+	today = "October"
+	puts "You've landed in King Arthurs court! There aren't many friendly faces around. It looks like they may think you are a practitioner of the black arts. Luckily you know that a solar eclipse occurs at #{Time.now.strftime('%I:%M:%S %p')} on #{Time.now.strftime('%B %d, %Y!')}"
 	puts "Do you want to show off your 'black arts' by predicting the eclipse?"
 	response = gets.chomp
 	if response[0].downcase == "y"
