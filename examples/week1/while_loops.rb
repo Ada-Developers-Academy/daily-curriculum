@@ -1,20 +1,25 @@
-i = 0
-numbers = []
+def add_num(max_num, increment_by)
+  numbers = []
+  i = 0
+  num_range = (i..max_num)
+  
+  num_range.step(increment_by) do |num|
+    puts "At the top i is #{num}"
+    numbers.push(i)
 
-while i < 6
-  puts "At the top i is #{i}"
-  numbers.push(i)
+    i = i + increment_by
+    puts "Numbers now: #{numbers}"
+    puts "At the bottom i is #{i}"
+  end
 
-  i = i + 1
-  puts "Numbers now: #{numbers}"
-  puts "At the bottom i is #{i}"
+  puts "The numbers: "
+
+  for num in numbers
+    puts num
+  end
 end
 
-puts "The numbers: "
-
-numbers.each do |num|
-  puts num
-end
+add_num(10, 5)
 
 # Next Steps
 # 1) Convert this while loop to a method that you can call, and replace 6 in the test (i < 6) with a variable.
