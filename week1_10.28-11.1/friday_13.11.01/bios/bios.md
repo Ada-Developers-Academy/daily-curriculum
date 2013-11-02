@@ -25,6 +25,7 @@
 ## Ellen Wondra
 
 ## Galina Yermicheva
+Galina is an aspiring web developer, with a passion for creating all things useful and beautiful.  This love for creating the stunning and functional is what lead her to programming with the goal of making beautiful digital environments to help people.  Galina earned her degree in psychology, but it was her career in project management that inspired her to begin programming on her own, leading her to the Ada Developers Academy in Seattle, Washington.
 
 ## Hsing-Hui Hsu
 
