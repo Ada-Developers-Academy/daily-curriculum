@@ -14,4 +14,4 @@ Tuesday, October 29
 ## Afternoon
 | Time             | Topic             |
 :------------------|:------------------|
-| **1:30 - 5:00 ** | Git Immersion lab |
+| **1:30 - 5:00 ** | RailsBridge lab |
