@@ -17,9 +17,8 @@ end
 
   puts "The numbers: "
 
-  for num in numbers
-    puts num
-  end
+numbers.each do |num|
+  puts num
 end
 
 while loop_to_a_method(parameter)

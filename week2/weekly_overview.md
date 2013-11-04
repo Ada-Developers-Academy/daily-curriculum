@@ -1,28 +1,47 @@
 ### Monday
-#### AM
-+ Quick review of week 1
-+ Enumerables
-  + Arrays
-  + Hashes
-+ While/Until
+#### Morning
 
-#### PM
-Examples from books
-Text Analyzer
+| Time              | Topic                   |
+:-------------------|:------------------------|
+| **9:15 - 9:30**   | Standup                 |
+| **9:30 - 9:50**   | "Come to my party!"     |
+| **9:50 - 10:30**  | Presentations           |
+| **10:30 - 11:00** | Week 1 Recap            |
+| **11:00 - 12:30** | Ice Cream Party Planner | 
+
+#### Afternoon
+
+| Time            | Topic         |
+:-----------------|:--------------|
+| **1:30 - 5:00** | Text Analyzer |
 
 ### Tuesday
-#### AM
+#### Morning
 + Methods
   + Public vs Private
-#### PM
-examples from book
+#### Afternoon
+Orange Tree example from Learning to Program
+Hangman for 2 players
 
-### Weds
-Objects
+### Wednesday
+#### Morning
+Using our first gem ('colorize')
 
-### Thurs
-Object Inheritence
+#### Afternoon
+Hangman for 2 players
+Mastermind
 
-### Fri
+### Thursday
+#### Morning
+Object Inheritance
+
+#### Afternoon
+Extending Hangman or Mastermind game
+
+### Friday
+#### Morning
 Working with Dates and Times
-Methods 2
+Methods part 2
+
+#### Afternoon 
+rewriting calculator example from week 1
