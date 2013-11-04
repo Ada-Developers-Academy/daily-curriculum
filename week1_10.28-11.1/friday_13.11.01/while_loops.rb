@@ -1,20 +1,50 @@
-i = 0
+def loop_to_a_method(parameter)
 numbers = []
-
-while i < 6
-  puts "At the top i is #{i}"
-  numbers.push(i)
-
-  i = i + 1
-  puts "Numbers now: #{numbers}"
-  puts "At the bottom i is #{i}"
+puts "When do you want to stop, buddy?"
+variable = gets.chomp
 end
 
-puts "The numbers: "
+  while i < parameter
+    if variable <= parameter
+    puts "At the top i is #{i}"
+    numbers.push(i)
 
-for num in numbers
-  puts num
+    i = i + 1
+    puts "Numbers now: #{numbers}"
+    puts "At the bottom i is #{i}"
+  else 
+  end
+
+  puts "The numbers: "
+
+  for num in numbers
+    puts num
+  end
 end
+
+while loop_to_a_method(parameter)
+end
+
+
+# ORIGINAL PROBLEM:
+
+# i = 0
+# numbers = []
+
+# while i < 6
+#   puts "At the top i is #{i}"
+#   numbers.push(i)
+
+#   i = i + 1
+#   puts "Numbers now: #{numbers}"
+#   puts "At the bottom i is #{i}"
+# end
+
+# puts "The numbers: "
+
+# for num in numbers
+#   puts num
+# end
 
 # Next Steps
 # 1) Convert this while loop to a method that you can call, and replace 6 in the test (i < 6) with a variable.

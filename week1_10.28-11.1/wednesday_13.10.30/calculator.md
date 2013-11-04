@@ -14,6 +14,7 @@ Next Steps
 1. Rather than typing in the name of the mathematical function, could we accept the symbol?
 1. If the user enters "nil" (just hits enter) instead of a number, what happens? Assuming they meant "0" instead, can our code adjust?
 1. What happens if the user enters a String instead of a Number? Can we print an error message if they do that?
+#it's treated as an integer (0+0=0 example)
 
 Quit early if the action is not within our parameters
 
