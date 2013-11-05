@@ -17,11 +17,18 @@
 
 ### Tuesday
 #### Morning
-+ Methods
-  + Public vs Private
+| Time              | Topic           |
+:-------------------|:----------------|
+| **9:15 - 9:30**   | Standup         |
+| **9:30 - 10:30**  | Object Review   |
+| **10:30 - 11:00** | Homework Review |
+| **11:00 - 12:00** | Project Time    |
+
 #### Afternoon
-Orange Tree example from Learning to Program
-Hangman for 2 players
+
+| Time            | Topic                                   |
+:-----------------|:----------------------------------------|
+| **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game  |
 
 ### Wednesday
 #### Morning
