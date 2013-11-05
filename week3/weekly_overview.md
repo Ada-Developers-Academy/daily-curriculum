@@ -1,5 +1,6 @@
 ### Monday
 #### Morning
+- Week 2 recap
 - Inheritance
 - Read/Write to file
 
@@ -15,8 +16,8 @@
 
 ### Wednesday
 #### Morning
-- More about Hashes
-- Similar data structures
+- More Hash Practice
+- Similar Data Structures
 
 #### Afternoon
 - CSV Project Time
