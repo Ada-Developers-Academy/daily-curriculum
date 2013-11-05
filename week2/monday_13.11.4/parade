@@ -12,7 +12,7 @@ section "Week 1 Recap" do
   slides "recap.md"
 end
 
-section "Week 1 Recap" do
+section "Ice Cream Party" do
   slides "ice_cream_party.md"
 end
 
