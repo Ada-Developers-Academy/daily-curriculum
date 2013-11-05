@@ -35,25 +35,19 @@ What's an Object?
 
 An Object is a collection of data attributes and actions that are related. It is an **abstraction** that let's us deal with *concepts*.
 
-!SLIDE transition=fade
+*review baker, dog, and snake*
 
-```
-class Baker
-  def initialize
-    @flour  = 2
-    @butter = 5
-    @sugar  = 3
-    @eggs   = 23
-  end
+!SLIDE text-size-80 title-and-content transition=fade
 
-  def make_cookies
-    heat_oven(350)
-  end
+Let's Make More!
+================
 
-  def heat_oven(temp)
-  end
-end
-```
+Let's make a menagerie of animals! 
 
++ Everyone pick an animal
++ make a new file in the *examples/week2/basic_objects/* directory named [your animal's name].rb
++ Create an object that has methods for speak, color, and move
+  + add any others that are peculiar to your animal
++ When you're done, help someone else
 
 
