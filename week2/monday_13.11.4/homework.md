@@ -8,5 +8,6 @@ Homework
   + Work through the Die examples in 13.2 and 13.3
   + Read through, but don't type up, the Dragon class from section 13.5
   + Don't do the A Few Things To Try at the end of the chapter - we'll do those in class on Tuesday
++ review "object-orientation.md" slides from last Thursday
 + Write down the 3 stand up questions
 + Homework repo (details TBA)
