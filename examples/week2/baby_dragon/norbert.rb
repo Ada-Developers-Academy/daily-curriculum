@@ -24,14 +24,17 @@ class Dragon
   def putToBed
     puts 'You put ' + @name + ' to bed.'
     @asleep = true
+
     3.times do
       if @asleep
         passageOfTime
       end
+
       if @asleep
         puts @name + ' snores, filling the room with smoke.'
       end
     end
+
     if @asleep
       @asleep = false
       puts @name + ' wakes up slowly.'
@@ -41,14 +44,19 @@ class Dragon
   def toss
     puts 'You toss ' + @name + ' up into the air.'
     puts 'He giggles, which singes your eyebrows.'
+
     passageOfTime
   end
 
   def rock
     puts 'You rock ' + @name + ' gently.'
+
     @asleep = true
+
     puts 'He briefly dozes off...'
+
     passageOfTime
+
     if @asleep
       @asleep = false
       puts '...but wakes when you stop.'
