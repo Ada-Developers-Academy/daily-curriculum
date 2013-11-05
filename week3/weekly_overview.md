@@ -5,6 +5,7 @@
 
 #### Afternoon
 - CSV Data Store Assignment (Beginning Ruby pg. 222)
+
 ### Tuesday
 #### Morning
 - Advanced Variables
