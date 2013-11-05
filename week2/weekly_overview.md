@@ -1,42 +1,54 @@
 ### Monday
-#### AM
-+ Quick review of week 1
-+ Enumerables
-  + Arrays
-  + Hashes
-  + While/Until
-+ TBD!
+#### Morning
 
-#### PM
-Text Analyzer from Beginning Ruby
+| Time              | Topic                   |
+:-------------------|:------------------------|
+| **9:15 - 9:30**   | Standup                 |
+| **9:30 - 9:50**   | "Come to my party!"     |
+| **9:50 - 10:30**  | Presentations           |
+| **10:30 - 11:00** | Week 1 Recap            |
+| **11:00 - 12:30** | Ice Cream Party Planner | 
+
+#### Afternoon
+
+| Time            | Topic         |
+:-----------------|:--------------|
+| **1:30 - 5:00** | Text Analyzer |
 
 ### Tuesday
-#### AM
-+ Methods
-  + Public vs Private
-#### PM
-Orange Tree example from Learning to Program
-Hangman for 2 players
+#### Morning
+| Time              | Topic           |
+:-------------------|:----------------|
+| **9:15 - 9:30**   | Standup         |
+| **9:30 - 10:30**  | Object Review   |
+| **10:30 - 11:00** | Homework Review |
+| **11:00 - 12:00** | Project Time    |
 
-### Weds
-#### AM
+#### Afternoon
+
+| Time            | Topic                                   |
+:-----------------|:----------------------------------------|
+| **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game  |
+
+### Wednesday
+#### Morning
 Using our first gem ('colorize')
 
-#### PM
+#### Afternoon
 Hangman for 2 players
 Mastermind
 
-### Thurs
-#### AM
+### Thursday
+#### Morning
 Object Inheritance
 
-#### PM
+#### Afternoon
 Extending Hangman or Mastermind game
 
-### Fri
-#### AM
+### Friday
+#### Morning
 Working with Dates and Times
 Methods part 2
 
-#### PM 
+#### Afternoon 
 rewriting calculator example from week 1

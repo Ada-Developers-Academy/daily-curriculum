@@ -1,0 +1,21 @@
+title "Monday, November 4"
+
+theme "archetect"
+
+section "Starting Our Day" do
+  slides "schedule.md"
+  slides "standup.md"
+  slides "come_to_my_party.md"
+end
+
+section "Week 1 Recap" do
+  slides "recap.md"
+end
+
+section "Ice Cream Party" do
+  slides "ice_cream_party.md"
+end
+
+section "Homework" do
+  slides "homework.md"
+end
