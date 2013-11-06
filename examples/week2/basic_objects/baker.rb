@@ -1,19 +1,39 @@
 class Baker
-  attr_accessor :eggs, :butter, :rolling_pin
+  attr_accessor :rolling_pin, :apron, :ovens
+  attr_reader :eggs, :butter, :sugar, :flour
 
-  def initialize(rolling_pin_variable)
+  def initialize(options_hash)
     @flour  = 2
     @butter = 5
     @sugar  = 3
     @eggs   = 23
-    @rolling_pin = rolling_pin_variable
+    @rolling_pin = options_hash[:rolling_pin]
+    @apron = options_hash[:apron]
+    @ovens = options_hash[:ovens]
+  end
+
+  def turn_off_ovens
+    @ovens.each do |oven|
+      oven.on = false
+    end
+
+    puts "Ok, its safe to go home! Good night!"
   end
 
   def make_cookies
-    heat_oven(350)
+    heat_oven(find_a_free_oven, 375)
+    # other steps in the recipe...
+    # gather_ingredients(sugar, flour, eggs)
+    # mix_ingredients_in_blender()
+    # put_in_oven
   end
 
-  def heat_oven(temperature)
-    puts "The oven is heating up to #{temperature}"
+  def find_a_free_oven
+    free_oven = # some oven that's
+    return free_oven
+  end
+
+  def heat_oven(baking_oven, temperature)
+    baking_oven.set_temperature(temperature)
   end
 end
