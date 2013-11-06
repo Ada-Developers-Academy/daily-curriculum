@@ -1,6 +1,6 @@
 !SLIDE text-size-90 title-and-content transition=fade
 
-Tuesday, November 5
+Wednesday, November 6
 ==================
 
 ## Morning
