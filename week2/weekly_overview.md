@@ -32,18 +32,30 @@
 
 ### Wednesday
 #### Morning
+| Time              | Topic                    |
+:-------------------|:-------------------------|
+| **9:15 - 9:30**   | Standup                  |
+| **9:30 - 10:00**  | Seattle.rb Retrospective |
+| **10:00 - 11:00** | Objects Using Objects    |
+| **11:00 - 11:30** | Gems - "Colorize"        |
+| **11:30 - 12:00** | Project Time             |
+
+#### Afternoon
+
+| Time            | Topic        |
+:-----------------|:-------------|
+| **1:00 - 2:00** | Quiz         |
+| **2:00 - 5:00** | Project Time |
+
+
+### Thursday
+#### Morning
+Object Inheritance
 Using our first gem ('colorize')
 
 #### Afternoon
 Hangman for 2 players
 Mastermind
-
-### Thursday
-#### Morning
-Object Inheritance
-
-#### Afternoon
-Extending Hangman or Mastermind game
 
 ### Friday
 #### Morning
