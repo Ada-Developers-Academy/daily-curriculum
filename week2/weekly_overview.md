@@ -26,9 +26,9 @@
 
 #### Afternoon
 
-| Time            | Topic                                   |
-:-----------------|:----------------------------------------|
-| **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game  |
+| Time            | Topic                                  |
+:-----------------|:---------------------------------------|
+| **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game |
 
 ### Wednesday
 #### Morning
