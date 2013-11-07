@@ -30,22 +30,12 @@ The first and required argument is the filename, the second argument ('mode') is
 |:---:|---------------------------------------------------------|
 |"r"  |  Read-only, starts at beginning of file  (default mode) |
 |"r+" |  Read-write, starts at beginning of file.               |
-|"w"  |  Write-only, truncates existing file                    |
-|     |  to zero length or creates a new file for writing.      |
-|"w+" |  Read-write, truncates existing file to zero length     |
-|     |  or creates a new file for reading and writing.         |
-|"a"  |  Write-only, starts at end of file if file exists,      |
-|     |  otherwise creates a new file for writing.              |
-|"a+" |  Read-write, starts at end of file if file exists,      |
-|     |  otherwise creates a new file for reading and           |
-|     |  writing.                                               |
-| "b" |  Binary file mode (may appear with                      |
-|        any of the key letters listed above).                  
-|        Suppresses EOL <-> CRLF conversion on Windows. And     
-|        sets external encoding to ASCII-8BIT unless explicitly 
-|        specified.                                             
-| "t" |  Text file mode (may appear with                        |
-|     |  any of the key letters listed above except "b").       |
+|"w"  |  Write-only, truncates existing file to zero length     |
+|"w+" |  Read-write, truncates existing file to zero length.    |
+|"a"  |  Write-only, starts at end of file if file exists.      |
+|"a+" |  Read-write, starts at end of file if file exists.      |
+| "b" |  Binary file mode                                       |
+| "t" |  Text file mode                                         |
 
 The block is too manipulate the file upon opening it and close the file after completing the code within the block:
 
