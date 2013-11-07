@@ -1,5 +1,6 @@
-### Monday
-#### Morning
+# Week 2
+## Monday
+### Morning
 
 | Time              | Topic                   |
 :-------------------|:------------------------|
@@ -9,14 +10,14 @@
 | **10:30 - 11:00** | Week 1 Recap            |
 | **11:00 - 12:30** | Ice Cream Party Planner | 
 
-#### Afternoon
+### Afternoon
 
 | Time            | Topic         |
 :-----------------|:--------------|
 | **1:30 - 5:00** | Text Analyzer |
 
-### Tuesday
-#### Morning
+## Tuesday
+### Morning
 | Time              | Topic           |
 :-------------------|:----------------|
 | **9:15 - 9:30**   | Standup         |
@@ -24,14 +25,14 @@
 | **10:30 - 11:00** | Homework Review |
 | **11:00 - 12:00** | Project Time    |
 
-#### Afternoon
+### Afternoon
 
 | Time            | Topic                                  |
 :-----------------|:---------------------------------------|
 | **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game |
 
-### Wednesday
-#### Morning
+## Wednesday
+### Morning
 | Time              | Topic                    |
 :-------------------|:-------------------------|
 | **9:15 - 9:30**   | Standup                  |
@@ -40,7 +41,7 @@
 | **11:00 - 11:30** | Gems - "Colorize"        |
 | **11:30 - 12:00** | Project Time             |
 
-#### Afternoon
+### Afternoon
 
 | Time            | Topic        |
 :-----------------|:-------------|
@@ -48,19 +49,35 @@
 | **2:00 - 5:00** | Project Time |
 
 
-### Thursday
-#### Morning
-Object Inheritance
-Using our first gem ('colorize')
+## Thursday
+### Morning
 
-#### Afternoon
-Hangman for 2 players
-Mastermind
+| Time              | Topic              |
+:-------------------|:-------------------|
+| **9:15 - 9:30**   | Standup            |
+| **9:30 - 10:00**  | Gems - "Colorize"  |
+| **10:00 - 10:30** | Project Time       |
+| **10:30 - 11:30** | Object Inheritance |
+| **11:30 - 12:00** | Project Time       |
 
-### Friday
-#### Morning
-Working with Dates and Times
-Methods part 2
+### Afternoon
 
-#### Afternoon 
-rewriting calculator example from week 1
+| Time            | Topic        |
+:-----------------|:-------------|
+| **1:00 - 5:00** | Project Time |
+
+## Friday
+### Morning
+| Time              | Topic           |
+:-------------------|:----------------|
+| **9:15 - 9:30**   | Standup         |
+| **9:30 - 10:30**  | Dates and Times |
+| **10:30 - 11:00** | Methods         |
+| **11:00 - 12:00** | Project Time    |
+
+### Afternoon
+
+| Time            | Topic                                           |
+:-----------------|:------------------------------------------------|
+| **1:00 - 5:00** | Project: Rewrite calculator example from week 1 |
+

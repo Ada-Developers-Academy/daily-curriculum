@@ -1,3 +1,5 @@
+require 'colorize'
+
 class Dog
   def speak
     "Bark bark!"
