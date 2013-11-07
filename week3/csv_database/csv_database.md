@@ -40,10 +40,10 @@ The first and required argument is the filename, the second argument ('mode') is
 |     |  otherwise creates a new file for reading and           |
 |     |  writing.                                               |
 | "b" |  Binary file mode (may appear with                      |
-|     |  any of the key letters listed above).                  |
-|     |  Suppresses EOL <-> CRLF conversion on Windows. And     |
-|     |  sets external encoding to ASCII-8BIT unless explicitly |
-|     |  specified.                                             |
+|        any of the key letters listed above).                  
+|        Suppresses EOL <-> CRLF conversion on Windows. And     
+|        sets external encoding to ASCII-8BIT unless explicitly 
+|        specified.                                             
 | "t" |  Text file mode (may appear with                        |
 |     |  any of the key letters listed above except "b").       |
 
