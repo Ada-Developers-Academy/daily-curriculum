@@ -24,6 +24,7 @@
 
 ### Thursday
 #### Morning
+- Relational Databases (BR pg. 228)
 - SQLite
 
 #### Afternoon 
