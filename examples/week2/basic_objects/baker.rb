@@ -28,9 +28,9 @@ class Baker
     # put_in_oven
   end
 
+  private
   def find_a_free_oven
-    free_oven = # some oven that's
-    return free_oven
+    @ovens.first
   end
 
   def heat_oven(baking_oven, temperature)
