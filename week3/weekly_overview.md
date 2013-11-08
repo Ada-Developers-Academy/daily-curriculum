@@ -1,7 +1,6 @@
 ### Monday
 #### Morning
 - Week 2 recap
-- Read Beginning Rub
 - Read/Write to CSV
 
 #### Afternoon
