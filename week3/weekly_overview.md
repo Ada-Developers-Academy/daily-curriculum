@@ -4,7 +4,7 @@
 - Read/Write to CSV
 
 #### Afternoon
-- CSV Data Store Assignment [FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder)
+- CSV Data Store Assignment [FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder) (Due 11/18/13)
 
 ### Tuesday
 #### Morning
