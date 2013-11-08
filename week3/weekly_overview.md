@@ -1,8 +1,8 @@
 ### Monday
 #### Morning
 - Week 2 recap
-- Inheritance
-- Read/Write to file
+- Read Beginning Rub
+- Read/Write to CSV
 
 #### Afternoon
 - CSV Data Store Assignment (Beginning Ruby pg. 222)
