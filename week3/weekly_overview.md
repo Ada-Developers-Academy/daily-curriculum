@@ -4,7 +4,7 @@
 - Read/Write to CSV
 
 #### Afternoon
-- CSV Data Store Assignment (Beginning Ruby pg. 222)
+- CSV Data Store Assignment [FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder)
 
 ### Tuesday
 #### Morning
@@ -25,14 +25,15 @@
 #### Morning
 - Relational Databases (BR pg. 228)
 - SQLite
+- Ruby SQL Assignment 
+(something like http://zetcode.com/db/sqliteruby/connect/, but easier, maybe starting with a database and porting some methods created in the CSV assignment. Beginning Ruby pg. 236)
 
 #### Afternoon 
-- Ruby SQL Assignment 
+- CSV Project Time
 
-(something like http://zetcode.com/db/sqliteruby/connect/, but easier, maybe starting with a database and porting some methods created in the CSV assignment. Beginning Ruby pg. 236)
 ### Friday
 #### Morning
 - Quiz
 
 #### Afternoon 
-- Ruby SQL Project Time
+- CSV Project Time
