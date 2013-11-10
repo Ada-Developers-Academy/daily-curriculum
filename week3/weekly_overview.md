@@ -1,39 +1,70 @@
 ### Monday
 #### Morning
-- Week 2 recap
-- Read/Write to CSV
+
+| Time              | Topic                        |
+|:-----------------:|:-----------------------------|
+| **9:15 - 9:30**   | Standup                      |
+| **9:30 - 9:50**   | Week 2 Recap                 |
+| **9:50 - 10:30**  | Classes without attr_accessor|
+| **10:30 - 12:00** | Read from CSV                |
+
 
 #### Afternoon
-- CSV Data Store Assignment [FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder) (Due 11/18/13)
+
+| Time              | Topic                        |
+|:-----------------:|:-----------------------------|
+| **1:00 - 2:30**   | CSV Quiz                     |
+| **2:30 - 3:00**   | CSV Project Intro ([FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder))      |
+| **3:00 - 3:30**   | Syncing project via Github   |
+| **3:30 - 5:00**   | Project Time                 |
+
+- [FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder) (Due 11/15/13)
 
 ### Tuesday
-#### Morning
-- Advanced Variables
+#### All Day
 
-#### Afternoon
-- CSV Project Time
+| Time              | Topic             |
+|:-----------------:|:------------------|
+| **9:15 - 9:30**   | Standup           |
+| **9:30 - 10:30**  | Advanced Hashes   |
+| **10:30 - 11:00** | Hash Quiz         |
+| **11:00 - 5:00*** | Project Time      |
+
+*Take an hour lunch at any time
 
 ### Wednesday
-#### Morning
-- More Hash Practice
-- Similar Data Structures
+#### All Day
 
-#### Afternoon
-- CSV Project Time
+| Time              | Topic             |
+|:-----------------:|:------------------|
+| **9:15 - 9:30**   | Standup           |
+| **9:30 - 10:30**  | Advanced Variables|
+| **10:30 - 5:00*** | Project Time      |
+
+*Take an hour lunch at any time
 
 ### Thursday
-#### Morning
-- Relational Databases (BR pg. 228)
-- SQLite
-- Ruby SQL Assignment 
-(something like http://zetcode.com/db/sqliteruby/connect/, but easier, maybe starting with a database and porting some methods created in the CSV assignment. Beginning Ruby pg. 236)
+#### All Day
 
-#### Afternoon 
-- CSV Project Time
+| Time              | Topic             |
+|:-----------------:|:------------------|
+| **9:15 - 9:30**   | Standup           |
+| **9:30 - 11:00**  | Checking out TDD  |
+| **11:00 - 5:00*** | Project Time      |
+
+*Take an hour lunch at any time
 
 ### Friday
-#### Morning
-- Quiz
 
-#### Afternoon 
-- CSV Project Time
+#### All Day
+
+| Time              | Topic             |
+|:-----------------:|:------------------|
+| **9:15 - 9:30**   | Standup           |
+| **9:30 - 10:30**  | Relational Databases (BR pg. 228)  |
+| **10:30 - 11:30** | Quiz              |
+| **11:30 - 5:00*** | Project Time      |
+
+CSV Projects must be completed and pushed to Github by 5pm. 
+
+*Take an hour lunch at any time
