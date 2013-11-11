@@ -15,13 +15,12 @@ first_num = gets.chomp.to_i
 puts "Second number?"
 second_num = gets.chomp.to_i
 
-if action == "add" #without chomp action is add/n
-
->>> commit  result = add_numbers(first_num, second_num)
+if action == "add"
+  result = add_numbers(first_num, second_num)
 elsif action == "subtract"
   result = subtract_numbers(first_num, second_num)
 else
-  result = "Sorry, I don't know how to do that, Dave."
+  result = "Sorry, I don't know how to do that,!"
 end
 
-puts "2+2=4"
+puts result
