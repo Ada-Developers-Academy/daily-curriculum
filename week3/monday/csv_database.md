@@ -13,11 +13,11 @@ Ruby includes a CSV library used to read and write CSV files.
 
     require 'csv'
     # Reads the contents of the file into an array of arrays.
-    CSV.read("path/to/file.csv")
+    CSV.read("markets.csv")
     # => [["1", "Kerri"],["2", "Bookis"],["3", "Cheri"],["4", "Elise"]]
 
     # Returns a CSV Object, to be read or manipulated.
-    csv = CSV.open("path/to/file.csv")
+    csv = CSV.open("markets.csv")
     # <#CSV io_type:File io_path:"file.csv" encoding:UTF-8 ...> 
 
 The `open` method require at least one argument and up to three arguments as well as an optional block. 
