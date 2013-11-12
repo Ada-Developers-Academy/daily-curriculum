@@ -9,5 +9,5 @@ end
 
 
 section "Ask A Teen" do
-  slides "teen.md"
+  slides "personalitysortinghat.md"
 end

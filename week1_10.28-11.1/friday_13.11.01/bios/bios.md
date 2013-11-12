@@ -41,6 +41,7 @@ Ellen Wondra-Lindley is a trailblazing knitting guru (but not in that order) fro
 Crafted from a family of programmers, Ellen joins her brothers and Father in the computer programming trade.  Ellen has always been interested in programming, dabbling in various courses through high school and college. At a previous job Ellen assisted in refacing the QA and Tech support portion of the website’s interface through personal testing on her own accord.Ellen’s educational background is in languages and international affairs. You can find Ellen knit bombing, nerdy knitting, and playing co-op Board Games.
 
 ## Galina Yermicheva
+Galina is an aspiring web developer, with a passion for creating all things useful and beautiful.  This love for creating the stunning and functional is what lead her to programming with the goal of making beautiful digital environments to help people.  Galina earned her degree in psychology, but it was her career in project management that inspired her to begin programming on her own, leading her to the Ada Developers Academy in Seattle, Washington.
 
 Galina is an aspiring web developer, with a passion for creating all things useful and beautiful. This love for creating the stunning and functional is what drove her to programming with the goal of making beautiful digital environments to help people.  With a degree in psychology, Galina’s professional path has included project management and fencing instruction, serendipitously leading to the Ada Developers Academy in Seattle, Washington at present.
 
