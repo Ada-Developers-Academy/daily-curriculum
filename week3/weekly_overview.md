@@ -1,3 +1,5 @@
+## Week 3
+
 ### Monday
 #### Morning
 
@@ -26,9 +28,10 @@
 | Time              | Topic             |
 |:-----------------:|:------------------|
 | **9:15 - 9:30**   | Standup           |
-| **9:30 - 10:30**  | Advanced Hashes   |
-| **10:30 - 11:00** | Hash Quiz         |
-| **11:00 - 5:00*** | Project Time      |
+| **9:30 - 10:00**  | Advanced Hashes   |
+| **10:00 - 10:30** | Hash Quiz         |
+| **11:00 - 11:30***| Project Q&A       |
+| **11:30 - 5:00*** | Project Time      |
 
 *Take an hour lunch at any time
 

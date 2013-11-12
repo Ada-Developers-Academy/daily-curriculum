@@ -1,27 +1,34 @@
 class Book
+  attr_accessor :title, :author
+  attr_reader :pages
   
-  def title
-    @title
+  def initialize
+    @title = "Default Book"
   end
   
-  def title=(title_var)
-    @title = title_var
+  def some_method(arg="r")
+    
   end
+  some_method("n")
   
-  def author
-    @author
-  end
+  # def title
+  #     @title 
+  #   end
+  #   
+  #   def title=(title_var)
+  #     @title = title_var
+  #   end
+  #   
+  #   def author
+  #     @author
+  #   end
+  #   
+  #   def author=(author_var)
+  #     @author = author_var
+  #   end
+  #   
+  #   def pages
+  #     @pages
+  #   end
   
-  def author=(author_var)
-    @author = author_var
-  end
-
-  def category
-    @category
-  end
-  
-  def category=(category_var)
-    @category = category_var
-  end
-  
-end
+end # end Book
