@@ -38,11 +38,13 @@
 ### Wednesday
 #### All Day
 
-| Time              | Topic             |
-|:-----------------:|:------------------|
-| **9:15 - 9:30**   | Standup           |
-| **9:30 - 10:30**  | Advanced Variables|
-| **10:30 - 5:00*** | Project Time      |
+| Time               | Topic               |
+|:------------------:|:--------------------|
+| **9:00 - 9:30**    | Warmup             |
+| **9:30 - 9:45**    | Standup            |
+| **9:45 - 10:30**   | Advanced Variables |
+| **10:30 - 11:00**  | Memoization        |
+| **11:00 - 5:00***  | Project Time       |
 
 *Take an hour lunch at any time
 
