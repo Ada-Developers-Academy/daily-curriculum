@@ -16,13 +16,29 @@ Memoization is an optimization technique used to store the result of expensive (
     class EnourmousSuperComputer
       
       def answer_to_the_ultimate_question_of_life_the_universe_and_everything
-        @answer ||= think
-        (@answer * 10.5).to_i
+        @answer ||= calculate_answer
       end
       
       private
       
-      def think
-        sleep ((10120123 * 123123 / 1 ** 3) / 29322415100).to_f / 10.to_f
+      def calculate_answer
+        a = sleep ((10120123 * 123123 / 1 ** 3) / 29322415100).to_f / 10.to_f
+        (a * 10.5).to_i
+      end
+    end
+    
+#### Or Equal (||=)
+
+    class Person
+      def full_name
+        if @full_name.nil?
+          @full_name = "#{@first_name} #{@last_name}"
+        else
+          @full_name
+        end
+      end
+    
+      def full_name
+        @full_name ||= "#{@first_name} #{last_name}"
       end
     end
