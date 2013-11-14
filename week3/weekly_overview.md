@@ -54,7 +54,8 @@
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:30**   | Quiz & Enum Research|
-| **9:30 - 10:30**  | Enumerable Lesson   |
+| **9:30 - 9:45**   | Stand Up            |
+| **9:45 - 10:30**  | Enumerable Lesson   |
 | **10:30 - 1:30*** | Project Time        |
 | **1:30 - 2:30**   | RSpec               |
 | **2:30 - 5:00**   | Project Time        |
