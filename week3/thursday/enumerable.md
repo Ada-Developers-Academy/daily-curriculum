@@ -1,6 +1,6 @@
 ## Enumerable
 
-Enumerable operates at it's core using the `each` method. When you call `map`, `map` is using each.
+Enumerable operates at it's core using the `each` method. When you call `map`, `map` is using `each`.
 
 #### map & collect
 

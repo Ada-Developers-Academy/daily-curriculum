@@ -34,3 +34,9 @@ RSpec files are generally made up of 2 major elements `describe` blocks and `it`
     "Person should have the name assigned to it"
     
 Within the `it` block is where we should define a specific test
+
+### FarMar Coverage
+
+    gem install simplecov
+    rspec
+    open coverage/index.html
