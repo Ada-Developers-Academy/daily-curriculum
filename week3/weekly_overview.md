@@ -51,11 +51,13 @@
 ### Thursday
 #### All Day
 
-| Time              | Topic             |
-|:-----------------:|:------------------|
-| **9:15 - 9:30**   | Standup           |
-| **9:30 - 11:00**  | Checking out TDD  |
-| **11:00 - 5:00*** | Project Time      |
+| Time              | Topic               |
+|:-----------------:|:--------------------|
+| **9:00 - 9:30**   | Quiz & Enum Research|
+| **9:30 - 10:30**  | Enumerable Lesson   |
+| **10:30 - 1:30*** | Project Time        |
+| **1:30 - 2:30**   | RSpec               |
+| **2:30 - 5:00**   | Project Time        |
 
 *Take an hour lunch at any time
 
