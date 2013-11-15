@@ -1,5 +1,6 @@
 require 'sqlite3'
 $db = SQLite3::Database.new('db_example')
+$db.results_as_hash = true
 # CREATE THE `people` TABLE
 
 class Person
@@ -7,8 +8,8 @@ class Person
   
   
   def initialize(attrs_array=[])
-    @id   = attrs_array[0]
-    @name = attrs_array[1]
+    @id   = attrs_array["id"]
+    @name = attrs_array["name"]
   end
   
   def self.find(id)
@@ -20,10 +21,13 @@ class Person
     $db.execute("select * from people")
   end
   
+  def self.last
+    $db.execute("select * from people").last
+  end
+  
   def self.create(attrs={})
-    data = $db.execute('INSERT INTO people (name, age, gender, job) VALUES ("Bookis", 25, "Male", "boy")')
-    puts data.inspect
-    Person.new
+    $db.execute('INSERT INTO people (name, age, gender, job) VALUES ("Bookis", 25, "Male", "boy")')
+    Person.new(last)
   end
   
 end

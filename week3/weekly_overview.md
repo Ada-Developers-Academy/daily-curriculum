@@ -69,11 +69,15 @@
 
 | Time              | Topic             |
 |:-----------------:|:------------------|
-| **9:15 - 9:30**   | Standup           |
-| **9:30 - 10:30**  | Relational Databases (BR pg. 228)  |
-| **10:30 - 11:30** | Quiz              |
-| **11:30 - 5:00*** | Project Time      |
+| **9:00 - 9:30**   | Quiz              |
+| **9:30 - 9:45**   | Stand up          |
+| **9:45 - 10:00**  | Quiz Recap        |
+| **10:00 - 10:30** | Project Recap     |
+| **10:30 - 5:00*** | Project Time      |
+
 
 CSV Projects must be completed and pushed to Github by 5pm. 
+
+**Homework**: Read pgs. 228-246 (Relational Databases and SQL)
 
 *Take an hour lunch at any time
