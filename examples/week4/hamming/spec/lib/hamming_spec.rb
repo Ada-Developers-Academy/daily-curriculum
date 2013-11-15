@@ -1,42 +1,31 @@
 require "./lib/hamming"
 
 describe Hamming do
-  def test_no_difference_between_empty_strands
-    assert_equal 0, Hamming.compute('', '')
+  it "should report no difference between empty strands" do
+    expect(Hamming.compute('', '')).to eq 0
   end
 
-  def test_no_difference_between_identical_strands
-    skip
-    assert_equal 0, Hamming.compute('GGACTGA','GGACTGA')
+  it "should report no difference between matching strands" do
+    expect(Hamming.compute('GGACTGA', 'GGACTGA')).to eq 0
   end
 
-  def test_complete_hamming_distance_in_small_strand
-    skip
-    assert_equal 3, Hamming.compute('ACT', 'GGA')
+  it "should work on short strands" do
+    expect(Hamming.compute('ACT', 'GGA')).to eq 3
   end
 
-  def test_hamming_distance_in_off_by_one_strand
-    skip
-    assert_equal 9, Hamming.compute('GGACGGATTCTG', 'AGGACGGATTCT')
+  it "should report a hamming distance in off-by-1 strands" do
+    expect(Hamming.compute('GGACGGATTCTG', 'AGGACGGATTCT')).to eq 9
   end
 
-  def test_small_hamming_distance_in_middle_somewhere
-    skip
-    assert_equal 1, Hamming.compute('GGACG', 'GGTCG')
+  it "should report hamming distance when its in the middle of a strand" do
+    expect(Hamming.compute('GGACG', 'GGTCG')).to eq 1
   end
 
-  def test_larger_distance
-    skip
-    assert_equal 2, Hamming.compute('ACCAGGG', 'ACTATGG')
+  it "should ignore extra length when working with strands of unequal length" do
+    expect(Hamming.compute('AAACTAGGGG', 'AGGCTAGCGGTAGGAC')).to eq 3
   end
 
-  def test_ignores_extra_length_on_other_strand_when_longer
-    skip
-    assert_equal 3, Hamming.compute('AAACTAGGGG', 'AGGCTAGCGGTAGGAC')
-  end
-
-  def test_ignores_extra_length_on_original_strand_when_longer
-    skip
-    assert_equal 5, Hamming.compute('GACTACGGACAGGGTAGGGAAT', 'GACATCGCACACC')
+  it "should ignore extra length when the original strand is the longer" do
+    expect(Hamming.compute('GACTACGGACAGGGTAGGGAAT', 'GACATCGCACACC')).to eq 5
   end
 end
