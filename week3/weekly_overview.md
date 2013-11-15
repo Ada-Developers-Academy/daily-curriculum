@@ -78,6 +78,9 @@
 
 CSV Projects must be completed and pushed to Github by 5pm. 
 
-**Homework**: Read pgs. 228-246 (Relational Databases and SQL)
+**Homework**: Reading Beginning Ruby: 
+
+- pgs. 139-149 (Modules, Namespaces, and Mix-Ins)
+- pgs. 228-246 (Relational Databases and SQL)
 
 *Take an hour lunch at any time
