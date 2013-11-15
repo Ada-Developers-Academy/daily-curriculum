@@ -8,16 +8,34 @@ describe Person do
     end
   end
   
-  describe "find methods" do
-    it "finds all of the people" do
+  describe "#all" do
+    it "finds one person" do
       $db.execute('INSERT INTO people (name, age, gender, job) VALUES ("Bookis", 25, "Male", "boy")')
       Person.all.count.should eq 1
     end
   end
   
+  describe "find" do
+    let(:person) { Person.create(name: "Bookis") }
+    it "finds the person with id 1" do
+      person
+      Person.find(1).id.should eq 1
+    end
+  end
+  
   describe "create" do
+    let(:person) { Person.create(name: "Bookis") }
     it "should create a new person" do
-      expect {Person.create}.to change(Person.all, :count).by(1)
+      person
+      Person.all.count.should eq 1
+    end
+    
+    it "returns a person object" do
+      person.should be_a Person
+    end
+    
+    it "should assign the name" do
+      person.name.should eq "Bookis"
     end
   end
 end
