@@ -55,8 +55,8 @@ Hsing-Hui's background in spoken languages, as well as her general interest in m
 When she's not excitedly teaching herself something new, Hsing-Hui is a fantastic ultimate frisbee player and  biker.
 
 ## Liz Rush
-Liz was working as an administrative assistant in Portland, OR when it occurred to her that she would rather be making software than just testing it. She now studies at the Ada Developers Academy in Seattle and credits her mentor, Mel Quark, for helping to get her started. Originally from Idaho, Liz graduated two years ago from St. Louis University in Madrid, where she majored in communications and Spanish. She considers herself a passionate lesbian feminist and thinks a lot about the way that gender affects women's experiences. She wants to help other women pursue careers in technology and aims to one day found a company owned and run by women. Until then, she can usually be found reading or baking.(liz will edit this)
 
+Liz Rush was working as at a tech company in Portland, OR doing manual testing and app translation when she realized she would rather be on the development side of things. Now a student at Ada Developers Academy, she credits her mentor, Mel Quark, for helping to get her started on the path to becoming a developer. Originally from a small potatoes town in Idaho, Liz moved to Spain at 19 where she eventually graduated Magna Cum Laude from St. Louis University in Madrid and worked in digital marketing and technical translation. She draws auto-bio comics and is a member of the collective The Ladydrawers. Liz is a passionate lesbian feminist and splits her free time between volunteer work, sewing, reading, and making experimental homemade ice cream. 
 
 ## Melinda Mizuta
 Melinda is an aspiring software developer with a passion for solving problems 
