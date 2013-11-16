@@ -15,14 +15,13 @@
 
 ### Tuesday
 
-| Time              | Topic               |
-|:-----------------:|:--------------------|
-| **9:00 - 9:45**   | Morning Warmup      |
-| **9:45 - 10:00**  | Stand Up            |
-| **10:00 - 11:30** | Sam Livingston-Gray |
-| **11:30 - 2:30*** | Project Time        |
-| **2:30 - 3:30**   | Sam Livingston-Gray |
-| **3:30 - 5:00**   | Project Time        |
+| Time               | Topic               |
+|:------------------:|:--------------------|
+| **9:00 - 9:45**    | Morning Warmup      |
+| **9:45 - 10:00**   | Stand Up            |
+| **10:00 - 11:30**  | Sam Livingston-Gray |
+| **11:30 - 12:30*** | Project Time        |
+| **12:30 - ???**    | Field Trip!         |
 
 \* Take an hour lunch at any time
 
