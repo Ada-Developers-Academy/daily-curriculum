@@ -41,7 +41,7 @@
 
 ### Thursday
 
-| Time              | Topic                   |
+| Time              | Topic                    |
 |:-----------------:|:-------------------------|
 | **9:00 - 9:45**   | Morning Warmup - Hamming |
 | **9:45 - 10:00**  | Stand Up                 |
