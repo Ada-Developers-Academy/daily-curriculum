@@ -65,6 +65,4 @@
 
 \* Take an hour lunch at any time
 
-Farmers Market project must be completed and pushed to Github by 5pm. 
-
-
+Farmers Market project must be completed and pushed to Github by 5pm.
