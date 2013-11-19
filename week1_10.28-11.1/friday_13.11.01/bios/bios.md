@@ -58,8 +58,7 @@ Liz was working as an administrative assistant in Portland, OR when it occurred 
 
 
 ## Melinda Mizuta
-Melinda is an aspiring software developer with a passion for solving problems 
-For the past six years she has worked in marketing and event planning roles for local nonprofits. She realized her passion for technology when she worked on their agency and event websites. She has a Bachelors of Science in Journalism, and an MBA with an emphasis in Marketing and Nonprofit Organizations. Melinda loves animals and traveling. She lives in Seattle, WA with her husband and their energetic canine companion. 
+Melinda is an aspiring software developer with a passion for solving problems that improve people’s lives. For the past six years, she's worked in marketing and event planning roles for local nonprofits. She has a Bachelor of Science in journalism, and an MBA with an emphasis in marketing. Melinda is a friend to the animals and loves traveling. She lives in Seattle, WA with her husband and their energetic canine companion.
 
 
 ## Shadae Holmes
