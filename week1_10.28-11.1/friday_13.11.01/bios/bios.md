@@ -12,6 +12,7 @@
 Anne Kimsey is a proto-developer and outdoor enthusiast in Seattle, WA. Anne has a degree in linguistics from Evergreen State College. She loves the idea of language as way to distill all possibilities of human thought, but thinks she may have more luck demanding such specificity of computers. Anne has a varied background in teaching English and French, but decided to be a computer programmer after teaching a Burmese refugee Python on a Raspberry Pi. In her free time you can find Anne hiking… if you can keep up! When she’s not camping and or hiking she spends time reading an old fashioned paper book. She enjoys canine companionship.
 
 ## Asha Golveo
+Asha is an inspiring software developer who’s passionate about building products and efficiency.  For the past four years, she worked in a project management role at a lighting manufacturing company.  At the beginning of the year, she started teaching herself how to program while working full-time.  That’s when she decided she needed to focus only on tech and moved from Sacramento, CA to Seattle this summer. She has a bachelors in accounting and lives in Greenlake with her adorable dog, Waldo.
 
 ## Audrey Carlsen
 Audrey is a native Seattlite and current student at Ada Developers Academy. She came to programming after being a student at the Johns Hopkins University School of Medicine and a stint at NPR headquarters. In addition to creating the radio show “This Carleton Life” as an undergrad at Carleton College, she has also spent time reporting for an NPR member station in the Aleutian Islands. Audrey hopes to see her programming career diversify her skill set as well as merge her past and current passions. She thoroughly enjoys her synesthesia and would pick time manipulation as her superpower. Although flying would also be nice.
@@ -74,3 +75,6 @@ Sue White is an ambitious up-and-coming programmer and a proud new Seattleite. B
 
 ## Whitney Levis
 Whitney Levis is an eternal MOOC student and developer in training at Ada Developer's Academy in Seattle. Before Ada she was a video game tester at Volt and weekend Udacity student. To say she loves learning is an understatement. She possesses a B.A. in Mathematics with a minor in Latin and has done Post Baccalaureate work in Education. Whitney is a skilled violinist and in her spare time enjoys spreading social awareness all over web 2.0.
+
+
+

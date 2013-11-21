@@ -1,0 +1,7 @@
+title "Thursday, October 31st"
+
+theme "archetect"
+
+section "ObjectOrientation" do
+  slides "object-orientation.md"
+end
