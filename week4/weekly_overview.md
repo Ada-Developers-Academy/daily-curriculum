@@ -45,10 +45,11 @@
 |:-----------------:|:-------------------------|
 | **9:00 - 9:45**   | Morning Warmup - Hamming |
 | **9:45 - 10:00**  | Stand Up                 |
-| **10:00 - 11:30** | Views and Forms          |
-| **11:30 - 3:30*** | Project Time             |
-| **3:30 - 4:00**   | Quiz                     |
-| **4:00 - 5:00**   | Project Time             |
+| **10:00 - 10:30** | Rubocop                  |
+| **10:30 - 11:30** | Views and Forms          |
+| **11:30 - 1:30*** | Project Time             |
+| **1:30 - 2:00**   | Quiz                     |
+| **2:00 - 5:00**   | Pair Project Time        |
 
 \* Take an hour lunch at any time
 
