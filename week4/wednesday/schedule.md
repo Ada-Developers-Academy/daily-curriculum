@@ -1,6 +1,6 @@
 !SLIDE text-size-90 title-and-content transition=fade
 
-Monday, November 18
+Wednesday, November 20
 ==================
 
 | Time               | Topic                             |
