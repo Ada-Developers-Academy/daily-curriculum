@@ -12,3 +12,4 @@ This is called the 'Hamming distance'
 
 The Hamming distance between these two DNA strands is 7.
 
+(From exercism.io)
