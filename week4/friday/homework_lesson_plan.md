@@ -15,4 +15,4 @@ The purpose of the Sinatra Practice homework is to guide students through a very
 7. Create a Heroku
 8. Use Heroku to deploy and host the application for the world to see.
 
-See [Sinatra Practice]("/sinatra-practice.md")
+See [Sinatra Practice]("https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra-practice.md")
