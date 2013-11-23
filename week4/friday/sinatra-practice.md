@@ -190,3 +190,9 @@ Now push your app to Heroku:
 You should see a bunch of output for about a minute. Heroku is receiving your application and deploying it. Now you app is available on the internet. Navigate to "http://YOURAPPNAME.herokuapp.com" where YOURAPPNAME is the name you gave to heroku, `bookis-sinatra` in my case, so the full url is `http://bookis-sinatra.herokuapp.com`. TADA!
 
 Now we have a dummy app to practice HTML/CSS with. On monday we will use this project to add content to. 
+
+#### Testing Comprehension (extra credit)
+
+- Try to create a route and erb page called "/cute_pictures_of_animals".
+- Try to implement some HTML Images of cute animals on the `cute_pictures_of_animals` page.
+- Using the sinatra [README](http://www.sinatrarb.com/intro.html#Templates%20with%20%3Ccode%3Eyield%3C/code%3E%20and%20nested%20layouts) try to implement a layout file (described under the `Templates with yield and nested layouts` section).
