@@ -1,4 +1,5 @@
 ## Sinatra Practice
+We will be creating a simple Sinatra application that serves a single simple page. This page will be our learning place for HTML and CSS in the next week. At any point you are stuck in this walk-through, you can refer to my completed project on [Github](https://github.com/Ada-Developers-Academy/daily-curriculum/tree/master/week4/friday/sinatra_practice)
 
 #### Setup
 

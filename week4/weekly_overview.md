@@ -64,6 +64,17 @@
 | **3:30 - 4:00**   | Quiz                        |
 | **4:00 - 5:00**   | Project Time                |
 
+Homework:
+
+Complete the following Sinatra tutorial:
+
+  - [Overview](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/homework_lesson_plan.md)
+  - [Lesson](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra-practice.md)
+
+Complete the HTMLDog [Beginner HTML tutorial](http://www.htmldog.com/guides/html/beginner/)
+
+Complete the HTMLDog [Beginner CSS tutorial](http://www.htmldog.com/guides/css/beginner/)
+
 \* Take an hour lunch at any time
 
 
