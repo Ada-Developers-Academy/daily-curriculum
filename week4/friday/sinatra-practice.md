@@ -195,4 +195,4 @@ Now we have a dummy app to practice HTML/CSS with. On monday we will use this pr
 
 - Try to create a route and erb page called "/cute_pictures_of_animals".
 - Try to implement some HTML Images of cute animals on the `cute_pictures_of_animals` page.
-- Using the sinatra [README](http://www.sinatrarb.com/intro.html#Templates%20with%20%3Ccode%3Eyield%3C/code%3E%20and%20nested%20layouts) try to implement a layout file (described under the `Templates with yield and nested layouts` section).
+- Using the sinatra [README](http://www.sinatrarb.com/intro.html#Templates%20with%20%3Ccode%3Eyield%3C/code%3E%20and%20nested%20layouts) try to implement a layout file (described under the `Templates with yield and nested layouts` section). The layout file will be used as a common parent HTML file for all of your individual pages.
