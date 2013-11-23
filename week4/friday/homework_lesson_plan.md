@@ -2,7 +2,7 @@
 
 #### Sinatra Practice
 
-The purpose of the Sinatra Practice homework is to reiterate and practice the basics of a Sinatra application. The end result should be a single page website hosted on Heroku. The application will also be used as a "blank canvas" to learn and experiment with HTML and CSS
+The purpose of the Sinatra Practice homework is to reiterate and practice the basics of a Sinatra application. The end result should be a single page website hosted on Heroku. The application will also be used as a "blank canvas" to learn and experiment with HTML and CSS in the next week.
 
 #### After this lesson you will be able to:
 
