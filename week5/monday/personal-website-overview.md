@@ -30,6 +30,7 @@ This project will be graded according to:
     - Forms (doesn't *have* to be functional)
     - Properly use **all** 6 `h` tags
     - Use a table (only for appropriate data)
+    - Link to / from another HTML page
     
 #### Extra Credit
 

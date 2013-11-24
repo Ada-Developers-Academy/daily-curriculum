@@ -1,4 +1,4 @@
-## Quick Walkthrough of Personal Website
+## Starting an HTML website
 
 Add required html elements
 
