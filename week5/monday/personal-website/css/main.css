@@ -1,3 +1,4 @@
+/* HTML Tag changes*/
 body {
   font-family: Helvetica, Arial;
   margin: 0;
@@ -9,13 +10,44 @@ hr {
   border-top: 1px solid gray;
 }
 
+blockquote {
+  font-size: 20px;
+}
+blockquote:before {
+  content: '\201C';
+}
+
+blockquote:after {
+  content: '\201D';
+}
+
+/* General */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.muted {
+  color: gray;
+}
+
+.author {
+  display: block;
+  text-align: right;
+  color: gray;
+  margin-top: -30px;
+}
+
+/* Header & Nav */
+
 .header {
   background-color: #68996B;
   height: 50px;
   color: white;
 }
 
-.header .brand {
+.brand {
   font-size: 24pt;
   background: url(http://placekitten.com/40/40) no-repeat left center;
   height: 50px;
@@ -29,12 +61,26 @@ hr {
   position:relative;
 }
 
-.header .nav ul.nav-links>li {
+ul li {
   position:relative;
   display: inline;
 }
 
-ul li ul.dropdown {
+.nav ul li a {
+  color: #163316;
+  text-decoration: none;
+  margin: 0 5px;
+  background-color: #EEE8D7;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.nav ul li a:hover {
+  background-color: #C6C0B1;
+}
+
+/* Dropdown Menu */
+ul.dropdown {
   display: none;
   width: 150px;
   margin: 0;
@@ -46,37 +92,21 @@ ul li ul.dropdown {
   color: black;
 }
 
-ul.nav-links li:hover ul.dropdown {
+ul li:hover ul.dropdown {
   display: inline-block;
 }
 
-ul li ul.dropdown li {
+ul.dropdown li {
   display: block;
   padding: 5px;
 }
 
-ul li ul.dropdown li:hover {
+ul.dropdown li:hover {
   background-color: gray;
   color: #fff;
 }
 
-.header .nav ul li a {
-  color: #163316;
-  text-decoration: none;
-  margin: 0 5px;
-  background-color: #EEE8D7;
-  padding: 8px;
-  border-radius: 3px;
-}
-
-.header .nav ul li a:hover {
-  background-color: #C6C0B1;
-}
-
-.container {
-  width: 900px;
-  margin: 0 auto;
-}
+/* Main Section*/
 
 div[role=main] {
   width: 890px;
@@ -93,29 +123,10 @@ div[role=main] {
   margin-left: 20px;
 }
 
-.large-footer {
+/* Footer */
+
+.footer {
   clear: both;
   text-align: right;
 }
 
-.muted {
-  color: gray;
-}
-
-blockquote {
-  font-size: 20px;
-}
-blockquote:before {
-  content: '\201C';
-}
-
-blockquote:after {
-  content: '\201D';
-}
-
-.author {
-  display: block;
-  text-align: right;
-  color: gray;
-  margin-top: -30px;
-}
