@@ -64,9 +64,13 @@ ul li ul.dropdown li:hover {
   color: #163316;
   text-decoration: none;
   margin: 0 5px;
-  background-color: #BDEEAF;
+  background-color: #EEE8D7;
   padding: 8px;
   border-radius: 3px;
+}
+
+.header .nav ul li a:hover {
+  background-color: #C6C0B1;
 }
 
 .container {
