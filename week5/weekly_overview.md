@@ -14,9 +14,9 @@
 
 | Time              | Topic                       |
 |:-----------------:|:----------------------------|
-| **9:00 - 9:30**   | Warm up Quiz                |
-| **9:30 - 9:45**   | Stand up                    |
-| **9:45 - 10:15**  | Project Clean up            |
+| **9:00 - 9:20**   | Warm up Quiz                |
+| **9:20 - 9:30**   | Stand up                    |
+| **9:30 - 10:00**  | [More CSS](tuesday/more-css.md)|
 | **10:15 - 11:15** | [HTML Accessibility](https://github.com/dpersing/ada-a11y-intro/blob/master/a11y-presentation.md) w/Devon  |
 | **11:15 - 5:00** | Project Time                |
 
