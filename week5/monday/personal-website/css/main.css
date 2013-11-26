@@ -1,0 +1,132 @@
+/* HTML Tag changes*/
+body {
+  font-family: Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #aaa;
+}
+
+hr {
+  border-top: 1px solid gray;
+}
+
+blockquote {
+  font-size: 20px;
+}
+blockquote:before {
+  content: '\201C';
+}
+
+blockquote:after {
+  content: '\201D';
+}
+
+/* General */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.muted {
+  color: gray;
+}
+
+.author {
+  display: block;
+  text-align: right;
+  color: gray;
+  margin-top: -30px;
+}
+
+/* Header & Nav */
+
+.header {
+  background-color: #68996B;
+  height: 50px;
+  color: white;
+}
+
+.brand {
+  font-size: 24pt;
+  background: url(http://placekitten.com/40/40) no-repeat left center;
+  height: 50px;
+  display: inline-block;
+  padding-left: 45px;
+  line-height: 1.5;
+}
+
+.header .nav {
+  float: right;
+  position:relative;
+}
+
+ul li {
+  position:relative;
+  display: inline;
+}
+
+.nav ul li a {
+  color: #163316;
+  text-decoration: none;
+  margin: 0 5px;
+  background-color: #EEE8D7;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.nav ul li a:hover {
+  background-color: #C6C0B1;
+}
+
+/* Dropdown Menu */
+ul.dropdown {
+  display: none;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 26px;
+  left: 5px;
+  background-color: #eee;
+  color: black;
+}
+
+ul li:hover ul.dropdown {
+  display: inline-block;
+}
+
+ul.dropdown li {
+  display: block;
+  padding: 5px;
+}
+
+ul.dropdown li:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+/* Main Section*/
+
+div[role=main] {
+  width: 890px;
+  padding-top: 20px;
+  background-color: white;
+  padding: 10px 5px;
+}
+.main {
+  float: left;
+  width: 430px;
+}
+
+.main:not(:first-child) {
+  margin-left: 20px;
+}
+
+/* Footer */
+
+.footer {
+  clear: both;
+  text-align: right;
+}
+

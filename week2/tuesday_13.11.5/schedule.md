@@ -14,8 +14,8 @@ Tuesday, November 5
 
 ## Afternoon
 
-| Time            | Topic                                   |
-:-----------------|:----------------------------------------|
-| **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game  |
+| Time            | Topic                                  |
+:-----------------|:---------------------------------------|
+| **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game |
 
 
