@@ -5,9 +5,13 @@
 
 If there are two or more rules applied to the same element, which one will take precedence?
 
+    p { color: red; }
+    
+    p { color: black; }
+
 If two rules are identical, that last rule defined will take precedence over any that come before.
 
-But, if one rule is more specific than the others, it will take precendence even if it comes before a less specific rule.
+But, if one rule is more specific than the others, it will take precedence even if it comes before a less specific rule.
 
     <div class='post'>
       <p>Some Text</p>
@@ -21,7 +25,7 @@ But, if one rule is more specific than the others, it will take precendence even
     
     p { color: black; }
 
-In this case `div.post p` is more specific that `p`, so the text will be red even though plain `p` comes later.
+In this case `div.post p` is more specific than `p`, so the text will be red even though plain `p` comes later.
 
 You can override the precedence rules using `!important` following any rule
 
