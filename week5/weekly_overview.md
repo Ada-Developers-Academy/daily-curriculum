@@ -39,7 +39,7 @@ The homework will now be delayed until Monday due to the added work for the week
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| **9:15 - 12:30**  | [Building a Blog (again!)](wednesday/adding-a-blog.md)|
+| **9:15 - 12:30**  | [Build a Blog (again!)](wednesday/build-a-blog.md)|
 | **1:30 - 2:30**   | [Submitting Forms](wednesday/submitting-forms.md)|
 | **2:30 - 5:00**   | [Personal Website Project](monday/personal-website-overview.md)        |
 
