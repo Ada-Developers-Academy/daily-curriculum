@@ -31,7 +31,7 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 
 #### Update
 
-Friday has changed a bit. Instead of working on HTML frameworks, we are now going to work through implementing a blog function within our application.
+Wednesday has changed a bit. Instead of working on HTML frameworks, we are now going to work through implementing a blog function within our application.
 
 The homework will now be delayed until Monday due to the added work for the week.
 
