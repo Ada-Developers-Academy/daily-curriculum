@@ -1,13 +1,6 @@
 ## Building a Blog (...again)
 
-We will be adding a blog to our [Personal Website](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week5/monday/personal-website-overview.md). 
-
-In this exercise we will:
-
-- Add a layout template to a Sinatra application
-- Add a directory to serve blog posts written in HTML
-- Create a route in Sinatra that will dynamically serve pages from the new directory
-- Create a way to access all of the blog post names to display and link to from our views.
+We will be adding a blog to our [Personal Website](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week5/monday/personal-website-overview.md).
 
 #### Layouts
 
@@ -48,7 +41,7 @@ Now if we reload our page we will see only the content that we added to `layout.
 
     <%= yield %>
     
-This is really non-descriptive. It renders the erb template that we defined in `my_app.rb`, in this case it's `index.erb`
+This is really non-descriptive. But, what is in fact doing is render the erb template that we defined in `my_app.rb`, in this case it's `index.erb`
 
 Tada. Now our view should look the same as it did before.
 
@@ -60,17 +53,17 @@ We are going to add plain HTML pages to our application as blog posts. The struc
         views/
             layout.erb
             index.erb
-            posts/
+            _posts/
                 insert_post_name_here.erb
                 some_other_name_here.erb
                 and_a_third_name_here.erb
       
 Let's start by creating the `dir` and files.
 
-    mkdir views/posts
-    touch views/posts/day_1.erb
-    touch views/posts/my_first_ruby_event.erb
-    touch views/posts/why_all_the_cats.erb
+    mkdir views/_posts
+    touch views/_posts/day_1.erb
+    touch views/_posts/my_first_ruby_event.erb
+    touch views/_posts/why_all_the_cats.erb
     
 #### Defining routes with a parameter
 
@@ -107,12 +100,12 @@ Restart your server and browse to `http://localhost:9292/blog/day_1`. Then look 
 We don't need to worry about the `splat` and `captures` keys for now. But, we can see that `post_name` has a value of `day_1`. Since we have access to this data, we can now render the file with the matching name.
 
     get "/blog/:post_name" do
-      erb "/posts/#{params[:post_name]}".to_sym
+      erb "/_posts/#{params[:post_name]}".to_sym
     end
     
 In this case we are giving a direct path to the file we want to render. Since the value of `params[:post_name]` is `day_1` this line is equivelant to
 
-    erb :"/posts/day_1"
+    erb :"/_posts/day_1"
     
 Now we can use any of the file names to pull up those specific posts.
 
@@ -120,25 +113,25 @@ Now we can use any of the file names to pull up those specific posts.
     http://localhost:9292/blog/my_first_ruby_event.erb
     http://localhost:9292/blog/why_all_the_cats.erb
     
-Now to write a blog post, all you need to do is create a file within the `posts` directory and write! (and push to Heroku to publish)
+Now to write a blog post, all you need to do is create a file within the `_posts` directory and write! (and push to Heroku to publish)
     
 -------
 
 #### Linking to all of the posts
 
-We can get all of the files that are in our `posts` directory by using the `Dir` ruby class. Specifically the `glob` method. Let's try it out in `irb`
+We can get all of the files that are in our `_posts` directory by using the `Dir` ruby class. Specifically the `glob` method. Let's try it out in `irb`
 
-    Dir.glob("views/posts/*.erb")
-    # ["views/posts/day_1.erb", "views/posts/my_first_ruby_event.erb", "views/posts/why_all_the_cats.erb"]
-    Dir.glob("views/posts/*.erb").map {|path| path.split("/").last }
+    Dir.glob("views/_posts/*.erb")
+    # ["views/_posts/day_1.erb", "views/_posts/my_first_ruby_event.erb", "views/_posts/why_all_the_cats.erb"]
+    Dir.glob("views/_posts/*.erb").map {|path| path.split("/").last }
     # ["day_1.erb", "my_first_ruby_event.erb", "why_all_the_cats.erb"] 
-    Dir.glob("views/posts/*.erb").map {|path| path.split("/").last.gsub(".erb", "") }
+    Dir.glob("views/_posts/*.erb").map {|path| path.split("/").last.gsub(".erb", "") }
     # ["day_1", "my_first_ruby_event", "why_all_the_cats"]
     
 We can use this approach to get the file names. Assign, these names to an instance variable so that we can use it in our view:
 
     get "/" do
-      @posts = Dir.glob("views/posts/*.erb").map {|path| path.split("/").last.gsub(".erb", "") }
+      @posts = Dir.glob("views/_posts/*.erb").map {|path| path.split("/").last.gsub(".erb", "") }
       erb :index
     end
 
@@ -149,9 +142,9 @@ We can use these names to create a list of links in our `layout.erb` file.
         <li><a href="/blog/<%= post %>"><%= post %></a></li>
       <% end %>
     </ul>
-
+    
 #### Extra Credit (although we're not getting credit for this)
 
 - Refactor the `@posts` we use in both of our route definitions into a single method to be used by either route.
-- Create a `/blog` route that displays the contents of all of the posts in a single file. (*hint*: the `erb` method can be used from within a view)
+- Create a `/blog` route that displays the contents off all of the posts in a single file. (*hint*: the `erb` method can be used from within a view)
 - Add meta data to the top of each post file to define the title and date of the post.
