@@ -149,6 +149,14 @@ We can use these names to create a list of links in our `layout.erb` file.
         <li><a href="/blog/<%= post %>"><%= post %></a></li>
       <% end %>
     </ul>
+    
+To allow the `@posts` variable to be available to all our routes, we can move it from the `get` block to a `before` block
+
+    before do 
+      @posts = Dir.glob("views/posts/*.erb").map {|path| path.split("/").last.gsub(".erb", "") }
+    end
+    
+The `before` block is executed before every single request regardless of the route.
 
 #### Extra Credit (although we're not getting credit for this)
 
