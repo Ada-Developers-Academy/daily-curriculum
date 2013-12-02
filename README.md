@@ -1,5 +1,5 @@
-Schedule for first 12 weeks 
-============================
+Schedule for Classroom Instruction
+==================================
 
 Oct 28-Nov1: Bash, Git, Ruby with Kerri & Bookis
 
