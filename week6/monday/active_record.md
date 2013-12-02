@@ -24,7 +24,7 @@ end
 Active Record Models
 ====================
 
-To work with a database, we have to manually set up the connection.
+To work with a database, we have to manually set up the connection. Something like this, perhaps?
 
 ```ruby
 class Student
@@ -42,12 +42,21 @@ end
 What are some problems with this approach?
 
 
+!SLIDE title-and-content text-size-90 transition=fade
+
+Generating New AR Models
+========================
+Active Record can set up the connections for us!
+
+<pre>
+$ rails generate student topic name:string class:string birthday:datetime
+</pre>
+
+
 !SLIDE title-and-content text-size-80 transition=fade
 
 Active Record Models
 ====================
-
-Active Record can set up the connections for us!
 
 ```ruby
 class Student << ActiveRecord::Base
@@ -56,6 +65,23 @@ end
 ```
 
 This will create a Student model, mapped to a students table at the database. By doing this you'll also have the ability to map the columns of each row in that table with the attributes of the instances of your model. 
+
+!SLIDE title-and-content text-size-80 transition=fade
+
+Active Record Migrations
+========================
+
+First let's talk briefly about migrations.
+
+
+!SLIDE title-and-content text-size-80 transition=fade
+
+Active Record Migrations
+========================
+
+<pre>
+$ rake db:migrate
+</pre>
 
 
 !SLIDE title-and-content transition=fade
@@ -161,24 +187,13 @@ Student.create(name: "Cassie", class: "Spring 2014")
 ```
 
 
-
-
-!SLIDE text-size-90 title-and-content transition=fade
-
-Starting A Rails Server
-=======================
-
-<pre>$ rails server</pre>
-
-
 !SLIDE text-size-90 title-and-content transition=fade
 
 What Did We Learn?
 ==================
 + Active Record is an ORM, and provides a DSL for building queries
-+ Some basic CRUD queries using 
-+ What a starting Rails project contains
-+ How to start the Rails Server
++ We touched briefly on how to create an Active Record model and migration
++ Some basic CRUD queries using Active Record
 
 
 !SLIDE text-size-90 title-and-content transition=fade
@@ -186,6 +201,7 @@ What Did We Learn?
 Other Resources
 ===============
 http://guides.rubyonrails.org/active_record_basics.html
+http://guides.rubyonrails.org/migrations.html
 http://guides.rubyonrails.org/active_record_querying.html
 http://railsforzombies.org/
 
