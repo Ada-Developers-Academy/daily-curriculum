@@ -43,10 +43,10 @@ Mar 17-21: Individual Student-Defined Rails Project with Kerri
 
 Mar 24-28: Individual Student-Defined Rails Project with Bookis
 
-Mar 31-April 4: Final Project with Kerri
+Mar 31-April 4: Final Rails Project with Kerri
 
-April 7-11: Final Project with Bookis
+April 7-11: Final Rails Project with Bookis
 
-April 14-18: Final Project with Kerri
+April 14-18: Final Rails Project with Kerri
 
-April 21-25: Final Project Presentations with Kerri, Bookis, & Community Members 
+April 21-25: Final Rails Project Presentations with Kerri, Bookis, & Community Members 
