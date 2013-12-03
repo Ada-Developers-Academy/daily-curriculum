@@ -55,6 +55,10 @@ RoRT:
 | **3:30 - 4:30**   | Guest Lecture - Julie Pagano |
 | **4:30 - 5:00***  | Project time                 |
 
+#### Quiz
+
+https://canvas.instructure.com/courses/819456/quizzes/879756
+
 #### Homework
 RoRT:
     + "Installing Ruby" in section 1.2.2
