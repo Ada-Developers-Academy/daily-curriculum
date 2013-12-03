@@ -19,7 +19,7 @@ The goal of this assignment is to build an online cookbook application where use
 The application should have, at a minimum, the following features:
 
 + Several Active Record models, with at least one "has_many through" relationship (Gadgets <-> Users)
-+ 100% test coverage on all your models
++ rspec in addition to any provided to you
 + A "look and feel" that will make users want to cook! 
 
 
