@@ -49,7 +49,7 @@ Generating New AR Models
 Active Record can set up the connections for us!
 
 <pre>
-$ rails generate student topic name:string class:string birthday:datetime
+$ rails generate student name:string class:string birthday:datetime
 </pre>
 
 
