@@ -3,27 +3,31 @@
 The goal of this assignment is to build an online cookbook application where users can add Recipes and new Ingredients, create Cookbook collections of different Recipes, and keep track of their Ingredients and Gadgets.
 
 
-### User Stories
+## User Stories
 
+### Bronze Star
 + As a user, I can create, edit, or delete a Recipe 
 + As a user, I can create, edit, or delete a Cookbook
 + As a user, I can create or edit an Ingredient
++ As a user, I can add or remove a Recipe from a Cookbook
+
+### Silver Star
 + As a user, I can create or edit an Gadget
 + As a user, I can add a Gadget to my collection
-+ As a user, I can add or remove a Recipe from a Cookbook
+
+### Gold Star
 + As a user, I can search for Recipes by  typing in the name of an Ingredient or Gadget
 
 
-### Requirements
+## Requirements
+However far you and your partner get, the application should have, at a minimum, the following features:
 
-The application should have, at a minimum, the following features:
-
-+ Several Active Record models, with at least one "has_many through" relationship (Gadgets <-> Users)
-+ rspec in addition to any provided to you
++ Multiple Active Record models, with at least one "has_many through" relationship (Recipes <-> Ingredients for example)
++ some rspec in addition to any provided to you
 + A "look and feel" that will make users want to cook! 
 
 
-### Pairs
+## Pairs
 
 We're going to assign partners for this project. 
 
@@ -39,8 +43,7 @@ We're going to assign partners for this project.
 | Asha Golveo          | Audrey Carlsen     |
 
 
-
-### Extra Credit
+## Extra Credit
 
 + Add the ability to browse for Recipes by Ingredient or Gadget
 + Code Metrics
@@ -49,8 +52,8 @@ We're going to assign partners for this project.
 + Add a feature that allows users to keep track of what Ingredients are in their physical kitchen. Add a SpiceRack, Pantry, Refrigerator, and Freezer model, and create a "has_many through" relationship. Ingredients should have a column that determines which location they belong in, and a quantity column should be on the "has_many through" relationship model.
 
 
-### Double Bonus Gold Star Territory
-+ Sign up for CodeClimate and add it to your project
+## Double Bonus Gold Star Territory
++ Sign up for Code Climate (http://codeclimate.com) and add it to your project
 + Add the CarrierWave gem (https://github.com/carrierwaveuploader/carrierwave) and allow the user to upload a picture for a Recipe or Ingredient
 + Add the Devise gem (https://github.com/plataformatec/devise) to allow for multiple users, and for users to sign in or out
 + Add an adminsection that allows Users who have the correct access permissions to edit the Cookbooks, Recipes, etc of all Users in the system
