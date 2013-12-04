@@ -59,10 +59,7 @@ RoRT:
 
 https://canvas.instructure.com/courses/819456/quizzes/879756
 
-#### Homework
-RoRT:
-    + "Installing Ruby" in section 1.2.2
-    + http://net.tutsplus.com/tutorials/why-you-should-use-rvm/
+
 
 \* Take an hour lunch at any time
 
@@ -72,19 +69,24 @@ RoRT:
 |:-----------------:|:----------------:|
 | **9:00 - 9:30**   | Quiz             |
 | **9:30 - 9:40**   | Standup          |
-| **9:40 - 11:00**  | RVM & .gitignore |
+| **9:40 - 11:00**  | Relationships    |
 | **11:00 - 5:00*** | Project time     |
 
 \* Take an hour lunch at any time
 
+#### Homework
+RoRT:
+    + "Installing Ruby" in section 1.2.2
+    + http://net.tutsplus.com/tutorials/why-you-should-use-rvm/
+
 ### Thursday
 
-| Time              | Topic                     |
-|:-----------------:|:-------------------------:|
-| **9:00 - 9:30**   | Code Warmup               |
-| **9:30 - 9:40**   | Standup                   |
-| **9:40 - 11:00**  | Customing the Bash prompt |
-| **11:00 - 5:00*** | Project time              |
+| Time              | Topic            |
+|:-----------------:|:----------------:|
+| **9:00 - 9:30**   | Code Warmup      |
+| **9:30 - 9:40**   | Standup          |
+| **9:40 - 11:00**  | RVM & .gitignore |
+| **11:00 - 5:00*** | Project time     |
 
 \* Take an hour lunch at any time
 
