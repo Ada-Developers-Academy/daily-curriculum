@@ -67,17 +67,13 @@ https://canvas.instructure.com/courses/819456/quizzes/879756
 
 | Time              | Topic            |
 |:-----------------:|:----------------:|
-| **9:00 - 9:30**   | Quiz             |
+| **9:00 - 9:30**   | Code Warmup             |
 | **9:30 - 9:40**   | Standup          |
 | **9:40 - 11:00**  | Relationships    |
 | **11:00 - 5:00*** | Project time     |
 
 \* Take an hour lunch at any time
 
-#### Homework
-RoRT:
-    + "Installing Ruby" in section 1.2.2
-    + http://net.tutsplus.com/tutorials/why-you-should-use-rvm/
 
 ### Thursday
 
@@ -89,6 +85,11 @@ RoRT:
 | **11:00 - 5:00*** | Project time     |
 
 \* Take an hour lunch at any time
+
+#### Homework
++ Read and work through Chapter 3 sections 3.0, 3.1, and 3.2
+    + push your sample_app to github and submit a URL via Canvas
+
 
 ### Friday
 
