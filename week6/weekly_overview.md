@@ -102,6 +102,10 @@ https://canvas.instructure.com/courses/819456/quizzes/879756
 
 Homework:
 
+For the weekend:
++ RoRT:
+    + work through 3.3 and 3.4, and the first exercise of 3.5
++ Blog Post
 
 
 \* Take an hour lunch at any time
