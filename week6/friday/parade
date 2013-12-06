@@ -1,0 +1,7 @@
+title "Friday, December 6"
+
+theme "slate"
+
+section "Social Media" do
+  slides "social_media.md"
+end
