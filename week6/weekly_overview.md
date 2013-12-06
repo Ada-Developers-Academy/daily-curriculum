@@ -95,9 +95,9 @@ https://canvas.instructure.com/courses/819456/quizzes/879756
 
 | Time              | Topic         |
 |:-----------------:|:-------------:|
-| **9:00 - 9:30**   | Quiz          |
-| **9:30 - 9:40**   | Standup       |
-| **9:45 - 11:00**  | Lecture - TBD |
+| **9:00 - 9:15**   | Stand Uwop      |
+| **9:15 - 9:40**   | Homework      |
+| **9:45 - 11:00**  | [Forms](friday/submitting-forms.md)         |
 | **11:00 - 5:00*** | Project time  |
 
 Homework:
