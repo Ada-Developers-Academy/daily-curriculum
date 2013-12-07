@@ -6,7 +6,8 @@
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
 | **9:15 - 10:00**  | App Presentations   |
-| **10:00** - **11:00** | Routes          |
+| **10:00** - **10:45** | Routes          |
+| **10:45** - **11:00** | Using [Trello.com](http://trello.com)          |
 | **11:00** - **12:00** | Rspec in Rails          |
 | **1:00** - **5:00** | [Beginning Congo](congo.md)|
 
