@@ -39,7 +39,9 @@
 | **9:00 - 9:15**   | Stand up            |
 | **9:20** - **11:00** | [Congo Project Time](/congo.md)|
 | **11:00** - **12:00** |  Models         |
-| **12:00** - **5:00** | [Congo Project Time](/congo.md)|
+| **12:00** - **3:00** | [Congo Project Time](/congo.md)|
+| **3:00** - **5:00** | Sponsor Panel |
+
 
 \* Take an hour lunch at any time
 
