@@ -8,7 +8,7 @@
 | **9:15 - 10:00**  | App Presentations   |
 | **10:00** - **11:00** | Routes          |
 | **11:00** - **12:00** | Rspec in Rails          |
-| **1:00** - **5:00** | [Beginning Congo](/congo.md)|
+| **1:00** - **5:00** | [Beginning Congo](congo.md)|
 
 
 ### Tuesday
@@ -26,9 +26,9 @@
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| **9:20** - **11:00** | [Congo Project Time](/congo.md)|
+| **9:20** - **11:00** | [Congo Project Time](congo.md)|
 | **11:00** - **12:00** |  Controllers         |
-| **12:00** - **5:00** | [Congo Project Time](/congo.md)|
+| **12:00** - **5:00** | [Congo Project Time](congo.md)|
 
 \* Take an hour lunch at any time
 
@@ -37,9 +37,9 @@
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| **9:20** - **11:00** | [Congo Project Time](/congo.md)|
+| **9:20** - **11:00** | [Congo Project Time](congo.md)|
 | **11:00** - **12:00** |  Models         |
-| **12:00** - **3:00** | [Congo Project Time](/congo.md)|
+| **12:00** - **3:00** | [Congo Project Time](congo.md)|
 | **3:00** - **5:00** | Sponsor Panel |
 
 
@@ -50,8 +50,8 @@
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| **9:20** - **11:00** | [Congo Project Time](/congo.md)|
+| **9:20** - **11:00** | [Congo Project Time](congo.md)|
 | **11:00** - **12:00** |  Views         |
-| **12:00** - **5:00** | [Congo Project Time](/congo.md)|
+| **12:00** - **5:00** | [Congo Project Time](congo.md)|
 
 \* Take an hour lunch at any time
