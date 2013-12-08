@@ -32,7 +32,7 @@ In her free time, Davida climbs, writes, plays ultimate frisbee and fantasy foot
 
 ## Elizabeth Uselton
 
-Elizabeth Uselton is a banana slug from UC Santa Cruz where she earned a BA in Theater Arts. As a mollusc, she has greatly enjoyed rainy Seattle since 2008. She enjoys Star Wars, using theatrical makeup to make people look gruesome and explaining brachiosaur cardiopulmonary systems. Computer Science has always been a peripheral part of her life as she several relatives in the field, including a grandmother with an MS in CS. However, Elizabeth’s interest in code comes from a more right-brained place. “I never wanted to choose a career because I didn’t want to close other doors and limit my options. Software development seemed like the perfect way to creatively reconcile my diverse interests.”
+Elizabeth Uselton a software development student, amateur paleontologist, and unlicenced private eye in Seattle, WA. Elizabeth was raised by a pack of wild computer scientists in their natural habitat of Silicon Valley, but took a while to discover the joy of programming for herself, earning a BA in Theater Arts from UCSC in the meantime. When she's not making ridiculous apps to make herself laugh, she enjoys making her book club read the Iliad, patronizing her local comic book store, watching scary movies, building furniture, and explaining brachiosaur cardiopulmonary systems to people who are just not that interested in brachiosaur cardiopulmonary systems. Elizabeth loves programming because rather than giving her facts to memorize, it gives her tools to investigate.
 
 ## Ellen Wondra-Lindley
 
