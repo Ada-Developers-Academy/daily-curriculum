@@ -1,3 +1,5 @@
+require "./oven.rb"
+
 class Baker
   attr_accessor :rolling_pin, :apron, :ovens
   attr_reader :eggs, :butter, :sugar, :flour
@@ -16,7 +18,6 @@ class Baker
     @ovens.each do |oven|
       oven.on = false
     end
-
     puts "Ok, its safe to go home! Good night!"
   end
 
@@ -37,3 +38,12 @@ class Baker
     baking_oven.set_temperature(temperature)
   end
 end
+
+oven = Oven.new(:color => "yellow")
+new_oven = Oven.new(:color => "steel")
+
+bob = Baker.new({:oven => [oven, new_oven]})
+
+bob.ovens[0].color
+
+bob.ovens.select{ |oven| oven.color == "yellow"}
