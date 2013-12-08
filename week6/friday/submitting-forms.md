@@ -71,3 +71,25 @@ In Sinatra and Rails this is the way we model Objects. Imagine a `Person` class 
 Try to add a small message to the top of your page after someone submits a value using the form. Something like:
 
     Thanks for signing up for our newsletter FIRSTNAME LASTNAME!
+    
+#### Making a form with Rails `form_tag`
+
+    <%= form_tag "/users" do %>
+      <%= label_tag :fname, "First name" %>
+      <%= text_field_tag :first_name, params[:first_name] %>
+      <%= check_box_tag :bread, 1, params[:bread] %>
+      <br>
+      <%= label_tag :last_name %>
+      <%= text_field_tag :last_name, params[:last_name] %>
+      <br>
+      <%= submit_tag "Search" %>
+    <% end %>
+    
+`form_tag` takes an argument, which is the path we want our form to submit to. This argument generates the `action` attribute within our `form` tag.
+
+`label_tag` creates an HTML `label` element. The first argument will set the `for` attribute as well as the text within the `label` element. We can optionally give a second argument which will overwrite the text.
+
+`text_field` tag generates an HTML `input` tag with the `type` of `text`, the first agrument we pass in will determine the `name` attribute of the `input` tag.
+
+`submit_tag` generates an HTML `input` tag with the `type` of `submit`
+    
