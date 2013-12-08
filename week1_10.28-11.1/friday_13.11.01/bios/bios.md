@@ -36,9 +36,9 @@ Elizabeth Uselton a software development student, amateur paleontologist, and un
 
 ## Ellen Wondra-Lindley
 
-Ellen Wondra-Lindley is a trailblazing knitting guru (but not in that order) from Seattle, WA.
+A nerdy knitter and developer in Seattle, Ellen Wondra-Lindley is currently learning full Ruby stack at the Ada Developers Academy. Ellen has been interested in programming for most of her life, but she first became serious about learning how to code when she was working customer service at a company with a sub-par support site; she looked at the website and said to herself, "I could fix that." Since then, Ellen has used her passion for programming and experience working with a wide range of consumers to bridge the gap between the customer and the back-end.
 
-Crafted from a family of programmers, Ellen joins her brothers and Father in the computer programming trade.  Ellen has always been interested in programming, dabbling in various courses through high school and college. At a previous job Ellen assisted in refacing the QA and Tech support portion of the website’s interface through personal testing on her own accord.Ellen’s educational background is in languages and international affairs. You can find Ellen knit bombing, nerdy knitting, and playing co-op Board Games.
+In her free time, Ellen enjoys doing ambitious crafts and spending time with her two cats, Starbuck and Athena, and her two greyhounds, Helo and Apollo.
 
 ## Galina Yermicheva
 Galina is an aspiring web developer, with a passion for creating all things useful and beautiful.  This love for creating the stunning and functional is what lead her to programming with the goal of making beautiful digital environments to help people.  Galina earned her degree in psychology, but it was her career in project management that inspired her to begin programming on her own, leading her to the Ada Developers Academy in Seattle, Washington.
