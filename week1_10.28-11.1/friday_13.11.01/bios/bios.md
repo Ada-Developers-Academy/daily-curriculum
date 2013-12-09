@@ -106,7 +106,7 @@ Shadae Holmes is a problem-solving ninja in Seattle, WA. She graduated in 2009 f
 - [Github](http://github.com/msrondys)
 - [Student Blog](http://immense-chamber-3063.herokuapp.com/)
 
-Simone is a lover of challenge with a natural curiosity that has led her to a programming field. Simone enjoys deliberately crafting a lifestyle of happiness and purpose. She has a BA in Art History and pre Law.
+An analog girl in a digital world, Simone is new to world of programming.  The love of challenge drew Simone to the world of software development and a natural curiosity to learn will help her to continue to learn and grow in the field.  But it is her commitment to social justice that will push her to be the best web developer she can be daily.  When not navigating the digital world and loving it’s complexity and potential, Simone can be found watching documentaries, researching permaculture and natural building, and building things with her hands.
 
 ## Sue White
 - [Resume](https://gist.github.com/suewhite/d80cac32e1e38ccb1491)
