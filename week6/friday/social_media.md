@@ -108,7 +108,7 @@ Google Yourself
 <a href="https://www.google.com/search?q=elise+worthy&oq=elise+worthy&aqs=chrome..69i57j69i61l3j0l2.1533j0j4&sourceid=chrome&espv=210&es_sm=91&ie=UTF-8">My Google Results</a>
 
 !SLIDE title transition=fade
-Prepping for Next Week
+Prepping for Next Weekm
 ===================
 
 !SLIDE transition=fade
