@@ -35,7 +35,7 @@ Christina Thompson is a newbie developer, basketball player and authenticity adv
 ## Davida Marion
 - [Resume](https://gist.github.com/Sgtpluck/8540bbd7c5a09bf347e6)
 - [Github](http://github.com/Sgtpluck)
-- [Student Blog](http://davida-sinatra.herokuapp.com/posts/)
+- [Student Blog](http://davida-sinatra.herokuapp.com/)
 
 Davida Marion comes to the first cohort of Ada Developers Academy as a specialist in library sciences and data integrity.  Her professional experiences range from freelance writing, content management, copy editing, library archiving, and ice-cream-making wizardry.  
 
