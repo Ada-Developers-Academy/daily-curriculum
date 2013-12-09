@@ -1,12 +1,16 @@
 ## Week 7
 
+In week 7 we will focus on reinforcing the major components of Rails. Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Congo](congo.md), an online webstore for independent merchants to sell their goods.
+
+
+
 ### Monday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
 | **9:15 - 10:00**  | App Presentations   |
-| **10:00** - **10:45** | [Routes](rails-request-cycle.pdf)          |
+| **10:00** - **10:45** | [Routes](monday/routes.md)          |
 | **10:45** - **11:00** | Using [Trello.com](http://trello.com)          |
 | **11:00** - **12:00** | Rspec in Rails          |
 | **1:00** - **5:00** | [Beginning Congo](congo.md)|
