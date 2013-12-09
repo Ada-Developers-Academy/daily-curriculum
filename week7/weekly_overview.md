@@ -12,7 +12,7 @@ In week 7 we will focus on reinforcing the major components of Rails. Each day w
 | **9:15 - 10:00**  | App Presentations   |
 | **10:00** - **10:45** | [Routes](monday/routes.md)          |
 | **10:45** - **11:00** | Using [Trello.com](http://trello.com)          |
-| **11:00** - **12:00** | Rspec in Rails          |
+| **11:00** - **12:00** | [Rspec in Rails](monday/rspec-with-rails.md)          |
 | **1:00** - **5:00** | [Beginning Congo](congo.md)|
 
 
