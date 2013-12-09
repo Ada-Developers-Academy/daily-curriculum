@@ -1,17 +1,10 @@
 # Ada Developers Academy Bios
 
-## Bookis Smuin
-
-## Cheri Allen
-
-## Elise Worthy
-
-## Kerri Miller
-
 ## Anne Kimsey
 Anne Kimsey is a proto-developer and outdoor enthusiast in Seattle, WA. Anne has a degree in linguistics from Evergreen State College. She loves the idea of language as way to distill all possibilities of human thought, but thinks she may have more luck demanding such specificity of computers. Anne has a varied background in teaching English and French, but decided to be a computer programmer after teaching a Burmese refugee Python on a Raspberry Pi. In her free time you can find Anne hiking… if you can keep up! When she’s not camping and or hiking she spends time reading an old fashioned paper book. She enjoys canine companionship.
 
 ## Asha Golveo
+Asha is an inspiring software developer who’s passionate about building products and efficiency.  For the past four years, she worked in a project management role at a lighting manufacturing company.  At the beginning of the year, she started teaching herself how to program while working full-time.  That’s when she decided she needed to focus only on tech and moved from Sacramento, CA to Seattle this summer. She has a bachelors in accounting and lives in Greenlake with her adorable dog, Waldo.
 
 ## Audrey Carlsen
 Audrey is a native Seattlite and current student at Ada Developers Academy. She came to programming after being a student at the Johns Hopkins University School of Medicine and a stint at NPR headquarters. In addition to creating the radio show “This Carleton Life” as an undergrad at Carleton College, she has also spent time reporting for an NPR member station in the Aleutian Islands. Audrey hopes to see her programming career diversify her skill set as well as merge her past and current passions. She thoroughly enjoys her synesthesia and would pick time manipulation as her superpower. Although flying would also be nice.
@@ -20,7 +13,6 @@ Audrey is a native Seattlite and current student at Ada Developers Academy. She 
 Blake Johnson, a lover of language and logic, lives in Capitol Hill, Seattle. After growing up in Denver, she graduated Summa Cum Laude from Duke University where she studied English, Spanish and film— and did a little sketch comedy on the side. Blake went on to do marketing for local farmers markets in New York while earning her MSSE in English Education. Before pursuing programming, Blake taught high school students to read, write and think critically. When she’s not thinking of new applications to write in Ruby, Blake cooks, runs marathons and reads the thickest novels she can find.
 
 ## Christina Thompson
-
 Christina Thompson is a newbie developer, basketball player and authenticity advocate in Seattle. With a bachelor's degree in marketing and a master's degree in Sports Management, Christina has a diverse set of interests. She enjoys exploring arts and culture, especially in an urban setting. She dreams of a space where people are able to effectively collaborate due to mutual openness and authenticity. She has admired the computer sciences for a while and decided to try it out with a course on skillcrush.com. After building a website with html and css, she wanted more.
 
 ## Davida Marion
@@ -31,11 +23,9 @@ Davida's experiences in navigating her way through labyrinthine library stacks i
 In her free time, Davida climbs, writes, plays ultimate frisbee and fantasy football, and makes the best meatballs in Seattle.
 
 ## Elizabeth Uselton
-
 Elizabeth Uselton a software development student, amateur paleontologist, and unlicenced private eye in Seattle, WA. Elizabeth was raised by a pack of wild computer scientists in their natural habitat of Silicon Valley, but took a while to discover the joy of programming for herself, earning a BA in Theater Arts from UCSC in the meantime. When she's not making ridiculous apps to make herself laugh, she enjoys making her book club read the Iliad, patronizing her local comic book store, watching scary movies, building furniture, and explaining brachiosaur cardiopulmonary systems to people who are just not that interested in brachiosaur cardiopulmonary systems. Elizabeth loves programming because rather than giving her facts to memorize, it gives her tools to investigate.
 
 ## Ellen Wondra-Lindley
-
 A nerdy knitter and developer in Seattle, Ellen Wondra-Lindley is currently learning full Ruby stack at the Ada Developers Academy. Ellen has been interested in programming for most of her life, but she first became serious about learning how to code when she was working customer service at a company with a sub-par support site; she looked at the website and said to herself, "I could fix that." Since then, Ellen has used her passion for programming and experience working with a wide range of consumers to bridge the gap between the customer and the back-end.
 
 In her free time, Ellen enjoys doing ambitious crafts and spending time with her two cats, Starbuck and Athena, and her two greyhounds, Helo and Apollo.
@@ -55,16 +45,14 @@ Hsing-Hui's background in spoken languages, as well as her general interest in m
 When she's not excitedly teaching herself something new, Hsing-Hui is a fantastic ultimate frisbee player and  biker.
 
 ## Liz Rush
-Liz was working as an administrative assistant in Portland, OR when it occurred to her that she would rather be making software than just testing it. She now studies at the Ada Developers Academy in Seattle and credits her mentor, Mel Quark, for helping to get her started. Originally from Idaho, Liz graduated two years ago from St. Louis University in Madrid, where she majored in communications and Spanish. She considers herself a passionate lesbian feminist and thinks a lot about the way that gender affects women's experiences. She wants to help other women pursue careers in technology and aims to one day found a company owned and run by women. Until then, she can usually be found reading or baking.(liz will edit this)
 
+Liz Rush was working as at a tech company in Portland, OR doing manual testing and app translation when she realized she would rather be on the development side of things. Now a student at Ada Developers Academy, she credits her mentor, Mel Quark, for helping to get her started on the path to becoming a developer. Originally from a small potatoes town in Idaho, Liz moved to Spain at 19 where she eventually graduated Magna Cum Laude from St. Louis University in Madrid and worked in digital marketing and technical translation. She draws auto-bio comics and is a member of the collective The Ladydrawers. Liz is a passionate lesbian feminist and splits her free time between volunteer work, sewing, reading, and making experimental homemade ice cream. 
 
 ## Melinda Mizuta
-Melinda is an aspiring software developer with a passion for solving problems 
-For the past six years she has worked in marketing and event planning roles for local nonprofits. She realized her passion for technology when she worked on their agency and event websites. She has a Bachelors of Science in Journalism, and an MBA with an emphasis in Marketing and Nonprofit Organizations. Melinda loves animals and traveling. She lives in Seattle, WA with her husband and their energetic canine companion. 
+Melinda is an aspiring software developer with a passion for solving problems that improve people’s lives. For the past six years, she's worked in marketing and event planning roles for local nonprofits. She has a Bachelor of Science in journalism, and an MBA with an emphasis in marketing. Melinda is a friend to the animals and loves traveling. She lives in Seattle, WA with her husband and their energetic canine companion.
 
 
 ## Shadae Holmes
-
 Shadae Holmes is a problem-solving ninja in Seattle, WA. She graduated in 2009 from the University of San Francisco where she studied politics, pre-law, and dance. While there, she was first exposed to programming in a robotics class, where she used Java and Python to make Lego robots solve puzzles. On the job at a small e-commerce company, she discovered an aptitude for efficient communications between developers and clients, and taught herself HTML and CSS. In her free time, she is a committee member for Girls on the Run and is a passionate advocate for a safe space for girls to reach their potential.
 
 
