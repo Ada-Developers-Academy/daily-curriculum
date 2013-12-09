@@ -29,6 +29,7 @@ Blake Johnson, a lover of language and logic, lives in Capitol Hill, Seattle. Af
 ## Christina Thompson
 - [Resume](https://github.com/xtina-starr/Ada-Developers-Academy-Application/blob/master/CHRISTINASTHOMPSON.md)
 - [Github](http://github.com/xtina-starr)
+- [Student Blog](christinasthompson.com/blog)
 
 Christina Thompson is a newbie developer, basketball player and authenticity advocate in Seattle. With a bachelor's degree in marketing and a master's degree in Sports Management, Christina has a diverse set of interests. She enjoys exploring arts and culture, especially in an urban setting. She dreams of a space where people are able to effectively collaborate due to mutual openness and authenticity. She has admired the computer sciences for a while and decided to try it out with a course on skillcrush.com. After building a website with html and css, she wanted more.
 
@@ -111,8 +112,11 @@ An analog girl in a digital world, Simone is new to world of programming.  The l
 ## Sue White
 - [Resume](https://gist.github.com/suewhite/d80cac32e1e38ccb1491)
 - [Github](http://github.com/suewhite)
+- [Student Blog](http://sue-white.herokuapp.com)
 
-Sue White is an ambitious up-and-coming programmer and a proud new Seattleite. Born and raised in rural Indiana, Sue studied biochemistry at the University of Iowa and spent several years doing academic research before she set her sights on web development. She currently speaks Python (and Russian!) but is already creating new programs in Ruby.   She still finds time for reading dense texts on finance and using her biochemistry background to concoct new vegan delicacies, but Sue’s primary focus is on her new career as a programmer. She is excited to explore options and capitalize on her strengths.
+Sue White is an ambitious up-and-coming programmer and a proud new Seattleite. After growing up in rural Indiana, Sue moved to the bustling metropolis of Iowa City to study biochemistry at the University of Iowa. She did biochemistry research for a couple of years, and then discovered computer science. Now it is her passion in life.
+
+Sue aims to develop elegant and efficient software, to contribute to open source projects, and to lead women who are excited about technology to pursue computer science.
 
 ## Whitney Levis
 - [Resume](https://gist.github.com/roseaboveit/3d9b7acceaf5f0396da3)
