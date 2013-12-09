@@ -62,11 +62,9 @@ In her free time, Ellen enjoys doing ambitious crafts and spending time with her
 ## Galina Yermicheva
 - [Resume](https://gist.github.com/gyermich/4ab8f412e6d54c25384c)
 - [Github](http://github.com/gyermich)
-- [Student Blog](https://galina-sinatra.herokuapp.com/blog)
+- [Student Blog](https://galina-sinatra.herokuapp.com)
 
 Galina is an aspiring web developer, with a passion for creating all things useful and beautiful.  This love for creating the stunning and functional is what lead her to programming with the goal of making beautiful digital environments to help people.  Galina earned her degree in psychology, but it was her career in project management that inspired her to begin programming on her own, leading her to the Ada Developers Academy in Seattle, Washington.
-
-Galina is an aspiring web developer, with a passion for creating all things useful and beautiful. This love for creating the stunning and functional is what drove her to programming with the goal of making beautiful digital environments to help people.  With a degree in psychology, Galina’s professional path has included project management and fencing instruction, serendipitously leading to the Ada Developers Academy in Seattle, Washington at present.
 
 ## Hsing-Hui Hsu
 - [Resume](https://gist.github.com/Elffers/39792490bcd5f18186b3)
