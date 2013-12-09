@@ -4,7 +4,7 @@
 - [Resume](https://gist.github.com/QuidFacis/6736750)
 - [Github](http://github.com/AKimZ)
 
-Anne Kimsey is a proto-developer and outdoor enthusiast in Seattle, WA. Anne has a degree in linguistics from Evergreen State College. She loves the idea of language as way to distill all possibilities of human thought, but thinks she may have more luck demanding such specificity of computers. Anne has a varied background in teaching English and French, but decided to be a computer programmer after teaching a Burmese refugee Python on a Raspberry Pi. In her free time you can find Anne hiking… if you can keep up! When she’s not camping and or hiking she spends time reading an old fashioned paper book. She enjoys canine companionship.
+Anne Kimsey is excellent at resisting writing self-descriptions. She prefers reading books about linguistics in French (a holdover from the BA she has in those subjects), making maps with GIS, backpacking, running, biking, traveling to strange and exotic locations like Canada and petting other people's pets. These days though, most of her time is spent working on her screen glow tan and tapping out Ruby code, a path she stumbled on by accident when a student of hers insisted that she "teach him how to computer." As it turns out, she enjoyed learning with a Raspberry Pi and Python much more than the student did. She moved to Seattle to pursue tech not long after this discovery, and has been excitedly "computer-ing" ever since.
 
 ## Asha Golveo
 - [Resume](https://gist.github.com/Agolveo/6605433)
