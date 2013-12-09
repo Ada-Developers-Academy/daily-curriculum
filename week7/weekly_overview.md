@@ -6,7 +6,7 @@
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
 | **9:15 - 10:00**  | App Presentations   |
-| **10:00** - **10:45** | Routes          |
+| **10:00** - **10:45** | [Routes](rails-request-cycle.pdf)          |
 | **10:45** - **11:00** | Using [Trello.com](http://trello.com)          |
 | **11:00** - **12:00** | Rspec in Rails          |
 | **1:00** - **5:00** | [Beginning Congo](congo.md)|
@@ -51,8 +51,8 @@
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| **9:20** - **11:00** | [Congo Project Time](congo.md)|
-| **11:00** - **12:00** |  Views         |
+| **9:20** - **10:30** | Views            |
+| **10:30** - **12:00** |  Andrew Gorcester |
 | **12:00** - **5:00** | [Congo Project Time](congo.md)|
 
 \* Take an hour lunch at any time
