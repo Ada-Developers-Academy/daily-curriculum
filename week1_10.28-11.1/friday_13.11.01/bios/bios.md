@@ -10,7 +10,7 @@ Anne Kimsey is excellent at resisting writing self-descriptions. She prefers rea
 - [Resume](https://gist.github.com/Agolveo/6605433)
 - [Github](http://github.com/ashag)
 
-Asha is an inspiring software developer who’s passionate about building products and efficiency.  For the past four years, she worked in a project management role at a lighting manufacturing company.  At the beginning of the year, she started teaching herself how to program while working full-time.  That’s when she decided she needed to focus only on tech and moved from Sacramento, CA to Seattle this summer. She has a bachelors in accounting and lives in Greenlake with her adorable dog, Waldo.
+Asha Golveo is an aspiring software developer from Sacramento, CA. She has a BS in Business Administration with a concentration in Accountancy. Before moving to Seattle in the summer of 2013, she worked as an Assistant Project Manager for a lighting manufacturing company. She is passionate about technology and the positive effects it can have in our daily lives. Asha became interested in programming after following numerous tech blogs and deciding she no longer wanted to just read about technology, but learn more about computer science and develop her own applications. After using a book to teach herself Python, she immediately fell in love with programming. She is fascinated by the power to build ideas that come to mind and the countless ways to solve one problem. In Asha’s spare time, you can find her reading, running, playing the violin, and finding new things to learn.
 
 ## Audrey Carlsen
 - [Resume](https://gist.github.com/audreycarlsen/b53defd35b074eb79fd8)
