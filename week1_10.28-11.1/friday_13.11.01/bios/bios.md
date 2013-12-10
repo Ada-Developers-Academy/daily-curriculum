@@ -90,6 +90,7 @@ Liz Rush was working as at a tech company in Portland, OR doing manual testing a
 ## Melinda Mizuta
 - [Resume](https://gist.github.com/mkmizuta/fb07604e774f541dd2f8)
 - [Github](http://github.com/mkmizuta)
+- [Student Blog](http://melinda-mizuta.herokuapp.com/)
 
 Melinda is an aspiring software developer with a passion for solving problems that improve people’s lives. For the past six years, she's worked in marketing and event planning roles for local nonprofits. She has a Bachelor of Science in journalism, and an MBA with an emphasis in marketing. Melinda is a friend to the animals and loves traveling. She lives in Seattle, WA with her husband and their energetic canine companion.
 
