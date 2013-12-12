@@ -3,6 +3,7 @@
 ## Anne Kimsey
 - [Resume](https://gist.github.com/AKimZ/6736750)
 - [Github](http://github.com/AKimZ)
+- [Student Blog](http://askimz-firstsite.herokuapp.com/)
 
 Anne Kimsey is excellent at resisting writing self-descriptions. She prefers reading books about linguistics in French (a holdover from the BA she has in those subjects), making maps with GIS, backpacking, running, biking, traveling to strange and exotic locations like Canada and petting other people's pets. These days though, most of her time is spent working on her screen glow tan and tapping out Ruby code, a path she stumbled on by accident when a student of hers insisted that she "teach him how to computer." As it turns out, she enjoyed learning with a Raspberry Pi and Python much more than the student did. She moved to Seattle to pursue tech not long after this discovery, and has been excitedly "computer-ing" ever since.
 
