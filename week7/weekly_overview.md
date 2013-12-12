@@ -41,10 +41,8 @@ In week 7 we will focus on reinforcing the major components of Rails. Each day w
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Stand up            |
-| **9:20** - **11:00** | [Congo Project Time](congo.md)|
-| **11:00** - **12:00** |  Models         |
-| **12:00** - **3:00** | [Congo Project Time](congo.md)|
+| **9:00** - **10:30** |  [Models](thursday/active-record.md) |
+| **10:30 - 3:00**   | [Congo Project Time](congo.md) |
 | **3:00** - **5:00** | Sponsor Panel |
 
 
