@@ -4,7 +4,7 @@ In our exploratory project we will be allowing students to define their own feat
 
 You are free to use the language and framework of your choosing. You are also free to make the project as small or large as you desire. One of your focuses should be time management and setting realistic expectations.
 
-#### Requirments
+#### Requirements
 
 - Time management and expectations; choose a project that will fit with your availability over the two-week period
 - Must be an application (no completely static HTML sites)
@@ -12,7 +12,8 @@ You are free to use the language and framework of your choosing. You are also fr
     - Polished HTML 
     - Refactored code
     - No broken links or paths
-    - Good test coverage
+    - Good test coverage (SimpleCov)
+    - Good code quality (Rubocop)
     - Presentable
     - End user should never be confused or think "that's weird..."
 
@@ -31,3 +32,21 @@ Use the [Google Book API](https://developers.google.com/books/) to create an app
 - view a leader board that compares own number of books completed versus friends and everyone
 
 Email Elise for questions, ideas, or clarifications about this project. (<elise.worthy@adadevelopersacademy.org>)
+
+**adaTunes**
+Create an application that allows users to manage their music collection, where a user can:
+- create an account
+- select Albums that they own
+- create new Albums, Artists, and Tracks that aren't in the current system
+- create Playlists of their favorite Tracks
+- allow users to browse other Users' collections, Artist pages, and Albums
+
+Additional Possibilities:
+- output Playlists as a PDF
+- add a "Login With Twitter" feature with Devise
+- allow users to upload cover art using Carrierwave
+- use the Amazon-Album-Art gem to import cover images from Amazon
+
+
+
+
