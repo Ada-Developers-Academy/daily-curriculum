@@ -30,4 +30,4 @@ Use the [Google Book API](https://developers.google.com/books/) to create an app
 - share a book with a friend
 - view a leader board that compares own number of books completed versus friends and everyone
 
-Email ping or email Elise for questions, ideas, or clarifications about this project. (<elise.worthy@adadevelopersacademy.org>)
+Email Elise for questions, ideas, or clarifications about this project. (<elise.worthy@adadevelopersacademy.org>)
