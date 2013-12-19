@@ -20,7 +20,9 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 |:-----------------:|:------------------------------:|
 | **9:05 - 9:15**   | Stand Up                       |
 | **9:30 - 11:00**  | Recursion Lecture              |
-| **11:00 - 5:00*** | [Congo Project Time](congo.md) |
+| **11:00 - 2:00*** | [Congo Project Time](congo.md) |
+| **2:00 - 3:00**   | Guest - Jessica Locke          |
+| **3:00 - 5:00**   | [Congo Project Time](congo.md) |
 
 \* Take an hour lunch at any time
 
@@ -40,8 +42,7 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 | Time              | Topic                          |
 |:-----------------:|:------------------------------:|
 | **9:00 - 9:10**   | Stand Up                       |
-| **9:10 - 11:00**  | Metaprogamming Lecture         |
-| **11:00 - 5:00**  | [Congo Project Time](congo.md) |
+| **9:10 - 5:00***  | [Congo Project Time](congo.md) |
 
 
 \* Take an hour lunch at any time

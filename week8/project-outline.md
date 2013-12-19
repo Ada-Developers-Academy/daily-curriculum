@@ -36,7 +36,7 @@ Email Elise for questions, ideas, or clarifications about this project. (<elise.
 **adaTunes**
 Create an application that allows users to manage their music collection, where a user can:
 - create an account
-- select Albums that they own
+- select Albums that they own from a list in the existing system
 - create new Albums, Artists, and Tracks that aren't in the current system
 - create Playlists of their favorite Tracks
 - allow users to browse other Users' collections, Artist pages, and Albums
