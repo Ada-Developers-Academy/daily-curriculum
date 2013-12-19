@@ -10,19 +10,17 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 |:-----------------:|:------------------------------:|
 | **9:00 - 9:15**   | Stand Up                       |
 | **9:15 - 10:00**  | Project Time                   |
-| **10:00 - 11:45** | Guest Speaker - Rein Henrichs  |
-| **12:45 - 5:00**  | [Congo Project Time](congo.md) |
+| **10:30 - 11:30** | Guest Speaker - Rein Henrichs  |
+| **11:30 - 5:00**  | [Congo Project Time](congo.md) |
 
 
 ### Tuesday
 
 | Time              | Topic                          |
 |:-----------------:|:------------------------------:|
-| **9:00 - 9:20**   | Warm up Quiz                   |
-| **9:20 - 9:30**   | Stand Up                       |
+| **9:05 - 9:15**   | Stand Up                       |
 | **9:30 - 11:00**  | Recursion Lecture              |
-| **11:00 - 12:30** | Recursion Project              |
-| **12:30 - 5:00**  | [Congo Project Time](congo.md) |
+| **11:00 - 5:00*** | [Congo Project Time](congo.md) |
 
 \* Take an hour lunch at any time
 
@@ -50,9 +48,11 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 
 ### Friday
 
-| Time            | Topic                          |
-|:---------------:|:------------------------------:|
-| **9:00 - 9:10** | Stand up                       |
-| **9:20 - 5:00** | [Congo Project Time](congo.md) |
+| Time             | Topic                          |
+|:----------------:|:------------------------------:|
+| **9:00 - 9:10**  | Stand up                       |
+| **9:20 - 3:00*** | [Congo Project Time](congo.md) |
+| **3:00 - 4:00**  | Weekly Retrospective           |
+| **4:00 - 5:00**  | Holiday Cheer                  |
 
 \* Take an hour lunch at any time
