@@ -50,6 +50,7 @@ Additional Possibilities:
 - use the Amazon-Album-Art gem to import cover images from Amazon
 
 **Hands Up**
+
 Create an application that allows the class to simultaneously vote on a topic. Users can:
 - Sign up
 - Create a new topic
