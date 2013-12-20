@@ -66,8 +66,9 @@ This application is reletively small, consider using a 100% TDD approach and/or 
 
 Email Bookis for questions, ideas, or clarifications about this project. (<bookis@adadevelopersacademy.org>)
 
-**Marketing**
-Create an application that serves a single page to promote *something* (anything, a winnebego if nothing else). Focus on design and modern HTML/CSS techniques. Additionally, the application should record the number of visitors to the site. The database should record:
+**Marketer**
+
+Create an application that serves a single page to promote *something* (anything, a winnebago if nothing else). Focus on design and modern HTML/CSS techniques. Additionally, the application should record the number of visitors to the site. The database should record:
 - IP Address
 - Number of visits (update returning visitors)
 - If they are using a mobile device.
