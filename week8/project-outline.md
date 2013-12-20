@@ -66,5 +66,20 @@ This application is reletively small, consider using a 100% TDD approach and/or 
 
 Email Bookis for questions, ideas, or clarifications about this project. (<bookis@adadevelopersacademy.org>)
 
+**Marketing**
+Create an application that serves a single page to promote *something* (anything, http://www.gowinnebago.com if nothing else). Focus on design and modern HTML/CSS techniques. Additionally, the application should record the number of visitors to the site. The database should record:
+- IP Address
+- Number of visits (update returning visitors)
+- If they are using a mobile device.
 
+As the site owner you should be able to see a dashboard of the past 24 hours including:
+- The total number of visitors
+- The ratio of return visitors to new visitors
+- The ratio of mobile visitors to non-mobile visitors
 
+Additional Possibilities:
+- Implement javascript to do fancy things (fading in/out content, smooth scrolling, rotating images, etc...)
+- Capture additional data (browser, operating system, location)
+- Use javascript to capture when a user leaves the site and record the amount of time spent viewing the site.
+
+Email Bookis for questions, ideas, or clarifications about this project. (<bookis@adadevelopersacademy.org>)
