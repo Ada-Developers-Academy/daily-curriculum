@@ -21,13 +21,15 @@ You are free to use the language and framework of your choosing. You are also fr
 
 Sometimes it's difficult to think of *what* to build, so here are a few ideas of apps that you could build:
 
-**Holiday Reads** (Difficulty 4/5)
+**Holiday Reads**
 
 Use the [Google Book API](https://developers.google.com/books/) to create an application where a user can: 
 - create an account
 - search for and add friends by entering friend's email address or name
 - search for books by author or title
 - add a book to own wish list and/or completed list
+
+Additional Possibilities:
 - share a book with a friend
 - view a leader board that compares own number of books completed versus friends and everyone
 
@@ -47,6 +49,22 @@ Additional Possibilities:
 - allow users to upload cover art using Carrierwave
 - use the Amazon-Album-Art gem to import cover images from Amazon
 
+**Hands Up**
+Create an application that allows the class to simultaneously vote on a topic. Users can:
+- Sign up
+- Create a new topic
+- See a list of all open topics
+- Cast a single vote on the topic
+- See the results for any topic
+
+Additional Possibilities:
+- Use [Highcharts](http://highcharts.com) to graph the results.
+- Use AJAX to poll for changes when viewing results (changes would appear on the page without reloading)
+- Allow users to choose to vote anonymously. 
+
+This application is reletively small, consider using a 100% TDD approach and/or implement a stylized design.
+
+Email Bookis for questions, ideas, or clarifications about this project. (<bookis@adadevelopersacademy.org>)
 
 
 
