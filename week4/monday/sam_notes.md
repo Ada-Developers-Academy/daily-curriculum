@@ -1,3 +1,5 @@
+https://github.com/Ada-Developers-Academy/ada-hacking
+
 FizzBuzz
 - Introduce the problem
   http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html
