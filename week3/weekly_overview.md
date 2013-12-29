@@ -17,7 +17,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 | Time              | Topic                        |
 |:-----------------:|:-----------------------------|
-| **1:00 - 2:30**   | CSV Quiz                     |
+| **1:00 - 2:30**   | [CSV Quiz](https://canvas.instructure.com/courses/819456/quizzes/869881)|
 | **2:30 - 3:00**   | CSV Project Intro ([FarMarFinder](farmarfinder.md))      |
 | **3:00 - 3:30**   | Syncing project via Github   |
 | **3:30 - 5:00**   | [FarMarFinder](farmarfinder.md) Project Time                 |
