@@ -21,6 +21,8 @@ In week 7 we will focus on reinforcing the major components of Rails. Each day w
 | Time              | Topic                       |
 |:-----------------:|:----------------------------|
 | **9:00 - 9:20**   | Warm up Quiz                |
+| **10:00 - 11:20**   | [Nell Shamrell on Regular Expressions](https://www.bluebox.net/insight/blog-article/using-regular-expressions-in-ruby-part-1-of-3)                |
+| **11:30 - 5:00***   | [Congo Project Time](congo.md)                |
 
 
 
