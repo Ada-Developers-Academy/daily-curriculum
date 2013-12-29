@@ -2,6 +2,8 @@
 
 In week 7 we will focus on reinforcing the major components of Rails. Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Congo](congo.md), an online webstore for independent merchants to sell their goods.
 
+For additional resources on the topics covered this week see [weekly resources](resources.md)
+
 
 
 ### Monday
