@@ -1,8 +1,8 @@
 ## Week 7
 
-In week 7 we will focus on reinforcing the major components of Rails. Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Congo](congo.md), an online webstore for independent merchants to sell their goods.
+In week 7 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](rails-request-cycle.pdf). Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Congo](congo.md), an online webstore for independent merchants to sell their goods.
 
-For additional resources on the topics covered this week see [weekly resources](resources.md)
+For additional resources on the topics covered this week see [weekly resources](resources.md).
 
 
 
@@ -36,7 +36,7 @@ For additional resources on the topics covered this week see [weekly resources](
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
 | **9:20** - **11:00** | [Congo Project Time](congo.md)|
-| **11:00** - **12:00** |  Controllers         |
+| **11:00** - **12:00** |  [Controllers](wednesday/controllers.md)         |
 | **12:00** - **5:00** | [Congo Project Time](congo.md)|
 
 \* Take an hour lunch at any time
