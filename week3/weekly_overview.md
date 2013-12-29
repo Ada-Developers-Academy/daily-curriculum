@@ -1,5 +1,7 @@
 ## Week 3
 
+In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor, advanced variables, memoization, and Enumerable. For the project we will be building a pure ruby application backed by a CSV database.
+
 ### Monday
 #### Morning
 
@@ -7,8 +9,8 @@
 |:-----------------:|:-----------------------------|
 | **9:15 - 9:30**   | Standup                      |
 | **9:30 - 9:50**   | Week 2 Recap                 |
-| **9:50 - 10:30**  | Classes without attr_accessor|
-| **10:30 - 12:00** | Read from CSV                |
+| **9:50 - 10:30**  | [Classes without attr_accessor](monday/book.rb)|
+| **10:30 - 12:00** | [Read from CSV](monday/csv_database.md)                |
 
 
 #### Afternoon
@@ -16,11 +18,11 @@
 | Time              | Topic                        |
 |:-----------------:|:-----------------------------|
 | **1:00 - 2:30**   | CSV Quiz                     |
-| **2:30 - 3:00**   | CSV Project Intro ([FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder))      |
+| **2:30 - 3:00**   | CSV Project Intro ([FarMarFinder](farmarfinder.md))      |
 | **3:00 - 3:30**   | Syncing project via Github   |
-| **3:30 - 5:00**   | Project Time                 |
+| **3:30 - 5:00**   | [FarMarFinder](farmarfinder.md) Project Time                 |
 
-- [FarMarFinder](https://github.com/Ada-Developers-Academy/far_mar_finder) (Due 11/15/13)
+- [FarMarFinder](farmarfinder.md) (Due 11/15/13)
 
 ### Tuesday
 #### All Day
