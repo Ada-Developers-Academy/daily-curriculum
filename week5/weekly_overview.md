@@ -1,7 +1,7 @@
 ## Week 5
 In week 5 we will be learning the basics of HTML & CSS. By the end of the week we will style a single page website using the common HTML & CSS practices and deploy it to [Heroku](http://heroku.com). 
 
-Our learning will focus on the usage of basic HTML tags and their potential attributes. We will learn about CSS selectors, cascading rules, and common techniques for creating important web page elements.
+Our learning will focus on the usage of basic HTML tags and their potential attributes. We will learn about CSS selectors, cascading rules, and common techniques for creating important web page elements. For additional online resources see the [resources](resources.md) page.
 
 ### Monday
 
