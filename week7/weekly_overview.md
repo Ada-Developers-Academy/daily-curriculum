@@ -55,7 +55,8 @@ In week 7 we will focus on reinforcing the major components of Rails. Each day w
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| **9:20** - **10:30** | Views            |
+| <s>**9:20** - **10:30**</s> | <s>Views</s>            |
+| **9:20** - **10:30** | Sponsor panel discussion            |
 | **10:30** - **12:00** |  Andrew Gorcester [Lecture Notes](https://gist.github.com/andrewsg/7536050) [Slides](https://docs.google.com/presentation/d/1vbRhzHl5qiU1gBsbN2hYKFt5oai7rRSvalq8LxyeyEQ/edit?pli=1#slide=id.g299171fe2_0256) |
 | **12:00** - **5:00** | [Congo Project Time](congo.md)|
 
