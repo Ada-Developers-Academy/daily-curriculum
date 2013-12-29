@@ -127,10 +127,9 @@ In week 1 we  will focus on installing all of the development tools so that our 
 ### Afternoon
 
 | Time            | Topic                       |
-|:-----------------|:----------------------------|
-| **1:00 - 2:30** | Promoting Our Class         |
-| **2:30 - 3:30** | Week One Blog Post          |
-| **3:30 - 4:00** | Quiz                        |
+|:-----------------|:---------------------------|
+| **1:00 - 3:30** | [Blogs, community](friday/overview.md)|
+| **3:30 - 4:00** | [Quiz](https://docs.google.com/forms/d/1xO5JRrWSzDh4CqUCxjoVqIQ1jaolBre6Q0S7wWSuOQE/viewform)|
 | **4:00 - 5:00** | Week One Retro and Cupcakes |
 
 
