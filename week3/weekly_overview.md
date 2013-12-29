@@ -31,8 +31,8 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 |:-----------------:|:------------------|
 | **9:15 - 9:30**   | Standup           |
 | **9:30 - 10:00**  | [Advanced Hashes](tuesday/hashes.rb)   |
-| **10:00 - 10:30** | [Hash Quiz](https://canvas.instructure.com/courses/819456/quizzes/871387)         |
-| **11:00 - 11:30***| [FarMarFinder](farmarfinder.md) Q&A       |
+| **10:00 - 10:30** | [Hash Quiz](https://canvas.instructure.com/courses/819456/quizzes/871387)|
+| **11:00 - 11:30**| [FarMarFinder](farmarfinder.md) Q&A |
 | **11:30 - 5:00*** | [FarMarFinder](farmarfinder.md) Project Time      |
 
 *Take an hour lunch at any time
