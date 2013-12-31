@@ -8,6 +8,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
     - Scopes of all variable types (local, instance, global, etc...)
     - Performance with memoization
     - Enumerable methods
+- Unit testing your application with Rspec
 - Build a CSV backed ruby application
 - Practice pair programming
 - Collaborate on code via [Github](http://github.com)
