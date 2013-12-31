@@ -39,7 +39,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | * 90 min *  | Introduction to [*nix](monday/nix.md)    |
 | * 45 min *  | Introduction to [Ruby](monday/ruby_101.md)    |
 
-#### Homework
+**Homework**
 
 + Read and work through:
   + http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/
@@ -62,18 +62,18 @@ In week 1 we  will focus on installing all of the development tools so that our 
 #### Morning
 | Time              | Topic                             |
 |:-------------------|:----------------------------------|
-| **9:15 - 9:30**   | [Standup](tuesday/standup.md)                           |
+| **9:15 - 9:30**   | [Standup](tuesday/standup.md) |
 | **9:30 - 11:30**  | Recap and Introduction to Sublime |
-| **11:30 - 12:30** | [Rails Bridge Part I](tuesday/railsbridge-setup.md)               |
+| **11:30 - 12:30** | [Rails Bridge Part I](tuesday/railsbridge-setup.md)|
 
 
 #### Afternoon
 | Time             | Topic                |
 |:------------------|:------------------   |
-| **1:30 - ??? **  | [Rails Bridge Part II](http://docs.railsbridge.org/intro-to-rails/) |
-| **??? - 5:00 **  | [Git Immersion](tuesday/git_immersion.md) lab    |
+| **1:30 - 3:30 **  | [Rails Bridge Part II](http://docs.railsbridge.org/intro-to-rails/) |
+| **3:30 - 5:00 **  | [Git Immersion](tuesday/git_immersion.md) lab    |
 
-#### Homework
+**Homework**
 
 - Read chapters 2-5 of Learn to Program.
 - Create a directory called `ltp_5_6` and initialize it into a git repo.
@@ -95,6 +95,15 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | Time             | Topic               |
 |:------------------|:--------------------|
 | **1:30 - 5:00 ** | [Adventure Game lab](wednesday/flow-control.pdf)  |
+
+**Homework**
++ Read through Chapter 2 of Beginning Ruby
++ Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com))
++ Write down the three stand up question
+
+**Feeling adventurous?**
+
++ Create an Adventure story (similar to [story.rb](resources/story.rb))
 
 ---
 
