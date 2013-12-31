@@ -1,5 +1,5 @@
-Week One
-========
+#Week One
+
 In week 1 we  will focus on installing all of the development tools so that our local environment is setup work with ruby and rails application using agile development methodologies.
 
 ## Goals
@@ -31,7 +31,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | **9:00 - 9:30**   | Welcome from the Ada Steering Committee |
 | **9:30 - 10:00**  | [The Run Around Game & Sekrit Handshakes](monday/get-to-know-you-games.md) |
 | **10:00 - 10:30** | Overview of the program                 |
-| **10:30 - 12:30** | [Installfest](monday/installfest.md)                             |
+| **10:30 - 12:30** | [Installfest](monday/installfest.md)    |
 
 | Time        | Topic                   |
 |:------------ |:------------------------|
