@@ -7,18 +7,18 @@ In week 1 we  will focus on installing all of the development tools so that our 
 + introduction to the program
 + Working Ruby development environment
 + introduction to Agile practices
-  + pairing
-  + daily stand-up
-  + iterations
-  + retrospectives
+    + pairing
+    + daily stand-up
+    + iterations
+    + retrospectives
 + comfort with basic UNIX command-line skills
-  + navigation
-  + file manipulation
-  + grep
-  + man pages
-  + hidden files
-  + permissions
-  + modifying your terminal
+    + navigation
+    + file manipulation
+    + grep
+    + man pages
+    + hidden files
+    + permissions
+    + modifying your terminal
 + basic git commands
 + Ruby 101
 
@@ -33,6 +33,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | **10:00 - 10:30** | Overview of the program                 |
 | **10:30 - 12:30** | [Installfest](monday/installfest.md)    |
 
+#### Afternoon
 | Time        | Topic                   |
 |:------------ |:------------------------|
 | **1:30...** | [Installfest](monday/installfest.md) part 2!     |
@@ -120,6 +121,11 @@ In week 1 we  will focus on installing all of the development tools so that our 
 |:-----------------|:----------------------------|
 | **1:30 - 4:30** | Adventure Game lab part 2. Page 149-158 in Beginning Ruby   |
 | **4:30 - 5:00** | Set-up Daily Reactions repo |
+
+**Homework**
+* Work through Chapters 7, 8 of Learn to Program
+* Stand up questions!
+* More Git Immersion (upto lab 25)
 
 ---
 
