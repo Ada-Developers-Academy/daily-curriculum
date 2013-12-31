@@ -1,5 +1,5 @@
-Week One
-========
+#Week One
+
 In week 1 we  will focus on installing all of the development tools so that our local environment is setup work with ruby and rails application using agile development methodologies.
 
 ## Goals
@@ -7,20 +7,31 @@ In week 1 we  will focus on installing all of the development tools so that our 
 + introduction to the program
 + Working Ruby development environment
 + introduction to Agile practices
-  + pairing
-  + daily stand-up
-  + iterations
-  + retrospectives
+    + pairing
+    + daily stand-up
+    + iterations
+    + retrospectives
 + comfort with basic UNIX command-line skills
-  + navigation
-  + file manipulation
-  + grep
-  + man pages
-  + hidden files
-  + permissions
-  + modifying your terminal
-+ basic git commands
-+ Ruby 101
+    + navigation
+    + file manipulation
+    + grep
+    + man pages
+    + hidden files
+    + permissions
+    + modifying your terminal
++ Ruby history & background
++ Learning basic ruby concepts
+    - irb
+    - Methods
+    - Iterators
+    - Variables
+    - Conditionals
+    - Object Orientation
++ Learn about basic tools
+    - Text Editors (Sublime)
+    - Git
+    - Terminal
++ Discuss whis is Ada?
 
 ## Schedule 
 ### Monday, October 28
@@ -31,15 +42,16 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | **9:00 - 9:30**   | Welcome from the Ada Steering Committee |
 | **9:30 - 10:00**  | [The Run Around Game & Sekrit Handshakes](monday/get-to-know-you-games.md) |
 | **10:00 - 10:30** | Overview of the program                 |
-| **10:30 - 12:30** | [Installfest](monday/installfest.md)                             |
+| **10:30 - 12:30** | [Installfest](monday/installfest.md)    |
 
+#### Afternoon
 | Time        | Topic                   |
 |:------------ |:------------------------|
 | **1:30...** | [Installfest](monday/installfest.md) part 2!     |
 | * 90 min *  | Introduction to [*nix](monday/nix.md)    |
 | * 45 min *  | Introduction to [Ruby](monday/ruby_101.md)    |
 
-#### Homework
+**Homework**
 
 + Read and work through:
   + http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/
@@ -62,18 +74,18 @@ In week 1 we  will focus on installing all of the development tools so that our 
 #### Morning
 | Time              | Topic                             |
 |:-------------------|:----------------------------------|
-| **9:15 - 9:30**   | [Standup](tuesday/standup.md)                           |
+| **9:15 - 9:30**   | [Standup](tuesday/standup.md) |
 | **9:30 - 11:30**  | Recap and Introduction to Sublime |
-| **11:30 - 12:30** | [Rails Bridge Part I](tuesday/railsbridge-setup.md)               |
+| **11:30 - 12:30** | [Rails Bridge Part I](tuesday/railsbridge-setup.md)|
 
 
 #### Afternoon
 | Time             | Topic                |
 |:------------------|:------------------   |
-| **1:30 - ??? **  | [Rails Bridge Part II](http://docs.railsbridge.org/intro-to-rails/) |
-| **??? - 5:00 **  | [Git Immersion](tuesday/git_immersion.md) lab    |
+| **1:30 - 3:30 **  | [Rails Bridge Part II](http://docs.railsbridge.org/intro-to-rails/) |
+| **3:30 - 5:00 **  | [Git Immersion](tuesday/git_immersion.md) lab    |
 
-#### Homework
+**Homework**
 
 - Read chapters 2-5 of Learn to Program.
 - Create a directory called `ltp_5_6` and initialize it into a git repo.
@@ -88,13 +100,21 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | Time              | Topic     |
 |:-------------------|:----------|
 | **9:15 - 9:30**   | Standup   |
-| **9:30 - 10:30**  | Git Recap |
-| **10:30 - 12:30** | [Ruby 102](wednesday/ruby-102.pdf)  |
+| **9:30 - 12:30** | [Ruby 102](wednesday/ruby-102.pdf) |
 
 #### Afternoon
 | Time             | Topic               |
 |:------------------|:--------------------|
 | **1:30 - 5:00 ** | [Adventure Game lab](wednesday/flow-control.pdf)  |
+
+**Homework**
++ Read through Chapter 2 of Beginning Ruby
++ Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com))
++ Write down the three stand up question
+
+**Feeling adventurous?**
+
++ Create an Adventure story (similar to [story.rb](resources/story.rb))
 
 ---
 
@@ -109,27 +129,51 @@ In week 1 we  will focus on installing all of the development tools so that our 
 #### Afternoon
 | Time            | Topic                       |
 |:-----------------|:----------------------------|
-| **1:30 - 4:30** | Adventure Game lab part 2. Page 149-158 in Beginning Ruby   |
-| **4:30 - 5:00** | Set-up Daily Reactions repo |
+| **1:30 - 5:00** | Adventure Game lab part 2. Page 149-158 in Beginning Ruby   |
+
+**Homework**
+* Work through Chapters 7, 8 of Learn to Program
+* Stand up questions!
+* More Git Immersion (upto lab 25)
 
 ---
 
-### Morning
+
+### Friday
+#### Morning
 
 | Time              | Topic            |
 |:-------------------|:-----------------|
 | **9:15 - 9:30**   | [Standup](friday/standup.md) |
 | **9:30 - 11:30**  | Ruby 103 - Files |
-| **9:30 - 11:30**  | [More on Conditionals](friday/more_on_conditionals.md) |
-| **11:30 - 12:00** | PB & Jelly game  |
-| **12:00 - 1:00**  | Staff Meeting    |
+| **9:30 - 12:00**  | [More on Conditionals](friday/more_on_conditionals.md) |
+| **12:00 - 1:00**  | Lunch    |
 
-### Afternoon
+#### Afternoon
 
 | Time            | Topic                       |
 |:-----------------|:---------------------------|
-| **1:00 - 3:30** | [Blogs, community](friday/overview.md)|
+| **1:00 - 3:30** | [Blogs, community](who-we-are.md)|
 | **3:30 - 4:00** | [Quiz](https://docs.google.com/forms/d/1xO5JRrWSzDh4CqUCxjoVqIQ1jaolBre6Q0S7wWSuOQE/viewform)|
-| **4:00 - 5:00** | Week One Retro and Cupcakes |
+| **4:00 - 5:00** | [Week One Retro and Cupcakes](who-we-are.md) |
+
+**Homework**
++ Browse http://ruby-doc.org pages for Array and Hash
+  + find 2 interesting methods, play around with them in IRB, and learn how they work (remember that its ok to Google!)
+  + be prepared to do a 5 minute presentation to a small group on Monday
++ read this about Arrays: http://ruby.learncodethehardway.org/book/ex34.html
++ Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com))
++ Write down the three stand up questions
++ Write your first blog post
+  - In 3 weeks, you'll have a Sinatra blog
+  - Let's create some content to prepare!
+  - Approximately 500 - 1500 words
+  - Might want to write it in [Evernote](http://evernote.com) or save it in 
+  a "blogs" directory to easily access it- DO NOT SAVE IT IN YOUR DAILY CURRICULUM REPO.
+  - Extra credit: try writing it in [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
+  - Blog Ideas:
+    - What was the hardest problem you encountered this week?
+    - What got you really fired up?
+    - You've just finished your first week as a professional programmer. How does it feel?
 
 
