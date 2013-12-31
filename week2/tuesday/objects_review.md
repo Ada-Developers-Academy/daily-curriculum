@@ -35,7 +35,10 @@ What's an Object?
 
 An Object is a collection of data attributes and actions that are related. It is an **abstraction** that let's us deal with *concepts*.
 
-*review baker, dog, and snake*
+[baker](resources/basic_objects/baker.rb)
+[oven](resources/basic_objects/oven.rb)
+[dog](resources/basic_objects/dog.rb)
+[snake](resources/basic_objects/snake.rb)
 
 !SLIDE text-size-80 title-and-content transition=fade
 

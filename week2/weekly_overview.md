@@ -1,81 +1,92 @@
 # Week 2
-## Monday
-### Morning
 
-| Time              | Topic                   |
-|:------------------|:------------------------|
-| **9:15 - 9:30**   | Standup                 |
-| **9:30 - 9:50**   | "Come to my party!"     |
-| **9:50 - 10:30**  | Presentations           |
-| **10:30 - 11:00** | Week 1 Recap            |
-| **11:00 - 12:30** | Ice Cream Party Planner | 
+In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
 
-### Afternoon
+## Goals
+- learn core Ruby concepts
+    - Objects
+    - Object Inheritance
+- solidify our knowledge of Strings, Arrays, and Hashes
+- explore Date and Time classes
+
+## Schedule
+### Monday
+#### Morning
+
+| Time              | Topic                                       |
+|:------------------|:-------------------------------------------:|
+| **9:15 - 9:30**   | Standup                                     |
+| **9:30 - 9:50**   | ["Come to my party!"](monday/come_to_my_party.md)  |
+| **9:50 - 10:30**  | Presentations                               |
+| **10:30 - 11:00** | [Week 1 Recap](monday/recap.md)                    |
+| **11:00 - 12:30** | [Ice Cream Party Planner](resources/ice_cream_party_planner/README.md) | 
+
+#### Afternoon
 
 | Time            | Topic         |
 |:----------------|:--------------|
-| **1:30 - 5:00** | Text Analyzer |
+| **1:30 - 5:00** | Text Analyzer from Beginning Ruby -- [example code](resources/text_analyzer/analyzer) |
 
-## Tuesday
-### Morning
-| Time              | Topic           |
-|:------------------|:----------------|
-| **9:15 - 9:30**   | Standup         |
-| **9:30 - 10:30**  | Object Review   |
-| **10:30 - 11:00** | Homework Review |
-| **11:00 - 12:00** | Project Time    |
 
-### Afternoon
+### Tuesday
+#### Morning
+| Time              | Topic                                      |
+|:------------------|:------------------------------------------:|
+| **9:15 - 9:30**   | Standup                                    |
+| **9:30 - 10:30**  | [Object Review](tuesday/objects_review.md) |
+| **10:30 - 11:00** | Homework Review                            |
+| **11:00 - 12:00** | Project Time *last slide of [Object Review](tuesday/objects_review.md)* |
+
+#### Afternoon
 
 | Time            | Topic                                  |
 |:----------------|:---------------------------------------|
 | **1:00 - 5:00** | Orange Tree (from L2P) or Hangman game |
 
-## Wednesday
-### Morning
+
+### Wednesday
+#### Morning
 | Time              | Topic                    |
 |:------------------|:-------------------------|
 | **9:15 - 9:30**   | Standup                  |
-| **9:30 - 10:00**  | Seattle.rb Retrospective |
-| **10:00 - 11:00** | Objects Using Objects    |
-| **11:00 - 11:30** | Gems - "Colorize"        |
-| **11:30 - 12:00** | Project Time             |
+| **9:30 - 10:30**  | Seattle.rb Retrospective |
+| **10:30 - 11:30** | [Objects Using Objects](wednesday/objects_using_objects.md) |
+| **11:30 - 12:30** | [Solar System Project](resources/solar_systems/README.md) |
 
-### Afternoon
+#### Afternoon
 
 | Time            | Topic        |
 |:----------------|:-------------|
-| **1:00 - 2:00** | Quiz         |
-| **2:00 - 5:00** | Project Time |
+| **1:30 - 2:30** | [Quiz](https://canvas.instructure.com/courses/819456/quizzes/866384) |
+| **2:00 - 5:00** | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
 
 
-## Thursday
-### Morning
+### Thursday
+#### Morning
 
 | Time              | Topic              |
 |:------------------|:-------------------|
 | **9:15 - 9:30**   | Standup            |
-| **9:30 - 10:00**  | Gems - "Colorize"  |
-| **10:00 - 10:30** | Project Time       |
-| **10:30 - 11:30** | Object Inheritance |
-| **11:30 - 12:00** | Project Time       |
+| **9:30 - 10:30**  | [Gems - "Colorize"](https://github.com/fazibear/colorize) |
+| **10:00 - 10:30** | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
+| **10:30 - 11:30** | [Object Inheritance](thursday/inheritance.md) |
+| **11:30 - 12:00** | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
 
-### Afternoon
+#### Afternoon
 
 | Time            | Topic        |
 |:----------------|:-------------|
-| **1:00 - 5:00** | Project Time |
+| **1:00 - 5:00** | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
 
-## Friday
-### Morning
-| Time              | Topic           |
-|:------------------|:----------------|
-| **9:15 - 9:30**   | Standup         |
-| **9:30 - 10:30**  | Dates and Times |
-| **10:30 - 11:00** | Methods         |
-| **11:00 - 12:00** | Project Time    |
+### Friday
+#### Morning
+| Time              | Topic                                          |
+|:------------------|:----------------------------------------------:|
+| **9:15 - 9:30**   | Standup                                        |
+| **9:30 - 10:30**  | Dates and Times (IRB exploration)              |
+| **10:30 - 12:00** | [Sorting Hat](resources/sorting_hat/README.md) |
 
-### Afternoon
+#### Afternoon
 
 | Time            | Topic                                           |
 |:----------------|:------------------------------------------------|
