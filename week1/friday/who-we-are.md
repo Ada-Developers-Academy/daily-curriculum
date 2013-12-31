@@ -1,28 +1,3 @@
-!SLIDE transition=fade 
-
-Friday, November 1
-==================
-### Morning
-
-| Time              | Topic            |
-:-------------------|:-----------------|
-| **9:15 - 9:30**   | Standup          |
-| **9:30 - 11:30**  | Ruby 103 - Files |
-| **11:30 - 12:00** | PB & Jelly game  |
-| **12:00 - 1:00**  | Staff Meeting    |
-
-### Afternoon
-
-| Time            | Topic                       |
-:-----------------|:----------------------------|
-| **1:00 - 2:30** | Promoting Our Class         |
-| **2:30 - 3:30** | Week One Blog Post          |
-| **3:30 - 4:00** | Quiz                        |
-| **4:00 - 5:00** | Week One Retro and Cupcakes |
-
-
-!SLIDE center transition=fade
- 
 Oh, hello! 
 ================
 ![hello](/images/hello.gif) 
