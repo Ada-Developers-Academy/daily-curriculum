@@ -139,4 +139,4 @@ Now the `require_login` method defined in the `ApplicationController` will run b
 [Filters guide](http://guides.rubyonrails.org/action_controller_overview.html#filters)
 
 
-![Rails Request Cycle](../rails-request-cycle.pdf)
+![Rails Request Cycle](../resources/rails-request-cycle.pdf)
