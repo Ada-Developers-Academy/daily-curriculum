@@ -11,7 +11,7 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 | **9:00 - 9:15**   | Stand Up                       |
 | **9:15 - 10:00**  | Project Time                   |
 | **10:30 - 11:30** | Guest Speaker - Rein Henrichs  |
-| **11:30 - 5:00**  | [Congo Project Time](congo.md) |
+| **11:30 - 5:00**  | [Congo Project Time](resources/congo.md) |
 
 
 ### Tuesday
@@ -20,9 +20,9 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 |:-----------------:|:------------------------------:|
 | **9:05 - 9:15**   | Stand Up                       |
 | **9:30 - 11:00**  | Recursion Lecture              |
-| **11:00 - 2:00*** | [Congo Project Time](congo.md) |
+| **11:00 - 2:00*** | [Congo Project Time](resources/congo.md) |
 | **2:00 - 3:00**   | Guest - Jessica Locke          |
-| **3:00 - 5:00**   | [Congo Project Time](congo.md) |
+| **3:00 - 5:00**   | [Congo Project Time](resources/congo.md) |
 
 \* Take an hour lunch at any time
 
@@ -32,7 +32,7 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 | Time            | Topic                          |
 |:---------------:|:------------------------------:|
 | **9:00 - 9:10** | Stand up                       |
-| **9:20 - 5:00** | [Congo Project Time](congo.md) |
+| **9:20 - 5:00** | [Congo Project Time](resources/congo.md) |
 
 
 \* Take an hour lunch at any time
@@ -42,7 +42,7 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 | Time              | Topic                          |
 |:-----------------:|:------------------------------:|
 | **9:00 - 9:10**   | Stand Up                       |
-| **9:10 - 5:00***  | [Congo Project Time](congo.md) |
+| **9:10 - 5:00***  | [Congo Project Time](resources/congo.md) |
 
 
 \* Take an hour lunch at any time
@@ -52,7 +52,7 @@ In Week 8 we will continue working in groups of 4 on the Congo project introduce
 | Time             | Topic                          |
 |:----------------:|:------------------------------:|
 | **9:00 - 9:10**  | Stand up                       |
-| **9:20 - 3:00*** | [Congo Project Time](congo.md) |
+| **9:20 - 3:00*** | [Congo Project Time](resources/congo.md) |
 | **3:00 - 4:00**  | Weekly Retrospective           |
 | **4:00 - 5:00**  | Holiday Cheer                  |
 
