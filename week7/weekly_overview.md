@@ -1,11 +1,22 @@
-## Week 7
+# Week 7
 
-In week 7 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](resources/rails-request-cycle.pdf). Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Congo](resources/congo.md), an online webstore for independent merchants to sell their goods.
+In week 7 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](resources/rails-request-cycle.pdf). Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Congo](resources/congo.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced the rails stack.
 
-For additional resources on the topics covered this week see [weekly resources](resources/resources.md).
+## Goals 
+
+- Learn about the major components of a rails app
+    - Routing
+    - Controllers
+    - Models
+    - <s>Views</s>
+- Practice implementing features within a rails app
+- Intro to rspec in rails
+- Use project managment software
+- Use agile development practices in a group of four
+- Learn and practice regular expressions
 
 
-
+## Schedule
 ### Monday
 
 | Time              | Topic               |
@@ -63,3 +74,6 @@ For additional resources on the topics covered this week see [weekly resources](
 | **12:00** - **5:00** | [Congo Project Time](resources/congo.md)|
 
 \* Take an hour lunch at any time
+
+## Resources
+For additional resources on the topics covered this week see [weekly resources](resources/resources.md).
