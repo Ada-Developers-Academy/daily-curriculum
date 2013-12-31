@@ -19,8 +19,19 @@ In week 1 we  will focus on installing all of the development tools so that our 
     + hidden files
     + permissions
     + modifying your terminal
-+ basic git commands
-+ Ruby 101
++ Ruby history & background
++ Learning basic ruby concepts
+    - irb
+    - Methods
+    - Iterators
+    - Variables
+    - Conditionals
+    - Object Orientation
++ Learn about basic tools
+    - Text Editors (Sublime)
+    - Git
+    - Terminal
++ Discuss whis is Ada?
 
 ## Schedule 
 ### Monday, October 28
@@ -89,8 +100,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | Time              | Topic     |
 |:-------------------|:----------|
 | **9:15 - 9:30**   | Standup   |
-| **9:30 - 10:30**  | Git Recap |
-| **10:30 - 12:30** | [Ruby 102](wednesday/ruby-102.pdf)  |
+| **9:30 - 12:30** | [Ruby 102](wednesday/ruby-102.pdf) |
 
 #### Afternoon
 | Time             | Topic               |
@@ -119,8 +129,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 #### Afternoon
 | Time            | Topic                       |
 |:-----------------|:----------------------------|
-| **1:30 - 4:30** | Adventure Game lab part 2. Page 149-158 in Beginning Ruby   |
-| **4:30 - 5:00** | Set-up Daily Reactions repo |
+| **1:30 - 5:00** | Adventure Game lab part 2. Page 149-158 in Beginning Ruby   |
 
 **Homework**
 * Work through Chapters 7, 8 of Learn to Program
@@ -129,23 +138,24 @@ In week 1 we  will focus on installing all of the development tools so that our 
 
 ---
 
-### Morning
+
+### Friday
+#### Morning
 
 | Time              | Topic            |
 |:-------------------|:-----------------|
 | **9:15 - 9:30**   | [Standup](friday/standup.md) |
 | **9:30 - 11:30**  | Ruby 103 - Files |
-| **9:30 - 11:30**  | [More on Conditionals](friday/more_on_conditionals.md) |
-| **11:30 - 12:00** | PB & Jelly game  |
-| **12:00 - 1:00**  | Staff Meeting    |
+| **9:30 - 12:00**  | [More on Conditionals](friday/more_on_conditionals.md) |
+| **12:00 - 1:00**  | Lunch    |
 
-### Afternoon
+#### Afternoon
 
 | Time            | Topic                       |
 |:-----------------|:---------------------------|
-| **1:00 - 3:30** | [Blogs, community](friday/overview.md)|
+| **1:00 - 3:30** | [Blogs, community](who-we-are.md)|
 | **3:30 - 4:00** | [Quiz](https://docs.google.com/forms/d/1xO5JRrWSzDh4CqUCxjoVqIQ1jaolBre6Q0S7wWSuOQE/viewform)|
-| **4:00 - 5:00** | Week One Retro and Cupcakes |
+| **4:00 - 5:00** | [Week One Retro and Cupcakes](who-we-are.md) |
 
 **Homework**
 + Browse http://ruby-doc.org pages for Array and Hash
