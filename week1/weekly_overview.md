@@ -75,14 +75,15 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | Time              | Topic                             |
 |:-------------------|:----------------------------------|
 | **9:15 - 9:30**   | [Standup](tuesday/standup.md) |
-| **9:30 - 11:30**  | Recap and Introduction to Sublime |
+| **9:30 - 11:30**  | [Introduction to Sublime](http://docs.sublimetext.info/en/sublime-text-2/editing/editing.html) |
 | **11:30 - 12:30** | [Rails Bridge Part I](tuesday/railsbridge-setup.md)|
 
 
 #### Afternoon
 | Time             | Topic                |
-|:------------------|:------------------   |
+|:------------------|:------------------|
 | **1:30 - 3:30 **  | [Rails Bridge Part II](http://docs.railsbridge.org/intro-to-rails/) |
+
 | **3:30 - 5:00 **  | [Git Immersion](tuesday/git_immersion.md) lab    |
 
 **Homework**
@@ -108,6 +109,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | **1:30 - 5:00 ** | [Adventure Game lab](wednesday/flow-control.pdf)  |
 
 **Homework**
+
 + Read through Chapter 2 of Beginning Ruby
 + Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com))
 + Write down the three stand up question
@@ -145,7 +147,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | Time              | Topic            |
 |:-------------------|:-----------------|
 | **9:15 - 9:30**   | [Standup](friday/standup.md) |
-| **9:30 - 11:30**  | Ruby 103 - Files |
+| **9:30 - 11:30**  | Ruby 103 - [Files](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-working-with-directories-and-files/) |
 | **9:30 - 12:00**  | [More on Conditionals](friday/more_on_conditionals.md) |
 | **12:00 - 1:00**  | Lunch    |
 
@@ -158,22 +160,22 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | **4:00 - 5:00** | [Week One Retro and Cupcakes](who-we-are.md) |
 
 **Homework**
+
 + Browse http://ruby-doc.org pages for Array and Hash
-  + find 2 interesting methods, play around with them in IRB, and learn how they work (remember that its ok to Google!)
-  + be prepared to do a 5 minute presentation to a small group on Monday
+    + find 2 interesting methods, play around with them in IRB, and learn how they work (remember that its ok to Google!)
+    + be prepared to do a 5 minute presentation to a small group on Monday
 + read this about Arrays: http://ruby.learncodethehardway.org/book/ex34.html
 + Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com))
 + Write down the three stand up questions
 + Write your first blog post
-  - In 3 weeks, you'll have a Sinatra blog
-  - Let's create some content to prepare!
-  - Approximately 500 - 1500 words
-  - Might want to write it in [Evernote](http://evernote.com) or save it in 
-  a "blogs" directory to easily access it- DO NOT SAVE IT IN YOUR DAILY CURRICULUM REPO.
-  - Extra credit: try writing it in [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
-  - Blog Ideas:
-    - What was the hardest problem you encountered this week?
-    - What got you really fired up?
-    - You've just finished your first week as a professional programmer. How does it feel?
+    - In 3 weeks, you'll have a Sinatra blog
+    - Let's create some content to prepare!
+    - Approximately 500 - 1500 words
+    - Might want to write it in [Evernote](http://evernote.com) or save it in a "blogs" directory to easily access it- DO NOT SAVE IT IN YOUR DAILY CURRICULUM REPO.
+    - Extra credit: try writing it in [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction)
+    - Blog Ideas:
+        - What was the hardest problem you encountered this week?
+        - What got you really fired up?
+        - You've just finished your first week as a professional programmer. How does it feel?
 
 
