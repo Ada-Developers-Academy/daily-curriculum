@@ -72,12 +72,12 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 ### Friday
 
-| Time              | Topic                                     |
-|:-----------------:|:-----------------------------------------:|
-| **9:00 - 9:15**   | Stand Up                                  |
-| **9:15 - 11:00**  | [Persistence Layer/DBs](friday/databases) |
-| **11:30 - 4:00*** | [Sinatra Practice](friday/sinatra_practice/sinatra-practice-overview.md) |
-| **4:00 - 5:00**   | Week in Review                            |
+| Time              | Topic                                                   |
+|:-----------------:|:-------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                |
+| **9:15 - 11:00**  | [Persistence Layer/DBs](friday/databases)               |
+| **11:30 - 4:00*** | [Sinatra Practice](friday/sinatra-practice-overview.md) |
+| **4:00 - 5:00**   | Week in Review                                          |
 
 Homework:
 
