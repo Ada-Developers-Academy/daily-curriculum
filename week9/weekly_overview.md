@@ -57,5 +57,6 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
-| **9:30 - 11:15**  | [What to spec?](friday/what-to-spec.md)        |
+| **9:30 - 11:00**  | [What to spec?](friday/what-to-spec.md)        |
+| **11:00 - 12:00**  | [Comprehension Test](https://canvas.instructure.com/courses/819456/quizzes/891812)        |
 | **11:15 - 5:00**  | [Media Tracker](resources/media_tracker.md)          |
