@@ -39,7 +39,7 @@ ps. the stack trace is the same thing we see in our console, development logs, o
 \* *This is a pretty crude description, but it illustrates what is happening*
 ### Debugging state
 
-At any given moment running code has some definit state. If we were to stop code in it's tracks, there would be available variables that have some value, as well as the current object in memory i.e. `self`. Learning to figure out what the exact state of the application is when an error occurs is the best way to solve the problem. We've seen a few debugging techniques to determine the state of an application at a certain point in the code, using `raise`, `puts`, and `inspect`.
+At any given moment running code has some definite state. If we were to stop code in it's tracks, there would be available variables that have some value, as well as the current object in memory i.e. `self`. Learning to figure out what the exact state of the application is when an error occurs is the best way to solve the problem. We've seen a few debugging techniques to determine the state of an application at a certain point in the code, using `raise`, `puts`, and `inspect`.
 
 `better_errors` provides a very powerful tool to help with this during an error. Using the "live shell" we can type into this console to interact, query, and inspect all of the variables, objects, and methods available at the state when the error happened.
 
