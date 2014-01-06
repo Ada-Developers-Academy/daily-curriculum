@@ -24,7 +24,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **10:00 - 10:15**   | [Media Ranker Overview](resources/media_ranker.md) |
 | **10:15 - 11:15**  | [Rails request state](monday/rails-request-state.md)        |
 | **12:15 - 1:15**  | [Rails RESTful Routes](monday/restful-routes.md)        |
-| **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
+| **1:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
 ### Tuesday
 
