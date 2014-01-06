@@ -48,9 +48,9 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | **9:00 - 9:45**   | Morning Warmup -- [Dice](resources/dice/README.md) |
 | **9:45 - 10:00**  | Stand Up                                           |
 | **10:00 - 11:30** | [Intro to HTTP, Clients, & Servers](wednesday/lecture_networking) |
-| **11:30 - 1:30*** | Project Time - Blog                                |
+| **11:30 - 1:30*** | Project Time - Blog - *Sinatra: Up & Running -- Chapter 5* |
 | **1:30 - 2:30**   | [Status Codes, DSLs, Routes](wednesday/lecture_networking) |
-| **2:30 - 5:00**   | Project time - Blog                                |
+| **2:30 - 5:00**   | Project Time - Blog - *Sinatra: Up & Running -- Chapter 5* |
 
 \* Take an hour lunch at any time
 
@@ -63,21 +63,21 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | **9:45 - 10:00**  | Stand Up                       |
 | **10:00 - 10:30** | [Rubocop](thursday/rubocop.md) |
 | **10:30 - 11:30** | Views and Forms                |
-| **11:30 - 1:30*** | Project Time - Blog            |
+| **11:30 - 1:30*** | Project Time - Blog - *Sinatra: Up & Running -- Chapter 5* |
 | **1:30 - 2:00**   | [Quiz](https://canvas.instructure.com/courses/819456/quizzes/875803) |
-| **2:00 - 5:00**   | Pair Project Time        |
+| **2:00 - 5:00**   | Project Time - [Sinatra Dice](resources/sinatra-dice) |
 
 \* Take an hour lunch at any time
 
 
 ### Friday
 
-| Time              | Topic                                     |
-|:-----------------:|:-----------------------------------------:|
-| **9:00 - 9:15**   | Stand Up                                  |
-| **9:15 - 11:00**  | [Persistence Layer/DBs](friday/databases) |
-| **11:30 - 4:00*** | [Sinatra Practice](friday/sinatra_practice/sinatra-practice-overview.md) |
-| **4:00 - 5:00**   | Week in Review                            |
+| Time              | Topic                                                   |
+|:-----------------:|:-------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                |
+| **9:15 - 11:00**  | [Persistence Layer/DBs](friday/databases)               |
+| **11:30 - 4:00*** | [Sinatra Practice](friday/sinatra-practice-overview.md) |
+| **4:00 - 5:00**   | Week in Review                                          |
 
 Homework:
 
