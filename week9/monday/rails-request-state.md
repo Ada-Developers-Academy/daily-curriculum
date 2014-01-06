@@ -4,7 +4,7 @@ This lesson will describe the practice of tracking and identifying the state and
 
 ### Better Errors
 
-We will start by adding a tool to allow rails to generate better errors for us. The [Better_errors](https://github.com/charliesome/better_errors) will change the error page to be much more descriptive and add a "live shell" to inspect the objects currently in memory and scope at the time of the error. To add this functionality to any rails app just add the following to the `Gemfile`
+We will start by adding a tool to allow rails to generate better errors for us. The [Better_errors](https://github.com/charliesome/better_errors) gem will change the rails error page to be much more descriptive and add a "live shell" to inspect the objects currently in memory and scope at the time of the error. To add this functionality to any rails app just add the following to the `Gemfile`
 
     group :development do
       gem "better_errors"
