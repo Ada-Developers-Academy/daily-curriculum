@@ -20,9 +20,9 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
-| **9:15 - 9:45**   | [Media Tracker Overview](resources/media_tracker.md) |
+| **9:15 - 9:45**   | [Media Tracker Overview](resources/media_ranker.md) |
 | **9:45 - 11:15**  | [Rails request state](monday/rails-request-state.md)        |
-| **11:15 - 5:00**  | [Media Tracker](resources/media_tracker.md)          |
+| **11:15 - 5:00**  | [Media Tracker](resources/media_ranker.md)          |
 
 ### Tuesday
 
@@ -31,7 +31,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **9:00 - 9:15**   | Quiz                |
 | **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [Controller methods](tuesday/controller-methods.md)        |
-| **11:15 - 5:00**  | [Media Tracker](resources/media_tracker.md)          |
+| **11:15 - 5:00**  | [Media Tracker](resources/media_ranker.md)          |
 
 
 ### Wednesday
@@ -41,7 +41,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **9:00 - 9:15**   | Quiz                |
 | **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [Controller methods](wednesday/view-methods.md)        |
-| **11:15 - 5:00**  | [Media Tracker](resources/media_tracker.md)          |
+| **11:15 - 5:00**  | [Media Tracker](resources/media_ranker.md)          |
 
 ### Thursday
 
@@ -50,7 +50,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **9:00 - 9:15**   | Quiz                |
 | **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [Rails Rspec methods](thursday/rails-rspec-methods.md)        |
-| **11:15 - 5:00**  | [Media Tracker](resources/media_tracker.md)          |
+| **11:15 - 5:00**  | [Media Tracker](resources/media_ranker.md)          |
 
 ### Friday
 
@@ -59,4 +59,4 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **9:00 - 9:15**   | Stand Up            |
 | **9:30 - 11:00**  | [What to spec?](friday/what-to-spec.md)        |
 | **11:00 - 12:00**  | [Comprehension Test](https://canvas.instructure.com/courses/819456/quizzes/891812)        |
-| **11:15 - 5:00**  | [Media Tracker](resources/media_tracker.md)          |
+| **11:15 - 5:00**  | [Media Tracker](resources/media_ranker.md)          |
