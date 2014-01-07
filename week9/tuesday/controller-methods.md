@@ -4,7 +4,7 @@ In this lesson we will be learning about the methods and syntax available to all
 
 #### Defining Public Methods (Actions)
 
-In Rails controllers public methods are generally used for defining for directly handling HTTP requests. These methods are commonly called actions, which is what we will refer to them from now. The common actions we've seen defined are `index`, `show`, `new`, `create`, `edit`, `update`, and `destroy`, although the name of rails actions are not limited in any way.
+Rails controllers public methods are generally used for defining for directly handling HTTP requests. These methods are commonly called actions, which is what we will refer to them from now. The common actions we've seen defined are `index`, `show`, `new`, `create`, `edit`, `update`, and `destroy`, although the name of rails actions are not limited in any way.
 
 By default actions render a veiw located in `app/views` under a directory corresponding to the controller name. For example the `index` action withing the `UsersController` would render the view in `app/views/users/index.html.erb`. If you don't want to render a view for an action, like `create`, but instead want to take the user to a different action, using the `redirect_to(path_name)` will override this default functionaltity. 
 
@@ -69,7 +69,7 @@ The `render` method typically reads and serves HTML from an `ERB` template and s
 
 Additionally `render` takes many optional arguments, the most common is just the template name that you wish to render, but the following can also be used:
 
-- `render :index, notice: "Oops..."`, Set the flash[:notice] to = "Oops..."
+- `render :index"`
 - `render partial: :partial_name` renders a partial instead of whole template.
 - `render json: {some: data}.to_json` will send a JSON response instead of HTML (the same syntax exists for many data types such as XML, text, js, and file)
 - `render inline: "<b>HTML will be rendered as though it were in a template</b>"`
