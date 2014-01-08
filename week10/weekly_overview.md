@@ -46,11 +46,16 @@ together
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:20** | Functions           |
-| **10:25 - 11:15** | Objects/Prototypes  |
-| **12:15 - 1:05**  | Objects/Prototypes pt 2     |
-| **1:10 - 2:00**   | DOM part 2
-| **2:00 - 5:00**   | Project time                    |
+| **9:30  - 10:05** | Events              |
+| **10:05 - 10:25** | ^ Activity - binding/removing events, learning
+custom event api
+| **10:30 - 11:05** | Async programming
+| **11:05 - 11:25** | ^ Activity - callbacks
+| **11:30 - 12:05** | Objects/Prototypes  |
+| **1:05  - 1:25**  | ^ Activity - Constructors/learn about `this`
+| **1:30  - 2:00**  | DOM part 2 - Attaching event listeners to items in the DOM,
+understanding their scope, and when the event fires
+| **2:00 - 5:00**   | Project time        |
 
 
 ### Wednesday
