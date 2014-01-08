@@ -77,7 +77,10 @@ button on page, put random dot on canvas when clicking on button
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 11:15** | Canvas cont. + light animation |
+| **9:30  - 10:05** | Canvas cont. + light animation |
+| **10:05 - 10:25** | ^ Activity - Draw circle on canvas, move circle
+around
+| **10:30 - 11:15** | Canvas cont. + light animation |
 | **11:15 - 5:00**  | Project time        |
 
 ### Friday
@@ -87,4 +90,4 @@ button on page, put random dot on canvas when clicking on button
 | **9:00  - 9:15**  | Stand Up            |
 | **9:30  - 11:00** | jQuery              |
 | **11:00 - 12:00** | Testing             |
-| **11:15 - 5:00**  | Project time        |
+| **1:00 - 5:00**   | Project time        |
