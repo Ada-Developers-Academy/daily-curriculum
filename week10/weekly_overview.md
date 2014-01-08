@@ -22,12 +22,23 @@ draw within the canvas element.
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Stand Up            |
 | **9:15  - 9:40**  | JavaScript - The Environment and the Tools               |
-| **9:45  - 10:10** | Instant gratification and the DOM               |
-| **10:15 - 10:40** | Syntax, FP numbers, and primitives              |
-| **10:45 - 11:10** | Dynamic typing, coercion, equality                    |
-| **12:15 - 1:05**  | Variable Scope      |
-| **1:15  - 2:05**  | Async programming           |
-| **2:15  - 5:00**  | Review + Analytics dashboard project            |
+| **9:40  - 10:00** | ^ Activity (Install Node via Homebrew, learn to
+open and operate console in browser of choice)
+| **10:00 - 10:35** | Instant gratification and the DOM               |
+| **10:35 - 10:55** | ^ Activity - group - create element, add to page,
+modify it
+| **11:00 - 11:35** | Syntax, FP numbers, and primitives              |
+| **11:35 - 11:55** | ^ Activity - Learn about JSHint, how to use it to
+check syntax, how to rein in math errors
+| **1:00  - 1:35**  | Dynamic typing, coercion, equality                    |
+| **1:35  - 1:55**  | ^ Activity - Watch Gary Bernhardt's 'Wat'
+lightning talk. Try to guess results of smashing different primitives
+together
+| **2:00  - 2:35**  | Functions           |
+| **2:35  - 2:55**  | ^ Activity - High order function passing
+| **3:00  - 3:35**  | Variable Scope      |
+| **3:35  - 3:55**  | ^ Activity - Review on scope/hoisting
+| **4:00  - 5:00**  | Review + Analytics dashboard project            |
 
 ### Tuesday
 
