@@ -38,7 +38,8 @@ together
 | **2:35  - 2:55**  | ^ Activity - High order function passing
 | **3:00  - 3:35**  | Variable Scope      |
 | **3:35  - 3:55**  | ^ Activity - Review on scope/hoisting
-| **4:00  - 5:00**  | Review + Analytics dashboard project            |
+| **4:00  - 5:00**  | Review + [Analytics](resources/analytics.md) |
+
 
 ### Tuesday
 
@@ -55,7 +56,7 @@ custom event api
 | **1:05  - 1:25**  | ^ Activity - Constructors/learn about `this`
 | **1:30  - 2:00**  | DOM part 2 - Attaching event listeners to items in the DOM,
 understanding their scope, and when the event fires
-| **2:00 - 5:00**   | Project time        |
+| **2:00 - 5:00**   | [Analytics](resources/analytics.md) |
 
 
 ### Wednesday
@@ -68,7 +69,7 @@ understanding their scope, and when the event fires
 | **10:05 - 10:25** | ^ Activity - Add canvas to page using JS, place
 button on page, put random dot on canvas when clicking on button
 | **10:30 - 11:15** | Canvas intro + drawing|
-| **11:15 - 5:00**  | Project time        |
+| **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
 
 
 ### Thursday
@@ -81,7 +82,7 @@ button on page, put random dot on canvas when clicking on button
 | **10:05 - 10:25** | ^ Activity - Draw circle on canvas, move circle
 around
 | **10:30 - 11:15** | Canvas cont. + light animation |
-| **11:15 - 5:00**  | Project time        |
+| **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
 
 ### Friday
 
@@ -90,4 +91,4 @@ around
 | **9:00  - 9:15**  | Stand Up            |
 | **9:30  - 11:00** | jQuery              |
 | **11:00 - 12:00** | Testing             |
-| **1:00 - 5:00**   | Project time        |
+| **1:00 - 5:00**   | [Analytics](resources/analytics.md) |
