@@ -64,8 +64,11 @@ understanding their scope, and when the event fires
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 11:15** | Canvas intro + drawing           |
-| **11:15 - 5:00**  | Project time                    |
+| **9:30  - 10:05** | Canvas intro + drawing|
+| **10:05 - 10:25** | ^ Activity - Add canvas to page using JS, place
+button on page, put random dot on canvas when clicking on button
+| **10:30 - 11:15** | Canvas intro + drawing|
+| **11:15 - 5:00**  | Project time        |
 
 
 ### Thursday
