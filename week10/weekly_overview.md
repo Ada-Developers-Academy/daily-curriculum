@@ -49,15 +49,13 @@ together
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | Events              |
-| **10:05 - 10:25** | ^ Activity - binding/removing events, learning
-custom event api
-| **10:30 - 11:05** | Async programming
-| **11:05 - 11:25** | ^ Activity - callbacks
-| **11:30 - 12:05** | Objects/Prototypes  |
-| **1:05  - 1:25**  | ^ Activity - Constructors/learn about `this`
-| **1:30  - 2:00**  | DOM part 2 - Attaching event listeners to items in the DOM,
-understanding their scope, and when the event fires
+| **9:30  - 10:05** | [Events](tuesday/events.md)              |
+| **10:05 - 10:25** | ^ Activity - binding/removing events, learning custom event api |
+| **10:30 - 11:05** | [Async programming](tuesday/async-programming.md) |
+| **11:05 - 11:25** | ^ Activity - callbacks |
+| **11:30 - 12:05** | [Objects/Prototypes](tuesday/objects-prototypes.md)  |
+| **1:05  - 1:25**  | ^ Activity - Constructors/learn about `this` |
+| **1:30  - 2:00**  | [DOM part 2](tuesday/dom-part-deux.md) - Attaching event listeners to items in the DOM, understanding their scope, and when the event fires |
 | **2:00 - 5:00**   | [Analytics](resources/analytics.md) |
 
 
