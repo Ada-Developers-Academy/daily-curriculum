@@ -40,7 +40,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Quiz                |
+| **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/819456/quizzes/893988)                |
 | **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [View methods](wednesday/view-methods.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
