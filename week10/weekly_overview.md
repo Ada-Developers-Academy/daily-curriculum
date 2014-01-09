@@ -21,25 +21,18 @@ draw within the canvas element.
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Stand Up            |
-| **9:15  - 9:40**  | [JavaScript - The Environment and the
-Tools](monday/js-the-env-and-the-tools.md) |
-| **9:40  - 10:00** | ^ Activity (Install Node via Homebrew, learn to
-open and operate console in browser of choice)
+| **9:15  - 9:40**  | [JavaScript - The Environment and the Tools](monday/js-the-env-and-the-tools.md) |
+| **9:40  - 10:00** | ^ Activity (Install Node via Homebrew, learn to open and operate console in browser of choice) |
 | **10:00 - 10:35** | [Instant gratification and the DOM](monday/instant-gratification-and-the-dom.md) |
-| **10:35 - 10:55** | ^ Activity - group - create element, add to page,
-modify it from the console
-| **11:00 - 11:35** | [Syntax, FP numbers, and
-primitives](monday/syntax-fpnum-primitives.md)
-| **11:35 - 11:55** | ^ Activity - Learn about JSHint, how to use it to
-check syntax, how to rein in math errors
+| **10:35 - 10:55** | ^ Activity - group - create element, add to page, modify it from the console |
+| **11:00 - 11:35** | [Syntax, FP numbers, and primitives](monday/syntax-fpnum-primitives.md) |
+| **11:35 - 11:55** | ^ Activity - Learn about JSHint, how to use it to check syntax, how to rein in math errors |
 | **1:00  - 1:35**  | [Dynamic typing, coercion, equality](monday/dynamic-typing-coercion-equality.md) |
-| **1:35  - 1:55**  | ^ Activity - Watch Gary Bernhardt's 'Wat'
-lightning talk. Try to guess results of smashing different primitives
-together
+| **1:35  - 1:55**  | ^ Activity - Watch Gary Bernhardt's 'Wat' lightning talk. Try to guess results of smashing different primitives together |
 | **2:00  - 2:35**  | [Functions](monday/functions.md) |
-| **2:35  - 2:55**  | ^ Activity - High order function passing
+| **2:35  - 2:55**  | ^ Activity - High order function passing |
 | **3:00  - 3:35**  | [Variable Scope](monday/variable-scope.md) |
-| **3:35  - 3:55**  | ^ Activity - Review on scope/hoisting
+| **3:35  - 3:55**  | ^ Activity - Review on scope/hoisting |
 | **4:00  - 5:00**  | Review + [Analytics](resources/analytics.md) |
 
 
@@ -66,8 +59,7 @@ together
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
 | **9:30  - 10:05** | Canvas intro + drawing|
-| **10:05 - 10:25** | ^ Activity - Add canvas to page using JS, place
-button on page, put random dot on canvas when clicking on button
+| **10:05 - 10:25** | ^ Activity - Add canvas to page using JS, place button on page, put random dot on canvas when clicking on button |
 | **10:30 - 11:15** | Canvas intro + drawing|
 | **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
 
@@ -79,8 +71,7 @@ button on page, put random dot on canvas when clicking on button
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
 | **9:30  - 10:05** | Canvas cont. + light animation |
-| **10:05 - 10:25** | ^ Activity - Draw circle on canvas, move circle
-around
+| **10:05 - 10:25** | ^ Activity - Draw circle on canvas, move circle around |
 | **10:30 - 11:15** | Canvas cont. + light animation |
 | **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
 
