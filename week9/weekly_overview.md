@@ -23,14 +23,14 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **9:15 - 10:00**  | [Project Presentations](../week8/project-outline.md) |
 | **10:00 - 10:15**   | [Media Ranker Overview](resources/media_ranker.md) |
 | **10:15 - 11:15**  | [Rails request state](monday/rails-request-state.md)        |
-| **12:15 - 1:15**  | [Rails RESTful Routes](monday/restful-routes.md)        |
+| **12:15 - 1:15**  | [Rails RESTful Routes](monday/resources/restful-routes.md)        |
 | **1:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
 ### Tuesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Quiz                |
+| **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/819456/quizzes/893427)                |
 | **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [Controller methods](tuesday/controller-methods.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
@@ -40,9 +40,9 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Quiz                |
+| **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/819456/quizzes/893988)                |
 | **9:15 - 9:30**   | Stand Up            |
-| **9:30 - 11:15**  | [Controller methods](wednesday/view-methods.md)        |
+| **9:30 - 11:15**  | [View methods](wednesday/view-methods.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
 ### Thursday
@@ -59,6 +59,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
-| **9:30 - 11:00**  | [What to spec?](friday/what-to-spec.md)        |
-| **11:00 - 12:00**  | [Comprehension Test](https://canvas.instructure.com/courses/819456/quizzes/891812)        |
+| **9:15 - 9:45**   | Quiz Prep Time      |
+| **9:45 - 10:45**  | [Comprehension Test](https://canvas.instructure.com/courses/819456/quizzes/891812)        |
+| **10:45 - 12:00**  | [Rspec Tools](friday/rspec-tools.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
