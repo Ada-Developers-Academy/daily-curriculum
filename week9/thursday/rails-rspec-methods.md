@@ -31,8 +31,8 @@ Most matchers are quite clear how they work, here are a list of common matchers:
 - `be_nil`
 - `be_empty`, uses the `empty?` method
 - `be_an_instance_of`, the argument takes a class name, and compares the class of the actual value
-- `be_withing`, the argument is a range
-- `inclulde`
+- `be_within`, the argument is a range
+- `include`
 
 For more matchers and their documentation see [http://rubydoc.info/gems/rspec-expectations/frames](http://rubydoc.info/gems/rspec-expectations/frames)
 
