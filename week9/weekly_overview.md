@@ -59,6 +59,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
+| **9:15 - 9:45**   | Quiz Prep Time      |
 | **9:45 - 10:45**  | [Comprehension Test](https://canvas.instructure.com/courses/819456/quizzes/891812)        |
 | **10:45 - 12:00**  | [Request Specs](friday/request-specs.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
