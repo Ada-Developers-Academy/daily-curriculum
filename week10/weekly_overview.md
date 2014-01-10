@@ -70,9 +70,9 @@ draw within the canvas element.
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | Canvas cont. + light animation |
+| **9:30  - 10:05** | [Canvas intro + drawing](wednesday/canvas-intro-and-animation.md) |
 | **10:05 - 10:25** | ^ Activity - Draw circle on canvas, move circle around |
-| **10:30 - 11:15** | Canvas cont. + light animation |
+| **10:30 - 11:15** | [Canvas intro + drawing](wednesday/canvas-intro-and-animation-part-two.md) |
 | **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
 
 ### Friday
