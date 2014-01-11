@@ -66,7 +66,13 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 **Homework**
 
-Use a TDD approach to create a single serving (no users) version of Twitter. The app should have:
+Use a TDD approach, either:
+
+Create your own app
+
+OR
+
+Create a single serving (no users) version of Twitter. The app should have:
 
 - Tweet model
     - body (must be present, max 140 characters long)
