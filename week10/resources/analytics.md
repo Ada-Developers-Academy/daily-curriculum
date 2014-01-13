@@ -23,7 +23,7 @@ By the end of the project students should be able to
 - Draw on a canvas element using JavaScript
 
 
-### Requirments
+### Requirements
 
 Your project must be "live" on the web for evaluation. We recommend you deploy it on [Heroku](http://Heroku.com).
 
