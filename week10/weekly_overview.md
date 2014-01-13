@@ -21,8 +21,8 @@ draw within the canvas element.
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Stand Up            |
-| **9:15  - 9:40**  | [JavaScript - The Environment and the Tools](monday/js-the-env-and-the-tools.md) |
-| **9:40  - 10:00** | ^ Activity (Install Node via Homebrew, learn to open and operate console in browser of choice) |
+| **9:15  - 9:30**  | [JavaScript - The Environment and the Tools](monday/js-the-env-and-the-tools.md) |
+| **9:30  - 10:00** | ^ Activity (Install Node via Homebrew, learn to open and operate console in browser of choice) |
 | **10:00 - 10:35** | [Instant gratification and the DOM](monday/instant-gratification-and-the-dom.md) |
 | **10:35 - 10:55** | ^ Activity - group - create element, add to page, modify it from the console |
 | **11:00 - 11:35** | [Syntax, FP numbers, and primitives](monday/syntax-fpnum-primitives.md) |
