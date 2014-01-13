@@ -29,11 +29,7 @@ draw within the canvas element.
 | **11:35 - 11:55** | ^ Activity - Learn about JSHint, how to use it to check syntax, how to rein in math errors |
 | **1:00  - 1:35**  | [Dynamic typing, coercion, equality](monday/dynamic-typing-coercion-equality.md) |
 | **1:35  - 1:55**  | ^ Activity - Watch Gary Bernhardt's 'Wat' lightning talk. Try to guess results of smashing different primitives together |
-| **2:00  - 2:35**  | [Functions](monday/functions.md) |
-| **2:35  - 2:55**  | ^ Activity - High order function passing |
-| **3:00  - 3:35**  | [Variable Scope](monday/variable-scope.md) |
-| **3:35  - 3:55**  | ^ Activity - Review on scope/hoisting |
-| **4:00  - 5:00**  | Review + [Analytics](resources/analytics.md) |
+| **2:00  - 5:00**  | Review + [Analytics](resources/analytics.md) |
 
 
 ### Tuesday
@@ -42,14 +38,15 @@ draw within the canvas element.
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | [Events](tuesday/events.md)              |
-| **10:05 - 10:25** | ^ Activity - binding/removing events, learning custom event api |
-| **10:30 - 11:05** | [Async programming](tuesday/async-programming.md) |
-| **11:05 - 11:25** | ^ Activity - callbacks |
-| **11:30 - 12:05** | [Objects/Prototypes](tuesday/objects-prototypes.md)  |
-| **1:05  - 1:25**  | ^ Activity - Constructors/learn about `this` |
-| **1:30  - 2:00**  | [DOM part 2](tuesday/dom-part-deux.md) - Attaching event listeners to items in the DOM, understanding their scope, and when the event fires |
-| **2:00 - 5:00**   | [Analytics](resources/analytics.md) |
+| **9:30  - 10:05** | [Functions](tuesday/functions.md) |
+| **10:05 - 10:25** | ^ Activity - High order function passing |
+| **10:30 - 11:05** | [Variable Scope](tuesday/variable-scope.md) |
+| **11:05 - 11:25** | ^ Activity - Review on scope/hoisting |
+| **11:30 - 12:05** | [Events](tuesday/events.md)              |
+| **1:05  - 1:25**  | ^ Activity - binding/removing events, learning custom event api |
+| **1:30  - 2:05**  | [Async programming](tuesday/async-programming.md) |
+| **2:05  - 2:25**  | ^ Activity - callbacks |
+| **2:30 - 5:00**   | [Analytics](resources/analytics.md) |
 
 
 ### Wednesday
@@ -58,10 +55,13 @@ draw within the canvas element.
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | [Canvas intro + drawing](wednesday/canvas-intro-and-drawing.md) |
-| **10:05 - 10:25** | ^ Activity - Add canvas to page using JS, place button on page, put random dot on canvas when clicking on button |
-| **10:30 - 11:15** | [Canvas intro + drawing](wednesday/canvas-intro-and-drawing-part-two.md) |
-| **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
+| **9:30  - 10:05** | [Objects/Prototypes](wednesday/objects-prototypes.md)  |
+| **10:05 - 10:25** | ^ Activity - Constructors/learn about `this` |
+| **10:30 - 11:00** | [DOM part 2](wednesday/dom-part-deux.md) - Attaching event listeners to items in the DOM, understanding their scope, and when the event fires |
+| **11:05 - 12:05** | [Canvas intro + drawing](wednesday/canvas-intro-and-drawing.md) |
+| **1:05  - 1:25**  | ^ Activity - Add canvas to page using JS, place button on page, put random dot on canvas when clicking on button |
+| **1:30  - 2:00**  | [Canvas intro + drawing](wednesday/canvas-intro-and-drawing-part-two.md) |
+| **2:00  - 5:00**  | [Analytics](resources/analytics.md) |
 
 
 ### Thursday
@@ -70,9 +70,9 @@ draw within the canvas element.
 |:-----------------:|:--------------------|
 | **9:00  - 9:15**  | Quiz                |
 | **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | [Canvas intro + drawing](wednesday/canvas-intro-and-animation.md) |
+| **9:30  - 10:05** | [Canvas intro + drawing](thursday/canvas-intro-and-animation.md) |
 | **10:05 - 10:25** | ^ Activity - Draw circle on canvas, move circle around |
-| **10:30 - 11:15** | [Canvas intro + drawing](wednesday/canvas-intro-and-animation-part-two.md) |
+| **10:30 - 11:15** | [Canvas intro + drawing](thursday/canvas-intro-and-animation-part-two.md) |
 | **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
 
 ### Friday
