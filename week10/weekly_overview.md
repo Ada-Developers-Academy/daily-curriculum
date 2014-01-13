@@ -26,7 +26,7 @@ draw within the canvas element.
 | **10:00 - 10:35** | [Instant gratification and the DOM](monday/instant-gratification-and-the-dom.md) |
 | **10:35 - 10:55** | ^ Activity - group - create element, add to page, modify it from the console |
 | **11:00 - 11:35** | [Syntax, FP numbers, and primitives](monday/syntax-fpnum-primitives.md) |
-| **11:35 - 11:55** | ^ Activity - Learn about JSHint, how to use it to check syntax, how to rein in math errors |
+| **11:35 - 11:55** | ^ Activity - Learn about JSHint, how to use it to check syntax, how to rein in math errors - assign http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html for reading |
 | **1:00  - 1:35**  | [Dynamic typing, coercion, equality](monday/dynamic-typing-coercion-equality.md) |
 | **1:35  - 1:55**  | ^ Activity - Watch Gary Bernhardt's 'Wat' lightning talk. Try to guess results of smashing different primitives together |
 | **2:00  - 5:00**  | Review + [Analytics](resources/analytics.md) |
