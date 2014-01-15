@@ -1,5 +1,5 @@
 (function(){
-  var canv = document.querySelector( '#cvs' );
+  var canv = document.querySelector( '#cvs' ); //document.getElementById( 'cvs' );
   var context = canv.getContext( '2d' );
   context.fillStyle = 'black';
   context.beginPath();
