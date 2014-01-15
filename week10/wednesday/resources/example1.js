@@ -6,8 +6,9 @@
     context.font = '38pt Arial';
     context.fillStyle = 'cornflowerblue';
     context.strokeStyle = 'blue';
+    context.textAlign = "center";
 
-    context.fillText( 'Hello Canvas', canvas.width/2 -150 , canvas.height/2 + 15 );
-    context.strokeText( 'Hello Canvas', canvas.width/2 -150, canvas.height/2 + 15 );
+    context.fillText( 'Hello Ada', canvas.width/2 , canvas.height/2 );
+    context.strokeText( 'Hello Ada', canvas.width/2, canvas.height/2 );
   });
 }(this));
