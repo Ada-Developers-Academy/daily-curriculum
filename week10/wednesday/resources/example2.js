@@ -3,21 +3,22 @@
     var canvas = document.getElementById('canvas'),
       context = canvas.getContext('2d');
 
+    var newVisitorsEl = document.querySelector( "#new" ), //document.getElementById( "new" );
+      retVisitorsEl = document.querySelector( "#returning" ), //document.getElementById( "returning" );
+      newVisitors = parseInt( newVisitorsEl.innerHTML, 10 ),
+      retVisitors = parseInt( retVisitorsEl.innerHTML, 10 ),
+      totalVisitors = newVisitors + retVisitors;
 
-    var newVisitorsEl = document.querySelector( "#new" ); //document.getElementById( "new" );
-    var retVisitorsEl = document.querySelector( "#returning" ); //document.getElementById( "returning" );
-    var newVisitors = parseInt( newVisitorsEl.innerHTML, 10 );
-    var retVisitors = parseInt( retVisitorsEl.innerHTML, 10 );
-    var totalVisitors = newVisitors + retVisitors;
+    var newInRads = (newVisitors/totalVisitors) * (Math.PI*2),
+      retInRads = (Math.PI*2) - newInRads;
 
-    var newInRads = (newVisitors/totalVisitors) * (Math.PI*2);
-    var retInRads = (Math.PI*2) - newInRads;
+    var originX = canvas.width/2,
+      originY = canvas.height/2,
+      radius = canvas.height/2 - 10,
+      counterClockwise = false;
 
-    var originX = canvas.width/2;
-    var originY = canvas.height/2;
-    var radius = canvas.height/2 - 10;
-
-    var counterClockwise = false;
+    var newInRadsPercent = parseInt((newInRads/(newInRads + retInRads)) * 100, 10),
+      retInRadsPercent = 100 - newInRadsPercent;
 
     context.beginPath();
     context.moveTo( originX, originY );
@@ -36,20 +37,20 @@
     context.font = '16pt Helvetica';
     context.strokeStyle = 'black';
     context.fillStyle = 'white';
-    context.strokeText( parseInt((newInRads/(newInRads + retInRads)) * 100, 10) + "%",
+    context.strokeText( newInRadsPercent + "%",
                        canvas.width/2 +60,
                        canvas.height/2 +60
                       );
-    context.fillText( parseInt((newInRads/(newInRads + retInRads)) * 100, 10) + "%",
+    context.fillText( newInRadsPercent + "%",
                        canvas.width/2 +60,
                        canvas.height/2 +60
                       );
 
-    context.strokeText( parseInt((retInRads/(newInRads + retInRads)) * 100, 10) + "%",
+    context.strokeText( retInRadsPercent + "%",
                        canvas.width/2 -60,
                        canvas.height/2 -60
                       );
-    context.fillText( parseInt((retInRads/(newInRads + retInRads)) * 100, 10) + "%",
+    context.fillText( retInRadsPercent + "%",
                        canvas.width/2 -60,
                        canvas.height/2 -60
                       );

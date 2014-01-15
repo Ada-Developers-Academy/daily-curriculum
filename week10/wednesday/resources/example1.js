@@ -4,7 +4,7 @@
       context = canvas.getContext('2d');
 
     context.font = '38pt Arial';
-    context.fillStyle = 'cornflowerblue';
+    context.fillStyle = 'blue';
     context.strokeStyle = 'blue';
     context.textAlign = "center";
 
