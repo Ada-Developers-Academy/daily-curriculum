@@ -7,7 +7,6 @@
   var x = canv.width/2;
   var y = canv.height/2;
   var radius = (function(){
-    var rad;
     if( x < y ){
       return x;
     }
