@@ -125,6 +125,7 @@
       ctx.stroke();
     };
 
+    /** start actual work */
     drawGrid( stepx, stepy, lineWidth, strokeColor );
     drawAxes();
     drawLine({ x: 0, y: 0 }, { x: 10, y: 15 });
