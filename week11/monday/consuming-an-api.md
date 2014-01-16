@@ -6,7 +6,7 @@ Web api's are requested using HTTP, this means that many tools and any programmi
 
 - [HTTParty](http://httparty.rubyforge.org): Super simple, great to use for learning and simple requests
 - [Net::HTTP](http://ruby-doc.org/stdlib-2.1.0/libdoc/net/http/rdoc/Net/HTTP.html): Standard Ruby library.
-- [Typheous](https://github.com/typhoeus/typhoeus): Advanced functionaltity such as parallel requests and streaming.
+- [Typheous](https://github.com/typhoeus/typhoeus): Advanced functionality such as parallel requests and streaming.
 
 Here is an example of a simple HTTP request using the HTTParty gem.
 
@@ -41,7 +41,7 @@ When `HTTParty` isn't being used, you would need to parse the JSON using Ruby. R
 
     '{"person": {"name": "Bookis"}}'
     
-We can see it suspiciously similar to a ruby Hash, but it's wraped in a String (JSON IS a string). To turn this into a ruby Hash:
+We can see it suspiciously similar to a ruby Hash, but it's wrapped in a String (JSON IS a string). To turn this into a ruby Hash:
 
     JSON.parse('{"person": {"name": "Bookis"}}')
     # => {"person"=>{"name"=>"Bookis"}}
@@ -69,7 +69,14 @@ We've looked at what an api is, how to make a request to it using ruby, and the 
       end
     end
     
-Pretty much all of the data we deal with ends up being a Ruby hash.
+We can see this class is initialized with a city name, then the instance has two methods to access the weather api:
+  
+    seattle = Weather.new("seattle")
+    seattle.current_weather
+    seattle.forcast
+    
+With this class we can now easily use the weather api, the functionality can also be easy to test and extend, and even wrap in a gem to use in multiple projects.
+
 
 
     
