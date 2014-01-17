@@ -50,3 +50,11 @@ Week 22 - April 7-11: Final Rails Project with Bookis
 Week 23 - April 14-18: Final Rails Project with Kerri
 
 Week 24 - April 21-25: Final Rails Project Presentations with Kerri, Bookis, & Community Members 
+
+
+Books
+=====
+[Learn to Program by Chris Pine](http://pine.fm/LearnToProgram/)
+[Beginning Ruby by Peter Cooper](http://beginningruby.org/)
+[Sinatra Up and Running by Alan Harris & Konstantin Haase](http://shop.oreilly.com/product/0636920019664.do)
+[Ruby on Rails Tutorial by Michael Hartl](http://ruby.railstutorial.org/)
