@@ -54,10 +54,11 @@ Week 24 - April 21-25: Final Rails Project Presentations with Kerri, Bookis, & C
 
 Books
 =====
-[Learn to Program by Chris Pine](http://pine.fm/LearnToProgram/)
+[Learn to Program](http://pine.fm/LearnToProgram/) by Chris Pine
 
-[Beginning Ruby by Peter Cooper](http://beginningruby.org/)
+[Beginning Ruby](http://beginningruby.org/) by Peter Cooper
 
-[Sinatra Up and Running by Alan Harris & Konstantin Haase](http://shop.oreilly.com/product/0636920019664.do)
+[Sinatra Up and Running](http://shop.oreilly.com/product/0636920019664.do) by Alan Harris & Konstantin Haase
 
-[Ruby on Rails Tutorial by Michael Hartl](http://ruby.railstutorial.org/)
+[Ruby on Rails Tutorial](http://ruby.railstutorial.org/) by Michael Hartl
+[Computer Science Programming Basics in Ruby](http://shop.oreilly.com/product/0636920028192.do) by Ophir Frieder, Gideon Frieder, David Grossman
