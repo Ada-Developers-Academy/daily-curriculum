@@ -5,7 +5,7 @@ SeeMore(tm)
 
 A **feed** is an API that a web service uses to provide users with frequently updated content. A *feed aggregator*  is an application that acts as a central location for reviewing the content of feeds. It **injests** feeds and stores their content in its own datastore after [transforming](http://en.wikipedia.org/wiki/Extract,_transform,_load) it into a standard format.
 
-### Goals
+## Goals
 + Learn how to work with OAuth
 + Gain experience in consuming with 3rd party APIs
 + Build your own API
@@ -14,7 +14,7 @@ A **feed** is an API that a web service uses to provide users with frequently up
 + Learn how to work with Pivotal Tracker
 + Accumulate experience points in Rails 
 
-### Guidelines
+## Guidelines
 
 + Groups of five will work with a Teacher acting as a Project Manager
 + Each group will be responsible to deliver a final product to the Product Owner (Elise)
@@ -23,29 +23,61 @@ A **feed** is an API that a web service uses to provide users with frequently up
 + Build a logical user-flow that moves across multiple controllers and models
 + Use HTML/CSS to style your website.
 
-### Technical Requirements
-+ Allows Users to sign-up/in with a Facebook, Twitter, or Github account
-+ Can aggregate feeds from
-    * Twitter
-    * Tumblr
-    * Facebook
-    * Github
-    * Any other ATOM/XML/RSS feed from blogs or news services
-+ Allows users to share favorite stories back to social media services
-+ Uses **cron** to periodically update feeds without duplication
-+ Can send email or SMS messages to users to update them
-+ Code Quality metrics
-    * Flog - no Controller method > 25, no Model method > 15
-    * Rubocop - no more than 15 code style issues
-    * Brakeman - no major security issues
-    * Code Coverage - 90%+
-+ *Additional requirements TBD*
-
-### Expectations
+## Expectations
 
 Build a feed aggregator service that allows users to login via Twitter, Github, or Facebook. It will allow users to view updates from all their tracked feeds in one location, and share them back to associated social media services.
 
-#### User Stories
+### Technical Requirements
+#### Bronze
++ Allows Users to sign in and out
++ Can aggregate feeds from 
+    * One or more Twitter users
+    * One or more Tumblr users
+    * Any other ATOM/XML/RSS feed from blogs or news service
+
+#### Silver
+All of Bronze, plus:
++ Allows Users to sign-up and login with a Facebook, Twitter, or Github account
++ Can aggregate feeds from
+    * The User's Facebook feed (if associated with a Facebook account)
+    * One or more Github users
+    * One or more Instagram users
++ Allows Users to share favorite stories back to social media services
+
+#### Gold
+All of Silver, plus:
++ Can aggregate feeds from
+    * One or more FourSquare users
+    * One or more SoundCloud users
++ Uses **cron** to periodically update feeds without duplication
++ Can send email or SMS messages to users to update them
+
+#### Platinum
++ offers API of aggregated feeds
+
+
+## Evaluation
++ Learning Goals
+    * Demonstrate comprehension of Rails
+    * Comfort with Pivotal Tracker (and any other project tools used)
+    * Working as a team
+    * Accepting challenges by working on parts of the project outside your individual comfort zone
+
++ Client Satisfaction
+    * Visually appealing and polished
+    * No major bugs
+        - Minor bugs noted in Pivotal Tracker or as a Github issue 
+    * Good communication with Project Owner
+
++ Code Quality 
+    * Metrics
+        - Flog: no Controller method > 25, no Model method > 15
+        - Rubocop: no more than 15 code style issues
+        - Brakeman: no major security issues
+        - Code Coverage: 90%+
+
+
+### User Stories
 Each team will meet with the Product Owner at the outset to develop a set of user stories and precise requirements in Pivotal Tracker.
 
 
