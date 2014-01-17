@@ -82,4 +82,6 @@ draw within the canvas element.
 | **9:00  - 9:15**  | Stand Up            |
 | **9:30  - 11:00** | jQuery              |
 | **11:00 - 12:00** | Testing             |
-| **1:00 - 5:00**   | [Analytics](resources/analytics.md) |
+| **1:00  - 3:00**  | [Analytics](resources/analytics.md) |
+| **3:00  - 4:00**  | Retrospective / Preparing for Mentors |
+| **4:00  - 5:00**  | Free Time |
