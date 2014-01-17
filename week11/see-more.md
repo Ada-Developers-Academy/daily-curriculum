@@ -49,11 +49,13 @@ All of Silver, plus:
 + Can aggregate feeds from
     * One or more FourSquare users
     * One or more SoundCloud users
+    * One or more Flickr users
 + Uses **cron** to periodically update feeds without duplication
 + Can send email or SMS messages to users to update them
 
 #### Platinum
 + offers API of aggregated feeds
++ add a Google Map that shows the location of any feed items that contain geolocative information
 
 
 ## Evaluation
