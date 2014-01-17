@@ -28,14 +28,14 @@ A **feed** is an API that a web service uses to provide users with frequently up
 Build a feed aggregator service that allows users to login via Twitter, Github, or Facebook. It will allow users to view updates from all their tracked feeds in one location, and share them back to associated social media services.
 
 ### Technical Requirements
-#### Bronze
+#### Bronze (20 points)
 + Allows Users to sign in and out
 + Can aggregate feeds from 
     * One or more Twitter users
     * One or more Tumblr users
     * Any other ATOM/XML/RSS feed from blogs or news service
 
-#### Silver
+#### Silver (20 points)
 All of Bronze, plus:
 + Allows Users to sign-up and login with a Facebook, Twitter, or Github account
 + Can aggregate feeds from
@@ -44,7 +44,7 @@ All of Bronze, plus:
     * One or more Instagram users
 + Allows Users to share favorite stories back to social media services
 
-#### Gold
+#### Gold (20 points)
 All of Silver, plus:
 + Can aggregate feeds from
     * One or more FourSquare users
@@ -53,25 +53,25 @@ All of Silver, plus:
 + Uses **cron** to periodically update feeds without duplication
 + Can send email or SMS messages to users to update them
 
-#### Platinum
+#### Platinum (10 points)
 + offers API of aggregated feeds
 + add a Google Map that shows the location of any feed items that contain geolocative information
 
 
 ## Evaluation
-+ Learning Goals
++ Learning Goals (10 points)
     * Demonstrate comprehension of Rails
     * Comfort with Pivotal Tracker (and any other project tools used)
     * Working as a team
     * Accepting challenges by working on parts of the project outside your individual comfort zone
 
-+ Client Satisfaction
++ Client Satisfaction (10 points)
     * Visually appealing and polished
     * No major bugs
         - Minor bugs noted in Pivotal Tracker or as a Github issue 
     * Good communication with Project Owner
 
-+ Code Quality 
++ Code Quality (10 points)
     * Metrics
         - Flog: no Controller method > 25, no Model method > 15
         - Rubocop: no more than 15 code style issues
