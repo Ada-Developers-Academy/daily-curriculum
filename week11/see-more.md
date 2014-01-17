@@ -46,7 +46,7 @@ A **feed** is an API that a web service uses to provide users with frequently up
 Build a feed aggregator service that allows users to login via Twitter, Github, or Facebook. It will allow users to view updates from all their tracked feeds in one location, and share them back to associated social media services.
 
 #### User Stories
-*TBD by Product Owner*
+Each team will meet with the Product Owner at the outset to develop a set of user stories and precise requirements in Pivotal Tracker.
 
 
 
