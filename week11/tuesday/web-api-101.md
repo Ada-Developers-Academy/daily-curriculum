@@ -2,7 +2,7 @@
 In this lesson we will learn what an api is, the data formats that api's typically use, and how to consume a web api using Ruby.
 
 ## What is an API?
-A web api is a programmtatic interface to request and deliver data using HTTP. Typically api data is JSON or XML. Most modern web API's use JSON, but plenty of XML api's are still in use. There isn't much difference between an api and the applications we've been making so far, except the responses aren't in HTML and usually the request is not coming from a browser. A few example api's are:
+A web api is a programmatic interface to request and deliver data using HTTP. Typically api data is JSON or XML. Most modern web API's use JSON, but plenty of XML api's are still in use. There isn't much difference between an api and the applications we've been making so far, except the responses aren't in HTML and usually the request is not coming from a browser. A few example api's are:
 
 #### Weather API
 

@@ -80,7 +80,7 @@ With this class we can now easily use the weather api, the functionality can als
 
 ### Practice
 
-Try out a few api's using your browser and the [HTTParty gem](http://httparty.rubyforge.org), I've supplied one example requet with each api, try to read through the api and figure out a differnt action to use:
+Try out a few api's using your browser and the [HTTParty gem](http://httparty.rubyforge.org), I've supplied one example request with each api, try to read through the api and figure out a different action to use:
 
 - [Google Books](https://developers.google.com/books/docs/v1/getting_started)
     - `https://www.googleapis.com/books/v1/volumes?q=<search term>`

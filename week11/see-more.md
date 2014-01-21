@@ -1,4 +1,4 @@
-SeeMore(tm)
+SeeMore™
 ============
 
 ![SeeMore](http://www.theirishduck.info/wp-content/uploads/2013/06/plant.png) 
