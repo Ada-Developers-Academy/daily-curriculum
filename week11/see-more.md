@@ -29,7 +29,7 @@ Build a feed aggregator service that allows users to login via Twitter, Github, 
 
 ### Technical Requirements
 #### Bronze (20 points)
-+ Allows Users to sign in and out
++ Allows Users to sign in and out using [OmniAuth's Developer Strategy](http://rubydoc.info/github/intridea/omniauth/master/OmniAuth/Strategies/Developer)
 + Can aggregate feeds from 
     * One or more Twitter users
     * One or more Tumblr users
