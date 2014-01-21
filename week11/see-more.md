@@ -16,7 +16,7 @@ A **feed** is an API that a web service uses to provide users with frequently up
 
 ## Guidelines
 
-+ Groups of five will work with a Teacher acting as a Project Manager
++ Groups of four (one w/three) will work with a Teacher acting as a Project Manager
 + Each group will be responsible to deliver a final product to the Product Owner (Elise)
 + Use [pivotaltracker.com](http://pivotaltracker.com) as a project management service
 + Practice TDD (rspec) to lead the development process of Models and Controllers
