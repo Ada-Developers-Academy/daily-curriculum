@@ -20,31 +20,38 @@ No Class
 
 ### Tuesday
 
-| Time              | Topic               |
-|:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Stand Up            |
-| **9:15 - 10:00**  | [Web Api 101](monday/web-api-101.md)      |
-| **10:15 - 11:30** | [Consuming an Api](monday/consuming-an-api.md) |
-| **11:30** - **5:00** | Project Time |
+| Time                | Topic               |
+|:-------------------:|:--------------------|
+| **9:00 - 9:15**     | Stand Up            |
+| **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
+| **9:45 - 10:15**    | [Consuming an Api](tuesday/consuming-an-api.md) |
+| **10:15 - 10:30**    | [Practice Consuming an Api](tuesday/consuming-an-api.md#practice) |
+| **10:40 - 12:00**   | [Authentication w/ OmniAuth](tuesday/omniauth.md) |
+| **1:30** - **2:45** | [See More Project Intro](../see-more.md) |
+| **3:00** - **4:00** | Martha Girdler |
+| **4:00** - **5:00** | [See More Project Work](../see-more.md) |
+
 ### Wednesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | [Quiz]()                |
-| **9:15 - 10:45**  | [Creating an Api in Rails](tuesday/creating-an-api-in-rails.md)|
-| **10:45 - 12:00** | [Extending the Rails Api](tuesday/creating-an-api-in-rails.md) |
+| **9:00 - 9:15**     | Stand Up            |
+| **9:15 - 10:45**  | [Creating an Api in Rails](wednesday/creating-an-api-in-rails.md)|
+| **10:45** - **11:15** | [See More Project Q&A](../see-more.md) |
 | **12:00** - **5:00** | Project Time |
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Quiz                |
+| **9:00 - 9:15**     | Stand Up            |
+| **9:15** - **10:15** | [See More Project Q&A](../see-more.md) |
 
 ### Friday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Stand Up            |
+| **9:00 - 9:15**     | Stand Up            |
+| **9:15** - **10:15** | [See More Project Q&A](../see-more.md) |
 
 **Homework**
