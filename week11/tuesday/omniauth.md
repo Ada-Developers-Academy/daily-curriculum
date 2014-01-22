@@ -37,7 +37,7 @@ Open the Gemfile and add two gems
     gem "omniauth-github"
     group :development do
       gem "better_errors" # These two are just for debugging
-      gem "binding_of_caler"
+      gem "binding_of_caller"
     end
     
 Then `bundle install`, you notice that we have a specific gem for Github. Each provider has a small gem to add the functionality for that specific provider. 

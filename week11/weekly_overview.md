@@ -35,25 +35,28 @@ No Class
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 10:45**  | [Creating an Api in Rails](wednesday/creating-an-api-in-rails.md)|
-| **10:45** - **11:15** | [See More Project Q&A](see-more.md) |
-| **11:15** - **5:00** | [See More Project work](see-more.md) |
+| **9:10 - 9:30**      | Team 4 Standup & Architecture discussion |
+| **9:30 - 9:50**      | Team 2 Standup & Architecture discussion |
+| **9:50 - 10:10**     | Team 1 Standup & Architecture discussion |
+| **10:10 - 10:30**    | Team 3 Standup & Architecture discussion |
+| **10:30** - **5:00** | [See More Project work](see-more.md) |
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**     | Stand Up            |
-| **9:15** - **10:15** | [See More Project Q&A](see-more.md) |
-| **10:15** - **5:00** | [See More Project work](see-more.md) |
+| **9:10 - 9:30**      | Team 3 Standup & Architecture discussion |
+| **9:30 - 9:50**      | Team 1 Standup & Architecture discussion |
+| **9:50 - 10:10**     | Team 2 Standup & Architecture discussion |
+| **10:10 - 10:30**    | Team 4 Standup & Architecture discussion |
+| **10:30** - **5:00** | [See More Project work](see-more.md) |
 
 ### Friday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **9:15** - **10:15** | [See More Project Q&A](see-more.md) |
-| **10:15** - **5:00** | [See More Project work](see-more.md) |
+| **9:15 - 10:45**  | [Creating an Api in Rails](wednesday/creating-an-api-in-rails.md)|
+| **10:45** - **5:00** | [See More Project work](see-more.md) |
 
 **Homework**
