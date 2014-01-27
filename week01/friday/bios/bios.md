@@ -104,13 +104,6 @@ Melinda is an aspiring software developer with a passion for solving problems th
 Shadae Holmes is a problem-solving ninja in Seattle, WA. She graduated in 2009 from the University of San Francisco where she studied politics, pre-law, and dance. While there, she was first exposed to programming in a robotics class, where she used Java and Python to make Lego robots solve puzzles. On the job at a small e-commerce company, she discovered an aptitude for efficient communications between developers and clients, and taught herself HTML and CSS. In her free time, she is a committee member for Girls on the Run and is a passionate advocate for a safe space for girls to reach their potential.
 
 
-## Simone Sydnor
-- [Resume](https://gist.github.com/msrondys/5e3160926cde0317b9dd)
-- [Github](http://github.com/msrondys)
-- [Student Blog](http://immense-chamber-3063.herokuapp.com/)
-
-An analog girl in a digital world, Simone is new to world of programming.  The love of challenge drew Simone to the world of software development and a natural curiosity to learn will help her to continue to learn and grow in the field.  But it is her commitment to social justice that will push her to be the best web developer she can be daily.  When not navigating the digital world and loving it’s complexity and potential, Simone can be found watching documentaries, researching permaculture and natural building, and building things with her hands.
-
 ## Sue White
 - [Resume](https://gist.github.com/suewhite/d80cac32e1e38ccb1491)
 - [Github](http://github.com/suewhite)
