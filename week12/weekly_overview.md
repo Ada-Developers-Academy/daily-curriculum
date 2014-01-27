@@ -18,6 +18,7 @@ In week 12 we will continue to work on the [SeeMore project](see-more.md), in wh
 | **11:15 - 5:00**    | [See More Project Intro](see-more.md) |
 
 Product meetings:
+
 | **2:00 - 2:20** | Team 4 |
 | **2:30 - 2:50** | Team 2 |
 | **3:00 - 3:20** | Team 1 |
@@ -44,6 +45,7 @@ Product meetings:
 | **9:00 - 5:00** | [See More Project work](see-more.md) |
 
 Product meetings:
+
 | **2:00 - 2:20** | Team 4 |
 | **2:30 - 2:50** | Team 2 |
 | **3:00 - 3:20** | Team 1 |
