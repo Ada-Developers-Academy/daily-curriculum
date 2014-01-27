@@ -1,6 +1,6 @@
 # Week 11
 
-In week 11 we will be to learn to consume and create a server-side web API. This week will include a project where the students will create a RESTful web API from a public or private data source.
+In week 11 we will be learning to consume and create a server-side web API. This week will include a project where the students will create a RESTful web API from a public or private data source.
 
 ## Goals
 - Identify when to use an external web API
