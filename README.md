@@ -25,29 +25,29 @@ Week 10 - Jan 13-17: Intro to Javascript with Kerri & Jeff Lembeck
 
 Week 11 - Jan 21-24: Midterm Project with Bookis
 
-Week 12 - Jan 27-31: Special Topics & Midterm Project with Bookis & Kerri
+Week 12 - Jan 27-31: Special Topics & Midterm Project with Kerri
 
-Week 13 - Feb 3-7: Midterm Project Presentations; Rails Individual Project with Kerri
+Week 13 - Feb 3-7: Midterm Project Presentations; Rails Individual Project with Bookis
 
-Week 14 - Feb 10-14: Group SOA Rails Project with Bookis 
+Week 14 - Feb 10-14: 2 week pairing Rails Project with Kerri
 
-Week 15 - Feb 17-21: Group SOA Rails Project with Kerri 
+Week 15 - Feb 17-21: 2 week pairing Rails Project with Bookis 
 
-Week 16 - Feb 24-28: Group SOA Rails Project with Bookis
+Week 16 - Feb 24-28: Group SOA Rails Project with Kerri
 
-Week 17 - Mar 3-7:  Pair JS Framework Project with Kerri
+Week 17 - Mar 3-7:  Group SOA Rails Project with Bookis
 
-Week 18 - Mar 10-14: Pair JS Framework Project with Bookis
+Week 18 - Mar 10-14: Pair JS Framework Project with Kerri
 
-Week 19 - Mar 17-21: Individual Student-Defined Rails Project with Kerri
+Week 19 - Mar 17-21: Pair JS Framework Project with Bookis
 
-Week 20 - Mar 24-28: Individual Student-Defined Rails Project with Bookis
+Week 20 - Mar 24-28: Individual Student-Defined Rails Project with Kerri
 
-Week 21 - Mar 31-April 4: Final Rails Project with Kerri
+Week 21 - Mar 31-April 4: Final Rails Project with Bookis
 
-Week 22 - April 7-11: Final Rails Project with Bookis
+Week 22 - April 7-11: Final Rails Project with Kerri
 
-Week 23 - April 14-18: Final Rails Project with Kerri
+Week 23 - April 14-18: Final Rails Project with Bookis
 
 Week 24 - April 21-25: Final Rails Project Presentations with Kerri, Bookis, & Community Members 
 
