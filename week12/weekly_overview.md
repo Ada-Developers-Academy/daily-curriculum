@@ -54,10 +54,11 @@ Product meetings:
 
 ### Friday
 
-| Time              | Topic               |
-|:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Stand Up            |
-| **9:15 - 10:30**  | Sorting |
+| Time              | Topic                                |
+|:-----------------:|:------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                             |
+| **9:15 - 9:30**   | Presentation                         |
+| **9:30 - 10:30**  | Sorting                              |
 | **10:30 - 5:00**  | [See More Project work](see-more.md) |
 
 
