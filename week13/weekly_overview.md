@@ -33,7 +33,9 @@ In week 13 we will be building a list-making rails application, we will be intro
 | **9:00 - 9:15**   | Stand Up            |
 | **9:15 - 10:10**  | [ActionMailer & Pony](tuesday/mailers.md)      |
 | **10:15 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md)|
-| **11:30 - 5:00**  | [Lister Project Time](lister.md)      |
+| **11:30 - 3:00**  | [Lister Project Time](lister.md)      |
+| **3:00 - 4:00**  | Hakon Verespej      |
+| **4:00 - 5:00**  | [Lister Project Time](lister.md)      |
 
 
 ### Wednesday
