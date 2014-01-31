@@ -25,7 +25,7 @@ In week 13 we will be building a list-making rails application, we will be intro
 
 *Note*: This screencast uses Rails 3, but everything is pretty much exactly the same.
 
-*Note Two*: We will be doing lessons on both of these topics tomorrow, you can choose to watch these screencasts Monday or Tuesday (or ideally both).
+*Note Two*: We will be doing lessons on both of these topics on tuesday, you can choose to watch these screencasts before or after the lessons, but I encourage you to watch them before **and** after the lesson.
 
 ### Tuesday
 | Time              | Topic               |

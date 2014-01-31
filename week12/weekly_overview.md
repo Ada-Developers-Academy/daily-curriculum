@@ -61,5 +61,11 @@ Product meetings:
 | **9:30 - 10:30**  | Sorting                              |
 | **10:30 - 5:00**  | [See More Project work](see-more.md) |
 
-
 **Homework**
+
+- Watch the [ActionMailer Railscast](http://railscasts.com/episodes/206-action-mailer-in-rails-3)
+- Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
+
+*Note*: This screencast uses Rails 3, but everything is pretty much exactly the same.
+
+*Note Two*: We will be doing lessons on both of these topics on tuesday, you can choose to watch these screencasts before or after the lessons, but I encourage you to watch them before **and** after the lesson.
