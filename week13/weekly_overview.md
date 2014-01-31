@@ -20,9 +20,12 @@ In week 13 we will be building a list-making rails application, we will be intro
 
 **Homework**
 
-Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
+- Watch the [ActionMailer Railscast](http://railscasts.com/episodes/206-action-mailer-in-rails-3)
+- Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
 
 *Note*: This screencast uses Rails 3, but everything is pretty much exactly the same.
+
+*Note Two*: We will be doing lessons on both of these topics tomorrow, you can choose to watch these screencasts Monday or Tuesday (or ideally both).
 
 ### Tuesday
 | Time              | Topic               |
@@ -37,7 +40,7 @@ Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
 | Time                | Topic               |
 |:-------------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 10:00**     | [Web Api 101](wednesday/web-api-101.md)      |
+| **9:15 - 10:00**     | [Creating an API](wednesday/creating-an-api-in-rails.md)      |
 | **10:00 - 5:00**  | [Lister Project Time](lister.md)      |
 
 ### Thursday
