@@ -1,6 +1,6 @@
 # Lister
 
-Lister will be an application where users can sign up, create new lists, and add items to those lists. Additionally Lister will have the ability to send emails using Delayed Job.
+Lister will be an application where users can sign up, create new lists, and add items to those lists. Additionally Lister will have the ability to send emails using Resque.
 
 ## Goals
 + Build a basic rails app.
@@ -151,7 +151,7 @@ After getting all green specs, use TDD (referring to the previous specs) to deve
 
 ### **When sending an email**
 
-- The email should be sent using a background working and Delayed Job
+- The email should be sent using a background working and Resque
 
 ### Other considerations
 

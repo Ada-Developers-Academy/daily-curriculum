@@ -5,7 +5,7 @@ In week 13 we will be building a list-making rails application, we will be intro
 ## Goals
 - Build a list-making application
 - Learn about and implement ActionMailer
-- Learn about and implement Delayed Job
+- Learn about and implement Resque
 - Use jQuery for simple DOM manipulation
 - Learn about and implement Javascript Ajax requests
 - Build a public facing API for a users lists
@@ -13,33 +13,48 @@ In week 13 we will be building a list-making rails application, we will be intro
 ### Monday
 | Time                | Topic               |
 |:-------------------:|:--------------------|
-| **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 10:15**     | [Web Api 101](tuesday/web-api-101.md)      |
+| **9:05 - 10:00**  | [SeeMore App Demos](../week12/see-more.md)      |
+| **10:05 - 1:00**  | [Beginning Lister](lister.md)      |
+| **1:00 - 2:00**   | [Using Ajax](monday/ajax.md)      |
+| **2:00 - 5:00**   | [Lister Project Time](lister.md)      |
+
+**Homework**
+
+Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
+
+*Note*: This screencast uses Rails 3, but everything is pretty much exactly the same.
 
 ### Tuesday
-| Time                | Topic               |
-|:-------------------:|:--------------------|
-| **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
+| Time              | Topic               |
+|:-----------------:|:--------------------|
+| **9:00 - 9:15**   | Stand Up            |
+| **9:15 - 10:10**  | [ActionMailer & Pony](tuesday/mailers.md)      |
+| **10:15 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md)|
+| **11:30 - 5:00**  | [Lister Project Time](lister.md)      |
 
 
 ### Wednesday
 | Time                | Topic               |
 |:-------------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
-
+| **9:15 - 10:00**     | [Web Api 101](wednesday/web-api-101.md)      |
+| **10:00 - 5:00**  | [Lister Project Time](lister.md)      |
 
 ### Thursday
 | Time                | Topic               |
 |:-------------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
-
+| **9:15 - 3:00**  | [Lister Project Time](lister.md)      |
+| **3:00 - 4:00**  | Speaker?      |
+| **4:00 - 5:00**  | [Lister Project Time](lister.md)      |
 
 ### Friday
 
 | Time                | Topic               |
 |:-------------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
+| **9:15 - 3:00**  | [Lister Project Time](lister.md) |
+| **3:00 - 4:00**  | Retrospective      |
+| **4:00 - 5:00**  | [Lister Demos](lister.md)      |
+
+
