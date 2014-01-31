@@ -42,4 +42,10 @@ Sorting questions are some of the most common in technical interviews. Why?
 
 ...maybe. Selection Sort is always the same, regardless of the data. While it takes O(n<sup>2</sup>) operations to sort the data, it only has to perform O(n) swaps. Why might this be desirable?
 
-## Bubble Sorty
+## Bubble Sort
+
+(Demonstration at white board)
+
+# Links
+[http://www.sorting-algorithms.com/](http://www.sorting-algorithms.com/)
+[Bubble Sort as a Hungarian Folk Dance](http://www.youtube.com/watch?v=lyZQPjUT5B4)
