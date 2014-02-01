@@ -49,9 +49,7 @@ In week 13 we will be building a list-making rails application, we will be intro
 | Time                | Topic               |
 |:-------------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 3:00**  | [Lister Project Time](lister.md)      |
-| **3:00 - 4:00**  | Speaker?      |
-| **4:00 - 5:00**  | [Lister Project Time](lister.md)      |
+| **9:15 - 5:00**  | [Lister Project Time](lister.md)      |
 
 ### Friday
 
