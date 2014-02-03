@@ -1,6 +1,6 @@
 # Lister
 
-Lister will be an application where users can sign up, create new lists, and add items to those lists. Additionally Lister will have the ability to send emails using Resque.
+Lister will be an application where users can sign up, create new lists, and add items to those lists. Additionally Lister will have the ability to send emails using ActionMailer and Resque.
 
 ## Goals
 + Build a basic rails app.
