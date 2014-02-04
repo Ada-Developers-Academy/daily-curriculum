@@ -53,3 +53,25 @@ Resque depends on two things, a `@queue` instance variable, and a class method c
 We can then use the `Resque` gem to add something to this queue, in the rails console
 
     Resque.enqueue(EmailJob)
+    
+Mount the resque server to the rails app
+    
+    require 'resque/server'
+    Golf::Application.routes.draw do
+      mount Resque::Server, :at => "/resque"
+      ...
+      
+Now we can replace the contents of the `perform` method to actually do logic, we can also accepts arguments on the perform method:
+
+    class EmailJob
+      @queue = :email
+      def self.perform(club_id)
+        ClubMailer.join_us(club_id).deliver
+      end
+    end
+    
+Be sure to restart the Resque rake task after changing any of the job classes. Now to enqueue this job, we will need to pass in an additional argument, which is the clubs id
+    
+    Resque.enqueue(EmailJob, Club.last.id)
+    
+Now our mailer can be sent in a background job using Resque
