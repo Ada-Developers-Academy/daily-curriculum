@@ -61,4 +61,5 @@ Books
 [Sinatra Up and Running](http://shop.oreilly.com/product/0636920019664.do) by Alan Harris & Konstantin Haase
 
 [Ruby on Rails Tutorial](http://ruby.railstutorial.org/) by Michael Hartl
+
 [Computer Science Programming Basics in Ruby](http://shop.oreilly.com/product/0636920028192.do) by Ophir Frieder, Gideon Frieder, David Grossman
