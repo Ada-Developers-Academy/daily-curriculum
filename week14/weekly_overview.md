@@ -20,7 +20,7 @@ In Week 14 we will be starting a 2 week long pairing project in which students w
 |:-----------------:|:-------------------------------------------------:|
 | **9:15 - 10:00**  | [PB&J Exercise](monday/pb_and_j.md)               |
 | **10:05 - 11:00** | [Beginning Pea Patch Planner](p_patch_planner.md) |
-| **12:00 -5:00**   | [PPP Project Time](p_patch_planner.md.md)         |
+| **11:00 -5:00**   | [PPP Project Time](p_patch_planner.md.md)         |
 
 **Homework**
 
