@@ -65,7 +65,7 @@ Each of these will increase the size of the endowment by $2,000,000 when complet
         - Flog: no Controller method > 25, no Model method > 15
         - Rubocop: no more than 15 code style issues
         - Brakeman: no major security issues
-        - Code Coverage: 90%+
+        - Code Coverage for all Controller routes, Model validations, and Model methods
 
 
 
