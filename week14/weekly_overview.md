@@ -35,10 +35,12 @@ In Week 14 we will be starting a 2 week long pairing project in which students w
 
 
 ### Wednesday
-| Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
+| Time              | Topic                                     |
+|:-----------------:|:-----------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                  |
+| **9:15 - 10:00**  | [PPP Project Time](p_patch_planner.md.md) |
+| **10:00 - 12:00** | Response Design for Mobile - Devon        |
+| **12:00 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 
 
 ### Thursday
