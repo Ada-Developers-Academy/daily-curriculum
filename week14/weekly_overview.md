@@ -48,7 +48,9 @@ In Week 14 we will be starting a 2 week long pairing project in which students w
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
 | **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
+| **9:15 - 2:00** | [PPP Project Time](p_patch_planner.md.md) |
+| **2:00 - 3:00** | Guest Speaker - Aja Hammerly              |
+| **3:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
 
 
 ### Friday
@@ -57,7 +59,7 @@ In Week 14 we will be starting a 2 week long pairing project in which students w
 |:---------------:|:-----------------------------------------:|
 | **9:00 - 9:15** | Stand Up                                  |
 | **9:15 - 3:00** | [PPP Project Time](p_patch_planner.md.md) |
-| **3:00 - 4:00** | Retrospective                             |
+| **3:00 - 4:00** | Weekly Retrospective                      |
 | **4:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
 
 
