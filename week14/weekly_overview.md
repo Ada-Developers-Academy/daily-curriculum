@@ -39,7 +39,7 @@ In Week 14 we will be starting a 2 week long pairing project in which students w
 |:-----------------:|:-----------------------------------------:|
 | **9:00 - 9:15**   | Stand Up                                  |
 | **9:15 - 10:00**  | [PPP Project Time](p_patch_planner.md.md) |
-| **10:00 - 12:00** | Response Design for Mobile - Devon        |
+| **10:00 - 12:00** | [Response Design for Mobile](https://github.com/leifdalan/ada-responsive) - Devon & Leif      |
 | **12:00 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 
 
