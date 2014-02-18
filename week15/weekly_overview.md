@@ -33,7 +33,7 @@ No School
 | **9:00 - 9:15** | Stand Up                                  |
 | **9:15 - 12:00** | [PPP Project Time](../week14/p_patch_planner.md) && Project Recap w/Bookis |
 | **12:00 - 3:00** | [PPP Project Time](../week14/p_patch_planner.md) |
-| **12:00 - 3:00** | Ashe Dryden |
+| **3:00 - 4:00** | Ashe Dryden |
 | **4:00 - 5:00** | Tuesday Lesson Suggestions |
 
 
