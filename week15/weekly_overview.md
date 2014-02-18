@@ -2,6 +2,13 @@
 
 In Week 15 we will be continueing a 2 week long pairing project in which students will build a community garden planning application. The emphasis will be on building strong pair programming skills, revisiting the lessons of the previous 2 projects, and continuing to develop competency with testing.
 
+This week lectures may be à la carte, some potential topics to talk about as a class or in smaller groups:
+
+- MVC (what goes where & why)
+- Mocks & Stubs in Testing
+- Webmock[https://github.com/bblimke/webmock] [tutorial](http://marnen.github.io/webmock-presentation/webmock.html#(1))
+- [Heroku Resque AutoScaler](https://github.com/G5/heroku_resque_autoscaler)
+
 ## Goals
 - Successful pair programming experience
 - Develop personal project management skills
