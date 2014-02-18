@@ -8,6 +8,9 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 - Mocks & Stubs in Testing
 - Webmock[https://github.com/bblimke/webmock] [tutorial](http://marnen.github.io/webmock-presentation/webmock.html#(1))
 - [Heroku Resque AutoScaler](https://github.com/G5/heroku_resque_autoscaler)
+- Advanced Views
+- Testing Views (capybara)
+- Testing
 
 ## Goals
 - Successful pair programming experience
