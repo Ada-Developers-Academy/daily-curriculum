@@ -10,7 +10,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 - [Heroku Resque AutoScaler](https://github.com/G5/heroku_resque_autoscaler)
 - Advanced Views
 - Testing Views (capybara)
-- Testing
+- Creating a Gem
 
 ## Goals
 - Successful pair programming experience
