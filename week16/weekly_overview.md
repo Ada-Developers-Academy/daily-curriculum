@@ -1,6 +1,6 @@
 # Week 16
 
-In Week 16 we will be begin a 2 week long unit on Refactoring and Service Oriented Architecture. Students will refactor a pair of previous projects, and begin working on building a Shipping service for their Congo projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop competency with testing.
+In Week 16 we will be begin a 2 week long unit on Refactoring and Service Oriented Architecture. Students will refactor a previous project, and build a Shipping service for their Congo projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop competency with testing.
 
 As in Week 15, this week lectures may be à la carte, some potential topics to talk about as a class or in smaller groups:
 
@@ -25,34 +25,36 @@ Additionally, there will be an optional demo of building an app start to finish,
 | Time             | Topic                                  |
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                               |
-| **9:15 - 10:30** | P Patch Planner Presentation Period    |
-| **10:30 - 5:00** | [RePatch Project](re_patch_planner.md) |
+| **9:15 - 10:30** | Introduction to SOA                    |
+| **??** - **?**   | "Refactoring with SOA In Mind"         |
+| **10:30 - 5:00** | Refactoring on Congo                   |
 
 ### Tuesday
 
-| Time            | Topic                                  |
-|:---------------:|:--------------------------------------:|
-| **9:00 - 9:15** | Stand Up                               |
-| **9:15 - 3:00** | [RePatch Project](re_patch_planner.md) |
-| **3:00 - 4:00** | Katrina Owens                          |
-| **4:00 - 5:00** | Tuesday Lesson Suggestions             |
+| Time             | Topic                                  |
+|:----------------:|:--------------------------------------:|
+| **9:00 - 9:15**  | Stand Up                               |
+| **9:15 - 10:30** | Building APIs                          |
+| **10:30 - 3:00** | [SOA Shipping](shipping_service.md)    |
+| **3:00 - 4:00**  | Katrina Owens                          |
+| **4:00 - 5:00**  | Tuesday Lesson Suggestions             |
 
 
 ### Wednesday
-| Time              | Topic                  |
-|:-----------------:|:----------------------:|
-| **9:00 - 9:15**   | Stand Up               |
-| **9:15 - 10:30**  | Lesson TBD by students |
-| **10:30 - 5:00**  | [ReCongo](re_congo.md) |
+| Time              | Topic                               |
+|:-----------------:|:-----------------------------------:|
+| **9:00 - 9:15**   | Stand Up                            |
+| **9:15 - 10:30**  | SOA Implementation                  |
+| **10:30 - 5:00**  | [SOA Shipping](shipping_service.md) |
 
 
 ### Thursday
 
-| Time             | Topic                  |
-|:----------------:|:----------------------:|
-| **9:00 - 9:15**  | Stand Up               |
-| **9:15 - 10:30** | Lesson TBD by students |
-| **10:30 - 5:00** | [ReCongo](re_congo.md) |
+| Time             | Topic                               |
+|:----------------:|:-----------------------------------:|
+| **9:00 - 9:15**  | Stand Up                            |
+| **9:15 - 10:30** | Lesson TBD by students              |
+| **10:30 - 5:00** | [SOA Shipping](shipping_service.md) |
 
 
 
