@@ -1,6 +1,6 @@
 # Week 15
 
-In Week 15 we will be continueing a 2 week long pairing project in which students will build a community garden planning application. The emphasis will be on building strong pair programming skills, revisiting the lessons of the previous 2 projects, and continuing to develop competency with testing.
+In Week 15 we will be continuing a 2 week long pairing project in which students will build a community garden planning application. The emphasis will be on building strong pair programming skills, revisiting the lessons of the previous 2 projects, and continuing to develop competency with testing.
 
 This week lectures may be à la carte, some potential topics to talk about as a class or in smaller groups:
 
