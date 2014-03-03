@@ -24,7 +24,9 @@ As in Week 15, this week lectures may be à la carte, some potential topics to t
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                               |
 | **9:15 - 10:30** | Basic Security in SOA from scratch    |
-| **10:30 - 5:00** | [SOA Shipping](shipping_service.md)    |
+| **10:30 - 3:20** | [SOA Shipping](shipping_service.md)    |
+| **3:30 - 4:30** | Scott Case    |
+| **4:30 - 5:00** | [SOA Shipping](shipping_service.md)    |
 
 
 ### Wednesday
