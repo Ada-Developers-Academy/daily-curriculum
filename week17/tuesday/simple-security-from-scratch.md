@@ -193,10 +193,7 @@ Create a `Post` class that we will use to talk with the blog service
 touch app/models/post.rb
 ```
 
-In this model we'll use `HTTParty` and the `Authentication` class to make the requests
-We will include the data that we used for the signature (as well as the signature)
-in the [headers](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
-of the request.
+In this model we'll use `HTTParty` and the `Authentication` class to make the requests. We will include the data that we used for the signature (as well as the signature) in the [headers](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) of the request.
 
 ```rb
 class Post
@@ -225,7 +222,7 @@ class Post
 end
 ```
 
-As you can see I've pulled a headers hash into a seperate method, `HTTParty`
+As you can see I've pulled a headers hash into a separate method, `HTTParty`
 allows you to add any headers to a request simply by passing in a `headers` key
 in any request.
 
@@ -240,13 +237,10 @@ To make a request to our blog service running at `http://localhost:3001`.
 
 ## Authenticating in the Blog Service
 
-The blog service will now receive a `GET` request to `/posts` that includes the 
-params `{user_id: 1}`, as well as a HTTP header of the time the request was sent,
-and the signature from the request. We can now write a function that ensures this
-signature is authentic.
+The blog service will now receive a `GET` request to `/posts` that includes the params `{user_id: 1}`, as well as a HTTP header of the time the request was sent, and the signature from the request. We can now write a function that ensures this signature is authentic.
 
 ## Resources
-[What is HMAC and why is it useful](http://www.wolfe.id.au/2012/10/20/what-is-hmac-and-why-is-it-useful/)
+[What is HMAC and why is it usefull](http://www.wolfe.id.au/2012/10/20/what-is-hmac-and-why-is-it-useful/)
 
     
     
