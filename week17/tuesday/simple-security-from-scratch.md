@@ -62,7 +62,7 @@ And create the basic definition for the class:
 require 'openssl' # This is for creating the signature
 require 'base64'  # This is for turning the signature into a prettier string
 
-class Authentication
+class ServiceAuthentication
 end
 ```
 ## The logic
@@ -96,20 +96,19 @@ To start lets make the class accept all of these values:
 require 'openssl'
 require 'base64'
 
-class Authentication
-  def initialize(key, params, path, method, time, sig=nil)
+class ServiceAuthentication
+  def initialize(key, params, path, method, time)
     @key    = key
     @params = params
     @path   = path
     @method = method
     @time   = time
-    @sig    = sig
   end
 end
 ```
 
 Now we have a basic class that accepts a bunch of arguments (it's messy, but we can refactor)
-next we should create the method that signs
+next we should create the method that signs the request.
 
 ```rb
 def sign
@@ -155,13 +154,18 @@ Base64.encode64(hmac).chomp
 Next we stick that `hmac` value into a [base64](http://en.wikipedia.org/wiki/Base64) encoder, 
 And out pops our signature!
 
+```rb
+ServiceAuthentication.new("key", {foo:'params'}, "/path", "GET", Time.now.to_i).sign
+# => "UAIp8H+ri1y+/VB0PSP4NepICn4="
+```
+
 A quick refactor to make this class a bit cleaner:
 
 ```rb
 require 'openssl'
 require 'base64'
 
-class Authentication
+class ServiceAuthentication
   def initialize(key, params, path, method, time, sig=nil)
     @key    = key
     @params = params
@@ -185,7 +189,7 @@ class Authentication
 end
 ```
 
-## Implementing the Service
+## Implementing the Client
 
 Create a `Post` class that we will use to talk with the blog service
 
@@ -193,10 +197,18 @@ Create a `Post` class that we will use to talk with the blog service
 touch app/models/post.rb
 ```
 
-In this model we'll use `HTTParty` and the `Authentication` class to make the requests
+In this model we'll use `HTTParty` and the `ServiceAuthentication` class to make the requests
 We will include the data that we used for the signature (as well as the signature)
 in the [headers](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
 of the request.
+
+Add httparty to the Gemfile
+
+```rb
+gem "httparty"
+```
+
+And implement the `Post` class
 
 ```rb
 class Post
@@ -207,7 +219,7 @@ class Post
   
   def all
     @params = {user_id: @user_id}
-    @path = "/posts"a
+    @path = "/posts"
     @method = "GET"
     HTTParty.get("http://localhost:3001#{@path}", 
       query: @params,
@@ -219,7 +231,7 @@ class Post
     time = Time.now.to_i.to_s
     {
       "REQUEST_TIME" => time, 
-      "REQUEST_SIGNATURE" => Authentication.new("testkey", @params, @path, @method, time).sign
+      "REQUEST_SIGNATURE" => ServiceAuthentication.new("testkey", @params, @path, @method, time).sign
     }
   end
 end
@@ -236,7 +248,8 @@ user = User.last # Assuming you've created one first
 Post.new(user.id).all
 ```
 
-To make a request to our blog service running at `http://localhost:3001`.
+To make a request to our blog service running at `http://localhost:3001`, but it's
+not running yet, os let's get it going.
 
 ## Authenticating in the Blog Service
 
@@ -245,12 +258,134 @@ params `{user_id: 1}`, as well as a HTTP header of the time the request was sent
 and the signature from the request. We can now write a function that ensures this
 signature is authentic.
 
+I'm going to use the same class for authenticating the user on the other end, I'm 
+just going to copy the file, but this may be a good time to make a gem.
+
+Switch over the the blog app and do some base setup:
+
+```bash
+cd ../blog-service
+cp ../user-client/lib/service_authentication.rb lib/
+rails g controller posts
+```
+
+```rb
+# config/application.rb
+config.autoload_paths += Dir["#{config.root}/lib/**/"]
+```
+```rb
+#config/routes.rb
+get "/posts", to: "posts#index"
+post "/posts", to: "posts#create"
+```
+
+```rb
+# app/controllers/posts_controller.rb
+class PostsController < ApplicationController
+  def index
+    @posts = Post.where(user_id: params[:user_id])
+    render json: @posts
+  end
+  
+  def create
+    @post = Post.new(params.require(:post).permit(:body, :title, :user_id))
+    if @post.save
+      render json: @post
+    else
+      render nothing: true, status: :unprocessable_entity
+    end
+  end
+end
+```
+
+All of that is pretty simple. Let's start the server at port 3001, then go into
+the rails console of our client and try out a request.
+
+```bash
+rails s -p 3001
+cd ../user-client # In a new terminal
+rails console
+Post.new(1).all
+```
+
+The response is successful, there aren't any users returned because we haven't
+actually created any yet. Let's go back to the service and add authentication. 
+In `app/controllers/application_controller.rb
+
+```rb
+    # protect_from_forgery with: :exception COMMENT THIS LINE OUT
+    before_action :check_authenticity
+  
+  def check_authenticity
+    render status: :unauthorized, text: "403 Unauthorized"
+  end
+```
+
+This will make all reqeusts fail with a status of `403`. Try your client from the
+terminal again to confirm.
+
+At this point if we go into the rails console of
+the client, we can now use the Post class that we made to make a request to the 
+service
+
+Now we need to wrap this render unauthorized in a `authenticated?` method.
+Let's put this method in the same `ServiceAuthentication` class. We'll also need to
+pass in the signature received in the HTTP headers to compare to the signature
+that our class generates.
+
+```rb
+# Modify the initialize method to accept the signature
+def initialize(key, params, path, method, time, signature=nil)
+  @key          = key
+  @params       = params
+  @path         = path
+  @method       = method
+  @time         = time
+  @signature    = signature
+end
+
+def authenticated?
+  timeout && @signature == sign
+end
+
+def timeout
+  Time.now.to_i - @time.to_i < 10
+end
+```
+
+And implement these methods into the application controller:
+
+```rb
+def check_authenticity
+  time = request.env["HTTP_REQUEST_TIME"] # This is the field we set manually in the client
+  path = request.env["PATH_INFO"] # Rails provides this key
+  sig  = request.env["HTTP_REQUEST_SIGNATURE"] # This is the signature we created on the client
+  method = request.method # This it the HTTP method (ie "GET")
+  params.delete(:controller) # Remove the controller and action keys from params
+  params.delete(:action)
+  unless ServiceAuthentication.new("testkey", params, path, method, time, sig).authenticated?
+    render status: :unauthorized, text: "403 Unauthorized"
+  end
+end
+```
+
+When we pass all of the same arguments into the  `ServiceAuthentication` initlialization
+we should be able to recreate the same signature the `authenticated?` method will
+compare the two, as well as assess if the time provided has been within the last 10
+seconds.
+
+Ta-da. This should now protect against any request that doesn't have a signature
+that can be recreated in the service. Some benifits of this technique:
+
+- The `testkey` can be changed to reset the security if the apps security is compromised.
+- The request is time senstive.
+- If any single character of the request is incorrect (tampered in a "man in the middle" attack) the signature will not match.
+
+## Todo
+
+- Implement the `create` method in the `Post` class.
+- One potential bug in our code is that the params may not end up in the correct order, thus the signature would not be the same, make the `ServiceAuthentication` class sort params by keys before signing.
+- Write tests.
+
 ## Resources
 [What is HMAC and why is it useful](http://www.wolfe.id.au/2012/10/20/what-is-hmac-and-why-is-it-useful/)
-
-    
-    
-
-
-
-
