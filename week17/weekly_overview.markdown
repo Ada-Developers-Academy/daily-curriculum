@@ -16,26 +16,26 @@ As in Week 15, this week lectures may be à la carte, some potential topics to t
 | Time             | Topic                                  |
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                               |
-| **9:15 - 5:00** | [SOA Shipping](shipping_service.md)    |
+| **9:15 - 5:00** | [SOA Shipping](../week16/shipping_service.md)    |
 
 ### Tuesday
 
 | Time             | Topic                                  |
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                               |
-| **9:15 - 10:30** | Basic Security in SOA from scratch    |
-| **10:30 - 3:20** | [SOA Shipping](shipping_service.md)    |
+| **9:15 - 10:30** | [Basic Security in SOA from scratch](tuesday/simple-security-from-scratch.md)    |
+| **10:30 - 3:20** | [SOA Shipping](../week16/shipping_service.md)    |
 | **3:30 - 4:30** | Scott Case    |
-| **4:30 - 5:00** | [SOA Shipping](shipping_service.md)    |
+| **4:30 - 5:00** | [SOA Shipping](../week16/shipping_service.md)    |
 
 
 ### Wednesday
 | Time              | Topic                               |
 |:-----------------:|:-----------------------------------:|
 | **9:00 - 9:15**   | Stand Up                            |
-| **9:15 - 2:30** | [SOA Shipping](shipping_service.md)    |
+| **9:15 - 2:30** | [SOA Shipping](../week16/shipping_service.md)    |
 | **2:30 - 3:15** | Lesson TBD    |
-| **3:15 - 5:00** | [SOA Shipping](shipping_service.md)    |
+| **3:15 - 5:00** | [SOA Shipping](../week16/shipping_service.md)    |
 
 
 ### Thursday
@@ -44,7 +44,7 @@ As in Week 15, this week lectures may be à la carte, some potential topics to t
 |:----------------:|:-----------------------------------:|
 | **9:00 - 9:15**  | Stand Up                            |
 | **10:00 - 11:00** | Data Structures w/Kathleen (?)    |
-| **11:00 - 5:00** | [SOA Shipping](shipping_service.md)    |
+| **11:00 - 5:00** | [SOA Shipping](../week16/shipping_service.md)    |
 
 
 
@@ -53,7 +53,7 @@ As in Week 15, this week lectures may be à la carte, some potential topics to t
 | Time            | Topic                               |
 |:---------------:|:-----------------------------------:|
 | **9:00 - 9:15** | Stand Up                            |
-| **9:15 - 5:00** | [SOA Shipping](shipping_service.md)    |
+| **9:15 - 5:00** | [SOA Shipping](../week16/shipping_service.md)    |
 | **4:00 - 4:30** | Weekly Retrospective                |
 
 
