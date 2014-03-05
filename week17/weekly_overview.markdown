@@ -40,6 +40,7 @@ As in Week 15, this week lectures may be à la carte, some potential topics to t
 Homework:
 
 Read [Github's Ruby Styleguide](https://github.com/styleguide/ruby)
+Read [Code Climate's Refactoring Fat Models](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/) (this applies to controllers too)
 
 ### Thursday
 
