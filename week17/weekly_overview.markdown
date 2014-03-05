@@ -37,6 +37,9 @@ As in Week 15, this week lectures may be à la carte, some potential topics to t
 | **2:30 - 3:15** | Lesson TBD    |
 | **3:15 - 5:00** | [SOA Shipping](../week16/shipping_service.md)    |
 
+Homework:
+
+Read [Github's Ruby Styleguide](https://github.com/styleguide/ruby)
 
 ### Thursday
 
