@@ -12,6 +12,9 @@ Controllers, Routes, Templates, and Helpers.
 - Build a single-page application
 - Use Fixtures for rapid development
 - Build a database backed service to query via HTTP
+
+**Stretch Goals**
+
 - Use an existing service as a models data source
 - Integrate a credit card payment processor
 
@@ -34,12 +37,9 @@ Controllers, Routes, Templates, and Helpers.
     - Items
 - The cart can be viewed
     - The customer can see the current subtotal
-    - The customer can see additional Tax (9.5% if in WA state otherwise 0%)
     - The customer can see the current Items including: product name, price, quantity
 - The customer can remove items from the cart
 - The customer can update the quantity of an item
-- The customer can enter basic shipping info to see shipping rates.
-- The customer can select a shipping rate (the total should update)
 - The customer can proceed to checkout (if shipping selection is valid)
     
     
@@ -54,17 +54,14 @@ Controllers, Routes, Templates, and Helpers.
 
 - An Order includes at least
     - Customer Name
-    - Address
     - Email
     - Items
     - Transaction
-    - Status [paid, complete, canceled]
+    - Status [pending, paid, canceled]
 - A customer can input their personal details (see above)
 - A customer can input their credit card, CVV, and expiration date
 - When the customers submits their checkout form:
     - If the response is successful
-        - Use a credit card processor to process and charge the given credit card
-        - Record the credit card processor response as a transaction
         - Save the Order to the DB
         - Show a confirmation page
         - Send a confirmation email to the customer
@@ -77,12 +74,14 @@ Controllers, Routes, Templates, and Helpers.
 - I can manage products (create, update, delete)
 - I can view all of the orders sorted by status
 - I can change the status of an order
-- When an order is marked as shipped
-    - A shipping confirmation is sent to the customer
     
 ## Silver
 
 ### Admin
+
+- Checkout
+    - Use a credit card processor to process and charge the given credit card
+    - Record the credit card processor response as a transaction
 
 - As an admin
     - I can see a map showing a pin for each order
@@ -92,8 +91,18 @@ Controllers, Routes, Templates, and Helpers.
     
 ## Gold
 
+- Add to Order
+    - Address
+
+- Cart
+    - The customer can see additional Tax (9.5% if in WA state otherwise 0%)
+    - The customer can enter basic shipping info to see shipping rates.
+    - The customer can select a shipping rate (the total should update)
+
 - As an admin
     - I can create a shipment with the correct carrier
+    - When an order is marked as shipped
+        - A shipping confirmation is sent to the customer
     - I can send an email including tracking information from the carrier
 
 ## Platinum
