@@ -23,6 +23,8 @@ If the last step worked, then you have the basic tools installed. The primary to
 that we installed is `npm` (node package manager) which is similar to `brew`, but
 more specific for web application tools.
 
+Download and install the [Ember Inspector](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi).
+
 Next, pull a skeleton repo and get our local server running.
 
 ```bash
@@ -232,12 +234,9 @@ template yet, let's do that. In `app/templates/plants.handlebars`:
 And grunt should pick up on that change and refresh your browser for you. There
 still isn't any real data, let's plug it in with Handlebars.
 
-## Handlebars
+### Handlebars
 
-[Handlebars](http://handlebarsjs.com/) is a javascript HTML templating system.
-In a `.handlebars` file you can use `{{ }}` to print data and `{{# }}...{{/}}` as a 
-block. Ember does a great job at seamlessly attaching your models into your handlebars
-template. Our current `model` data is a collection (`Array`) of plant objects,
+Our current `model` data is a collection (`Array`) of plant objects,
 in our sidebar we will use Handlebars to iterate over those objects and create
 links in a list.
 
