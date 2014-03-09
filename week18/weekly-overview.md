@@ -37,10 +37,15 @@ In Week 18 start a two week Ember.js project. We will focus on learning the basi
 
 ### Thursday
 
-| Time            | Topic             |
-|:---------------:|:-----------------:|
-| **9:00 - 9:15** | Stand Up          |
-| **9:15 - 5:00** | Capstone Planning |
+| Time             | Topic                                                    |
+|:----------------:|:--------------------------------------------------------:|
+| **9:00 - 9:15**  | Stand Up                                                 |
+| **9:15 - 9:45**  | Introduction to [Capstone Project](thursday/capstone.md) |
+| **9:45 - 11:00** | "Picking a Project, Assessing a Need" w/ Elise           |
+| **11:00 - 1:00** | Individual and Group Brainstorming                       |
+| **1:00 - 2:00**  | Idea presentations and sign-ups                          |
+| **2:00 - 5:00**  | Team discussions, meet with Bookis, Elise, and Kerri     |
+
 
 
 
