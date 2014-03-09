@@ -1,7 +1,8 @@
 # Ember.js
 
 In this project we will be building an ember.js appliction using a service backed
-data source. The application will focus on building a multimodel commerce site.
+data source. The application will focus on building a multi-model commerce site,
+first focusing on digital (no shipping) items.
 We will utilizing the majority of ember.js's major features including RESTful models,
 Controllers, Routes, Templates, and Helpers.
 
