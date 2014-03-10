@@ -17,6 +17,7 @@ First we will install some tools:
 brew update
 brew doctor
 brew install node
+sudo npm install -g bower
 sudo npm install -g grunt-cli
 ```
 If the last step worked, then you have the basic tools installed. The primary tool
@@ -33,7 +34,9 @@ git clone git@github.com:Ada-Developers-Academy/ember-skeleton.git
 cd ember-skeleton
 npm install
 bower install
+
 ```
+Choose option (2) if Bower asks for a version number.
 
 Those last two comands will read the `package.json` and `bower.json` in the 
 application to install all of the needed tools a libraries needed
