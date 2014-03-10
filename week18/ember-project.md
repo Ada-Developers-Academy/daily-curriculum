@@ -82,6 +82,10 @@ to resolve difficult issues or large tasks.
 - I can view all of the orders sorted by status
 - I can change the status of an order
     
+### Data Source
+
+- Build a Rails API to use as the data source for all models
+- Use the Ember RESTAdapter to communicate with the API
 ## Silver
 
 ### Admin

@@ -63,7 +63,7 @@ conventions for Ember to work.
 - View
     - App.UsersView
 - Template
-    - users
+    - users.handlebars
     
 Here is an additional table of possible naming combinations:
 
