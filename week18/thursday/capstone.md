@@ -65,3 +65,10 @@ You may work as an individual or as a pair on your capstone project. To meet the
     + SOA
     + S3 storage/delivery
     + Secure API
+
+## To Get Started
++ [IDEO Deep Dive](http://www.youtube.com/watch?v=JkHOxyafGpE)
++ [Hello Ruby](https://www.kickstarter.com/projects/lindaliukas/hello-ruby)
+
+## Prep Homework
++ Watch Ryan Singer's [Designing from Start to Finish](http://vimeo.com/16814487)
