@@ -41,7 +41,7 @@ Controllers, Routes, Templates, and Helpers.
     - The customer can see the current Items including: product name, price, quantity
 - The customer can remove items from the cart
 - The customer can update the quantity of an item
-- The customer can proceed to checkout (if shipping selection is valid)
+- The customer can proceed to checkout
     
     
 ### Items
@@ -56,7 +56,7 @@ Controllers, Routes, Templates, and Helpers.
 - An Order includes at least
     - Customer Name
     - Email
-    - Items
+    - Cart
     - Transaction
     - Status [pending, paid, canceled]
 - A customer can input their personal details (see above)
