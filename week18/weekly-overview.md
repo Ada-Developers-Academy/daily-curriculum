@@ -26,7 +26,9 @@ and benefits of a front-end javascript framework.
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                               |
 | **9:15 - 11:00**  | [Actions, dynamic properties, and associations](tuesday/more-ember.js.md)                         |
-| **11:00 - 5:00**  | [Ember Project](ember-project.md)    |
+| **11:00 - 2:45**  | [Ember Project](ember-project.md)    |
+| **3:00 - 4:00**  | Talk w/ Kronda    |
+| **4:00 - 5:00**  | [Ember Project](ember-project.md)    |
 
 ### Wednesday
 | Time             | Topic                                  |
