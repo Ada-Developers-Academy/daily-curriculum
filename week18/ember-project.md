@@ -3,8 +3,13 @@
 In this project we will be building an ember.js appliction using a service backed
 data source. The application will focus on building a multi-model commerce site,
 first focusing on digital (no shipping) items.
+
 We will utilizing the majority of ember.js's major features including RESTful models,
 Controllers, Routes, Templates, and Helpers.
+
+Students will work on individual applications, but they will be in a "co-worker"
+pair to communicate about problems, techniques, and progress. And even pair program
+to resolve difficult issues or large tasks.
 
 ## Goals
 
@@ -26,7 +31,8 @@ Controllers, Routes, Templates, and Helpers.
 - Products include at least a:
     - Name
     - Price (in cents)
-    - Image
+    - Image (~800x600, placeholders ok (placekitten.com))
+    - Avatar (50x50, placeholders ok (placekitten.com))
     - Description
 - Products can be viewed as a list
 - Products can be viewed individually for a full description
@@ -42,7 +48,7 @@ Controllers, Routes, Templates, and Helpers.
 - The customer can remove items from the cart
 - The customer can update the quantity of an item
 - The customer can proceed to checkout
-    
+  
     
 ### Items
 
@@ -58,9 +64,9 @@ Controllers, Routes, Templates, and Helpers.
     - Email
     - Cart
     - Transaction
-    - Status [pending, paid, canceled]
+    - Status [paid, canceled]
 - A customer can input their personal details (see above)
-- A customer can input their credit card, CVV, and expiration date
+- A customer can input their credit card, CVV, Zip, and expiration date
 - When the customers submits their checkout form:
     - If the response is successful
         - Save the Order to the DB
