@@ -184,7 +184,7 @@ App.Plant.FIXTURES = [
 ```
 
 Next, we need to tell our Route which model data to use for this template, open
-`app/scripts/routes/plants.rb`:
+`app/scripts/routes/plants.js`:
 
 ```js
 App.PlantsRoute = Ember.Route.extend({
