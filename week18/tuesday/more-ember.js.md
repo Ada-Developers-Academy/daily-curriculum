@@ -15,7 +15,7 @@ App.Blog = DS.Model.extend({
 ```
 
 Now an instance of `Blog` will have a method `posts` which will return an array
-of `Post` objects. The way we specifify which `Post` objects to find in JSON is
+of `Post` objects. The way we specify which `Post` objects to find in JSON is
 using an array of ID's, for example with the fixture data
 
 ```js
@@ -51,8 +51,8 @@ App.Person = Ember.Model.extend({
 person.get('fullName') // "Bookis Smuin"
 ```
 
-The `fullName` attribute referres to a `function`, inside of this `function` we
-are contatenating the `firstName` and `lastName` attributes joined by a space.
+The `fullName` attribute referes to a `function`, inside of this `function` we
+are concatenating the `firstName` and `lastName` attributes joined by a space.
 
 After ending the `function` we are calling `.property` and listing any attributes
 that were used inside function. This tells the model to re-evaluate the function
@@ -91,5 +91,29 @@ action.
 <button {{ action "createPost" }} class='btn btn-success'>Create</button>
 ```
 
-The button we've just created has an `action`
+The button we've just created is now attached to an action called `createPost`.
+If we were to click on this button we'd see the following error in our web console:
+
+```js
+Uncaught Error: Nothing handled the action 'createProduct'.
+```
+
+Now lets handle the action, in the route for this template we can define a list
+of actions,
+
+```js
+App.ProductsRoute = Ember.Route.extend({
+  model: function () {
+    return this.store.find("product");
+  },
+  actions: {
+    createProduct: function () {
+      alert("Do create product logic")
+    }
+  }
+});
+```
+
+All actions are nested within the `actions` hash in a route or controller (both
+will work). 
   
