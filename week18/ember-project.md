@@ -1,4 +1,4 @@
-# Ember.js
+# Digistore
 
 In this project we will be building an ember.js appliction using a service backed
 data source. The application will focus on building a multi-model commerce site,
@@ -86,6 +86,7 @@ to resolve difficult issues or large tasks.
 
 - Build a Rails API to use as the data source for all models
 - Use the Ember RESTAdapter to communicate with the API
+
 ## Silver
 
 ### Admin
