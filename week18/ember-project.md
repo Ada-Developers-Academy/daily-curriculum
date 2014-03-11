@@ -63,7 +63,6 @@ to resolve difficult issues or large tasks.
     - Customer Name
     - Email
     - Cart
-    - Transaction
     - Status [paid, canceled]
 - A customer can input their personal details (see above)
 - A customer can input their credit card, CVV, Zip, and expiration date
