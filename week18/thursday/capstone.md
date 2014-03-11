@@ -37,6 +37,7 @@ You may work as an individual or as a pair on your capstone project. To meet the
 + Use background jobs for any long running tasks (email, image processing, 3rd party data manipulation)
 + Use caching for slow or bulky database
 + Use performance analytics to asses and optimize site performance (average server response time < 300ms)
++ Optimize client-side performance (Google PageSpeed Insights minimum score of 80)
 + At least 10 items of dummy-data for each concept
 + Use [Pivotal Tracker](http://pivotaltracker.com) as a project management service
 + Practice TDD to lead the development process
