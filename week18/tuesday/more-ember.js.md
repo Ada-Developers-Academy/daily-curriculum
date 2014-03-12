@@ -33,6 +33,7 @@ associated to it. The `{async: true}` portion is needed if you want this object
 to handle the loading of the `Toy` data.
 
 ## Actions
+![](resources/action-flow.png)
 
 Action are used for changing the state of the application or triggering application
 behavior. This is typically when we want to change the content of the page but
