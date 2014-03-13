@@ -44,8 +44,8 @@ In Week 18 start a two week Ember.js project. We will focus on learning the basi
 |:----------------:|:--------------------------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                                                 |
 | **9:15 - 9:45**  | Introduction to [Capstone Project](thursday/capstone.md) |
-| **10:00 - 12:00**| Brainstorming and Presentation Preparation               |
+| **10:00 - 12:00**| Project brainstorming / Digistore                        |
 | **12:00 - 1:00** | Lunch                                                    |
-| **1:00 - 5:00**  | Ember Digistore checkins and capstone brainstorming      |
+| **1:00 - 5:00**  | Digistore/Capstone checkins and capstone brainstorming   |
 
 ### Friday (No Class)

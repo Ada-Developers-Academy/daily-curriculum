@@ -30,32 +30,30 @@ You may work as an individual or as a pair on your capstone project. To meet the
 
 ### Goals
 + Use your product plan to lead the functionality development of their application
-+ Safe & secure application
++ Use [Pivotal Tracker](http://pivotaltracker.com) as a project management service
 + Host the application using a VPS such as Linode.com (no Heroku)
++ Configure DNS with custom domain
 + Create a stylized, responsive design for all devices (phone, tablet, display)
-+ Integrate email delivery
++ At least 10 items of dummy-data for each concept
 + Use background jobs for any long running tasks (email, image processing, 3rd party data manipulation)
 + Use caching for slow or bulky database
 + Use performance analytics to asses and optimize site performance (average server response time < 300ms)
 + Optimize client-side performance (Google PageSpeed Insights minimum score of 80)
-+ At least 10 items of dummy-data for each concept
-+ Use [Pivotal Tracker](http://pivotaltracker.com) as a project management service
 + Practice TDD to lead the development process
-+ Email (At least user signup)
++ Integrate email (At least user signup)
 + Meet expectations for code quality
     + 90% or greater test coverage
     + B- or greater score on Code Climate
     + No security issues
-+ Configure DNS with custom domain
+
 
 ### Integration Choices
 + At least two complex integrations:
-    + External API
-    + OAuth
-    + Workers
+    + Background Jobs
     + NoSql
     + CDN
     + Payment Processing
+    + Front-end Framework (Ember, Angular, Backbone, etc.)
 
 ### Advanced Feature Choices
 + Two advanced features:
@@ -65,10 +63,10 @@ You may work as an individual or as a pair on your capstone project. To meet the
     + Live Events
     + SOA
     + S3 storage/delivery
-    + Secure API
+    + Secure Public API (documented)
 
 ## To Get Started
-+ [IDEO Deep Dive](http://www.youtube.com/watch?v=JkHOxyafGpE)
++ [IDEO Deep Dive](https://www.youtube.com/watch?v=taJOV-YCieI)
 + [Hello Ruby](https://www.kickstarter.com/projects/lindaliukas/hello-ruby)
 
 ## Prep Homework
