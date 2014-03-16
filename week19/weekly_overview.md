@@ -42,4 +42,12 @@ In Week 19 we will continue the two week Ember.js project. We will focus on lear
 | **9:00 - 9:15**  | Stand Up                                                 |
 | **9:15 - 5:00**  | [Ember Project](ember-project.md)         |
 
-### Friday (No Class)
+### Friday
+
+| Time             | Topic                                                    |
+|:----------------:|:--------------------------------------------------------:|
+| **9:00 - 9:15**  | Stand Up                                                 |
+| **9:15 - 2:30**  | [Ember Project](ember-project.md)         |
+| **2:30 - 4:00**  | [Ember Project Presentations](ember-project.md)         |
+| **4:00 - 5:00**  | Retrospective         |
+
