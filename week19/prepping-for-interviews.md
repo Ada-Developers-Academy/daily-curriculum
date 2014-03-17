@@ -6,4 +6,4 @@ In the next couple of weeks, you'll have the opportunity to sit down with the hi
 - Link to your favorite application (GitHub URL and Heroku URL)
 - A link to a code sample (a model from one of your projects that you're particularly proud of, or another assignment)
 
-Please turn them in on Canvas no later than Friday, 3/21. We will share these with the companies ahead of time, so they're ready to ask you specific questions about your expertise and background.
+Please [turn them in on Canvas](https://canvas.instructure.com/courses/819456/assignments/2681799) no later than Friday, 3/21. We will share these with the companies ahead of time, so they're ready to ask you specific questions about your expertise and background.
