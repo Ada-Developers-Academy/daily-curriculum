@@ -14,7 +14,7 @@ In Week 19 we will continue the two week Ember.js project. We will focus on lear
 
 | Time             | Topic                                              |
 |:----------------:|:--------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                           |
+| **9:00 - 9:15**  | [Prepping for Interviews](prepping-for-interviews.md)                                      |
 | **9:15 - 10:30**  | [Forms & Promises](monday/ember-forms-and-promises.md)     |
 | **10:30 - 5:00**  | [Ember Project](ember-project.md)         |
 
