@@ -77,7 +77,7 @@ template `json` is a helper method that allows you do add a key using a dot synt
 be the value of that key. So if we wanted `{"users": []}` we could put:
 
 ```rb
-json.users []
+json.user []
 ```
 
 The jbuilder file is a view, just like an `html.erb` file, this means we have access
@@ -88,7 +88,7 @@ We can also nest attributes by using blocks, so if we wanted something like
 `{"users": {"id" 1}}` we could do:
 
 ```rb
-json.users do
+json.user do
   json.id 1
 end
 ```
@@ -96,7 +96,7 @@ end
 We can also nest using an array:
 
 ```rb
-json.users @users do |user|
+json.user @users do |user|
   json.id user.id
   json.username user.username
   json.email user.email
@@ -107,7 +107,7 @@ Now we are creating a key of `users`, with a value of an array where each elemen
 represents a single user as json. There is another, short hand, way to do this:
 
 ```rb
-json.users @users do |user|
+json.user @users do |user|
   json.extract! user, :id, :username, :email
 end
 ```
