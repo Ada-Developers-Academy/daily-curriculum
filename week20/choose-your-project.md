@@ -18,8 +18,9 @@ This week is an opportunity to return to basics, work on side projects, or exper
 
 ## What should I build?!?
 Here's some suggestions:
+
 - A small Ruby or Rails app that acts as a spike for the capstone project
-- Work through a Python tutorial and build a small Django application
+- Work through a Python tutorial and build a small Flask or Django application
 - Work on your own JS project, either in Ember or in a different framework
 - Build a game with Gosu
 - Design a command-line application that allows users to submit new helpline issues or works with the Pivotal Tracker API
