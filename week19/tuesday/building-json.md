@@ -9,8 +9,7 @@ rails new user-api -T -d postgresql
 cd user-api
 ```
 
-I have to modify my database.yml to remove the usernames and passwords, but this
-will depend on your setup.
+I have to modify my database.yml to remove the usernames and passwords, but this will depend on your setup.
 
 ```bash
 rake db:create
@@ -25,13 +24,10 @@ Now we have an application with a `User` model as well as a `UsersController`
 
 The `jbuilder` gem is included by default in Rails 4, so we can just use it.
 
-jBuilder is a templating system for JSON, it allows us to create "views" to build
-JSON within, also giving us the ability to use view helpers as well as conditionals.
+jBuilder is a templating system for JSON, it allows us to create "views" to build JSON within, also giving us the ability to use view helpers as well as conditionals.
 
 To use jbuilder we simply create view files with the extension `.json.jbuilder`
-this is the equivelent to ruby/HTML's `.html.erb`. With this, when a JSON request is
-received our application will look for the matching JSON file automatically. So
-the `UsersController` `index` action will render the file `app/views/users/index.json.jbuilder`.
+this is the equivelent to ruby/HTML's `.html.erb`. With this, when a JSON request is received our application will look for the matching JSON file automatically. So the `UsersController` `index` action will render the file `app/views/users/index.json.jbuilder`.
 
 Lets add this route, action, and file:
 
