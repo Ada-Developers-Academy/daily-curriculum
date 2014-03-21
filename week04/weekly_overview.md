@@ -83,8 +83,8 @@ Homework:
 
 Complete the following Sinatra tutorial:
 
-  - [Overview](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/homework_lesson_plan.md)
-  - [Lesson](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra-practice.md)
+  - [Overview](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week04/friday/homework_lesson_plan.md)
+  - [Lesson](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week04/friday/sinatra-practice.md)
 
 Complete the HTMLDog [Beginner HTML tutorial](http://www.htmldog.com/guides/html/beginner/)
 
