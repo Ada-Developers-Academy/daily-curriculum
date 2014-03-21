@@ -26,10 +26,11 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 
 ### Wednesday
 
-| Time            | Topic         |
-|:----------------|:--------------|
-| **9:00 - 9:15** | Stand Up      |
-| **9:15 - 5:00** | Project Time  |
+| Time            | Topic                      |
+|:----------------|:---------------------------|
+| **9:00 - 9:15** | Stand Up                   |
+| **9:15 - 3:00** | Project Time               |
+| **3:00 - 4:30** | Field Trip to Energy Savvy |
 
 ### Thursday
 
