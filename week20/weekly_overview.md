@@ -12,9 +12,8 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| **9:10 - 10:50**  | Ember.js Presentations                       |
-| **11:00 - 11:30** | [Choosing a Project](choose-your-project.md) |
-| **11:30 - 5:00**  | Project Time                                 |
+| **9:10 - 10:50**  | [Choosing a Project](choose-your-project.md) |
+| **10:50 - 5:00**  | Project Time                                 |
 
 ### Tuesday
 
