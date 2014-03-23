@@ -19,11 +19,12 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 
 ### Tuesday
 
-| Time            | Topic                |
-|:----------------|:---------------------|
-| **9:00 - 9:15** | Stand Up             |
-| **9:15 - 2:00** | Project Time         |
-| **2:00 - 4:00** | Field Trip to Zillow |
+| Time             | Topic                |
+|:-----------------|:---------------------|
+| **9:00 - 9:15**  | Stand Up             |
+| **9:15 - 10:15** | Stand Up             |
+| **10:15 - 2:00** | Project Time         |
+| **2:00 - 4:00**  | Field Trip to Zillow |
 
 ### Wednesday
 
