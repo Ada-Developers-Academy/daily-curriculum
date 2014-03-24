@@ -74,7 +74,7 @@ class Person
 end
 ```
 
-Quite different! Mongo doesn't have a database scheme, so no database migrations are needed. If we want a new field, we could just declare one in the model and add it to our views. Migrations are occasionally used, but they're for data migration or transformation, not changing the structure of the database.
+Quite different! Mongo doesn't have a database schema, so no database migrations are needed. If we want a new field, we could just declare one in the model and add it to our views. Migrations are occasionally used, but they're for data migration or transformation, not changing the structure of the database.
 
 Let's fire up our Rails server and visit the scaffolded route (at ```http://localhost:3000/people```) There we see the vanilla Rails CRUD forms. Let's add a person.. and look at the URL in the show page - weird! We're used to seeing incrementing IDs created for us by the database. Each row that is added to the table increments the row counter by exactly 1, so we might say that each row has a locally unique sequential identifier.
 
