@@ -16,17 +16,17 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 | **9:10 - 10:00**  | Susannah's Interviewing Tips                 |
 | **10:00 - 10:30** | [Choosing a Project](choose-your-project.md) |
 | **10:30 - 2:30**  | Project Time                                 |
-| **2:30 - 3:30**   | Ruby Blocks                                  |
+| **2:30 - 3:30**   | [Ruby Blocks](monday/ruby_blocks.md)         |
 | **3:30 - 5:00**   | Project Time                                 |
 
 ### Tuesday
 
-| Time             | Topic                |
-|:-----------------|:---------------------|
-| **9:00 - 9:15**  | Stand Up             |
-| **9:15 - 10:15** | Intro to MongoDB     |
-| **10:15 - 2:00** | Project Time         |
-| **2:00 - 4:00**  | Field Trip to Zillow |
+| Time             | Topic                                                  |
+|:-----------------|:-------------------------------------------------------|
+| **9:00 - 9:15**  | Stand Up                                               |
+| **9:15 - 10:15** | [Intro to MongoDB](tuesday/introduction_to_mongodb.md) |
+| **10:15 - 2:00** | Project Time                                           |
+| **2:00 - 4:00**  | Field Trip to Zillow                                   |
 
 ### Wednesday
 
