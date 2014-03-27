@@ -42,8 +42,9 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 |:----------------|:---------------------------------|
 | **9:00 - 9:15** | Stand Up                         |
 | **9:15 - 2:00** | Project Time                     |
-| **2:00 - 3:00** | Guest Speaker - Andrew Gorcester |
-| **3:00 - 5:00** | Project Time                     |
+| **2:00 - 3:00** | Guest Speaker - Kathleen Tuite   |
+| **3:00 - 4:00** | Project Time                     |
+| **4:00 - 4:45** | [Brakeman](thursday/brakeman.md), [Code Climate](thursday/code_climate.md) |
 
 ### Friday
 
