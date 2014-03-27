@@ -45,7 +45,7 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 | **2:00 - 3:00** | Guest Speaker - Kathleen Tuite   |
 | **3:00 - 4:00** | Project Time                     |
 | **4:00 - 4:45** | [Brakeman](thursday/brakeman.md), [Code Climate](thursday/code_climate.md) |
-| **4:45 - 5:00** | Internship Preparation |
+| **4:45 - 5:00** | [Interview Preparation](thursday/preparing_for_interviews.md) |
 
 ### Friday
 
