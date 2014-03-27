@@ -48,10 +48,12 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 
 ### Friday
 
-| Time            | Topic        |
-|:----------------|:-------------|
-| **9:00 - 9:15** | Stand Up     |
-| **9:15 - 5:00** | Project Time |
+| Time              | Topic                                                  |
+|:------------------|:-------------------------------------------------------|
+| **9:00 - 9:15**   | Stand Up                                               |
+| **9:15 - 10:00**  | Project Time                                           |
+| **10:00 - 10:45** | [Internationalization](friday/internationalization.md) |
+| **10:45 - 5:00**  | Project Time                                           |
 
 **Interviews:** On Friday, from 12 noon to 5pm, we will be rotating through interviews with internship sponsors
 
