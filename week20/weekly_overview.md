@@ -25,8 +25,8 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 |:-----------------|:-------------------------------------------------------|
 | **9:00 - 9:15**  | Stand Up                                               |
 | **9:15 - 10:15** | [Intro to MongoDB](tuesday/introduction_to_mongodb.md) |
-| **10:15 - 2:00** | Project Time                                           |
-| **2:00 - 4:00**  | Field Trip to Zillow                                   |
+| **10:15 - 3:00** | Project Time                                           |
+| **3:00 - 5:00**  | Field Trip to Zillow                                   |
 
 ### Wednesday
 
@@ -34,7 +34,7 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 |:----------------|:---------------------------|
 | **9:00 - 9:15** | Stand Up                   |
 | **9:15 - 3:00** | Project Time               |
-| **3:00 - 4:30** | Field Trip to Energy Savvy |
+| **3:00 - 5:00** | Field Trip to Energy Savvy |
 
 ### Thursday
 
