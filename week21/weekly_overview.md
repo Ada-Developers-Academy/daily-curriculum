@@ -33,6 +33,7 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic                      |
 |:----------------|:---------------------------|
+| **9:00 - 10:00**  | [DNS Configuration](wednesday/dns-configuration.md)|
 | **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Thursday
