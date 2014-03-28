@@ -23,7 +23,7 @@ Additionally, there will be an optional demo of building an app start to finish,
 ### Monday
 
 | Time             | Topic                                  |
-|:----------------:|:--------------------------------------:|
+|:-----------------|:---------------------------------------|
 | **9:00 - 9:15**  | Stand Up                               |
 | **9:15 - 10:30** | Introduction to SOA                    |
 | **??** - **?**   | "Refactoring with SOA In Mind"         |
@@ -31,18 +31,18 @@ Additionally, there will be an optional demo of building an app start to finish,
 
 ### Tuesday
 
-| Time             | Topic                                  |
-|:----------------:|:--------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                               |
-| **9:15 - 10:30** | Building APIs                          |
-| **10:30 - 3:00** | [SOA Shipping](shipping_service.md)    |
-| **3:00 - 4:00**  | Katrina Owens                          |
-| **4:00 - 5:00**  | Tuesday Lesson Suggestions             |
+| Time             | Topic                                     |
+|:-----------------|:------------------------------------------|
+| **9:00 - 9:15**  | Stand Up                                  |
+| **9:15 - 10:30** | [Building APIs](tuesday/building_apis.md) |
+| **10:30 - 3:00** | [SOA Shipping](shipping_service.md)       |
+| **3:00 - 4:00**  | Katrina Owens                             |
+| **4:00 - 5:00**  | Tuesday Lesson Suggestions                |
 
 
 ### Wednesday
 | Time              | Topic                               |
-|:-----------------:|:-----------------------------------:|
+|:------------------|:------------------------------------|
 | **9:00 - 9:15**   | Stand Up                            |
 | **9:15 - 10:30**  | SOA Implementation                  |
 | **10:30 - 5:00**  | [SOA Shipping](shipping_service.md) |
@@ -51,7 +51,7 @@ Additionally, there will be an optional demo of building an app start to finish,
 ### Thursday
 
 | Time             | Topic                               |
-|:----------------:|:-----------------------------------:|
+|:-----------------|:------------------------------------|
 | **9:00 - 9:15**  | Stand Up                            |
 | **9:15 - 10:30** | Lesson TBD by students              |
 | **10:30 - 5:00** | [SOA Shipping](shipping_service.md) |
@@ -61,7 +61,7 @@ Additionally, there will be an optional demo of building an app start to finish,
 ### Friday
 
 | Time            | Topic                               |
-|:---------------:|:-----------------------------------:|
+|:----------------|:------------------------------------|
 | **9:00 - 9:15** | Stand Up                            |
 | **9:15 - 3:00** | [SOA Shipping](shipping_service.md) |
 | **3:00 - 4:00** | Weekly Retrospective                |
