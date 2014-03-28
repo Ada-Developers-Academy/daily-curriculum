@@ -41,11 +41,11 @@ Additionally, there will be an optional demo of building an app start to finish,
 
 
 ### Wednesday
-| Time              | Topic                               |
-|:------------------|:------------------------------------|
-| **9:00 - 9:15**   | Stand Up                            |
-| **9:15 - 10:30**  | SOA Implementation                  |
-| **10:30 - 5:00**  | [SOA Shipping](shipping_service.md) |
+| Time              | Topic                                                 |
+|:------------------|:------------------------------------------------------|
+| **9:00 - 9:15**   | Stand Up                                              |
+| **9:15 - 10:30**  | [SOA Implementation](wednesday/soa_implementation.md) |
+| **10:30 - 5:00**  | [SOA Shipping](shipping_service.md)                   |
 
 
 ### Thursday
