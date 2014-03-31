@@ -31,7 +31,7 @@ managing the TLD's (`.com`). ICANN is also responsible for authorizing domain na
 registrars (such as GoDaddy™). Domain name registrars are in the business of registering
 domain names and mapping the domain to IP addresses
 
-So to register a domain we can use on of the domain registrars (hint: never us GoDaddy)
+So to register a domain we can use on of the domain registrars (hint: never use GoDaddy)
 My favorite for registration and configuration is http://dnsimple.com, but you might
 want to check out https://domai.nr/ as a tool to search for domains. Domains are
 priced from $0.99 up to millions, but typically run from $10-$50 depending on the
