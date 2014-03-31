@@ -111,7 +111,7 @@ Magic!
 ## Resources
 
 [Rails Guides - I18N](http://guides.rubyonrails.org/i18n.html)
-
+[Demo app used in this lecture](https://github.com/Ada-Developers-Academy/i18n_demo)
 
 
 
