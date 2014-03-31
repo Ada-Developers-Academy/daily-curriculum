@@ -22,7 +22,7 @@ the project is on track, review stories, and consult on any problems.
 | **9:00 - 9:15**   | Technical Interview Question Review          |
 | **9:15 - 10:15**  | Project Presentations          |
 | **10:15 - 3:30**  | [Capstone Project Time](../capstone/capstone.md)|
-| **3:30 - 5:00**   | Jeremy Wadsack                                 |
+| **3:30 - 5:00**   | Jeremy Wadsack: Estimating Anything  |
 
 * Checkins with Bookis during project time
 
@@ -39,7 +39,7 @@ the project is on track, review stories, and consult on any problems.
 | Time            | Topic                      |
 |:----------------|:---------------------------|
 | **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
-| **3:00 - 4:30**   | Jake Mitchell                                 |
+| **3:00 - 4:30**   | Jake Mitchell: Deploying to EC2 |
 
 ### Thursday
 
@@ -47,7 +47,7 @@ the project is on track, review stories, and consult on any problems.
 |:----------------|:---------------------------------|
 | **9:00 - 1:00**  | [Capstone Project Time](../capstone/capstone.md)|
 | **1:00 - 2:30** | Interview Prep with Robin   |
-| **3:00 - 4:30** | Andrew Gorcester |
+| **3:00 - 4:30** | Andrew Gorcester: Performance |
 
 ### Friday
 
