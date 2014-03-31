@@ -19,9 +19,12 @@ the project is on track, review stories, and consult on any problems.
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| **9:00 - 10:00**  | Starting Capstone (writing stories)          |
-| **10:00 - 3:30**  | [Capstone Project Time](../capstone/capstone.md)|
+| **9:00 - 9:15**   | Technical Interview Question Review          |
+| **9:15 - 10:15**  | Project Presentations          |
+| **10:15 - 3:30**  | [Capstone Project Time](../capstone/capstone.md)|
 | **3:30 - 5:00**   | Jeremy Wadsack                                 |
+
+* Checkins with Bookis during project time
 
 ### Tuesday
 
