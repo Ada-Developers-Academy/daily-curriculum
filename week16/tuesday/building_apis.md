@@ -18,7 +18,7 @@ Imagine each class in your application as a separate application, a collection o
 
 ## Building Your API
 
-Although its not 100% obvious, your Rails application is already an API. One application -- your web browser -- makes a request for some information. Rails generates a response that consists of HTML, and sends that data back to the browser. Its the *browser* that handles all the rendering and layout business
+Although its not 100% obvious, your Rails application is already an API. One application -- your web browser -- makes a request for some information. Rails generates a response that consists of HTML, and sends that data back to the browser. Its the *browser* that handles all the rendering and layout business.
 
 ## Resources
 [API Basics and Building Your Own](http://www.theodinproject.com/ruby-on-rails/apis-and-building-your-own)
