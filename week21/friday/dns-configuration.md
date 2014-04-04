@@ -6,9 +6,9 @@ DNS (Domain Name System) is the process in mapping easy to remember domains name
 ## IP Address
 
 An IP (Internet Protocol) address is used for locating a server (or other device) 
-on the internet. Typically we see IPv4, An IPv4 address is composed of 4 bytes, 
+on the internet. Typically we see IPv4. An IPv4 address is composed of 4 bytes, 
 which is 32 bits, each byte is represented in a decimal number (up to 255), 
-for example `171.17.89.1`. IPv4 has a total pool 4,294,967,296 possible addresses.
+for example `171.17.89.1`. IPv4 has a total pool of 4,294,967,296 possible addresses.
 
 IPv6 is a solution that will increase the pool to 3.4×10^38. An IPv6 addresses
 are composed of 128 bits `2001:0db8:85a3:0000:0000:8a2e:0370:7334`, represented
@@ -41,17 +41,17 @@ TLD.
 After purchasing a domain, you will use the domain registrars tools to manage
 the DNS configuration. There are many [types of configurations](http://en.wikipedia.org/wiki/List_of_DNS_record_types):
 
-### NS Record
+#### NS Record
 NS (Name Server) records indicate who the authoritative name server is, when registering
 your domain with a registrar they will set the NS records to their own server. This
 means that any request to your domain will first contact their server to resolve
 the requested IP Address. Even when registering with a given registrar, you can 
 change your NS records to any value you'd like.
 
-### A Record
+#### A Record
 A records are a direct mapping of a domain to an IPv4 address.
 
-### CNAME Record
+#### CNAME Record
 Maps a sub-domain to a different domain. This allows for an intermediary server to manage
 where the domain is mapped to without having to assign a static IP address. For
 instance Heroku is a cloud service, your IP address may change over time, but
@@ -59,7 +59,7 @@ we can add a CNAME for our domain to the `.herokuapp` name of our application, t
 Heroku can manage the rest. The problem with CNAME records is that they can't map
 to a root domain, they must map to a subdomain, such as `www`
 
-### Alias Record
+#### Alias Record
 
 [Alias](http://blog.dnsimple.com/2011/11/introducing-alias-record/) records are a combination of the above two, they are mappings between two
 domains. Alias records are not an industry standard yet. But, they are the solution
