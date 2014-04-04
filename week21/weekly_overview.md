@@ -47,7 +47,7 @@ the project is on track, review stories, and consult on any problems.
 |:----------------|:---------------------------------|
 | **9:00 - 1:00**  | [Capstone Project Time](../capstone/capstone.md)|
 | **1:00 - 2:30** | Interview Prep with Robin   |
-| **3:00 - 4:30** | Andrew Gorcester: Performance |
+| **3:00 - 4:30** | Andrew Gorcester: [Performance](http://nbviewer.ipython.org/github/andrewsg/wep_app_performance_talk/blob/master/Performance%20presentation.ipynb) |
 
 ### Friday
 
