@@ -174,21 +174,30 @@ $ gem install rails bundler passenger --no-ri --no-rdoc
 
 [Apache](http://httpd.apache.org/) and [Passenger](https://www.phusionpassenger.com/) may be unfamiliar. In short, Apache and Passenger translate between browser-speak and Rails-speak.
 
+1. Set aside some hard drive space as virtual memory (aka swap)
+
+```
+sudo dd if=/dev/zero of=/swap bs=1M count=1024
+sudo mkswap /swap
+sudo swapon /swap
+```
+
 Go through interactive passenger setup process:
 
 ```bash
 $ passenger-install-apache2-module
 ```
 
-Follow its recommendations, including
+Follow its recommendations for passenger module loading and configuration, create an
+passenger configuration file `sudo vim /etc/apache2/conf-enabled/passenger.conf`
 
-1. setting aside some hard drive space as virtual memory (aka swap)
-1. passenger module loading and configuration
-
-Now run `sudo a2enmod passenger` to enable Passenger.
-
-For now you can skip the virtual host configuration recommendation.
-
+```bash
+LoadModule passenger_module /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40/buildout/apache2/mod_passenger.so
+<IfModule mod_passenger.c>
+  PassengerRoot /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40
+  PassengerDefaultRuby /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/wrappers/ruby
+</IfModule>
+```
 
 # Web Application Servers: wha...?
 
