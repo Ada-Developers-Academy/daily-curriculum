@@ -32,7 +32,9 @@ Lecture topics include:
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **3:00 - 3:45** | [CarrierWave](wednesday/carrierwave.md)          |
+| **3:45 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
 
 ### Thursday
 
@@ -47,6 +49,8 @@ Lecture topics include:
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **3:00 - 3:45** | [SSL & CDN](friday/ssl_and_cdn.md)               |
+| **3:45 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
 
 
