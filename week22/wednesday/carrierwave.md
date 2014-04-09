@@ -79,6 +79,17 @@ class Band < ActiveRecord::Base
 end
 ```
 
+Add a `file_field` to the Band form.
+
+app/views/bands/_form.html.erb
+```ruby
+<div class="field">
+  <%= f.label :image %><br>
+  <%= f.file_field :image %>
+</div>
+```
+
+
 We add `:image` to the strong params for the controller.
 
 app/controllers/bands_controller.rb
