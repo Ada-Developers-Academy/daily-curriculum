@@ -22,11 +22,11 @@ Lecture topics include:
 
 ### Tuesday
 
-| Time             | Topic                                            |
-|:-----------------|:-------------------------------------------------|
-| **9:00 - 3:00**  | [Capstone Project Time](../capstone/capstone.md) |
-| **3:00 - 4:00**  | Guest Lecture - Andrew Gorcester                 |
-| **4:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md) |
+| Time             | Topic                                                   |
+|:-----------------|:--------------------------------------------------------|
+| **9:00 - 3:00**  | [Capstone Project Time](../capstone/capstone.md)        |
+| **3:00 - 4:00**  | [Guest Lecture - Andrew Gorcester](tuesday/security.md) |
+| **4:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)        |
 
 ### Wednesday
 
