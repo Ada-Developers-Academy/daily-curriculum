@@ -176,10 +176,10 @@ $ gem install rails bundler passenger --no-ri --no-rdoc
 
 1. Set aside some hard drive space as virtual memory (aka swap)
 
-```
-sudo dd if=/dev/zero of=/swap bs=1M count=1024
-sudo mkswap /swap
-sudo swapon /swap
+```bash
+$ sudo dd if=/dev/zero of=/swap bs=1M count=1024
+$ sudo mkswap /swap
+$ sudo swapon /swap
 ```
 
 Go through interactive passenger setup process:
@@ -191,7 +191,7 @@ $ passenger-install-apache2-module
 Follow its recommendations for passenger module loading and configuration, create an
 passenger configuration file `sudo vim /etc/apache2/conf-enabled/passenger.conf`
 
-```bash
+```
 LoadModule passenger_module /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40/buildout/apache2/mod_passenger.so
 <IfModule mod_passenger.c>
   PassengerRoot /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40
@@ -349,7 +349,7 @@ $ bundle install
 In our case we only need a deployment stage for the new production server.
 
 ```bash
-bundle exec cap install STAGES=production
+$ bundle exec cap install STAGES=production
 ```
 
 If you had clients or a QA team who need to vet changes before they're deployed to prod, you could also use an intermediary stage that's widely accessible (often called 'staging').
@@ -395,7 +395,7 @@ server 'ec2-184-72-148-221.compute-1.amazonaws.com',
   user: 'ubuntu',
   roles: %w{web app},
   ssh_options: {
-    keys: %w(/Users/jacobmitchell/.ssh/my-spiffy-project.pem),
+    keys: %w(/Users/jacobmitchell/.ssh/[pem file name].pem),
     forward_agent: false,
     auth_methods: %w(publickey)
   }
