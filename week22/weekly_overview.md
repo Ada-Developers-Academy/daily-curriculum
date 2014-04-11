@@ -40,9 +40,8 @@ Lecture topics include:
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md) |
-| **3:00 - 4:00** | Guest Lecure - Asif Daud                         |
-| **4:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 4:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **4:00 - 5:00** | Guest Lecure - Asif Daud                         |
 
 
 ### Friday
