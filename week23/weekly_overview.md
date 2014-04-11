@@ -22,14 +22,15 @@ the project is on track, review stories, and consult on any problems.
 
 | Time             | Topic                                                  |
 |:-----------------|:-------------------------------------------------------|
-| **9:15 - 10:15**  | [Caching](tuesday/caching.md)|
-| **10:15 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
+| **9:00 - 3:00**  | [capstone Project Time](../capstone/capstone.md)|
+| **3:00 - 5:00**  | Sharmin Banu: Career Vision |
 
 ### Wednesday
 
 | Time            | Topic                      |
 |:----------------|:---------------------------|
-| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
+| **9:00 - 10:00**  | [Caching in Rails](wednesday/caching-in-rails.md)|
+| **10:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Thursday
 
