@@ -9,7 +9,7 @@ rails.
 
 Rails provides a few tools to cache content, page, action, and fragment caching.
 Page and action caching used to be included in rails, but in rails 4 they have
-been pulled out into a seperate gem. Also, by default caching is turned off in 
+been pulled out into a separate gem. Also, by default caching is turned off in 
 development so that we don't have to deal with the same cache invalidation issues
 while trying to develop. To manually test our caching techniques we're going to 
 enable caching in development, in `development.rb`:
@@ -65,7 +65,7 @@ or something like analytics, but the served content is still statically served.
 ### Fragment Caching
 
 Fragment caching can be a much more reasonable tool, it's similar to action caching
-but allows for much more granual control of which sections are cached as well as
+but allows for much more granular control of which sections are cached as well as
 how and when they expire. Let's take the same action, but put in fragment caching,
 fragment caching happens in the view rather than the controller. We'll wrap the 
 content for the page in a fragment cache:
