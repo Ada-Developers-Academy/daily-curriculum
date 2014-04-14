@@ -192,12 +192,13 @@ Follow its recommendations for passenger module loading and configuration, creat
 passenger configuration file `sudo vim /etc/apache2/conf-enabled/passenger.conf`
 
 ```
-LoadModule passenger_module /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40/buildout/apache2/mod_passenger.so
-<IfModule mod_passenger.c>
-  PassengerRoot /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40
-  PassengerDefaultRuby /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/wrappers/ruby
-</IfModule>
+LoadModule passenger_module /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.41/buildout/apache2/mod_passenger.so
+   <IfModule mod_passenger.c>
+     PassengerRoot /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.41
+     PassengerDefaultRuby /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/wrappers/ruby
+   </IfModule>
 ```
+(or whatever version is spit out at the end of the passenger-install-apache2-module)
 
 # Web Application Servers: wha...?
 
