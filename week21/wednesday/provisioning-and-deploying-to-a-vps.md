@@ -387,6 +387,31 @@ And uncomment this line in the `:restart` task. Whenever Capistrano deploys to p
 execute :touch, release_path.join('tmp/restart.txt')
 ```
 
+In order for Capistrano to work with Figaro, you should also add this to the very end of `config/deploy.rb`
+
+```ruby
+namespace :figaro do
+  desc "SCP transfer figaro configuration to the shared folder"
+  task :setup do
+    on roles(:app) do
+      upload! "config/application.yml", "#{shared_path}/application.yml", via: :scp
+    end
+  end
+
+  desc "Symlink application.yml to the release path"
+  task :symlink do
+    on roles(:app) do
+      execute "ln -sf #{shared_path}/application.yml #{current_path}/config/application.yml"
+    end
+  end
+end
+
+after "deploy:started", "figaro:setup"
+after "deploy:symlink:release", "figaro:symlink"
+```
+
+This adds tasks to upload your *local* copy of `config/applciation.yml` to the VPS, putting it in `/var/www/[your app name]/shared`. It then creates a symlink (similar to a file alias or shortcut) to this file, so that Rails can access it.
+
 # Production stage configuration
 
 Open `config/deploy/production.rb`.
