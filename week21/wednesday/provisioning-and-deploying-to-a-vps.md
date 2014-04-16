@@ -1,6 +1,6 @@
 Provisioning and Deploying to an EC2 VPS
 ----------------------------------------
-(A guest lecture from Jake _____)
+(Initially guest lecture from Jake _____)
 
 # "They tell me I have to use this thing called a VPS for my Capstone project..."
 
