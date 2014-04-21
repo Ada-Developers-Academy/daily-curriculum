@@ -65,7 +65,7 @@ or something like analytics, but the served content is still statically served.
 ### Fragment Caching
 
 Fragment caching can be a much more reasonable tool, it's similar to action caching
-but allows for much more granual control of which sections are cached as well as
+but allows for much more granular control of which sections are cached as well as
 how and when they expire. Let's take the same action, but put in fragment caching,
 fragment caching happens in the view rather than the controller. We'll wrap the 
 content for the page in a fragment cache:
@@ -90,8 +90,8 @@ we can fix this problem by naming the cache section.
 <% end %>
 ```
 
-The optional argument we can give to the `cache` view helper is either a string or
-array (the cache key), the cache will search for appropriate cache in memory for each unique set of obejcts.
+The optional argument we can give to the `cache` view helper is either a string, hash, or
+array (the cache key), the cache will search for appropriate cache in memory for each unique set of objects.
 Since `params[:page]` is changing for each view, if we use that in our cache key, then
 the cache will serve the appropriate static content for the current page.
 
@@ -163,5 +163,5 @@ now certainly within a reasonable time frame.
 
 ### Resources
 
-[Rails Guide](http://guides.rubyonrails.org/caching_with_rails.html)
-[DHH on Cache Keys](http://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
+- [Rails Guide](http://guides.rubyonrails.org/caching_with_rails.html)
+- [DHH on Cache Keys](http://signalvnoise.com/posts/3113-how-key-based-cache-expiration-works)
