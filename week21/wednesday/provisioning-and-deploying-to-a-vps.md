@@ -1,3 +1,7 @@
+Provisioning and Deploying to an EC2 VPS
+----------------------------------------
+(Initially guest lecture from Jake _____)
+
 # "They tell me I have to use this thing called a VPS for my Capstone project..."
 
 **You:** Why? And what is it anyway?
@@ -192,12 +196,13 @@ Follow its recommendations for passenger module loading and configuration, creat
 passenger configuration file `sudo vim /etc/apache2/conf-enabled/passenger.conf`
 
 ```
-LoadModule passenger_module /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40/buildout/apache2/mod_passenger.so
-<IfModule mod_passenger.c>
-  PassengerRoot /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.40
-  PassengerDefaultRuby /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/wrappers/ruby
-</IfModule>
+LoadModule passenger_module /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.41/buildout/apache2/mod_passenger.so
+   <IfModule mod_passenger.c>
+     PassengerRoot /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.41
+     PassengerDefaultRuby /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/wrappers/ruby
+   </IfModule>
 ```
+(or whatever version is spit out at the end of the passenger-install-apache2-module)
 
 # Web Application Servers: wha...?
 
@@ -381,6 +386,31 @@ And uncomment this line in the `:restart` task. Whenever Capistrano deploys to p
 ```ruby
 execute :touch, release_path.join('tmp/restart.txt')
 ```
+
+In order for Capistrano to work with Figaro, you should also add this to the very end of `config/deploy.rb`
+
+```ruby
+namespace :figaro do
+  desc "SCP transfer figaro configuration to the shared folder"
+  task :setup do
+    on roles(:app) do
+      upload! "config/application.yml", "#{shared_path}/application.yml", via: :scp
+    end
+  end
+
+  desc "Symlink application.yml to the release path"
+  task :symlink do
+    on roles(:app) do
+      execute "ln -sf #{shared_path}/application.yml #{current_path}/config/application.yml"
+    end
+  end
+end
+
+after "deploy:started", "figaro:setup"
+after "deploy:symlink:release", "figaro:symlink"
+```
+
+This adds tasks to upload your *local* copy of `config/applciation.yml` to the VPS, putting it in `/var/www/[your app name]/shared`. It then creates a symlink (similar to a file alias or shortcut) to this file, so that Rails can access it.
 
 # Production stage configuration
 

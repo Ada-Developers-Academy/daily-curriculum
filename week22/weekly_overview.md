@@ -40,9 +40,8 @@ Lecture topics include:
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md) |
-| **3:00 - 4:00** | Guest Lecure - Asif Daud                         |
-| **4:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 4:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **4:00 - 5:00** | Guest Lecture - Asif Daud                         |
 
 
 ### Friday
@@ -50,7 +49,7 @@ Lecture topics include:
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
 | **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md) |
-| **3:00 - 3:45** | [SSL & CDN](friday/ssl_and_cdn.md)               |
+| **3:00 - 3:45** | [Content Delivery Networks](friday/cdn.md)       |
 | **3:45 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
 
 
