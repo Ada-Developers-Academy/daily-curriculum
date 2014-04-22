@@ -1,7 +1,7 @@
 Building APIs
 -------------
 
-**API** stands for *Application Programming Interface*, and it's applications communicate and share information with each other. When one app talks to another, they don't need the same user interface and image and JavaScript bits - they just need to pass data or commands back and forth, so we use plain text and JSON to accomplish this.
+**API** stands for *Application Programming Interface*, and it's one way for applications to communicate and share information with each other. When one app talks to another, they don't need the same user interface and image and JavaScript bits - they just need to pass data or commands back and forth, so we use plain text and JSON to accomplish this.
 
 ## What is an API?
 In its most common usage, we're referring to the **public API** of an application. You've used these for the SeeMore project. Typically a public API allows anonymous users, or individuals who are not privy to the internal operations of an application, access to access some kinds of data, and to give the application a certain subset of commands. Many of you worked with the Twitter API to implement the following features into your SeeMore application:
