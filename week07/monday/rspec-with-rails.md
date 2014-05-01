@@ -14,7 +14,7 @@ First we will create a new rails app to implement rspec into. But, since we'll b
 
     rails new twitter_ripoff -T
     
-The `-T` is the flat to leave out Test::Unit
+The `-T` is the flag to leave out Test::Unit
 
 #### Rspec setup
 
@@ -32,7 +32,7 @@ Now that the `rspec-rails` gem is installed we can run the one-time rspec instal
 
     rails generate rspec:install
     
-This command creates the necassary directories and files to run our specs. The most notable is `spec/spec_helper.rb`, this file is where all of our testing setup is done. The rpsec install command added pretty much everything we need to the file.
+This command creates the necessary directories and files to run our specs. The most notable is `spec/spec_helper.rb`, this file is where all of our testing setup is done. The rpsec install command added pretty much everything we need to the file.
 
 Now rspec is ready, let's create some code to test.
 
@@ -92,7 +92,7 @@ It passes, and let's add a few more tests to `spec/models/post_spec.rb`
       end
     end
 
-    it "counts it's characteres" do
+    it "counts it's characters" do
       expect(Post.new(body: "a" * 122).character_count).to eq 122
     end
     
@@ -108,7 +108,7 @@ Run `rake`, and now they pass!
 
 #### Install `guard-rspec`
 
-Guard Rspec will automatically and intelligently run your specs when files are modified. Add the gem to your `:development` group in your `Gemfile`
+Guard-rspec will automatically and intelligently run your specs when files are modified. Add the gem to your `:development` group in your `Gemfile`
 
     gem 'guard-rspec', require: false
     
@@ -169,11 +169,8 @@ Since our routes file is not part of the `PostsController`, we may need to manua
 Next create an `index` action in our `PostsController`
 
     class PostsController < ApplicationController
-
       def index
-
       end
-
     end
 
 Next our error is `Missing template posts/index`, let's create the template (or view).
