@@ -13,7 +13,7 @@
 
 To give back to the community and to help keep up on code, try to identify an open 
 source opportunity that you can work on. Start by reading 
-[8 simple steps for contributing to open source](http://www.sitepoint.com/8-simple-steps-
+[8 simple steps for contributing to open source](http://www.sitepoint.com/8-simple-steps-for-contributing-to-open-source/)
 Then try to find a project to work on, which can be difficult, here are some ways to get 
 
 1. [Code Triage](http://www.codetriage.com/) is a great tool to help search for projects 
