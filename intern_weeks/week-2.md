@@ -9,7 +9,7 @@
 
 This week will will spend most of our time doing two things:
 
-1. Taking time to expand our konwledge through focused work, we will often have time on Thursdays for this kind of thing, ongoing ideas are totally acceptable here:
+1. Taking time to expand our knowledge through focused work, we will often have time on Thursdays for this kind of thing, ongoing ideas are totally acceptable here:
     - Meet with other who are learning that same new language as you
         - Code review any open source code from your company (keep you NDA in mind)
         - Code review personal projects
@@ -23,4 +23,6 @@ This week will will spend most of our time doing two things:
     - Your contributions so far
     
 **One on ones will be during the other activities*
+
+**REMINDER** Headcount for luncheon.
 
