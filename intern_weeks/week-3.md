@@ -26,6 +26,3 @@ This week will will spend most of our time doing three things:
     - Your contributions so far
     
 **One on ones will be during the other activities*
-
-**REMINDER** Headcount for luncheon.
-
