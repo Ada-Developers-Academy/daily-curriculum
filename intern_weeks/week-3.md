@@ -10,7 +10,7 @@
 This week will will spend most of our time doing three things:
 
 1. Review Apps for good apps.
-    - Each student should review 12 additional apps (or until all apps have at least 3 reviews)
+    - Each student should review 10 additional apps (or until all apps have at least 3 reviews)
     - Two groups of three should tackle the technical submissions together.
 2. Taking time to expand our knowledge through focused work, we will often have time on Thursdays for this kind of thing, ongoing ideas are totally acceptable here:
     - Meet with other who are learning that same new language as you
