@@ -21,6 +21,6 @@ If you find a project that would allow for multiple contributors or pairing, sha
 ### Challenges
 
 - [42 Data Structures in 42 days](http://blahah.net/2013/08/18/data-structures-challenge/)
-- [SQL Puzzles](http://books.google.com/books?id=krv8CUJU44sC&printsec=frontcover&dq=sql+puzzles+celko&hl=en&ei=K0oiTYvAMJmrnAfE0qnPDQ&sa=X&oi=book_result&ct=result&resnum=1&ved=0CCoQ6AEwAA#v=onepage&q&f=true)
-- [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/)
+- [SQL Puzzles](http://books.google.com/books?id=krv8CUJU44sC&printsec=frontcover&dq=sql+puzzles+celko&hl=en&ei=K0oiTYvAMJmrnAfE0qnPDQ&sa=X&oi=book_result&ct=result&resnum=1&ved=0CCoQ6AEwAA#v=onepage&q&f=true) see [SQLFiddle](http://www.sqlfiddle.com/)
+- [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/) see [CodePen](http://codepen.io/)
 - [Create a web framework gem that can deploy on Heroku using Rack](http://rack.github.io/)
