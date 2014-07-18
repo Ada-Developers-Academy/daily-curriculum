@@ -26,7 +26,8 @@ one due 8/6 (check in on progress), and one due at the completion of the project
 to present during Cohort 2's first week of class (9/2-9/5).
 
 #### Choosing a Project
-Read [8 simple steps for contributing to open source](http://www.sitepoint.com/8-simple-steps-for-contributing-to-open-source/).
+Read [8 simple steps for contributing to open source](http://www.sitepoint.com/8-simple-steps-for-contributing-to-open-source/)
+and [How to contribute to an open source project](http://myronmars.to/n/dev-blog/2011/09/how-to-contribute-to-an-open-source-project).
 Then, try to find at least one project that's interesting and needs help. (At least  
 one because you may want to have a couple of options if one goes nowhere). If you
 find a project that would allow for multiple contributors or pairing, share! If you've
@@ -46,6 +47,7 @@ contribution protocols in the project README.
   [RailsBridge's BridgeTroll project](https://github.com/railsbridge/bridge_troll/issues)  
   Django: [Andrew from Foundry](https://twitter.com/marginoferror) has offered to help anyone interested in contribution.  
   KDE and GNOME projects: [Ian](https://twitter.com/redbluemagenta) can help get you started.  
+  [RSpec](https://t.co/yszq0TvA8G)
 
 #### Due Friday
 Write about your experience searching for an OSS project and submit [URL to Canvas](https://canvas.instructure.com/courses/819456/assignments/2871967).
