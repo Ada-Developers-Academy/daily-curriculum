@@ -32,22 +32,8 @@ find a project that would allow for multiple contributors or pairing, share! If 
 already been contributing to an open source project and would like to continue, you are welcome
 to do so.
 
-Check out the below tools to get started:
-
-1. [Code Triage](http://www.codetriage.com/) and [Open Hatch](https://openhatch.org) are great tools to help search for projects.
-2. Find a suitable bug or request on [Github Issues](https://github.com/blog/831-issues-2)
-3. If you ever wished "Geee... I wish gem X did Z", that may be a good opportunity to
-communicate with the author about adding the feature. Occasionally, libraries will have
-contribution protocols in the project README.
-4. Experienced a plain ol' bug in a gem? Fix it and submit a pull request.
-5. Advice from the internet:  
-  [RubyGems Adoption Center](https://groups.google.com/forum/#!msg/rubygems-org/niS5ZO9DNgk/SHUzS-8Qx68J)  
-  [RailsBridge's BridgeTroll project](https://github.com/railsbridge/bridge_troll/issues)  
-  Django: [Andrew from Foundry](https://twitter.com/marginoferror) has offered to help anyone interested in contribution.  
-  KDE and GNOME projects: [Ian](https://twitter.com/redbluemagenta) can help get you started.  
-  [RSpec](https://t.co/yszq0TvA8G)
-
-#### Due Friday
-Write about your experience searching for an OSS project and submit [URL to Canvas](https://canvas.instructure.com/courses/819456/assignments/2871967).
-What was appealing about projects? What made the search difficult? What project(s)
-are you planning to contribute to, and why?
+#### Blog Entry #2 Due 8/6
+Submit on [Canvas](https://canvas.instructure.com/courses/819456/assignments/2896216). Write about your experience so far. What project did you choose? What progress
+have you made so far? Has any thing been easier than you would have assumed?
+Has anything been more difficult than you anticipated? If so how are you solving
+the problem? Are you working with others? etc...
