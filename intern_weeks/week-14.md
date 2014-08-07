@@ -3,7 +3,8 @@
 | Time       | Topic |
 |:----------:|:--------------------------------:|
 |1:00 - 1:30 | Cohort 2 Admin |
-|1:30 - 4:00 | Open Source Project (Blog Post #2 Due) |
+|1:30 - 3:30 | Open Source Project (Blog Post #2 Due) |
+|3:30 - 4:00 | 90 Day form Review |
 |4:00 - 5:00 | Retro |
 
 ### Cohort 2 Topics
