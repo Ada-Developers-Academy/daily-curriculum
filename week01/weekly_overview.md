@@ -4,14 +4,15 @@ In week 1 we  will focus on installing all of the development tools so that our 
 
 ## Goals
 
-+ introduction to the program
++ Introduction to the program
 + Working Ruby development environment
-+ introduction to Agile practices
++ Introduction to Agile practices
     + pairing
     + daily stand-up
     + iterations
     + retrospectives
-+ comfort with basic UNIX command-line skills
++ Comfort with basic OS X Hotkeys
++ Comfort with basic UNIX command-line skills
     + navigation
     + file manipulation
     + grep
@@ -33,41 +34,32 @@ In week 1 we  will focus on installing all of the development tools so that our 
     - Terminal
 + Discuss whis is Ada?
 
-## Schedule 
+## Schedule
 ### Monday, October 28
 #### Morning
 
 | Time              | Topic                                   |
 |:------------------ |:----------------------------------------|
-| **9:00 - 9:30**   | Welcome from the Ada Steering Committee |
-| **9:30 - 10:00**  | [The Run Around Game & Sekrit Handshakes](monday/get-to-know-you-games.md) |
-| **10:00 - 10:30** | Overview of the program                 |
-| **10:30 - 12:30** | [Installfest](monday/installfest.md)    |
+| **9:00 - 10:00**   | Meet & Greet with Community Members + Breakfast |
+| **10:00 - 10:30**  | [The Run Around Game & Sekrit Handshakes](monday/get-to-know-you-games.md) |
+| **10:30 - 11:30** | Ada Overview (admininstration, culture, & expecations)                 |
+| **11:30 - 12:00** | [How to OS X](monday/how-to-os-x.md)    |
+| **12:00 - 12:30** | [Introduction to Unix](monday/nix.md)    |
+| **12:30 - 1:30** | Lunch    |
+| **1:30...** | [Installfest](monday/installfest.md)     |
+| **45 min**\*  | Introduction to [Ruby](monday/ruby_101.md)    |
 
-#### Afternoon
-| Time        | Topic                   |
-|:------------ |:------------------------|
-| **1:30...** | [Installfest](monday/installfest.md) part 2!     |
-| * 90 min *  | Introduction to [*nix](monday/nix.md)    |
-| * 45 min *  | Introduction to [Ruby](monday/ruby_101.md)    |
+\* If time permits
 
 **Homework**
 
-+ Read and work through:
-  + http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/
-  + http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/
 + Introduction and Chap 1 - Learn To Program
 + Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby
-+ Setup an account on Twitter, Github, and Gravatar (with same email addy)
-+ Write down your answers to the 3 Questions
++ Setup an account on Twitter, Github, and Gravatar (with same email address)
 
-
-**Feeling adventurous?**
-
-+ install oh-my-zsh
-  + http://www.maclife.com/article/columns/terminal_101_better_shell_zsh
-  + https://github.com/robbyrussell/oh-my-zsh/
-  
+**Resources**
++ [Navigating the Terminal](http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/)
++ [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
 ---
 
 ### Tuesday, October 29
@@ -177,5 +169,3 @@ In week 1 we  will focus on installing all of the development tools so that our 
         - What was the hardest problem you encountered this week?
         - What got you really fired up?
         - You've just finished your first week as a professional programmer. How does it feel?
-
-
