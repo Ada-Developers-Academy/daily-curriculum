@@ -46,8 +46,8 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | **11:30 - 12:00** | [How to OS X](monday/how-to-os-x.md)    |
 | **12:00 - 12:30** | [Introduction to Unix](monday/nix.md)    |
 | **12:30 - 1:30** | Lunch    |
-| **1:30...** | [Installfest](monday/installfest.md)     |
-| **45 min**\*  | Introduction to [Ruby](monday/ruby_101.md)    |
+| **1:30 - 4:00** | [Installfest](monday/installfest.md)     |
+| **4:00 - $4:45**  | Introduction to [Ruby](monday/ruby_101.md)    |
 
 \* If time permits
 
