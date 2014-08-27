@@ -3,11 +3,11 @@
 Last Week on Ada...
 ===================
 
-### Introduction to our tools 
+### Introduction to our tools
 
 + Basic BASH
 + Intro to git
-+ Sublime Text
++ Atom Text
 
 !SLIDE text-size-80 title-and-content transition=cover
 
@@ -55,6 +55,3 @@ This Week on Ada...
 + Objects! Lots of Objects!
 + Methods - public and private
 + Get ready to write some games!
-
-
-

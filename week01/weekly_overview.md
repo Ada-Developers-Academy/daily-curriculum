@@ -29,7 +29,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
     - Conditionals
     - Object Orientation
 + Learn about basic tools
-    - Text Editors (Sublime)
+    - Text Editors (Atom)
     - Git
     - Terminal
 + Discuss whis is Ada?

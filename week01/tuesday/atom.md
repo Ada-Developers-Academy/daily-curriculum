@@ -62,3 +62,4 @@ Press `⌘s` to save and you should see the change instantly!
 
 You can select any part of the application to manipulate with CSS.
 To browse the CSS selectors for the app open the debug console with `⌘⌥i`
+To browse the CSS selectors for the app open the debug console with `⌘⌥i`

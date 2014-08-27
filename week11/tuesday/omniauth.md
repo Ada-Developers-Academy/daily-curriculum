@@ -29,7 +29,7 @@ Enough with talking, lets implement this into a quick application:
 
     rails new omni -T
     cd omni
-    subl .
+    atom .
     
 Open the Gemfile and add two gems
 

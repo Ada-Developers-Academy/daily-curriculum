@@ -74,7 +74,7 @@ SSH can also be used to securely copy files from one computer to another. This w
 
 # Now we need a server
 
-A Heroku server would be fine, but remember we're trying to unravel Heroku's magic. 
+A Heroku server would be fine, but remember we're trying to unravel Heroku's magic.
 
 High-level requirements:
 
@@ -215,7 +215,7 @@ We already installed a popular web application server called Apache. By default 
 | Client  |  |           S e r v e r          |
 | = = = = |  |= = = = = = = = = = = = = = = = |
 | Browser |  |Apache      Passenger      Rails|
-| = = = = |  |= = = = = = = = = = = = = = = = | 
+| = = = = |  |= = = = = = = = = = = = = = = = |
      |          |             |            |
      |--------->|             |            |
      |          |------------>|            |
@@ -277,7 +277,7 @@ We've got a couple options:
 
 On the balance, the first option would be super frustrating.
 
-- requires developing completely in the terminal (no Sublime here)
+- requires developing completely in the terminal (no Atom here)
 - all changes, including major bugs, would be published to the world immediately
 - no separation of test/production data
 - development would require an internet connection
@@ -565,6 +565,3 @@ $ bundle exec cap production deploy:rollback --trace
 Ah, that's better.
 
 ![](it-works.png)
-
-
-
