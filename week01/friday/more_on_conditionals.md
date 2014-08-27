@@ -1,6 +1,4 @@
-!SLIDE title-and-content transition=fade
-
-More About Conditionals
+More About Conditionals and Flow Control
 =======================
 
 In the calculator project, we talked about conditionals
@@ -8,24 +6,22 @@ In the calculator project, we talked about conditionals
 ```ruby
 if 1 > 0
   # do something
-else 
+else
   # do something different
 end
 ```
 
-!SLIDE text-size-70 title-and-content transition=fade
 
 Comparisons
 ===========
 
-+ > 
++ >
 + <
 + ==
 + >=
 + <=
 + !=
 
-!SLIDE text-size-90 title-and-content transition=fade
 
 Compound Conditions
 ===================
@@ -35,20 +31,16 @@ Comparison expressions are often combined:
 + **OR** or **||**
 + **AND** or **&&**
 
-!SLIDE text-size-90 title-and-content transition=fade
-
 Compound Conditions
 ===================
 
 ```ruby
 if 1 > 0 && 1 < 10
   # do something
-else 
+else
   # do something different
 end
 ```
-
-!SLIDE text-size-90 title-and-content transition=fade
 
 Calculator Example
 ===================
@@ -61,8 +53,6 @@ elsif command == "+"
 end
 ```
 
-!SLIDE text-size-90 title-and-content transition=fade
-
 Calculator Example
 ==================
 
@@ -73,8 +63,6 @@ elsif command == "subtract" || command == "-"
   # subtract the numbers
 end
 ```
-
-!SLIDE text-size-90 title-and-content transition=fade
 
 Wait a ```while```
 =============
@@ -91,8 +79,6 @@ puts "OMG It's about time!"
 ```
 
 
-!SLIDE text-size-90 title-and-content transition=fade
-
 Make it clearer by using ```Until```
 ==================
 
@@ -107,8 +93,6 @@ end
 puts "OMG It's about time!"
 ```
 
-!SLIDE text-size-90 title-and-content transition=fade
-
 Make it clearer by using ```Until```
 ==================
 
@@ -122,8 +106,6 @@ end
 
 puts "OMG It's about time!"
 ```
-
-!SLIDE text-size-90 title-and-content transition=fade
 
 case/when
 ==================
@@ -143,8 +125,6 @@ elsif command == "sqrt"
   # find the square root of the number
 end
 ```
-
-!SLIDE text-size-90 title-and-content transition=fade
 
 case/when
 ==================
@@ -166,9 +146,6 @@ when "sqrt"
 end
 ```
 
-
-!SLIDE title-and-content transition=fade
-
 Ranges
 ======
 
@@ -184,4 +161,3 @@ first = 10
 last = 20
 (first..last).each { |number| puts number }
 ```
-

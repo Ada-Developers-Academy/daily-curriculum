@@ -14,11 +14,13 @@ Ruby was first written in 1993 by Yukihiro "Matz" Matsumoto. Many of the design 
 Ruby is for People
 ==================
 
-> "Programs are written for other people, and only incidentally for computers."
+> "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language."
 
 A well-written line of Ruby code can be read aloud, and a non-programmer should be able to understand it.
 
 In the Ruby community, we try to focus on the people, not the machines.
+
+> Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves.
 
 MINASWAN
 ========
@@ -27,17 +29,30 @@ MINASWAN
 Ruby Community
 ==============
 
-+ Railsbridge & Rails Girls
-+ Ruby Nuby
++ [Railsbridge](http://www.railsbridge.org/) & [Rails Girls](http://railsgirls.com/)
++ [Seattle.rb](http://www.seattlerb.org/)
 + Twitter
-  + \#fridayhug
-  + \#rubythanks
-  + \#rubyfriends
+  + [\#fridayhug](https://twitter.com/hashtag/fridayhug)
+  + [\#rubyfriends](https://twitter.com/hashtag/rubyfriends)
 
 
 Our First Textbooks
 ===================
 We'll be using Beginning Ruby by Peter Cooper and Learn to Program to get ourselves acquainted with Ruby.
+
+
+What is it about Ruby?
+==============
+A couple of ideas that you may notice being different from other programming languages you may have tried:
+
+- Object Oriented Programming (OOP) - the concept of "Objects" that have data fields to represent ideas within the program
+- With inheritance & mixins (objects can be parents/children and siblings)
+- Duck typing - the program infers the type of an argument or variable
+
+> When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck.
+
+- Flexible syntax, there are many ways to write the exact same code.
+
 
 IRB
 ===

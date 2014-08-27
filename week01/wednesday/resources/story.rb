@@ -20,7 +20,7 @@ if year < 1500 # Off shoot 2
 	puts "Do you want to show off your 'black arts' by predicting the eclipse?"
 	response = gets.chomp
 	if response[0].downcase == "y"
-		puts "The kingdom is terrified of your great power. But you show compassion and let all know that you won't use your great power for harm unless you are threatened. You live a long and happy life as Merlins succussor."
+		puts "The kingdom is terrified of your great power. But you show compassion and let all know that you won't use your great power for harm unless you are threatened. You live a long and happy life as Merlins successor."
 	else
 		puts "You are burned at the stake :("
 	end
