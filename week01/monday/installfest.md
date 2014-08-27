@@ -2,7 +2,7 @@
 Intro to Installfest!
 =====================
 
-Many of you will have these tools installed, but we're going to go through them together and make sure everyone is set to go. 
+Many of you will have these tools installed, but we're going to go through them together and make sure everyone is set to go.
 
 + If you've got pieces installed, help your fellow students!
 
@@ -42,7 +42,7 @@ Homebrew
 $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 ```
 
-+ Make sure everything installed correctly 
++ Make sure everything installed correctly
 
 ```
 $ brew doctor
@@ -130,7 +130,7 @@ $ curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
 RVM Installation part 2
 =======================
 + Read the output to find more information, troubleshooting, etc
-+ You may need to run ```$ source $HOME/.rvm/scripts/rvm``` after 
++ You may need to run ```$ source $HOME/.rvm/scripts/rvm``` after
 + restart your terminal program
 
 !SLIDE  title-and-content transition=fade
@@ -190,6 +190,6 @@ $ which rails
 
 Text Editors
 ============
-There are many options for text editors. Sublime Text and TextMate are popular **Graphic User Interface (GUI)** tools. **vim**, **vi**, and **emacs** are popular editors when working directly on a server. For this class, we'll start with Sublime Text 2.
+There are many options for text editors. Sublime Text, TextMate and Atom are popular **Graphic User Interface (GUI)** tools. **vim**, **vi**, and **emacs** are popular editors when working directly on a server. For this class, we'll start with Atom.
 
-+ http://www.sublimetext.com/2
++ https://atom.io/

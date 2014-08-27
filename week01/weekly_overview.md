@@ -40,13 +40,13 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | Time              | Topic                                   |
 |:------------------ |:----------------------------------------|
 | **9:00 - 10:00**   | Meet & Greet with Community Members + Breakfast |
-| **10:00 - 10:30**  | [The Run Around Game & Sekrit Handshakes](monday/get-to-know-you-games.md) |
-| **10:30 - 11:30** | Ada Overview (admininstration, culture, & expecations)                 |
-| **11:30 - 12:00** | [How to OS X](monday/how-to-os-x.md)    |
-| **12:00 - 12:30** | [Introduction to Unix](monday/nix.md)    |
-| **12:30 - 1:30** | Lunch    |
-| **1:30 - 3:00** | [Installfest](monday/installfest.md)     |
-| **3:00 - 4:00** | [Ruby Messaging](monday/ruby-messaging.md)     |
+| **10:00 - 12:00**  | [The Run Around Game & Sekrit Handshakes](monday/get-to-know-you-games.md) |
+| **11:00 - 12:00** | Ada Overview (admininstration, culture, & expecations)                 |
+| **12:00 - 1:00** | Lunch    |
+| **1:00 - 1:30** | [How to OS X](monday/how-to-os-x.md)    |
+| **1:30 - 2:30** | [Introduction to Unix](monday/nix.md)    |
+| **2:30 - 3:30** | [Installfest](monday/installfest.md)     |
+| **3:30 - 4:00** | [Ruby Messaging](monday/ruby-messaging.md)     |
 | **4:00 - $4:45**  | Introduction to [Ruby](monday/ruby_101.md)    |
 
 **Homework**
@@ -63,9 +63,8 @@ In week 1 we  will focus on installing all of the development tools so that our 
 ### Wednesday
 | Time              | Topic                             |
 |:-------------------|:----------------------------------|
-| **9:15 - 9:30**   | [Standup](tuesday/standup.md) |
-| **9:30 - 11:30**  | [Introduction to Sublime](http://docs.sublimetext.info/en/sublime-text-2/editing/editing.html) |
-| **11:30 - 12:30** | [Rails Bridge Part I](tuesday/railsbridge-setup.md)|
+| **9:30 - 10:00**  | [Introduction to Atom](tuesday/atom.md) |
+| **10:00 - 12:30** | [Rails Bridge Part I](tuesday/railsbridge-setup.md)|
 | **12:30 - 1:30** | Lunch |
 | **1:30 - 3:30 **  | [Rails Bridge Part II](http://docs.railsbridge.org/intro-to-rails/) |
 | **3:30 - 5:00 **  | [Git Immersion](tuesday/git_immersion.md) lab    |
