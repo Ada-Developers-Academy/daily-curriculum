@@ -14,6 +14,9 @@ Enter your email address.
 
 Heroku will send you an activation email. Open it and click on the activation link. It will take you to the Heroku site. Enter and confirm your password. Hit Save.
 
+Heroku *can* be a free service, but you will eventually have to add a credit card (I think after 5 apps), although it is still free unless you use add-ons or increase the preformance. The value Heroku provides is worth hundreds of dollars, feel lucky that
+this exists and all you have to do it provide a number and not actually pay anything.
+
 ## Install Heroku Toolbelt
 
 https://toolbelt.heroku.com/
@@ -24,7 +27,7 @@ click the download link, and install.
 
 Type this in the terminal: `heroku version`
 
-Expected result: `2.26.7` or higher
+Expected result: `3.0.0` or higher
 
 ## SSH Key
 An SSH key uniquely identifies you (and your computer) when your computer is communicating with other computers. Think of an SSH key as a fancy password
@@ -38,10 +41,10 @@ After key generation is complete, you'll have output that looks like this.
 
 ```
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/student/.ssh/id_rsa): 
+Enter file in which to save the key (/Users/student/.ssh/id_rsa):
 Created directory '/Users/student/.ssh'.
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
 Your identification has been saved in /Users/student/.ssh/id_rsa.
 Your public key has been saved in /Users/student/.ssh/id_rsa.pub.
 The key fingerprint is:

@@ -12,21 +12,17 @@ One way that Atom is extended through install external packages,
 1. Open the preferences pane from the app menue `Atom > Preferences...` (or press `cmd,`).
 2. Click on the `Packages` tab in the left menu.
 3. Search and install the following packages
-    - Atom Rails
     - Autoclose HTML
     - Color Picker
+    - Rspec
     - Lanugage Rspec
-    - Linter*
+    - Linter
     - Linter jshint
     - Linter ruby
-    - Linter CSS
-    - Rails Rspec
-    - Rspec
+    - Linter CSSlint
     - Sublime Style Column Selection
-    - Whitespace*
-    - Autosave*
-
-\* (ensure it's enabled)
+    - Whitespace
+    - Autosave (this one should be installed, but needs to be enabled)
 
 ### Themes
 
@@ -61,5 +57,4 @@ There are many ways to customize Atom, but most simple is to edit the stylesheet
 Press `⌘s` to save and you should see the change instantly!
 
 You can select any part of the application to manipulate with CSS.
-To browse the CSS selectors for the app open the debug console with `⌘⌥i`
 To browse the CSS selectors for the app open the debug console with `⌘⌥i`
