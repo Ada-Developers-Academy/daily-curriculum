@@ -40,7 +40,7 @@ The exception to the rule, scheduled days off:
 - Attend community events
 - Communicate and be flexible and understanding when working in pairs or teams
 
-### Staff
+### Mutual Accountability
 
 We are responsible for being available and responsive to you so that you get the most out of the Ada experience
 
@@ -52,10 +52,10 @@ You will have occasional scheduled one-on-one meetings with an instructor, durin
 
 ### Serious Concerns
 
-Not following the above can result in action. If we are concerned you are not performing as expected and not willing to take steps to remedy the problem.
+Not following the above can result in action. If we are concerned you are not performing as expected and are not willing to take steps to remedy the problem:
 
 - You will receive a written notice, again detailing the steps to remedy the problem and a timeline.
-- After the timeline, if the issue is still not resolved the ada Team will start to discuss dismissal.
+- If the issue is still not resolved after the timeline has passed, you may be subject to dismissal.
 
 
 ### Scholarship
@@ -64,40 +64,42 @@ Given that all program requirements are met:
 
 - You will receive $750/month for the first 6 months
 - You will receive $1250/month for the second 6 months
-- Payments will be processed at the end of each month
+- Payments will be processed at the end of each month and will be mailed to the address you've provided to us
 - If you leave or are dismissed from the program, you will not longer receive the scholarship payments
 
 ### Anti-Harassment
 
-Any kind of harassment or discrimination will not be tolerated, if you are the victim of any kind of harrasment from a staff, volunteers, or another student please report it immediately to Karen or any other staff.
+Any kind of harassment or discrimination will not be tolerated. If you are the victim of any kind of harassment from staff, volunteers, or another student please report it immediately to Karen or any other staff.
 We will take your complaint seriously and protect your confidentiality as well as any others who may be involved. We will take disciplinary action, including termination of employment if warranted.
 
+The following list constitues types of harassment that is unwelcome at Ada:  
+
 - Epithets, slurs, negative stereotyping, or threatening, intimidating, or hostile acts that relate to any legally protected characteristic or activity;
-- Written or graphic material displayed or circulated in the workplace that denigrates or shows hostility or aversion toward an individual or group because of any legally protected characteristic or activity;
+- Written or graphic material displayed or circulated that denigrates or shows hostility or aversion toward an individual or group because of any legally protected characteristic or activity;
 - Vulgar or sexual comments, jokes, stories, or innuendo;
--  Graphic or suggestive comments about someone’s body or manner of dress;
--  Gossip or questions about someone’s sexual conduct, sexual orientation,
+- Graphic or suggestive comments about someone’s body or manner of dress;
+- Gossip or questions about someone’s sexual conduct, sexual orientation,
 gender identity or expression, or transition to another gender;
--  Vulgarity, leering, inappropriate touching, or obscene or suggestive gestures;
--  Display in the workplace of sexually suggestive photographs, cartoons,
+- Vulgarity, leering, inappropriate touching, or obscene or suggestive gestures;
+- Display of sexually suggestive photographs, cartoons,
 graffiti, or the like;
--  Unwelcome and repeated flirtations, requests for dates, or the like;
--  Subtle pressure for sexual activity, including unwelcome but apparently
+- Unwelcome and repeated flirtations, requests for dates, or the like;
+- Subtle pressure for sexual activity, including unwelcome but apparently
 sanction-free sexual advances by a supervisor to a subordinate;
--  Solicitation or coercion of sexual activity, dates, or the like by the implied or
+- Solicitation or coercion of sexual activity, dates, or the like by the implied or
 express promise of rewards or preferential treatment;
--  Solicitation or coercion of sexual activity, dates, or the like by the implied or
+- Solicitation or coercion of sexual activity, dates, or the like by the implied or
 express threat of punishment;
--  Sexual assault;
--  Intimidating, hostile, derogatory, disrespectful, or otherwise offensive
+- Sexual assault;
+- Intimidating, hostile, derogatory, disrespectful, or otherwise offensive
 conduct or remarks that are directed at a person because of that person’s sex,
 whether or not the remarks themselves are sexual in nature; and
--  Retaliation against an employee for refusing sexual overtures.
+- Retaliation for refusing sexual overtures.
 
 
 ### Internship
 
-Internship will be from March 9th - August 28th. You will spend 35 hours per week at the company and 5 hours back in the classroom.
+Internships will be from March 9th - August 28th. You will spend 35 hours per week at the company and 5 hours back in the classroom.
 
 ------
 
