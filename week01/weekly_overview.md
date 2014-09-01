@@ -6,19 +6,12 @@ In week 1 we  will focus on installing all of the development tools so that our 
 
 + Introduction to the program
 + Working Ruby development environment
-+ Introduction to Agile practices
-    + pairing
-    + daily stand-up
-    + iterations
-    + retrospectives
 + Comfort with basic OS X Hotkeys
 + Comfort with basic UNIX command-line skills
     + navigation
     + file manipulation
     + grep
     + man pages
-    + hidden files
-    + permissions
     + modifying your terminal
 + Ruby history & background
 + Learning basic ruby concepts
@@ -32,7 +25,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
     - Text Editors (Atom)
     - Git
     - Terminal
-+ Discuss whis is Ada?
++ Discuss what is Ada?
 
 ## Schedule
 ### Tuesday
@@ -40,14 +33,14 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | Time              | Topic                                   |
 |:------------------ |:----------------------------------------|
 | **9:00 - 10:00**   | Meet & Greet with Community Members + Breakfast |
-| **10:00 - 12:00**  | [The Run Around Game & Sekrit Handshakes](monday/get-to-know-you-games.md) |
-| **11:00 - 12:00** | Ada Overview (admininstration, culture, & expecations)                 |
+| **10:00 - 12:00**  | Get to know you games |
+| **11:00 - 12:00** | Ada Overview (handbook, culture, & expecations)                 |
 | **12:00 - 1:00** | Lunch    |
 | **1:00 - 1:30** | [How to OS X](monday/how-to-os-x.md)    |
 | **1:30 - 2:30** | [Introduction to Unix](monday/nix.md)    |
 | **2:30 - 3:30** | [Installfest](monday/installfest.md)     |
 | **3:30 - 4:00** | [Ruby Messaging](monday/ruby-messaging.md)     |
-| **4:00 - $4:45**  | Introduction to [Ruby](monday/ruby_101.md)    |
+| **4:00 - 5:00**  | Introduction to [Ruby](monday/ruby_101.md)    |
 
 **Homework**
 
@@ -105,5 +98,4 @@ In week 1 we  will focus on installing all of the development tools so that our 
 
 **Homework**
 * Work through Chapters 7, 8 of Learn to Program
-* Stand up questions!
 * More Git Immersion (upto lab 25)
