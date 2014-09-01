@@ -72,7 +72,7 @@ Given that all program requirements are met:
 Any kind of harassment or discrimination will not be tolerated. If you are the victim of any kind of harassment from staff, volunteers, or another student please report it immediately to Karen or any other staff.
 We will take your complaint seriously and protect your confidentiality as well as any others who may be involved. We will take disciplinary action, including termination of employment if warranted.
 
-The following list constitues types of harassment that is unwelcome at Ada:  
+The following list constitues types of harassment that are unwelcome at Ada:  
 
 - Epithets, slurs, negative stereotyping, or threatening, intimidating, or hostile acts that relate to any legally protected characteristic or activity;
 - Written or graphic material displayed or circulated that denigrates or shows hostility or aversion toward an individual or group because of any legally protected characteristic or activity;
