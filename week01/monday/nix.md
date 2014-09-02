@@ -38,19 +38,19 @@ Running a Command
 
 Commands almost always have 3 parts.
 
-```bash
+```
 [command] [options] [arguments]
 ```
 
 You could think of it as
 
-```bash
+```
 verb adverb noun
 ```
 
 Let's look at one command
 
-```bash
+```
 $ ls -a .
 ```
 
@@ -61,7 +61,7 @@ In UNIX commands are all tiny little programs. They tend to do one small job or 
 
 In your Terminal, type
 
-```bash
+```
 $ man ls
 ```
 
@@ -81,7 +81,7 @@ $ pwd
 ```
 pwd returns the **p**resent **w**orking **d**irectory. Use this command to find in which directory you are currently "in".
 
-```bash
+```
 $ cd <some path>
 ```
 `cd` is **c**hange **d**irectory. It's followed by some directory, if I were in `/Users/Bookis/work`:
@@ -93,8 +93,10 @@ $ cd ada
 $ pwd
 /Users/Bookis/work/ada
 ```
+
 #### Special Paths
-```bash
+
+```
 $ cd ~
 ```
 "~" represents your Home directory, for me this is "/Users/Bookis"
@@ -139,7 +141,7 @@ As you get more comfortable with using Terminal, you'll notice that you start ty
 
 We can string commands together to create powerful compound commands. We use the pipe character '|' to send the output of one command on to the next one.
 
-```bash
+```
 grep -irn banana .|grep -v Pie
 ```
 

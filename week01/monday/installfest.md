@@ -12,7 +12,7 @@ Xcode Command-Line Tools
 Xcode is an **integrated development environment** (often called an **IDE**) for creating apps for Mac, iPhone, and iPad. We don't need it in it's entirety, we're just going to download the Command Line Tools it provides.
 
 ```
-xcode-select —install
+xcode-select --install
 ```
 
 Walk through the installation, it will take a few minutes.
