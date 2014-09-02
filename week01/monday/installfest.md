@@ -131,12 +131,12 @@ Trust, But Verify
 
 ```
 which ruby
-/usr/local/rvm/rubies/ruby-2.1.2-p247/bin/ruby
+/usr/local/rvm/rubies/ruby-2.1.2/bin/ruby
 ```
 
 ```
 rvm current
-ruby-2.1.2-p247
+ruby-2.1.2
 ```
 
 ```
