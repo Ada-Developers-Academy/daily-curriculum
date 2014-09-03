@@ -56,7 +56,8 @@ In week 1 we  will focus on installing all of the development tools so that our 
 ### Wednesday
 | Time              | Topic                             |
 |:-------------------|:----------------------------------|
-| **9:10 - 10:00**  | [Introduction to Atom](tuesday/atom.md) |
+| **9:00 - 9:30**  | [Introduction to Ruby](monday/ruby_101.md) |
+| **9:30 - 10:00**  | [Introduction to Atom](tuesday/atom.md) |
 | **10:00 - 12:30** | [Rails Bridge Setup](tuesday/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/))|
 | **12:30 - 1:30**  | Lunch |
 | **1:30 - 3:30 **  | [Rails Bridge Continued](http://docs.railsbridge.org/intro-to-rails/) |

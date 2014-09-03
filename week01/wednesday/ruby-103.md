@@ -1,6 +1,30 @@
 # Ruby 103
-## Blocks & Literals
+## Literals & Blocks
 
+### Literals
+
+Literals are special syntax to create objects, they do a lot of the magic that makes Ruby very readable.  There are quite a few types of Literals but we're going to focus on the most common just to get the idea across.
+
+First, lets to over a basic Ruby idea, objects are initialized by class, so a common approach to making a new object is to use the `.new` method on a class.
+
+```
+String.new # => ""
+```
+
+But, that isn't how we've seen a string created up until now, we've simply just written `""`, and those two quotes are literals.
+
+Behind the scene Ruby is indeed initializing a `String` object from the `String` class, just as we would in the above example. But it would be obnoxious and ugly if we had to type `String.new` everytime we wanted to use a string.
+
+```
+'' # => raw string
+
+Array.new
+[]
+
+Hash.new
+{}
+```
+### Blocks
 Blocks are segmented chunks of code, blocks are kind of like methods, but they don't have a name and are not part of a parent class. For example:
 
 ```ruby
@@ -21,12 +45,15 @@ Block can be identified by either `do ... end` or `{ }`. The curly brackets can 
 
 So how do you tell them apart, mostly the contents blocks will have code in them, while Hash's will always have the key/value pairs.
 
-What is a block? Technically it's something called a `Proc` (Procedure). `Proc` is a class and a block is an instance of that class. It's an object that stores a chunk of code that it can execute at anytime
+Block arguments are defined using `|` characters:
 
 ```
-proc = Proc.new {|n| n + 100 }
-proc.call(1) # 101
+[1,2,3].each do |n|
+  puts n
+end
 ```
+
+`n` is the defined argument, this means that objects given to the block are going to be assigned to the `n` variable within the scope of the block
 
 Another potential gotcha is if you try to give a Hash as an argument to a method using a space, Ruby will think you are passing it a `Hash`
 
