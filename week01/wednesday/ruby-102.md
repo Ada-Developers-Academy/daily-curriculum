@@ -48,6 +48,19 @@ puts "\"Hello\" I said"
 # => nil
 ```
 
+
+`Symbol`
+--------
+Symbols are a lot like strings but they are meant to represent names (short strings), basically it's text that is meant only for keeping track of the name of something inside of a ruby application. An identifier.
+
+```ruby
+:bookis.object_id # => 483528
+:bookis.object_id # => 483528
+
+"bookis".object_id # => 70259726644020
+"bookis".object_id # => 70359726563680
+```
+
 `Numbers`
 --------
 Numbers are pretty obvious, but maybe not as simple as you might think. Numbers can be a few different datatypes, the most common in ruby are Integer and Float.The most obvious difference is the decimal point.

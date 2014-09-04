@@ -16,14 +16,24 @@ But, that isn't how we've seen a string created up until now, we've simply just 
 Behind the scene Ruby is indeed initializing a `String` object from the `String` class, just as we would in the above example. But it would be obnoxious and ugly if we had to type `String.new` everytime we wanted to use a string.
 
 ```
-'' # => raw string
+String.new # => ""
+"" # => String
+'' # => raw String, this is a string that doesn't allow substitutions like ruby interpolation
 
 Array.new
 []
 
 Hash.new
 {}
+
+:word
+
+123
+123_456
 ```
+
+There are a many more literals, but not seen as commonly, for a complete list see the [guide](http://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals)
+
 ### Blocks
 Blocks are segmented chunks of code, blocks are kind of like methods, but they don't have a name and are not part of a parent class. For example:
 

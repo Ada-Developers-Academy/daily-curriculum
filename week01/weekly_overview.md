@@ -58,7 +58,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 |:-------------------|:----------------------------------|
 | **9:00 - 9:30**  | [Introduction to Ruby](monday/ruby_101.md) |
 | **9:30 - 10:00**  | [Introduction to Atom](tuesday/atom.md) |
-| **10:00 - 12:30** | [Rails Bridge Setup](tuesday/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/)|
+| **10:00 - 12:30** | [Rails Bridge Setup](tuesday/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/))|
 | **12:30 - 1:30**  | Lunch |
 | **1:30 - 3:30 **  | [Rails Bridge Continued](http://docs.railsbridge.org/intro-to-rails/) |
 | **3:30 - 5:00 **  | [Git Immersion](tuesday/git_immersion.md) lab    |
@@ -76,11 +76,12 @@ In week 1 we  will focus on installing all of the development tools so that our 
 ### Thursday
 | Time              | Topic     |
 |:-------------------|:----------|
-| **9:15 - 9:30**    | Standup   |
-| **9:30 - 10:30**   | [Ruby 102](wednesday/ruby-102.md) |
-| **10:30 - 12:00 ** | [Adventure Game lab](wednesday/flow-control.md)  |
-| **1:00 - 2:00**    | [Ruby 103](wednesday/ruby-103.md) |
-| **2:00 - 5:00 **   | [Calculator Lab](wednesday/calculator.md) |
+| **9:10 - 10:30**   | [Ruby 102](wednesday/ruby-102.md) |
+| **10:30 - 11:00 ** | [Flow Control](wednesday/flow-control.md)  |
+| **11:00 - 12:00 **   | [Calculator Lab](wednesday/calculator.md) |
+| **12:00 - 1:00**    | Lunch |
+| **1:00 - 5:00 **   | [Calculator Lab](wednesday/calculator.md) |
+| **3:00 - 5:00 **   | After completing calculator: [gitimmersion.com](http://gitimmersion.com) |
 
 **Homework**
 
@@ -92,7 +93,8 @@ In week 1 we  will focus on installing all of the development tools so that our 
 ### Friday
 | Time              | Topic               |
 |:-------------------|:--------------------|
-| **9:00 - 10:30** | [More on Conditionals & Flow Control](more_on_conditionals.md)  |
+| **9:00 - 10:00**    | [Ruby 103](wednesday/ruby-103.md) |
+| **10:00 - 10:30** | [More on Conditionals & Flow Control](more_on_conditionals.md)  |
 | **10:45 - 12:00** | [Ruby Objects](object-orientation.md)  |
 | **12:00 - 1:00** | Lunch  |
 | **1:00 - 5:00** | Adventure Game lab part 2. Page 149-158 in Beginning Ruby   |
