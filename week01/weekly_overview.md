@@ -56,7 +56,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 ### Wednesday
 | Time              | Topic                             |
 |:-------------------|:----------------------------------|
-| **9:00 - 9:30**  | [Introduction to Ruby](monday/ruby_101.md) |
+| **9:00 - 9:30**  | [Introduction to Ruby](tuesday/ruby_101.md) |
 | **9:30 - 10:00**  | [Introduction to Atom](tuesday/atom.md) |
 | **10:00 - 12:30** | [Rails Bridge Setup](tuesday/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/))|
 | **12:30 - 1:30**  | Lunch |
@@ -93,9 +93,9 @@ In week 1 we  will focus on installing all of the development tools so that our 
 ### Friday
 | Time              | Topic               |
 |:-------------------|:--------------------|
-| **9:00 - 10:00**    | [Ruby 103](wednesday/ruby-103.md) |
-| **10:00 - 10:30** | [More on Conditionals & Flow Control](more_on_conditionals.md)  |
-| **10:45 - 12:00** | [Ruby Objects](object-orientation.md)  |
+| **9:00 - 10:00**    | [Ruby 103](thursday/ruby-103.md) |
+| **10:00 - 10:30** | [More on Conditionals & Flow Control](friday/more_on_conditionals.md)  |
+| **10:45 - 12:00** | [Ruby Objects](thursday/object-orientation.md)  |
 | **12:00 - 1:00** | Lunch  |
 | **1:00 - 5:00** | Adventure Game lab part 2. Page 149-158 in Beginning Ruby   |
 
