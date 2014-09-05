@@ -10,17 +10,15 @@ else
   # do something different
 end
 ```
-
-
 Comparisons
 ===========
 
-+ >
-+ <
-+ ==
-+ >=
-+ <=
-+ !=
+- >
+- <
+- ==
+- \>=
+- <=
+- !=
 
 
 Compound Conditions
@@ -31,20 +29,6 @@ Comparison expressions are often combined:
 + **OR** or **||**
 + **AND** or **&&**
 
-Compound Conditions
-===================
-
-```ruby
-if 1 > 0 && 1 < 10
-  # do something
-else
-  # do something different
-end
-```
-
-Calculator Example
-===================
-
 ```ruby
 if command == "add"
   # add numbers
@@ -52,9 +36,6 @@ elsif command == "+"
   # also adds numbers
 end
 ```
-
-Calculator Example
-==================
 
 ```ruby
 if command == "add" || command == "+"
@@ -70,8 +51,8 @@ Wait a ```while```
 ```ruby
 command = gets.chomp
 
-while command != "add" && command != "+" && command != "subtract" && command != "-"
-  puts "Please tell me to add (+) or subtract (-)!"
+while command != "add" && command != "+"
+  puts "Please tell me to add (+)!"
   command = gets.chomp
 end
 
@@ -93,8 +74,7 @@ end
 puts "OMG It's about time!"
 ```
 
-Make it clearer by using ```Until```
-==================
+Make it clearer by using `include?`
 
 ```ruby
 command = gets.chomp

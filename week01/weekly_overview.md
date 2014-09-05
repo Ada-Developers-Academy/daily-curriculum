@@ -102,3 +102,6 @@ In week 1 we  will focus on installing all of the development tools so that our 
 **Homework**
 * Work through Chapters 7, 8 of Learn to Program
 * More Git Immersion (upto lab 25)
+
+## Optional Lesson: More About Methods
+Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over some common (and not-so-common) methods for some of our favorite types of objects: integers and strings.

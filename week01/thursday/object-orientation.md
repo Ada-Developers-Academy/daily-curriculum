@@ -80,17 +80,63 @@ Every object has a class, try:
 {}.class # => Hash
 Chair.new.class # => Chair
 ```
-Even classes have classes! Try `"hello".class.class`!
 
-Commonly-used classes have pre-defined methods baked in - that's how Ruby works from the inside out. To see what methods are available on any object, just call `.methods`. Try it with `"hello".methods`.
+### initialize
 
-Just to go further down the rabbit hole, the response of `"hello.methods"` is even an object, so you can call `.class` on it. Turns out that it is an Array.
+Let's start over building our class, but let's build it to be a little customizable.
+We want the attributes (color & name) to be able to be set by dynamically.
 
-We can use Array's predefined methods on `"hello".methods`, like `.count`. `"hello".methods.count` will give us the number of methods you can call on any string. How many are there?
 
-## Lesson
+```ruby
+class Chair
 
-Build the Dungeon Text Adventure game outlined on page 149-158 in Beginning Ruby
+  def initialize()
 
-## Optional Lesson: More About Methods
-Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over some common (and not-so-common) methods for some of our favorite types of objects: integers and strings.
+  end
+
+end
+```
+
+That `initialize` method (called a constructor) is called from within the `new` method. So we will use it to "construct" our object.
+We can pass in values to the new method, they are then passed along to `initialize`, where we can use them to assign variables within the instance of the object
+
+```ruby
+class Chair
+
+  def initialize(name, color)
+    @name = name
+    @color = color
+  end
+
+  def name
+    @name
+  end
+
+  def name=(new_name)
+    @name = new_name
+  end
+
+  def color
+    @color
+  end
+
+  def color=(new_color)
+    @color = new_color
+  end
+
+end
+```
+
+### attr_accessor
+
+```ruby
+class Chair
+  attr_accessor :name, :color
+
+  def initialize(name, color)
+    @name = name
+    @color = color
+  end
+
+end
+```

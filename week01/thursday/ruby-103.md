@@ -1,5 +1,5 @@
 # Ruby 103
-## Literals & Blocks
+## Literals & Block Syntax
 
 ### Literals
 
@@ -34,8 +34,8 @@ Hash.new
 
 There are a many more literals, but not seen as commonly, for a complete list see the [guide](http://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals)
 
-### Blocks
-Blocks are segmented chunks of code, blocks are kind of like methods, but they don't have a name and are not part of a parent class. For example:
+### Block Syntax
+Blocks (referred to as closures in Computer Science) are segmented chunks of code, blocks are kind of like methods, but they don't have a name and are not part of a parent class. For example:
 
 ```ruby
 [1,2,3,4].each do |number|
@@ -55,7 +55,7 @@ Block can be identified by either `do ... end` or `{ }`. The curly brackets can 
 
 So how do you tell them apart, mostly the contents blocks will have code in them, while Hash's will always have the key/value pairs.
 
-Block arguments are defined using `|` characters:
+Block arguments are defined using a pair of `|` characters:
 
 ```
 [1,2,3].each do |n|
@@ -64,14 +64,3 @@ end
 ```
 
 `n` is the defined argument, this means that objects given to the block are going to be assigned to the `n` variable within the scope of the block
-
-Another potential gotcha is if you try to give a Hash as an argument to a method using a space, Ruby will think you are passing it a `Hash`
-
-```ruby
-def some_method_that_takes_a_hash(hash)
-  hash
-end
-
-some_method_that_takes_a_hash {foo: :bar} # => syntax error
-
-```
