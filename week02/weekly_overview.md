@@ -3,11 +3,12 @@
 In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
 
 ## Goals
-- learn core Ruby concepts
+- Learn core Ruby concepts
     - Objects
     - Object Inheritance
-- solidify our knowledge of Strings, Arrays, and Hashes
-- explore Date and Time classes
+- Solidify our knowledge of Strings, Arrays, and Hashes
+- Explore Date and Time classes
+- Create a game in Gosu
 
 ## Schedule
 ### Monday
