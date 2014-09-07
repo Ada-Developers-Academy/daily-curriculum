@@ -28,7 +28,6 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 |:------------------|:------------------------------------------:|
 | **9:30 - 10:30**  | Dates and Times (IRB exploration)              |
 | **11:30 - 12:30** | [Solar System Project](resources/solar_systems/README.md) |
-| **10:30 - 11:30** | [Object Inheritance](thursday/inheritance.md) |
 | **2:00 - 5:00**   | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
 
 
@@ -36,6 +35,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 
 | Time              | Topic                    |
 |:------------------|:-------------------------|
+| **10:30 - 11:30** | [Object Inheritance](thursday/inheritance.md) |
 | **2:00 - 5:00**   | Koans? |
 
 

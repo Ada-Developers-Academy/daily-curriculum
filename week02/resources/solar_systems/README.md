@@ -1,8 +1,17 @@
-Let's make a planetary system! 
+Let's make a planetary system!
 ------------------------------
 
-+ Create a Planet class
-+ Create a SolarSystem class that has an attribute "planets" that has 0-??? Planets
-+ make a new directory inside the *examples/week2/solar_systems/* directory named for your solar system, and put all your work in that folder
-+ Get creative! Give new Planets random names, diameters, mass, moons.. whatever!
-+ When you're done, help someone else
+Bronze
+-------
+- Create a Planet class with a name attribute
+- Create a SolarSystem class that has an attribute "planets" that has 0-??? Planets
+
+Silver
+------
+- Get creative! Give planets diameters, mass, moons.. whatever!
+
+Gold
+------
+- Give your solar system a formation date (in earth years).
+- Give each planet a rate of solar rotation
+- Define a method that returns the local year of the planet based on it's rotation since the beginning of the solar system
