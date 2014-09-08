@@ -12,9 +12,10 @@ Gold
 -----
 The `OrangeGrove` should also have a `@soil_quality` attribute, the more trees in the grove the lower this number is, but a lower number also produces longer living trees that produce more fruit.
 
-Also create a `self.plant_on(grove)` method which adds a new tree to the grove passed in as an argument.
-
 Depending on the soil quality any new tree on the grove has a chance of being dead.
+
+Also create a `self.plant_on(grove)` method for the `OrangeTree` class which adds a new tree to the grove passed in as an argument.
+
 
 Platinum
 --------
