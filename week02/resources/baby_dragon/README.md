@@ -1,1 +1,0 @@
-(See Learning to Program, Chapter 13)
