@@ -27,10 +27,13 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 
 | Time              | Topic                                      |
 |:------------------|:------------------------------------------:|
-| **10:30 - 11:30** | [Hash Practice](tuesday/hash-practice.md) |
-| **11:30 - 2:00**  | [Solar System Project](resources/solar_systems/README.md) |
+| **09:10 - 10:00** | [Hash Practice](tuesday/hash-practice.md) |
+| **10:00 - 2:00**  | [Solar System Project](tuesday/solar-system.md) |
 | **2:00 - 5:00**   | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
 
+**Homework**
+
+Read Chapter 6 Beginning Ruby up to (but not through) "Modules, Namespaces, And Mix-Ins"
 
 ### Wednesday
 
@@ -38,7 +41,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 |:------------------|:-------------------------|
 | **9:30 - 10:30**  | [Dates and Times](/tuesday/date-time.md)              |
 | **10:30 - 11:30** | [Object Inheritance](thursday/inheritance.md) |
-| **2:00 - 5:00**   | Koans? |
+| **2:00 - 5:00**   | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
 
 
 ### Thursday

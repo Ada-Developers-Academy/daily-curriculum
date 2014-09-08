@@ -24,16 +24,21 @@ Further we could groups these in an Array:
 {name: "Karen Hambro", email: "karen.hambro@adadevelopersacademy.org"}]
 ```
 
-A Hash key can have any object as it's value, even another hash.
+A `Hash` key can have any object as it's value, even another hash.
 
 ```ruby
 {bookis:
   {
     last_name: "Smuin",
     first_name: "Bookis",
+    address: {
+      street: "123 fake st",
+      city: "Seattle",
+      state: "WA"
+    },
     children: [{
       name: "Isaac",
-      
+
     }],
     pets: [{
       type: "cat",
@@ -42,10 +47,45 @@ A Hash key can have any object as it's value, even another hash.
   }
 }
 ```
+Using Hash to initiate objects
+---------
+A Hash is a great way to pass in arguments to `initialize`, first let's look at a use case for this.
+```ruby
+class Address
+  def initialize(first_name, last_name, street_one, street_two, city, state, country, postal_code)
+    @first_name  = first_name
+    @last_name   = last_name
+    @street_one  = street_one
+    @street_two  = street_two
+    @city        = city
+    @state       = state
+    @country     = country
+    @postal_code = postal_code
+  end
+end
+Address.new("Bookis", "Smuin", "123 fake st", "seattle", "WA", "US", 98102)
+```
 
+What is the problem (or at least obnoxious) there? What if you don't have a `street_two` attribute?
 
+Let's try again using a hash
+```ruby
+class Address
+  def initialize(address_hash)
+    @first_name  = address_hash[:first_name]
+    @last_name   = address_hash[:last_name]
+    @street_one  = address_hash[:street_one]
+    @street_two  = address_hash[:street_two]
+    @city        = address_hash[:city]
+    @state       = address_hash[:state]
+    @country     = address_hash[:country]
+    @postal_code = address_hash[:postal_code]
+  end
+end
 
+Address.new(first_name: "Bookis")
 
+```
 Example
 --------
 ```ruby
