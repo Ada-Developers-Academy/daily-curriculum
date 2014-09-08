@@ -10,7 +10,11 @@ Make an `OrangeGrove` class that holds many `OrangeTree` objects. When one year 
 
 Gold
 -----
-The `OrangeGrove` should also have a `@soil_quality` attribute, the more trees in the grove the lower this number is, but a lower number also produces longer living trees that produce more fruit. Also create a `self.plant` method which adds a new tree, depending on the soil quality this should have a chance of creating a dead tree.
+The `OrangeGrove` should also have a `@soil_quality` attribute, the more trees in the grove the lower this number is, but a lower number also produces longer living trees that produce more fruit.
+
+Also create a `self.plant_on(grove)` method which adds a new tree to the grove passed in as an argument.
+
+Depending on the soil quality any new tree on the grove has a chance of being dead.
 
 Platinum
 --------

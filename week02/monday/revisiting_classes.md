@@ -65,7 +65,9 @@ class Pawn
     @position = position
   end
 
-  def self.make_row(side) # This is the class method, it starts with self. It is only called on the class directly Pawn.make_row
+  # This is the class method, it starts with self.
+  # It is only called on the class directly Pawn.make_row
+  def self.make_row(side)
     if side == "white"
       num = 2
     else
