@@ -30,7 +30,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 | **09:10 - 10:00** | [Hashes](tuesday/hash.md) |
 | **10:00 - 11:00** | [Hash Practice](tuesday/hash-practice.md) |
 | **11:00 - 2:00**  | [Solar System Project](tuesday/solar-system.md) |
-| **2:00 - 5:00**   | [Baby Dragon Project](resources/baby_dragon/README.md)* from L2P |
+| **2:00 - 5:00**   | [Baby Dragon Project](tuesday/baby_dragon.md)* from L2P |
 
 \* If you finish with the solar system.
 
