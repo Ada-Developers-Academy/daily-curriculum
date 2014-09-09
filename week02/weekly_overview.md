@@ -44,7 +44,7 @@ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 |:------------------|:-------------------------|
 | **9:30 - 10:30**  | [Dates and Times](/tuesday/date-time.md)              |
 | **10:30 - 11:30** | [Object Inheritance](thursday/inheritance.md) |
-| **2:00 - 5:00**   | [Baby Dragon Project](resources/baby_dragon/README.md) from L2P |
+| **12:30 - 5:00**   | [Baby Dragon Project](tuesday/baby_dragon.md) from L2P |
 
 
 ### Thursday
