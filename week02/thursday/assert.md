@@ -42,3 +42,14 @@ Using your assert() method, build assert_equal (easy!):
 - write assert_match (takes a regex and a string)
 - write assert_includes
 - make up your own assertion
+
+## Why Do We Want This?
+
+We will use asserts to reduce errors by verifying assumptions in our code, and as the basis
+for automated tests.
+
+### More Info
+
+- [Invariants](http://en.wikipedia.org/wiki/Invariant_(computer_science))
+- [TDD](http://en.wikipedia.org/wiki/Test-driven_development)
+- [Deep Dive Example of TDD](http://www.rubyinside.com/screencast-coding-conways-game-of-life-in-ruby-the-tdd-way-with-rspec-5564.html)
