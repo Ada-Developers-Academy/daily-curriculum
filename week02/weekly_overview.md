@@ -42,17 +42,22 @@ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 
 | Time              | Topic                    |
 |:------------------|:-------------------------|
-| **9:30 - 10:30**  | [Dates and Times](/tuesday/date-time.md)              |
-| **10:30 - 11:30** | [Object Inheritance](thursday/inheritance.md) |
-| **12:30 - 5:00**   | [Baby Dragon Project](tuesday/baby_dragon.md) from L2P |
+| **9:00 - 9:30**  | [Introducing Gems](/wednesday/introducing-gems.md)              |
+| **9:00 - 9:30**  | [Dates and Times](/wednesday/date-time.md)              |
 
 
 ### Thursday
 | Time              | Topic              |
 |:------------------|:-------------------|
-| **2:00 - 5:00**   | Gosu? |
+| **9:00 - 9:30**  | [Dates and Times](/wednesday/date-time.md)              |
+| **9:30 - 10:30** | [Object Inheritance](wednesday/inheritance.md) |
+| **11:00 - 12:00**   | Pairing |
+| **10:30 - 2:00** | [Farm](wednesday/inheritance.md) |
+| **12:30 - 5:00**   | [Baby Dragon Project](tuesday/baby_dragon.md) from L2P |
 
 ### Friday
 | Time              | Topic                                          |
 |:------------------|:----------------------------------------------:|
-| **2:00 - 5:00**   | Gosu? |
+| **9:00 - 11:00**   | Working with Files |
+| **9:00 - 11:00**   | Modules & Structure |
+| **12:00 - 5:00**   | Project Time |
