@@ -43,7 +43,8 @@ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 | Time              | Topic                    |
 |:------------------|:-------------------------|
 | **9:00 - 9:30**  | [Introducing Gems](/wednesday/introducing-gems.md)              |
-| **9:00 - 9:30**  | [Dates and Times](/wednesday/date-time.md)              |
+| **9:30 - 12:00**  | Week 1 & 2 Recap|
+| **9:30 - 5:00**  | [Hangman](/wednesday/hangman.md) or [MasterMind](/wednesday/mastermind.md)|
 
 
 ### Thursday
