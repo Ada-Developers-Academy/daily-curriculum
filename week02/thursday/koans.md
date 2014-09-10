@@ -37,8 +37,8 @@ communicate its intent (refactor).
 
 ## Running the koans
 
-To run the koans, you simply run the koans via ```rake``` and
-follow the instructions:
+To run the koans, you simply run ```rake``` in the main repo directory
+and follow the instructions:
 
 ```
 $ rake
