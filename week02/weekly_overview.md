@@ -47,12 +47,30 @@ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 | **12:30 - 5:00**   | [Baby Dragon Project](tuesday/baby_dragon.md) from L2P |
 
 
+**Homework**
+
+Read about assertions:
+
+[Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
+
 ### Thursday
 | Time              | Topic              |
 |:------------------|:-------------------|
-| **2:00 - 5:00**   | Gosu? |
+| **2:00 - 3:00**   | [Assertions](thursday/assert.md) |
+| **3:00 - 5:00**   | [Ruby Koans](thursday/koans.md) |
+
+**Homework**
+
+Read the following and bring questions.
+
+[Game Architecture](http://gameprogrammingpatterns.com/architecture-performance-and-games.html)
+[The Game Loop](http://gameprogrammingpatterns.com/game-loop.html)
 
 ### Friday
 | Time              | Topic                                          |
 |:------------------|:----------------------------------------------:|
-| **2:00 - 5:00**   | Gosu? |
+| **9:30 - 10:00**  | [More Koans](friday/koans.md) |
+| **10:00 - 10:30** | Reading Review and Game Loop Quiz
+| **10:30 - 12:00** | [Game Basics and Gosu](friday/games.md) |
+| **12:00 - 1:00**  | Lunch |
+| **1:00 - 5:00**   | [Gosu Project](friday/gosu.md) |
