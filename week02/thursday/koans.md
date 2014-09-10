@@ -80,5 +80,5 @@ $ git pull
 $ rake gen
 ```
 
-**WARNING Your work in the koans direction is ignored by git by default!**
+**WARNING Your work in the koans directory is ignored by git by default!**
 
