@@ -50,15 +50,16 @@ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 ### Thursday
 | Time              | Topic              |
 |:------------------|:-------------------|
-| **9:00 - 9:30**  | [Dates and Times](/wednesday/date-time.md)              |
-| **9:30 - 10:30** | [Object Inheritance](wednesday/inheritance.md) |
-| **11:00 - 12:00**   | Pairing |
-| **10:30 - 2:00** | [Farm](wednesday/inheritance.md) |
-| **12:30 - 5:00**   | [Baby Dragon Project](tuesday/baby_dragon.md) from L2P |
+| **9:00 - 10:30**  | Week 1 & 2 Recap|
+| **10:30 - 12:00**  | Live Code Hangman |
+| **1:00 - 5:00**  | [Hangman](wednesday/hangman.md) or [MasterMind](wednesday/mastermind.md)|
 
 ### Friday
 | Time              | Topic                                          |
 |:------------------|:----------------------------------------------:|
+| **9:00 - 9:30**  | [Dates and Times](/wednesday/date-time.md)              |
+| **9:30 - 10:30** | [Object Inheritance](wednesday/inheritance.md) |
+| **10:30 - 2:00** | [Farm](wednesday/inheritance.md) |
+| **11:00 - 12:00**   | Pairing |
 | **9:00 - 11:00**   | Working with Files |
-| **9:00 - 11:00**   | Modules & Structure |
 | **12:00 - 5:00**   | Project Time |
