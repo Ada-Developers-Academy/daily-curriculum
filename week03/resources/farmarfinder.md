@@ -189,15 +189,18 @@ Create an additional class to use inheritance for shared methods (`find`, `all`)
 
 To run our test suite use:
 
-    rspec -c
-
+```bash
+rspec
+```
 Our test suite will run tests to ensure that *some* of our required methods are implemented correctly.
 
 Note: It will be best to create the basic file for the four supporting classes before running our tests
 
-    class FarMar::Market
+```ruby
+class FarMar::Market
 
-    end
+end
+```
 
 and requiring them in `/lib/far_mar.rb`.
 

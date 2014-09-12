@@ -67,6 +67,7 @@ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 
 **Homework**
 
-Read about assertions:
+Read Chapter 9 of Beginning Ruby, up to Storing Objects and Data Structures
 
+Read about assertions:
 [Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))

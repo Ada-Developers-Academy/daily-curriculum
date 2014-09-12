@@ -16,11 +16,10 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 ## Schedule
 
 ### Monday
-#### Morning
 
 | Time              | Topic                        |
 |:-----------------:|:-----------------------------|
-| **9:15 - 9:45** | Pairing                |
+| **9:15 - 9:45**   | Pairing                |
 | **10:30 - 12:00** | [Reading from CSV](monday/csv_database.md)                |
 | **1:00 - 2:30**   | [CSV Quiz](https://canvas.instructure.com/courses/881804/quizzes/1047539)|
 | **2:30 - 3:00**   | CSV Project Intro ([FarMarFinder](resources/farmarfinder.md))      |
@@ -30,21 +29,15 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 - [FarMarFinder](resources/farmarfinder.md)
 
 ### Tuesday
-#### All Day
 
 | Time              | Topic             |
 |:-----------------:|:------------------|
-| **9:15 - 9:30**   | Standup           |
-| **9:45 - 10:30**  | [Enumerable Lesson](thursday/enumerable.md)   |
-| **9:30 - 10:00**  | [Advanced Hashes](tuesday/hashes.rb)   |
 | **10:00 - 10:30** | [Hash Quiz](https://canvas.instructure.com/courses/881804/quizzes/1047542)|
+| **9:45 - 10:30**  | [Enumerable Methods](thursday/enumerable.md)   |
 | **11:00 - 11:30**| [FarMarFinder](resources/farmarfinder.md) Q&A |
 | **11:30 - 5:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time      |
 
-*Take an hour lunch at any time
-
 ### Wednesday
-#### All Day
 
 | Time               | Topic               |
 |:------------------:|:--------------------|
@@ -53,25 +46,17 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **9:45 - 10:30**   | [Advanced Variables](wednesday/advanced_variables.md) |
 | **11:00 - 5:00***  | [FarMarFinder](resources/farmarfinder.md) Project Time       |
 
-*Take an hour lunch at any time
-
 ### Thursday
-#### All Day
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:30**   | [Blocks quiz](https://canvas.instructure.com/courses/819456/quizzes/872369) |
+|**9:00 - 9:30**      | [Blocks quiz](https://canvas.instructure.com/courses/819456/quizzes/872369) |
 | **9:30 - 9:45**   | Stand Up            |
 | **10:30 - 1:30*** | [FarMarFinder](resources/farmarfinder.md) Project Time        |
 | **1:30 - 2:30**   | [RSpec](thursday/rspec.md)               |
 | **2:30 - 5:00**   | [FarMarFinder](resources/farmarfinder.md) Project Time        |
 
-*Take an hour lunch at any time
-
-
 ### Friday
-
-#### All Day
 
 | Time              | Topic             |
 |:-----------------:|:------------------|
@@ -88,5 +73,3 @@ CSV Projects must be completed and pushed to Github by 5pm.
 
 - pgs. 139-149 (Modules, Namespaces, and Mix-Ins)
 - pgs. 228-246 (Relational Databases and SQL)
-
-*Take an hour lunch at any time
