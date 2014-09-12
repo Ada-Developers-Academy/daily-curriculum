@@ -20,9 +20,6 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 | Time              | Topic                        |
 |:-----------------:|:-----------------------------|
-| **9:15 - 9:30**   | Standup                      |
-| **9:30 - 9:50**   | Week 2 Recap                 |
-| **9:50 - 10:30**  | [Classes without attr_accessor](monday/book.md)|
 | **10:30 - 12:00** | [Reading from CSV](monday/csv_database.md)                |
 
 
@@ -91,9 +88,9 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **10:30 - 5:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time      |
 
 
-CSV Projects must be completed and pushed to Github by 5pm. 
+CSV Projects must be completed and pushed to Github by 5pm.
 
-**Homework**: Reading Beginning Ruby: 
+**Homework**: Reading Beginning Ruby:
 
 - pgs. 139-149 (Modules, Namespaces, and Mix-Ins)
 - pgs. 228-246 (Relational Databases and SQL)
