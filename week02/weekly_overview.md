@@ -42,35 +42,31 @@ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 
 | Time              | Topic                    |
 |:------------------|:-------------------------|
-| **9:30 - 10:30**  | [Dates and Times](/tuesday/date-time.md)              |
-| **10:30 - 11:30** | [Object Inheritance](thursday/inheritance.md) |
-| **12:30 - 5:00**   | [Baby Dragon Project](tuesday/baby_dragon.md) from L2P |
+| **9:00 - 9:30**  | [Introducing Gems](wednesday/introducing-gems.md)              |
+| **9:30 - 12:00**  | Week 1 & 2 Recap|
+| **9:30 - 5:00**  | [Hangman](wednesday/hangman.md) or [MasterMind](wednesday/mastermind.md)|
 
+### Thursday
+| Time              | Topic              |
+|:------------------|:-------------------|
+| **9:00 - 10:30**  | Week 1 & 2 Recap|
+| **10:30 - 12:00**  | Live Code Hangman |
+| **1:00 - 5:00**  | [Hangman](wednesday/hangman.md) or [MasterMind](wednesday/mastermind.md)|
+
+### Friday
+| Time                 | Topic                                          |
+|:---------------------|:----------------------------------------------:|
+| **9:15 - 10:00**    | Live Code a Class |
+| **10:00 - 10:30**   | Installing Koans |
+| **10:30 - 11:30**   | [Assertions](friday/assert.md) |
+| **11:30 - 12:30**   | [Ruby Koans](friday/koans.md) |
+| **12:30 - 1:30**    | Lunch |
+| **1:30 - 2:30**     | [Ruby Koans](friday/koans.md) |
+| **2:30 - 3:30**     | Inheritance |
+| **3:30 - 5:00**     | Project Time |
 
 **Homework**
 
 Read about assertions:
 
 [Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
-
-### Thursday
-| Time              | Topic              |
-|:------------------|:-------------------|
-| **2:00 - 3:00**   | [Assertions](thursday/assert.md) |
-| **3:00 - 5:00**   | [Ruby Koans](thursday/koans.md) |
-
-**Homework**
-
-Read the following and bring questions.
-
-[Game Architecture](http://gameprogrammingpatterns.com/architecture-performance-and-games.html)
-[The Game Loop](http://gameprogrammingpatterns.com/game-loop.html)
-
-### Friday
-| Time              | Topic                                          |
-|:------------------|:----------------------------------------------:|
-| **9:30 - 10:00**  | [More Koans](friday/koans.md) |
-| **10:00 - 10:30** | Reading Review and Game Loop Quiz
-| **10:30 - 12:00** | [Game Basics and Gosu](friday/games.md) |
-| **12:00 - 1:00**  | Lunch |
-| **1:00 - 5:00**   | [Gosu Project](friday/gosu.md) |
