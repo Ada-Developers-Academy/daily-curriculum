@@ -33,7 +33,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | Time              | Topic             |
 |:-----------------:|:------------------|
 | **9:00 - 9:20** | [Hash Quiz](https://canvas.instructure.com/courses/881804/quizzes/1047542)|
-| **9:30 - 10:30**   | [RSpec](thursday/rspec.md)               |
+| **9:30 - 10:30**   | [RSpec](tuesday/rspec.md)               |
 | **10:30 - 11:30**  | [Enumerable Methods](thursday/enumerable.md)   |
 | **11:30 - 12:00**| [FarMarFinder](resources/farmarfinder.md) Q&A |
 | **1:00 - 5:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time      |
