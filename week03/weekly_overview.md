@@ -19,11 +19,11 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 | Time              | Topic                        |
 |:-----------------:|:-----------------------------|
-| **9:00 - 9:30** | [Reading from CSV](monday/csv_database.md)                |
-| **9:30 - 10:30**  | [Enumerable Methods](monday/enumerable.md)   |
-| **10:30 - 11:30**   | [CSV Quiz](https://canvas.instructure.com/courses/881804/quizzes/1047539)|
-| **11:30 - 12:00**   | Pairing                |
-| **12:00 - 12:30**   | CSV Project Intro ([FarMarFinder](resources/farmarfinder.md))      |
+| **9:15 - 9:30**   | Pairing                |
+| **9:30 - 10:00** | [Reading from CSV](monday/csv_database.md)                |
+| **10:00 - 11:00**  | [Enumerable Methods](monday/enumerable.md)   |
+| **11:00 - 11:30**   | [CSV Quiz](https://canvas.instructure.com/courses/881804/quizzes/1047539)|
+| **11:30 - 12:30**   | CSV Project Intro ([FarMarFinder](resources/farmarfinder.md))      |
 | **1:30 - 2:30**   | Syncing project via Github: [Getting Started on Far Mar Finder](resources/farmarfinder.md)   |
 | **2:30 - 5:00**   | [FarMarFinder](resources/farmarfinder.md) Project Time                 |
 
