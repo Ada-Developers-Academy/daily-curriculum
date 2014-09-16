@@ -37,6 +37,28 @@ RSpec files are generally made up of 2 major elements `describe` blocks and `it`
 
 Within the `it` block is where we should define a specific test
 
+### Calculator
+
+```bash
+mkdir lib
+mkdir spec
+mkdir spec/lib
+touch lib/calculator.rb
+touch spec/lib/calculator_spec.rb
+```
+
+```ruby
+require './lib/calculator'
+
+describe Calculator do
+  describe "#add" do
+    it "returns the sum" do
+      # Tests go here
+    end
+  end
+end
+```
+
 ### FarMar Coverage
 
     gem install simplecov
