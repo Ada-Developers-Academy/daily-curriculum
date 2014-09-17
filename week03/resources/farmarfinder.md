@@ -141,7 +141,7 @@ Bronze
 **Additional FarMar::Product Methods**
 
 - `vendor` - returns the `FarMar::Vendor` instance that is associated with this vendor using the `FarMar::Product` `vendor_id` field
-- `sales` - returns a collection of `FarMar::Sale` instances that are associated with market using the `FarMar::Sale` `product_id` field.
+- `sales` - returns a collection of `FarMar::Sale` instances that are associated using the `FarMar::Sale` `product_id` field.
 - `number_of_sales` - returns the number of times this product has been sold.
 - `self.by_vendor(vendor_id)` - returns all of the products with the given `vendor_id`
 
