@@ -1,11 +1,14 @@
 # FarMar Finder
 
+## Authors
+- Bookis Smuin
+
 In this assignment we will be creating an application to look up Farmers Markets and their related vendors, products, and sales. We will use CSV files as our database.
 
 ### Getting Started
 
 1. Pair up!
-2. The individual closest to the center of the room will fork the repo: [https://github.com/Ada-Developers-Academy/far_mar_finder)
+2. The individual closest to the center of the room will fork the repo: [https://github.com/Ada-Developers-Academy/far_mar](https://github.com/Ada-Developers-Academy/far_mar)
 3. Add the second individual as a collaborator
 4. Both individuals will clone the repo `git clone [YOUR FORKED REPO URL]`
 5. Both individuals cd into the dir created `cd far_mar`
@@ -130,8 +133,8 @@ Bronze
 **Additional FarMar::Vendor Methods**
 
 - `market` - returns the `FarMar::Market` instance that is associated with this vendor using the `FarMar::Vendor` `market_id` field
-- `products` - returns a collection of `FarMar::Product` instances that are associated with market by the `FarMar::Product` `vendor_id` field.
-- `sales` - returns a collection of `FarMar::Sale` instances that are associated with market by the `vendor_id` field.
+- `products` - returns a collection of `FarMar::Product` instances that are associated by the `FarMar::Product` `vendor_id` field.
+- `sales` - returns a collection of `FarMar::Sale` instances that are associated by the `vendor_id` field.
 - `revenue` - returns the the sum of all of the vendor's sales (in cents)
 - `self.by_market(market_id)` - returns all of the vendors with the given `market_id`
 
