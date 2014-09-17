@@ -60,6 +60,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **9:30 - 10:00**  | Quiz Recap        |
 | **10:00 - 10:30** | Project Recap     |
 | **10:30 - 5:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time      |
+| **4:00 - 5:00*** | Retro |
 
 
 CSV Projects must be completed and pushed to Github by 5pm.
