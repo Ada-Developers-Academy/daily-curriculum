@@ -41,7 +41,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 | Time               | Topic               |
 |:------------------:|:--------------------|
-| **9:00 - 9:30**    |[Methods quiz](https://canvas.instructure.com/courses/819456/quizzes/871919)|
+| **9:00 - 9:30**    | Koans |
 | **9:35 - 11:00**   | [Advanced Variables](wednesday/advanced_variables.md) |
 | **11:00 - 5:00***  | [FarMarFinder](resources/farmarfinder.md) Project Time       |
 
@@ -49,7 +49,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:30**   | [Blocks quiz](https://canvas.instructure.com/courses/819456/quizzes/872369) |
+| **9:00 - 9:30**   | Koans |
 | **9:30 - 5:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time        |
 
 ### Friday
