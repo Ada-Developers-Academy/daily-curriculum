@@ -56,12 +56,13 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 | Time              | Topic             |
 |:-----------------:|:------------------|
-| **9:00 - 9:30**   | [Ruby method cycle quiz](https://canvas.instructure.com/courses/819456/quizzes/873039)|
-| **9:30 - 10:00**  | Quiz Recap        |
-| **10:00 - 10:30** | Project Recap     |
-| **10:30 - 5:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time      |
+| **9:00 - 9:30**   | Koans|
+| **9:30 - 10:00** | Self |
+| **10:00 - 10:30** | [Memoization](friday/memoization.md) |
+| **10:40 - 11:00** | [Rubocop](friday/rubocop.md) |
+| **11:00 - 11:15** | SimpleCov |
+| **11:15 - 4:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time  |
 | **4:00 - 5:00*** | Retro |
-
 
 CSV Projects must be completed and pushed to Github by 5pm.
 
