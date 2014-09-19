@@ -64,8 +64,6 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **11:15 - 4:00*** | [FarMarFinder](resources/farmarfinder.md) Project Time  |
 | **4:00 - 5:00*** | Retro |
 
-CSV Projects must be completed and pushed to Github by 5pm.
-
 **Homework**: Reading Beginning Ruby:
 
 - pgs. 139-149 (Modules, Namespaces, and Mix-Ins)
