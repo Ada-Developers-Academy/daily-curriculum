@@ -1,6 +1,7 @@
 # Memoization
 
 Memoization is an optimization technique used to store the result of expensive (slow) method calls for later re-use. This allows us to avoid repeatedly performing an expensive calculation when the result has already been calculated once.
+
 ```ruby
 class EnourmousSuperComputer
 
