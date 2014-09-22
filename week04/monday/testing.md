@@ -66,5 +66,7 @@ We'll go back to FizzBuzz, but this time we'll build it up piece by piece. Let's
 
 So, let's figure out the rules for a #fizzbuzz_of function using TDD steps.
 
-rspec
------
+Resources
+----------
+[Rspec Cheat Sheet](https://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf)
+[Rspec docs](https://www.relishapp.com/rspec)
