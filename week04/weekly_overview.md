@@ -30,8 +30,8 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | Time               | Topic                           |
 |:------------------:|:-------------------------------:|
 | **9:00 - 9:45**    | Morning Warmup -- [Word Count](resources/word_count/README.md) |
-| **9:50 - 12:30**  | [Rspec](https://github.com/Ada-Developers-Academy/ada-hacking) -- *[notes](monday/sam_notes.md)* |
-| **1:30 - 5:00*** | Project -- [Poker Dice](https://github.com/Ada-Developers-Academy/ada-hacking/tree/master/poker-dice) |
+| **9:50 - 12:30**  | [Scrabble](monday/scrabble.md) |
+| **1:30 - 5:00*** | Peak Assignment |
 
 ### Wednesday
 
