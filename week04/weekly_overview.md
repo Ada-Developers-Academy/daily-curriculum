@@ -22,7 +22,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | **9:00 - 10:00**   | Koans                            |
 | **10:00 - 12:00**   | CS Fundementals                 |
 | **1:30 - 2:30*** | [FizzBuzz Testing](monday/testing.md)                  |
-| **1:00 - 5:00*** | [Scrabble](monday/scrabble.md)                       |
+| **2:30 - 5:00*** | [Scrabble](monday/scrabble.md)                       |
 
 
 ### Tuesday
