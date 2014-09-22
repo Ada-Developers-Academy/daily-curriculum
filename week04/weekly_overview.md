@@ -19,8 +19,8 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 | Time              | Topic                              |
 |:-----------------:|:----------------------------------:|
-| **9:00 - 10:00**   | Koans                       |
-| **10:00 - 12:00**   | CS Fundementals                       |
+| **9:00 - 10:00**   | Koans                            |
+| **10:00 - 12:00**   | CS Fundementals                 |
 | **1:00 - 5:00*** | Project Time                       |
 
 

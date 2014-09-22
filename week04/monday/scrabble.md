@@ -1,6 +1,6 @@
 # Scrabble
 
-Use TDD to create two classes that would be used to build a scrabble game (don't actually build a interactive game (yet))
+Use TDD to create classes that would be used to build a scrabble game (don't actually build a interactive game (yet))
 
 |Letter                        | Value|
 |:----------------------------:|:----:|
