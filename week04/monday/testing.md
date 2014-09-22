@@ -65,3 +65,6 @@ FizzBuzz w/TDD
 We'll go back to FizzBuzz, but this time we'll build it up piece by piece. Let's start at the beginning: we want a series of numbers from 1 to 100, but those numbers may be transformed into some other set of values according to a set of rules. Not to lay too much math on you, but this sounds a lot like the definition of a function.
 
 So, let's figure out the rules for a #fizzbuzz_of function using TDD steps.
+
+rspec
+-----

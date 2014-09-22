@@ -21,7 +21,8 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 |:-----------------:|:----------------------------------:|
 | **9:00 - 10:00**   | Koans                            |
 | **10:00 - 12:00**   | CS Fundementals                 |
-| **1:00 - 5:00*** | Project Time                       |
+| **1:30 - 2:30*** | [FizzBuzz Testing](monday/testing.md)                  |
+| **1:00 - 5:00*** | [Scrabble](monday/scrabble.md)                       |
 
 
 ### Tuesday
@@ -36,8 +37,8 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 | Time              | Topic                                              |
 |:-----------------:|:--------------------------------------------------:|
-| **11:30 - 4:00*** | [Sinatra Practice](friday/sinatra-practice-overview.md) |
-| **9:00 - 10:00** | [Intro to HTTP, Clients, & Servers](wednesday/lecture_networking) |
+| **9:00 - 11:00*** | [Sinatra Practice](friday/sinatra-practice-overview.md) |
+| **11:00 - 12:00** | [Intro to HTTP, Clients, & Servers](wednesday/lecture_networking) |
 | **10:00 - 11:00**   | [Status Codes, DSLs, Routes](wednesday/lecture_networking) |
 | **11:00 - 5:00**   | Project Time - Sinatra Blog |
 
