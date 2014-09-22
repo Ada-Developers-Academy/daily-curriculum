@@ -24,6 +24,9 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | **1:30 - 2:30*** | [FizzBuzz Testing](monday/testing.md)                  |
 | **2:30 - 5:00*** | [Scrabble](monday/scrabble.md)                       |
 
+**Homework**
+
+Read about rspec best practices: http://betterspecs.org/
 
 ### Tuesday
 
