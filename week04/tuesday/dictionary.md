@@ -31,7 +31,7 @@ its words at any time.
 
 #### Hash backed `Dictionary` class
 
-Build a Dictionary class that stores all the words from words.rb and
+Build a Dictionary class that stores all the words from words.rb in a hash and
 has a method to check whether or not a given word is valid. Use BDD
 (write specs) to check your import (total words should match) and 
 your word checking method.
