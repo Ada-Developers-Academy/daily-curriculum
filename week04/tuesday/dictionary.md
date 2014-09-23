@@ -16,7 +16,7 @@ The Words class has two limitations:
   each instance returns the words in the same order, this is not a
   guaranteed part of its interface).
 
-- The Words class cannot be rewound, that is, once we call
+- The Words class cannot be rewound. That is: once we call
   ```w.next_word``` we can either keep calling it until we've gotten
   all the words out, or we have to start over from the beginning with
   a new instance
