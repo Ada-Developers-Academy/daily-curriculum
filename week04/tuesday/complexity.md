@@ -23,14 +23,14 @@ behavior for large values of n. The smaller the y value when x is
 large, the more efficient the algorithm.
 
 Here are the complexities you should be familiar with:
-- O(n!)
-- O(2^n)
-- O(n^3)
-- O(n^2)
-- O(n * lg(n))
-- O(n)
-- O(lg(n))
-- O(1)
+- O(n!) - Factorial
+- O(2^n) - Exponential
+- O(n^3) - Cubic
+- O(n^2) - Quadratic
+- O(n * lg(n)) - Linearithmic
+- O(n) - Linear
+- O(lg(n)) - Logarithmic
+- O(1) - Constant
 
 ### Examples
 
@@ -45,3 +45,5 @@ Same as above, but we get to ignore constants. O(n^2)
 3. 0.2 * n + lg(n)
 
 We can ignore the constant, and n is bigger than lg(n). O(n)
+
+[More Time Complexity](http://en.wikipedia.org/wiki/Time_complexity)
