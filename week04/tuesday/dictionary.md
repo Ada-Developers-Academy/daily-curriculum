@@ -1,6 +1,6 @@
 # Scrabble Dictionary
 
-In the dictionary folder is a Words which can be used via the following interface:
+In the dictionary folder is a Words class which can be used via the following interface:
 
 ```ruby
 require 'words'
@@ -16,7 +16,7 @@ The Words class has two limitations:
   each instance returns the words in the same order, this is not a
   guaranteed part of its interface).
 
-- The Words class cannot be rewound, that is, once we call
+- The Words class cannot be rewound. That is: once we call
   ```w.next_word``` we can either keep calling it until we've gotten
   all the words out, or we have to start over from the beginning with
   a new instance
@@ -31,7 +31,7 @@ its words at any time.
 
 #### Hash backed `Dictionary` class
 
-Build a Dictionary class that stores all the words from words.rb and
+Build a Dictionary class that stores all the words from words.rb in a hash and
 has a method to check whether or not a given word is valid. Use BDD
 (write specs) to check your import (total words should match) and 
 your word checking method.
