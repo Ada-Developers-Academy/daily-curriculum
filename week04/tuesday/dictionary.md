@@ -1,6 +1,6 @@
 # Scrabble Dictionary
 
-In the dictionary folder is a Words which can be used via the following interface:
+In the dictionary folder is a Words class which can be used via the following interface:
 
 ```ruby
 require 'words'
