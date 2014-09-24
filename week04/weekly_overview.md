@@ -40,7 +40,7 @@ Read about rspec best practices: http://betterspecs.org/
 
 | Time              | Topic                                              |
 |:-----------------:|:--------------------------------------------------:|
-| **9:00 - 11:00*** | [Sinatra Practice](friday/sinatra-practice-overview.md) |
+| **9:00 - 11:00*** | [Sinatra Practice](friday/sinatra-practice.md) |
 | **11:00 - 12:00** | [Intro to HTTP, Clients, & Servers](wednesday/networking.md) |
 | **1:00 - 5:00**   | Project Time - Sinatra Blog |
 
