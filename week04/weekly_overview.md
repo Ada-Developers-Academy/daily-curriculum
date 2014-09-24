@@ -42,7 +42,7 @@ Read about rspec best practices: http://betterspecs.org/
 |:-----------------:|:--------------------------------------------------:|
 | **9:00 - 11:00*** | [Sinatra Practice](friday/sinatra-practice.md) |
 | **11:00 - 12:00** | [Intro to HTTP, Clients, & Servers](wednesday/networking.md) |
-| **1:00 - 5:00**   | Project Time - Sinatra Blog |
+| **1:00 - 5:00**   | [Sinatra Blog](wednesday/sinatra-blog.md) |
 
 \* Take an hour lunch at any time
 
@@ -62,7 +62,7 @@ Read about rspec best practices: http://betterspecs.org/
 
 | Time              | Topic                                                   |
 |:-----------------:|:-------------------------------------------------------:|
-| **9:00 - 1:00**   | Project Time - Sinatra Blog |
+| **9:00 - 1:00**   | [Sinatra Blog](wednesday/sinatra-blog.md) |
 | **2:00 - 4:00*** |  Regular Expressions with Nell |
 | **4:00 - 5:00**   | Week in Review                                          |
 
