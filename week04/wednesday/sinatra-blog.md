@@ -11,7 +11,7 @@ Bronze
 
 Silver
 ------
-- Create a ruby class to read your `/views/posts` files
+- Create a ruby class in `/lib` to read your `/views/posts` files
 - Dynamically display a link to each file within `/views/posts` on your homepage
 
 Gold
@@ -25,3 +25,8 @@ Platinum
 --------
 - Display the content of the most recent 5 blogs posts on the homepage
 - Create pagination (pages), allowing the reader to view then next 5 most recent blog posts.
+
+# Resources
+
+[Learn HTML](http://htmldog.com/guides/html/beginner/tags/)
+[Learn CSS](http://www.htmldog.com/guides/css/beginner/)
