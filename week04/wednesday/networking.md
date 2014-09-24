@@ -29,7 +29,10 @@ Request
 GET / HTTP/1.1
 User-Agent: curl/7.30.0
 Host: localhost:8080
+Content-Length: 6
 Accept: */*
+
+bookis
 ```
 
 Response
@@ -43,3 +46,18 @@ Connection: Keep-Alive
 
 A barebones rack app
 ```
+
+Web Server
+----------
+
+The webserver is a running process on the server which monitors incoming HTTP requests
+and respond with an HTTP response. In simpler times the web server would simply locate
+an HTML file then read and return the contents. Remember when websites commonly had .html
+at the end of the URL?
+
+For our purposes we won't be using statically saved HTML files, but we'll use ruby
+to generate the HTML content dynamically each time a request is made.
+
+A webserver interfaces your application with incoming HTTP requests on the server.
+
+![Web server](networking/webserver.png)
