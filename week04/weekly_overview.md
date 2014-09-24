@@ -20,7 +20,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | Time              | Topic                              |
 |:-----------------:|:----------------------------------:|
 | **9:00 - 10:00**   | Koans                            |
-| **10:00 - 12:00**   | CS Fundementals                 |
+| **10:00 - 12:00**   | [CS Fundementals](monday/complexity.md)                |
 | **1:30 - 2:30*** | [FizzBuzz Testing](monday/testing.md)                  |
 | **2:30 - 5:00*** | [Scrabble](monday/scrabble.md)                       |
 
@@ -34,7 +34,7 @@ Read about rspec best practices: http://betterspecs.org/
 |:------------------:|:-------------------------------:|
 | **9:00 - 9:45**    | Morning Warmup -- [Word Count](resources/word_count/README.md) |
 | **9:50 - 12:30**  | [Scrabble](monday/scrabble.md) |
-| **1:30 - 5:00*** | Peak Assignment |
+| **1:30 - 5:00*** | [Dictionary](tuesday/dictionary.md) |
 
 ### Wednesday
 
