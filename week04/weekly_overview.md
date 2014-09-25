@@ -51,7 +51,7 @@ Read about rspec best practices: http://betterspecs.org/
 
 | Time              | Topic                          |
 |:-----------------:|:------------------------------:|
-| **9:00 - 9:30** | [Building Hashes](/thursday/building-hashes.md)                |
+| **9:00 - 9:30** | [Building Hashes](thursday/building-hashes.md)                |
 | **9:30 - 10:30** | Sinatra Walkthrough                |
 | **10:30 - 11:30** | Views and Forms                |
 | **11:00 - 5:00**   | Project Time - Sinatra Blog |
