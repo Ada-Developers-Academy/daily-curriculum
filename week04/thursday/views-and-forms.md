@@ -41,6 +41,21 @@ Which would result in:
 
 Notice that the `.each` loop has `%>` right after the `do ||`. And several lines later there is an `end` statement inside of new erb tags.
 
+Instance Variables
+------------------
+
+The route handler (the `get` block in my_app.rb) shares a context with the view. This means that instance variables set within the route can be accessed from within the view
+
+```ruby
+get "/" do
+  @name = "Bookis"
+  @family = ["Elise", "Isaac"]
+  erb :index
+end
+```
+
+Now when the `erb` method is reading the `index.erb` file the `@name` and `@family` instance variables will be set to the same value.
+
 Assets
 ------
 

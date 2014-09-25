@@ -53,7 +53,7 @@ Read about rspec best practices: http://betterspecs.org/
 |:-----------------:|:------------------------------:|
 | **9:00 - 9:30** | [Building Hashes](thursday/building-hashes.md)                |
 | **9:30 - 10:30** | Sinatra Walkthrough                |
-| **10:30 - 11:30** | Views and Forms                |
+| **10:30 - 11:30** | [Views and Forms](thursday/views-and-forms.md) |
 | **11:00 - 5:00**   | Project Time - Sinatra Blog |
 
 \* Take an hour lunch at any time
