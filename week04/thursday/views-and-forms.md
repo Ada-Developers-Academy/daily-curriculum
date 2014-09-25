@@ -63,8 +63,8 @@ If we want to load extra resources such as images, stylesheets, or javascript Si
 
 ```bash
 mkdir public
-touch layout.css
-touch app.js
+touch public/layout.css
+touch public/app.js
 ```
 Each type of resource has a different method for including it in our html.
 

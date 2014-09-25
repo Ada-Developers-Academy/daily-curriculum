@@ -63,20 +63,13 @@ Read about rspec best practices: http://betterspecs.org/
 
 | Time              | Topic                                                   |
 |:-----------------:|:-------------------------------------------------------:|
-| **9:00 - 1:00**   | [Sinatra Blog](wednesday/sinatra-blog.md) |
-| **9:15 - 11:00**  | [Persistence Layer/DBs](friday/databases)               |
+| **10:30 - 11:30** | [Forms](thursday/views-and-forms.md) |
+| **9:00 - 2:00**   | [Sinatra Blog](wednesday/sinatra-blog.md) |
 | **2:00 - 4:00*** |  Regular Expressions with Nell |
-| **4:00 - 5:00**   | Week in Review                                          |
+| **4:00 - 5:00**   | Retro                                          |
 
-Homework:
-
-Complete the following Sinatra tutorial:
-
-  - [Overview](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week04/friday/homework_lesson_plan.md)
-  - [Lesson](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week04/friday/sinatra-practice.md)
+**Homework**:
 
 Complete the HTMLDog [Beginner HTML tutorial](http://www.htmldog.com/guides/html/beginner/)
 
 Complete the HTMLDog [Beginner CSS tutorial](http://www.htmldog.com/guides/css/beginner/)
-
-\* Take an hour lunch at any time
