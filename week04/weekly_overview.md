@@ -51,8 +51,9 @@ Read about rspec best practices: http://betterspecs.org/
 
 | Time              | Topic                          |
 |:-----------------:|:------------------------------:|
+| **9:00 - 9:30** | [Building Hashes](/thursday/building-hashes.md)                |
+| **9:30 - 10:30** | Sinatra Walkthrough                |
 | **10:30 - 11:30** | Views and Forms                |
-| **9:15 - 11:00**  | [Persistence Layer/DBs](friday/databases)               |
 | **11:00 - 5:00**   | Project Time - Sinatra Blog |
 
 \* Take an hour lunch at any time
@@ -63,6 +64,7 @@ Read about rspec best practices: http://betterspecs.org/
 | Time              | Topic                                                   |
 |:-----------------:|:-------------------------------------------------------:|
 | **9:00 - 1:00**   | [Sinatra Blog](wednesday/sinatra-blog.md) |
+| **9:15 - 11:00**  | [Persistence Layer/DBs](friday/databases)               |
 | **2:00 - 4:00*** |  Regular Expressions with Nell |
 | **4:00 - 5:00**   | Week in Review                                          |
 
