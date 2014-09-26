@@ -16,7 +16,6 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:30**   | [Warm up Quiz on Databases](https://canvas.instructure.com/courses/819456/quizzes/877377)       |
 | **9:30 - 9:45**   | Stand up            |
 | **10:00 - 11:30** | [Starting HTML](monday/starting-an-html-website.md)|
 | **11:30 - 5:00*** | [Personal Website Project](monday/personal-website-overview.md)|
@@ -38,23 +37,11 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 
 ### Wednesday
 
-#### Update
-
-Wednesday has changed a bit. Instead of working on HTML frameworks, we are now going to work through implementing a blog function within our application.
-
-The homework will now be delayed until Monday due to the added work for the week.
-
-
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| <s>**9:15 - 12:30**</s>  | <s>HTML Frameworks</s>|
-| **9:15 - 12:30**  | [Build a Blog (again!)](wednesday/build-a-blog.md)|
-| <s>**1:30 - 2:30**</s> | <s>HTML Frameworks</s> |
 | **1:30 - 2:30**   | [Submitting Forms](wednesday/submitting-forms.md)|
 | **2:30 - 5:00**   | [Personal Website Project](monday/personal-website-overview.md)        |
-
-\* Take an hour lunch at any time
 
 ### No Class Thursday & Friday. Yay!
 

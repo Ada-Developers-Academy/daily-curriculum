@@ -3,7 +3,7 @@
 - **Duration**: 3 days (then ongoing as desired)
 - **Submission**: Submit Github link on [Canvas](https://canvas.instructure.com/courses/819456/assignments/2524924)
 
-In the Personal Website project, we will be using the [Sinatra Application](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra-practice-overview.md) you built over the weekend. We will be adding HTML content and styling with CSS to the [index.erb](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra_practice/views/index.erb) page. The goal is to have a single page website to promote yourself and/or to have fun.
+In the Personal Website project, we will be using the [Sinatra Application](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra-practice-overview.md) you last week. We will be adding HTML content and styling with CSS to the [index.erb](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra_practice/views/index.erb) page. The goal is to have a personal blog to promote yourself and/or to have fun.
 
 #### After this project you will be able to:
 
@@ -39,14 +39,11 @@ This project will be graded according to:
     - Properly use **all** 6 `h` tags
     - Use a table (only for appropriate data)
     - Link to / from another HTML page
-    
-#### Extra Credit
+
+#### Platinum
 
 - `nth-child` selectors
 - CSS3 usage (rounded corners, gradients, text-manipulation, transitions, transform)
 - Media queries
 - Image sprites
 - Making your form functional in *any* way.
-
-
-

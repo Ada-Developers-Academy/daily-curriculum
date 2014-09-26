@@ -63,8 +63,7 @@ Read about rspec best practices: http://betterspecs.org/
 
 | Time              | Topic                                                   |
 |:-----------------:|:-------------------------------------------------------:|
-| **10:30 - 11:30** | [Forms](thursday/views-and-forms.md) |
-| **9:00 - 2:00**   | [Sinatra Blog](wednesday/sinatra-blog.md) |
+| **10:00 - 11:30** | [Forms](thursday/views-and-forms.md) |
 | **2:00 - 4:00*** |  Regular Expressions with Nell |
 | **4:00 - 5:00**   | Retro                                          |
 
