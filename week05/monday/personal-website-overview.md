@@ -1,9 +1,9 @@
 ## Personal Website Overview
 
 - **Duration**: 3 days (then ongoing as desired)
-- **Submission**: Submit Github link on [Canvas](https://canvas.instructure.com/courses/819456/assignments/2524924)
+- **Submission**: Your second blog post
 
-In the Personal Website project, we will be using the [Sinatra Application](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra-practice-overview.md) you last week. We will be adding HTML content and styling with CSS to the [index.erb](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra_practice/views/index.erb) page. The goal is to have a personal blog to promote yourself and/or to have fun.
+In the Personal Website project, we will be using the [Sinatra Blog](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week04/wednesday/sinatra-blog.md) you created last week. We will be adding HTML content and styling with CSS to the [layout.erb](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week4/friday/sinatra_practice/views/layout.erb) page. The goal is to have a personal blog to promote yourself and/or to have fun.
 
 #### After this project you will be able to:
 
