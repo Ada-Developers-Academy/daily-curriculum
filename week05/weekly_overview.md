@@ -25,12 +25,17 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 | **9:30 - 10:00**  | [More CSS](tuesday/more-css.md)|
 | **11:15 - 5:00** | [Personal Website Project](monday/personal-website-overview.md)                |
 
+**Homework**
+Read a little about JavaScript in _Eloquent JavaScript_:
+[Intro](http://eloquentjavascript.net/00_intro.html)
+[Values, Types, and Operators](http://eloquentjavascript.net/01_values.html)
 
 ### Wednesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:30 - 11:30**   | jQuery|
+| **9:30 - 10:30**   | [Basic JavaScript](wednesday/basic-javascript.md)|
+| **10:30 - 11:30**  | [Try jQuery](wednesday/playing-with-jquery.md)
 | **11:30 - 12:30**   | [Submitting Forms](wednesday/submitting-forms.md)|
 | **1:30 - 5:00**   | [Personal Website Project](monday/personal-website-overview.md)        |
 
