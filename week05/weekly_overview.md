@@ -19,6 +19,10 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 | **10:30 - 11:30** | [Starting HTML](monday/starting-an-html-website.md)|
 | **11:30 - 5:00*** | [Personal Website Project](monday/personal-website-overview.md)|
 
+**Homework**
+
+Read Lessons 2 & 3 of http://learn.shayhowe.com/html-css/getting-to-know-css/
+
 ### Tuesday
 
 | Time              | Topic                       |
