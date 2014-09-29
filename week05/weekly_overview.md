@@ -15,7 +15,8 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:30 - 11:30** | [Starting HTML](monday/starting-an-html-website.md)|
+| **9:30 - 10:30** | [HTML](monday/html.md)|
+| **10:30 - 11:30** | [Starting HTML](monday/starting-an-html-website.md)|
 | **11:30 - 5:00*** | [Personal Website Project](monday/personal-website-overview.md)|
 
 ### Tuesday
