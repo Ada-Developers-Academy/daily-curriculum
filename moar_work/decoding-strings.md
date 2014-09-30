@@ -1,4 +1,12 @@
+# Decoding a cryptic String
+
 Create a class that can decode the cryptic string below using the following table:
+
+```ruby
+'Hello%20%22World%22%20%2D%201%20is%20%3E0%2E'
+# => 'Hello "World" - 1 is > 0.'
+```
+
 
 | Symbol              | Code                       |
 |:-----------------:|:----------------------------|
@@ -13,7 +21,7 @@ Create a class that can decode the cryptic string below using the following tabl
 | "_" (underscore)  | %5F |
 
 
-```ruby
-'Hello%20%22World%22%20%2D%201%20is%20%3E0%2E'
-# => 'Hello "World" - 1 is > 0.'
-```
+Silver
+------
+
+Add a method to encode a normal string using all of symbols in the table.

@@ -27,6 +27,7 @@ Read Lessons 2 & 3 of http://learn.shayhowe.com/html-css/getting-to-know-css/
 
 | Time              | Topic                       |
 |:-----------------:|:----------------------------|
+| **9:00 - 9:30**  | [Warm up](/moar_work/decoding-strings.md)|
 | **9:30 - 10:00**  | [More CSS](tuesday/more-css.md)|
 | **10:00 - 12:00**  | Live Code CSS |
 | **12:00 - 5:00** | [Personal Website Project](monday/personal-website-overview.md)                |
