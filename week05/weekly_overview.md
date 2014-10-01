@@ -50,7 +50,8 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:30 - 11:00** | [HTML Accessibility](https://github.com/dpersing/ada-a11y-intro/blob/master/a11y-presentation.md) w/Devon  |
+| **9:00 - 9:30** | Koans  |
+| **9:30 - 11:00** | ??? (students choice)  |
 | **11:00 - 5:00**   | [Personal Website Project](monday/personal-website-overview.md)        |
 
 ### No Friday. Yay!
