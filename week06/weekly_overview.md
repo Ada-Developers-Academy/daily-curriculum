@@ -17,8 +17,8 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | **9:00 - 10:00**  | Blog Presentations                            |
 | **10:00 - 10:30**  | Agile          |
 | **10:40 - 12:00**  | Setting up Rails (RVM, .gitignore, file structure, command line tools, install pg)             |
-| **1:00 - 2:00** | Designing a Project                          |
-| **4:00 - 5:00** | Database                          |
+| **1:00 - 2:30** | [Running Rails & HTTP](monday/rails.md) |
+| **2:30 - 3:30** | Database                          |
 
 #### Homework
 RoRT:
@@ -33,8 +33,9 @@ RoRT:
 | **9:05 - 10:30** | [Introduction to Rails](monday/rails.md) |
 | **10:45 - 12:00**   | [ActiveRecord](monday/active_record.md)  |
 | **1:00 - 2:00** | Model Relationships        |
+| **2:00 - 3:00** | params & session                          |
 | **2:00 - 2:15** | Stand Up        |
-| **2:15 - 5:00** | FarMar Project        |
+| **2:15 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
 
 
@@ -45,7 +46,7 @@ RoRT:
 | **9:00 - 9:30**   | [Code Warmup -- Greed Dice](resources/greed/README.md) |
 | **9:40 - 11:00**  | MVC and migrations          |
 | **11:00 - 11:15** | Stand Up        |
-| **11:00 - 5:00** | FarMar Project        |
+| **11:00 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
 
 ### Thursday
@@ -55,7 +56,7 @@ RoRT:
 | **9:00 - 9:30**   | [Code Warmup - Planetary Age](thursday/planetary_age.md) |
 | **9:30 - 11:00**   | Rails Recap                                  |
 | **11:00 - 11:15**   | Standup                                  |
-| **11:15 - 5:00** | FarMar Project        |
+| **11:15 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
 
 #### Homework
@@ -69,7 +70,7 @@ RoRT:
 |:-----------------:|:----------------------------------------:|
 | **9:45 - 11:00**  | [Forms](friday/submitting-forms.md)      |
 | **11:00 - 11:15**   | Stand Up                                 |
-| **11:15 - 5:00*** | Project Time - [Ada Cooks](ada_cooks.md) |
+| **11:15 - 5:00*** | [FarMar Project](far-mar-rails.md) |
 
 Homework:
 

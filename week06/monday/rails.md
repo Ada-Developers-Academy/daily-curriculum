@@ -1,4 +1,47 @@
 !SLIDE text-size-90 title-and-content transition=fade
+# Notes
+
+- `rails new farmar-rails -T -d postgresql`
+    - `-T` excludes the default test framework (always use this, even if using rspec)
+    - `-d postgresql` specifies to use the postgresql database
+
+- bundle install
+- rake db:create
+- git init
+- git commit
+- Create a Controller
+- Create a Route
+- Define an action
+- Create a view dir
+- Create a index file
+- Fill file with content
+- Look at application.html.erb
+- git commit
+- Remove turbo links. Why?
+    - Gemfile
+    - application.html.erb (two places)
+    - application.js
+- bundle install (because we removed something from Gemfile)
+- git commit
+- Create a Vendor model
+- rake db:migrate, why?
+- Look at model class
+- Create a object in console
+- Add all vendors in index
+- Create a new
+- Add a form
+- Create a create action
+- Redirect to index
+- Sign in
+
+
+Vendor
+------
+- Name
+- Email
+- Phone
+- Description
+- Image URL
 
 Introduction to Rails
 =====================
@@ -98,6 +141,3 @@ Build a small, stateless (no DB) Rails application:
 + Calculator
 + Wizard Sorting Hat
 + Hamming distance
-
-
-
