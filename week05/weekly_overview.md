@@ -42,8 +42,7 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:30 - 10:30**   | [Basic JavaScript](wednesday/basic-javascript.md)|
-| **10:30 - 11:30**  | [Try jQuery](wednesday/playing-with-jquery.md)
-| **11:30 - 12:30**   | [Submitting Forms](wednesday/submitting-forms.md)|
+| **10:30 - 12:30**  | [Try jQuery](wednesday/playing-with-jquery.md)
 | **1:30 - 5:00**   | [Personal Website Project](monday/personal-website-overview.md)        |
 
 

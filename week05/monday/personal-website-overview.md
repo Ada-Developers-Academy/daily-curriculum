@@ -40,6 +40,13 @@ This project will be graded according to:
     - Use a table (only for appropriate data)
     - Link to / from another HTML page
 
+#### Silver
+
+- Implement JS/jQuery
+   - show/hide an HTML element using a click event.
+   - Change CSS using a click event.
+   - Change the document structure using javascript
+
 #### Platinum
 
 - `nth-child` selectors
