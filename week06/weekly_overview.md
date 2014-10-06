@@ -15,8 +15,8 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | Time              | Topic                                    |
 |:-----------------:|:----------------------------------------:|
 | **9:00 - 10:00**  | Blog Presentations                            |
-| **10:00 - 10:30**  | Agile          |
-| **10:40 - 12:00**  | Setting up Rails (RVM, .gitignore, file structure, command line tools, install pg)             |
+| **10:00 - 10:30**  | [Agile](monday/agile.md)          |
+| **10:40 - 12:00**  | [Setting up Rails](monday/setting-up-rails.md)|
 | **1:00 - 2:30** | [Running Rails & HTTP](monday/rails.md) |
 | **2:30 - 3:30** | Database                          |
 
