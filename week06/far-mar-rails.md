@@ -10,7 +10,7 @@ This project is mean to be exploratory. Take time to try to dive into each piece
 ## Requirements
 However far you and your partner get, the application should have, at a minimum, the following features:
 
-- Multiple Active Record models, with at least one "has_many through" relationship (Recipes <-> Ingredients for example)
+- Multiple Active Record models.
 - Push the application to Heroku
 - A "look and feel" that will make happy!
 
