@@ -32,9 +32,10 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | **9:00 - 10:15**   | [ActiveRecord](tuesday/active_record.md)  |
 | **10:25 - 11:30** | [Model Relationships](tuesday/active-record-relationships.md)        |
 | **11:30 - 12:00**   | [ActiveRecord Practice](tuesday/active-record-practice.md)  |
-| **1:00 - 2:00** | params & session                          |
-| **2:00 - 2:15** | Stand Up        |
-| **2:15 - 5:00** | [FarMar Project](far-mar-rails.md)        |
+| **1:30 - 2:00** | [params & session](tuesday/params-and-session.md)                          |
+| **2:00 - 2:30** | Project Planning        |
+| **2:30 - 2:35** | Stand Up        |
+| **2:35 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
 **Homework**
 
