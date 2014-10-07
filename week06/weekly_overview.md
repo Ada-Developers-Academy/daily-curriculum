@@ -36,7 +36,11 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | **2:00 - 2:15** | Stand Up        |
 | **2:15 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
+**Homework**
 
+- Complete one trello task. Before leaving class clearly define tasks that can be completed which are not dependent on each other (front end, back end).
+- Push the change to github.
+- If the push is rejected, it means your partner has pushed first, you need to pull first then retry the push.
 
 ### Wednesday
 
