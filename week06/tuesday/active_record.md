@@ -17,20 +17,6 @@ end
 
 To work with a database, we have to manually set up the connection. Something like this, perhaps?
 
-```ruby
-class Student
-  require 'sequel'
-
-  def initialize
-    @db = Sequel.connect('sqlite://todo.db')
-  end
-
-  def self.all
-    @todoings = @db[:todoings]
-  end
-end
-```
-What are some problems with this approach?
 
 Generating New AR Models
 ========================
@@ -147,7 +133,40 @@ Student.where(class: "Fall 2013").order(birthday:  :desc)
 
 This finds all the records in our students table *where* class is "Fall 2013" and *orders* them by their birthdays, from youngest to newest (descending).
 
+Using Multiple Primary Keys
 
+```ruby
+Student.find([1,2]) # This will return an array with two students
+```
+
+Array Conditions
+
+```ruby
+Student.where("name = ?", "Sally")
+```
+
+Placeholder Conditions
+```ruby
+Student.where("name = :name AND class = :class", name: "Sally", class: "Fall 2013")
+```
+
+Hash Conditions
+```ruby
+Student.where(name: "Sally", class: "Fall 2013")
+```
+
+Not
+```ruby
+Student.where.not(name: "Sally")
+```
+
+Ordering
+```ruby
+Student.where(class: "Fall 2013").order(name: :asc)
+```
+
+There are many more querying methods within active record, see the [Rails guide](http://guides.rubyonrails.org/active_record_querying.html)
+for more.
 What's it doing?
 ================
 
