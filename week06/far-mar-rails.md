@@ -28,7 +28,7 @@ Bronze
 - As a guest, when I visit "/", I can sign up/in as a new Vendor (without authentication)
 - As a vendor, I can create or edit a Market
 - As a vendor, I can create, edit, or delete my Products
-- As a vendor, I can create, edit, or delete my Vendors
+- As a vendor, I can create, edit, or delete my Vendor
 
 Silver
 --------
