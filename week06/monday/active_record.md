@@ -1,12 +1,8 @@
-!SLIDE title-and-content transition=fade
-
 Active Record
 =============
 
 Active Record is an  **Object Relational Mapping** technique. It is used to abstract and simplify the connection between your code and a database.
 
-
-!SLIDE title-and-content transition=fade
 
 Active Record Models
 ====================
@@ -18,11 +14,6 @@ class Student
 
 end
 ```
-
-!SLIDE title-and-content text-size-80 transition=fade
-
-Active Record Models
-====================
 
 To work with a database, we have to manually set up the connection. Something like this, perhaps?
 
@@ -41,9 +32,6 @@ end
 ```
 What are some problems with this approach?
 
-
-!SLIDE title-and-content text-size-90 transition=fade
-
 Generating New AR Models
 ========================
 Active Record can set up the connections for us!
@@ -52,8 +40,16 @@ Active Record can set up the connections for us!
 $ rails generate model student name:string class:string birthday:datetime
 </pre>
 
-
-!SLIDE title-and-content text-size-80 transition=fade
+Naming Conventions
+------------------
+|Model / Class (singular) |	Table / Schema (plural)| Filename (singular) |
+|:------------:|:--------------:|:------:|
+| Post	       | posts | post.rb|
+|LineItem	|line_items| line_item.rb|
+|Deer |	deers| deer.rb|
+|Mouse |	mice| mouse.rb|
+|Medium |	media| medium.rb|
+|Person |	people| person.rb |
 
 Active Record Models
 ====================
@@ -64,27 +60,56 @@ class Student << ActiveRecord::Base
 end
 ```
 
-This will create a Student model, mapped to a students table at the database. By doing this you'll also have the ability to map the columns of each row in that table with the attributes of the instances of your model. 
-
-!SLIDE title-and-content text-size-80 transition=fade
+This will create a Student model, mapped to a students table at the database. By doing this you'll also have the ability to map the columns of each row in that table with the attributes of the instances of your model.
 
 Active Record Migrations
 ========================
 
-First let's talk briefly about migrations.
+You can think of each migration as being a new 'version' of the database.
+A schema starts off with nothing in it, and each migration modifies it to add or remove tables, columns, or entries.
 
+```bash
+rake db:migrate
+```
 
-!SLIDE title-and-content text-size-80 transition=fade
+To create a migration without a model (most commonly in the case of modifying or deleting a table)
 
-Active Record Migrations
-========================
+```bash
+rails generate migration add_author_name_to_posts
+```
 
-<pre>
-$ rake db:migrate
-</pre>
+This will generate a file within the migrate directory, it will be named something like:
 
+```
+20141007001749_add_author_name_to_posts.rb
+```
+Open that file:
 
-!SLIDE title-and-content transition=fade
+```ruby
+class AddAuthorNameToPosts < ActiveRecord::Migration
+  def change
+  end
+end
+```
+
+Commands to make changes to the database structure go within the `change` method. Some potential methods to make modifications are:
+
+- `create_table(table_name)` - Creates a new table in the database, this is the command that the `Post` migration used.
+- `add_column(table_name, column_name, data_type, options)` adds a column to the given table.
+- `remove_column(table_name, column_name)` removes a column from the given table.
+- `change_column(table_name, column_name, new_data_type)` - changes a column from one data type to another.
+
+To complete the above migration we would want to use the `add_column` method
+
+```ruby
+class AddAuthorNameToPosts < ActiveRecord::Migration
+  def change
+    add_column :posts, :author_name, :string
+  end
+end
+```
+
+Learn more about migrations from the [official rails guides](http://guides.rubyonrails.org/migrations.html)
 
 Active Record as a DSL
 ======================
@@ -97,22 +122,11 @@ Given a table in our database called "students" that has this structure:
 |  2 | Sally | Fall 2013   | 08-11-1979 |
 |  3 | Alice | Spring 2014 | 03-27-1990 |
 
-
-!SLIDE title-and-content transition=fade
-
-Active Record as a DSL
-======================
-
 ```ruby
 s = Student.new
 s.name = "Libby"
 puts s.name # "Libby"
 ```
-
-!SLIDE title-and-content transition=fade
-
-Active Record as a DSL
-======================
 
 ActiveRecord also adds class methods for reading records from the database
 
@@ -125,12 +139,6 @@ student = Student.first
 melissa = Student.find_by(name: 'Melissa')
 ```
 
-
-!SLIDE title-and-content transition=fade
-
-Active Record as a DSL
-======================
-
 It behaves like any other Ruby code, so we can chain methods together to create more complex queries.
 
 <pre>
@@ -139,8 +147,6 @@ Student.where(class: "Fall 2013").order(birthday:  :desc)
 
 This finds all the records in our students table *where* class is "Fall 2013" and *orders* them by their birthdays, from youngest to newest (descending).
 
-
-!SLIDE text-size-80 title-and-content transition=fade
 
 What's it doing?
 ================
@@ -157,11 +163,6 @@ SELECT * FROM 'students' WHERE class = "Fall 2013" ORDER BY birthday DESC
 </pre>
 
 
-!SLIDE text-size-90 title-and-content transition=fade
-
-Active Record as a DSL
-======================
-
 Active Record objects can be created from a hash, a block or have their attributes manually set after creation. **.new** returns a new object of that class, but doesn't save it to the database.
 
 ```ruby
@@ -175,19 +176,14 @@ student.class = "Spring 2014"
 ```
 
 
-!SLIDE text-size-80 title-and-content transition=fade
-
-Active Record as a DSL
-======================
-
 Meanwhile, **.create** will return the object *and* save it to the database.
 
 ```ruby
 Student.create(name: "Cassie", class: "Spring 2014")
 ```
 
+Learn more about ActiveRecord from the [official rails guides](http://guides.rubyonrails.org/active_record_basics.html)
 
-!SLIDE text-size-90 title-and-content transition=fade
 
 What Did We Learn?
 ==================
@@ -196,13 +192,9 @@ What Did We Learn?
 + Some basic CRUD queries using Active Record
 
 
-!SLIDE text-size-90 title-and-content transition=fade
-
 Other Resources
 ===============
 http://guides.rubyonrails.org/active_record_basics.html
 http://guides.rubyonrails.org/migrations.html
 http://guides.rubyonrails.org/active_record_querying.html
 http://railsforzombies.org/
-
-
