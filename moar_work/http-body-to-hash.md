@@ -44,7 +44,7 @@ Host: localhost:3000
 Content-Length: 141
 Accept: */*
 
-"market[name]=Cap%20Hill%20Market&market[description]=A%20good%20place%20to%20buy%20produce&market[vendors_attributes][][name]=Jules%20Produce"
+market[name]=Cap%20Hill%20Market&market[description]=A%20good%20place%20to%20buy%20produce&market[vendors_attributes][][name]=Jules%20Produce
 ```
 
 1. Rules from Bronze, Silver, and Gold
