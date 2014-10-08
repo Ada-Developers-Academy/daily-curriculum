@@ -49,7 +49,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 |:-----------------:|:------------------------------------------------------:|
 | **9:00 - 9:30**   | [HTTP Body Parser](/moar_work/http-body-to-hash.md) |
 | **9:30 - 10:30**  | [Forms](wednesday/submitting-forms.md)      |
-| **10:30 - 10:35** | [Pairing][wednesday/pair.md]        |
+| **10:30 - 10:35** | [Pairing](wednesday/pair.md)        |
 | **10:35 - 10:40** | Stand Up        |
 | **10:35 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
