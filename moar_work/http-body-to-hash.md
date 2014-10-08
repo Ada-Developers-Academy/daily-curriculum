@@ -34,8 +34,6 @@ Create a nested hash by separating the following into hashes
 1. Rules from Bronze and Silver
 2. An empty `[]` indicates an Array as a value. the word preceding the `[]` is the key to the Array the word after the `=` will be added to the array.
 
-Partial Example: `{person: {first_name: "Ada", last_name: "Lovelace"}}`
-
 Platinum
 -----
 
