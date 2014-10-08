@@ -47,10 +47,9 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 
 | Time              | Topic                                                  |
 |:-----------------:|:------------------------------------------------------:|
-| **9:00 - 9:30**   | [Code Warmup -- Greed Dice](resources/greed/README.md) |
-| **9:40 - 11:00**  | MVC and migrations          |
-| **11:00 - 11:15** | Stand Up        |
-| **11:00 - 5:00** | [FarMar Project](far-mar-rails.md)        |
+| **9:00 - 9:30**   | [HTTP Body Parser](/moar_work/http-body-to-hash.md) |
+| **9:30 - 9:35** | Stand Up        |
+| **9:35 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
 
 ### Thursday
@@ -64,8 +63,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 
 
 #### Homework
-+ [Read and work through Chapter 3 sections 3.0, 3.1, and 3.2](https://canvas.instructure.com/courses/819456/assignments/2536579)
-    + push your sample_app to github and submit a URL via Canvas
++ Read and work through Chapter 3 sections 3.0, 3.1, and 3.2]
 
 
 ### Friday
