@@ -15,8 +15,12 @@ Consuming an API
 Building data (JSON & XML)
 Creating an API in rails
 
-### Martin Luther King, Jr. Day (monday)
-No Class
+### Monday
+
+| Time                | Topic               |
+|:-------------------:|:--------------------|
+| **9:00 - 9:15**     | Sam Livingston-Gray            |
+
 
 ### Tuesday
 

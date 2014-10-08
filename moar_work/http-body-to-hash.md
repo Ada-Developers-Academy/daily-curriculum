@@ -11,7 +11,11 @@ Bronze
 2. Separate key and value on the `=` character
 2. `[*]` indicates a hash as a value, the word preceding the `[*]` is the key to the value and the word in the `[*]` is a key within the nested hash.
 
+Example:
 
+```ruby
+{market: {name: "Cap Hill Market", description: "A good place to buy produce"}}}
+```
 Silver
 -------
 
