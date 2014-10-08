@@ -14,7 +14,7 @@ Bronze
 Example:
 
 ```ruby
-{market: {name: "Cap Hill Market", description: "A good place to buy produce"}}}
+{market: {name: "Cap Hill Market", description: "A good place to buy produce"}}
 ```
 Silver
 -------
