@@ -1,4 +1,4 @@
-Use irb, a script, or object oriented class to convert the following string into a `Hash` with the given rules.
+Create an `Http` class to convert the following string into a `Hash` with the given rules.
 
 Bronze
 -------
@@ -40,7 +40,7 @@ Platinum
 -----
 
 ```bash
-GET / HTTP/1.1
+GET /markets HTTP/1.1
 User-Agent: curl/7.30.0
 Host: localhost:3000
 Content-Length: 141
@@ -51,3 +51,4 @@ Accept: */*
 
 1. Rules from Bronze, Silver, and Gold
 2. Seperate and parse the hash from the rest of the HTTP text
+3. Add additional attributes of `method` and `path` to the class and parse those out of the request ("GET" & "/markets")
