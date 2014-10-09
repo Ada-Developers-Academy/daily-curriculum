@@ -64,10 +64,6 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | **11:15 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
 
-#### Homework
-+ Read and work through Chapter 3 sections 3.0, 3.1, and 3.2]
-
-
 ### Friday
 
 | Time              | Topic                                    |
