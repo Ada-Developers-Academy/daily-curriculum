@@ -12,7 +12,7 @@ draw within the canvas element.
 - Understand how to navigate and modify the DOM with or without jQuery
 - Learn how canvas works, and the fundamentals of 2D line drawing
 - Know how to identify some of JavaScript's idiosyncracies and how to
-  track down bugs 
+  track down bugs
 
 
 ## Schedule
@@ -68,12 +68,7 @@ draw within the canvas element.
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00  - 9:15**  | Quiz                |
-| **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | [Canvas intro + drawing](thursday/canvas-intro-and-animation.md) |
-| **10:05 - 10:25** | ^ Activity - Draw circle on canvas, move circle around |
-| **10:30 - 11:15** | [Canvas intro + drawing](thursday/canvas-intro-and-animation-part-two.md) |
-| **11:15 - 5:00**  | [Analytics](resources/analytics.md) |
+| **9:00  - 9:15**  | Devon                |
 
 ### Friday
 

@@ -58,7 +58,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 
 | Time              | Topic                                    |
 |:-----------------:|:----------------------------------------:|
-| **9:00 - 9:30**   | [Code Warmup - Planetary Age](thursday/planetary_age.md) |
+| **9:00 - 9:30**   | [HTTP Body Parser](/moar_work/http-body-to-hash.md)|
 | **9:30 - 11:00**   | Rails Recap                                  |
 | **11:00 - 11:15**   | Standup                                  |
 | **11:15 - 5:00** | [FarMar Project](far-mar-rails.md)        |
