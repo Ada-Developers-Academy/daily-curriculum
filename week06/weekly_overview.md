@@ -63,6 +63,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | **11:00 - 11:15**   | Standup                                  |
 | **11:15 - 5:00** | [FarMar Project](far-mar-rails.md)        |
 
+**Homework**
 
 ### Friday
 

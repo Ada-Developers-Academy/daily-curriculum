@@ -8,7 +8,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
     - Routing
     - Controllers
     - Models
-    - <s>Views</s>
+    - Views
 - Practice implementing features within a rails app
 - Use project managment software
 - Use agile development practices in a group of four
@@ -21,8 +21,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand Up            |
 | **9:15 - 10:00**  | [Far Mar](../week6/far-mar-rails.md) App Presentations   |
-| **10:00** - **10:45** | [Routes](monday/routes.md)          |
-| **11:00** - **12:00** | User Authentication          |
+| **10:00** - **12:00** | User Authentication          |
 | **1:00** - **5:00** | [Beginning Betsy](resources/betsy.md)|
 
 
@@ -41,6 +40,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**      | Stand up            |
+| **9:20** - **10:30**| [Views](friday/views.md)            |
 | **9:20** - **5:00** | [Betsy Project Time](resources/betsy.md)|
 
 \* Take an hour lunch at any time
@@ -60,7 +60,6 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
-| <s>**9:20** - **10:30**</s> | <s>Views</s>            |
 | **12:00** - **5:00** | [Betsy Project Time](resources/betsy.md)|
 
 \* Take an hour lunch at any time
