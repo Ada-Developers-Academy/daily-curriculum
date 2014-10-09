@@ -36,4 +36,4 @@ Next we have a `=>`, think of this as the router, this points the request path t
 
 `"users#index"`, this is a cryptic way of defining the controller and action split by the `#`. This example would point to the `UsersController` to the `index` action.
 
-![Rails Request Cycle](/week07/resources/rails-request-cycle.pdf)
+![Rails Request Cycle](../resources/rails-request-cycle.jpg)
