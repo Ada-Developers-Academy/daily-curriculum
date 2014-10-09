@@ -72,7 +72,10 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 
 | Time              | Topic                                    |
 |:-----------------:|:----------------------------------------:|
-| **9:00 - 9:15**   | Stand Up                                 |
+| **9:00 - 9:30**   | Koans Review: Search, Guessing Game, Dictionary |
+| **9:30 - 10:00**   | Group Koan: Array Backed Dictionary |
+| **10:00 - 11:00**  | Insertion Sort |
+| **11:00 - 11:15**   | Stand Up                                 |
 | **11:15 - 5:00*** | [FarMar Project](far-mar-rails.md) |
 
 Homework:
