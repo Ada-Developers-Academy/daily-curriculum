@@ -65,6 +65,19 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 
 **Homework**
 
+Make sure you've at least tried the following koans (by running the
+following from your main koans directory):
+
+  $ ruby koans/about_beginning_the_search.rb
+  $ ruby koans/about_guessing_game.rb
+  $ ruby koans/about_hash_backed_dictionary.rb
+
+NOTE! If you haven't done about_beginning_the_search.rb, you may be
+surprised that the tests hang when you try to run it. This is because
+the koan has an infinite loop that you need to fix. Open the file and
+try to figure out how to get the to get the while loop at line 47 to
+terminate.
+
 ### Friday
 
 | Time              | Topic                                    |
