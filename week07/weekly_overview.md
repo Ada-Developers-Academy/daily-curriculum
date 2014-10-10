@@ -5,13 +5,15 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 ## Goals
 
 - Learn about the major components of a rails app
-    - Routing
+    - User Authentication
     - Controllers
-    - Models
     - Views
+    - ActiveRecord
+    - Validations
 - Practice implementing features within a rails app
-- Use project managment software
+- Use project management software
 - Use agile development practices in a group of four
+
 
 
 ## Schedule
@@ -19,9 +21,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Stand Up            |
-| **9:15 - 10:00**  | [Far Mar](../week6/far-mar-rails.md) App Presentations   |
-| **10:00** - **12:00** | User Authentication          |
+| **9:15 - 10:00**  | James Spence   |
 | **1:00** - **5:00** | [Beginning Betsy](resources/betsy.md)|
 
 
@@ -30,7 +30,6 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic                       |
 |:-----------------:|:----------------------------|
 | **9:00 - 9:20**     | Warm Up                  |
-| **9:20** - **11:00**| [Controllers](wednesday/controllers.md)         |
 | **11:30 - 5:00***   | [Betsy Project Time](resources/betsy.md)                |
 
 
@@ -40,20 +39,14 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**      | Stand up            |
-| **9:20** - **10:30**| [Views](friday/views.md)            |
 | **9:20** - **5:00** | [Betsy Project Time](resources/betsy.md)|
-
-\* Take an hour lunch at any time
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00** - **10:30** |  [Models](thursday/active-record.md) |
 | **10:30 - 3:00**   | [Betsy Project Time](resources/betsy.md) |
 
-
-\* Take an hour lunch at any time
 
 ### Friday
 
@@ -61,8 +54,6 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | Stand up            |
 | **12:00** - **5:00** | [Betsy Project Time](resources/betsy.md)|
-
-\* Take an hour lunch at any time
 
 ## Resources
 For additional resources on the topics covered this week see [weekly resources](resources/resources.md).
