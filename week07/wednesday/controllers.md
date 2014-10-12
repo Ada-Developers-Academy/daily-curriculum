@@ -1,6 +1,7 @@
 ## Rails Controllers
 
-Rails controllers are the brains of application. After a request is routed to our controller action, out controller is responsible for processing incoming data from the request then collecting all of the data to send in the response. This is most commonly saving and retrieving data from a Model.
+Rails controllers are the brains of an application.  After a request is routed to our controller action, the controller is responsible for processing incoming data from the request and sending a repsonse. The controller response generally involves saving data to the model or retrieving data from the model, and assembling data to use in the view. 
+
 
 ### In this lesson we will learn about:
 
