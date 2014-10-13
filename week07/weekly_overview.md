@@ -25,7 +25,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **9:30 - 10:30**    | [Controllers](monday/controllers.md)                  |
 | **10:30** - **11:30** | [User Authentication](monday/user-authentication.md)|
 | **11:30** - **2:00** | [Beginning bEtsy](resources/betsy.md)|
-| **2:00 - 4:00**  | James Spence on Designing a Project   |
+| **2:00 - 4:00**  | [James Spence on Designing a Project](monday/design.md)   |
 | **4:00** - **5:00** | [bEtsy](resources/betsy.md)|
 
 
