@@ -28,13 +28,16 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **2:00 - 4:00**  | [James Spence on Designing a Project](monday/design.md)   |
 | **4:00** - **5:00** | [bEtsy](resources/betsy.md)|
 
+**Homework**
+[Git Branching & Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 ### Tuesday
 
 | Time              | Topic                       |
 |:-----------------:|:----------------------------|
 | **9:00 - 9:20**     | Warm Up                  |
-| **9:30 - 10:30**    | [Validations](tuesday/validations.md)                  |
+| **9:20 - 9:45**     | Branches & Merging                  |
+| **9:45 - 10:45**    | [Validations](tuesday/validations.md)                  |
 | **11:30 - 5:00***   | [Betsy Project Time](resources/betsy.md)                |
 
 
