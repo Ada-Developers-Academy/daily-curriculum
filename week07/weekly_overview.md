@@ -21,8 +21,10 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:15 - 10:00**  | James Spence   |
-| **1:00** - **5:00** | [Beginning Betsy](resources/betsy.md)|
+| **9:00 - 9:30**     | Koans                  |
+| **9:30** - **10:30** | [User Authentication](monday/user-authentication.md)|
+| **10:30** - **2:00** | [Beginning Betsy](resources/betsy.md)|
+| **2:00 - 4:00**  | James Spence on Designing a Project   |
 
 
 ### Tuesday

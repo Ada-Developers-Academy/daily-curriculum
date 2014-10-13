@@ -1,10 +1,22 @@
 ## Rails Veiws 101
 
-- partials with local variables
-- partials with collections
-- content_tag
-- image_tag
+Common Helper Methods
+-------
+
+Rails gives many methods to help generate HTML, these methods are called
+helper methods. Some common methods are:
+
 - link_to
 - button_to
+- image_tag
+- content_tag
 - content_for
-- Rails forms
+
+Defining Helper Methods
+----------------
+
+Partial
+---------
+
+Forms
+------
