@@ -7,7 +7,6 @@ Rails controllers are the brains of application. After a request is routed to ou
 - `params`
 - Instance variables
 - `redirect_to` vs. `render`
-- Response formats (HTML JSON)
 - ApplicationController
 - Controller Filters (`before_action`)
 
@@ -33,10 +32,10 @@ The last thing our controller action does is send an HTTP response. By default t
 
     class UsersController < ApplicationController
       def index
-    
+
       end
     end
-    
+
 The `index` action will render the `app/views/users/index.html.erb`, in this path `users` corresponds to the controller, and `index` corresponds to the action. But we can override this default behavior with the `render` method:
 
     class UsersController < ApplicationController
@@ -53,7 +52,7 @@ Would render `app/views/users/home.html.erb`. In many cases we wouldn't want to 
         redirect_to user_path(@user)
       end
     end
-    
+
 The `redirect_to` creates a new HTTP request to the path you pass in as an argument. This method can take a couple type of arguments:
 
 - A string of the URL path `/users/#{@user.id} #=> /users/1`
@@ -61,38 +60,9 @@ The `redirect_to` creates a new HTTP request to the path you pass in as an argum
 - An ActiveRecord object `@user`
 
 All of these three methods will redirect to the same place `/users/1` (given that is the `id` of the created user object)
-    
+
 [render guide](http://guides.rubyonrails.org/layouts_and_rendering.html#using-render)
 [redirect_to guide](http://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to)
-
-#### Response Formats
-
-Say we wanted to build an iPhone app for our Ada Cooks app, we would want to use the same database, but we wouldn't want to use the HTML that our normal website has. For this, we could have additional response formats, such as JSON, that a user could request. When someone visits `/users/1`, instead of HTML, we could serve JSON:
-
-    user: {
-      username: "Bookis",
-      email: "bookis@adadevelopersacademy.org"
-    }
-    
-In the controller we can use the `render` method with different arguments to accomplish this:
-
-    def show
-      @user = User.find(params[:id])
-      render json: @user.as_json
-    end
-    
-We can make a single action render either HTML or JSON depending on the HTTP request format.
-
-    def show
-      @user = User.find(params[:id])
-      respond_to do |format|
-        format.html # index.html.erb
-        format.json { render json: @user.as_json }
-      end
-    end
-    
-
-[formats guide](http://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data)
 
 #### ApplicationController
 
@@ -100,7 +70,7 @@ Controllers inherit from `ApplicationController`, this file can be found in the 
 
     class ApplicationController < ActionController::Base
       ...
-      
+
       def require_login
         unless session[:user_id].present?
           redirect_to sign_in_path, notice: "Please sign in"
@@ -108,32 +78,32 @@ Controllers inherit from `ApplicationController`, this file can be found in the 
           true
         end
       end
-      
+
     end
-    
+
 The `signed_in?` method would now be available to all of our controllers, in our `OrdersController` we could do something like:
 
     class OrdersController < ApplicationController
-      
+
       def index
         if require_login
           @order = Order.where(...)
         end
       end
     end
-    
+
 #### Controller Filters
 
 Filters are methods that are run before, after or "around" a controller action. We'll focus on the before action here as it is the most common. Before filters can be used for many things, but they commonly help with the same methods we implement in the `ApplicationController`, from the example above we could alternately do:
 
     class OrdersController < ApplicationController
       before_action :require_login
-      
+
       def index
         @order = Order.where(...)
       end
     end
-    
+
 Now the `require_login` method defined in the `ApplicationController` will run before every method within the `OrdersController`.
 
 [Filters guide](http://guides.rubyonrails.org/action_controller_overview.html#filters)

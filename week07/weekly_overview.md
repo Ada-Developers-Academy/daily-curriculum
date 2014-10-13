@@ -22,9 +22,11 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:30**     | Koans                  |
-| **9:30** - **10:30** | [User Authentication](monday/user-authentication.md)|
-| **10:30** - **2:00** | [Beginning Betsy](resources/betsy.md)|
+| **9:30 - 10:30**    | [Controllers](monday/controllers.md)                  |
+| **10:30** - **11:30** | [User Authentication](monday/user-authentication.md)|
+| **11:30** - **2:00** | [Beginning bEtsy](resources/betsy.md)|
 | **2:00 - 4:00**  | James Spence on Designing a Project   |
+| **4:00** - **5:00** | [bEtsy](resources/betsy.md)|
 
 
 ### Tuesday
@@ -32,6 +34,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic                       |
 |:-----------------:|:----------------------------|
 | **9:00 - 9:20**     | Warm Up                  |
+| **9:30 - 10:30**    | [Validations](tuesday/validations.md)                  |
 | **11:30 - 5:00***   | [Betsy Project Time](resources/betsy.md)                |
 
 
@@ -41,13 +44,15 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**      | Stand up            |
+| **9:30** - **10:30** | [Views](wednesday/views-101.md)|
 | **9:20** - **5:00** | [Betsy Project Time](resources/betsy.md)|
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **10:30 - 3:00**   | [Betsy Project Time](resources/betsy.md) |
+| **9:30 - 10:30**   | Rails Recap |
+| **10:30 - 5:00**   | [Betsy Project Time](resources/betsy.md) |
 
 
 ### Friday
