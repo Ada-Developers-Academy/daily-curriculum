@@ -40,7 +40,8 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **9:45 - 10:45**    | [Validations](tuesday/validations.md)                  |
 | **11:30 - 5:00***   | [Betsy Project Time](resources/betsy.md)                |
 
-
+**Homework**
+Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
 
 ### Wednesday
 
@@ -57,12 +58,24 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **9:30 - 10:30**   | Rails Recap |
 | **10:30 - 5:00**   | [Betsy Project Time](resources/betsy.md) |
 
+**Homework**
+
+Make sure you've at least tried the following koans (by running the
+following from your main koans directory):
+
+  $ ruby koans/about_array_backed_dictionary.rb
+
+You don't need to finish the entire koan, but at least try to solve
+the problem for the small word set.
 
 ### Friday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Stand up            |
+| **9:00 - 9:20**    | Warm Up             |
+| **9:30 - 10:30**    | Ordered Insertion and the Array Dictionary |
+| **10:30 - 12:00**   | Linked Lists and Recursion |
+| **12:00 - 12:15**   | Stand up            |
 | **12:00** - **5:00** | [Betsy Project Time](resources/betsy.md)|
 
 ## Resources
