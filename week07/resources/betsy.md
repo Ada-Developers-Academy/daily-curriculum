@@ -11,6 +11,8 @@
     - Views
 - User based application logic
 - User authentication
+- Agile practices
+- Group project ownership
 
 #### Guidelines
 
@@ -171,8 +173,24 @@ Many of our models will have attributes that are required for our application to
 ## Submission Guidelines
 
 Your project must be "live" on the web for evaluation. We recommend you deploy it on [Heroku](http://Heroku.com).
-
 Your `README` file on Github should contain a link to your live site.
+Your code will be code reviewed.
+
+## Grades (100 points)
+
+In a real world work environment the group is judged on the end result
+of their product opposed to each individuals contribution.
+
+A quiz will be used to grade the project. Each member of the team
+will take the quiz. All members of the team will adopt the score of the lowest
+scoring submission. The quiz will consist of four sections:
+
+- Routes
+- Controllers
+- Models
+- Views
+
+Each section will include 5 questions on concepts and syntax.
 
 # Resources
 
