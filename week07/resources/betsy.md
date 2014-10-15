@@ -182,7 +182,12 @@ Each group will have group leaders who are responsible for keeping track of each
 group members involvment.
 
 - Pick a "driver" for white boarding.
+- Lead stand up meetings
 - Keep quick notes of each individuals daily stand-up responses.
+- Manage Trello: Ensure that each member of the team is assigned appropriate tasks, based on:
+    - Background (lack of experience & variety takes priority)
+    - Desire
+    - Ability (use pairs if an individual doesn't feel confident leading, less experienced individual always drives)
 - At the end of the leader cycle, send bookis an email report including each members:
     - Stand up notes
     - A list of Trello stories completed
