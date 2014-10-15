@@ -176,6 +176,17 @@ Your project must be "live" on the web for evaluation. We recommend you deploy i
 Your `README` file on Github should contain a link to your live site.
 Your code will be code reviewed.
 
+## Group Leaders
+
+Each group will have group leaders who are responsible for keeping track of each
+group members involvment.
+
+- Pick a "driver" for white boarding.
+- Keep quick notes of each individuals daily stand-up responses.
+- At the end of the leader cycle, send bookis an email report including each members:
+    - Stand up notes
+    - A list of Trello stories completed
+
 ## Grades (100 points)
 
 In a real world work environment the group is judged on the end result
