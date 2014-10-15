@@ -40,8 +40,6 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **9:45 - 10:45**    | [Validations](tuesday/validations.md)                  |
 | **11:30 - 5:00***   | [Betsy Project Time](resources/betsy.md)                |
 
-**Homework**
-Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
 
 ### Wednesday
 
@@ -50,6 +48,9 @@ Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://elo
 | **9:00 - 9:15**      | Stand up            |
 | **9:30** - **10:30** | [Views](wednesday/views-101.md)|
 | **9:20** - **5:00** | [Betsy Project Time](resources/betsy.md)|
+
+**Homework**
+Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
 
 ### Thursday
 
