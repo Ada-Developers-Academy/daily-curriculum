@@ -46,7 +46,6 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**      | Stand up            |
-| **9:30** - **10:30** | [Views](wednesday/views-101.md)|
 | **9:20** - **5:00** | [Betsy Project Time](resources/betsy.md)|
 
 **Homework**
@@ -56,7 +55,7 @@ Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://elo
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:30 - 10:30**   | Rails Recap |
+| **9:30** - **10:30** | [Views](wednesday/views-101.md)|
 | **10:30 - 5:00**   | [Betsy Project Time](resources/betsy.md) |
 
 **Homework**
