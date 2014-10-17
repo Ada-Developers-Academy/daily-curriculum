@@ -40,22 +40,22 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **9:45 - 10:45**    | [Validations](tuesday/validations.md)                  |
 | **11:30 - 5:00***   | [Betsy Project Time](resources/betsy.md)                |
 
-**Homework**
-Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
 
 ### Wednesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**      | Stand up            |
-| **9:30** - **10:30** | [Views](wednesday/views-101.md)|
 | **9:20** - **5:00** | [Betsy Project Time](resources/betsy.md)|
+
+**Homework**
+Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:30 - 10:30**   | Rails Recap |
+| **9:30** - **10:30** | [Views](wednesday/views-101.md)|
 | **10:30 - 5:00**   | [Betsy Project Time](resources/betsy.md) |
 
 **Homework**
@@ -76,7 +76,8 @@ the problem for the small word set.
 | **9:30 - 10:30**    | Ordered Insertion and the Array Dictionary |
 | **10:30 - 12:00**   | Linked Lists and Recursion |
 | **12:00 - 12:15**   | Stand up            |
-| **12:00** - **5:00** | [Betsy Project Time](resources/betsy.md)|
+| **12:00** - **4:00** | [Betsy Project Time](resources/betsy.md)|
+| **4:00** - **5:00** | [Weekly Retro](http://juliepagano.com/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/)|
 
 ## Resources
 For additional resources on the topics covered this week see [weekly resources](resources/resources.md).

@@ -11,6 +11,8 @@
     - Views
 - User based application logic
 - User authentication
+- Agile practices
+- Group project ownership
 
 #### Guidelines
 
@@ -171,8 +173,40 @@ Many of our models will have attributes that are required for our application to
 ## Submission Guidelines
 
 Your project must be "live" on the web for evaluation. We recommend you deploy it on [Heroku](http://Heroku.com).
-
 Your `README` file on Github should contain a link to your live site.
+Your code will be code reviewed.
+
+## Group Leaders
+
+Each group will have group leaders who are responsible for keeping track of each
+group members involvment.
+
+- Pick a "driver" for white boarding.
+- Lead stand up meetings
+- Keep quick notes of each individuals daily stand-up responses.
+- Manage Trello: Ensure that each member of the team is assigned appropriate tasks, based on:
+    - Background (lack of experience & variety takes priority)
+    - Desire
+    - Ability (use pairs if an individual doesn't feel confident leading, less experienced individual always drives)
+- At the end of the leader cycle, send bookis an email report including each members:
+    - Stand up notes
+    - A list of Trello stories completed
+
+## Grades (100 points)
+
+In a real world work environment the group is judged on the end result
+of their product opposed to each individuals contribution.
+
+A quiz will be used to grade the project. Each member of the team
+will take the quiz. All members of the team will adopt the score of the lowest
+scoring submission. The quiz will consist of four sections:
+
+- Routes
+- Controllers
+- Models
+- Views
+
+Each section will include 5 questions on concepts and syntax.
 
 # Resources
 
