@@ -55,7 +55,7 @@ Fib(1) => 1
 Fib(n) = Fib(n-1) + Fib(n-2)
 ```
 
-Based on the above rules, here's a table of the first few Fibonacci
+Based on the above rules, here's a table with the first few Fibonacci
 numbers:
 
 | n     | Fib(n)| Calculation |
