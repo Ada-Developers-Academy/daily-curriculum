@@ -1,4 +1,4 @@
-# Recusrion
+# Recursion
 
 ## International Charity
 
@@ -23,7 +23,7 @@ combining the results.
 
 ## Divide and Conquer
 
-**Divide** the problem into sub-probllems that are smaller versions of
+**Divide** the problem into sub-problems that are smaller versions of
   the initial problem.
 
 **Conquer** the sub-problems by solving them recursively (see above).
@@ -45,9 +45,8 @@ number of volunteers each trying to collect $100 donations.
 
 ## Fibonacci Numbers
 
-The Fibonacci numbers (or Fibanacci sequence) is defined by a series
-of numbers beginning with 0, and 1 (alternatively, 1 and 1), and then
-being defined as followed:
+The Fibonacci numbers (or Fibanacci sequence) are defined as a series
+of numbers beginning with 0 and 1 (alternatively, 1 and 1), and such that:
 
 ```
 Fib(0) => 0
@@ -56,21 +55,21 @@ Fib(1) => 1
 Fib(n) = Fib(n-1) + Fib(n-2)
 ```
 
-Based on the above rules, here's a table of the first few Fibonacci
+Based on the above rules, here's a table with the first few Fibonacci
 numbers:
 
 | n     | Fib(n)| Calculation |
 |-------|:-----:|-------------|
 |0      |0      | 0 (base case)|
 |1      |1      | 1 (base case)|
-|2      |1      | 1 + 0        |
-|3      |2      | 1 + 1        |
-|4      |3      | 2 + 1        |
-|5      |5      | 3 + 2        |
-|6      |8      | 5 + 3        |
-|7      |13     | 8 + 5        |
-|8      |21     | 13 + 8       |
-|9      |34     | 21 + 13      |
+|2      |1      | Fib(1) + Fib(0) == 1 + 0        |
+|3      |2      | Fib(2) + Fib(1) == 1 + 1        |
+|4      |3      | Fib(3) + Fib(2) == 2 + 1        |
+|5      |5      | Fib(4) + Fib(3) == 3 + 2        |
+|6      |8      | Fib(5) + Fib(4) == 5 + 3        |
+|7      |13     | Fib(6) + Fib(5) == 8 + 5        |
+|8      |21     | Fib(7) + Fib(6) == 13 + 8       |
+|9      |34     | Fib(8) + Fib(7) == 21 + 13      |
 
 and so on.
 
@@ -99,7 +98,7 @@ array. Remember: binary search requires the array to be sorted ahead
 of time. We use the fact that the array is sorted to deompose it into
 two smaller arrays, which we can then do binary_search on recursively.
 
-This version retruens the index of the position to insert the ```num``` in a
+This version returns the index of the position to insert the ```num``` in a
 sorted array ```ar```.
 
 ```
@@ -124,7 +123,7 @@ end
 
 ## Last but not least
 
-Here's a screenshot of the version of linear search that we wrote in
+Here's a screenshot (and the code) of the version of linear search that we wrote in
 class using recursion.
 
 ```
