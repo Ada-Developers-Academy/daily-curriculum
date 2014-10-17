@@ -123,7 +123,7 @@ end
 
 ## Last but not least
 
-Here's a screenshot of the version of linear search that we wrote in
+Here's a screenshot (and the code) of the version of linear search that we wrote in
 class using recursion.
 
 ```
