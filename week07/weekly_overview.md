@@ -76,7 +76,8 @@ the problem for the small word set.
 | **9:30 - 10:30**    | Ordered Insertion and the Array Dictionary |
 | **10:30 - 12:00**   | Linked Lists and Recursion |
 | **12:00 - 12:15**   | Stand up            |
-| **12:00** - **5:00** | [Betsy Project Time](resources/betsy.md)|
+| **12:00** - **4:00** | [Betsy Project Time](resources/betsy.md)|
+| **4:00** - **5:00** | [Weekly Retro](http://juliepagano.com/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/)|
 
 ## Resources
 For additional resources on the topics covered this week see [weekly resources](resources/resources.md).

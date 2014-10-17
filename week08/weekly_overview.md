@@ -8,15 +8,16 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 + increasing skills in group work habits
 + improving technical workflow
 + increasing git/github competency
-+ initial introduction of computer science material
++ extended introduction of computer science material
 
 ## Schedule
 ### Monday
 
 | Time              | Topic                                    |
 |:-----------------:|:----------------------------------------:|
-| **9:15 - 10:00**  | Project Time                             |
-| **11:30 - 5:00**  | [Betsy Project Time](resources/betsy.md) |
+| **9:00 - 1:30**  | [Betsy Project Time](resources/betsy.md) |
+| **1:30 - 2:15**  | Guest Speaker: Rohit from ApexLearning |
+| **2:15 - 5:00**  | [Betsy Project Time](resources/betsy.md) |
 
 
 ### Tuesday
