@@ -98,7 +98,7 @@ array. Remember: binary search requires the array to be sorted ahead
 of time. We use the fact that the array is sorted to deompose it into
 two smaller arrays, which we can then do binary_search on recursively.
 
-This version retruens the index of the position to insert the ```num``` in a
+This version returns the index of the position to insert the ```num``` in a
 sorted array ```ar```.
 
 ```
