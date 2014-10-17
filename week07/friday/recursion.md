@@ -121,3 +121,24 @@ def bin_search_guess(ar, num)
   end
 end
 ```
+
+## Last but not least
+
+Here's a screenshot of the version of linear search that we wrote in
+class using recursion.
+
+```
+def is_in?(ar, n)
+  puts "is_in? called with : #{ar} - #{n}"
+  if ar.length == 0
+    false
+  elsif ar.length == 1
+    ar[0] == n
+  else
+    sub_ar_1 = ar[0...1]
+    sub_ar_2 = ar[1..-1]
+    is_in?(sub_ar_1, n) or is_in?(sub_ar_2, n)
+  end
+end
+```
+![recursing](recursion.png)
