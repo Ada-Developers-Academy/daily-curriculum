@@ -45,7 +45,7 @@ number of volunteers each trying to collect $100 donations.
 
 ## Fibonacci Numbers
 
-The Fibonacci numbers (or Fibanacci sequence) is defined by a series
+The Fibonacci numbers (or Fibanacci sequence) are defined as a series
 of numbers beginning with 0, and 1 (alternatively, 1 and 1), and then
 being defined as followed:
 
