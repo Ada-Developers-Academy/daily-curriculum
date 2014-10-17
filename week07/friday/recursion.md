@@ -23,7 +23,7 @@ combining the results.
 
 ## Divide and Conquer
 
-**Divide** the problem into sub-probllems that are smaller versions of
+**Divide** the problem into sub-problems that are smaller versions of
   the initial problem.
 
 **Conquer** the sub-problems by solving them recursively (see above).
