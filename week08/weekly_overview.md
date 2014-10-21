@@ -1,6 +1,6 @@
 # Week 8
 
-In Week 8 we will continue working in groups of 4 on the Betsy project introduced in Week 7. The majority of the week will be devoted to project time, with short lectures and assignments to introduce students to basic computer science concepts. We will begin with a guest lecturer/TA, Rein Henrichs, who will give a talk on the mathematics of computer science. There will be 2 lectures, one on recursion, and another on metaprogramming in Ruby.
+In Week 8 we will continue working in groups of 4 on the Betsy project introduced in Week 7. The majority of the week will be devoted to project time, with short lectures and assignments to introduce students to basic computer science concepts.
 
 ## Goals
 
