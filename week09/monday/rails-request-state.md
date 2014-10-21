@@ -10,7 +10,7 @@ We will start by adding a tool to allow rails to generate better errors for us. 
       gem "better_errors"
       gem "binding_of_caller"
     end
-    
+
 The `gem "binding_of_caller"` gems enables some of the more advanced features of `better_errors`.
 
 **NOTE**: ALWAYS wrap this gem in the development group, if the gem is available in your production environment you will open major security holes within your application.
@@ -21,7 +21,7 @@ Now, when our application comes across an error we will see an error message lik
 
 There are a lot of helpful tools here, the main features are:
 
-1. The clickable path the file where the error occured..
+1. The clickable path the file where the error occurred..
 2. Snapshot of the code, with the error line highlighted
 3. A "live shell" which mimics your rails console, but it will have all of the current variables with their current values assigned
 4. Request information, such as `params`
