@@ -24,7 +24,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 
 | Time              | Topic                                     |
 |:-----------------:|:-----------------------------------------:|
-| **9:00 - 9:30*** | [Rails Forms](tuesday/rails-forms.md)  |
+| **9:00 - 9:30*** | Warmup  |
 | **9:30 - 10:30*** | [Rails Forms](tuesday/rails-forms.md)  |
 | **9:00 - 5:00*** | [Betsy Project Time](resources/betsy.md)  |
 

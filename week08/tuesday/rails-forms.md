@@ -16,7 +16,7 @@ attribute defaults to POST.
 <% end %>
 ```
 ```html
-<form action="/posts" method="post"></form>
+<form action="/products" method="post"></form>
 ```
 
 Additional arguments can be given after the path in the form of a hash. The most common option
