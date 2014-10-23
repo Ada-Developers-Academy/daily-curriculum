@@ -20,16 +20,17 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:15 - 10:00**  | [Project Presentations](../week8/project-outline.md) |
-| **10:00 - 10:15**   | [Media Ranker Overview](resources/media_ranker.md) |
-| **10:15 - 11:15**  | [Rails request state](monday/rails-request-state.md)        |
-| **12:15 - 1:15**  | [Rails RESTful Routes](monday/resources/restful-routes.md)        |
-| **1:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
+| **10:00 - 11:00**   | Betsy Quiz |
+| **11:00 - 11:30**   | [Media Ranker Overview](resources/media_ranker.md) |
+| **11:30 - 12:30**  | [Rails request state](monday/rails-request-state.md)        |
+| **12:30 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
 ### Tuesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073953)                |
+| **9:15 - 10:15**  | [Rails RESTful Routes](monday/resources/restful-routes.md)        |
 | **9:30 - 11:15**  | [Controller methods](tuesday/controller-methods.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
