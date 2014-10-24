@@ -18,20 +18,19 @@ fundamentally an approach to problem solving.
     <dt>Destructor</dt>
     <dd>An operation of the class that is responsible for destroying an object. Ruby does not have an explicit
     destructor method.</dd>
-    <dd>Encapsulation or Information Hiding</dd>
-    <dt>The practice of hiding the details of how a class works (its *implementation*) from the users of that class.</dt>
-    <dd>Interface</dd>
-    <dt>The collection of methods that an object exposes to a user of that object. The interface
-    defines the details and intention of an object's use.</dt>
-    <dd>
-    <dd>Message</dd>
-    <dt>The name of an operation called on an object. An object is said to respond to a message.</dt>
-    <dd>Method</dt>
-    <dt>The implementation of message.</dt>
-    <dd>Polymorphism</dd>
-    <dt>The ability to exchange one object for another object.</dt>
-    <dd>Protocol</dd>
-    <dt>The list of messages to which an object can respond.</dt>
+    <dt>Encapsulation or Information Hiding</dt>
+    <dd>The practice of hiding the details of how a class works (its *implementation*) from the users of that class.</dd>
+    <dt>Interface</dt>
+    <dd>The collection of methods that an object exposes to a user of that object. The interface
+    defines the details and intention of an object's use.</dd>
+    <dt>Message</dt>
+    <dd>The name of an operation called on an object. An object is said to respond to a message.</dd>
+    <dt>Method</dt>
+    <dd>The implementation of message.</dd>
+    <dt>Polymorphism</dt>
+    <dd>The ability to exchange one object for another object.</dd>
+    <dt>Protocol</dt>
+    <dd>The list of messages to which an object can respond.</dd>
 </dl>
 
 ## Rules of Thumb
