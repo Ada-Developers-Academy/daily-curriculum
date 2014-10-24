@@ -32,7 +32,9 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073953)                |
 | **9:15 - 10:15**  | [Rails RESTful Routes](monday/resources/restful-routes.md)        |
 | **9:30 - 11:15**  | [Controller methods](tuesday/controller-methods.md)        |
-| **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
+| **11:15 - 1:30**  | [Media Ranker](resources/media_ranker.md)          |
+| **1:30 - 2:15**  | Aki & Erica from Marchex          |
+| **2:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
 
 ### Wednesday
@@ -42,7 +44,8 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073955)                |
 | **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [View methods](wednesday/view-methods.md)        |
-| **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
+| **11:15 - 4:30**  | [Media Ranker](resources/media_ranker.md)          |
+| **4:30 - 5:00**  | Carol Lin from Zillow          |
 
 ### Thursday
 
@@ -55,15 +58,9 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 ### Friday
 
-| Time              | Topic               |
-|:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Stand Up            |
-| **9:15 - 9:45**   | Quiz Prep Time      |
-| **9:45 - 10:45**  | [Comprehension Test](https://canvas.instructure.com/courses/819456/quizzes/891812)        |
-| **10:45 - 12:00**  | [Rspec Tools](friday/rspec-tools.md)        |
-| **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
+No Class.
 
-**Homework**
+**Weekend Homework**
 
 Use a TDD approach, either:
 
