@@ -55,6 +55,6 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 |:----------------:|:------------------------------:|
 | **9:00 - 9:30*** | Betsy Trial Quiz  |
 | **9:30 - 11:30*** | Project Time  |
-| **11:30 - 12:30*** | OO Design  |
-| **1:30 - 4:00*** | Recursion and Merge Sort  |
+| **11:30 - 12:30*** | [OO Design](friday/object-rules-of-thumb.md)  |
+| **1:30 - 4:00*** | [Recursion and Merge Sort](friday/merge-sort.md)  |
 | **4:00 - 5:00**  | Weekly Retro                  |
