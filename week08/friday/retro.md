@@ -5,6 +5,6 @@ identifying 3 answers to each of the following three questions:
 
 1. What worked well
 2. What didn't work well
-3. What could help improve next time
+3. What could you do in the future to improve the workflow
 
 Group leaders include in your email to Bookis notes from this retro.
