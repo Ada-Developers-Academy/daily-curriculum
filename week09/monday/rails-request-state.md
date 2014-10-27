@@ -32,7 +32,7 @@ Clicking on the `All Frames` link within `bettor_errors` we can see a `stack` of
 
 ![Stack Trace](resources/stack-trace.png)
 
-Ruby code works by calling a series of methods.  Each time a method is called, ruby adds the file and line that called the method to a history. Even the "magic" is recorded. A stack trace shows us this history of methods.  The stack trace is the same thing we see in our console, development logs, or regular rails error page with ruby. Learning to read it can be difficult, but it can be very useful.
+Ruby code works by calling a series of methods.  Each time a method is called, ruby adds the file and line that called the method to a history. Even the "magic" is recorded. A stack trace shows us this history of methods. A stack trace is composed of stack frames, with each stack frame indicating a call. The deepest frames  -- those called last before the error -- are the frames at the top. The stack trace is the same thing we see in our console, development logs, or regular rails error page with ruby. Learning to read it can be difficult, but it can be very useful.
 
 If we take a look at the stack trace above we will see the error we encountered. The first two lines look really crazy. These were added *after* the error occurred, as the app was trying to figure out if it could rescue itself. The third line, highlighted, is where our error actually happened. Below that third line is the history of files, classes and methods leading up to the error -- most of which is more rails magic.
 
