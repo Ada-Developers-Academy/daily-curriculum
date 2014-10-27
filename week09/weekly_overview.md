@@ -30,8 +30,8 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073953)                |
-| **9:15 - 10:15**  | [Rails RESTful Routes](monday/resources/restful-routes.md)        |
-| **9:30 - 11:15**  | [Controller methods](tuesday/controller-methods.md)        |
+| **9:15 - 10:15**  | Betsy Quiz Recap          |
+| **9:15 - 10:15**  | Lecture          |
 | **11:15 - 1:30**  | [Media Ranker](resources/media_ranker.md)          |
 | **1:30 - 2:15**  | Aki & Erica from Marchex          |
 | **2:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
@@ -42,7 +42,6 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073955)                |
-| **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [View methods](wednesday/view-methods.md)        |
 | **11:15 - 4:30**  | [Media Ranker](resources/media_ranker.md)          |
 | **4:30 - 5:00**  | Carol Lin from Zillow          |
@@ -51,14 +50,19 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | Quiz                |
-| **9:15 - 9:30**   | Stand Up            |
 | **9:30 - 11:15**  | [Rails Rspec methods](thursday/rails-rspec-methods.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
 ### Friday
 
 No Class.
+
+### Extra Lectures
+| Time              | Topic               |
+|:-----------------:|:--------------------|
+|  | [Rails RESTful Routes](monday/resources/restful-routes.md)        |
+|  | [Controller methods](tuesday/controller-methods.md)        |
+
 
 **Weekend Homework**
 

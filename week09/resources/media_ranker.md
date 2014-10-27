@@ -2,7 +2,11 @@
 
 In this project we will focus on build a simple rails app that has three data models (Movie, Album, Book), we will be focusing on comprehending the rails request cycle and the scope and availability of each major and minor component. To maximize the focus on comprehension students will implement features based off of an existing website (http://media-ranker.herokuapp.com), and we will not use any associations or testing. Comprehension is the primary focus.
 
+Lecture
+--------
 - Remove Turbolinks
+- Bootstrap
+- Advanced ActiveRecord
 
 ### Goals
 
