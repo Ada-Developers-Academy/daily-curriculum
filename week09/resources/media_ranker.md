@@ -37,6 +37,6 @@ Research and ask as many questions as possible, at the end of the week you will 
 - Views
 - Models
 
-If any peice feels like magic, google it, debug it, ask questions, unless you are specifically told that a certain peice is too magic to concern your self with.
+If any piece feels like magic, google it, debug it, ask questions, unless you are specifically told that a certain piece is too magic to concern yourself with.
 
-The project will not be required to be in any certain state at the end of the week, you will only be graded on your ability to describe and assess the process of a rails request cycle, and the state of any given point within a simliar peice of code.
+The project will not be required to be in any certain state at the end of the week. You will only be graded on your ability to describe and assess the process of a rails request cycle, and the state of any given point within a simliar piece of code.
