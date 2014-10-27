@@ -13,7 +13,7 @@ Draw a picture! Separate the various parts of the problem.
 
 ## Devise a plan.
 
-*Find the connection between the data and the unknow. Consider alternate problems!.*
+*Find the connection between the data and the unknown. Consider alternate problems!*
 
 Have you seen the problem before? Have you seen the problem in a
 slightly different form? Have you seen a solution to a problem that
