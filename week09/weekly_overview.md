@@ -29,9 +29,10 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073953)                |
-| **9:15 - 10:15**  | Betsy Quiz Recap          |
-| **9:15 - 10:15**  | Lecture          |
+| **9:00 - 9:30**   | Warm Up)                |
+| **9:30 - 9:45**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073953)                |
+| **9:45 - 10:15**  | Betsy Quiz Recap          |
+| **10:15 - 11:15**  | Lecture          |
 | **11:15 - 1:30**  | [Media Ranker](resources/media_ranker.md)          |
 | **1:30 - 2:15**  | Aki & Erica from Marchex          |
 | **2:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |

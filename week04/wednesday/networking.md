@@ -32,7 +32,7 @@ Host: localhost:8080
 Content-Length: 6
 Accept: */*
 
-bookis
+order_item[product_id]=4
 ```
 
 Response
