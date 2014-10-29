@@ -4,7 +4,6 @@ In this lesson we will be be learning about common helper methods as well as def
 
 #### Common Methods
 
-- auto_discovery_link_tag
 - javascript_include_tag
 - stylesheet_link_tag
 - image_tag
@@ -26,7 +25,7 @@ Returns the HTML for a `<img>` tag with the `src` attribute defined to the curre
 
 **link_to**
 
-Returns the HTML for a `<a>` tag with the `href` attribute. Takes at least two arguments, the first being the text to display on the page, the second being the value of the `href` attribute 
+Returns the HTML for a `<a>` tag with the `href` attribute. Takes at least two arguments, the first being the text to display on the page, the second being the value of the `href` attribute
 
 **render**
 
@@ -34,8 +33,8 @@ Returns the HTML for a `<a>` tag with the `href` attribute. Takes at least two a
 
     b = Book.find(1)
     <%= render "some_partial", book: b %>
-    
-Would pass the `b` object to the partial as the local variable `book`, so in this case `book` could be used in the partial. 
+
+Would pass the `b` object to the partial as the local variable `book`, so in this case `book` could be used in the partial.
 
     I'm the partial, with <%= book.name %>!
 
@@ -54,14 +53,13 @@ Let's define a new method that transforms a date object into something readable:
     def readable_date(date)
       "<span class='date'>" + date.strftime("%A, %b %d") + "</span>"
     end
-    
+
 Then within any view I could use this method, and pass in any date or time object:
 
     <h1><%= @book.title %></h1>
     <%= readable_date(@book.created_at) %>
-    
+
 This would produce the HTML
 
     <h1><%= @book.title %></h1>
     <span class='date'>Wednesday, Jan 08</span>
-

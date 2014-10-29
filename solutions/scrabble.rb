@@ -29,4 +29,45 @@ class Scrabble
     end
     return score
   end
+
+  # `self.highest_score_from(array_of_words)`
+  # returns the word in
+  # the array with the highest score.
+
+  # Note that it’s better to use fewer tiles, so if the top
+  # score is tied between multiple words, pick the one with the fewest letters.
+
+  # ['cat', 'giraffe']
+
+  def self.highest_score_from(array_of_words)
+    # create a variable for the highest_word=nil
+    # iterate over each word in the array
+      # get the score for each one
+      # if word greater than highest_word
+        # highest_word = word
+    # if highest scores are tied
+      # use the one with shortest length
+    highest_word = ""
+    array_of_words.each do |word|
+      highest_word = higher_word(word, highest_word)
+    end
+    highest_word
+  end
+
+  def self.higher_word(word, new_word)
+    word_score = self.score(word)
+    high_word_score = self.score(new_word)
+
+    if word_score > high_word_score
+      return word
+    elsif word_score == high_word_score
+      if word.length < new_word.length
+        return word
+      end
+    end
+    new_word
+  end
+
 end
+
+puts Scrabble.highest_score_from(['cat', 'zzd', 'zzai', "dog"]).inspect

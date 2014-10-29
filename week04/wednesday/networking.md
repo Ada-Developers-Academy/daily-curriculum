@@ -23,7 +23,11 @@ Hypertext Transfer Protocol (HTTP) function as a request-response protocol.
 A client sends an HTTP request and a server sends back an HTTP response.
 
 Each of these are just text sent over our network. A series of technologies take this text, carry it to the intended destination, and make sense of it.
-
+Socket.tcp("localhost", 3000) {|sock|
+  sock.print "GET / HTTP/1.1\r\n\r\n"
+  sock.close_write
+  puts sock.read
+}
 Request
 ```
 GET / HTTP/1.1
