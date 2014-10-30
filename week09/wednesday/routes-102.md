@@ -35,6 +35,7 @@ The core of this idea can be described through routing. We'll look at an example
 | /markets       | GET    | Retrieves a collection of market objects|
 | /markets       | POST   | Creates a market object on the server. |
 | /markets/:id   | GET    | Retrieves an  individual market object through an identifying attribute, givin in the url path.|
+| /markets/:id   | PATCH    | Updates an individual market object through an identifying attribute, givin in the url path.|
 | /markets/:id   | PUT    | Updates an individual market object through an identifying attribute, givin in the url path.|
 | /markets/:id   | DELETE | Removes an individual market object through an identifying attribute, givin in the url path.|
 
