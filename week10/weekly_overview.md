@@ -1,8 +1,9 @@
-# Week 11
+# week 10
 
-In week 11 we will be learning to consume and create a server-side web API. This week will include a project where the students will create a RESTful web API from a public or private data source.
+In week 10 we will be learning more about rspec. Also a small project to consume and create a server-side web API. This week will include a project where the students will create a RESTful web API from a public or private data source.
 
 ## Goals
+- Learn rspec
 - Identify when to use an external web API
 - Create a web API
 - Build data in JSON or XML format
@@ -19,13 +20,20 @@ Creating an API in rails
 
 | Time                | Topic               |
 |:-------------------:|:--------------------|
-| **9:00 - 9:15**     | Sam Livingston-Gray            |
+| **9:00 - 5:00**     | Sam Livingston-Gray            |
 
 
 ### Tuesday
 
 | Time                | Topic               |
 |:-------------------:|:--------------------|
+| **9:00 - 5:00**     | Sam Livingston-Gray            |
+
+### Wednesday
+
+| Time              | Topic               |
+|:-----------------:|:--------------------|
+
 | **9:00 - 9:15**     | Stand Up            |
 | **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
 | **9:45 - 10:15**    | [Consuming an Api](tuesday/consuming-an-api.md) |
@@ -34,16 +42,6 @@ Creating an API in rails
 | **1:30** - **2:45** | [See More Project Intro](see-more.md) |
 | **3:00** - **4:00** | Martha Girdler |
 | **4:00** - **5:00** | [See More Project Work](see-more.md) |
-
-### Wednesday
-
-| Time              | Topic               |
-|:-----------------:|:--------------------|
-| **9:10 - 9:30**      | Team 4 Standup & Architecture discussion |
-| **9:30 - 9:50**      | Team 2 Standup & Architecture discussion |
-| **9:50 - 10:10**     | Team 1 Standup & Architecture discussion |
-| **10:10 - 10:30**    | Team 3 Standup & Architecture discussion |
-| **10:30** - **5:00** | [See More Project work](see-more.md) |
 
 ### Thursday
 
