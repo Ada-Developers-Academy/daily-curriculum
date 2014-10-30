@@ -42,7 +42,6 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073955)                |
 | **9:30 - 10:15**  | [View methods](wednesday/view-methods.md)        |
 | **10:15 - 11:15**  | [Routes 102](wednesday/routes-102.md)|
 | **11:15 - 4:30**  | [Media Ranker](resources/media_ranker.md)          |
@@ -52,7 +51,8 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:30 - 11:15**  | [Rails Rspec methods](thursday/rails-rspec-methods.md)        |
+| **9:00 - 9:30**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073955)                |
+| **9:30 - 11:15**  | [Refactoring](thursday/refactoring.md)        |
 | **11:15 - 5:00**  | [Media Ranker](resources/media_ranker.md)          |
 
 ### Friday
