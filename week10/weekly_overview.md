@@ -33,14 +33,11 @@ Creating an API in rails
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-
-| **9:00 - 9:15**     | Stand Up            |
 | **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
 | **9:45 - 10:15**    | [Consuming an Api](tuesday/consuming-an-api.md) |
 | **10:15 - 10:30**    | [Practice Consuming an Api](tuesday/consuming-an-api.md#practice) |
 | **10:40 - 12:00**   | [Authentication w/ OmniAuth](tuesday/omniauth.md) |
 | **1:30** - **2:45** | [See More Project Intro](see-more.md) |
-| **3:00** - **4:00** | Martha Girdler |
 | **4:00** - **5:00** | [See More Project Work](see-more.md) |
 
 ### Thursday
