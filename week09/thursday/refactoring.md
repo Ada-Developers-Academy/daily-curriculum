@@ -13,6 +13,7 @@ of these files is in the correct place.
 
 - **Views**: Does the logic build HTML or determine which HTML is rendered?
 - **Controller**: Does the logic determine what the HTTP response will be?
+    - Is it an assignment for the view to use.
 - **Model**: Does the logic have to due with the idea of the object?
 
 Rules
@@ -22,7 +23,10 @@ Try to meet all of the following rules. Occasionally they can be broken, but onl
 1. Only call one method per line on any object in the view and controller (i.e. don't chain methods together)
 1. Don't use more than a single method in a conditional (no actual comparisons of two objects)
 1. Don't use operators (arithmitic, comparison, assignment) in views or controllers.
-1. Do logic inside erb tags
+1. Don't do logic inside erb tags
+
+
+Do not attempt to code keeping all of these things in mind. Just refactor!
 
 Example
 -------

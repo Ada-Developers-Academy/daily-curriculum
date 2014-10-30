@@ -68,8 +68,6 @@ No Class.
 
 **Weekend Homework**
 
-Use a TDD approach, either:
-
 Create your own app
 
 OR
@@ -84,6 +82,8 @@ Create a single serving (no users) version of Twitter. The app should have:
     - A `show` action to view a specific tweet
     - A `new` action (optional, you can put the form on `index`)
     - A `create` action where tweets are created
+
+**optional**
 
 - tweet_spec.rb
     - Testing validations of body (presence and length)
