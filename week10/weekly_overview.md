@@ -27,15 +27,18 @@ out understanding of relationships in databases and Rails.
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
+| **9:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
+| **9:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
 
 ### Friday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
+| **9:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
 
 **Homework**
