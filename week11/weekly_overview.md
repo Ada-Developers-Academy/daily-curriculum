@@ -1,6 +1,6 @@
-# Week 10
+# Week 11
 
-In week 10 we will be focusing on learning JavaScript. Students will
+In week 11 we will be focusing on learning JavaScript. Students will
 create an application that tracks the data of the users that visit their
 site and then display that data on a dashboard. By the end of the week,
 the students should have a basic working knowledge of the JavaScript
