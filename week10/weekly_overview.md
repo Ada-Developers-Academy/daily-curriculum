@@ -20,7 +20,8 @@ Creating an API in rails
 
 | Time                | Topic               |
 |:-------------------:|:--------------------|
-| **9:00 - 5:00**     | Sam Livingston-Gray            |
+| **9:00 - 10:00**     | [Media Ranker Quiz](https://canvas.instructure.com/courses/881804/quizzes/1083242)            |
+| **10:00 - 5:00**     | Sam Livingston-Gray            |
 
 
 ### Tuesday
