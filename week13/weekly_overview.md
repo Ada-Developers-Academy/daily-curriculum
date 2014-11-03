@@ -24,6 +24,7 @@ In week 13 we will continue working on [SeeMore project](see-more.md), in which 
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
+| **9:10 - 9:30**      | Kronda |
 | **9:10 - 9:30**      | Team 3 Standup & Architecture discussion |
 | **9:30 - 9:50**      | Team 1 Standup & Architecture discussion |
 | **9:50 - 10:10**     | Team 2 Standup & Architecture discussion |
