@@ -145,3 +145,15 @@ Order.includes(:order_items)
 
 ActiveRecord::Relation
 ----------------------
+
+If we do a database query on a model the object returned is a `ActiveRecord::Relation`.
+
+```ruby
+Order.where("id < 50").class # => Order::ActiveRecord_Relation
+Order.where("id < 50").order("created_at").class # => Order::ActiveRecord_Relation
+```
+
+The initial method on the class of `Order` creates the active record relation
+then each additional query method returns the object it's called at.
+
+After it's all done, then the actual SQL query is made to the database.
