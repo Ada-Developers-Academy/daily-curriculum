@@ -8,6 +8,11 @@ out understanding of relationships in databases and Rails.
 - Solidify knowledge of database relationships
 - Practice TDD
 
+## Possible Lectures
+- Rspec rails
+- Form Objects
+- Associations
+- ActiveRecord Querying
 
 ### Monday
 
@@ -27,18 +32,22 @@ out understanding of relationships in databases and Rails.
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **9:30 - 11:00**     | [ActiveRecord Associations](wednesday/active-record-associations.md)       |
+| **1:30 - 2:15**     | David Weiser from Moz       |
+| **2:15 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **9:00 - 1:30**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **1:30 - 2:15**     | Joe Goldberg from EnergySavvy       |
+| **2:15 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
 
 ### Friday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
-
-**Homework**
+| **9:00 - 10:00**     | Megan Kiester       |
+| **10:30 - 11:30**     | Peter Abrahamsen       |
+| **11:30 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
