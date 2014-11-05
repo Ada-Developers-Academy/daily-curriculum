@@ -23,7 +23,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:30**  | Warmup (Bookis?)     |
+| **9:00 - 9:30**  | Warmup     |
 | **9:30 - 12:30**   | Lecture: JavaScript fundamentals |
 | **12:30 - 1:30**   | Demo: Using the JavaScript console |
 | **1:30 - 5:00**  | Project: Console to do list maker |
