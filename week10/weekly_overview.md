@@ -50,5 +50,7 @@ out understanding of relationships in databases and Rails.
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 10:00**     | Megan Kiester       |
-| **10:30 - 11:30**     | Peter Abrahamsen       |
-| **11:30 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **11:00 - 12:00**     | Peter Abrahamsen       |
+| **12:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **1:30 - 2:15**     | Adam from Chef       |
+| **2:15 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
