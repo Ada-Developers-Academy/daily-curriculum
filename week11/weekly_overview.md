@@ -48,7 +48,18 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 | **10:00 - 12:30**  | jQuery fundamentals, looking at jQuery documentation |
 | **12:30 - 5:00**  | Project: rewrite the to do list maker using jQuery |
 
+### Thursday
 
+| Time              | Topic               |
+|:-----------------:|:--------------------|
+| **9:00 - 9:30**  | Warmup |
+| **9:30 - 5:00**  | Devon Persing |
+
+### Friday
+
+| Time              | Topic               |
+|:-----------------:|:--------------------|
+| **9:00 - 9:30**  | Warmup |
 
 **Weekend Homework**
 
