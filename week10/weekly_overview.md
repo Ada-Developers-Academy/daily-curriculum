@@ -40,7 +40,9 @@ out understanding of relationships in databases and Rails.
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
+| **9:30 - 11:00**     | Rspec       |
 | **9:30 - 11:00**     | Lecture TBD (form objects?)       |
+| **9:30 - 11:00**     | Group Interview Prep?       |
 | **11:00 - 1:30**     | [Ada Cooks](ada-cooks-mini.md)       |
 | **1:30 - 2:15**     | Joe Goldberg from EnergySavvy       |
 | **2:15 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
