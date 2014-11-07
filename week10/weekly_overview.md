@@ -56,4 +56,5 @@ out understanding of relationships in databases and Rails.
 | **11:00 - 12:00**     | Peter Abrahamsen       |
 | **12:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
 | **1:30 - 2:15**     | Adam from Chef       |
-| **2:15 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **2:15 - 4:30**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **4:30 - 5:00**     | Weekly Retro |
