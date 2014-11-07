@@ -38,3 +38,4 @@ Platinum
 
 - How many eggs exist for all of the dinos with a genus which ends in "saurus".
 - How many dinos have eggs which have the color "green" in the name?
+- Create 10 eggs for each dino which has a genus that contains an "x".
