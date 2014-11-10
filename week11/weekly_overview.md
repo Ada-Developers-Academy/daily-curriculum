@@ -1,18 +1,21 @@
 # Week 11
 
-In week 11 we will be focusing on learning JavaScript. Students will
-create an application that tracks the data of the users that visit their
-site and then display that data on a dashboard. By the end of the week,
-the students should have a basic working knowledge of the JavaScript
-language and should be able to use it to manipulate the DOM as well as
-draw within the canvas element.
+Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focus first on learning core JavaScript language concepts, and then how to use JavaScript and jQuery to program web pages in the browser. Students will create a simple to do list app to add to do list items dynamically to a web page. By the end of the week, students will be able to use JavaScript and jQuery to interact with and modify web pages, and use JavaScript variables, types, arrays, functions, objects, and jQuery methods.
 
 ## Goals
-- Understand JavaScript's syntax, typing, and Object model
-- Understand how to navigate and modify the DOM with or without jQuery
-- Learn how canvas works, and the fundamentals of 2D line drawing
-- Know how to identify some of JavaScript's idiosyncracies and how to
-  track down bugs
+
+- Understanding of core JavaScript concepts and features:
+    - variables
+    - types
+    - arrays
+    - functions
+    - scope
+    - objects
+- Understanding of the DOM and how the browser loads and represents web pages.
+- Using JavaScript and jQuery to modify a web page:
+    - with the JavaScript document object and associated methods
+    - with jQuery's $ function and associated methods
+- Understanding event handlers to write code that responds to user interaction.
 
 
 ## Schedule
@@ -20,63 +23,57 @@ draw within the canvas element.
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00  - 9:15**  | Stand Up            |
-| **9:15  - 9:30**  | [JavaScript - The Environment and the Tools](monday/js-the-env-and-the-tools.md) |
-| **9:30  - 10:00** | ^ Activity (Install Node via Homebrew, learn to open and operate console in browser of choice) |
-| **10:00 - 10:35** | [Instant gratification and the DOM](monday/instant-gratification-and-the-dom.md) |
-| **10:35 - 10:55** | ^ Activity - group - create element, add to page, modify it from the console |
-| **11:00 - 11:35** | [Syntax, FP numbers, and primitives](monday/syntax-fpnum-primitives.md) |
-| **11:35 - 11:55** | ^ Activity - Learn about JSHint, how to use it to check syntax, how to rein in math errors - assign http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html for reading |
-| **1:00  - 1:35**  | [Dynamic typing, coercion, equality](monday/dynamic-typing-coercion-equality.md) |
-| **1:35  - 1:55**  | ^ Activity - Watch Gary Bernhardt's 'Wat' lightning talk. Try to guess results of smashing different primitives together |
-| **2:00  - 5:00**  | Review + [Analytics](resources/analytics.md) |
-
+| **9:00 - 9:30**  | Warmup     |
+| **9:30 - 12:30**   | Lecture: JavaScript fundamentals. [JS notes & Files](resources/js) |
+| **12:30 - 1:30**   | Demo: Using the JavaScript console |
+| **1:30 - 5:00**  | Project: Console to do [list maker](resources/js/todo_html.html) |
 
 ### Tuesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00  - 9:15**  | Quiz                |
-| **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | [Functions](tuesday/functions.md) |
-| **10:05 - 10:25** | ^ Activity - High order function passing |
-| **10:30 - 11:05** | [Variable Scope](tuesday/variable-scope.md) |
-| **11:05 - 11:25** | ^ Activity - Review on scope/hoisting |
-| **11:30 - 12:05** | [Events](tuesday/events.md)              |
-| **1:05  - 1:25**  | ^ Activity - binding/removing events, learning custom event api |
-| **1:30  - 2:05**  | [Async programming](tuesday/async-programming.md) |
-| **2:05  - 2:25**  | ^ Activity - callbacks |
-| **2:30 - 5:00**   | [Analytics](resources/analytics.md) |
+| **9:00 - 9:30**   | Warm Up             |
+| **9:30 - 11:30**   | Lecture: Working with the DOM |
+| **11:30 - 12:30**  | Mini-project: handling events  |
+| **12:30 - 1:30**  | Example: Adding new elements to the DOM |
+| **1:30 - 5:00**  | Project: To do list maker |
 
 
 ### Wednesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00  - 9:15**  | Quiz                |
-| **9:15  - 9:30**  | Stand Up            |
-| **9:30  - 10:05** | [Objects/Prototypes](wednesday/objects-prototypes.md)  |
-| **10:05 - 10:25** | ^ Activity - Constructors/learn about `this` |
-| **10:30 - 11:00** | [DOM part 2](wednesday/dom-part-deux.md) - Attaching event listeners to items in the DOM, understanding their scope, and when the event fires |
-| **11:05 - 12:05** | [Canvas intro + drawing](wednesday/canvas-intro-and-drawing.md) |
-| **1:05  - 1:25**  | ^ Activity - Add canvas to page using JS, place button on page, put random dot on canvas when clicking on button |
-| **1:30  - 2:00**  | [Canvas intro + drawing](wednesday/canvas-intro-and-drawing-part-two.md) |
-| **2:00  - 5:00**  | [Analytics](resources/analytics.md) |
-
+| **9:00 - 9:30**  | Warmup |
+| **9:30 - 10:00**  | How *this* works with event handlers |
+| **10:00 - 12:30**  | jQuery fundamentals, looking at jQuery documentation |
+| **12:30 - 5:00**  | Project: rewrite the to do list maker using jQuery |
 
 ### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00  - 9:15**  | Devon                |
+| **9:00 - 9:30**  | Warmup |
+| **9:30 - 12:00**  | Devon Persing |
+| **1:00 - 5:00**  | Project |
 
 ### Friday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00  - 9:15**  | Stand Up            |
-| **9:30  - 11:00** | jQuery              |
-| **11:00 - 12:00** | Testing             |
-| **1:00  - 3:00**  | [Analytics](resources/analytics.md) |
-| **3:00  - 4:00**  | Retrospective / Preparing for Mentors |
-| **4:00  - 5:00**  | Free Time |
+| **9:00 - 9:30**  | Warmup |
+| **9:30 - 4:00**  | Project Time |
+| **4:00 - 5:00**  | Retro |
+
+**Weekend Homework**
+
+Look at the jQuery ajax (http://api.jquery.com/jquery.ajax/) API and
+think about how you might send a list of to do items to store on
+the server with Rails. In this week's projects, the to do items
+are not saved; they go away each time you reload the page. By sending
+the items to the server you can save them for use in a subsequent session.
+
+OR
+
+Take a look at JavaScript's JSON object (https://developer.mozilla.org/en-US/docs/Glossary/JSON),
+and the Local Storage API (https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage).
+Add code to your to do list manager to save items in localStorage.

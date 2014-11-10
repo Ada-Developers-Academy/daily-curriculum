@@ -40,15 +40,21 @@ out understanding of relationships in databases and Rails.
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:30 - 11:00**     | Lecture TBD (form objects?)       |
+| **9:00 - 9:15**     | Group Interview Prep?       |
+| **9:15 - 9:45**     | [Rspec Rails Setup](https://github.com/rspec/rspec-rails)      |
+| **9:45 - 11:00**     | [Form Object](thursday/form-objects.md) |
 | **11:00 - 1:30**     | [Ada Cooks](ada-cooks-mini.md)       |
 | **1:30 - 2:15**     | Joe Goldberg from EnergySavvy       |
-| **2:15 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **2:15 - 4:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **4:00 - 5:00**     | Marchex Fieldtrip       |
 
 ### Friday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 10:00**     | Megan Kiester       |
-| **10:30 - 11:30**     | Peter Abrahamsen       |
-| **11:30 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **11:00 - 12:00**     | Peter Abrahamsen       |
+| **12:00 - 5:00**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **1:30 - 2:15**     | Adam from Chef       |
+| **2:15 - 4:30**     | [Ada Cooks](ada-cooks-mini.md)       |
+| **4:30 - 5:00**     | Weekly Retro |
