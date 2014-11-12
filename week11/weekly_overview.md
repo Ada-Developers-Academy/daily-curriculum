@@ -38,13 +38,16 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 | **12:30 - 1:30**  | Example: Adding new elements to the DOM |
 | **1:30 - 5:00**  | Project: To do list maker |
 
+**Resources**
+
+[Element Object](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 
 ### Wednesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:30**  | Warmup |
-| **9:30 - 10:00**  | How *this* works with event handlers |
+| **9:00 - 9:30**  | [Warmup](wednesday/warmup.html) |
+| **9:30 - 10:00**  | [How *this* works with event handlers](wednesday/Ada_Day3.pdf) |
 | **10:00 - 12:30**  | jQuery fundamentals, looking at jQuery documentation |
 | **12:30 - 5:00**  | Project: rewrite the to do list maker using jQuery |
 
