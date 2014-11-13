@@ -56,7 +56,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:30**  | Warmup |
-| **9:30 - 12:00**  | Devon Persing |
+| **9:30 - 12:00**  | [Devon Persing](https://docs.google.com/presentation/d/1nZ2wYiQjuWfaVbtOBrpTYPbWade_6LbYozvOr0XMXfw/edit?usp=sharing) |
 | **1:00 - 5:00**  | Project |
 
 ### Friday
