@@ -63,9 +63,10 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:30**  | Warmup |
-| **9:30 - 4:00**  | Project Time |
-| **4:00 - 5:00**  | Retro |
+| **9:15 - 10:00**  | Dave & William from PNNL |
+| **10:00 - 12:00**  | [Beginning rspec in rails](friday/rspec-with-rails.md) |
+| **12:00 - 4:00**  | Project Time |
+| **4:00 - 4:45**  | Retro |
 
 **Weekend Homework**
 
