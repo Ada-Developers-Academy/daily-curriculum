@@ -55,7 +55,8 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **10:30** - **5:00** | [See More Project work](see-more.md) |
+| **10:30** - **4:00** | [See More Project work](see-more.md) |
+| **4:00** - **5:00** | Katherine & Rhea from Isilon |
 
 **Homework**
 
