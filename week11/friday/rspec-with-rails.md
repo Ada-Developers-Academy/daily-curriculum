@@ -11,7 +11,7 @@
 
 First we will create a new rails app to implement rspec into. But, since we'll be using rspec, I want to leave out Test::Unit so it doesn't clutter up my app.
 
-    rails new twitter_ripoff -T
+    rails new twitter_ripoff -T -d postgresql
 
 The `-T` is the flag to leave out Test::Unit
 
