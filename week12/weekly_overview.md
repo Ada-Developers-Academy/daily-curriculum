@@ -18,8 +18,8 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:15 - 9:45**     | Pivotal      |
-| **9:15 - 9:45**     | Environment Variables      |
+| **9:00 - 9:30**     | Pivotal      |
+| **9:30 - 9:45**     | Environment Variables      |
 | **9:15 - 9:45**     | [Web Api 101](monday/web-api-101.md)      |
 | **9:45 - 10:15**    | [Consuming an Api](monday/consuming-an-api.md) |
 | **10:15 - 10:30**    | [Practice Consuming an Api](monday/consuming-an-api.md#practice) |
