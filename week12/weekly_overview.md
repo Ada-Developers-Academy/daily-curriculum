@@ -18,10 +18,11 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:15 - 9:45**     | [Web Api 101](tuesday/web-api-101.md)      |
-| **9:45 - 10:15**    | [Consuming an Api](tuesday/consuming-an-api.md) |
-| **10:15 - 10:30**    | [Practice Consuming an Api](tuesday/consuming-an-api.md#practice) |
-| **10:40 - 12:00**   | [Authentication w/ OmniAuth](tuesday/omniauth.md) |
+| **9:15 - 9:45**     | Pivotal      |
+| **9:15 - 9:45**     | [Web Api 101](monday/web-api-101.md)      |
+| **9:45 - 10:15**    | [Consuming an Api](monday/consuming-an-api.md) |
+| **10:15 - 10:30**    | [Practice Consuming an Api](monday/consuming-an-api.md#practice) |
+| **10:40 - 12:00**   | [Authentication w/ OmniAuth](monday/omniauth.md) |
 | **1:30** - **2:45** | [See More Project Intro](see-more.md) |
 | **4:00** - **5:00** | [See More Project Work](see-more.md) |
 
