@@ -14,6 +14,16 @@ In Week 14 we will be starting a 2 week long pairing project in which students w
     + Scheduler
 - Time-based events
 
+Additional Lectures
+-------------------
+
+- Watch the [ActionMailer Railscast](http://railscasts.com/episodes/206-action-mailer-in-rails-3)
+- Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
+
+| **1:00 - 2:00**  | [Using Ajax](monday/ajax.md)               |
+| **9:15 - 10:10**  | [ActionMailer & Pony](tuesday/mailers.md)              |
+| **10:15 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md) |
+
 
 ### Monday
 | Time              | Topic                                             |
@@ -61,6 +71,3 @@ In Week 14 we will be starting a 2 week long pairing project in which students w
 | **9:15 - 3:00** | [PPP Project Time](p_patch_planner.md.md) |
 | **3:00 - 4:00** | Weekly Retrospective                      |
 | **4:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
-
-
-

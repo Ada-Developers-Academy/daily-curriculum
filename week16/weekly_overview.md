@@ -35,6 +35,8 @@ Additionally, there will be an optional demo of building an app start to finish,
 |:-----------------|:------------------------------------------|
 | **9:00 - 9:15**  | Stand Up                                  |
 | **9:15 - 10:30** | [Building APIs](tuesday/building_apis.md) |
+| **9:15 - 10:45**  | [Creating an Api in Rails](../week12/wednesday/creating-an-api-in-rails.md)|
+
 | **10:30 - 3:00** | [SOA Shipping](shipping_service.md)       |
 | **3:00 - 4:00**  | Katrina Owens                             |
 | **4:00 - 5:00**  | Tuesday Lesson Suggestions                |
@@ -66,6 +68,3 @@ Additionally, there will be an optional demo of building an app start to finish,
 | **9:15 - 3:00** | [SOA Shipping](shipping_service.md) |
 | **3:00 - 4:00** | Weekly Retrospective                |
 | **4:00 - 5:00** | [SOA Shipping](shipping_service.md) |
-
-
-

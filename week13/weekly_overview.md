@@ -51,12 +51,3 @@ In week 13 we will continue working on [SeeMore project](see-more.md), in which 
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
 | **10:30** - **5:00** | [See More Project work](see-more.md) |
-
-Additional Lectures
--------------------
-
-| **1:00 - 2:00**  | [Using Ajax](monday/ajax.md)               |
-| **9:15 - 10:10**  | [ActionMailer & Pony](tuesday/mailers.md)              |
-| **10:15 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md) |
-| **11:30 - 3:00**  | [Lister Project Time](lister.md)                       |
-| **9:15 - 10:00**    | [Creating an API](wednesday/creating-an-api-in-rails.md) |

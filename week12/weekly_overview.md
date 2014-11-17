@@ -19,21 +19,19 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:15 - 9:45**     | Pivotal      |
+| **9:15 - 9:45**     | Environment Variables      |
 | **9:15 - 9:45**     | [Web Api 101](monday/web-api-101.md)      |
 | **9:45 - 10:15**    | [Consuming an Api](monday/consuming-an-api.md) |
 | **10:15 - 10:30**    | [Practice Consuming an Api](monday/consuming-an-api.md#practice) |
-| **10:40 - 12:00**   | [Authentication w/ OmniAuth](monday/omniauth.md) |
-| **1:30** - **2:45** | [See More Project Intro](see-more.md) |
-| **4:00** - **5:00** | [See More Project Work](see-more.md) |
+| **10:30 - 1:30**    | [Starting SeeMore](see-more.md) |
+| **1:30 - 2:30**   | [Authentication w/ OmniAuth](monday/omniauth.md) |
+| **2:30** - **5:00** | [See More Project Work](see-more.md) |
 
 ### Tuesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:10 - 9:30**      | Team 3 Standup & Architecture discussion |
-| **9:30 - 9:50**      | Team 1 Standup & Architecture discussion |
-| **9:50 - 10:10**     | Team 2 Standup & Architecture discussion |
-| **10:10 - 10:30**    | Team 4 Standup & Architecture discussion |
+| **9:30** - **10:30** | Omniauth / API recap |
 | **10:30** - **5:00** | [See More Project work](see-more.md) |
 
 ### Wednesday
@@ -41,7 +39,7 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **9:15 - 10:45**  | [Creating an Api in Rails](wednesday/creating-an-api-in-rails.md)|
+| **9:30** - **10:30** | Omniauth / API recap |
 | **10:45** - **5:00** | [See More Project work](see-more.md) |
 
 ### Thursday
@@ -58,12 +56,3 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 | **9:00 - 9:15**     | Stand Up            |
 | **10:30** - **4:00** | [See More Project work](see-more.md) |
 | **4:00** - **5:00** | Katherine & Rhea from Isilon |
-
-**Homework**
-
-- Watch the [ActionMailer Railscast](http://railscasts.com/episodes/206-action-mailer-in-rails-3)
-- Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
-
-*Note*: This screencast uses Rails 3, but everything is pretty much exactly the same.
-
-*Note Two*: We will be doing lessons on both of these topics on tuesday, you can choose to watch these screencasts before or after the lessons, but I encourage you to watch them before **and** after the lesson.
