@@ -63,26 +63,37 @@ touch config/initializers/omniauth.rb
 
 Inside of this new file, add this configuration:
 
-```ruby  Rails.application.config.middleware.use OmniAuth::Builder do
-      provider :github, YOUR_CLIENT_ID, YOUR_CLIENT_SECRET
-    end
+```ruby  
+# config/initializers/omniauth.rb
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :github, YOUR_CLIENT_ID, YOUR_CLIENT_SECRET
+end
 ```
 
-Since this file will most likely be hosted publicly, it is wise to use a method to obscure these values, I personally use environment variables, and [foreman](https://github.com/ddollar/foreman) to load them locally, But [figaro](https://github.com/laserlemon/figaro) is a great technique to do this too, we'll use figaro here, add `gem 'figaro'` to your gemfile, then:
+We don't want to commit our id or secret to github, so we can use what is called
+and environment variable. Basically there is a constant in called `ENV` which is a hash
+of data loaded when ruby was loaded.
 
-    bundle
-    rails generate figaro:install
+We can use a gem called [dotenv-rails](https://github.com/bkeepers/dotenv) to help us
+manage our environment variables.
 
-This will create a file `config/application.yml`, open this file and put in your Github credentials:
+```ruby
+#Gemfile
+gem 'dotenv-rails', :groups => [:development, :test]
+```
 
-    GITHUB_CLIENT_ID: fd6XXXXXXXX
-    GITHUB_CLIENT_SECRET: y6wXXXXXXX
-
+```ruby
+#.env
+GITHUB_CLIENT_ID: fd6XXXXXXXX
+GITHUB_CLIENT_SECRET: y6wXXXXXXX
+```
 This will load these key/values as environment variables in our rails app, so now the `config/initializers/omniauth.rb` can be changed to:
 
-    Rails.application.config.middleware.use OmniAuth::Builder do
-      provider :github, ENV["GITHUB_CLIENT_ID"], ENV["GITHUB_CLIENT_SECRET"]
-    end
+```ruby
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :github, ENV["GITHUB_CLIENT_ID"], ENV["GITHUB_CLIENT_SECRET"]
+end
+```
 
 Whew... done with configuration
 
@@ -123,118 +134,113 @@ We can use the above information returned by Github to create a user.
 ### Creating Users
 
 We'll create a user model and use TDD to implement the OmniAuth creation of a user
+```ruby
+# Gemfile
 
-Gemfile
-
-    group :development do
-      gem 'rspec-rails'
-    end
-
-Terminal  
-
+group :development do
+  gem 'rspec-rails'
+end
+```
+```bash
     rails g rspec:install
     rails g model user username:string email:string uid:string provider:string avatar_url:string
     rake db:migrate
     rake db:test:clone
+```
 
 Next we'll add some configuration and specs to test the creation of users with OmniAuth:
 
-/spec/spec_helper.rb
+```ruby
+# /spec/spec_helper.rb
 
-    ## The following goes inside the `Rspec.configure` block:
-      config.before(:suite) do
-        # Once you have enabled test mode, all requests
-        # to OmniAuth will be short circuited
-        # to use the mock authentication hash.
-        # A request to /auth/provider will redirect
-        # immediately to /auth/provider/callback.
+## The following goes inside the `Rspec.configure` block:
+config.before(:suite) do
+  # Once you have enabled test mode, all requests
+  # to OmniAuth will be short circuited
+  # to use the mock authentication hash.
+  # A request to /auth/provider will redirect
+  # immediately to /auth/provider/callback.
 
-        OmniAuth.config.test_mode = true
+  OmniAuth.config.test_mode = true
 
-        # The mock_auth configuration allows you to
-        set per-provider (or default) authentication
-        hashes to return during testing.
+  # The mock_auth configuration allows you to
+  set per-provider (or default) authentication
+  hashes to return during testing.
 
-        OmniAuth.config.mock_auth[:twitter] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", nickname: "Bookis"}})
-      end
+  OmniAuth.config.mock_auth[:twitter] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", nickname: "Bookis"}})
+end
+```
 
+```ruby
+# /spec/models/user_spec.rb
 
-/spec/models/user_spec.rb
+require 'spec_helper'
 
-  require 'spec_helper'
+describe User do
+let(:user) { User.new(
+    email:    "a@b.com",
+    username: "Bookis",
+    uid:      "1234",
+    provider: "github")
+  }
 
-  describe User do
-    let(:user) { User.new(
-        email:    "a@b.com",
-        username: "Bookis",
-        uid:      "1234",
-        provider: "github")
-      }
-
-      describe "validations" do
-        it "is valid" do
-          expect(user).to be_valid
-        end
-        it "requires an email" do
-          user.email = nil
-          expect(user).to be_invalid
-        end
-
-        it "requires a username" do
-          user.username = nil
-          expect(user).to be_invalid
-        end
-
-        it "requires a uid" do
-          user.uid = nil
-          expect(user).to be_invalid
-        end
-        it "requires a provider" do
-          user.provider = nil
-          expect(user).to be_invalid
-        end
-      end
-
-
-      describe ".initialize_from_omniauth" do
-        let(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:twitter]) }
-
-        it "creates a valid user" do
-          expect(user).to be_valid
-        end
-
-        context "when it's invalid" do
-          it "returns nil" do
-            user = User.find_or_create_from_omniauth({"uid" => "123", "info" => {}})
-            expect(user).to be_nil
-          end
-        end
-      end
+  describe "validations" do
+    it "is valid" do
+      expect(user).to be_valid
+    end
+    it "requires an email" do
+      user.email = nil
+      expect(user).to be_invalid
     end
 
+    it "requires a username" do
+      user.username = nil
+      expect(user).to be_invalid
+    end
+
+    it "requires a uid" do
+      user.uid = nil
+      expect(user).to be_invalid
+    end
+    it "requires a provider" do
+      user.provider = nil
+      expect(user).to be_invalid
+    end
+  end
+
+
+  describe ".initialize_from_omniauth" do
+    let(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:twitter]) }
+
+    it "creates a valid user" do
+      expect(user).to be_valid
+    end
+
+    context "when it's invalid" do
+      it "returns nil" do
+        user = User.find_or_create_from_omniauth({"uid" => "123", "info" => {}})
+        expect(user).to be_nil
+      end
+    end
+  end
+end
+```
 
 To fix the rspec failures we would add the following to our `app/models/user.rb`
 
-    class User < ActiveRecord::Base
-      validates :email, :username, :uid, :provider, presence: true
+```ruby
+class User < ActiveRecord::Base
+  validates :email, :username, :uid, :provider, presence: true
 
-      def self.find_or_create_from_omniauth(auth_hash)
-        User.find_by(uid: auth_hash["uid"]) || create_from_omniauth(auth_hash)
-      end
+  def self.find_or_create_from_omniauth(auth_hash)
+    # Find or create a user
+  end
 
-      def self.create_from_omniauth(auth_hash)
-        self.create!(
-          uid:      auth_hash["uid"],
-          provider: auth_hash["provider"],
-          email:    auth_hash["info"]["email"],
-          avatar_url: auth_hash["info"]["image"],
-          username: auth_hash["info"]["nickname"]
-        )
-      rescue ActiveRecord::RecordInvalid
-        nil
-      end
-    end
-
+  def self.create_from_omniauth(auth_hash)
+    # Create a user
+  end
+end
+```
 
 ### Receiving the request
 
@@ -250,77 +256,78 @@ config/routes.rb, adding a root_path route.
 
     root to: "users#show"
 
-spec/controllers/sessions_controller_spec.rb
-    require 'spec_helper'
+```ruby
+# spec/controllers/sessions_controller_spec.rb
+require 'spec_helper'
 
-    describe SessionsController do
-      describe "GET 'create'" do
-        context "when using github authorization" do
-          context "is successful" do
-            before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:twitter] }
+describe SessionsController do
+  describe "GET 'create'" do
+    context "when using github authorization" do
+      context "is successful" do
+        before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:twitter] }
 
-            it "redirects to home page" do
-              get :create, provider: :github
-              expect(response).to redirect_to root_path
-            end
+        it "redirects to home page" do
+          get :create, provider: :github
+          expect(response).to redirect_to root_path
+        end
 
-            it "creates a user" do
-              expect { get :create, provider: :github }.to change(User, :count).by(1)
-            end
+        it "creates a user" do
+          expect { get :create, provider: :github }.to change(User, :count).by(1)
+        end
 
-            it "assigns the @user var" do
-              get :create, provider: :github
-              expect(assigns(:user)).to be_an_instance_of User
-            end
+        it "assigns the @user var" do
+          get :create, provider: :github
+          expect(assigns(:user)).to be_an_instance_of User
+        end
 
-            it "assigns the session[:user_id]" do
-              get :create, provider: :github
-              expect(session[:user_id]).to eq assigns(:user).id
-            end
+        it "assigns the session[:user_id]" do
+          get :create, provider: :github
+          expect(session[:user_id]).to eq assigns(:user).id
+        end
 
-          end
+      end
 
-          context "when the user has already signed up" do
-            before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:twitter] }
-            let!(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:twitter]) }
+      context "when the user has already signed up" do
+        before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:twitter] }
+        let!(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:twitter]) }
 
-            it "doesn't create another user" do
-              expect { get :create, provider: :github }.to_not change(User, :count).by(1)
-            end
+        it "doesn't create another user" do
+          expect { get :create, provider: :github }.to_not change(User, :count).by(1)
+        end
 
-            it "assigns the session[:user_id]" do
-              get :create, provider: :github
-              expect(session[:user_id]).to eq user.id
-            end
-          end
+        it "assigns the session[:user_id]" do
+          get :create, provider: :github
+          expect(session[:user_id]).to eq user.id
+        end
+      end
 
-          context "fails on github" do
-            before { request.env["omniauth.auth"] = :invalid_credential }
+      context "fails on github" do
+        before { request.env["omniauth.auth"] = :invalid_credential }
 
-            it "redirect to home with flash error" do
-              get :create, provider: :github
-              expect(response).to redirect_to root_path
-              expect(flash[:notice]).to include "Failed to authenticate"
-            end
-          end
+        it "redirect to home with flash error" do
+          get :create, provider: :github
+          expect(response).to redirect_to root_path
+          expect(flash[:notice]).to include "Failed to authenticate"
+        end
+      end
 
-          context "when failing to save the user" do
-            before {
-              request.env["omniauth.auth"] = {"uid" => "1234", "info" => {}}
-            }
+      context "when failing to save the user" do
+        before {
+          request.env["omniauth.auth"] = {"uid" => "1234", "info" => {}}
+        }
 
-            it "redirect to home with flash error" do
-              get :create, provider: :github
-              expect(response).to redirect_to root_path
-              expect(flash[:notice]).to include "Failed to save the user"
-            end
-          end
+        it "redirect to home with flash error" do
+          get :create, provider: :github
+          expect(response).to redirect_to root_path
+          expect(flash[:notice]).to include "Failed to save the user"
         end
       end
     end
-
-app/controllers/sessions_controller.rb
+  end
+end
+```
 ```ruby
+# app/controllers/sessions_controller.rb
 class SessionsController < ApplicationController
 
   def create
@@ -358,3 +365,8 @@ app/views/users/show.html.erb
     <%= image_tag current_user.avatar_url %>
     <h1><%= current_user.username %></h1>
     <b><%= current_user.email %></b>
+
+Resources
+----------
+
+[Environment variables on Heroku](https://devcenter.heroku.com/articles/config-vars)
