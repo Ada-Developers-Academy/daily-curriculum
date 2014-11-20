@@ -1,6 +1,6 @@
 # Week 13
 
-In week 13 we will continue working on [SeeMore project](see-more.md), in which the students will create a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
+In week 13 we will continue working on [SeeMore project](see-more.md), in which the students will consume a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
 
 ## Goals
 - Identify when to use an external web API
@@ -25,10 +25,6 @@ In week 13 we will continue working on [SeeMore project](see-more.md), in which 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:10 - 9:30**      | Kronda |
-| **9:10 - 9:30**      | Team 3 Standup & Architecture discussion |
-| **9:30 - 9:50**      | Team 1 Standup & Architecture discussion |
-| **9:50 - 10:10**     | Team 2 Standup & Architecture discussion |
-| **10:10 - 10:30**    | Team 4 Standup & Architecture discussion |
 | **10:30** - **5:00** | [See More Project work](see-more.md) |
 
 ### Wednesday
@@ -40,14 +36,5 @@ In week 13 we will continue working on [SeeMore project](see-more.md), in which 
 
 ### Thursday
 
-| Time              | Topic               |
-|:-----------------:|:--------------------|
-| **9:00 - 9:15**     | Stand Up            |
-| **10:30** - **5:00** | [See More Project work](see-more.md) |
 
 ### Friday
-
-| Time              | Topic               |
-|:-----------------:|:--------------------|
-| **9:00 - 9:15**     | Stand Up            |
-| **10:30** - **5:00** | [See More Project work](see-more.md) |

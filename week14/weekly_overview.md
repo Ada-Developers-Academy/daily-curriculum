@@ -21,27 +21,24 @@ Additional Lectures
 - Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
 
 | **1:00 - 2:00**  | [Using Ajax](monday/ajax.md)               |
-| **9:15 - 10:10**  | [ActionMailer & Pony](tuesday/mailers.md)              |
-| **10:15 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md) |
 
 
 ### Monday
 | Time              | Topic                                             |
 |:-----------------:|:-------------------------------------------------:|
-| **9:15 - 10:00**  | [PB&J Exercise](monday/pb_and_j.md)               |
-| **10:05 - 11:00** | [Beginning Pea Patch Planner](p_patch_planner.md) |
-| **11:00 -5:00**   | [PPP Project Time](p_patch_planner.md.md)         |
+| **9:15 - 10:30**  | [ActionMailer & Pony](tuesday/mailers.md)              |
+| **10:30 -5:00**   | SeeMore Project Time         |
 
 **Homework**
 
 
 ### Tuesday
-
-| Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 2:30** | [PPP Project Time](p_patch_planner.md.md) |
-| **2:30 - 5:00** | Field Trip - Moz                          |
+| Time              | Topic                                             |
+|:-----------------:|:-------------------------------------------------:|
+| **10:15 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md) |
+| **9:15 - 10:00**  | [PB&J Exercise](monday/pb_and_j.md)               |
+| **10:05 - 11:00** | [Beginning Pea Patch Planner](p_patch_planner.md) |
+| **11:00 -5:00**   | [PPP Project Time](p_patch_planner.md.md)         |
 
 
 ### Wednesday
@@ -49,7 +46,6 @@ Additional Lectures
 |:-----------------:|:-----------------------------------------:|
 | **9:00 - 9:15**   | Stand Up                                  |
 | **9:15 - 10:00**  | [PPP Project Time](p_patch_planner.md.md) |
-| **10:00 - 12:00** | [Response Design for Mobile](https://github.com/leifdalan/ada-responsive) - Devon & Leif      |
 | **12:00 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 
 
@@ -59,7 +55,6 @@ Additional Lectures
 |:---------------:|:-----------------------------------------:|
 | **9:00 - 9:15** | Stand Up                                  |
 | **9:15 - 2:00** | [PPP Project Time](p_patch_planner.md.md) |
-| **2:00 - 3:00** | Guest Speaker - Aja Hammerly              |
 | **3:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
 
 

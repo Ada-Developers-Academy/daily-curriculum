@@ -25,7 +25,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 - Time-based events
 
 
-### Presidents Day 
+### Presidents Day
 
 No School
 
@@ -36,7 +36,6 @@ No School
 | **9:00 - 9:15** | Stand Up                                  |
 | **9:15 - 12:00** | [PPP Project Time](../week14/p_patch_planner.md) && Project Recap w/Bookis |
 | **12:00 - 3:00** | [PPP Project Time](../week14/p_patch_planner.md) |
-| **3:00 - 4:00** | Ashe Dryden |
 | **4:00 - 5:00** | Tuesday Lesson Suggestions |
 
 
@@ -55,7 +54,6 @@ No School
 | **9:00 - 9:15** | Stand Up                                  |
 | **9:15 - 10:30**   | Lesson TBD by students                   |
 | **10:30 - 4:00** | [PPP Project Time](../week14/p_patch_planner.md) |
-| **4:00 - 7:00** | Community Contact Event |
 
 
 ### Friday
@@ -66,6 +64,3 @@ No School
 | **9:15 - 3:00** | [PPP Project Time](../week14/p_patch_planner.md) |
 | **3:00 - 4:00** | Weekly Retrospective                      |
 | **4:00 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
-
-
-

@@ -31,6 +31,7 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
+| **9:00** - **9:30** | SeeMore Requirement Review |
 | **9:30** - **10:30** | Omniauth / API recap |
 | **10:30** - **5:00** | [See More Project work](see-more.md) |
 
@@ -47,7 +48,7 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
-| **10:30** - **5:00** | [See More Project work](see-more.md) |
+| **9:15** - **5:00** | [See More Project work](see-more.md) |
 
 ### Friday
 

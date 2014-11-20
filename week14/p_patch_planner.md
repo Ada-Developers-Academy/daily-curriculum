@@ -10,10 +10,9 @@ You and your pair were recently contacted by a lawyer. Their client, a rich recl
     + Calendering
     + Weather
     + Twitter?
-- Revisit
-    + Resque
-    + ActionMailer
-    + Scheduler
++ Resque
++ ActionMailer
++ Scheduler
 - Time-based events
 
 ## Guidelines
@@ -58,7 +57,7 @@ Each of these will increase the size of the endowment by $2,000,000 when complet
 + Client Satisfaction
     * Visually appealing and polished
     * No major bugs
-        - Minor bugs noted in Pivotal Tracker or as a Github issue 
+        - Minor bugs noted in Pivotal Tracker or as a Github issue
 
 + Code Quality
     * Metrics
@@ -66,6 +65,3 @@ Each of these will increase the size of the endowment by $2,000,000 when complet
         - Rubocop: no more than 15 code style issues
         - Brakeman: no major security issues
         - Code Coverage for all Controller routes, Model validations, and Model methods
-
-
-

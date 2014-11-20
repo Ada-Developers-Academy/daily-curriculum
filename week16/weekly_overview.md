@@ -1,6 +1,6 @@
 # Week 16
 
-In Week 16 we will be begin a 2 week long unit on Refactoring and Service Oriented Architecture. Students will refactor a previous project, and build a Shipping service for their Congo projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop competency with testing.
+In Week 16 we will be begin a 2 week long unit on Refactoring and Service Oriented Architecture. Students will refactor a previous project, and build a Shipping service for their Betsy projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop competency with testing.
 
 As in Week 15, this week lectures may be à la carte, some potential topics to talk about as a class or in smaller groups:
 
@@ -38,7 +38,6 @@ Additionally, there will be an optional demo of building an app start to finish,
 | **9:15 - 10:45**  | [Creating an Api in Rails](../week12/wednesday/creating-an-api-in-rails.md)|
 
 | **10:30 - 3:00** | [SOA Shipping](shipping_service.md)       |
-| **3:00 - 4:00**  | Katrina Owens                             |
 | **4:00 - 5:00**  | Tuesday Lesson Suggestions                |
 
 
