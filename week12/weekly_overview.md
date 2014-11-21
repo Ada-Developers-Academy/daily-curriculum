@@ -54,7 +54,7 @@ In week 12 work on [SeeMore project](see-more.md), in which the students will cr
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:30**     | [Golf Jquery Warmup](/moar_word/golf.md)        |
+| **9:00 - 9:30**     | [Golf Jquery Warmup](/moar_work/golf.md)        |
 | **9:30** - **10:30** | [Ajax Lecture](friday/ajax.md) |
 | **10:30** - **4:00** | [See More Project work](see-more.md) |
 | **4:00** - **5:00** | Katherine & Rhea from Isilon |

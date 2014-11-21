@@ -1,4 +1,4 @@
-# Jquery Gold Practice
+# Jquery Golf Practice
 
 Getting Started
 ---------------
@@ -7,7 +7,7 @@ Getting Started
 - Get the app running with:
 
 ```bash
-cd gold-jquery-practice
+cd golf-jquery-practice
 bundle
 rake db:create db:migrate db:seed
 rails server
