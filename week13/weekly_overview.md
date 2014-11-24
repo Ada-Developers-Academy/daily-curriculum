@@ -18,21 +18,21 @@ In week 13 we will continue working on [SeeMore project](see-more.md), in which 
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **4:00** - **5:00** | [See More Project Work](see-more.md) |
+| **9:00** - **5:00** | [See More Project Work](see-more.md) |
 
 ### Tuesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:10 - 9:30**      | Kronda |
-| **10:30** - **5:00** | [See More Project work](see-more.md) |
+| **9:00** - **2:00** | [See More Project work](see-more.md) |
+| **2:00 - 4:00**      | Kronda |
+| **4:00** - **5:00** | [See More Project work](see-more.md) |
 
 ### Wednesday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:00 - 9:15**     | Stand Up            |
-| **10:45** - **5:00** | [See More Project work](see-more.md) |
+| **9:00** - **5:00** | [See More Project work](see-more.md) |
 
 ### Thursday
 
