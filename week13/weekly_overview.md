@@ -25,6 +25,7 @@ In week 13 we will continue working on [SeeMore project](see-more.md), in which 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00** - **2:00** | [See More Project work](see-more.md) |
+| **11:30** - **1:30** | See More Sprint Check-ins
 | **2:00 - 4:00**      | Kronda |
 | **4:00** - **5:00** | [See More Project work](see-more.md) |
 
