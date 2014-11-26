@@ -26,8 +26,9 @@ Additional Lectures
 ### Monday
 | Time              | Topic                                             |
 |:-----------------:|:-------------------------------------------------:|
-| **9:15 - 10:30**  | [ActionMailer & Pony](tuesday/mailers.md)              |
-| **10:30 -5:00**   | SeeMore Project Time         |
+| **9:15 - 11:00**  | Linked Lists with Dean              |
+| **11:00 - 12:00**  | [ActionMailer & Pony](tuesday/mailers.md)              |
+| **12:00 -5:00**   | SeeMore Project Time         |
 
 **Homework**
 
@@ -44,8 +45,9 @@ Additional Lectures
 ### Wednesday
 | Time              | Topic                                     |
 |:-----------------:|:-----------------------------------------:|
-| **9:00 - 9:15**   | Stand Up                                  |
-| **9:15 - 10:00**  | [PPP Project Time](p_patch_planner.md.md) |
+| **9:00 - 10:00**   | Whenever Gem |
+| **10:00 - 11:00**   | Calendar Gem |
+| **9:15 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 | **12:00 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 
 
