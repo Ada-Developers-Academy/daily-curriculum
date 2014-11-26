@@ -24,10 +24,13 @@ This week lectures may be à la carte, some potential topics to talk about as a 
     + Scheduler
 - Time-based events
 
+### Monday
 
-### Presidents Day
+| Time            | Topic                                     |
+|:---------------:|:-----------------------------------------:|
+| **9:00 - 9:15** | Stand Up                                  |
+| **9:15 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
 
-No School
 
 ### Tuesday
 
