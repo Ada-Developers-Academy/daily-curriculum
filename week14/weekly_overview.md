@@ -26,7 +26,8 @@ Additional Lectures
 ### Monday
 | Time              | Topic                                             |
 |:-----------------:|:-------------------------------------------------:|
-| **9:15 - 11:00**  | Linked Lists with Dean              |
+| **9:15 - 10:15**  | On Debugging: Processes and Tools              |
+| **10:00 - 11:00** | Debugging Tools: Chrome DevTools         |
 | **11:00 - 12:00**  | [ActionMailer & Pony](monday/mailers.md)              |
 | **12:00 -5:00**   | SeeMore Project Time         |
 
