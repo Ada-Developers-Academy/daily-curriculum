@@ -26,12 +26,13 @@ Additional Lectures
 ### Monday
 | Time              | Topic                                             |
 |:-----------------:|:-------------------------------------------------:|
-| **9:15 - 10:15**  | On Debugging: Processes and Tools              |
-| **10:00 - 11:00** | Debugging Tools: Chrome DevTools         |
+| **9:15 - 10:15**  | [On Debugging: Processes and Tools](monday/on_debugging.md)              |
+| **10:00 - 11:00** | [Debugging Tools: Chrome DevTools](monday/dev_tools.md)         |
 | **11:00 - 12:00**  | [ActionMailer & Pony](monday/mailers.md)              |
 | **12:00 -5:00**   | SeeMore Project Time         |
 
 **Homework**
+[Chapter 1 videos and challenges for CodeSchool Chrome DevTools: Elements](http://discover-devtools.codeschool.com/chapters/1)
 
 
 ### Tuesday
@@ -41,6 +42,9 @@ Additional Lectures
 | **9:15 - 10:00**  | [PB&J Exercise](monday/pb_and_j.md)               |
 | **10:05 - 11:00** | [Beginning Pea Patch Planner](p_patch_planner.md) |
 | **11:00 -5:00**   | [PPP Project Time](p_patch_planner.md.md)         |
+
+**Homework**
+[Chapter 2 videos and challenges for CodeSchool Chrome DevTools: Sources](http://discover-devtools.codeschool.com/chapters/2)
 
 
 ### Wednesday
@@ -52,6 +56,9 @@ Additional Lectures
 | **1:30 - 2:30**  | [PPP Project Time](p_patch_planner.md.md) |
 | **2:3 0 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 
+**Homework**
+[Chapter 3 videos and challenges for CodeSchool Chrome DevTools: Console](http://discover-devtools.codeschool.com/chapters/3)
+
 
 ### Thursday
 
@@ -60,6 +67,9 @@ Additional Lectures
 | **9:00 - 9:15** | Stand Up                                  |
 | **9:15 - 2:00** | [PPP Project Time](p_patch_planner.md.md) |
 | **3:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
+
+**Homework**
+[Chapter 4 videos and challenges for CodeSchool Chrome DevTools: Debugging](http://discover-devtools.codeschool.com/chapters/4)
 
 
 ### Friday
