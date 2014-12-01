@@ -23,4 +23,8 @@ The three most useful tabs (to begin with):
 
 * [Code School for Chrome DevTools](http://discover-devtools.codeschool.com/)
 
+* [Postman Chrome Extension](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)
+
 * [Chrome Documentation](https://developer.chrome.com/devtools/index)
+
+* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
