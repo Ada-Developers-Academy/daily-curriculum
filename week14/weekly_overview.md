@@ -37,10 +37,9 @@ Additional Lectures
 ### Tuesday
 | Time              | Topic                                             |
 |:-----------------:|:-------------------------------------------------:|
-| **10:15 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md) |
-| **9:15 - 10:00**  | [PB&J Exercise](monday/pb_and_j.md)               |
-| **10:05 - 11:00** | [Beginning Pea Patch Planner](p_patch_planner.md) |
-| **11:00 -5:00**   | [PPP Project Time](p_patch_planner.md.md)         |
+| **9:05 - 10:00**  | See More Presentations               |
+| **10:00 - 11:30** | [Background Jobs w/Resque](tuesday/background-jobs.md) |
+| **11:30 -5:00**   | [PPP Project Time](p_patch_planner.md.md)         |
 
 
 ### Wednesday
