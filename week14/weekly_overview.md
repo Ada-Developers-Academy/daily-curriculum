@@ -28,7 +28,7 @@ Additional Lectures
 |:-----------------:|:-------------------------------------------------:|
 | **9:15 - 10:15**  | On Debugging: Processes and Tools              |
 | **10:00 - 11:00** | Debugging Tools: Chrome DevTools         |
-| **11:00 - 12:00**  | [ActionMailer & Pony](monday/mailers.md)              |
+| **11:00 - 12:00**  | [ActionMailer](monday/mailers.md)              |
 | **12:00 -5:00**   | SeeMore Project Time         |
 
 **Homework**
