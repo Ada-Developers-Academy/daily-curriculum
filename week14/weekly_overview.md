@@ -50,7 +50,6 @@ Additional Lectures
 | Time              | Topic                                     |
 |:-----------------:|:-----------------------------------------:|
 | **9:00 - 10:00**   | Whenever Gem |
-| **10:00 - 11:00**   | Calendar Gem |
 | **9:15 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 | **1:30 - 2:30**  | [PPP Project Time](p_patch_planner.md.md) |
 | **2:3 0 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
