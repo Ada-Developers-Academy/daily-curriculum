@@ -73,7 +73,5 @@ Additional Lectures
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 3:00** | [PPP Project Time](p_patch_planner.md.md) |
-| **3:00 - 4:00** | Weekly Retrospective                      |
-| **4:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
+| **9:00 - 4:00** | [PPP Project Time](p_patch_planner.md.md) |
+| **4:00 - 5:00** | Weekly Retrospective  |
