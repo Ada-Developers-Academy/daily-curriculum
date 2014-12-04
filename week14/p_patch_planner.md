@@ -30,7 +30,7 @@ Your task is to create a web application that will help organize the garden, by 
 ### Technical Requirements
 These are the minimum requirements for us to get the $15,000,000
 
-+ Allows Users to sign-up and login securely with username/password **OR** Twitter
++ Allows Users to sign-up and login securely with username/password **OR** Twitter (pick one)
 + Allows Users who are admins of the system to create blog posts for a "News" section
 + Sends Users email updates when new News articles are posted
 + Allows Users to add comments to a News post ([Disqus](https://disqus.com/)?)
