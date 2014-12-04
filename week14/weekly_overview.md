@@ -50,9 +50,7 @@ Additional Lectures
 | Time              | Topic                                     |
 |:-----------------:|:-----------------------------------------:|
 | **9:00 - 10:00**   | Whenever Gem |
-| **9:15 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
-| **1:30 - 2:30**  | [PPP Project Time](p_patch_planner.md.md) |
-| **2:3 0 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
+| **10:00 - 5:00**  | [PPP Project Time](p_patch_planner.md.md) |
 
 **Homework**
 [Chapter 3 videos and challenges for CodeSchool Chrome DevTools: Console](http://discover-devtools.codeschool.com/chapters/3)
@@ -62,9 +60,10 @@ Additional Lectures
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 2:00** | [PPP Project Time](p_patch_planner.md.md) |
-| **3:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
+| **9:00 - 9:45** | Rake                                  |
+| **9:45 - 2:00** | [PPP Project Time](p_patch_planner.md.md) |
+| **2:00 - 4:00** | Kelsey Foley |
+| **4:00 - 5:00** | [PPP Project Time](p_patch_planner.md.md) |
 
 **Homework**
 [Chapter 4 videos and challenges for CodeSchool Chrome DevTools: Debugging](http://discover-devtools.codeschool.com/chapters/4)
