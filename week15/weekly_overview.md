@@ -37,10 +37,9 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 12:00** | [PPP Project Time](../week14/p_patch_planner.md) && Project Recap w/Bookis |
-| **12:00 - 3:00** | [PPP Project Time](../week14/p_patch_planner.md) |
-| **4:00 - 5:00** | Tuesday Lesson Suggestions |
+| **9:00 - 1:30** | PPP Project Time |
+| **1:30 - 2:15** | Jason Greer from General UI|
+| **2:15 - 5:00** | PPP Project Time |
 
 
 ### Wednesday
