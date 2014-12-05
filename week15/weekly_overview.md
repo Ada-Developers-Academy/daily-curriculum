@@ -28,8 +28,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 2:00** | [PPP Project Time](../week14/p_patch_planner.md) |
+| **9:00 - 2:00** | [PPP Project Time](../week14/p_patch_planner.md) |
 | **2:00 - 5:00** | Norma Timbang |
 
 
@@ -45,9 +44,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 ### Wednesday
 | Time              | Topic                                     |
 |:-----------------:|:-----------------------------------------:|
-| **9:00 - 9:15**   | Stand Up                                  |
-| **9:15 - 10:30**   | Lesson TBD by students                   |
-| **10:30 - 4:00**  | [PPP Project Time](../week14/p_patch_planner.md) |
+| **9:00 - 4:00**  | [PPP Project Time](../week14/p_patch_planner.md) |
 | **4:00 - 5:00**  | Field Trip to Zillow |
 
 
@@ -55,16 +52,12 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 10:30**   | Lesson TBD by students                   |
-| **10:30 - 4:00** | [PPP Project Time](../week14/p_patch_planner.md) |
+| **9:00 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
 
 
 ### Friday
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 9:15** | Stand Up                                  |
-| **9:15 - 3:00** | [PPP Project Time](../week14/p_patch_planner.md) |
-| **3:00 - 4:00** | Weekly Retrospective                      |
-| **4:00 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
+| **9:15 - 4:00** | [PPP Project Time](../week14/p_patch_planner.md) |
+| **4:00 - 5:00** | Weekly Retrospective                      |
