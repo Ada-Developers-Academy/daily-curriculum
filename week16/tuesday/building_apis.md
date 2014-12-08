@@ -18,7 +18,7 @@ Imagine each class in your application as a separate application, a collection o
 
 ### Ask "What does the user want to do?"
 
-One of the more common failure of APIs is to simply expose the inner workings of models or controllers. Often this leads forcing users to understand the inner complexities, tangled dependencies, and specialized terminology of your particular application. 
+One of the more common failure of APIs is to simply expose the inner workings of models or controllers. Often this leads forcing users to understand the inner complexities, tangled dependencies, and specialized terminology of your particular application.
 
 We can avoid this problem by asking from the very first, "What does the user want to do?" By putting ourselves into their shoes, working to question the assumptions and vocabulary of our audience, we can craft friendly, usable APIs that can lead to more interesting implementations than APIs that are artificially limiting their use cases through poor design.
 
@@ -28,7 +28,7 @@ Although its not 100% obvious, your Rails application is already an API. One app
 
 Typically, our Rails APIs will strive to be RESTful, and return data formated as JSON. There are other valid formats, of course - XML is common in some use cases - but we'll be focusing on JSON for this.
 
-When want a Rails app to return JSON instead of HTML, its fairly easy to tell the controller to do so. The same controller action can return different formats depending on whether your user is making a request from a browser or an API call from JavaScript. By default, Rails assumes you want HTML, but the app can determine which type of request is being made based on the extension. 
+When we want a Rails app to return JSON instead of HTML, its fairly easy to tell the controller to do so. The same controller action can return different formats depending on whether your user is making a request from a browser or an API call from JavaScript. By default, Rails assumes you want HTML, but the app can determine which type of request is being made based on the extension. 
 
 Let's take a look at this with *hits_of_the_adies* demo app. From the command line, we'll use *curl* to fetch the `#show` action for the Singles controller:
 
@@ -129,6 +129,3 @@ Just like that, we've built a very simple API. Naturally, it can get quite a bit
 [Building a Platform API on Rails](http://mt.gomiso.com/2011/06/27/building-a-platform-api-on-rails/)
 
 [HTTP status code symbols for Rails](http://futureshock-ed.com/2011/03/04/http-status-code-symbols-for-rails/)
-
-
-

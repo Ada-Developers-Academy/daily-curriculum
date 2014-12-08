@@ -1,6 +1,6 @@
 # Simple Service Security
 
-In this lesson we will learn how to implement a simple security measure into a 
+In this lesson we will learn how to implement a simple security measure into a
 web service. We will be using [HMAC](http://en.wikipedia.org/wiki/Hash-based_message_authentication_code)
 to "sign" requests and check the signature of the request on the other end.
 
@@ -14,7 +14,7 @@ What this will not accomplish:
 
 - Encrypting the actual data.
 
-We are going to build two app, a user client, and a blog service. From the user
+We are going to build two apps, a user client, and a blog service. From the user
 client we want to be able to send posts to the blog service, and have the blog
 service only accept the request if:
 
@@ -151,7 +151,7 @@ into this `HMAC.digest` method, this gives us back the longer string.
 Base64.encode64(hmac).chomp
 ```
 
-Next we stick that `hmac` value into a [base64](http://en.wikipedia.org/wiki/Base64) encoder, 
+Next we stick that `hmac` value into a [base64](http://en.wikipedia.org/wiki/Base64) encoder,
 And out pops our signature!
 
 ```rb
@@ -174,15 +174,15 @@ class ServiceAuthentication
     @sig    = sig
     @time   = time
   end
-  
+
   def sign
     Base64.encode64(OpenSSL::HMAC.digest(digest, @key, data)).chomp
   end
-  
+
   def data
     @params.to_query+"&path=#{@path}&method=#{@method}&time=#{@time}"
   end
-  
+
   def digest
     OpenSSL::Digest::Digest.new('sha1')
   end
@@ -212,32 +212,32 @@ And implement the `Post` class
 
 ```rb
 class Post
-  
+
   def initialize(user_id)
     @user_id = user_id
   end
-  
+
   def all
     @params = {user_id: @user_id}
     @path = "/posts"
     @method = "GET"
-    HTTParty.get("http://localhost:3001#{@path}", 
+    HTTParty.get("http://localhost:3001#{@path}",
       query: @params,
       headers: headers
     )
   end
-  
+
   def headers
     time = Time.now.to_i.to_s
     {
-      "REQUEST_TIME" => time, 
+      "REQUEST_TIME" => time,
       "REQUEST_SIGNATURE" => ServiceAuthentication.new("testkey", @params, @path, @method, time).sign
     }
   end
 end
 ```
 
-As you can see I've pulled a headers hash into a seperate method, `HTTParty`
+As you can see I've pulled a headers hash into a separate method, `HTTParty`
 allows you to add any headers to a request simply by passing in a `headers` key
 in any request.
 
@@ -253,12 +253,12 @@ not running yet, os let's get it going.
 
 ## Authenticating in the Blog Service
 
-The blog service will now receive a `GET` request to `/posts` that includes the 
+The blog service will now receive a `GET` request to `/posts` that includes the
 params `{user_id: 1}`, as well as a HTTP header of the time the request was sent,
 and the signature from the request. We can now write a function that ensures this
 signature is authentic.
 
-I'm going to use the same class for authenticating the user on the other end, I'm 
+I'm going to use the same class for authenticating the user on the other end, I'm
 just going to copy the file, but this may be a good time to make a gem.
 
 Switch over the the blog app and do some base setup:
@@ -286,7 +286,7 @@ class PostsController < ApplicationController
     @posts = Post.where(user_id: params[:user_id])
     render json: @posts
   end
-  
+
   def create
     @post = Post.new(params.require(:post).permit(:body, :title, :user_id))
     if @post.save
@@ -309,23 +309,23 @@ Post.new(1).all
 ```
 
 The response is successful, there aren't any users returned because we haven't
-actually created any yet. Let's go back to the service and add authentication. 
+actually created any yet. Let's go back to the service and add authentication.
 In `app/controllers/application_controller.rb
 
 ```rb
     # protect_from_forgery with: :exception COMMENT THIS LINE OUT
     before_action :check_authenticity
-  
+
   def check_authenticity
     render status: :unauthorized, text: "403 Unauthorized"
   end
 ```
 
-This will make all reqeusts fail with a status of `403`. Try your client from the
+This will make all requests fail with a status of `403`. Try your client from the
 terminal again to confirm.
 
 At this point if we go into the rails console of
-the client, we can now use the Post class that we made to make a request to the 
+the client, we can now use the Post class that we made to make a request to the
 service
 
 Now we need to wrap this render unauthorized in a `authenticated?` method.
@@ -375,10 +375,10 @@ compare the two, as well as assess if the time provided has been within the last
 seconds.
 
 Ta-da. This should now protect against any request that doesn't have a signature
-that can be recreated in the service. Some benifits of this technique:
+that can be recreated in the service. Some benefits of this technique:
 
 - The `testkey` can be changed to reset the security if the apps security is compromised.
-- The request is time senstive.
+- The request is time sensitive.
 - If any single character of the request is incorrect (tampered in a "man in the middle" attack) the signature will not match.
 
 ## Todo
