@@ -40,20 +40,22 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 ### Wednesday
 | Time              | Topic                                     |
 |:-----------------:|:-----------------------------------------:|
-| **9:00 - 4:00**  | [PPP Project Time](../week14/p_patch_planner.md) |
-| **4:00 - 5:00**  | Field Trip to Zillow |
+| **9:00 - 10:00**  | Lecture Time |
+| **10:00 - 5:00**  | [PPP Project Time](../week14/p_patch_planner.md) |
 
 
 ### Thursday
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
+| **9:00 - 10:00**  | Lecture Time |
+| **10:00 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
 
 
 ### Friday
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:15 - 4:00** | [PPP Project Time](../week14/p_patch_planner.md) |
+| **9:00 - 10:00**  | Lecture Time |
+| **10:00 - 4:00** | [PPP Project Time](../week14/p_patch_planner.md) |
 | **4:00 - 5:00** | Weekly Retrospective                      |
