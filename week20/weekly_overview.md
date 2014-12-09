@@ -13,7 +13,6 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| **9:10 - 10:00**  | Susannah's Interviewing Tips                 |
 | **10:00 - 10:30** | [Choosing a Project](choose-your-project.md) |
 | **10:30 - 2:30**  | Project Time                                 |
 | **2:30 - 3:30**   | [Ruby Blocks](monday/ruby_blocks.md)         |
@@ -42,7 +41,6 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 |:----------------|:---------------------------------|
 | **9:00 - 9:15** | Stand Up                         |
 | **9:15 - 2:00** | Project Time                     |
-| **2:00 - 3:00** | Guest Speaker - Kathleen Tuite [(PDF)](thursday/datastructures.pdf) |
 | **3:00 - 4:00** | Project Time                     |
 | **4:00 - 4:45** | [Brakeman](thursday/brakeman.md), [Code Climate](thursday/code_climate.md) |
 | **4:45 - 5:00** | [Interview Preparation](thursday/preparing_for_interviews.md) |
@@ -57,6 +55,3 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 | **10:45 - 5:00**  | Project Time                                           |
 
 **Interviews:** On Friday, from 12 noon to 5pm, we will be rotating through interviews with internship sponsors
-
-
-

@@ -24,10 +24,7 @@ Additionally, there will be an optional demo of building an app start to finish,
 
 | Time             | Topic                                  |
 |:-----------------|:---------------------------------------|
-| **9:00 - 9:15**  | Stand Up                               |
-| **9:15 - 10:30** | Introduction to SOA                    |
-| **??** - **?**   | "Refactoring with SOA In Mind"         |
-| **10:30 - 5:00** | Refactoring on Congo                   |
+| **9:00 - 5:00**  | Microsoft Garage                               |
 
 ### Tuesday
 
