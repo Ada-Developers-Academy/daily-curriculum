@@ -40,7 +40,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 ### Wednesday
 | Time              | Topic                                     |
 |:-----------------:|:-----------------------------------------:|
-| **9:00 - 10:00**  | Lecture Time |
+| **9:00 - 10:00**  | [Rspec Practice](wednesday/rspec-practice.md) |
 | **10:00 - 5:00**  | [PPP Project Time](../week14/p_patch_planner.md) |
 
 
