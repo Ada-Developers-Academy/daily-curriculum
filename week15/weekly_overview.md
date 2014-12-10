@@ -48,8 +48,8 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 
 | Time            | Topic                                     |
 |:---------------:|:-----------------------------------------:|
-| **9:00 - 10:00**  | Lecture Time |
-| **10:00 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
+| **9:00 - 10:30**  | Lecture Time w/Dean|
+| **13:00 - 5:00** | [PPP Project Time](../week14/p_patch_planner.md) |
 
 
 ### Friday
