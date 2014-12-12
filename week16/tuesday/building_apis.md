@@ -28,9 +28,9 @@ Although its not 100% obvious, your Rails application is already an API. One app
 
 Typically, our Rails APIs will strive to be RESTful, and return data formated as JSON. There are other valid formats, of course - XML is common in some use cases - but we'll be focusing on JSON for this.
 
-When we want a Rails app to return JSON instead of HTML, its fairly easy to tell the controller to do so. The same controller action can return different formats depending on whether your user is making a request from a browser or an API call from JavaScript. By default, Rails assumes you want HTML, but the app can determine which type of request is being made based on the extension. 
+When we want a Rails app to return JSON instead of HTML, its fairly easy to tell the controller to do so. The same controller action can return different formats depending on whether your user is making a request from a browser or an API call from JavaScript. By default, Rails assumes you want HTML, but the app can determine which type of request is being made based on the extension.
 
-Let's take a look at this with *hits_of_the_adies* demo app. From the command line, we'll use *curl* to fetch the `#show` action for the Singles controller:
+Let's take a look at this with [hits_of_the_adie](https://github.com/Ada-Developers-Academy/singles-demo) demo app. From the command line, we'll use *curl* to fetch the `#show` action for the Singles controller:
 
 ```
 # returns HTML by default

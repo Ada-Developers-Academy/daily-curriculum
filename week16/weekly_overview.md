@@ -24,14 +24,13 @@ Additionally, there will be an optional demo of building an app start to finish,
 
 | Time             | Topic                                  |
 |:-----------------|:---------------------------------------|
-| **9:00 - 5:00**  | Microsoft Garage                               |
+| **9:00 - 5:00**  | Microsoft Garage  |
 
 ### Tuesday
 
 | Time             | Topic                                     |
 |:-----------------|:------------------------------------------|
-| **9:00 - 9:15**  | Stand Up                                  |
-| **9:15 - 10:30** | [Building APIs](tuesday/building_apis.md) |
+| **9:00 - 10:30** | [Building APIs](tuesday/building_apis.md) |
 | **9:15 - 10:45**  | [Creating an Api in Rails](../week12/wednesday/creating-an-api-in-rails.md)|
 
 | **10:30 - 3:00** | [SOA Shipping](shipping_service.md)       |
