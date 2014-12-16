@@ -38,7 +38,9 @@ This week lectures may be à la carte.
 |:-----------------|:------------------------------------|
 | **9:00 - 9:15**  | Stand Up                            |
 | **9:15 - 10:30** | Lesson TBD by students              |
-| **10:30 - 5:00** | [SOA Shipping](shipping_service.md) |
+| **10:30 - 3:00** | [SOA Shipping](shipping_service.md) |
+| **3:00 - 4:00** | Amazon in class |
+| **4:00 - 5:00** | [SOA Shipping](shipping_service.md) |
 
 
 
