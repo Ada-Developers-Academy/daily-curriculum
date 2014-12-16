@@ -1,7 +1,8 @@
 Shipping Service
 =================
 
-Build a stand-alone shipping service API that calculates estimated shipping cost for an order from your Toys App application
+Build a stand-alone shipping service API that calculates estimated shipping cost for an order from your Toys App application. Fork the appropriate repo
+from [Ada-Projects](https://github.com/Ada-Projects).
 
 Goals
 --------
