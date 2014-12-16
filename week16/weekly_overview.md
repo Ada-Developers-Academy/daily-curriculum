@@ -20,10 +20,8 @@ This week lectures may be à la carte.
 |:-----------------|:------------------------------------------|
 | **9:00 - 9:30** | [SOA Overview](shipping_service.md) |
 | **9:30 - 10:00** | [Building APIs](tuesday/building_apis.md) |
-| **10:30 - 10:45**  | [Creating an Api in Rails](../week12/wednesday/creating-an-api-in-rails.md)|
-
-| **10:30 - 3:00** | [SOA Shipping](shipping_service.md)       |
-| **4:00 - 5:00**  | Tuesday Lesson Suggestions                |
+| **10:00 - 11:00**  | [Creating an Api in Rails](../week12/wednesday/creating-an-api-in-rails.md)|
+| **11:00 - 5:00** | [SOA Shipping](shipping_service.md)       |
 
 
 ### Wednesday
