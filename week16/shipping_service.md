@@ -42,6 +42,7 @@ Technical Requirements
 + Logs all requests and their associated responses such that an audit could be conducted.
 + Deployed on Heroku and kept alive (no 20 min idling please!)
 + Responds with JSON and proper HTTP response codes
+- Implement the shipping quotes within [Toys](https://github.com/bookis/shipping-app-client)
 
 ### Extra Stuff
 
