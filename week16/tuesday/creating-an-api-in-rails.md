@@ -16,21 +16,19 @@ Speed setup:
 
 ```bash
 # Terminal
-rails new ada_pets -T
+rails new ada_pets -T -d postgresql
 ```
 
 ```ruby
 # Gemfile, add rspec
 group :development, :test do
   gem "rspec-rails"
-  gem "guard-rspec"
 end
 ```
 
 ```
 # Terminal
 rails g rspec:install
-guard init rspec
 rails g model pet name:string age:integer human:string
 rake db:migrate
 rake db:test:clone
