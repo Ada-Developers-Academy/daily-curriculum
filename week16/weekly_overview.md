@@ -1,24 +1,12 @@
 # Week 16
 
-In Week 16 we will be begin a 2 week long unit on Refactoring and Service Oriented Architecture. Students will refactor a previous project, and build a Shipping service for their Betsy projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop competency with testing.
+In Week 16 we will be begin a 2 week long unit on Refactoring and Service Oriented Architecture. Build a Shipping service for a ecommerce projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop competency with testing.
 
-As in Week 15, this week lectures may be à la carte, some potential topics to talk about as a class or in smaller groups:
-
-- MVC (what goes where & why)
-- Mocks & Stubs in Testing
-- Webmock[https://github.com/bblimke/webmock] [tutorial](http://marnen.github.io/webmock-presentation/webmock.html#(1))
-- [Heroku Resque AutoScaler](https://github.com/G5/heroku_resque_autoscaler)
-- Advanced Views
-- Testing Views (capybara)
-- Creating a Gem
-
-Additionally, there will be an optional demo of building an app start to finish, in 1 or 2 sections (depending on interest.)
+This week lectures may be à la carte.
 
 ## Goals
-- Successful pair & group programming experience
-- Identify recent knowledge gains through refactoring older code
-- learn how to read other people's code
 - Build an API
+- Practice SOA
 
 ### Monday
 
@@ -30,8 +18,9 @@ Additionally, there will be an optional demo of building an app start to finish,
 
 | Time             | Topic                                     |
 |:-----------------|:------------------------------------------|
-| **9:00 - 10:30** | [Building APIs](tuesday/building_apis.md) |
-| **9:15 - 10:45**  | [Creating an Api in Rails](../week12/wednesday/creating-an-api-in-rails.md)|
+| **9:00 - 9:30** | [SOA Overview](shipping_service.md) |
+| **9:30 - 10:00** | [Building APIs](tuesday/building_apis.md) |
+| **10:30 - 10:45**  | [Creating an Api in Rails](../week12/wednesday/creating-an-api-in-rails.md)|
 
 | **10:30 - 3:00** | [SOA Shipping](shipping_service.md)       |
 | **4:00 - 5:00**  | Tuesday Lesson Suggestions                |

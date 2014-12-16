@@ -40,7 +40,7 @@ Technical Requirements
 + Returns a Delivery Estimate to Users
 + Returns tracking information (when available)
 + Logs all requests and their associated responses such that an audit could be conducted.
-+ Deployed on Heroku and kept alive (no 20 min timeouts please!)
++ Deployed on Heroku and kept alive (no 20 min idling please!)
 + Responds with JSON and proper HTTP response codes
 
 ### Extra Stuff
@@ -63,4 +63,4 @@ Technical Requirements
 + Code Quality
     * Metrics
         - Rubocop: no more than 15 code style issues
-        - SimleCov coverage for all Controller routes, Model validations, and Model methods
+        - SimpleCov coverage for all Controller routes, Model validations, and Model methods
