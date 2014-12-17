@@ -29,7 +29,9 @@ This week lectures may be à la carte.
 |:------------------|:------------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                              |
 | **9:15 - 10:30**  | [SOA Implementation](wednesday/soa_implementation.md) |
-| **10:30 - 5:00**  | [SOA Shipping](shipping_service.md)                   |
+| **10:30 - 3:00**  | [SOA Shipping](shipping_service.md)                   |
+| **3:00 - 4:00**  | [Holiday Party](https://www.eventbrite.com/e/ada-holiday-party-tickets-14536778897) Setup |
+| **4:00 - 6:00**  | [Holiday Party](https://www.eventbrite.com/e/ada-holiday-party-tickets-14536778897) |
 
 
 ### Thursday
