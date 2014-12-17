@@ -105,14 +105,14 @@ respond_to do |format|
 end
 ```
 
-Notice in the example above, I used both `:success` as well as the official numeric value of 200 to inform the consumer that the request was a success. I tend to use the built-in Rails symbols for this, as they're more explicit, however its good to know at least the most common HTTP status codes.
+Notice in the example above, I used both `:success` as well as the official numeric value of 200 to inform the consumer that the request was a success. I tend to use the built-in Rails symbols for this, as they're more explicit, however its good to know at least the most common [HTTP status codes](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
 
 + 200 - :ok
 + 204 - :no_content
 + 301 - :moved_permanently
 + 400 - :bad_request
-+ 403 - :forbidden
 + 401 - :unauthorized
++ 403 - :forbidden
 + 404 - :not_found
 + 410 - :gone
 + 422 - :unprocessable_entity
