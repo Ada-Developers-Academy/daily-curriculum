@@ -7,7 +7,7 @@ the project is on track, review stories, and consult on any problems.
 
 ## Goals
 
-- Document Capstone 
+- Document Capstone
     - Market Research
     - User Personas
     - Problem Statement
@@ -22,7 +22,7 @@ the project is on track, review stories, and consult on any problems.
 | **9:00 - 9:15**   | Technical Interview Question Review          |
 | **9:15 - 10:15**  | Project Presentations          |
 | **10:15 - 3:30**  | [Capstone Project Time](../capstone/capstone.md)|
-| **3:30 - 5:00**   | Jeremy Wadsack: Estimating Anything  |
+| **1:30 - 3:00**   | On Languages by Andrew Gorcester         |
 
 * Checkins with Bookis during project time
 

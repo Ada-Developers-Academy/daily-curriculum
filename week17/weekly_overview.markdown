@@ -17,6 +17,7 @@ As in Week 15, this week lectures may be à la carte, some potential topics to t
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                               |
 | **9:15 - 5:00** | [SOA Shipping](../week16/shipping_service.md)    |
+| **?:?? - ?:??**   | Jeremy Wadsack: Estimating Anything  |
 
 ### Tuesday
 
@@ -61,5 +62,3 @@ Read [Code Climate's Refactoring Fat Models](http://blog.codeclimate.com/blog/20
 
 **Homework**: Watch the ember.js [Building an Ember.js Application](http://emberjs.com/guides/)
 video. Work through the application on your own.
-
-
