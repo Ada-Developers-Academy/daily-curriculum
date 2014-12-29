@@ -52,3 +52,7 @@ This week lectures may be à la carte.
 | **9:00 - 9:15** | Stand Up                            |
 | **9:15 - 3:00** | [SOA Shipping](shipping_service.md) |
 | **4:00 - 6:00** | Holiday Party |
+
+**Homework**
+
+[Holiday Break Project](holiday-break-project.md)
