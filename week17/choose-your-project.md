@@ -30,6 +30,4 @@ Here's some suggestions:
     + [http://www.youtube.com/watch?v=L4RWsE8z-is](http://www.youtube.com/watch?v=L4RWsE8z-is)
 - Design a command-line application that allows users to submit new helpline issues or works with the Pivotal Tracker API
     + [Build Command Line Applications In Ruby (PDF)](https://dl.dropboxusercontent.com/u/7560883/ebooks/build-awesome-command-line-applications-in-ruby_b3_0.pdf)
-- Work on open source projects (talk to Bookis or Kerri to get started)
-
-
+- Work on open source projects (talk to Bookis or Dean to get started)
