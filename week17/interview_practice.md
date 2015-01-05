@@ -7,7 +7,7 @@ If you approach problems systematically, and communicate clearly, you'll be most
 ## Problem Solving approach
 
 1. **Understand the Probem**
-   * Ask your interiewer questions
+   * Ask your interviewer questions
    * Draw a picture of what you understand
    * Create a specific example
 
@@ -45,3 +45,6 @@ end
 ```
 
 Each ListItem has a ```value``` method which returns the value stored in the list item, and a ```next``` method that returns the next ListItem if it exists and ```nil``` if that item does not exist.
+
+The solution that we discussed in class was removing the last element from the list repeatedly, and adding the element to a new list. Step through the problem and this (or an alternate solution) using the problem solving framework outlined above.
+ 
