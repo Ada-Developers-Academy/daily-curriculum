@@ -9,7 +9,8 @@
 | **9:00 - 9:30**  | Warm Up                                |
 | **9:30 - 10:30** | Interview Prep w/Dean                  |
 | **10:30 - 12:00** | [Starting Capstone Spike](choose-your-project.md)               |
-| **12:00 - 5:00** | Capstone Spike                         |
+| **12:00 - 4:00** | Capstone Spike                         |
+| **4:00 - 5:00** | Estimating w/Jeremy                         |
 
 ### Tuesday
 
