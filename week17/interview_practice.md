@@ -36,10 +36,10 @@ A linked list is defined via the following class:
 
 ```
 class ListItem
-  attr_accessor :value, :next
-  def initialize(val, next = nil)
+  attr_accessor :value, :nxt
+  def initialize(val, nxt = nil)
     @value = val
-    @next  = next
+    @nxt  = nxt
   end
 end
 ```
