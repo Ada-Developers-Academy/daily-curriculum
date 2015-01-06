@@ -1,51 +1,52 @@
 # Week 18
 
-In Week 18 start a two week Ember.js project. We will focus on learning the basics and benefits of a front-end javascript framework.
+In Week 18 start a two week AngularJS project. We will focus on learning the 
+basics of front-end javascript frameworks.
 
 ## Goals
 - Rapid Learning
-- Learn the benefits of front-end focused frameworks
-- Learn and compare the MVC flow within ember.js
-- Build a single-page application
-- Use Fixtures for rapid development
-- Build a database backed service to query via HTTP
+- Learn the benefits of frameworks
+- Build an AngularJS application
+- Further explore the area of frameworks that you find most interesting
 
 ### Monday
 
-| Time             | Topic                                              |
-|:----------------:|:--------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                           |
-| **9:15 - 9:45**  | [What is Ember.js](monday/what-is-ember.js.md)     |
-| **9:45 - 12:00** | [Beginning Ember.js](monday/beginning-ember.js.md) |
-| **1:00 - 5:00**  | [Starting Ember Project](ember-project.md)         |
+| Time             | Topic                                                        |
+|:----------------:|:------------------------------------------------------------:|
+| **9:00 - 9:15**  | Stand Up                                                     |
+| **9:15 - 9:45**  | [Why use a front-end framework?](monday/why-frameworks.md) |
+| **9:45 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial)    |
 
 ### Tuesday
 
-| Time             | Topic                                  |
-|:----------------:|:--------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                               |
-| **9:15 - 11:00**  | [Actions, dynamic properties, and associations](tuesday/more-ember.js.md)                         |
-| **11:00 - 2:45**  | [Ember Project](ember-project.md)    |
-| **3:00 - 4:00**  | Talk w/ Kronda    |
-| **4:00 - 5:00**  | [Ember Project](ember-project.md)    |
+| Time              | Topic                                                        |
+|:-----------------:|:------------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                     |
+| **9:15 - 10:00**  | [Introduction to Cookbook](cookbook-project.md)              |
+| **10:00 - 11:00** | [AngularJS setup and Hello World](tuesday/angular-setup.md) |
+| **11:00 - 5:00**  | Finish [AngularJS Tutorial](https://docs.angularjs.org/tutorial); begin [Cookbook](cookbook-project.md) |
 
 ### Wednesday
 
 | Time              | Topic                                            |
 |:-----------------:|:------------------------------------------------:|
 | **9:00 - 9:15**   | Stand Up                                         |
-| **9:15 - 10:00**  | Talking Ember                                    |
-| **10:00 - 11:00** | [Ember.js RESTAdapter](wednesday/RESTAdapter.md) |
-| **11:00 - 5:00**  | [Ember Project](ember-project.md)                |
+| **9:15 - 10:00**  | [Routing and Controllers, pt 1: First route and controller](wednesday/routing-pt-1.md) |
+| **10:00 - 11:00** | Review; lecture TBD                              |
+| **11:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Cookbook](cookbook-project.md) |
 
 ### Thursday
 
 | Time             | Topic                                                    |
 |:----------------:|:--------------------------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                                                 |
-| **9:15 - 9:45**  | Introduction to [Capstone Project](thursday/capstone.md) |
-| **10:00 - 12:00**| Project brainstorming / Digistore                        |
-| **12:00 - 1:00** | Lunch                                                    |
-| **1:00 - 5:00**  | Digistore/Capstone checkins and capstone brainstorming   |
+| **9:15 - 10:00** | [Scope, Creating Forms, and User Input](thursday/scope-forms-user-input.md)) |
+| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Cookbook](cookbook-project.md) |
 
-### Friday (No Class)
+### Friday
+
+| Time             | Topic                                                    |
+|:----------------:|:--------------------------------------------------------:|
+| **9:00 - 9:15**  | Stand Up                                                 |
+| **9:15 - 10:00** | [Routes and Controllers, pt 2: More routes and refactoring!](friday/routing-pt-2.md) |
+| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Cookbook](cookbook-project.md) |
