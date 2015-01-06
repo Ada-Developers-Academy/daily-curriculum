@@ -16,7 +16,7 @@
 | Time             | Topic                                  |
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:30**  | Warm Up                               |
-| **9:30 - 10:30** | Interview Prep w/Dean                 |
+| **9:30 - 10:30** | [Interview Prep w/Dean](more_interview_practice.md)                |
 
 
 ### Wednesday
