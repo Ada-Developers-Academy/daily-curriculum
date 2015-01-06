@@ -22,9 +22,9 @@ basics of front-end javascript frameworks.
 | Time              | Topic                                                        |
 |:-----------------:|:------------------------------------------------------------:|
 | **9:00 - 9:15**   | Stand Up                                                     |
-| **9:15 - 10:00**  | [Introduction to Cookbook](cookbook-project.md)              |
+| **9:15 - 10:00**  | [Introduction to Blahg](blog.md)              |
 | **10:00 - 11:00** | [AngularJS setup and Hello World](tuesday/angular-setup.md) |
-| **11:00 - 5:00**  | Finish [AngularJS Tutorial](https://docs.angularjs.org/tutorial); begin [Cookbook](cookbook-project.md) |
+| **11:00 - 5:00**  | Finish [AngularJS Tutorial](https://docs.angularjs.org/tutorial); begin [Blahg](blog.md) |
 
 ### Wednesday
 
@@ -33,7 +33,7 @@ basics of front-end javascript frameworks.
 | **9:00 - 9:15**   | Stand Up                                         |
 | **9:15 - 10:00**  | [Routing and Controllers, pt 1: First route and controller](wednesday/routing-pt-1.md) |
 | **10:00 - 11:00** | Review; lecture TBD                              |
-| **11:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Cookbook](cookbook-project.md) |
+| **11:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
 
 ### Thursday
 
@@ -41,7 +41,7 @@ basics of front-end javascript frameworks.
 |:----------------:|:--------------------------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                                                 |
 | **9:15 - 10:00** | [Scope, Creating Forms, and User Input](thursday/scope-forms-user-input.md)) |
-| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Cookbook](cookbook-project.md) |
+| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
 
 ### Friday
 
@@ -49,4 +49,4 @@ basics of front-end javascript frameworks.
 |:----------------:|:--------------------------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                                                 |
 | **9:15 - 10:00** | [Routes and Controllers, pt 2: More routes and refactoring!](friday/routing-pt-2.md) |
-| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Cookbook](cookbook-project.md) |
+| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |

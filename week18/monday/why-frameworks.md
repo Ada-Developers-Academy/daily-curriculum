@@ -31,10 +31,6 @@ Bootstrap is a framework, as well.
 | Sinatra   | No       | Yes         | Minimal | Yes   | No         | No      |
 | Bootstrap | No       | No          | No      | No    | Minimal    | Yes     |
 | AngularJS | Minimal  | Yes         | Yes     | Yes   | Yes        | No      |
-<!-- I need to look more at Express and Node to know for sure what should go here -->
-| Express   |  |  |  |  |  |  |
-| Node.js   |  |  |  |  |  |  |
-
 
 ##Conventions and Ways of Thinking
 

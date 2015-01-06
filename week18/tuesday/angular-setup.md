@@ -18,7 +18,7 @@ to it. If you have not yet installed bower, follow these steps to install it.
 5) Add the following to your `bower.json` file:
 
   {
-    "name": "Cookbook app",
+    "name": "Blahg",
     "version": "0.0.0",
     "authors": [
       "YOUR_NAME_OR_GITHUB_HANDLE <YOUR_EMAIL(OPTIONAL)>"
