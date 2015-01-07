@@ -48,50 +48,33 @@ snacks :D
 
 
 ##Possible topics
-- General framework stuff
-    - Differences between Rails and AngularJS
+
+- General JavaScript stuff
+    - Why does JavaScript (/other languages) use asynchronous calls?
+    - Why does Rails (/other languages) use synchronous calls?
     - What is CoffeeScript?
     - Examples of CoffeeScript code
+
+- General framework stuff
+    - Differences between Rails and AngularJS
     - What is MEAN stack?
     - What should you take into consideration when choosing a framework?
         - I have seen this come up in interviews
+    - What is a single-page application?
+    - Single-page applications with frameworks (may or may not be Angular)
+    - Alternatives to AngularJS
+    - Promises, pt 2: Electric Boogaloo
 
-- AngularJS / front-end
+- AngularJS
     - When is AngularJS a good choice for a framework?
     - When is AngularJS a bad choice?
     - Criticisms of AngularJS
-    - Alternatives to AngularJS
-    - Why does JavaScript (/other languages) use asynchronous calls?
-    - Why does Rails (/other languages) use synchronous calls?
-    - Promises, pt 2: Electric Boogaloo
-    - What is a single-page application?
-    - Single-page applications with frameworks (may or may not be Angular)
     - Why don't you want to use filters for i18n, and/or why don't you want to
     use a lot of filters on your AngularJS site?
-
-- Express / middle-stack
-    - When is Express a good
-    - When is Express a bad choice?
-    - Criticisms of Express
-    - Alternatives to Express
-    - A closer look at comparisons between Express and Rails/Sinatra
-
-- Node / servers
-    - When is Node a good choice?
-    - When is Node a bad choice?
-    - Criticisms of Node
-    - Alternatives to Node
-    - A closer look at comparisons between Node and Rails/Sinatra
-    - Advantages to separating the server-side code from the rest of the app
-    - Disadvantages to separating the server-side code
-    - Explore Node modules
-
-- MongoDB / MOAR databases
-    - What is a NoSQL database? pt 2: Electric Boogaloo
-    - When is a NoSQL database a good choice?
-    - When is a NoSQL database a bad choice?
-    - Criticisms of MongoDB
-    - Alternatives to MongoDB
+    - What is a factory and when should I use one?
+    - What is a service and when should I use one?
+    - What is a directive and when should I use one?
+    - Refactoring AngularJS: what should I think about?
 
 - Testing
     - How would you test your app?
@@ -102,11 +85,19 @@ snacks :D
     - What is Zurb Foundation?
     - Why is Twitter Bootstrap so popular?
     - Criticisms of any of the CSS-focused frameworks
+    - Pick and talk about another front-end framework
 
 - Bower
     - Criticisms of Bower
     - Advantages of Bower
     - Alternatives to Bower
+
+- NPM
+    - Difference between NPM and Bower
+    - Why the heck did we need to use NPM to install Bower, anyway?
+
+- Node.js
+    - We installed Node so we could install Bower. Tell us some things about it!
 
 - Something you learned that was really cool
 - How you solved a really tough problem
