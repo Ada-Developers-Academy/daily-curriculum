@@ -1,30 +1,30 @@
 # Week 19
 
-In Week 19 we will continue the two week Ember.js project. We will focus on learning the basics and benefits of a front-end javascript framework.
+In Week 19, we will continue our two week AngularJS project. We will focus 
+on learning the basics of front-end javascript frameworks.
 
 ## Goals
 - Rapid Learning
-- Learn the benefits of front-end focused frameworks
-- Learn and compare the MVC flow within ember.js
-- Build a single-page application
-- Use Fixtures for rapid development
-- Build a database backed service to query via HTTP
+- Learn the benefits of frameworks
+- Build an AngularJS application
+- Further explore the area of frameworks that you find most interesting
 
 ### Monday
 
-| Time             | Topic                                              |
-|:----------------:|:--------------------------------------------------:|
-| **9:00 - 9:15**  | [Prepping for Interviews](prepping-for-interviews.md)                                      |
-| **9:15 - 10:30**  | [Forms & Promises](monday/ember-forms-and-promises.md)     |
-| **10:30 - 5:00**  | [Ember Project](ember-project.md)         |
+| Time              | Topic                                                      |
+|:-----------------:|:----------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                   |
+| **9:15 - 11:30**  | Review/Lecture determined by student feedback (TBD)        |
+| **11:30 - 12:15** | Let's talk about the [lightning talks](lightning-talks.md) |
+| **12:15 - 5:00**  | [Blahg](blog.md)                                           |
 
 ### Tuesday
 
 | Time             | Topic                                  |
 |:----------------:|:--------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                                           |
-| **9:15 - 10:30**  | [Building JSON](tuesday/building-json.md)     |
-| **10:30 - 2:45**  | [Ember Project](ember-project.md)         |
+| **9:15 - 10:30** | [Building JSON](tuesday/building-json.md)     |
+| **10:30 - 2:45** | [Ember Project](ember-project.md)         |
 | **3:00 - 5:00**  | Field Trip to Apex Learning        |
 
 ### Wednesday
@@ -54,3 +54,23 @@ In Week 19 we will continue the two week Ember.js project. We will focus on lear
 | **2:30 - 4:00**  | [Ember Project Presentations](ember-project.md)         |
 | **4:00 - 5:00**  | Retrospective         |
 
+
+
+
+
+
+
+
+
+
+Tuesday
+making an api call
+asynchronous calls and promise objects
+
+Wednesday
+writing custom filters
+
+Thursday
+
+Friday
+presentations
