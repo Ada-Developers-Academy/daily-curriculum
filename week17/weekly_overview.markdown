@@ -42,3 +42,4 @@
 **Homework**: We are going to be doing a lot of JavaScript next week.
 - Complete the [Cat Adventure Project](../week17/cat_adventure_homework.md)
 - Practice JavaScript
+- [Install a few things](../week17/installfest2.md)
