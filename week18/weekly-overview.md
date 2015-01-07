@@ -1,6 +1,6 @@
 # Week 18
 
-In Week 18 start a two week AngularJS project. We will focus on learning the 
+In Week 18, we will start a two week AngularJS project. We will focus on learning the 
 basics of front-end javascript frameworks.
 
 ## Goals

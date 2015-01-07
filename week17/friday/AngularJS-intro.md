@@ -10,6 +10,11 @@ for customization and adaptation. Some people create models in AngularJS with
 their own attributes, methods, and relations; others just use it to display
 data retrieved by an API.
 
+The framework was created by Google, and Google really likes it. They’ve 
+created a lot of support structures to encourage people to use it, including 
+the tutorial you’ll be doing in class next week which has text, video, and 
+git diffs.
+
 AngularJS is a front-end framework, which in this case means that it doesn’t 
 really interact with your data directly at all. Instead, the user interacts 
 with the AngularJS app directly, which then communicates with some other back-end 
@@ -19,6 +24,27 @@ I find it helpful to think of AngularJS as a “shallow” framework: the Angula
 section of your app should just be a shallow scrape across the top of the app, 
 encompassing your JavaScript, your views, and some routing and controller logic 
 to serve up these views.
+
+AngularJS is very modular--and in fact, you will be creating a lot of modules 
+as you work on your project. This means that many of the pieces of your app will
+be built in small, isolated chunks that you could, in theory, pluck out of your
+app and put somewhere else. In practice, this is pretty hard and doesn't happen
+often, but the structure and theory is there, whereas it's hard to image plucking
+a single feature or chunk of a Rails app and trying to plug it into a new site.
+
+There's actually some heated debate in the AngularJS community about structure
+and modularity. On the one side, there are people who structure their app like
+a Rails app (or another MVC app)--you have an app directory, and inside your
+app directory, you have a controller directory, a view directory, etc. Everything
+is separated by type.
+
+The other side of this debate prefers structuring their code in modules. If you're
+creating a blog, for example, you might have a blog directory, and inside this blog
+directory you might have blog.js, blog.html, and blog.css. I (Ellen) wholeheartedly 
+prefer the modular approach, as I think it is more intuitive and in the spirit of
+the framework, but I'll be teaching the MVC structure, since it is more popular 
+and you will likely encounter it in your career. In my personal projects, however,
+I write with the module structure.
 
 
 ##AngularJS moves and improves logic
@@ -67,8 +93,17 @@ and the JavaScript page looks like this:
     window.onload = init;
 
 In AngularJS, on the other hand, all of this logic is moved to the view and 
-the controller. If you want to add a click event to a div in AngularJS, you 
-go to the view, pick your div
+the controller. 
+
+Controllers in AngularJS work a little differently than Rails controllers. 
+While Rails controllers typically assign some instance variables and return 
+or render something (like JSON or an HTML view), AngularJS controllers
+don't return a view. Instead, they house instance variables and functions 
+you can use to alter those variables. We'll talk more about controllers
+next week.
+
+If you want to add a click event to a div in AngularJS, you go to the view, 
+pick your div
 
     <div class=”button”>Say hello!</div>
 
@@ -105,7 +140,7 @@ actually evaluate the code inside the curly braces and display the result--so
 here, I would see "4" instead of "2 + 2" You can use variables, custom functions, 
 and so on here, too.
 
-You'll see and use this more in the activity later today.
+You'll see and use this more in the activity next week.
 
 ###Directives
 
