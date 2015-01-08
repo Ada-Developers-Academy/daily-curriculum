@@ -5,7 +5,7 @@ The Capstone Project is the largest undertaking you'll experience in the Ada cla
 Not only is it a month long, but you will be your own product owner and project manager. Before building your applications, you will need to create a product plan: you'll need to identify your target audience and their unmet needs. Then, you'll need to write a project specification to explain how you will meet those needs, including the features you intend to implement.
 
 ## Delivery
-The Capstone Project is due by 5pm on Thursday, April 24th. It consists of the following components:
+The Capstone Project consists of the following components:
 
 + Completed application, live on the web
 + Linked from the application, the following supplemental material:

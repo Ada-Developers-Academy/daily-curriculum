@@ -40,7 +40,7 @@ In week 1 we  will focus on installing all of the development tools so that our 
 | **1:30 - 2:30** | [Introduction to Unix](monday/nix.md)    |
 | **2:30 - 3:30** | [Installfest](monday/installfest.md)     |
 | **3:30 - 4:00** | [Ruby Messaging](monday/ruby-messaging.md)     |
-| **4:00 - 5:00**  | Introduction to [Ruby](monday/ruby_101.md)    |
+| **4:00 - 5:00**  | Introduction to [Ruby](tuesday/ruby_101.md)    |
 
 **Homework**
 
