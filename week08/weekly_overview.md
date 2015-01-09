@@ -15,9 +15,9 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 
 | Time              | Topic                                    |
 |:-----------------:|:----------------------------------------:|
-| **9:00 - 1:30**  | [Betsy Project Time](resources/betsy.md) |
+| **9:00 - 1:30**  | [Betsy Project Time](../week07/resources/betsy.md) |
 | **1:30 - 2:15**  | Guest Speaker: Rohit from ApexLearning |
-| **2:15 - 5:00**  | [Betsy Project Time](resources/betsy.md) |
+| **2:15 - 5:00**  | [Betsy Project Time](../week07/resources/betsy.md) |
 
 
 ### Tuesday
@@ -26,7 +26,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 |:-----------------:|:-----------------------------------------:|
 | **9:00 - 9:30*** | Warmup  |
 | **9:30 - 10:30*** | [Rails Forms](tuesday/rails-forms.md)  |
-| **9:00 - 5:00*** | [Betsy Project Time](resources/betsy.md)  |
+| **9:00 - 5:00*** | [Betsy Project Time](../week07/resources/betsy.md)  |
 
 \* Take an hour lunch at any time
 
@@ -35,7 +35,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 
 | Time            | Topic                                    |
 |:---------------:|:----------------------------------------:|
-| **9:00 - 5:00*** | [Betsy Project Time](resources/betsy.md)  |
+| **9:00 - 5:00*** | [Betsy Project Time](../week07/resources/betsy.md)  |
 
 
 \* Take an hour lunch at any time
@@ -44,7 +44,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 
 | Time              | Topic                                                  |
 |:-----------------:|:------------------------------------------------------:|
-| **9:00 - 5:00*** | [Betsy Project Time](resources/betsy.md)  |
+| **9:00 - 5:00*** | [Betsy Project Time](../week07/resources/betsy.md)  |
 
 
 \* Take an hour lunch at any time
