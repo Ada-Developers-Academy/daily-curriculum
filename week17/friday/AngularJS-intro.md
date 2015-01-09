@@ -57,8 +57,8 @@ a lot of strange quirks that JavaScript developers have to learn how to work aro
 
 If you think about regular JavaScript, creating a simple click event is a little 
 messy and hits a lot of different parts of your code. First, it relies on a CSS 
-class as an identifier. Then, you add a watch event to it. In order to add the 
-watch event, you need to look through the DOM to find all instances of the CSS 
+class as an identifier. Then, you add a click event to it. In order to add the 
+click event, you need to look through the DOM to find all instances of the CSS 
 class to add that handler--but before you do that, you need to make sure that the 
 DOM is loaded, which means you have to pause your JavaScript long enough to actually 
 load the DOM.
@@ -85,12 +85,16 @@ Your JavaScript view code probably looks like this:
 
 and the JavaScript page looks like this:
 
-    function init() {
-      $('.button').click(function() {
-        alert('Hi!');
-      });
-    }
-    window.onload = init;
+    <div class="button">Say hi!</div>
+
+    <script type="text/javascript">
+        function init() {
+          $('.button').click(function() {
+            alert('Hi!');
+          });
+        }
+        window.onload = init;
+    </script>
 
 In AngularJS, on the other hand, all of this logic is moved to the view and 
 the controller. 
@@ -113,6 +117,9 @@ and add an ng-click, so the div looks like this:
 
 Then, you go to your controller and create a method called sayHi.
 
+    <div class=”button” ng-click=”sayHi()”>Say hi!</div>
+
+    <!-- controller script follows -->
     $scope.sayHi = function() {
         alert(“Hi!”);
     }
@@ -155,7 +162,7 @@ So my div might look like `<div ng-foo="bar">`.
 
 
 There are a heck of a lot of different directives straight out of the box, and 
-we’ll go over several of them over the next week and a half, but right now we’ll
+we’ll go over several of them over the next two weeks, but right now we’ll
 take a brief look at two of them: `ng-model` and `ng-click`.
 
 ####ng-model

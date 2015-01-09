@@ -18,59 +18,41 @@ on learning the basics of front-end javascript frameworks.
 | **11:30 - 12:15** | Let's talk about the [lightning talks](lightning-talks.md) |
 | **12:15 - 5:00**  | [Blahg](blog.md)                                           |
 
-### Tuesday
+### Tuesday -- Class will be at Moz
 
-| Time             | Topic                                  |
-|:----------------:|:--------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                           |
-| **9:15 - 10:30** | [Building JSON](tuesday/building-json.md)     |
-| **10:30 - 2:45** | [Ember Project](ember-project.md)         |
-| **3:00 - 5:00**  | Field Trip to Apex Learning        |
+| Time              | Topic                                    |
+|:-----------------:|:----------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                 |
+| **9:15 - 9:30**   | Technical difficulties and chatting, lbr |
+| **9:30 - 11:00**  | [Promise Objects](tuesday/promises.md)   |
+| **11:00 - 11:15** | Break                                    |
+| **11:15 - 12:00** | [Making API Calls](tuesday/api.md)       |
+| **12:00 - 5:00**  | [Blahg](blog.md)                         |
 
 ### Wednesday
 
-| Time              | Topic                                            |
-|:-----------------:|:------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                           |
-| **9:15 - 10:30**  | [Reviewing Ember.js RESTAdapter](wednesday/RESTAdapter.md)     |
-| **10:30 - 5:00**  | [Ember Project](ember-project.md)         |
+| Time              | Topic                                               |
+|:-----------------:|:---------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                            |
+| **9:15 - 10:30**  | Review/Lecture determined by student feedback (TBD) |
+| **10:30 - 11:15** | [Creating custom filters](wednesday/filters.md)     |
+| **11:15 - 12:30** | break/[Blahg](blog.md)                              |
+| **12:30 - 5:00**  | [Blahg](blog.md)                                    |
 
 ### Thursday
 
-| Time             | Topic                                                            |
-|:----------------:|:----------------------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                                         |
-| **9:15 - 10:00** | Incrementing in Ember (impromptu)                               |
-| **9:15 - 3:30**  | [Ember Project](ember-project.md)                                |
-| **2:00 - 3:30**  | [Ember Project Checkins](ember-project.md)                                |
-| **3:30 - 5:00**  | [Capstone Project](../week18/thursday/capstone.md) Presentations |
+| Time              | Topic                                                                     |
+|:-----------------:|:-------------------------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                                  |
+| **9:15 - 10:30**  | [Refactor: Services, Factories, and Directives](wednesday/refactoring.md) |
+| **10:30 - 11:30** | Optional lecture: Optional lecture: [Creating custom directives](thursday/directives.md) |
+| **11:30 - 5:00**  | [Blahg](blog.md)                                |
 
 ### Friday
 
 | Time             | Topic                                                    |
 |:----------------:|:--------------------------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                                                 |
-| **9:15 - 2:30**  | [Ember Project](ember-project.md)         |
+| **9:15 - 2:30**  |         |
 | **2:30 - 4:00**  | [Ember Project Presentations](ember-project.md)         |
 | **4:00 - 5:00**  | Retrospective         |
-
-
-
-
-
-
-
-
-
-
-Tuesday
-making an api call
-asynchronous calls and promise objects
-
-Wednesday
-writing custom filters
-
-Thursday
-
-Friday
-presentations

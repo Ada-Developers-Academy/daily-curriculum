@@ -59,8 +59,8 @@ different angular files, including `angular.min.js`.
 
 ##Hooking AngularJS into your app
 
-If you have a layout.html file, navigate to it; if not, `touch layout.html`.
-Open this file in your text editor.
+If you have a layout.html file, navigate to it; if not, `mkdir views` and then
+`touch views/layout.html`. Open this file in your text editor.
 
 In `layout.html`, add the following code:
 
@@ -71,10 +71,10 @@ In `layout.html`, add the following code:
       </head>
       <body>
         <div>
-          <label>What's up?</label>
-          <input type="text" ng-model="whatsUp" placeholder="Maybe a traditional greeting?">
+          <label>Hello? Is anybody there?</label>
+          <input type="text" ng-model="hello" placeholder="Maybe a traditional greeting?">
           <hr>
-          <h1>{{whatsUp}}</h1>
+          <h1>{{hello}}</h1>
         </div>
       </body>
     </html>
@@ -106,29 +106,29 @@ directory.
 
 `<div>`: Opens a div
 
-`<label>What's up?</label>`: Creates a label for the input we're about to create.
+`<label>Hello? Is anybody there?</label>`: Creates a label for the input we're about to create.
 
-`<input type="text" ng-model="whatsUp" placeholder="Maybe a traditional greeting?">`:
+`<input type="text" ng-model="hello" placeholder="Maybe a traditional greeting?">`:
 This does a few things. It creates an input. It sets the input type to text. It
 creates a placeholder. It also uses our first ng- directive: ng-model.
 
 Remember, ng-model takes a couple of steps here:
-1) It looks to see if the model, `whatsUp`, already exists. If it does, it sets
+1) It looks to see if the model, `hello`, already exists. If it does, it sets
 the value of the input to the value of that model. So, if earlier in the code we
-had done `whatsUp = 'not much'`, then in the input field, instead of seeing the
+had done `hello = 'not much'`, then in the input field, instead of seeing the
 placeholder, we would see the words "not much" in the input field.
 
-2) If that model doesn't exist, it creates a new model called `whatsUp`
+2) If that model doesn't exist, it creates a new model called `hello`
 
 3) It sets two-way data binding with this model. This means that if you change 
-the value of whatsUp at one spot on the page, it changes in every other instance 
+the value of hello at one spot on the page, it changes in every other instance 
 of that model.
 
 Remember, AngularJS `ng-model` is more like a variable than like a Ruby model.
 
-`<hr>`: A questionable stylistic decision, put there to show where `whatsUp` begins.
+`<hr>`: A questionable stylistic decision, put there to show where `hello` begins.
           
-`<h1>{{whatsUp}}</h1>`: Displays the value of whatsUp
+`<h1>{{hello}}</h1>`: Displays the value of hello
 
 `</div>`: Closes the div
 
@@ -146,4 +146,16 @@ your browser)
 
 In your input field in your browser, type "Hello World". If the words "Hello World"
 show up in your browser underneath the `hr`, congratulations! You just started
-your first AngularJS app!
+your AngularJS app!
+
+
+
+
+##For the rest of your day
+
+Continue to work on the AngularJS tutorial until you have completed it. Take notes
+about what things you want to understand better and spend more time talking about.
+
+Begin working on the views in your app. At this point, focus on playing around with
+AngularJS directives and view logic. We'll add controllers and routes tomorrow,
+which will allow you to create more advanced sites.
