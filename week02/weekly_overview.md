@@ -17,7 +17,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 | Time              | Topic                                       |
 |:------------------|:-------------------------------------------:|
 | **9:00 - 10:20**  | [Local & Instance Variables & Scope](monday/variables_and_scope.md)              |
-| **10:30 - 11:30**  | [Revisiting Classes](monday/revisiting_classes.rb) |
+| **10:30 - 11:30**  | [Revisiting Classes](monday/revisiting_classes.md) |
 | **11:40 - 12:00**  | Variable Quiz |
 | **12:00 - 1:00**  | Lunch |
 | **1:00 - 5:00** | [Orange Tree (from L2P)](monday/orange_tree.md) |
