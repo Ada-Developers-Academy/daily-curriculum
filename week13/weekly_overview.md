@@ -1,6 +1,6 @@
 # Week 13
 
-In week 13 we will continue working on [SeeMore project](see-more.md), in which the students will consume a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
+In week 13 we will continue working on [SeeMore](see-more.md), in which the students will consume a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
 
 ## Goals
 - Identify when to use an external web API
