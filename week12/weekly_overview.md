@@ -1,6 +1,6 @@
 # Week 12
 
-In week 12 work on [SeeMore project](see-more.md), in which the students will create a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
+In week 12 we will work on [SeeMore project](see-more.md), in which the students will create a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
 
 ## Goals
 - Identify when to use an external web API
