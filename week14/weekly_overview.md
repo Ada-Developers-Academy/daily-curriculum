@@ -20,6 +20,8 @@ Additional Lectures
 - Watch the [ActionMailer Railscast](http://railscasts.com/episodes/206-action-mailer-in-rails-3)
 - Watch the [Resque Railscast](http://railscasts.com/episodes/271-resque)
 
+| Time             | Topic                                      |
+|:-----------------:|:-----------------------------------------:|
 | **1:00 - 2:00**  | [Using Ajax](monday/ajax.md)               |
 
 
