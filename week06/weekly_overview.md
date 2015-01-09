@@ -20,7 +20,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | **1:00 - 2:30** | [Running Rails & HTTP](monday/rails.md) |
 | **2:30 - 3:30** | Database                          |
 
-[RoRT Online](https://www.railstutorial.org/book/demo_app#cha-a_demo_app):
++ [RoRT Online](https://www.railstutorial.org/book):
     + review sections 1.2.3 & 1.2.5
     + read section 1.2.6 and all of Chapter 2
 
