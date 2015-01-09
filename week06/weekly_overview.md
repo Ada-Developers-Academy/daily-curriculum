@@ -91,7 +91,7 @@ terminate.
 Homework:
 
 For the weekend:
-+ RoRT:
++ [RoRT](https://www.railstutorial.org/book):
     + work through 3.3 and 3.4, and the first exercise of 3.5
 
 
