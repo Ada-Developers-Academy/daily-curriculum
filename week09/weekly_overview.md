@@ -19,7 +19,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:15 - 10:00**  | [Project Presentations](../week8/project-outline.md) |
+| **9:15 - 10:00**  | [Project Presentations](../week08/project-outline.md) |
 | **10:00 - 11:00**   | Betsy Quiz |
 | **11:00 - 11:30**   | [Media Ranker Overview](resources/media_ranker.md) |
 | **11:30 - 12:30**  | [Rails request state](monday/rails-request-state.md)        |
