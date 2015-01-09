@@ -1,4 +1,4 @@
-[Google presentation](https://docs.google.com/presentation/d/1vOMkrETd2qYtjYGgb_ZoCi3m71PjnvPof-yQjbujhl4/edit#slide=id.p)
+[Google presentation](https://docs.google.com/presentation/d/1vOMkrETd2qYtjYGgb_ZoCi3m71PjnvPof-yQjbujhl4/edit?usp=sharing)
 
 #Intro to AngularJS
 
