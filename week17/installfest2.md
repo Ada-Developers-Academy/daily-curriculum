@@ -30,9 +30,10 @@ to it. If you have not yet installed bower, follow these steps to install it.
 
 1) In your terminal, `mkdir blahg` wherever you want your project to live
 2) `cd blahg`
-3) `touch bower.json`
-4) Open `bower.json` in your text editor
-5) Add the following to your `bower.json` file:
+3) `npm install -g bower`
+4) `touch bower.json`
+5) Open `bower.json` in your text editor
+6) Add the following to your `bower.json` file:
 
   {
     "name": "Blahg",
