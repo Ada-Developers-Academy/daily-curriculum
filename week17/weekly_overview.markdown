@@ -36,8 +36,7 @@
 
 | Time              | Topic                                                      |
 |:-----------------:|:----------------------------------------------------------:|
-| **9:00 - 9:15**   | Stand Up                                                   |
-| **9:15 - 10:00**  | Project time                                               |
+| **9:00 - 10:00**  | Project time                                               |
 | **10:00 - 10:30** | Let's talk about the framework project with Ellen!         |
 | **10:30 - 12:00** | [Intro to AngularJS with Ellen](friday/AngularJS-intro.md) |
 | **1:30 - 2:30** | Nordstrom |
