@@ -33,7 +33,7 @@ In week 13 we will continue working on [SeeMore](../week12/see-more.md), in whic
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
-| **9:15** - **10:15** | [/week15/friday/basic-mocks-and-stubs.md] |
+| **9:15** - **10:15** | [Basic Mocks and Stubs](friday/basic-mocks-and-stubs.md) |
 | **9:00** - **5:00** | [See More Project work](../week12/see-more.md) |
 
 ### Thursday
