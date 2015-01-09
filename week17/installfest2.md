@@ -4,6 +4,8 @@ We will be using the package manager bower during weeks 18 and 19.
 For the sake of speed (and bandwidth), please follow these steps over
 the weekend if you have access to a reliable internet connection.
 
+You won't need to use this at all this weekend. We'll use it next week.
+
 
 ##Install NPM
 
@@ -29,10 +31,15 @@ We will use bower, because it is a useful tool and it's good to have exposure
 to it. If you have not yet installed bower, follow these steps to install it.
 
 1) In your terminal, `mkdir blahg` wherever you want your project to live
+
 2) `cd blahg`
+
 3) `npm install -g bower`
+
 4) `touch bower.json`
+
 5) Open `bower.json` in your text editor
+
 6) Add the following to your `bower.json` file:
 
   {

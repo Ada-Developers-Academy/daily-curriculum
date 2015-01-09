@@ -8,8 +8,19 @@ there's a warm patch of sunlight she can sleep in safely.
 
 To help her get there, you'll be creating a small text adventure
 only in JavaScript. Begin by forking [this repo](https://github.com/shanghaiellen/cat-adventure).
-You'll see that it contains two files: an html file and a JavaScript
-file. YOU ARE NOT ALLOWED TO WRITE ANY MORE HTML, except for css ids/classes. Let me say that again:
+Go to your fork (YOURNAME/cat-adventure) in Github and copy the 
+clone URL, which is located in the right nav bar (it might be ssh,
+https, or Subversion).
+
+`cd` to the directory ABOVE where you want your cat-adventure directory 
+to live (Docs, ada_homework, whatever). In your terminal, type `git clone
+<YOUR COPIED CLONE URL>`, replacing <YOUR COPIED CLONE URL> with, you guessed
+it, your copied clone url. It should look like `git clone foo`.
+
+This should create a cat-adventure directory for you, with files. `cd` into
+your cat-adventure directory. You'll see that it contains two files: an html 
+file and a JavaScript file. YOU ARE NOT ALLOWED TO WRITE ANY MORE HTML, except 
+for css ids/classes. Let me say that again:
 
 YOU ARE NOT ALLOWED TO WRITE ANY MORE HTML, except for css ids/classes.
 
