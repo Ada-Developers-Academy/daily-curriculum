@@ -13,7 +13,7 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| **10:00 - 10:30** | [Choosing a Project](choose-your-project.md) |
+| **10:00 - 10:30** | [Choosing a Project](../week17/choose-your-project.md) |
 | **10:30 - 2:30**  | Project Time                                 |
 | **1:30 - 3:00**   | On Languages by Andrew Gorcester         |
 | **3:30 - 5:00**   | Project Time                                 |
