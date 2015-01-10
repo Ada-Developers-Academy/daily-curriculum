@@ -26,8 +26,7 @@ YOU ARE NOT ALLOWED TO WRITE ANY MORE HTML, except for css ids/classes.
 
 Use the JavaScript file to do the following things:
 
-- Create click events on the relevant html elements on the page that
-show the user the appropriate information.
+- Create click events on the relevant html elements to show the new rooms that you run into.
 - When Starbuck's escape points change, show the right values in the
 HTML to accurately reflect these changes.
 - Create a Cat model
