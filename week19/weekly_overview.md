@@ -36,8 +36,7 @@ on learning the basics of front-end javascript frameworks.
 | **9:00 - 9:15**   | Stand Up                                            |
 | **9:15 - 10:30**  | Review/Lecture determined by student feedback (TBD) |
 | **10:30 - 11:15** | [Creating custom filters](wednesday/filters.md)     |
-| **11:15 - 12:30** | break/[Blahg](blog.md)                              |
-| **12:30 - 5:00**  | [Blahg](blog.md)                                    |
+| **11:15 - 5:00**  | [Blahg](blog.md)                                    |
 
 ### Thursday
 
@@ -45,14 +44,14 @@ on learning the basics of front-end javascript frameworks.
 |:-----------------:|:-------------------------------------------------------------------------:|
 | **9:00 - 9:15**   | Stand Up                                                                  |
 | **9:15 - 10:30**  | [Refactor: Services, Factories, and Directives](wednesday/refactoring.md) |
-| **10:30 - 11:30** | Optional lecture: Optional lecture: [Creating custom directives](thursday/directives.md) |
-| **11:30 - 5:00**  | [Blahg](blog.md)                                |
+| **10:30 - 11:30** | Optional lecture: [Creating custom directives](thursday/directives.md)    |
+| **11:30 - 5:00**  | [Blahg](blog.md)                                                          |
 
 ### Friday
 
-| Time             | Topic                                                    |
-|:----------------:|:--------------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                                 |
-| **9:15 - 2:30**  |         |
-| **2:30 - 4:00**  | [Ember Project Presentations](ember-project.md)         |
-| **4:00 - 5:00**  | Retrospective         |
+| Time             | Topic                                 |
+|:----------------:|:-------------------------------------:|
+| **9:00 - 9:15**  | Stand Up                              |
+| **9:15 - 11:00** | [Blahg](blog.md)                      |
+| **11:00 - 4:00** | [Lightning Talks](lightning-talks.md) |
+| **4:00 - 5:00**  | Retrospective                         |

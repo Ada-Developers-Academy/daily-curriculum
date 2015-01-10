@@ -1,4 +1,4 @@
-[Google presentation](https://docs.google.com/presentation/d/1LLHcxk0xSg2lcMN0gJNtdHcSweAkJZf2RZUvS7HlUmE/edit#slide=id.p)
+[Google presentation](https://docs.google.com/presentation/d/1LLHcxk0xSg2lcMN0gJNtdHcSweAkJZf2RZUvS7HlUmE/edit?usp=sharing)
 
 #Why Use Front-End Frameworks?
 

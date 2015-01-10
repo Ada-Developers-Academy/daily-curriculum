@@ -11,11 +11,11 @@ basics of front-end javascript frameworks.
 
 ### Monday
 
-| Time             | Topic                                                        |
-|:----------------:|:------------------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                                     |
+| Time             | Topic                                                      |
+|:----------------:|:----------------------------------------------------------:|
+| **9:00 - 9:15**  | [Debugging AngularJS](monday/debugging.md)                 |
 | **9:15 - 9:45**  | [Why use a front-end framework?](monday/why-frameworks.md) |
-| **9:45 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial)    |
+| **9:45 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial)  |
 
 ### Tuesday
 

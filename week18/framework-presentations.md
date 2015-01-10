@@ -37,7 +37,7 @@ talking 2-5 here, not 20-30.
 ##What I do NOT want
 - You to tear your hair out about this project
 - Presentations longer than 10 minutes
-    - Exception: groups of 2, which will take 10-20 minutes
+    - Exception: groups of 2, which will take 7-15 minutes
     - I will be timing you
 - Overly complex presentations that rely on knowledge your classmates don't have
 - Anyone falling asleep during presentations. Please be attentive and respectful.
