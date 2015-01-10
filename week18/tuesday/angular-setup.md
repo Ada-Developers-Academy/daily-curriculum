@@ -1,66 +1,17 @@
 #Adding AngularJS to our app/Hello World
 
-##Install bower
+##Follow Installfest pt2
 
-Bower is a package manager that you can use to install and manage dependencies.
-It is used frequently in many companies and professional settings, though not
-everywhere; some workplaces dislike bower because it installs everything in the
-Github repo for the package, instead of just the single file you actually want
-to use.
-
-We will use bower, because it is a useful tool and it's good to have exposure
-to it. If you have not yet installed bower, follow these steps to install it.
-
-1) In your terminal, navigate to the root of your project directory
-2) `npm install -g bower`
-3) `touch bower.json`
-4) Open `bower.json` in your text editor
-5) Add the following to your `bower.json` file:
-
-  {
-    "name": "Blahg",
-    "version": "0.0.0",
-    "authors": [
-      "YOUR_NAME_OR_GITHUB_HANDLE <YOUR_EMAIL(OPTIONAL)>"
-    ],
-    "description": "a super cool angular app",
-    "main": "layout.html",
-    "dependencies": {
-    }
-  }
-
-This file frequently contains information about the license, version, github
-repo, main URL, etc. We don't need as much information in our file.
-
-##Using bower to install AngularJS
-
-Open your `bower.json` file in your text editor (if you don't have that file,
-go back to "Install bower"). Add the following to the `dependencies` section,
-so it looks like the following:
-
-    "dependencies": {
-      "angular": "1.3.8"
-    }
-
-If you already have dependencies listed, simply add angular to that list.
-
-Now, in your terminal, type `bower install`. You should see something like the following in your terminal:
-
-    User$  bower install
-    bower cached        git://github.com/angular/bower-angular.git#1.3.8
-    bower validate      1.3.8 against git://github.com/angular/bower-angular.git#*
-    bower install       angular#1.3.8
-
-    angular#1.3.8 bower_components/angular
-
-If you look at your project directory, you'll see that it now has a 
-`bower_components/angular` directory. Inside that directory, there are several 
-different angular files, including `angular.min.js`.
+If you haven't followed the steps in Installfest pt2, this won't work. Before
+you try to do any of this stuff, go back to week17 and do the installfest homework.
 
 ##Hooking AngularJS into your app
 
-If you have a layout.html file, navigate to it; if not, `mkdir views` and then
-`touch views/layout.html`. Open this file in your text editor.
+Navigate to the parent directory of your app (it should be `blahg` or something
+similar). It should contain one file (`bower.json`) and one directory (`bower_components`).
+
+In the terminal, `mkdir views` and then `touch views/layout.html`. Open this file 
+in your text editor.
 
 In `layout.html`, add the following code:
 
@@ -122,7 +73,8 @@ placeholder, we would see the words "not much" in the input field.
 
 3) It sets two-way data binding with this model. This means that if you change 
 the value of hello at one spot on the page, it changes in every other instance 
-of that model.
+of that model. If you don't remember much about two-way data binding, review 
+the lecture/notes from Friday.
 
 Remember, AngularJS `ng-model` is more like a variable than like a Ruby model.
 
