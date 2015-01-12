@@ -5,20 +5,52 @@
 If you haven't followed the steps in Installfest pt2, this won't work. Before
 you try to do any of this stuff, go back to week17 and do the installfest homework.
 
-##Hooking AngularJS into your app
+##Adding NPM to run our server
 
 Navigate to the parent directory of your app (it should be `blahg` or something
 similar). It should contain one file (`bower.json`) and one directory (`bower_components`).
 
-In the terminal, `mkdir views` and then `touch views/layout.html`. Open this file 
-in your text editor.
+(A note: future versions should have you install the npm stuff first. Ellen changed her mind partway through).
+
+In the terminal, `touch package.json`. In `package.json`, add the following code:
+
+    {
+      "name"         : "Blahg",
+      "version"      : "0.0.1",
+      "description"  : "My AngularJS Blahg",
+      "main"         : "server.js",
+      "author"       : "<YOUR NAME>",
+      "dependencies" : {
+        "http-server": "^0.6.1",
+        "tmp": "0.0.23",
+        "bower": "^1.3.1",
+        "shelljs": "^0.2.6"
+      },
+      "scripts": {
+        "postinstall": "bower install",
+
+        "prestart": "npm install",
+        "start": "http-server -a 0.0.0.0 -p 8000",
+      
+        "update-index-async": "node -e \"require('shelljs/global'); sed('-i', /\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/, '//@@NG_LOADER_START@@\\n' + cat('bower_components/angular-loader/angular-loader.min.js') + '\\n//@@NG_LOADER_END@@', 'app/index-async.html');\""
+      }
+    }
+
+In the terminal, `npm install` and then `npm start` to start your server.
+
+We are adding this code so that you can run the app on a node server.
+
+##Hooking AngularJS into your app
+
+In the terminal, `mkdir app`, `mkdir app/views`, and then `touch app/views/layout.html`. 
+Open this file in your text editor.
 
 In `layout.html`, add the following code:
 
     <!doctype html>
     <html ng-app>
       <head>
-        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="../../bower_components/angular/angular.min.js"></script>
       </head>
       <body>
         <div>
