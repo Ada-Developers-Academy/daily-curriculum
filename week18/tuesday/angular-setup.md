@@ -146,6 +146,25 @@ show up in your browser underneath the `hr`, congratulations! You just started
 your AngularJS app!
 
 
+##Dave's NodeJS and NPM 101
+
+Dave was kind enough to talk with us about what NodeJS and NPM are/do. 
+Here are Ellen's notes from that helpful lecture (Thanks, Dave!)
+
+NodeJS took an opensource engine by Google and created a server wrapper 
+around it. It provides good wrappers for things like listening to http 
+requests and responding, accessing files, doing things that JS doesn't 
+have built in natively because it's in the browser. That's NodeJS
+
+npm is commonly accused of standing for "Not a Package Manager" or "Node 
+Package Manager" or something similar, but according to [the official npm site](https://docs.npmjs.com/misc/faq), 
+it's a "recursive bacronym abbreviation for 'npm is not an acronym.'" 
+npm is a package manager that lets you install libraries easily. It's 
+kind of like Ruby Gems plus Bundler. npm is for libraries you use that 
+run on the server, like Express (similar to Rails/Sinatra); bower is the 
+same but for things that run in the browser.
+
+
 
 
 ##For the rest of your day
