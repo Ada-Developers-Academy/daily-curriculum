@@ -18,7 +18,7 @@ In the terminal, `touch package.json`. In `package.json`, add the following code
       "name"         : "Blahg",
       "version"      : "0.0.1",
       "description"  : "My AngularJS Blahg",
-      "main"         : "server.js",
+      "main"         : "app.js",
       "author"       : "<YOUR NAME>",
       "dependencies" : {
         "http-server": "^0.6.1",
@@ -122,7 +122,7 @@ Remember, AngularJS `ng-model` is more like a variable than like a Ruby model.
 
 ##Testing our AngularJS
 
-In your browser, navigate to this page. 
+In your browser, navigate to http://localhost:8000/app/views/layout.html. 
 
 (Protip: it's probably easiest to go to your terminal window, type `open .`,
 and then either double-click on the file or right-click and then open with 
