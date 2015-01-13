@@ -40,7 +40,7 @@ basics of front-end javascript frameworks.
 | Time             | Topic                                                    |
 |:----------------:|:--------------------------------------------------------:|
 | **9:00 - 9:15**  | Stand Up                                                 |
-| **9:15 - 10:00** | [Scope, Creating Forms, and User Input](thursday/scope-forms-user-input.md)) |
+| **9:15 - 10:00** | [Scope, Creating Forms, and User Input](thursday/scope-forms-user-input.md) |
 | **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
 
 ### Friday

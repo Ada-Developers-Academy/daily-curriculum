@@ -5,6 +5,19 @@
 If you haven't followed the steps in Installfest pt2, this won't work. Before
 you try to do any of this stuff, go back to week17 and do the installfest homework.
 
+
+##Why use a server?
+
+You don't actually need to use a server for the application we are building, so why
+use it? Well, we can use NPM to help work around the same-origin policy.
+
+The same-origin policy is a security measure that prevents scripts from accessing
+the DOM on different sites. You can provide a CORS header (Cross-Origin Resource 
+Sharing) to allow JavaScript or a script running on another site to access your code.
+In theory, the API we're going to be using has stepped around this issue, but it's good 
+practice to do this so we're going to use NPM.
+
+
 ##Adding NPM to run our server
 
 Navigate to the parent directory of your app (it should be `blahg` or something
