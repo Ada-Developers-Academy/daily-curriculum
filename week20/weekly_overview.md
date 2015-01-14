@@ -16,7 +16,7 @@ the project is on track, review stories, and consult on any problems.
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| **9:00 - 10:30** | [Finalizing a project](choose-your-project.md) |
+| **9:00 - 10:30** | [Finalizing a project](/week17/choose-your-project.md) |
 | **10:30 - 1:30**  | [Capstone Project Time](../capstone/capstone.md)|
 | **1:30 - 3:00**   | On Languages by Andrew Gorcester         |
 | **3:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
