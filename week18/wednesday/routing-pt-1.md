@@ -57,10 +57,12 @@ code to `app.js`:
 
     var blahgApp = angular.module('blahgApp', [
       'ui.router',
+      'homeControllerModule'
     ]);
 
 This creates a new angular module, called blahgApp. It uses dependency injection to
-incorporate the library `ui.router`.
+incorporate the library `ui.router` and the module `homeControllerModule`, which we 
+have not yet created.
 
 
 ##Dependency injection
@@ -106,7 +108,8 @@ remember are:
 
 ##Configure the app
 
-Let's configure our app. In `app.js`, add the following line:
+Let's configure our app. In `app.js`, below all of the lines you added previously
+(and outside of the block you made previously) add the following line:
 
     blahgApp.config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
@@ -145,7 +148,7 @@ a `$scope` element.
 ##Update views
 
 Open `layout.html` in your browser. Find the part where it says `ng-app`, and update
-it to `ng-app="blaghApp"`. Then, touch `app/views/home.html`.
+it to `ng-app="blahgApp"`. Then, touch `app/views/home.html`.
 
 In `layout.html`, copy the contents of the `body`. Paste the contents in `app/views/home.html`.
 Add a `div ng-controller="homeController"` around the contents of `app/views/home.html`. 
