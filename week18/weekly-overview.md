@@ -13,7 +13,7 @@ basics of front-end javascript frameworks.
 
 | Time             | Topic                                                      |
 |:----------------:|:----------------------------------------------------------:|
-| **9:00 - 9:15**  | [Debugging AngularJS](monday/debugging.md)                 |
+| **9:00 - 9:15**  | [Debugging AngularJS](debugging.md)                        |
 | **9:15 - 9:45**  | [Why use a front-end framework?](monday/why-frameworks.md) |
 | **9:45 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial)  |
 
@@ -53,3 +53,7 @@ basics of front-end javascript frameworks.
 | **9:00 - 9:15**  | Stand Up                                                 |
 | **9:15 - 10:00** | [Routes and Controllers, pt 2: More routes and refactoring!](friday/routing-pt-2.md) |
 | **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
+
+
+##Debugging resource:
+[Debugging AngularJS](debugging.md)
