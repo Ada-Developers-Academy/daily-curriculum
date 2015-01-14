@@ -33,7 +33,8 @@ basics of front-end javascript frameworks.
 | **9:00 - 9:15**   | Stand Up                                            |
 | **9:15 - 9:17**   | Ellen talks about progress/where we are             |
 | **9:17 - 9:30**   | [Why use a server?](wednesday/why-server.md)        |
-| **9:30 - 10:15**  | [Routing and Controllers, pt 1: First route and controller](wednesday/routing-pt-1.md) |
+| **9:30 - 10:00**  | [Routing and Controllers, pt 1: First route and controller](wednesday/routing-pt-1.md) |
+| **10:00 - 10:15** | Break                                               |
 | **10:15 - 10:45** | [Rails vs Angular: Some Comparisons](rails-v-ng.md) |
 | **11:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
 
