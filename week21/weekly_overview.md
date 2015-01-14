@@ -47,5 +47,5 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic        |
 |:----------------|:-------------|
-| **9:00 - 10:30**   | [CarrierWave](wednesday/carrierwave.md)          |
+| **9:00 - 10:30**   | [CarrierWave](friday/carrierwave.md)          |
 | **10:30 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
