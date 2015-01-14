@@ -17,7 +17,7 @@ Lecture topics include:
 
 | Time             | Topic                                            |
 |:-----------------|:-------------------------------------------------|
-| **9:00 - 11:00**   | [Revisiting Deploying to EC2](wednesday/provisioning-and-deploying-to-a-vps.md) |
+| **9:00 - 11:00**   | [Revisiting Deploying to EC2](/week20/tuesday/provisioning-and-deploying-to-a-vps.md) |
 | **11:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md) |
 
 
@@ -38,7 +38,7 @@ Lecture topics include:
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 10:00** | [Internationalization](friday/internationalization.md) |
+| **9:00 - 10:00** | [Internationalization](thursday/internationalization.md) |
 | **10:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
 
 
