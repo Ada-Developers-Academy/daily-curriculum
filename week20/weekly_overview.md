@@ -25,7 +25,7 @@ the project is on track, review stories, and consult on any problems.
 
 | Time              | Topic                                                  |
 |:------------------|:-------------------------------------------------------|
-| **9:00 - 11:30**  | [Deploying to EC2](wednesday/provisioning-and-deploying-to-a-vps.md) |
+| **9:00 - 11:30**  | [Deploying to EC2](tuesday/provisioning-and-deploying-to-a-vps.md) |
 | **11:30 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Wednesday
