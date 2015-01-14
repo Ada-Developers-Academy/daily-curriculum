@@ -22,7 +22,7 @@ the project is on track, review stories, and consult on any problems.
 
 | Time             | Topic                                                  |
 |:-----------------|:-------------------------------------------------------|
-| **9:00 - 9:45**   | [Content Delivery Networks](friday/cdn.md)       |
+| **9:00 - 9:45**   | [Content Delivery Networks](tuesday/cdn.md)       |
 | **9:45 - 5:00**  | [capstone Project Time](../capstone/capstone.md)|
 
 ### Wednesday
