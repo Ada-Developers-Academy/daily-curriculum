@@ -17,39 +17,33 @@ Lecture topics include:
 
 | Time             | Topic                                            |
 |:-----------------|:-------------------------------------------------|
-| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 11:00**   | [Revisiting Deploying to EC2](/week20/tuesday/provisioning-and-deploying-to-a-vps.md) |
+| **11:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md) |
+
 
 
 ### Tuesday
 
 | Time             | Topic                                                   |
 |:-----------------|:--------------------------------------------------------|
-| **9:00 - 3:00**  | [Capstone Project Time](../capstone/capstone.md)        |
-| **3:00 - 4:00**  | [Guest Lecture - Andrew Gorcester](tuesday/security.md) |
-| **4:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)        |
+| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)        |
 
 ### Wednesday
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md) |
-| **3:00 - 3:45** | [CarrierWave](wednesday/carrierwave.md)          |
-| **3:45 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
 
 ### Thursday
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 4:00** | [Capstone Project Time](../capstone/capstone.md) |
-| **4:00 - 5:00** | Guest Lecture - Asif Daud                         |
+| **9:00 - 10:00** | [Internationalization](thursday/internationalization.md) |
+| **10:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
 
 
 ### Friday
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md) |
-| **3:00 - 3:45** | [Content Delivery Networks](friday/cdn.md)       |
-| **3:45 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
-
-
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |

@@ -1,6 +1,9 @@
 # Week 20
 
-In Week 20 we will spend the week cleaning our palate before we begin the final 4 week capstone project. This week is an opportunity to return to basics, work on side projects, or experiment with a tool or technique you haven't had the opportunity to explore yet. All projects will be documented through a variety of options.
+In Week 20 we begin [capstone projects](../capstone/capstone.md). In this week
+we will have lectures on relevant topics for a wide variety of capstone
+requirements. Students will have frequent checkins with an instructor to ensure
+the project is on track, review stories, and consult on any problems.
 
 ## Goals
 
@@ -13,45 +16,41 @@ In Week 20 we will spend the week cleaning our palate before we begin the final 
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| **10:00 - 10:30** | [Choosing a Project](choose-your-project.md) |
-| **10:30 - 2:30**  | Project Time                                 |
+| **9:00 - 10:30** | [Finalizing a project](/week17/choose-your-project.md) |
+| **10:30 - 1:30**  | [Capstone Project Time](../capstone/capstone.md)|
 | **1:30 - 3:00**   | On Languages by Andrew Gorcester         |
-| **3:30 - 5:00**   | Project Time                                 |
+| **3:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Tuesday
 
-| Time             | Topic                                                  |
-|:-----------------|:-------------------------------------------------------|
-| **9:00 - 9:15**  | Stand Up                                               |
-| **9:15 - 10:15** | [Intro to MongoDB](tuesday/introduction_to_mongodb.md) |
-| **10:15 - 3:00** | Project Time                                           |
-| **3:00 - 5:00**  | Field Trip to Zillow                                   |
+| Time              | Topic                                                  |
+|:------------------|:-------------------------------------------------------|
+| **9:00 - 11:30**  | [Deploying to EC2](tuesday/provisioning-and-deploying-to-a-vps.md) |
+| **11:30 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Wednesday
 
 | Time            | Topic                      |
 |:----------------|:---------------------------|
-| **9:00 - 9:15** | Stand Up                   |
-| **9:15 - 3:00** | Project Time               |
-| **3:00 - 5:00** | Field Trip to Energy Savvy |
+| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Thursday
 
 | Time            | Topic                            |
 |:----------------|:---------------------------------|
-| **9:00 - 9:15** | Stand Up                         |
-| **9:15 - 2:00** | Project Time                     |
-| **3:00 - 4:00** | Project Time                     |
-| **4:00 - 4:45** | [Brakeman](thursday/brakeman.md), [Code Climate](thursday/code_climate.md) |
-| **4:45 - 5:00** | [Interview Preparation](thursday/preparing_for_interviews.md) |
+| **9:30 - 11:00** | Jack Danger Canty                    |
+| **11:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Friday
 
 | Time              | Topic                                                  |
 |:------------------|:-------------------------------------------------------|
-| **9:00 - 9:15**   | Stand Up                                               |
-| **9:15 - 10:00**  | Project Time                                           |
-| **10:00 - 10:45** | [Internationalization](friday/internationalization.md) |
-| **10:45 - 5:00**  | Project Time                                           |
+| **9:30 - 11:00** | Jack Danger Canty                    |
+| **11:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
-**Interviews:** On Friday, from 12 noon to 5pm, we will be rotating through interviews with internship sponsors
+Additional Topics
+----------
+
+- [Caching in Rails](wednesday/caching-in-rails.md)
+- [Brakeman](thursday/brakeman.md)
+- [Code Climate](thursday/code_climate.md)

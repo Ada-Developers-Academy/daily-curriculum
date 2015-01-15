@@ -1,6 +1,6 @@
 # Week 21
 
-In Week 21 we begin [capstone projects](../capstone/capstone.md). In this week
+In Week 21 we continue [capstone projects](../capstone/capstone.md). In this week
 we will have guest lectures on relevant topics for a wide variety of capstone
 requirements. Students will have frequent checkins with an instructor to ensure
 the project is on track, review stories, and consult on any problems.
@@ -19,10 +19,8 @@ the project is on track, review stories, and consult on any problems.
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| **9:00 - 9:15**   | Technical Interview Question Review          |
-| **9:15 - 10:15**  | Project Presentations          |
 | **10:15 - 3:30**  | [Capstone Project Time](../capstone/capstone.md)|
-| **1:30 - 3:00**   | On Languages by Andrew Gorcester         |
+| **1:30 - 2:30**   | [On Performance](http://nbviewer.ipython.org/github/andrewsg/wep_app_performance_talk/blob/master/Performance%20presentation.ipynb) by Andrew Gorcester         |
 
 * Checkins with Bookis during project time
 
@@ -32,28 +30,22 @@ the project is on track, review stories, and consult on any problems.
 |:-----------------|:-------------------------------------------------------|
 | **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
-* Sponsor interviews from 12-5
-
 ### Wednesday
 
 | Time            | Topic                      |
 |:----------------|:---------------------------|
-| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
-| **3:00 - 4:30**   | Jake Mitchell: [Deploying to EC2](wednesday/provisioning-and-deploying-to-a-vps.md) |
+| **9:00 - 10:00**  | [DNS Configuration](wednesday/dns-configuration.md)|
+| **10:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 ### Thursday
 
 | Time            | Topic                            |
 |:----------------|:---------------------------------|
 | **9:00 - 1:00**  | [Capstone Project Time](../capstone/capstone.md)|
-| **1:00 - 2:30** | Interview Prep with Robin   |
-| **3:00 - 4:30** | Andrew Gorcester: [Performance](http://nbviewer.ipython.org/github/andrewsg/wep_app_performance_talk/blob/master/Performance%20presentation.ipynb) |
 
 ### Friday
 
 | Time            | Topic        |
 |:----------------|:-------------|
-| **9:00 - 10:00**  | [DNS Configuration](friday/dns-configuration.md)|
-| **10:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
-
-* Sponsor interviews from 12-5
+| **9:00 - 10:30**   | [CarrierWave](friday/carrierwave.md)          |
+| **10:30 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
