@@ -252,3 +252,57 @@ Then, in `home.html`, update the code so it looks like the following:
       {{newPost}}
     </div>
 
+Now, if you refresh the page, you'll see that the `{{newPost}}` updates as you
+add things to the title and the contents.
+
+Next, we need to add a click event to the checkboxes to get them to move the 
+appropriate values in and out of the `newPost.tag_ids`. Update your `home.html`
+so the form code looks like the following:
+
+      <div class="form">
+        Title: <input type="text" ng-model="newPost.title"/>
+        Content: <input type="text" ng-model="newPost.content"/>
+        Tags:
+          <span ng-repeat="tag in tags">
+            <input type="checkbox" value="tag.id" ng-click="toggleId(tag.id)">{{tag.name}}</input>
+          </span>
+        {{newPost}}
+      </div>
+
+Now, in `layout.js`, create the following function:
+
+    $scope.toggleId = function(id) {
+      //gets the index of the id in the tag_ids array
+      i = $scope.newPost.tag_ids.indexOf(id);
+
+      //if the value doesn't exist, indexOf returns -1
+      //This if block could be written in pseudo code as "if id not in tag_ids"
+      if(i == -1) {
+
+        //adds the id to the array
+        $scope.newPost.tag_ids.push(id);
+
+      //if it is already in the array
+      } else {
+        //remove it from the array
+        $scope.newPost.tag_ids.splice(i, 1);
+      }
+    }
+
+Now, if you click on the check boxes, it should toggle the contents of the model.
+
+Cool! Let's add a button that will let us actually submit the model! In the
+future, this function will actually add the post to the database; for now,
+we'll just have it add the post to the `posts` array. Remember, since we aren't
+using a database, it won't persist on refresh--you'll lose your new post every
+time you refresh the page.
+
+In `home.html`, below the form, add `<div ng-click="submitNewPost()">submit</div>`.
+
+In `layout.js`, in your `homeController`, add the following code:
+
+    $scope.submitNewPost = function() {
+      $scope.posts.push($scope.newPost);
+    }
+
+Congratulations! You've added a post to your posts!
