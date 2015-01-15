@@ -150,7 +150,7 @@ We're starting to look like a real index of posts! I wish we could see which tag
 were associated with each post, though. Let's do that!
 
 So first, let's isolate our tags. After the `h2` in `home.html`, add this: 
-`<small ng-repeat="tag_id in post.tag_id">{{tag_id}}</small>`. Look at what that
+`<small ng-repeat="tag_id in post.tag_ids">{{tag_id}}</small>`. Look at what that
 looks like in the browser; you should have a number of tag ids printing out to the
 screen as strings.
 
