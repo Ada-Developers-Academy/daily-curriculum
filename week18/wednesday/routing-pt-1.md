@@ -1,3 +1,5 @@
+[Recording, which starts partway through](https://www.youtube.com/watch?v=6SBRejAM9p8)
+
 #Routing Pt 1: Routing and Controllers 101
 
 In this lesson, we'll create our first controller and define our route to

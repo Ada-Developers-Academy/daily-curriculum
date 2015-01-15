@@ -1,4 +1,5 @@
 [Google presentation](https://docs.google.com/presentation/d/1I7iuGnpcbNlOgynM5wMfTVkjivINRuEYpW09v_pAnl4/edit?usp=sharing)
+[Recording, which switches over to a different talk partway through](https://www.youtube.com/watch?v=6SBRejAM9p8)
 
 #Why use a server with AngularJS?
 

@@ -1,4 +1,5 @@
 [Google presentation](https://docs.google.com/presentation/d/1LLHcxk0xSg2lcMN0gJNtdHcSweAkJZf2RZUvS7HlUmE/edit?usp=sharing)
+[Recording](https://www.youtube.com/watch?v=RzLvI5Eed0U)
 
 #Why Use Front-End Frameworks?
 
