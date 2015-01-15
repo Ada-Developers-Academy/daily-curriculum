@@ -1,3 +1,7 @@
+git@github.com:shanghaiellen/blahg-along.git
+
+https://github.com/shanghaiellen/blahg-along
+
 #Scopes, forms, and user input!
 
 ##Adding some "data" to our blahg!
