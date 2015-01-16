@@ -17,11 +17,10 @@ a Real Developer &trade; is like.
 
 The sources of this problem:
 
-1) Our servers looks for and tries to render `index.html` or `layout.html` (apparently, 
-`index.html` is slightly more conventional). If that file is in the root directory, then 
-when you navigate to `localhost:8000`, it shows the contents of that page. If it isn't, 
-however you have to navigate to `localhost:8000/route/to/the/file/layout.html#/` to see 
-the pages you want to render.
+1) Our servers looks for and tries to render `index.html`. If that file is in the root
+directory, then when you navigate to `localhost:8000`, it shows the contents of that 
+page. If it isn't, however you have to navigate to 
+`localhost:8000/route/to/the/file/layout.html#/` to see the pages you want to render.
 
 I tried simply telling our server to serve up `layout.html` in the location that it was
 already in, BUUUUUT 
@@ -30,18 +29,18 @@ already in, BUUUUUT
 point--so, from `views/layout.html`, we can't access `bower_components` without more 
 libraries/frameworks/etc.--the server won't do it out of the box.
 
-To resolve this issue, we needed to follow four steps: move `layout.html`, tell our 
-server to load from the parent directory, update the relative file paths in our 
-`layout.html`, and update the relative file paths in `app.js`.
+To resolve this issue, we needed to follow four steps: move and rename `layout.html`, 
+tell our server to load from the parent directory, update the relative file paths in our 
+`index.html`, and update the relative file paths in `app.js`.
 
 
-##1) Move `layout.html`
+##1) Move and rename `layout.html`
 
 Right now, you have a file called `layout.html`, and the path to that file is
 `blahg/app/views/layout.html`. We want that file to be at `blahg/layout.html`.
 
 In your terminal from the project root directory (from `blahg`), type 
-`mv app/views/layout.html ./`.
+`mv app/views/layout.html ./index.html`.
 
 
 ##2) Tell our server to load from the parent directory
@@ -52,12 +51,12 @@ block that starts with `start`. We're going to update the second argument in tha
     "start": "http-server ../blahg-with-students -a 0.0.0.0 -p 8000 "
 
 
-##3) Update the relative file paths in our `layout.html`
+##3) Update the relative file paths in our `index.html`
 
-Now that `layout.html` is in a different directory, we need to update our relative pahts
+Now that `index.html` is in a different directory, we need to update our relative paths
 to this file. before, `./` was `views`; now, `./` is `blahg`.
 
-Open up `layout.html` in your text editor. You should have four `script` tags. Let's 
+Open up `index.html` in your text editor. You should have four `script` tags. Let's 
 update the relative paths: instead of navigating up to the directory with `../`, we'll
 need to navigate down.
 
