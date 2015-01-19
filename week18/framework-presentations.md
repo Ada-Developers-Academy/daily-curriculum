@@ -1,3 +1,5 @@
+[spreadsheet](https://docs.google.com/spreadsheets/d/1YyxFXf3fXHILLGa8f05I0iSfAa4gIkidt90Nm8DXV6o/edit?usp=sharing)
+
 #Framework Lightning Talks
 
 On Friday afternoon, instead of working on your projects or having lecture time,
