@@ -4,50 +4,28 @@ In week 24 we will break into teams by the language being used within internship
 
 Python
 -------
-- Why Python?
-- Getting started with Python
-- Python compared to Ruby
-- Small web application
 
 **Who**:
-- Andrew?
-- Galina / Elizabeth?
+- Galina
+- Jon
 
 Java
 -------
-- Why Java?
-- Compiled languages
-- IDE
-- Lists
-
-**Project**
-
-- Scrabble? (board game)
-- Small api
 
 **Who**:
 
-- Steve?
-- Jon?
-- Blake?
-- Marchex?
 
 Ruby
 -------
-- Meta
 
 **Who**:
-- Hsing-Hui?
-- Eric?
 
 Javascript
 ----------
--
 
 **Who**:
-
-- Dean?
-- Formidable?
+- Dave
+- Dean
 
 ### Monday
 
