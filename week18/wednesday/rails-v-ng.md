@@ -1,4 +1,5 @@
 [Google presentation](https://docs.google.com/presentation/d/18WMlyMNLJD5fay0CnB_2al8bB8X0DwCrDyyQWI9TDfg/edit?usp=sharing)
+[Recording](https://www.youtube.com/watch?v=FnR6EgLlbfs)
 
 #Rails vs. AngularJS
 

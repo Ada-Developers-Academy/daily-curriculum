@@ -1,4 +1,5 @@
 [Google presentation](https://docs.google.com/presentation/d/1vOMkrETd2qYtjYGgb_ZoCi3m71PjnvPof-yQjbujhl4/edit?usp=sharing)
+[Recording](https://www.youtube.com/watch?v=yMSAm7hCCqY)
 
 #Intro to AngularJS
 

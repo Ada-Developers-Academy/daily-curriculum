@@ -1,3 +1,5 @@
+[Recording](https://www.youtube.com/watch?v=_r3sLudv96s)
+
 #Adding AngularJS to our app/Hello World
 
 ##Follow Installfest pt2

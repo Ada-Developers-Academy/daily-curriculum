@@ -40,19 +40,23 @@ basics of front-end javascript frameworks.
 
 ### Thursday
 
-| Time             | Topic                                                    |
-|:----------------:|:--------------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                                 |
-| **9:15 - 10:00** | [Scope, Creating Forms, and User Input](thursday/scope-forms-user-input.md) |
-| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
+| Time              | Topic                                                         |
+|:-----------------:|:-------------------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                                      |
+| **9:15 - 10:00**  | [Scope, Forms, and Input](thursday/scope-forms-user-input.md) |
+| **10:00 - 10:45** | [Filters](thursday/filters.md)                                |
+| **10:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
 
 ### Friday
 
-| Time             | Topic                                                    |
-|:----------------:|:--------------------------------------------------------:|
-| **9:00 - 9:15**  | Stand Up                                                 |
-| **9:15 - 10:00** | [Routes and Controllers, pt 2: More routes and refactoring!](friday/routing-pt-2.md) |
-| **10:00 - 5:00** | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
+| Time              | Topic                                              |
+|:-----------------:|:--------------------------------------------------:|
+| **9:00 - 9:15**   | Stand Up                                           |
+| **9:15 - 9:30**   | [Let's fix that ugly url!](friday/fix-url.md)      |
+| **9:30 - 10:00**  | [Routes and Controllers, pt 2: More routes and refactoring!](friday/routing-pt-2.md) |
+| **10:30 - 11:00** | Student-led discussion                             |
+| **11:00 - 11:30** | Optional lecture about tags in the conference room |
+| **11:30 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md) |
 
 
 ##Debugging resource:

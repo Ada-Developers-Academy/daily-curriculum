@@ -1,3 +1,5 @@
+[Recording, which starts partway through](https://www.youtube.com/watch?v=6SBRejAM9p8)
+
 #Routing Pt 1: Routing and Controllers 101
 
 In this lesson, we'll create our first controller and define our route to
@@ -162,7 +164,7 @@ Then, return to `layout.html` and add `div ui-view` to the `body`.
         <script src="../../bower_components/angular/angular.min.js"></script>
         <script src="../../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
         <script src="../js/app.js"></script>
-        <script src="../js/controllers/homeController.js"></script>
+        <script src="../js/controllers/layout.js"></script>
       </head>
       <body>
         <div ui-view>
