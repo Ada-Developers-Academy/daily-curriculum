@@ -1,3 +1,5 @@
+[Recording](https://www.youtube.com/watch?v=rrz-RZJP2lU&feature=youtu.be)
+
 #Routing, part 2
 
 It's time to look at some more advanced routing, and to practice creating another

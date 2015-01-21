@@ -1,5 +1,7 @@
 [Google presentation](https://docs.google.com/presentation/d/13664MwNIHq-qs6MMVqoDqtpwFw_R7b8yNfV_JB87Vxo/edit?usp=sharing)
 
+[Recording](https://www.youtube.com/watch?v=U9lTRMRuY7A&feature=youtu.be)
+
 #Promise Objects and Asynchronous Calls
 
 Promise objects and asynchronous calls are very, very important. If you're only

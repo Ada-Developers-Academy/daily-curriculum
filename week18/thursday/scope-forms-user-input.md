@@ -1,3 +1,6 @@
+[Recording 1](https://www.youtube.com/watch?v=S-sShrvV5Ww&feature=youtu.be)
+[Recording 2](https://www.youtube.com/watch?v=mGvlK-Dveng&feature=youtu.be)
+
 git@github.com:shanghaiellen/blahg-along.git
 
 https://github.com/shanghaiellen/blahg-along
