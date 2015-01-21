@@ -32,8 +32,8 @@ Nothing! WOOOOO! Day off :D
 | Time              | Topic                                                  |
 |:-----------------:|:------------------------------------------------------:|
 | **9:00 - 9:15**   | Stand Up                                               |
-| **9:15 - 9:45**   | [Structure](structure.md)                              |
-| **9:45 - 10:45**  | [Refactoring!](refactor.md)                            |
+| **9:15 - 9:45**   | [Structure](wednesday/structure.md)                    |
+| **9:45 - 10:45**  | [Refactoring!](wednesday/refactor.md)                  |
 | **10:45 - 11:30** | [Services, Factories, and Directives](wednesday/sfd.md)|
 | **11:15 - 5:00**  | [Blahg](../week18/blog.md)                             |
 **there will be a break someplace in here
