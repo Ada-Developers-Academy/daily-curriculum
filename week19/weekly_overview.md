@@ -48,8 +48,8 @@ Nothing! WOOOOO! Day off :D
 | **10:30 - 10:45** | [Basic steps in refactoring](thursday/refactoring2.md) |
 | **10:45 - 11:00** | Break                                                  |
 | **11:00 - 12:00** | Optional: refactor-along                               |
-| **12:00 - 3:00**  | Bri's lightning talk                                   |
-| **3:00 - 5:00**   | [Blahg](../week18/blog.md)                             |
+| **3:00 - 3:15**   | Bri's lightning talk                                   |
+| **11:00 - 5:00**  | [Blahg](../week18/blog.md)                             |
 
 ### Friday
 
