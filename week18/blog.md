@@ -56,7 +56,7 @@ As a user, I can:
   - On my edit page, as I create this new blahg post, I can see the contents of the
   blahg post in window next to my input fields as I type it, before I actually submit
   the post
-- App uses at least 1 of each of the following: ng-click, ng-if, ng-each, ng-model
+- App uses at least 1 of each of the following: ng-click, ng-if, ng-repeat, ng-model
 
 ## For Silver, Gold, and Platinum:
 Choose from the following, based on your interests. You can either pick one track
