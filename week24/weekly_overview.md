@@ -44,6 +44,6 @@ In week 24 we will break into teams by the language being used within internship
 | Time            | Topic        |
 |:----------------|:-------------|
 | 1:00 - 5:00 | Jon Bauman: Advanced Python|
-| 1:00 - 5:00 | Steve: Java|
+| 1:00 - 5:00 | Steve Huynh: Java|
 | 1:00 - 5:00 | Kerri Miller: Authoring a Gem |
 | 1:00 - 5:00 | Jeff Lembeck: Node |
