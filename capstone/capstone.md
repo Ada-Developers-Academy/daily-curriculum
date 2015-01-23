@@ -31,7 +31,7 @@ You may work as an individual or as a pair on your capstone project. To meet the
 ### Goals
 + Use your product plan to lead the functionality development of their application
 + Use [Pivotal Tracker](http://pivotaltracker.com) as a project management service
-+ Host the application using a VPS such as Linode.com (no Heroku)
++ Host the application using a VPS such as Amazon EC2 (no Heroku)
 + Configure DNS with custom domain
 + Create a stylized, responsive design for all devices (phone, tablet, display)
 + At least 10 items of dummy-data for each concept
@@ -48,7 +48,7 @@ You may work as an individual or as a pair on your capstone project. To meet the
 
 
 ### Integration Choices
-+ At least two complex integrations:
++ Choose at least two complex integrations, examples:
     + Background Jobs
     + NoSql
     + CDN
@@ -56,7 +56,7 @@ You may work as an individual or as a pair on your capstone project. To meet the
     + Front-end Framework (Ember, Angular, Backbone, etc.)
 
 ### Advanced Feature Choices
-+ Two advanced features:
++ Choose at least two advanced features, examples:
     + SSL
     + CMS
     + Internationalization
@@ -64,6 +64,8 @@ You may work as an individual or as a pair on your capstone project. To meet the
     + SOA
     + S3 storage/delivery
     + Secure Public API (documented)
+
+In your instructor checkins you will verify that your choices for integrations and features are appropriate
 
 ## To Get Started
 + [IDEO Deep Dive](https://www.youtube.com/watch?v=taJOV-YCieI)
