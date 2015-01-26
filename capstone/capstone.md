@@ -10,7 +10,7 @@ The Capstone Project consists of the following components:
 + Completed application, live on the web
 + Linked from the application, the following supplemental material:
     + Product plan: problem statement, user persona(s), market research
-+ Project presentation, including a demo of the application and product plan (to be presented last day of class)
++ Project presentation, including a demo of the application and product plan (to be presented in class)
 
 ## Product Plan Components
 
