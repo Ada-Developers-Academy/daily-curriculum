@@ -266,9 +266,12 @@ Tell Capistrano to use the helper gems we installed. Open `Capfile` and uncommen
 
 ```ruby
 require 'capistrano/rvm'
+# require 'capistrano/rbenv'
+# require 'capistrano/chruby'
 require 'capistrano/bundler'
 require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
+require 'capistrano/passenger'
 ```
 
 Open `config/deploy.rb` and fix these settings:
@@ -281,54 +284,24 @@ set :use_sudo, false
 set :deploy_to, '/var/www/waitlist'
 ```
 
-And uncomment this line in the `:restart` task. Whenever Capistrano deploys to production this code will tell Apache to restart so the new changes take effect.
-
-```ruby
-execute :touch, release_path.join('tmp/restart.txt')
-```
-
-**Postgresql**
-```bash
-sudo -i -u postgres
-```
-
-In order for Capistrano to work with Figaro (optional), you should also add this to the very end of `config/deploy.rb`
-
-```ruby
-namespace :figaro do
-  desc "SCP transfer figaro configuration to the shared folder"
-  task :setup do
-    on roles(:app) do
-      upload! "config/application.yml", "#{shared_path}/application.yml", via: :scp
-    end
-  end
-
-  desc "Symlink application.yml to the release path"
-  task :symlink do
-    on roles(:app) do
-      execute "ln -sf #{shared_path}/application.yml #{current_path}/config/application.yml"
-    end
-  end
-end
-
-after "deploy:started", "figaro:setup"
-after "deploy:symlink:release", "figaro:symlink"
-```
-
-This adds tasks to upload your *local* copy of `config/applciation.yml` to the VPS, putting it in `/var/www/[your app name]/shared`. It then creates a symlink (similar to a file alias or shortcut) to this file, so that Rails can access it.
-
 # Production stage configuration
 
 Open `config/deploy/production.rb`.
 
+1. Comment out the following three lines:
+```ruby
+# role :app, %w{ubuntu@54.152.21.221}
+# role :web, %w{ubuntu@54.152.21.221}
+# role :db,  %w{ubuntu@54.152.21.221}
+```
 1. Change all the `example.com`s to the public DNS.
 2. Change all the `deploy` user references to `ubuntu`, the primary user on the VPS.
 3. Add a server configuration section like this:
 
 ```
-server 'ec2-184-72-148-221.compute-1.amazonaws.com',
+server '54.152.21.221',
   user: 'ubuntu',
-  roles: %w{web app},
+  roles: %w{web app db},
   ssh_options: {
     keys: %w(/Users/YOUR_USERNAME/.ssh/[pem file name].pem),
     forward_agent: false,
@@ -336,13 +309,12 @@ server 'ec2-184-72-148-221.compute-1.amazonaws.com',
   }
 ```
 
-
 # Attempt deployment via Capistrano
 
 To see the list of commands supported by `cap`, run
 
 ```bash
-$ bundle exec cap -vT
+$ bundle exec cap -T
 ```
 
 We already used `install`. Now we're interested in `deploy`.
