@@ -50,27 +50,8 @@ Client                     Server
 ```
 
 HTTP is a great protocol for using websites, but not it's going to let us set up a web server. For that we need SSH.
-
-
-# SSH Crash Course
-
-SSH stands for **S**ecure **SH**ell, and it's just another communication protocol for computers. Let's try it.
-
-Pick a random user: `ada1`, `ada2`, `ada3`, ... `ada100`. Your password is the same.
-
-It's okay if some people have the same user.
-
-Now open your terminal and connect.
-
-```bash
-$ ssh ada58@[some ip]
-Password:ada58
-```
-
-Notice how the prompt changed? You're connected to a Linux machine running on my laptop. Try typing in `watch -n1 'who'` to monitor which users are connected. As people log in and out the output should change.
-
+SSH stands for **S**ecure **SH**ell, and it's just another communication protocol for computers.
 SSH can also be used to securely copy files from one computer to another. This will be useful when it comes time to copy the Rails application code to the server.
-
 
 # Now we need a server
 
@@ -107,102 +88,118 @@ Ultimately, shared hosting isn't flexible enough to support Rails; we really nee
 
 # Setting up a VPS on Amazon's EC2 service
 
-EC2 is short for Elastic Compute Cloud. Using it feels a lot like buying parts for a custom computer. What we're really doing is renting a personal computer in the cloud.
+Sign Up & Launch
+-------
+Sign up for [AWS](http://aws.amazon.com/). You'll need to give credit card, although
+we will only be using the free tier. After signing up go to the [AWS Console](https://console.aws.amazon.com)
+. Click on "Services", then "EC2". Click "Launch Instance", then follow the wizard to create an instance.
 
-Fortunately EC2 provides a [free tier](http://aws.amazon.com/free/). Rails can run just fine on it.
+- Step 1: Select "Ubuntu Server 14.04 LTS (HVM), SSD Volume Type" (there is a checkbox on the left that says "free tier", this will helper filter the list)
+- Step 2: The smallest instance (micro) should already be selected, just hit "Next: Configure Instance Details"
+- Step 3-5: Use the defaults in all these steps, just click the "Next" button.
+- Step 6: Change the "Security Group Name" to "Basic Web App", then Click "Add Rule", From the new dropdown, select "HTTP". Click "Review and Launch".
+- Step 7: Verify that your page includes these things.
+![](ec2-confirm.png)
+**Click Launch**
+- Step 8: In the modale, select "Create a new pair", give the key a name ("ec2-ada"), then "Download Key Pair"
+**Click Launch Instances**
 
-1. Open the [AWS Console](https://console.aws.amazon.com) and click EC2.
-1. Select the latest version of Ubuntu Linux that's marked as free tier eligible.
-1. Choose the instance type. The *t1.micro* with all the default settings will be a fine starting point.
-1. Add EBS storage (basically a hard drive).
-1. Set up the security group and allow HTTP traffic.
-1. Click launch.
-1. Set up a key pair so you can securely SSH into the new server. Keep careful track of this new file (and *never* commit it to any of your public git repositories!).
-1. Click "Launch instance".
-1. Bookmark any helpful links.
+Click on the link to the instance, it looks something like "i-aef4705f".
 
+- Click "Elastic IPs" in the sidebar.
+- Click "Allocate New Address"
+- Click "Associate Address"
+- Hight the "Instance" field to autofill with the instance you just created.
 
-# SSH into the server
+SSH
+-----
 
-To securely connect to the VPS you'll first have to set up some things on your laptop. Follow the instructions [here](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
-
-Look at the new instance in the AWS console and find the public DNS. You'll also need the key file that you downloaded when you created the VPS.
-
-![](vps-dns.png)
-
-```bash
-$ ssh -i [key file] ubuntu@[vps public dns]
-```
-
-You can simplify this process storing some of this information in your `~/.ssh/config` file.
-
-
-# Use Ubuntu's package manager to install several dependencies
-
-A package manager is a lot like an app store for hackers. You can search for and install programs. If you've ever used [Homebrew](http://brew.sh/) to install software on your laptop, it's really similar.
+Next we're going to SSH into the instance we just created. Go to the terminal and type:
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get -y upgrade
-$ sudo apt-get -y install git apache2 postgresql \
-     libopenssl-ruby libcurl4-openssl-dev \
-     apache2-threaded-dev libapr1-dev \
-     libaprutil1-dev
+mv ~/Downloads/ec2-ada.pem ~/.ssh/
+chmod 400 ~/.ssh/ec2-ada.pem
+
+ssh -i ~/.ssh/ec2-ada.pem ubuntu@54.152.39.2 # Copy the Elastic IP Address from EC2
+# say 'yes' when it asks if you want to add to Known Hosts
 ```
 
-# Install RVM, Ruby, and Essential Gems
+Now we are SSH'd into ec2, were essentially in the Terminal of another computer.
+But,this computer if pretty bare bones, so were going to have to install a bunch of things like
+- RVM
+- Ruby
+- Postgresql
+- A webserver (Apache & Passenger)
 
-This process is exactly like what you did on your laptop during the [installfest](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week01/monday/installfest.md#rvm-installation) on day 1.
+Install Fest
+------------
 
-Start by installing [RVM](http://rvm.io).
+While SSH'd into EC2:
+```
+sudo apt-get update
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 561F9B9CAC40B2F7
+sudo apt-get install apt-transport-https ca-certificates
+sudo vi /etc/apt/sources.list.d/passenger.list
+```
+Add the following to the file, then save and quit (:wq):
+```bash
+deb https://oss-binaries.phusionpassenger.com/apt/passenger trusty main
+```
+```bash
+sudo chown root: /etc/apt/sources.list.d/passenger.list
+sudo chmod 600 /etc/apt/sources.list.d/passenger.list
+sudo apt-get update
+sudo apt-get install libapache2-mod-passenger
+sudo a2enmod passenger
+sudo service apache2 restart
+sudo vi /etc/apache2/sites-available/waitlist.conf
+```
+Add the following to the file, then save and quit (:wq):
+```bash
+<VirtualHost *:80>
+ServerName 54.164.53.249 # THIS SHOULD BE YOUR IP
+DocumentRoot /var/www/waitlist/current/public
+ServerAdmin bookis.smuin@gmail.com # THIS SHOULD BE YOUR EMAIL
+PassengerRuby /home/ubuntu/.rvm/gems/ruby-2.2.0/wrappers/ruby
+<Directory "/var/www/waitlist/current/public">
+Options FollowSymLinks
+Require all granted
+</Directory>
+</VirtualHost>
+```
 
 ```bash
-$ \curl -sSL https://get.rvm.io | bash -s stable
-$ source /home/ubuntu/.rvm/scripts/rvm
+sudo a2dissite 000-default
+sudo a2ensite waitlist
+sudo service apache2 restart
+sudo mkdir /var/www/waitlist
+sudo chown -R $USER:$USER /var/www/waitlist/
+gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable --ruby 2.2.0
+sudo apt-get install git
+sudo apt-get install postgresql postgresql-contrib libpq-dev
+sudo -i -u postgres
+createuser --interactive
 ```
-
-Then use RVM to install Ruby 2.0.0.
-
+Give the answers:
+```
+ubuntu
+n
+y
+n
+```
 ```bash
-$ rvm install 2.0.0
-$ rvm use 2.0.0 --default
+createdb waitlist_production
+exit
+sudo vi ~/.bash_profile
 ```
-
-And now we can install the Rails, Bundler, and Passenger gems.
-
+Add the following to the file, then save and quit (:wq):
 ```bash
-$ gem install rails bundler passenger --no-ri --no-rdoc
+export SECRET_KEY_BASE=db48bfa9e94bad023e877e791decac8ab7b0315f7153cb61c5f26d82170713fea412035121dc8d59f6a6c27fad5070f48dc1f2a3c03fa388dae816bcd6aca58b
 ```
-
-# Install Passenger module for Apache
-
-[Apache](http://httpd.apache.org/) and [Passenger](https://www.phusionpassenger.com/) may be unfamiliar. In short, Apache and Passenger translate between browser-speak and Rails-speak.
-
-1. Set aside some hard drive space as virtual memory (aka swap)
-
-```bash
-$ sudo dd if=/dev/zero of=/swap bs=1M count=1024
-$ sudo mkswap /swap
-$ sudo swapon /swap
 ```
-
-Go through interactive passenger setup process:
-
-```bash
-$ passenger-install-apache2-module
+sudo service apache2 restart
 ```
-
-Follow its recommendations for passenger module loading and configuration, create an
-passenger configuration file `sudo vim /etc/apache2/conf-enabled/passenger.conf`
-
-```
-LoadModule passenger_module /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.41/buildout/apache2/mod_passenger.so
-   <IfModule mod_passenger.c>
-     PassengerRoot /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/gems/passenger-4.0.41
-     PassengerDefaultRuby /home/ubuntu/.rvm/gems/ruby-2.0.0-p451/wrappers/ruby
-   </IfModule>
-```
-(or whatever version is spit out at the end of the passenger-install-apache2-module)
 
 # Web Application Servers: wha...?
 
@@ -227,109 +224,11 @@ We already installed a popular web application server called Apache. By default 
 ```
 
 
-# Create a dummy Rails app on the VPS to test Apache/Passenger
-
-While SSHed into the VPS, navigate to `/var/www` and create a new Rails project.
-
-```bash
-$ cd /var/www
-$ rvmsudo rails new crash-test-dummy
-```
-
-If you run into problems using `rvmsudo` take a look at [this page](https://rvm.io/integration/sudo).
-
-
-# Tell Apache what it needs to know about your app
-
-Create a `crash-test-dummy.conf` file in `/etc/apache2/sites-available`. Be sure to replace the `ServerName` part with your server's public DNS.
-
-```
-<VirtualHost *:80>
-    ServerName ec2-184-72-148-221.compute-1.amazonaws.com
-    DocumentRoot /var/www/crash-test-dummy/public
-    <Directory /var/www/crash-test-dummy/public>
-        Allow from all
-        Options -MultiViews
-    </Directory>
-</VirtualHost>
-```
-
-Tell Apache to start using this new configuration by running `sudo a2ensite crash-test-dummy.conf`.
-
-For more details on configuring Passenger, refer to [this section](http://www.modrails.com/documentation/Users%20guide%20Apache.html#_deploying_a_rack_based_ruby_application_including_rails_gt_3) of the docs.
-
-
-# Test the dummy Rails app
-
-1. Restart Apache: `sudo service apache2 restart`
-1. Paste the server's public DNS into your web browser
-
-![](crash-test-dummy-passenger-error.png)
-
-Notice the `/var/www/crash-test-dummy/` lines. Passenger is successfully reading the dummy project. It's complaining due to the dummy project's lack of required gems, but that's no surprise. At least we can be confident in the Apache/Passenger configuration!
-
-# Where to go from here?
-
-We've got a couple options:
-
-1. Continue developing the `crash-test-dummy` project *on* the production server.
-1. Develop on our laptops and periodically deploy changes to production.
-
-On the balance, the first option would be super frustrating.
-
-- requires developing completely in the terminal (no Atom here)
-- all changes, including major bugs, would be published to the world immediately
-- no separation of test/production data
-- development would require an internet connection
-
-Let's forget about the crash-test-dummy project. We'll work locally and deploy to production on our terms.
-
-
-# Start a Rails app on your laptop
-
-```bash
-$ rails new my-spiffy-project
-$ cd my-spiffy-project
-$ git init .
-$ git add .
-$ git commit -m "initial commit"
-
-# deploy to a git server
-$ git remote add origin git@scm.twiggilybeard.com:mekaj/ada-deployment-demo.git
-$ git push -u origin master
-```
-
-...or simply continue with a project you've already started. Keep in mind that syncing to a remote git repo that's internet-accessible will become important.
-
-
-# Create a basic homepage
-
-Set up a new route in `config/routes.rb`
-
-```ruby
-root 'welcome#index'
-```
-
-Generate a default welcome controller
-
-```bash
-$ rails generate controller Welcome index
-```
-
-Confirm it works
-
-```bash
-$ rails s
-```
-
-Don't forget to git commit and push.
-
-
 # Install Capistrano gem
 
 [Capistrano](https://github.com/capistrano/capistrano) is a helpful gem for deploying your Rails code.
 
-Follow the latest installation and configuration instructions [here](https://github.com/capistrano/capistrano/blob/master/README.md). To start, add the Capistrano dependency to your Gemfile and build out the default skeleton. While you're at it, add the `rubyracer` gem.
+Follow the latest installation and configuration instructions [here](https://github.com/capistrano/capistrano/blob/master/README.md). To start, add the Capistrano dependency to your Gemfile and build out the default skeleton. While you're at it, add the `therubyracer` gem.
 
 ```ruby
 group :development do
@@ -374,11 +273,11 @@ require 'capistrano/rails/migrations'
 Open `config/deploy.rb` and fix these settings:
 
 ```ruby
-set :application, 'my-spiffy-project'
+set :application, 'waitlist'
 set :repo_url, 'git@scm.twiggilybeard.com:mekaj/ada-deployment-demo.git'
 set :use_sudo, false
 
-set :deploy_to, '/var/www/my-spiffy-project'
+set :deploy_to, '/var/www/waitlist'
 ```
 
 And uncomment this line in the `:restart` task. Whenever Capistrano deploys to production this code will tell Apache to restart so the new changes take effect.
@@ -387,7 +286,12 @@ And uncomment this line in the `:restart` task. Whenever Capistrano deploys to p
 execute :touch, release_path.join('tmp/restart.txt')
 ```
 
-In order for Capistrano to work with Figaro, you should also add this to the very end of `config/deploy.rb`
+**Postgresql**
+```bash
+sudo -i -u postgres
+```
+
+In order for Capistrano to work with Figaro (optional), you should also add this to the very end of `config/deploy.rb`
 
 ```ruby
 namespace :figaro do
@@ -425,7 +329,7 @@ server 'ec2-184-72-148-221.compute-1.amazonaws.com',
   user: 'ubuntu',
   roles: %w{web app},
   ssh_options: {
-    keys: %w(/Users/jacobmitchell/.ssh/[pem file name].pem),
+    keys: %w(/Users/YOUR_USERNAME/.ssh/[pem file name].pem),
     forward_agent: false,
     auth_methods: %w(publickey)
   }
@@ -484,54 +388,27 @@ If you see an error like this...
 
 ```
 DEBUG [06ffe91f] 	mkdir:
-DEBUG [06ffe91f] 	cannot create directory ‘/var/www/my-spiffy-project’
+DEBUG [06ffe91f] 	cannot create directory ‘/var/www/waitlist’
 DEBUG [06ffe91f] 	: Permission denied
 ```
 
 Log onto the server, create the directory, and assign ownership to the `ubuntu` user.
 
 ```bash
-$ sudo mkdir /var/www/my-spiffy-project
-$ sudo chown -R ubuntu /var/www/my-spiffy-project
-$ sudo chgrp -R ubuntu /var/www/my-spiffy-project
+$ sudo mkdir /var/www/waitlist
+$ sudo chown -R ubuntu /var/www/waitlist
+$ sudo chgrp -R ubuntu /var/www/waitlist
 ```
 
 Or an error like this:
 
 ```
 DEBUG [3309bb27] 	touch:
-DEBUG [3309bb27] 	cannot touch ‘/var/www/my-spiffy-project/releases/20140402184020/tmp/restart.txt’
+DEBUG [3309bb27] 	cannot touch ‘/var/www/waitlist/releases/20140402184020/tmp/restart.txt’
 DEBUG [3309bb27] 	: No such file or directory
 ```
 
 Add an empty `tmp/restart.txt` file to your local repo, commit, push, and try again. You may have to tweak the `.gitignore` file.
-
-
-# After successful deployment, configure Apache
-
-We already have Apache configured for the `crash-test-dummy` project on the production server. Now we need something similar for the real project.
-
-```bash
-$ cd /etc/apache2/sites-available
-$ sudo cp crash-test-dummy.conf my-spiffy-project.conf
-```
-
-Edit the new file to point to the deployment directory.
-
-```
-...
-  DocumentRoot /var/www/my-spiffy-project/current/public
-  <Directory /var/www/my-spiffy-project/current/public>
-...
-```
-
-Tell Apache to stop serving the `crash-test-dummy` and start serving `my-spiffy-project`.
-
-```bash
-$ sudo a2dissite crash-test-dummy.conf
-$ sudo a2ensite my-spiffy-project.conf
-$ sudo service apache2 reload
-```
 
 
 # Browser test
