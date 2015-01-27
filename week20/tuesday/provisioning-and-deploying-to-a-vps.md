@@ -175,7 +175,8 @@ sudo service apache2 restart
 sudo mkdir /var/www/waitlist
 sudo chown -R $USER:$USER /var/www/waitlist/
 gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
-\curl -sSL https://get.rvm.io | bash -s stable --ruby 2.2.0
+\curl -sSL https://get.rvm.io | bash -s stable --ruby=2.2.0
+source /home/ubuntu/.rvm/scripts/rvm
 sudo apt-get install git
 sudo apt-get install postgresql postgresql-contrib libpq-dev
 sudo -i -u postgres
