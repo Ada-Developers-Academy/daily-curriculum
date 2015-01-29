@@ -5,26 +5,26 @@ DNS (Domain Name System) is the process in mapping easy to remember domains name
 
 ## IP Address
 
-An IP (Internet Protocol) address is used for locating a server (or other device) 
-on the internet. Typically we see IPv4. An IPv4 address is composed of 4 bytes, 
-which is 32 bits, each byte is represented in a decimal number (up to 255), 
+An IP (Internet Protocol) address is used for locating a server (or other device)
+on the internet. Typically we see IPv4. An IPv4 address is composed of 4 bytes,
+which is 32 bits, each byte is represented in a decimal number (up to 255),
 for example `171.17.89.1`. IPv4 has a total pool of 4,294,967,296 possible addresses.
 
 IPv6 is a solution that will increase the pool to 3.4×10^38. An IPv6 addresses
 are composed of 128 bits `2001:0db8:85a3:0000:0000:8a2e:0370:7334`, represented
 by 8 hexidecimal values seperated by colons.
 
-An IP address is like a websites phone number, this is the number you input to 
+An IP address is like a websites phone number, this is the number you input to
 contact the site. But no one wants to remember this number. So we map the number
 to a name (domain), like a phone book.
 
 ## Domain
 
 Domain names consist of many potential parts, broken down by hierarchy, each section
-is seperated by a `.`, domain hierarchy starts at the right most word, moving left.
+is separated by a `.`, domain hierarchy starts at the right most word, moving left.
 The highest level of a domain is the TLD (top level domain) such as `.com`, moving
 left we have a subcategory of the TLD, such as `google`, and to the left of this
-is a subdomain, such as `www`. Almost any number of levels can exist. 
+is a subdomain, such as `www`. Almost any number of levels can exist.
 
 ICANN (Internet Corporation for Assigned Names and Numbers) is responsible for
 managing the TLD's (`.com`). ICANN is also responsible for authorizing domain name
@@ -45,7 +45,7 @@ the DNS configuration. There are many [types of configurations](http://en.wikipe
 NS (Name Server) records indicate who the authoritative name server is, when registering
 your domain with a registrar they will set the NS records to their own server. This
 means that any request to your domain will first contact their server to resolve
-the requested IP Address. Even when registering with a given registrar, you can 
+the requested IP Address. Even when registering with a given registrar, you can
 change your NS records to any value you'd like.
 
 #### A Record
@@ -66,23 +66,12 @@ domains. Alias records are not an industry standard yet. But, they are the solut
 for using cloud based services and root domains. Not many DNS providers support
 ALIAS records yet.
 
-## Setting up Github Pages
-We going to walk through a setting up DNS for mapping `bookis.me` to a [Github Pages](http://pages.github.com/) repo.
-[Github's guide](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
+## Setting up EC2
 
-Start by creating a file called `CNAME` in the root of the directory (this is specific to github pages)
-in this file we will put the domain we want this repo to map to:
+This is pretty simple, we're going to take our IP address and create an A record pointing
+pointing to the host name we want.
 
-```bash
-bookis.me
-```
-
-Next, I'll open the DNSimple dashboard for my domain and add an ALIAS record pointing
-to my github pages subdomain `bookis.github.io`.
-
-![ALIAS Record](resources/alias-record.png)
-
-Wait 10 minutes (up to 72 hours). And go to http://bookis.me. Ta Da.
+![](dns-a-record.png)
 
 ## Other services
 

@@ -23,13 +23,7 @@ Fog is a gem that helps us work with *cloud services* like those from Amazon - E
 ```ruby
 gem 'carrierwave'
 gem 'fog'
-gem 'figaro'
-```
-
-Might as well set up Figaro now, too.
-
-```
-$ rails g figaro:install
+gem 'dotenv-rails'
 ```
 
 ### Add an Uploader
@@ -157,7 +151,3 @@ We also need to fill out our `config/application.yml` file. We can get the secre
 [Allowing File Uploads with CarrierWave](http://richonrails.com/articles/allowing-file-uploads-with-carrierwave)
 
 [Saving files in Amazon S3 using Carrierwave and Fog Gem](http://www.javahabit.com/2012/06/03/saving-files-in-amazon-s3-using-carrierwave-and-fog-gem/)
-
-
-
-
