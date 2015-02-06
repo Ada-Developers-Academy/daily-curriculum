@@ -3,9 +3,8 @@
 In Week 22 we continue [capstone projects](../capstone/capstone.md). In this week we will have 2 guest lectures on relevant topics for a wide variety of capstone requirements. Students will have regular checkins with an instructor to ensure the project is on track, review stories, and consult on any problems.
 
 Lecture topics include:
-+ S3 storage/delivery (formal CarrierWave discussion?)
-+ SSL
-+ CDN
++ Internationalization (i18n)
++ Revisting EC2
 
 ## Goals
 

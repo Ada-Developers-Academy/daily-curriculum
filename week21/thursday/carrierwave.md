@@ -7,6 +7,8 @@ CarrierWave is a gem that adds a fairly simple and flexible way to users to uplo
 S3 -- Simple Storage Service
 "buckets" are like folders
 
+---------
+
 Let's start with a new Rails app
 
 ```bash
