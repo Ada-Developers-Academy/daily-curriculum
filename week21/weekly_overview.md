@@ -45,4 +45,5 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic        |
 |:----------------|:-------------|
+| **10:30 - 11:30** | [Collecting Collections and Other Loose Ends](collecting_collections.md)
 | **10:30 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
