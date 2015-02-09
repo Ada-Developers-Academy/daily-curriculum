@@ -142,13 +142,21 @@ sudo apt-get install apt-transport-https ca-certificates
 sudo vi /etc/apt/sources.list.d/passenger.list
 ```
 Add the following to the file, then save and quit (:wq):
+
 ```bash
 deb https://oss-binaries.phusionpassenger.com/apt/passenger trusty main
 ```
+
+Note: Do not copy and paste multiple lines at the same time.
+
 ```bash
 sudo chown root: /etc/apt/sources.list.d/passenger.list
 sudo chmod 600 /etc/apt/sources.list.d/passenger.list
 sudo apt-get update
+gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable --ruby=2.2.0
+source /home/ubuntu/.rvm/scripts/rvm
+sudo apt-get install git
 sudo apt-get install libapache2-mod-passenger
 sudo a2enmod passenger
 sudo service apache2 restart
@@ -157,14 +165,14 @@ sudo vi /etc/apache2/sites-available/waitlist.conf
 Add the following to the file, then save and quit (:wq):
 ```bash
 <VirtualHost *:80>
-ServerName 54.164.53.249 # THIS SHOULD BE YOUR IP
-DocumentRoot /var/www/waitlist/current/public
-ServerAdmin bookis.smuin@gmail.com # THIS SHOULD BE YOUR EMAIL
-PassengerRuby /home/ubuntu/.rvm/gems/ruby-2.2.0/wrappers/ruby
-<Directory "/var/www/waitlist/current/public">
-Options FollowSymLinks
-Require all granted
-</Directory>
+  ServerName 54.164.53.249
+  DocumentRoot /var/www/waitlist/current/public
+  ServerAdmin bookis.smuin@gmail.com
+  PassengerRuby /home/ubuntu/.rvm/gems/ruby-2.2.0/wrappers/ruby
+  <Directory "/var/www/waitlist/current/public">
+    Options FollowSymLinks
+    Require all granted
+  </Directory>
 </VirtualHost>
 ```
 
@@ -174,10 +182,6 @@ sudo a2ensite waitlist
 sudo service apache2 restart
 sudo mkdir /var/www/waitlist
 sudo chown -R $USER:$USER /var/www/waitlist/
-gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
-\curl -sSL https://get.rvm.io | bash -s stable --ruby=2.2.0
-source /home/ubuntu/.rvm/scripts/rvm
-sudo apt-get install git
 sudo apt-get install postgresql postgresql-contrib libpq-dev
 sudo -i -u postgres
 createuser --interactive
@@ -237,6 +241,7 @@ group :development do
   gem 'capistrano-rvm'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
+  gem "capistrano-passenger"
 end
 
 gem 'therubyracer', platforms: :ruby
@@ -254,7 +259,7 @@ $ bundle install
 In our case we only need a deployment stage for the new production server.
 
 ```bash
-$ bundle exec cap install STAGES=production
+bundle exec cap install STAGES=production
 ```
 
 If you had clients or a QA team who need to vet changes before they're deployed to prod, you could also use an intermediary stage that's widely accessible (often called 'staging').
@@ -278,7 +283,7 @@ Open `config/deploy.rb` and fix these settings:
 
 ```ruby
 set :application, 'waitlist'
-set :repo_url, 'git@scm.twiggilybeard.com:mekaj/ada-deployment-demo.git'
+set :repo_url, 'git@github.com:Ada-Developers-Academy/ec2-demo.git'
 set :use_sudo, false
 
 set :deploy_to, '/var/www/waitlist'
@@ -331,6 +336,16 @@ DEBUG [f96c1cb9] 	fatal: Could not read from remote repository.
 DEBUG [f96c1cb9]
 DEBUG [f96c1cb9] 	Please make sure you have the correct access rights
 DEBUG [f96c1cb9] 	and the repository exists.
+```
+
+or
+
+```
+DEBUG [a69573ff] Command: ( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/waitlist/git-ssh.sh /usr/bin/env git ls-remote --heads git@github.com:Ada-Developers-Academy/ec2-demo.git )
+cap aborted!
+SSHKit::Runner::ExecuteError: Exception while executing as ubuntu@54.152.39.2: git exit status: 127
+git stdout: Nothing written
+git stderr: Nothing written
 ```
 
 Look in the `config/deploy.rb` file. The `:repo_url` setting indicates what git repo Capistrano should read from when deploying code. The git server doesn't have SSH access to the VPS, so when Capistrano tries to copy from the git server to prod it's rejected. We can fix that by setting up a deployment key.
