@@ -253,6 +253,15 @@ And of course run bundler to actually install the gems.
 $ bundle install
 ```
 
+Change the production database setting to match our EC2 instance, in config/database.yml
+
+```yml
+production:
+  <<: *default
+  database: waitlist_production
+  username: ubuntu # CHANGE THIS
+  password: <%= ENV['WAITLIST_DATABASE_PASSWORD'] %>
+```
 
 # Capistrano stages
 
@@ -358,7 +367,7 @@ Both [GitHub](github.com) and [GitLab](gitlab.com) make this really easy. Here's
 1. Log into GitHub and open your project's page.
 1. Click "Settings" and then "Deploy Keys".
 1. Click "Add deploy key"
-1. In another terminal window, log into your VPS
+1. Run the following command on EC2
 1. Run `ssh-keygen -t rsa -C "[your GitHub email address]"`
 1. Press enter through all the prompts until you're returned to the terminal prompt
 1. Run `cat ~/.ssh/id_rsa.pub` (**WARNING:** don't forget the "pub" part)
