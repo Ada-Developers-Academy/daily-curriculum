@@ -37,12 +37,12 @@ Lecture topics include:
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 10:00** | [Internationalization](thursday/internationalization.md) |
-| **10:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
 
 
 ### Friday
 
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
-| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **9:00 - 10:00** | Dean |
+| **10:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
