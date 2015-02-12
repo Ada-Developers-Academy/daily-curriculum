@@ -45,4 +45,5 @@ Lecture topics include:
 | Time            | Topic                                            |
 |:----------------|:-------------------------------------------------|
 | **9:00 - 10:00** | Dean |
-| **10:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **10:00 - 4:00** | [Capstone Project Time](../capstone/capstone.md) |
+| **4:00 - 5:00** | Brad & Amaranth |
