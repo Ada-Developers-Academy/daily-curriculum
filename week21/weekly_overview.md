@@ -7,9 +7,9 @@ the project is on track, review stories, and consult on any problems.
 
 ## Goals
 
-+ Continue development of Capstone project
-+ Discover gaps in learning and identify resources to fill them in
-+ Code!
+- Continue development of Capstone project
+- Discover gaps in learning and identify resources to fill them in
+- Code!
 
 ### Monday
 

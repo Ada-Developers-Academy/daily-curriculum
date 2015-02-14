@@ -43,4 +43,5 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic        |
 |:----------------|:-------------|
-| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
+| **9:00 - 3:00**  | [Capstone Project Time](../capstone/capstone.md)|
+| **3:00 - 5:00**  | Capstone Presentation Practice |
