@@ -35,8 +35,7 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic                            |
 |:----------------|:---------------------------------|
-| **9:00 - 3:00**  | [Capstone Project Time](../capstone/capstone.md)|
-| **3:00 - 5:00**  | Eric Hodel: [Networking (computers not people)](thursday/networking-101.md)|
+| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)|
 
 
 ### Friday
