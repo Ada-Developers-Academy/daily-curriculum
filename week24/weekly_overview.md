@@ -6,29 +6,29 @@ In week 24 we will break into teams by the language being used within internship
 
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
-| 9:00 - 5:00 | Internship Prep |
+| 1:00 - 5:00 | Anne Kimsey: Intro to Java I|
 
 ### Tuesday
 
 | Time             | Topic                                         |
 |:-----------------|:----------------------------------------------|
-| 9:00 - 5:00 | Internship Prep |
+| 1:00 - 5:00 | Anne Kimsey: Intro to Java II/Intro to Processing|
 
 ### Wednesday
 
 | Time            | Topic                      |
 |:----------------|:---------------------------|
-| 9:00 - 5:00 | Internship Prep |
+| 1:00 - 5:00 | Steve Huynh/Anne Kimsey: Continuing Java/Creating an API|
 
 ### Thursday
 
 | Time            | Topic                            |
 |:----------------|:---------------------------------|
-| 9:00 - 5:00 | Internship Prep |
+| 1:00 - 5:00 | Steve Huynh: Continuing Java|
 
 
 ### Friday
 
 | Time            | Topic        |
 |:----------------|:-------------|
-| 9:00 - 5:00 | Internship Prep |
+| 1:00 - 5:00 | Steve Huynh: Continuing Java|
