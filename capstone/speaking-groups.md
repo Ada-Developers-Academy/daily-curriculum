@@ -12,15 +12,15 @@ Capstone Presentation Groups
 
 - Katie
 - Stephanie K.
+- Lily & Cate
 - Rachelle
 - Holly
-- Bonnie
 
 ## Group 3
 
+- Bonnie
 - Kamilah
 - Stephanie P.
-- Lily & Cate
 - Crystal
 - Kate & Richa
 
