@@ -1,10 +1,14 @@
 Capstone Presentation Groups
 -----------
 
+## Group 1
+
 - Rebecca
 - Bri
 - Rachel
 - Calla
+
+## Group 2
 
 - Katie
 - Stephanie K.
@@ -12,11 +16,15 @@ Capstone Presentation Groups
 - Holly
 - Bonnie
 
+## Group 3
+
 - Kamilah
 - Stephanie P.
 - Lily & Cate
 - Crystal
 - Kate & Richa
+
+## Group 4
 
 - Kristin
 - Allie
