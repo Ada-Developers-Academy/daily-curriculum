@@ -10,11 +10,11 @@ Capstone Presentation Groups
 
 ## Group 2
 
+- Holly
 - Katie
 - Stephanie K.
 - Lily & Cate
 - Rachelle
-- Holly
 
 ## Group 3
 

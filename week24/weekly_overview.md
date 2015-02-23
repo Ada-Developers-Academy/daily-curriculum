@@ -24,6 +24,7 @@ In week 24 we will break into teams by the language being used within internship
 
 | Time            | Topic                            |
 |:----------------|:---------------------------------|
+| 10:00 - 3:00 | Jon Bauman: Python|
 | 1:00 - 5:00 | Steve Huynh: Continuing Java|
 
 
