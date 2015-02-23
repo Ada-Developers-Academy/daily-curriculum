@@ -127,3 +127,7 @@ We're using an npm module called [browserify](http://browserify.org/) which allo
 Add ```var m = require('./module');``` to your index.js file and refresh your browser. You should see the console message defined in the file displayed in your JS console.
 
 Take a look at the variable m–try running its methods and looking at its properties.
+
+## Practice
+
+[Exercises](js-1-exercises.md)
