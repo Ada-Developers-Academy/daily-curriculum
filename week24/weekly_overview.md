@@ -14,6 +14,17 @@ In week 24 we will break into teams by the language being used within internship
 |:-----------------|:----------------------------------------------|
 | 1:00 - 5:00 | Anne Kimsey: Intro to Java II/Intro to Processing|
 
+
+Java:
+  - [Calculator](/moar_work/calculator.md)
+  - [Evens](/moar_work/evens.md)
+  - [Acronymer](/moar_work/acronymer.md)
+
+Create classes for each of the above and print results from each method to the console. After completing those work on:
+
+  - [Work on Codewars](www.codewars.com/r/XpUQUA)
+
+
 ### Wednesday
 
 | Time            | Topic                      |
