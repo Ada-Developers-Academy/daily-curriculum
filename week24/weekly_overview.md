@@ -7,6 +7,7 @@ In week 24 we will break into teams by the language being used within internship
 | Time              | Topic                                        |
 |:------------------|:---------------------------------------------|
 | 1:00 - 5:00 | Anne Kimsey: Intro to Java I|
+| 1:00 - 5:00 | [Deeper JS: Getting Started](js/js-1.md)|
 
 ### Tuesday
 
