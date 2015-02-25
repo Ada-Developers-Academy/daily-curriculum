@@ -36,7 +36,7 @@ Homebrew
 Type this into your terminal:
 
 ```
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 You may need to enter your computer password if you have one set.
