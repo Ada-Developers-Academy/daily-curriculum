@@ -1,7 +1,7 @@
 Curriculum Schedule
 -------------------
-* [Cohort 3](C3_instruction_schedule.md)
-* [Career Development](career_development_schedule.md)
+* [Cohort 2](C2_instruction_calendar.md)
+* [Career Development](career_development_calendar.md)
 
 
 Books
