@@ -52,6 +52,7 @@
 **Resources**
 + [Navigating the Terminal](http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/)
 + [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
+
 ---
 
 #### Wednesday
