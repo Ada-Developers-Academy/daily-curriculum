@@ -53,9 +53,8 @@
 + [Navigating the Terminal](http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/)
 + [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
 
----
-
 #### Wednesday
+
 | Time               | Topic                             |
 |:-------------------|:----------------------------------|
 | **9:00 - 9:30**    | [Introduction to Ruby](tuesday/ruby_101.md) |
@@ -76,6 +75,7 @@
 ---
 
 #### Thursday
+
 | Time               | Topic     |
 |:-------------------|:----------|
 | **9:10 - 10:30**   | [Ruby 102](wednesday/ruby-102.md) |
@@ -90,9 +90,8 @@
 + Read through Chapter 2 of Beginning Ruby
 + Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com)) (upto lab 25)
 
----
-
 #### Friday
+
 | Time               | Topic               |
 |:-------------------|:--------------------|
 | **9:00 - 10:00**   | [Ruby 103](thursday/ruby-103.md) |
@@ -114,6 +113,7 @@ Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over
 In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
 
 ### Week 2 Goals
+
 - Scope
 - Learn core Ruby concepts
     - Objects
@@ -124,7 +124,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 
 ### Week 2 Schedule
 
-### Monday
+#### Monday
 
 | Time              | Topic                                       |
 |:------------------|:-------------------------------------------:|
@@ -134,9 +134,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 | **12:00 - 1:00**  | Lunch |
 | **1:00 - 5:00**   | [Orange Tree (from L2P)](monday/orange_tree.md) |
 
----
-
-### Tuesday
+#### Tuesday
 
 | Time              | Topic                                      |
 |:------------------|:------------------------------------------:|
@@ -151,9 +149,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 
 + Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 
----
-
-### Wednesday
+#### Wednesday
 
 | Time              | Topic                    |
 |:------------------|:-------------------------|
@@ -161,18 +157,15 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 | **9:30 - 12:00**  | Week 1 & 2 Recap|
 | **9:30 - 5:00**   | [Hangman](wednesday/hangman.md) or [MasterMind](wednesday/mastermind.md)|
 
----
-
-### Thursday
+#### Thursday
 | Time              | Topic              |
 |:------------------|:-------------------|
 | **9:00 - 10:30**  | Week 1 & 2 Recap|
 | **10:30 - 12:00** | Live Code Hangman |
 | **1:00 - 5:00**   | [Hangman](wednesday/hangman.md) or [MasterMind](wednesday/mastermind.md)|
 
----
+#### Friday
 
-### Friday
 | Time                 | Topic                                          |
 |:---------------------|:----------------------------------------------:|
 | **9:15 - 10:00**     | Live Code a Class |
@@ -208,7 +201,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 ### Week 3 Schedule
 
-### Monday
+#### Monday
 
 | Time              | Topic                        |
 |:-----------------:|:-----------------------------|
@@ -222,9 +215,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 
 - [FarMarFinder](resources/farmarfinder.md)
 
----
-
-### Tuesday
+#### Tuesday
 
 | Time              | Topic             |
 |:-----------------:|:------------------|
@@ -232,9 +223,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **9:30 - 10:30**  | [RSpec](tuesday/rspec.md)               |
 | **1:00 - 5:00***  | [FarMarFinder](resources/farmarfinder.md) Project Time      |
 
----
-
-### Wednesday
+#### Wednesday
 
 | Time               | Topic               |
 |:------------------:|:--------------------|
@@ -242,18 +231,14 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **9:35 - 11:00**   | [Advanced Variables](wednesday/advanced_variables.md) |
 | **11:00 - 5:00***  | [FarMarFinder](resources/farmarfinder.md) Project Time       |
 
----
-
-### Thursday
+#### Thursday
 
 | Time              | Topic               |
 |:-----------------:|:--------------------|
 | **9:00 - 9:30**   | Koans |
 | **9:30 - 5:00***  | [FarMarFinder](resources/farmarfinder.md) Project Time        |
 
----
-
-### Friday
+#### Friday
 
 | Time              | Topic             |
 |:-----------------:|:------------------|
@@ -288,7 +273,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 ### Week 4 Schedule
 
-### Monday
+#### Monday
 
 | Time              | Topic                              |
 |:-----------------:|:----------------------------------:|
@@ -301,7 +286,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 Read about rspec best practices: http://betterspecs.org/
 
-### Tuesday
+#### Tuesday
 
 | Time               | Topic                           |
 |:------------------:|:-------------------------------:|
@@ -309,7 +294,7 @@ Read about rspec best practices: http://betterspecs.org/
 | **9:50 - 12:30**   | [Scrabble](monday/scrabble.md) |
 | **1:30 - 5:00***   | [Dictionary](tuesday/dictionary.md) |
 
-### Wednesday
+#### Wednesday
 
 | Time              | Topic                                              |
 |:-----------------:|:--------------------------------------------------:|
@@ -320,7 +305,7 @@ Read about rspec best practices: http://betterspecs.org/
 \* Take an hour lunch at any time
 
 
-### Thursday
+#### Thursday
 
 | Time              | Topic                          |
 |:-----------------:|:------------------------------:|
@@ -332,7 +317,7 @@ Read about rspec best practices: http://betterspecs.org/
 \* Take an hour lunch at any time
 
 
-### Friday
+#### Friday
 
 | Time              | Topic                                                   |
 |:-----------------:|:-------------------------------------------------------:|
