@@ -274,7 +274,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 #### Monday
 
 | Time              | Topic                              |
-|:-----------------:|:----------------------------------:|
+|:-----------------:|:----------------------------------|
 | **9:00 - 10:00**  | Koans                            |
 | **10:00 - 12:00** | [CS Fundementals](monday/complexity.md)                |
 | **1:30 - 2:30***  | [FizzBuzz Testing](monday/testing.md)                  |
@@ -282,12 +282,12 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 **Homework**
 
-Read about rspec best practices: http://betterspecs.org/
+- Read about rspec best practices: http://betterspecs.org/
 
 #### Tuesday
 
 | Time               | Topic                           |
-|:------------------:|:-------------------------------:|
+|:------------------:|:-------------------------------|
 | **9:00 - 9:45**    | Morning Warmup -- [Word Count](resources/word_count/README.md) |
 | **9:50 - 12:30**   | [Scrabble](monday/scrabble.md) |
 | **1:30 - 5:00***   | [Dictionary](tuesday/dictionary.md) |
@@ -295,7 +295,7 @@ Read about rspec best practices: http://betterspecs.org/
 #### Wednesday
 
 | Time              | Topic                                              |
-|:-----------------:|:--------------------------------------------------:|
+|:-----------------:|:--------------------------------------------------|
 | **9:00 - 11:00*** | [Sinatra Practice](friday/sinatra-practice.md) |
 | **11:00 - 12:00** | [Intro to HTTP, Clients, & Servers](wednesday/networking.md) |
 | **1:00 - 5:00**   | [Sinatra Blog](wednesday/sinatra-blog.md) |
@@ -306,7 +306,7 @@ Read about rspec best practices: http://betterspecs.org/
 #### Thursday
 
 | Time              | Topic                          |
-|:-----------------:|:------------------------------:|
+|:-----------------:|:------------------------------|
 | **9:00 - 9:30**   | [Building Hashes](thursday/building-hashes.md)                |
 | **9:30 - 10:30**  | Sinatra Walkthrough                |
 | **10:30 - 11:30** | [Views and Forms](thursday/views-and-forms.md) |
@@ -318,7 +318,7 @@ Read about rspec best practices: http://betterspecs.org/
 #### Friday
 
 | Time              | Topic                                                   |
-|:-----------------:|:-------------------------------------------------------:|
+|:-----------------:|:-------------------------------------------------------|
 | **10:00 - 11:30** | [Forms](thursday/views-and-forms.md) |
 | **2:00 - 4:00***  |  Regular Expressions with Nell |
 | **4:00 - 5:00**   | Retro                                          |
