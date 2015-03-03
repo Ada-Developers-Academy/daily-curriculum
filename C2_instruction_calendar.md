@@ -213,8 +213,6 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **1:30 - 2:30**   | Syncing project via Github: [Getting Started on Far Mar Finder](resources/farmarfinder.md)   |
 | **2:30 - 5:00**   | [FarMarFinder](resources/farmarfinder.md) Project Time                 |
 
-- [FarMarFinder](resources/farmarfinder.md)
-
 #### Tuesday
 
 | Time              | Topic             |
