@@ -4,8 +4,8 @@
 
 Date    | Week                 | Topic
 --------|----------------------|-----------------------------
-Sept 2  | [Week 01](#WEEK_1) | Bash, Git, Ruby
-Sept 8  | Week 02 | Ruby II
+Sept 2  | [Week 01](#week-1)   | Bash, Git, Ruby
+Sept 8  | [Week 02](#week-2)   | Ruby II
 Sept 15 | Week 03 | Ruby III
 Sept 22 | Week 04 | Testing, Sinatra, HTTP, DOM & HTML
 Sept 29 | Week 05 | HTML & CSS
@@ -30,7 +30,7 @@ Feb 9   | Week 22 | Final Rails Project
 Feb 16  | Week 23 | Final Rails Project Presentations
 Feb 23  | Week 24 | Internship Spike Project
 
-## WEEK_1
+## Week 1
 
 ### Learning Goals
 
@@ -136,7 +136,7 @@ Feb 23  | Week 24 | Internship Spike Project
 Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over some common (and not-so-common) methods for some of our favorite types of objects: integers and strings.
 
 
-## WEEK 2
+## Week 2
 
 In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
 
@@ -211,7 +211,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 + Read about assertions:
 [Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
 
-## WEEK 3
+## Week 3
 
 In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor, advanced variables, memoization, and Enumerable. For the project we will be building a pure ruby application backed by a CSV database called [FarMarFinder](topic_resources/resources/farmarfinder.md). By the end of the week students should be able to build a ruby DSL for a relational CSV backed database using basic ruby methodologies and best practices.
 
@@ -281,7 +281,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
   - pgs. 139-149 (Modules, Namespaces, and Mix-Ins)
   - pgs. 228-246 (Relational Databases and SQL)
 
-## WEEK 4
+## Week 4
 
 In Week 4 we introduce introduce Test-Driven Development (TDD) and basic networking concepts. We will spend 2 days exploring TDD and the rspec toolset through building our own testing projects and tests. We then pivot into an introduction of the "plumbing" of the Internet and how clients such as web browsers communicate with servers. We build a pair of applications using the streamlined website framework *Sinatra* to begin exploring HTTP response cycles and basic Model-View-Control (MVC) techniques through building and deploying a blog.
 
@@ -356,7 +356,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 - Complete the HTMLDog [Beginner HTML tutorial](http://www.htmldog.com/guides/html/beginner/)
 - Complete the HTMLDog [Beginner CSS tutorial](http://www.htmldog.com/guides/css/beginner/)
 
-## WEEK 5
+## Week 5
 In week 5 we will be learning the basics of HTML & CSS. By the end of the week we will style a single page website using the common HTML & CSS practices and deploy it to [Heroku](http://heroku.com). We will also rebuild a blog to implement as side pages to our single page site.
 
 Our learning will focus on the usage of basic HTML tags and their potential attributes. We will learn about CSS selectors, cascading rules, and common techniques for creating important web page elements. By the end of the week students should be able to create and style a webpage using valid HTML and CSS.
@@ -417,7 +417,7 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 ## Resources
 For additional online resources see the [resources](topic_resources/resources/resources.md) page.
 
-## WEEK 6 - Intro to Rails
+## Week 6 - Intro to Rails
 
 Week 6 we introduce students to the Ruby on Rails framework, which will be the focus of much of their work for the remainder of the course. Working in pairs, students build [a basic Rails application](topic_resources/far-mar-rails.md). The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models and relationships, and begin to develop very basic proficiency with Rails.
 
@@ -517,7 +517,7 @@ For the weekend:
 
 \* Take an hour lunch at any time
 
-## WEEK 7
+## Week 7
 
 In week 7 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](topic_resources/resources/rails-request-cycle.pdf). Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Betsy](topic_resources/resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced the rails stack.
 
@@ -601,7 +601,7 @@ the problem for the small word set.
 ## Resources
 - For additional resources on the topics covered this week see [weekly resources](topic_resources/resources/resources.md).
 
-## WEEK 8
+## Week 8
 
 In Week 8 we will continue working in groups of 4 on the Betsy project introduced in Week 7. The majority of the week will be devoted to project time, with short lectures and assignments to introduce students to basic computer science concepts.
 
@@ -663,7 +663,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 | **1:30 - 4:00*** | [Recursion and Merge Sort](topic_resources/merge-sort.md)  |
 | **4:00 - 5:00**  | Weekly Retro                  |
 
-## WEEK 9
+## Week 9
 
 In week 9 we will be focusing on comprehension of the rails request cycle. Students will be creating a simple rails app to store and rank media by type. By the end of the week students will be able to identify each piece of the rails request cycle and the methods and variable scopes available within each of them.
 
@@ -761,7 +761,7 @@ Create a single serving (no users) version of Twitter. The app should have:
 
 Implement Users using a TDD approach.
 
-## WEEK 10
+## Week 10
 
 In week 10 we will be learning more about rspec. We will practice TDD while solidifying
 out understanding of relationships in databases and Rails.
@@ -822,7 +822,7 @@ out understanding of relationships in databases and Rails.
 | **2:15 - 4:30**     | [Ada Cooks](topic_resources/ada-cooks-mini.md)       |
 | **4:30 - 5:00**     | Weekly Retro |
 
-## WEEK 11
+## Week 11
 
 Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focus first on learning core JavaScript language concepts, and then how to use JavaScript and jQuery to program web pages in the browser. Students will create a simple to do list app to add to do list items dynamically to a web page. By the end of the week, students will be able to use JavaScript and jQuery to interact with and modify web pages, and use JavaScript variables, types, arrays, functions, objects, and jQuery methods.
 
@@ -906,7 +906,7 @@ Take a look at JavaScript's JSON object (https://developer.mozilla.org/en-US/doc
 and the Local Storage API (https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage).
 Add code to your to do list manager to save items in localStorage.
 
-## WEEK 12
+## Week 12
 
 In week 12 work on [SeeMore project](topic_resources/see-more.md), in which the students will create a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
 
@@ -967,7 +967,7 @@ In week 12 work on [SeeMore project](topic_resources/see-more.md), in which the 
 | **10:30** - **4:00** | [See More Project work](topic_resources/see-more.md) |
 | **4:00** - **5:00** | Katherine & Rhea from Isilon |
 
-## WEEK 13
+## Week 13
 
 In week 13 we will continue working on [SeeMore project](topic_resources/see-more.md), in which the students will consume a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
 
@@ -1010,7 +1010,7 @@ In week 13 we will continue working on [SeeMore project](topic_resources/see-mor
 
 #### Friday
 
-## WEEK 14
+## Week 14
 
 In Week 14 we will be starting a 2 week long pairing project in which students will build a community garden planning application. The emphasis will be on building strong pair programming skills, revisiting the lessons of the previous 2 projects, and continuing to develop competency with testing.
 
@@ -1088,7 +1088,7 @@ Additional Lectures
 | **9:00 - 4:00** | [PPP Project Time](topic_resources/p_patch_planner.md) |
 | **4:00 - 5:00** | Weekly Retrospective  |
 
-## WEEK 15
+## Week 15
 
 In Week 15 we will be continuing a 2 week long pairing project in which students will build a community garden planning application. The emphasis will be on building strong pair programming skills, revisiting the lessons of the previous 2 projects, and continuing to develop competency with testing.
 
@@ -1152,7 +1152,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 | **10:00 - 4:00** | [PPP Project Time](topic_resources/p_patch_planner.md) |
 | **4:00 - 5:00** | Weekly Retrospective                      |
 
-## WEEK 16
+## Week 16
 
 In Week 16 we will be begin a 2 week long unit on Refactoring and Service Oriented Architecture. Build a Shipping service for a ecommerce projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop competency with testing.
 
@@ -1208,7 +1208,7 @@ This week lectures may be à la carte.
 
 [Holiday Break Project](topic_resources/holiday-break-project.md)
 
-## WEEK 17
+## Week 17
 
 ### Learning Goals
 
@@ -1259,7 +1259,7 @@ This week lectures may be à la carte.
 - Practice JavaScript
 - [Install a few things](topic_resources/installfest2.md)
 
-## WEEK 18
+## Week 18
 
 In Week 18, we will start a two week AngularJS project. We will focus on learning the
 basics of front-end javascript frameworks.
@@ -1323,7 +1323,7 @@ basics of front-end javascript frameworks.
 ##Debugging resource:
 [Debugging AngularJS](topic_resources/debugging.md)
 
-## WEEK 19
+## Week 19
 
 In Week 19, we will continue our two week AngularJS project. We will focus
 on learning the basics of front-end javascript frameworks.
@@ -1385,7 +1385,7 @@ Nothing! WOOOOO! Day off :D
 | **11:00 - 4:00** | [Lightning Talks](topic_resources/lightning-talks.md) |
 | **4:00 - 5:00**  | Retrospective                         |
 
-## WEEK 20
+## Week 20
 
 In Week 20 we begin [capstone projects](capstone/capstone.md). In this week
 we will have lectures on relevant topics for a wide variety of capstone
@@ -1442,7 +1442,7 @@ Additional Topics
 - [Brakeman](topic_resources/brakeman.md)
 - [Code Climate](topic_resources/code_climate.md)
 
-## WEEK 21
+## Week 21
 
 In Week 21 we continue [capstone projects](capstone/capstone.md). In this week
 we will have guest lectures on relevant topics for a wide variety of capstone
@@ -1492,7 +1492,7 @@ the project is on track, review stories, and consult on any problems.
 | **10:30 - 11:30** | [Collecting Collections and Other Loose Ends](topic_resources/collecting_collections.md)
 | **10:30 - 5:00**  | [Capstone Project Time](capstone/capstone.md)|
 
-## WEEK 22
+## Week 22
 
 In Week 22 we continue [capstone projects](capstone/capstone.md). In this week we will have 2 guest lectures on relevant topics for a wide variety of capstone requirements. Students will have regular checkins with an instructor to ensure the project is on track, review stories, and consult on any problems.
 
@@ -1540,7 +1540,7 @@ Lecture topics include:
 | **10:00 - 4:00** | [Capstone Project Time](capstone/capstone.md) |
 | **4:00 - 5:00** | Brad & Amaranth |
 
-## WEEK 23
+## Week 23
 
 In Week 23 we continue [capstone projects](capstone/capstone.md). In this week
 we will have guest lectures on relevant topics for a wide variety of capstone
@@ -1587,7 +1587,7 @@ the project is on track, review stories, and consult on any problems.
 | **9:00 - 3:00**  | [Capstone Project Time](capstone/capstone.md)|
 | **3:00 - 5:00**  | Capstone Presentation Practice |
 
-## WEEK 24
+## Week 24
 
 In week 24 we will break into teams by the language being used within internships. Each team will have a guest lecturer for the day. Each lecturer will prepare a 1-3 hour lecture, a small exercise, as well as supporting material.
 
