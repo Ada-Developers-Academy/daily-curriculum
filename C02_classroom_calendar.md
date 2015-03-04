@@ -4,7 +4,7 @@
 
 Date    | Week                 | Topic
 --------|----------------------|-----------------------------
-Sept 2  | [Week 01](##WEEK_1) | Bash, Git, Ruby
+Sept 2  | [Week 01](#WEEK_1) | Bash, Git, Ruby
 Sept 8  | Week 02 | Ruby II
 Sept 15 | Week 03 | Ruby III
 Sept 22 | Week 04 | Testing, Sinatra, HTTP, DOM & HTML
