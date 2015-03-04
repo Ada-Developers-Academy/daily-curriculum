@@ -26,16 +26,16 @@ Jun 30  | [Week 16](#week-16-of-internships)  |
 
 | Time       | Topic                                    | With
 |------------|------------------------------------------|----------
-1:00 - 1:30  | Stand Up                                 | 
+1:00 - 1:30  | Stand Up                                 |
 
 ## Week 2 of Internships
 
 | Time       | Topic                                    | With
 |------------|------------------------------------------|----------
 1:00 - 1:30  | Meet Crystal                             | Crystal
-1:30 - 2:00  | Confidence in Coding Talk                | Crystal
-2:00 - 3:00  | Learn how to judge Apps for Good         | Peter
-3:00 - 4:00  | One-on-one / Reviewing Apps for Good     |
+1:30 - 2:00  | Confidence in Coding Discussion          | Crystal
+2:00 - 3:00  | Learn how to judge Youth Apps            | Peter
+3:00 - 4:00  | One-on-one / Reviewing Youth Apps        |
 4:00 - 4:30  | OS Contribution Kickoff                  |
 4:30 - 5:00  | Week 2 Retrospective                     |
 
