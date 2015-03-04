@@ -818,9 +818,9 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 | Time              | Topic               |
 |:------------------|:--------------------|
 | **9:00 - 9:30**  | Warmup     |
-| **9:30 - 12:30**   | Lecture: JavaScript fundamentals. [JS notes & Files](topic_resources/resources/js) |
+| **9:30 - 12:30**   | Lecture: JavaScript fundamentals. [JS notes & Files](topic_resources/js) |
 | **12:30 - 1:30**   | Demo: Using the JavaScript console |
-| **1:30 - 5:00**  | Project: Console to do [list maker](topic_resources/resources/js/todo_html.html) [Biggest #](topic_resources/resources/js/project1_day1.md) [Objects](topic_resources/resources/js/project2_day1.md)|
+| **1:30 - 5:00**  | Project: Console to do [list maker](topic_resources/js/todo_html.html) [Biggest #](topic_resources/js/project1_day1.md) [Objects](topic_resources/js/project2_day1.md)|
 
 #### Tuesday
 
