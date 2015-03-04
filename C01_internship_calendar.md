@@ -1,5 +1,27 @@
 # Cohort 1 Internship Calendar
 
+## At a Glance
+
+Date    | Week                                | Topic
+--------|-------------------------------------|-----------------------------
+   | [Week 01](#week-1-of-internships)   |
+   | [Week 02](#week-2-of-internships)   |
+   | [Week 03](#week-3-of-internships)   |
+   | [Week 04](#week-4-of-internships)   |
+   | [Week 05](#week-5-of-internships)   |
+   | [Week 06](#week-6-of-internships)   |
+   | [Week 07](#week-7-of-internships)   |
+   | [Week 08](#week-8-of-internships)   |
+   | [Week 09](#week-9-of-internships)   |
+   | [Week 10](#week-10-of-internships)  |
+   | [Week 11](#week-11-of-internships)  |
+   | [Week 12](#week-12-of-internships)  |
+   | [Week 13](#week-13-of-internships)  |
+   | [Week 14](#week-14-of-internships)  |
+   | [Week 15](#week-15-of-internships)  |
+   | [Week 16](#week-16-of-internships)  |
+   |                                     | **GRADUATION**
+
 ## Week 1 of Internships
 
 | Time       | Topic |
