@@ -125,7 +125,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 #### Monday
 
 | Time              | Topic                                       |
-|:------------------|:-------------------------------------------:|
+|:------------------|:--------------------------------------------|
 | **9:00 - 10:20**  | [Local & Instance Variables & Scope](topic_resources/variables_and_scope.md)              |
 | **10:30 - 11:30** | [Revisiting Classes](topic_resources/revisiting_classes.rb) |
 | **11:40 - 12:00** | Variable Quiz |
@@ -135,7 +135,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 #### Tuesday
 
 | Time              | Topic                                      |
-|:------------------|:------------------------------------------:|
+|:------------------|:-------------------------------------------|
 | **09:10 - 10:00** | [Hashes](topic_resources/hash.md) |
 | **10:00 - 11:00** | [Hash Practice](topic_resources/hash-practice.md) |
 | **11:00 - 2:00**  | [Solar System Project](topic_resources/solar-system.md) |
@@ -165,7 +165,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 #### Friday
 
 | Time                 | Topic                                          |
-|:---------------------|:----------------------------------------------:|
+|:---------------------|:-----------------------------------------------|
 | **9:15 - 10:00**     | Live Code a Class |
 | **10:00 - 10:30**    | Installing Koans |
 | **10:30 - 11:30**    | [Assertions](topic_resources/assert.md) |
@@ -202,7 +202,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 #### Monday
 
 | Time              | Topic                        |
-|:-----------------:|:-----------------------------|
+|:------------------|:-----------------------------|
 | **9:15 - 9:30**   | Pairing                |
 | **9:30 - 10:00**  | [Reading from CSV](topic_resources/csv_database.md)                |
 | **10:00 - 11:00** | [Enumerable Methods](topic_resources/enumerable.md)   |
@@ -214,7 +214,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 #### Tuesday
 
 | Time              | Topic             |
-|:-----------------:|:------------------|
+|:------------------|:------------------|
 | **9:00 - 9:30**   | Koans: Iteration & Classes |
 | **9:30 - 10:30**  | [RSpec](topic_resources/rspec.md)               |
 | **1:00 - 5:00***  | [FarMarFinder](topic_resources/resources/farmarfinder.md) Project Time      |
@@ -222,7 +222,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 #### Wednesday
 
 | Time               | Topic               |
-|:------------------:|:--------------------|
+|:-------------------|:--------------------|
 | **9:00 - 9:30**    | Koans |
 | **9:35 - 11:00**   | [Advanced Variables](topic_resources/advanced_variables.md) |
 | **11:00 - 5:00***  | [FarMarFinder](topic_resources/resources/farmarfinder.md) Project Time       |
@@ -230,14 +230,14 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 #### Thursday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**   | Koans |
 | **9:30 - 5:00***  | [FarMarFinder](topic_resources/resources/farmarfinder.md) Project Time        |
 
 #### Friday
 
 | Time              | Topic             |
-|:-----------------:|:------------------|
+|:------------------|:------------------|
 | **9:00 - 9:30**   | Koans|
 | **9:30 - 10:00**  | Self |
 | **10:00 - 10:30** | [Memoization](topic_resources/memoization.md) |
@@ -272,7 +272,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 #### Monday
 
 | Time              | Topic                              |
-|:-----------------:|:----------------------------------|
+|:------------------|:----------------------------------|
 | **9:00 - 10:00**  | Koans                            |
 | **10:00 - 12:00** | [CS Fundementals](topic_resources/complexity.md)                |
 | **1:30 - 2:30***  | [FizzBuzz Testing](topic_resources/testing.md)                  |
@@ -285,7 +285,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 #### Tuesday
 
 | Time               | Topic                           |
-|:------------------:|:-------------------------------|
+|:-------------------|:-------------------------------|
 | **9:00 - 9:45**    | Morning Warmup -- [Word Count](topic_resources/resources/word_count/README.md) |
 | **9:50 - 12:30**   | [Scrabble](topic_resources/scrabble.md) |
 | **1:30 - 5:00***   | [Dictionary](topic_resources/dictionary.md) |
@@ -293,7 +293,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 #### Wednesday
 
 | Time              | Topic                                              |
-|:-----------------:|:--------------------------------------------------|
+|:------------------|:--------------------------------------------------|
 | **9:00 - 11:00*** | [Sinatra Practice](topic_resources/sinatra-practice.md) |
 | **11:00 - 12:00** | [Intro to HTTP, Clients, & Servers](topic_resources/networking.md) |
 | **1:00 - 5:00**   | [Sinatra Blog](topic_resources/sinatra-blog.md) |
@@ -304,7 +304,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 #### Thursday
 
 | Time              | Topic                          |
-|:-----------------:|:------------------------------|
+|:------------------|:------------------------------|
 | **9:00 - 9:30**   | [Building Hashes](topic_resources/building-hashes.md)                |
 | **9:30 - 10:30**  | Sinatra Walkthrough                |
 | **10:30 - 11:30** | [Views and Forms](topic_resources/views-and-forms.md) |
@@ -316,7 +316,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 #### Friday
 
 | Time              | Topic                                                   |
-|:-----------------:|:-------------------------------------------------------|
+|:------------------|:-------------------------------------------------------|
 | **10:00 - 11:30** | [Forms](topic_resources/views-and-forms.md) |
 | **2:00 - 4:00***  |  Regular Expressions with Nell |
 | **4:00 - 5:00**   | Retro                                          |
@@ -342,7 +342,7 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 #### Monday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:30 - 10:30** | [HTML](topic_resources/html.md)|
 | **10:30 - 11:30** | [Starting HTML](topic_resources/starting-an-html-website.md)|
 | **11:30 - 5:00*** | [Personal Website Project](topic_resources/personal-website-overview.md)|
@@ -354,7 +354,7 @@ Read Lessons 2 & 3 of http://learn.shayhowe.com/html-css/getting-to-know-css/
 #### Tuesday
 
 | Time              | Topic                       |
-|:-----------------:|:----------------------------|
+|:------------------|:----------------------------|
 | **9:00 - 9:30**  | [Warm up](topic_resources/moar_work/decoding-strings.md)|
 | **9:30 - 10:00**  | [More CSS](topic_resources/more-css.md)|
 | **10:00 - 12:00**  | Live Code CSS |
@@ -368,7 +368,7 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 #### Wednesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:30 - 10:30**   | [Basic JavaScript](topic_resources/basic-javascript.md)|
 | **10:30 - 12:30**  | [Try jQuery](topic_resources/playing-with-jquery.md)
 | **1:30 - 5:00**   | [Personal Website Project](topic_resources/personal-website-overview.md)        |
@@ -377,7 +377,7 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 #### Thursday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30** | Koans  |
 | **9:30 - 11:00** | ??? (students choice)  |
 | **11:00 - 5:00**   | [Personal Website Project](topic_resources/personal-website-overview.md)        |
@@ -403,7 +403,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 
 
 | Time              | Topic                                    |
-|:-----------------:|:----------------------------------------:|
+|:------------------|:-----------------------------------------|
 | **9:00 - 10:00**  | Blog Presentations                            |
 | **10:00 - 10:30**  | [Agile](topic_resources/agile.md)          |
 | **10:40 - 12:00**  | [Setting up Rails](topic_resources/setting-up-rails.md)|
@@ -418,7 +418,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 #### Tuesday
 
 | Time              | Topic                                    |
-|:-----------------:|:----------------------------------------:|
+|:------------------|:-----------------------------------------|
 | **9:00 - 10:15**   | [ActiveRecord](topic_resources/active_record.md)  |
 | **10:25 - 11:30** | [Model Relationships](topic_resources/active-record-relationships.md)        |
 | **11:30 - 12:00**   | [ActiveRecord Practice](topic_resources/active-record-practice.md)  |
@@ -436,7 +436,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 #### Wednesday
 
 | Time              | Topic                                                  |
-|:-----------------:|:------------------------------------------------------:|
+|:------------------|:-------------------------------------------------------|
 | **9:00 - 9:30**   | [HTTP Body Parser](topic_resources/moar_work/http-body-to-hash.md) |
 | **9:30 - 10:30**  | [Forms](topic_resources/submitting-forms.md)      |
 | **10:30 - 10:35** | [Pairing](topic_resources/pair.md)        |
@@ -447,7 +447,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 #### Thursday
 
 | Time              | Topic                                    |
-|:-----------------:|:----------------------------------------:|
+|:------------------|:-----------------------------------------|
 | **9:00 - 9:30**   | [HTTP Body Parser](topic_resources/moar_work/http-body-to-hash.md)|
 | **9:30 - 11:00**   | [Routes & REST](topic_resources/routes-and-REST.md)                                  |
 | **11:00 - 11:15**   | Standup                                  |
@@ -471,7 +471,7 @@ terminate.
 #### Friday
 
 | Time              | Topic                                    |
-|:-----------------:|:----------------------------------------:|
+|:------------------|:-----------------------------------------|
 | **9:00 - 9:30**   | Koans Review: Search, Guessing Game, Dictionary |
 | **9:30 - 10:00**   | Group Koan: Array Backed Dictionary |
 | **10:00 - 11:00**  | Insertion Sort |
@@ -510,7 +510,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 #### Monday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**     | Koans                  |
 | **9:30 - 10:30**    | [Controllers](topic_resources/controllers.md)                  |
 | **10:30** - **11:30** | [User Authentication](topic_resources/user-authentication.md)|
@@ -524,7 +524,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 #### Tuesday
 
 | Time              | Topic                       |
-|:-----------------:|:----------------------------|
+|:------------------|:----------------------------|
 | **9:00 - 9:20**     | Warm Up                  |
 | **9:20 - 9:45**     | Branches & Merging                  |
 | **9:45 - 10:45**    | [Validations](topic_resources/validations.md)                  |
@@ -533,7 +533,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 #### Wednesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:15**      | Stand up            |
 | **9:20** - **5:00** | [Betsy Project Time](topic_resources/resources/betsy.md)|
 
@@ -543,7 +543,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 #### Thursday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:30** - **10:30** | [Views](topic_resources/views-101.md)|
 | **10:30 - 5:00**   | [Betsy Project Time](topic_resources/resources/betsy.md) |
 
@@ -560,7 +560,7 @@ the problem for the small word set.
 #### Friday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:20**    | Warm Up             |
 | **9:30 - 10:30**    | Ordered Insertion and the Array Dictionary |
 | **10:30 - 12:00**   | Linked Lists and Recursion |
@@ -588,7 +588,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 #### Monday
 
 | Time              | Topic                                    |
-|:-----------------:|:----------------------------------------:|
+|:------------------|:-----------------------------------------|
 | **9:00 - 1:30**  | [Betsy Project Time](topic_resources/resources/betsy.md) |
 | **1:30 - 2:15**  | Guest Speaker: Rohit from ApexLearning |
 | **2:15 - 5:00**  | [Betsy Project Time](topic_resources/resources/betsy.md) |
@@ -597,7 +597,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 #### Tuesday
 
 | Time              | Topic                                     |
-|:-----------------:|:-----------------------------------------:|
+|:------------------|:------------------------------------------|
 | **9:00 - 9:30*** | Warmup  |
 | **9:30 - 10:30*** | [Rails Forms](topic_resources/rails-forms.md)  |
 | **9:00 - 5:00*** | [Betsy Project Time](topic_resources/resources/betsy.md)  |
@@ -608,7 +608,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 #### Wednesday
 
 | Time            | Topic                                    |
-|:---------------:|:----------------------------------------:|
+|:----------------|:-----------------------------------------|
 | **9:00 - 5:00*** | [Betsy Project Time](topic_resources/resources/betsy.md)  |
 
 
@@ -617,7 +617,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 #### Thursday
 
 | Time              | Topic                                                  |
-|:-----------------:|:------------------------------------------------------:|
+|:------------------|:-------------------------------------------------------|
 | **9:00 - 5:00*** | [Betsy Project Time](topic_resources/resources/betsy.md)  |
 
 
@@ -626,7 +626,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 #### Friday
 
 | Time             | Topic                          |
-|:----------------:|:------------------------------:|
+|:-----------------|:-------------------------------|
 | **9:00 - 9:30*** | Betsy Trial Quiz  |
 | **9:30 - 11:30*** | Project Time  |
 | **11:30 - 12:30*** | [OO Design](topic_resources/object-rules-of-thumb.md)  |
@@ -653,7 +653,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 #### Monday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:15 - 10:00**  | [Project Presentations](topic_resources/project-outline.md) |
 | **10:00 - 11:00**   | Betsy Quiz |
 | **11:00 - 11:30**   | [Media Ranker Overview](topic_resources/resources/media_ranker.md) |
@@ -663,7 +663,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 #### Tuesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**   | Warm Up)                |
 | **9:30 - 9:45**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073953)                |
 | **9:45 - 10:15**  | Betsy Quiz Recap          |
@@ -676,7 +676,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 #### Wednesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:30 - 10:15**  | [View methods](topic_resources/view-methods.md)        |
 | **10:15 - 11:15**  | [Routes 102](topic_resources/routes-102.md)|
 | **11:15 - 4:30**  | [Media Ranker](topic_resources/resources/media_ranker.md)          |
@@ -685,7 +685,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 #### Thursday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073955)                |
 | **9:30 - 11:15**  | [Refactoring](topic_resources/refactoring.md)        |
 | **11:15 - 5:00**  | [Media Ranker](topic_resources/resources/media_ranker.md)          |
@@ -696,7 +696,7 @@ No Class.
 
 ### Extra Lectures
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 |  | [Rails RESTful Routes](topic_resources/resources/restful-routes.md)        |
 |  | [Controller methods](topic_resources/controller-methods.md)        |
 
@@ -750,7 +750,7 @@ out understanding of relationships in databases and Rails.
 #### Monday
 
 | Time                | Topic               |
-|:-------------------:|:--------------------|
+|:--------------------|:--------------------|
 | **9:00 - 10:00**     | [Media Ranker Quiz](https://canvas.instructure.com/courses/881804/quizzes/1083242)            |
 | **10:00 - 5:00**     | Sam Livingston-Gray            |
 
@@ -758,13 +758,13 @@ out understanding of relationships in databases and Rails.
 #### Tuesday
 
 | Time                | Topic               |
-|:-------------------:|:--------------------|
+|:--------------------|:--------------------|
 | **9:00 - 5:00**     | Sam Livingston-Gray            |
 
 #### Wednesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:30 - 11:00**     | [ActiveRecord Associations](topic_resources/active-record-associations.md)       |
 | **1:30 - 2:15**     | David Weiser from Moz       |
 | **2:15 - 5:00**     | [Ada Cooks](topic_resources/ada-cooks-mini.md)       |
@@ -772,7 +772,7 @@ out understanding of relationships in databases and Rails.
 #### Thursday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:15**     | Group Interview Prep?       |
 | **9:15 - 9:45**     | [Rspec Rails Setup](https://github.com/rspec/rspec-rails)      |
 | **9:45 - 11:00**     | [Form Object](topic_resources/form-objects.md) |
@@ -784,7 +784,7 @@ out understanding of relationships in databases and Rails.
 #### Friday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 10:00**     | Megan Kiester       |
 | **11:00 - 12:00**     | Peter Abrahamsen       |
 | **12:00 - 5:00**     | [Ada Cooks](topic_resources/ada-cooks-mini.md)       |
@@ -816,7 +816,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 #### Monday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**  | Warmup     |
 | **9:30 - 12:30**   | Lecture: JavaScript fundamentals. [JS notes & Files](topic_resources/resources/js) |
 | **12:30 - 1:30**   | Demo: Using the JavaScript console |
@@ -825,7 +825,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 #### Tuesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**   | Warm Up             |
 | **9:30 - 11:30**   | Lecture: [Working with the DOM](topic_resources/js-day2.pdf) [resources](topic_resources/) |
 | **11:30 - 12:30**  | Mini-project: handling events  |
@@ -839,7 +839,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 #### Wednesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**  | [Warmup](topic_resources/warmup.html) |
 | **9:30 - 10:00**  | [How *this* works with event handlers](topic_resources/Ada_Day3.pdf) |
 | **10:00 - 12:30**  | jQuery fundamentals, looking at jQuery documentation |
@@ -848,7 +848,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 #### Thursday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**  | Warmup |
 | **9:30 - 12:00**  | [Devon Persing](https://docs.google.com/presentation/d/1nZ2wYiQjuWfaVbtOBrpTYPbWade_6LbYozvOr0XMXfw/edit?usp=sharing) |
 | **1:00 - 5:00**  | [List App Project](topic_resources/list-app.md) |
@@ -856,7 +856,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 #### Friday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:15 - 10:00**  | Dave & William from PNNL |
 | **10:00 - 12:00**  | [Beginning rspec in rails](topic_resources/rspec-with-rails.md) |
 | **12:00 - 4:00**  | Project Time |
@@ -895,7 +895,7 @@ In week 12 work on [SeeMore project](topic_resources/see-more.md), in which the 
 #### Monday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**     | Pivotal      |
 | **9:30 - 9:45**     | Environment Variables      |
 | **9:15 - 9:45**     | [Web Api 101](topic_resources/web-api-101.md)      |
@@ -908,7 +908,7 @@ In week 12 work on [SeeMore project](topic_resources/see-more.md), in which the 
 #### Tuesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00** - **9:30** | SeeMore Requirement Review |
 | **9:30** - **10:30** | Omniauth / API recap |
 | **10:30** - **5:00** | [See More Project work](topic_resources/see-more.md) |
@@ -916,7 +916,7 @@ In week 12 work on [SeeMore project](topic_resources/see-more.md), in which the 
 #### Wednesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
 | **9:30** - **10:30** | Omniauth / API recap |
 | **10:45** - **5:00** | [See More Project work](topic_resources/see-more.md) |
@@ -924,14 +924,14 @@ In week 12 work on [SeeMore project](topic_resources/see-more.md), in which the 
 #### Thursday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:15**     | Stand Up            |
 | **9:15** - **5:00** | [See More Project work](topic_resources/see-more.md) |
 
 #### Friday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00 - 9:30**     | [Golf Jquery Warmup](topic_resources/moar_work/golf.md)        |
 | **9:30** - **10:30** | [Ajax Lecture](topic_resources/ajax.md) |
 | **10:30** - **4:00** | [See More Project work](topic_resources/see-more.md) |
@@ -956,13 +956,13 @@ In week 13 we will continue working on [SeeMore project](topic_resources/see-mor
 #### Monday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00** - **5:00** | [See More Project Work](topic_resources/see-more.md) |
 
 #### Tuesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:00** - **2:00** | [See More Project work](topic_resources/see-more.md) |
 | **11:30** - **1:30** | See More Sprint Check-ins
 | **2:00 - 4:00**      | Kronda |
@@ -971,7 +971,7 @@ In week 13 we will continue working on [SeeMore project](topic_resources/see-mor
 #### Wednesday
 
 | Time              | Topic               |
-|:-----------------:|:--------------------|
+|:------------------|:--------------------|
 | **9:15** - **10:15** | [/week15/friday/basic-mocks-and-stubs.md] |
 | **9:00** - **5:00** | [See More Project work](topic_resources/see-more.md) |
 
@@ -1007,7 +1007,7 @@ Additional Lectures
 
 #### Monday
 | Time              | Topic                                             |
-|:-----------------:|:-------------------------------------------------:|
+|:------------------|:--------------------------------------------------|
 | **9:15 - 10:15**  | [On Debugging: Processes and Tools](topic_resources/on_debugging.md)|
 | **10:00 - 11:00** | [Debugging Tools: Chrome DevTools](topic_resources/dev_tools.md) |
 | **11:00 - 12:00**  | [ActionMailer](topic_resources/mailers.md)              |
@@ -1019,7 +1019,7 @@ Additional Lectures
 
 #### Tuesday
 | Time              | Topic                                             |
-|:-----------------:|:-------------------------------------------------:|
+|:------------------|:--------------------------------------------------|
 | **9:05 - 10:00**  | See More Presentations               |
 | **10:00 - 11:30** | [Background Jobs w/Resque](topic_resources/background-jobs.md) |
 | **11:30 -5:00**   | [PPP Project Time](topic_resources/p_patch_planner.md)         |
@@ -1030,7 +1030,7 @@ Additional Lectures
 
 #### Wednesday
 | Time              | Topic                                     |
-|:-----------------:|:-----------------------------------------:|
+|:------------------|:------------------------------------------|
 | **9:00 - 10:00**   | Whenever Gem |
 | **10:00 - 5:00**  | [PPP Project Time](topic_resources/p_patch_planner.md) |
 
@@ -1041,7 +1041,7 @@ Additional Lectures
 #### Thursday
 
 | Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
+|:----------------|:------------------------------------------|
 | **9:00 - 9:45** | Rake                                  |
 | **9:45 - 2:00** | [PPP Project Time](topic_resources/p_patch_planner.md) |
 | **2:00 - 4:00** | Kelsey Foley |
@@ -1054,7 +1054,7 @@ Additional Lectures
 #### Friday
 
 | Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
+|:----------------|:------------------------------------------|
 | **9:00 - 4:00** | [PPP Project Time](topic_resources/p_patch_planner.md) |
 | **4:00 - 5:00** | Weekly Retrospective  |
 
@@ -1083,7 +1083,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 #### Monday
 
 | Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
+|:----------------|:------------------------------------------|
 | **9:00 - 2:00** | [PPP Project Time](topic_resources/p_patch_planner.md) |
 | **2:00 - 5:00** | Norma Timbang |
 
@@ -1091,7 +1091,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 #### Tuesday
 
 | Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
+|:----------------|:------------------------------------------|
 | **9:00 - 1:30** | PPP Project Time |
 | **1:30 - 2:15** | Jason Greer from General UI|
 | **2:15 - 5:00** | PPP Project Time |
@@ -1099,7 +1099,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 
 #### Wednesday
 | Time              | Topic                                     |
-|:-----------------:|:-----------------------------------------:|
+|:------------------|:------------------------------------------|
 | **9:00 - 10:00**  | [Rspec Practice](topic_resources/rspec-practice.md) |
 | **10:00 - 5:00**  | [PPP Project Time](topic_resources/p_patch_planner.md) |
 
@@ -1107,7 +1107,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 #### Thursday
 
 | Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
+|:----------------|:------------------------------------------|
 | **9:30 - 10:30** | Linked Lists, for Fun and Profit |
 | **11:00 - 2:00** | [PPP Project Time](topic_resources/p_patch_planner.md) |
 | **2:00 - 3:00**  | Class Conversation w/ Elise |
@@ -1117,7 +1117,7 @@ This week lectures may be à la carte, some potential topics to talk about as a 
 #### Friday
 
 | Time            | Topic                                     |
-|:---------------:|:-----------------------------------------:|
+|:----------------|:------------------------------------------|
 | **9:00 - 10:00**  | Lecture Time |
 | **10:00 - 4:00** | [PPP Project Time](topic_resources/p_patch_planner.md) |
 | **4:00 - 5:00** | Weekly Retrospective                      |
@@ -1156,7 +1156,6 @@ This week lectures may be à la carte.
 | **3:00 - 4:00**  | [Holiday Party](https://www.eventbrite.com/e/ada-holiday-party-tickets-14536778897) Setup |
 | **4:00 - 6:00**  | [Holiday Party](https://www.eventbrite.com/e/ada-holiday-party-tickets-14536778897) |
 
-
 #### Thursday
 
 | Time             | Topic                               |
@@ -1166,8 +1165,6 @@ This week lectures may be à la carte.
 | **10:30 - 3:00** | [SOA Shipping](topic_resources/shipping_service.md) |
 | **3:00 - 4:00** | Amazon in class |
 | **4:00 - 5:00** | [SOA Shipping](topic_resources/shipping_service.md) |
-
-
 
 #### Friday
 
@@ -1188,7 +1185,7 @@ This week lectures may be à la carte.
 #### Monday
 
 | Time              | Topic                                  |
-|:-----------------:|:--------------------------------------:|
+|:------------------|:---------------------------------------|
 | **9:00 - 9:30**  | Warm Up                                |
 | **9:30 - 10:30** | [Interview Prep w/Dean](topic_resources/interview_practice.md)                  |
 | **10:30 - 12:00** | [Starting Capstone Spike](topic_resources/choose-your-project.md)               |
@@ -1198,27 +1195,27 @@ This week lectures may be à la carte.
 #### Tuesday
 
 | Time             | Topic                                  |
-|:----------------:|:--------------------------------------:|
+|:-----------------|:---------------------------------------|
 | **9:00 - 9:30**  | Warm Up                               |
 | **9:30 - 10:30** | [Interview Prep w/Dean](topic_resources/more_interview_practice.md)                |
 
 
 #### Wednesday
 | Time              | Topic                               |
-|:-----------------:|:-----------------------------------:|
+|:------------------|:------------------------------------|
 | **9:00 - 9:15**   | Stand Up                            |
 
 #### Thursday
 
 | Time             | Topic                               |
-|:----------------:|:-----------------------------------:|
+|:-----------------|:------------------------------------|
 | **9:00 - 5:00**  | Project Time                            |
 | **1:00 - 3:10**  | Mock Interviews                            |
 
 #### Friday
 
 | Time              | Topic                                                      |
-|:-----------------:|:----------------------------------------------------------:|
+|:------------------|:-----------------------------------------------------------|
 | **9:00 - 10:00**  | Project time                                               |
 | **10:00 - 10:30** | Let's talk about the framework project with Ellen!         |
 | **10:30 - 12:00** | [Intro to AngularJS with Ellen](topic_resources/AngularJS-intro.md) |
@@ -1246,7 +1243,7 @@ basics of front-end javascript frameworks.
 #### Monday
 
 | Time             | Topic                                                      |
-|:----------------:|:----------------------------------------------------------:|
+|:-----------------|:-----------------------------------------------------------|
 | **9:00 - 9:15**  | [Debugging AngularJS](topic_resources/debugging.md)                        |
 | **9:15 - 9:45**  | [Why use a front-end framework?](topic_resources/why-frameworks.md) |
 | **9:45 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial)  |
@@ -1254,7 +1251,7 @@ basics of front-end javascript frameworks.
 #### Tuesday
 
 | Time              | Topic                                                        |
-|:-----------------:|:------------------------------------------------------------:|
+|:------------------|:-------------------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                                     |
 | **9:15 - 10:00**  | [Introduction to Blahg](topic_resources/blog.md)              |
 | **10:00 - 11:00** | [AngularJS setup and Hello World](topic_resources/angular-setup.md) |
@@ -1263,7 +1260,7 @@ basics of front-end javascript frameworks.
 #### Wednesday
 
 | Time              | Topic                                               |
-|:-----------------:|:---------------------------------------------------:|
+|:------------------|:----------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                            |
 | **9:15 - 9:17**   | Ellen talks about progress/where we are             |
 | **9:17 - 9:30**   | [Why use a server?](topic_resources/why-server.md)        |
@@ -1275,7 +1272,7 @@ basics of front-end javascript frameworks.
 #### Thursday
 
 | Time              | Topic                                                         |
-|:-----------------:|:-------------------------------------------------------------:|
+|:------------------|:--------------------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                                      |
 | **9:15 - 10:00**  | [Scope, Forms, and Input](topic_resources/scope-forms-user-input.md) |
 | **10:00 - 10:45** | [Filters](topic_resources/filters.md)                                |
@@ -1284,7 +1281,7 @@ basics of front-end javascript frameworks.
 #### Friday
 
 | Time              | Topic                                              |
-|:-----------------:|:--------------------------------------------------:|
+|:------------------|:---------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                           |
 | **9:15 - 9:30**   | [Let's fix that ugly url!](topic_resources/fix-url.md)      |
 | **9:30 - 10:00**  | [Routes and Controllers, pt 2: More routes and refactoring!](topic_resources/routing-pt-2.md) |
@@ -1314,7 +1311,7 @@ Nothing! WOOOOO! Day off :D
 ###Tuesday -- Class will be at Moz
 
 | Time              | Topic                                                  |
-|:-----------------:|:------------------------------------------------------:|
+|:------------------|:-------------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                               |
 | **9:15 - 9:30**   | Technical difficulties and chatting, lbr               |
 | **9:30 - 10:30**  | Let's talk about [lightning talks](topic_resources/framework-presentations.md) |
@@ -1328,7 +1325,7 @@ Nothing! WOOOOO! Day off :D
 #### Wednesday
 
 | Time              | Topic                                                  |
-|:-----------------:|:------------------------------------------------------:|
+|:------------------|:-------------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                               |
 | **9:15 - 9:45**   | [Structure](topic_resources/structure.md)                    |
 | **9:45 - 10:45**  | [Refactoring!](topic_resources/refactor.md)                  |
@@ -1339,7 +1336,7 @@ Nothing! WOOOOO! Day off :D
 #### Thursday
 
 | Time              | Topic                                                  |
-|:-----------------:|:------------------------------------------------------:|
+|:------------------|:-------------------------------------------------------|
 | **9:00 - 9:15**   | Stand Up                                               |
 | **9:15 - 9:20**   | Ellen's lightning talk                                 |
 | **9:15 - 10:30**  | [Tags, part 2](topic_resources/tags.md)                       |
@@ -1352,7 +1349,7 @@ Nothing! WOOOOO! Day off :D
 #### Friday
 
 | Time             | Topic                                 |
-|:----------------:|:-------------------------------------:|
+|:-----------------|:--------------------------------------|
 | **9:00 - 9:15**  | Stand Up                              |
 | **9:15 - 11:00** | [Blahg](topic_resources/blog.md)            |
 | **11:00 - 4:00** | [Lightning Talks](topic_resources/lightning-talks.md) |

@@ -1,6 +1,6 @@
 Curriculum Schedule
 -------------------
-* [Cohort 2](C2_instruction_calendar.md)
+* [Cohort 2](C02_instruction_calendar.md)
 * [Career Development](career_development_calendar.md)
 
 
