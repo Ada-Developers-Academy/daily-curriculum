@@ -417,7 +417,7 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 ## Resources
 For additional online resources see the [resources](topic_resources/resources/resources.md) page.
 
-## Week 6 - Intro to Rails
+## Week 6
 
 Week 6 we introduce students to the Ruby on Rails framework, which will be the focus of much of their work for the remainder of the course. Working in pairs, students build [a basic Rails application](topic_resources/far-mar-rails.md). The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models and relationships, and begin to develop very basic proficiency with Rails.
 
