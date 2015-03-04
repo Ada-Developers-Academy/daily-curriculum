@@ -1,15 +1,43 @@
 # Cohort 2 Internship Calendar
 
+## At a Glance
+
+Date    | Week                                | Topic
+--------|-------------------------------------|-----------------------------
+Mar 17  | [Week 01](#week-1-of-internships)   |
+Mar 24  | [Week 02](#week-2-of-internships)   |
+Mar 31  | [Week 03](#week-3-of-internships)   |
+Apr 7   | [Week 04](#week-4-of-internships)   |
+Apr 14  | [Week 05](#week-5-of-internships)   |
+Apr 21  | [Week 06](#week-6-of-internships)   |
+Apr 28  | [Week 07](#week-7-of-internships)   |
+May 5   | [Week 08](#week-8-of-internships)   |
+May 12  | [Week 09](#week-9-of-internships)   |
+May 19  | [Week 10](#week-10-of-internships)  |
+May 26  | [Week 11](#week-11-of-internships)  |
+Jun 2   | [Week 12](#week-12-of-internships)  |
+Jun 9   | [Week 13](#week-13-of-internships)  |
+Jun 16  | [Week 14](#week-14-of-internships)  |
+Jun 23  | [Week 15](#week-15-of-internships)  |
+Jun 30  | [Week 16](#week-16-of-internships)  |
+        |                                     | **GRADUATION**
+
 ## Week 1 of Internships
 
-| Time       | Topic |
-|:----------:|:-----------------------------:|
-|1:00 - 1:30 | Stand Up                      |
-|1:30 - 2:00 | OS Contribution Kickoff       |
-|2:00 - 3:00 | Learn how to judge Apps for Good w/Karen & Peter  |
-|3:00 - 3:30 | One on one : Internship Talk & Reviewing Apps for Good  |
-|3:30 - 4:00 | [Internship Reflection Survey](https://docs.google.com/forms/d/18eQe1EbBtfA_3VVt3bI7APVd-_QqRPiCWrKzowrJydk/viewform?usp=send_form)  |
-|4:00 - 5:00 | Week 1 Retrospective          |
+| Time       | Topic                                    | With
+|------------|------------------------------------------|----------
+1:00 - 1:30  | Stand Up                                 | 
+
+## Week 2 of Internships
+
+| Time       | Topic                                    | With
+|------------|------------------------------------------|----------
+1:00 - 1:30  | Meet Crystal                             | Crystal
+1:30 - 2:00  | Confidence in Coding Talk                | Crystal
+2:00 - 3:00  | Learn how to judge Apps for Good         | Peter
+3:00 - 4:00  | One-on-one / Reviewing Apps for Good     |
+4:00 - 4:30  | OS Contribution Kickoff                  |
+4:30 - 5:00  | Week 2 Retrospective                     |
 
 ### Open Source Contributions
 
@@ -24,10 +52,6 @@ Then try to find a project to work on, which can be difficult, here are some way
 4. Whenever you experience a plain ol' bug in a gem, fix it and submit a pull request.
 
 If you find a project that would allow for multiple contributors or pairing, share!
-
-
-## Week 2 of Internships
-
 
 ## Week 3 of Internships
 
