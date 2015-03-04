@@ -1,6 +1,6 @@
 # Cohort 1 Internship Calendar
 
-# Week 1 of Internships
+## Week 1 of Internships
 
 | Time       | Topic |
 |:----------:|:-----------------------------:|
@@ -26,7 +26,7 @@ Then try to find a project to work on, which can be difficult, here are some way
 If you find a project that would allow for multiple contributors or pairing, share!
 
 
-# Week 2 of Internships
+## Week 2 of Internships
 
 | Time       | Topic |
 |:----------:|:------------------------------:|
@@ -54,7 +54,7 @@ This week will will spend most of our time doing two things:
 
 **REMINDER** Headcount for luncheon.
 
-# Week 3 of Internships
+## Week 3 of Internships
 
 | Time       | Topic |
 |:----------:|:------------------------------:|
@@ -83,7 +83,7 @@ This week will will spend most of our time doing three things:
 
 **One on ones will be during the other activities*
 
-# Week 4 of Internships
+## Week 4 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -110,7 +110,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 - [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/) see [CodePen](http://codepen.io/)
 - [Create a web framework gem that can deploy on Heroku using Rack](http://rack.github.io/)
 
-# Week 5 of Internships
+## Week 5 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -141,7 +141,7 @@ then please rename your file being more specific or simply putting a `-2` at the
 - [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/) see [CodePen](http://codepen.io/)
 - [Create a web framework gem that can deploy on Heroku using Rack](http://rack.github.io/)
 
-# Week 6 of Internships
+## Week 6 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -172,7 +172,7 @@ then please rename your file being more specific or simply putting a `-2` at the
 - [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/) see [CodePen](http://codepen.io/)
 - [Create a web framework gem that can deploy on Heroku using Rack](http://rack.github.io/)
 
-# Week 7 of Internships
+## Week 7 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -212,7 +212,7 @@ then please rename your file being more specific or simply putting a `-2` at the
 - [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/) see [CodePen](http://codepen.io/)
 - [Create a web framework gem that can deploy on Heroku using Rack](http://rack.github.io/)
 
-# Week 8 of Internships
+## Week 8 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -247,7 +247,7 @@ then please rename your file being more specific or simply putting a `-2` at the
 - [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/) see [CodePen](http://codepen.io/)
 - [Create a web framework gem that can deploy on Heroku using Rack](http://rack.github.io/)
 
-# Week 9 of Internships
+## Week 9 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -277,9 +277,9 @@ then please rename your file being more specific or simply putting a `-2` at the
 - [Create NPM Logo in CSS](http://css-tricks.com/forums/topic/a-random-saturday-css-challenge/) see [CodePen](http://codepen.io/)
 - [Create a web framework gem that can deploy on Heroku using Rack](http://rack.github.io/)
 
-# Week 10 of Internships
+## Week 10 of Internships
 
-# Week 11 of Internships
+## Week 11 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -335,9 +335,9 @@ Write about your experience searching for an OSS project and submit [URL to Canv
 What was appealing about projects? What made the search difficult? What project(s)
 are you planning to contribute to, and why?
 
-# Week 12 of Internships
+## Week 12 of Internships
 
-# Week 13 of Internships
+## Week 13 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -377,7 +377,7 @@ have you made so far? Has any thing been easier than you would have assumed?
 Has anything been more difficult than you anticipated? If so how are you solving
 the problem? Are you working with others? etc...
 
-# Week 14 of Internships
+## Week 14 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
@@ -421,9 +421,9 @@ have you made so far? Has any thing been easier than you would have assumed?
 Has anything been more difficult than you anticipated? If so how are you solving
 the problem? Are you working with others? etc...
 
-# Week 15 of Internships
+## Week 15 of Internships
 
-# Week 16 of Internships
+## Week 16 of Internships
 
 | Time       | Topic |
 |:----------:|:--------------------------------:|
