@@ -2,8 +2,6 @@ Curriculum Schedules
 --------------------
 * Cohort 2: [Classroom Calendar](C02_classroom_calendar.md); [Internship Calendar](C02_internship_calendar.md)
 * Cohort 1: [Internship Calendar](C01_internship_calendar.md)
-* [Career Development](career_development_calendar.md)
-
 
 Books
 -----
