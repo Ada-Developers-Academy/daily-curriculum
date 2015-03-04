@@ -1,4 +1,4 @@
-#Cohort 2 Instruction Calendar
+#Cohort 2 Classroom Calendar
 
 ## WEEK 1
 
