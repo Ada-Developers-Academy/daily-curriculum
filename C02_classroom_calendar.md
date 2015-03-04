@@ -414,8 +414,8 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 
 ### No Friday. Yay!
 
-## Resources
-For additional online resources see the [resources](topic_resources/resources/resources.md) page.
+Resources
+- For additional online resources see the [resources](topic_resources/resources/resources.md) page.
 
 ## Week 6
 
