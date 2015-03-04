@@ -373,7 +373,7 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 
 | Time              | Topic
 |-------------------|---------------------
-| **9:30 - 10:30** | [HTML](topic_resources/html.md)
+| **9:30 - 10:30**  | [HTML](topic_resources/html.md)
 | **10:30 - 11:30** | [Starting HTML](topic_resources/starting-an-html-website.md)
 | **11:30 - 5:00*** | [Personal Website Project](topic_resources/personal-website-overview.md)
 
@@ -385,10 +385,10 @@ Read Lessons 2 & 3 of http://learn.shayhowe.com/html-css/getting-to-know-css/
 
 | Time              | Topic
 |-------------------|-----------------------------
-| **9:00 - 9:30**  | [Warm up](topic_resources/moar_work/decoding-strings.md)
+| **9:00 - 9:30**   | [Warm up](topic_resources/moar_work/decoding-strings.md)
 | **9:30 - 10:00**  | [More CSS](topic_resources/more-css.md)
-| **10:00 - 12:00**  | Live Code CSS
-| **12:00 - 5:00** | [Personal Website Project](topic_resources/personal-website-overview.md)
+| **10:00 - 12:00** | Live Code CSS
+| **12:00 - 5:00**  | [Personal Website Project](topic_resources/personal-website-overview.md)
 
 **Homework**
 Read a little about JavaScript in _Eloquent JavaScript_:
@@ -399,8 +399,8 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 
 | Time              | Topic
 |-------------------|---------------------
-| **9:30 - 10:30**   | [Basic JavaScript](topic_resources/basic-javascript.md)
-| **10:30 - 12:30**  | [Try jQuery](topic_resources/playing-with-jquery.md)
+| **9:30 - 10:30**  | [Basic JavaScript](topic_resources/basic-javascript.md)
+| **10:30 - 12:30** | [Try jQuery](topic_resources/playing-with-jquery.md)
 | **1:30 - 5:00**   | [Personal Website Project](topic_resources/personal-website-overview.md)
 
 
@@ -408,9 +408,9 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 
 | Time              | Topic
 |-------------------|---------------------
-| **9:00 - 9:30** | Koans
-| **9:30 - 11:00** | ??? (students choice)
-| **11:00 - 5:00**   | [Personal Website Project](topic_resources/personal-website-overview.md)
+| **9:00 - 9:30**   | Koans
+| **9:30 - 11:00**  | ??? (students choice)
+| **11:00 - 5:00**  | [Personal Website Project](topic_resources/personal-website-overview.md)
 
 ### No Friday. Yay!
 
@@ -435,10 +435,10 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | Time              | Topic
 |-------------------|------------------------------------------
 | **9:00 - 10:00**  | Blog Presentations
-| **10:00 - 10:30**  | [Agile](topic_resources/agile.md)
-| **10:40 - 12:00**  | [Setting up Rails](topic_resources/setting-up-rails.md)
-| **1:00 - 2:30** | [Running Rails & HTTP](topic_resources/rails.md)
-| **2:30 - 3:30** | Database
+| **10:00 - 10:30** | [Agile](topic_resources/agile.md)
+| **10:40 - 12:00** | [Setting up Rails](topic_resources/setting-up-rails.md)
+| **1:00 - 2:30**   | [Running Rails & HTTP](topic_resources/rails.md)
+| **2:30 - 3:30**   | Database
 
 [RoRT Online](https://www.railstutorial.org/book/demo_app#cha-a_demo_app):
     + review sections 1.2.3 & 1.2.5
@@ -449,13 +449,13 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 
 | Time              | Topic
 |-------------------|------------------------------------------
-| **9:00 - 10:15**   | [ActiveRecord](topic_resources/active_record.md)
+| **9:00 - 10:15**  | [ActiveRecord](topic_resources/active_record.md)
 | **10:25 - 11:30** | [Model Relationships](topic_resources/active-record-relationships.md)
-| **11:30 - 12:00**   | [ActiveRecord Practice](topic_resources/active-record-practice.md)
-| **1:30 - 2:00** | [params & session](topic_resources/params-and-session.md)
-| **2:00 - 2:30** | Project Planning
-| **2:30 - 2:35** | Stand Up
-| **2:35 - 5:00** | [FarMar Project](topic_resources/far-mar-rails.md)
+| **11:30 - 12:00** | [ActiveRecord Practice](topic_resources/active-record-practice.md)
+| **1:30 - 2:00**   | [params & session](topic_resources/params-and-session.md)
+| **2:00 - 2:30**   | Project Planning
+| **2:30 - 2:35**   | Stand Up
+| **2:35 - 5:00**   | [FarMar Project](topic_resources/far-mar-rails.md)
 
 **Homework**
 
@@ -471,7 +471,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | **9:30 - 10:30**  | [Forms](topic_resources/submitting-forms.md)
 | **10:30 - 10:35** | [Pairing](topic_resources/pair.md)
 | **10:35 - 10:40** | Stand Up
-| **10:35 - 5:00** | [FarMar Project](topic_resources/far-mar-rails.md)
+| **10:35 - 5:00**  | [FarMar Project](topic_resources/far-mar-rails.md)
 
 
 #### Thursday
@@ -479,9 +479,9 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | Time              | Topic
 |-------------------|------------------------------------------
 | **9:00 - 9:30**   | [HTTP Body Parser](topic_resources/moar_work/http-body-to-hash.md)
-| **9:30 - 11:00**   | [Routes & REST](topic_resources/routes-and-REST.md)
-| **11:00 - 11:15**   | Standup
-| **11:15 - 5:00** | [FarMar Project](topic_resources/far-mar-rails.md)
+| **9:30 - 11:00**  | [Routes & REST](topic_resources/routes-and-REST.md)
+| **11:00 - 11:15** | Standup
+| **11:15 - 5:00**  | [FarMar Project](topic_resources/far-mar-rails.md)
 
 **Homework**
 
