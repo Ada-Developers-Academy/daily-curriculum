@@ -6,29 +6,29 @@ Date    | Week                 | Topic
 --------|----------------------|-----------------------------
 Sept 2  | [Week 01](#week-1)   | Bash, Git, Ruby
 Sept 8  | [Week 02](#week-2)   | Ruby II
-Sept 15 | Week 03 | Ruby III
-Sept 22 | Week 04 | Testing, Sinatra, HTTP, DOM & HTML
-Sept 29 | Week 05 | HTML & CSS
-Oct 6   | Week 06 | Intro to Rails
-Oct 13  | Week 07 | Rails II
-Oct 20  | Week 08 | Adv Ruby & CS Fundamentals
-Oct 27  | Week 09 | Rails III, Intro to Agile
-Nov 3   | Week 11 | Testing in Rails
-Nov 10  | Week 10 | Intro to Javascript
-Nov 17  | Week 12 | Special Topics & Group Rails Project
-Nov 24  | Week 13 | Group Rails Project, Thanksgiving
-Dec 1   | Week 14 | 2 week pairing Rails Project
-Dec 8   | Week 15 | 2 week pairing Rails Project
-Dec 15  | Week 16 | SOA Rails Project
-        |         | ** Holiday Break **
-Jan 5   | Week 17 | Individual Student-Defined Rails Project
-Jan 12  | Week 18 | Pair JS Framework Project
-Jan 19  | Week 19 | Pair JS Framework Project
-Jan 26  | Week 20 | Final Rails Project
-Feb 2   | Week 21 | Final Rails Project
-Feb 9   | Week 22 | Final Rails Project
-Feb 16  | Week 23 | Final Rails Project Presentations
-Feb 23  | Week 24 | Internship Spike Project
+Sept 15 | [Week 03](#week-3)   | Ruby III
+Sept 22 | [Week 04](#week-4)   | Testing, Sinatra, HTTP, DOM & HTML
+Sept 29 | [Week 05](#week-5)   | HTML & CSS
+Oct 6   | [Week 06](#week-6)   | Intro to Rails
+Oct 13  | [Week 07](#week-7)   | Rails II
+Oct 20  | [Week 08](#week-8)   | Adv Ruby & CS Fundamentals
+Oct 27  | [Week 09](#week-9)   | Rails III, Intro to Agile
+Nov 3   | [Week 10](#week-10)  | Testing in Rails
+Nov 10  | [Week 11](#week-11)  | Intro to Javascript
+Nov 17  | [Week 12](#week-12)  | Special Topics & Group Rails Project
+Nov 24  | [Week 13](#week-13)  | Group Rails Project, Thanksgiving
+Dec 1   | [Week 14](#week-14)  | 2 week pairing Rails Project
+Dec 8   | [Week 15](#week-15)  | 2 week pairing Rails Project
+Dec 15  | [Week 16](#week-16)  | SOA Rails Project
+        |                      | ** Holiday Break **
+Jan 5   | [Week 17](#week-17)  | Individual Student-Defined Rails Project
+Jan 12  | [Week 18](#week-18)  | Pair JS Framework Project
+Jan 19  | [Week 19](#week-19)  | Pair JS Framework Project
+Jan 26  | [Week 20](#week-20)  | Final Rails Project
+Feb 2   | [Week 21](#week-21)  | Final Rails Project
+Feb 9   | [Week 22](#week-22)  | Final Rails Project
+Feb 16  | [Week 23](#week-23)  | Final Rails Project Presentations
+Feb 23  | [Week 24](#week-24)  | Internship Spike Project
 
 ## Week 1
 
