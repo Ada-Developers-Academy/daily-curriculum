@@ -2,7 +2,7 @@
 
 ## At a Glance
 
-Date    | Week                                | Topic
+Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
 Mar 17  | [Week 01](#week-1-of-internships)   |
 Mar 24  | [Week 02](#week-2-of-internships)   |
