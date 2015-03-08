@@ -7,18 +7,18 @@ Date    | Week                                | Topics
 Mar 17  | [Week 01](#week-1-of-internships)   | Language Specific Mini-Project,
 Mar 24  | [Week 02](#week-2-of-internships)   | Confidence in Coding, OS Contribution
 Mar 31  | [Week 03](#week-3-of-internships)   | Youth Apps, Tackling hard projects
-Apr 7   | [Week 04](#week-4-of-internships)   | Youth Apps, Utilizing mentors, managers, teammates
-Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps,
-Apr 21  | [Week 06](#week-6-of-internships)   |
+Apr 7   | [Week 04](#week-4-of-internships)   | Youth Apps, Personal Projects: Importance/Finding
+Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps, Utilizing mentors, managers, teammates
+Apr 21  | [Week 06](#week-6-of-internships)   | CS ADTs, 
 Apr 28  | [Week 07](#week-7-of-internships)   |
 May 5   | [Week 08](#week-8-of-internships)   |
-May 12  | [Week 09](#week-9-of-internships)   |
+May 12  | [Week 09](#week-9-of-internships)   | Working with difficult teammates
 May 19  | [Week 10](#week-10-of-internships)  |
 May 26  | [Week 11](#week-11-of-internships)  |
 Jun 2   | [Week 12](#week-12-of-internships)  | Resumes, Portfolios, Selling yourself
 Jun 9   | [Week 13](#week-13-of-internships)  | Technical Interview Prep,
 Jun 16  | [Week 14](#week-14-of-internships)  | Networking,
-Jun 23  | [Week 15](#week-15-of-internships)  |
+Jun 23  | [Week 15](#week-15-of-internships)  | Climbing the corporate ladder,
 Jun 30  | [Week 16](#week-16-of-internships)  | Reflections,
         |                                     | **GRADUATION**
 
