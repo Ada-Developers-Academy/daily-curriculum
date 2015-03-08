@@ -4,23 +4,34 @@
 
 Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
-Mar 17  | [Week 01](#week-1-of-internships)   | Language Specific Mini-Project,
-Mar 24  | [Week 02](#week-2-of-internships)   | Confidence in Coding, OS Contribution
+Mar 17  | [Week 01](#week-1-of-internships)   | Language Specific Mini-Project
+Mar 24  | [Week 02](#week-2-of-internships)   | Personal Projects: Importance/Finding, OS Contribution
 Mar 31  | [Week 03](#week-3-of-internships)   | Youth Apps, Tackling hard projects
-Apr 7   | [Week 04](#week-4-of-internships)   | Youth Apps, Personal Projects: Importance/Finding
-Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps, Utilizing mentors, managers, teammates
-Apr 21  | [Week 06](#week-6-of-internships)   | CS ADTs, 
+Apr 7   | [Week 04](#week-4-of-internships)   | Youth Apps, Leveraging your coworkers
+Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps,
+Apr 21  | [Week 06](#week-6-of-internships)   | CS ADTs, Addressing difficult situations
 Apr 28  | [Week 07](#week-7-of-internships)   |
-May 5   | [Week 08](#week-8-of-internships)   |
-May 12  | [Week 09](#week-9-of-internships)   | Working with difficult teammates
-May 19  | [Week 10](#week-10-of-internships)  |
-May 26  | [Week 11](#week-11-of-internships)  |
-Jun 2   | [Week 12](#week-12-of-internships)  | Resumes, Portfolios, Selling yourself
-Jun 9   | [Week 13](#week-13-of-internships)  | Technical Interview Prep,
+May 5   | [Week 08](#week-8-of-internships)   | Confidence in Coding, 
+May 12  | [Week 09](#week-9-of-internships)   |
+May 19  | [Week 10](#week-10-of-internships)  | Resumes, Portfolios, Selling yourself
+May 26  | [Week 11](#week-11-of-internships)  | User Centered Design,
+Jun 2   | [Week 12](#week-12-of-internships)  | Technical Interview Prep,
+Jun 9   | [Week 13](#week-13-of-internships)  |
 Jun 16  | [Week 14](#week-14-of-internships)  | Networking,
-Jun 23  | [Week 15](#week-15-of-internships)  | Climbing the corporate ladder,
-Jun 30  | [Week 16](#week-16-of-internships)  | Reflections,
+Jun 23  | [Week 15](#week-15-of-internships)  |
+Jun 30  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Reflections
         |                                     | **GRADUATION**
+
+<!--
+Possible people to ask to speak:
+- Elton: Networking
+- Koz: Climbing the corporate ladder
+- Blake: Leveraging your coworkers
+- Margaeux:
+- Adam:
+- Andy: User Centered Design
+-
+-->
 
 ## Week 1 of Internships
 
@@ -32,7 +43,7 @@ Jun 30  | [Week 16](#week-16-of-internships)  | Reflections,
 
 | Time       | Topic                                    | With
 |------------|------------------------------------------|----------
-1:00 - 2:00  | Confidence in Coding Discussion          | Crystal
+1:00 - 2:00  | Personal Projects: Importance/Finding    |
 2:00 - 3:00  |                                          |
 3:00 - 4:30  | One-on-one / OS Contribution Kickoff     |
 4:30 - 5:00  | Week 2 Retrospective                     |
