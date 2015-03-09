@@ -43,22 +43,21 @@ Possible CS Fundamental topics:
 
 ## Week 1 of Internships
 
-| Time       | Topic                                    | With
-|------------|------------------------------------------|----------
-1:00 - 1:30  | Stand Up                                 |
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 1:30  | Stand Up                                 |
+| 1:30 - 3:00  |                                          |
+| 3:00 - 5:00  | One-on-one / Lang Specific Mini-Project  |
+
+###[Language Specific Mini-Project - Josephus Problem](topic_resources/Josephus.md)
 
 ## Week 2 of Internships
 
-| Time       | Topic                                    | With
-|------------|------------------------------------------|----------
-1:00 - 2:00  | Personal Projects: Importance/Finding    |
-2:00 - 3:00  |                                          |
-3:00 - 4:30  | One-on-one / OS Contribution Kickoff     |
-4:30 - 5:00  | Week 2 Retrospective                     |
-
-### Confidence in Coding
-
-
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 2:00  |                                          |
+| 2:00 - 3:00  | Personal Projects: Importance/Finding    |
+| 3:00 - 5:00  | One-on-one / OS Contribution Kickoff     |
 
 ### Open Source Contributions
 
