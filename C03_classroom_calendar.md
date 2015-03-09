@@ -31,12 +31,23 @@
 | Oct 12  | [Week 24](#week-24)  | Internship Spike Project
 |         |                      | **INTERNSHIP BEGINS**
 
+<!--
+Warmup ideas:
+- Koans
+- Codecademy
+- Project Euler
+- Blog Posts
+- Look up various terms
+  - Compiled vs Interpreted
+  - Strong vs Weak Typed Languages
+-->
+
 ## Bare Bones Weekly Schedule
 
 * Daily - warmup
-* Monday Morning - Code reviews; One on Ones
+* Monday Morning - Quiz
 * Tuesday afternoon - Guest Lecture
-* Friday afternoon - Quiz
+* Friday afternoon - Code reviews; One on Ones
 
 ## Week 1
 

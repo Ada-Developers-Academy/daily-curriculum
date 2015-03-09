@@ -9,9 +9,9 @@ Mar 24  | [Week 02](#week-2-of-internships)   | Personal Projects: Importance/Fi
 Mar 31  | [Week 03](#week-3-of-internships)   | Youth Apps, Tackling hard projects
 Apr 7   | [Week 04](#week-4-of-internships)   | Youth Apps, Leveraging your coworkers
 Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps,
-Apr 21  | [Week 06](#week-6-of-internships)   | CS ADTs, Addressing difficult situations
+Apr 21  | [Week 06](#week-6-of-internships)   | Addressing difficult situations
 Apr 28  | [Week 07](#week-7-of-internships)   |
-May 5   | [Week 08](#week-8-of-internships)   | Confidence in Coding, 
+May 5   | [Week 08](#week-8-of-internships)   | Confidence in Coding,
 May 12  | [Week 09](#week-9-of-internships)   |
 May 19  | [Week 10](#week-10-of-internships)  | Resumes, Portfolios, Selling yourself
 May 26  | [Week 11](#week-11-of-internships)  | User Centered Design,
@@ -31,6 +31,14 @@ Possible people to ask to speak:
 - Adam:
 - Andy: User Centered Design
 -
+
+Possible CS Fundamental topics:
+- ADTs (LinkedList, Stack/Queue, Sets, Maps, Trees)
+- Algorithms ()
+- Efficiency - Big O
+- Recursive vs Iterative Solutions
+- Language pros and cons
+- Compiled languages vs interpreted languages
 -->
 
 ## Week 1 of Internships
