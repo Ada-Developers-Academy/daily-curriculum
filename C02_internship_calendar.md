@@ -8,7 +8,7 @@ Mar 17  | [Week 01](#week-1-of-internships)   | Language Specific Mini-Project
 Mar 24  | [Week 02](#week-2-of-internships)   | Personal Projects: Importance/Finding, OS Contribution
 Mar 31  | [Week 03](#week-3-of-internships)   | Youth Apps, Tackling hard projects
 Apr 7   | [Week 04](#week-4-of-internships)   | Youth Apps, Leveraging your coworkers
-Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps,
+Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps, CS ADTs
 Apr 21  | [Week 06](#week-6-of-internships)   | Addressing difficult situations
 Apr 28  | [Week 07](#week-7-of-internships)   |
 May 5   | [Week 08](#week-8-of-internships)   | Confidence in Coding,
@@ -45,9 +45,10 @@ Possible CS Fundamental topics:
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 1:30  | Stand Up                                 |
-| 1:30 - 3:00  |                                          |
-| 3:00 - 5:00  | One-on-one / Lang Specific Mini-Project  |
+| 1:00 - 1:30  | Welcome Back                             | Bookis
+| 1:30 - 2:00  | Doxing                                   | Irene from Context Relevant
+| 2:00 - 3:00  | Internship Talk: First Week              | Crystal
+| 3:00 - 5:00  | One-on-one / Josephus Problem            |
 
 ###[Language Specific Mini-Project - Josephus Problem](topic_resources/Josephus.md)
 
@@ -55,9 +56,9 @@ Possible CS Fundamental topics:
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  |                                          |
+| 1:00 - 2:00  | Project Time                             |
 | 2:00 - 3:00  | Personal Projects: Importance/Finding    |
-| 3:00 - 5:00  | One-on-one / OS Contribution Kickoff     |
+| 3:00 - 5:00  | One-on-one / OS Contribution Kickoff     | Bookis?
 
 ### Open Source Contributions
 
@@ -75,12 +76,29 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 3 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 2:00  | Youth Apps Training                      | Peter
+| 2:00 - 2:30  | Internship Talk: Challenges              |
+| 2:30 - 3:30  | Tackling hard projects                   |
+| 3:30 - 5:00  | One-on-one / Project Time                |
+
 
 ## Week 4 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 3:00  | Youth Apps Judging                       |
+| 3:00 - 4:00  | Leveraging your coworkers                | ??
+| 4:00 - 5:00  | One-on-one / Project Time                |
 
 ## Week 5 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 3:00  | Youth Apps Judging                       |
+| 3:00 - 4:00  | CS ADTs                                  | Crystal
+| 4:00 - 5:00  | One-on-one / Project Time                |
 
 ## Week 6 of Internships
 
