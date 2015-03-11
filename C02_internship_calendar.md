@@ -45,10 +45,10 @@ Possible CS Fundamental topics:
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 1:30  | Welcome Back                             | Bookis
-| 1:30 - 2:00  | Doxing                                   | Irene from Context Relevant
-| 2:00 - 3:00  | Internship Talk: First Week              | Crystal
-| 3:00 - 5:00  | One-on-one / Josephus Problem            |
+| 1:00 - 2:00  | Welcome Back                             | Bookis
+| 2:00 - 2:30  | Doxing                                   | Irene from Context Relevant
+| 2:30 - 3:30  | Internship Talk: First Week              | Crystal
+| 3:30 - 5:00  | One-on-one / Josephus Problem            |
 
 ###[Language Specific Mini-Project - Josephus Problem](topic_resources/Josephus.md)
 
