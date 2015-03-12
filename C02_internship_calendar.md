@@ -39,6 +39,8 @@ Possible CS Fundamental topics:
 - Recursive vs Iterative Solutions
 - Language pros and cons
 - Compiled languages vs interpreted languages
+-
+
 -->
 
 ## Week 1 of Internships
