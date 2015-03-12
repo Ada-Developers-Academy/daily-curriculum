@@ -85,7 +85,6 @@ If you find a project that would allow for multiple contributors or pairing, sha
 | 2:30 - 3:30  | Tackling hard projects                   |
 | 3:30 - 5:00  | One-on-one / Project Time                |
 
-Road to Success
 ![alt text](topic_resources/infographics/RoadToSuccess.jpg "Road to Success")
 
 ###Cohort 1 Hsing-Hui Hsu and Liz Rush: [Cascadia Ruby 2014 Talk](http://lizmrush.com/cascadia-ruby-2014/)
