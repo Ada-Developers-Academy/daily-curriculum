@@ -52,7 +52,7 @@ Possible CS Fundamental topics:
 | 2:30 - 3:30  | Internship Talk: First Week              | Crystal
 | 3:30 - 5:00  | One-on-one / Josephus Problem            |
 
-###[Language Specific Mini-Project - Josephus Problem](topic_resources/Josephus.md)
+###[Language Specific Mini-Project - Josephus Problem](topic_resources/josephus.md)
 
 ## Week 2 of Internships
 
