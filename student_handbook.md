@@ -17,21 +17,14 @@ That being said, if the thing you need to talk about involves one of these peopl
 
 ### Schedule
 
-
 - Class is 9 - 5 Monday through Friday.
 - Class is mandatory.
 - You get 5 excused days off or illness AND personal time.
-- Always Email Bookis and Karen when you are going to be absent or late.
+- Always let Ada staff know when you are going to be absent or late.
 
 The exception to the rule, scheduled days off:
 
-- Free Friday – October 3rd
-- Free Friday – October 31st
-- Thanksgiving – November 27th and 28th
-- Winter Break – December 22nd - January 2nd
-- Martin Luther King Day – January 19th
-- Presidents Day – February 16th
-- Spring Break – March 2nd - March 6th
+-
 
 ### Do the following for maximum happiness:
 
@@ -43,13 +36,10 @@ The exception to the rule, scheduled days off:
 
 ### Mutual Accountability
 
-We are responsible for being available and responsive to you so that you get the most out of the Ada experience
-
-The instructors will keep track of your progress, and hopefully be able to identify areas where you are not performing as expected
-
-But, please help us by letting us know if feel that you are falling behind or would just like some extra help in any area.
-
-You will have occasional scheduled one-on-one meetings with an instructor, during these meetings we will talk about any problems areas and come up with a plan together to address them.
+- We are responsible for being available and responsive to you so that you get the most out of the Ada experience
+- The instructors will keep track of your progress, and hopefully be able to identify areas where you are not performing as expected
+- But, please help us by letting us know if feel that you are falling behind or would just like some extra help in any area.
+- You will have occasional scheduled one-on-one meetings with an instructor, during these meetings we will talk about any problems areas and come up with a plan together to address them.
 
 ### Serious Concerns
 
@@ -59,19 +49,18 @@ Not following the above can result in action. If we are concerned you are not pe
 - If the issue is still not resolved after the timeline has passed, you may be subject to dismissal.
 
 
-### Scholarship
+### Loan/Scholarship
 
 Given that all program requirements are met:
 
-- You will receive $750/month for the first 6 months
-- You will receive $1250/month for the second 6 months
+FILLMEIN
+
 - Payments will be processed at the end of each month and will be mailed to the address you've provided to us
 - If you leave or are dismissed from the program, you will not longer receive the scholarship payments
 
 ### Anti-Harassment
 
-Any kind of harassment or discrimination will not be tolerated. If you are the victim of any kind of harassment from staff, volunteers, or another student please report it immediately to Karen or any other staff.
-We will take your complaint seriously and protect your confidentiality as well as any others who may be involved. We will take disciplinary action, including termination of employment if warranted.
+Any kind of harassment or discrimination will not be tolerated. If you are the victim of any kind of harassment from staff, volunteers, or another student please report it immediately to Ada staff. We will take your complaint seriously and protect your confidentiality as well as any others who may be involved. We will take disciplinary action, including termination of employment if warranted.
 
 The following list constitues types of harassment that are unwelcome at Ada:  
 
@@ -100,7 +89,7 @@ whether or not the remarks themselves are sexual in nature; and
 
 ### Internship
 
-Internships will be from March 9th - August 28th. You will spend 35 hours per week at the company and 5 hours back in the classroom.
+Internships will be from FILLMEIN. You will spend 35 hours per week at the company and 5 hours back in the classroom.
 
 ------
 
@@ -132,7 +121,7 @@ instructed on how to play the violin, that hardly makes you a master, in fact yo
 
 - It's easy to believe you're not good because it doesn't make sense. The thing is is that it
 doesn't make sense. The concepts are very abstract.
-- Software is a **VERY** large field, you can only learn so much in six months, and that is all that is
+- Software is a **VERY** large field, you can only learn so much in seven months, and that is all that is
 expected of you. But having one field of knowledge greatly improves your ability to expand.
 - Knowing that you can't know everything is important. You will end up knowing about 5% of what you want to know, but that's ok. No one knows everything.
 
@@ -142,8 +131,7 @@ Learning
 ### You are not here to learn how to make websites, you are here to learn how to teach your self technology ideas, concepts, and practices.
 **Learning is the most important part of Software**
 
-We are all here to learn, including myself and the TA's.
-
+We are all here to learn, including instructors and the TA's.
 
 As you know technology changes very quickly, getting really good a specific technology is near
 useless. But, learning how to learn new technologies is the most powerful tool you can have.
@@ -208,7 +196,7 @@ So what will you get after all of this difficult work?
 
 - You will be a software developer.
 - An engineer, programmer, whatever you want to call it.
-- You will be valueable to many companies
+- You will be valuable to many companies
 - But, you will not know everything, and that's ok.
 - You won't be high on the ladder.
 - But you will be on the ladder.
