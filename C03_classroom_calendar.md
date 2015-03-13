@@ -47,7 +47,7 @@ Warmup ideas:
 * Daily - warmup
 * Monday Morning - Quiz
 * Tuesday afternoon - Guest Lecture
-* Friday afternoon - Code reviews; One on Ones
+* Friday afternoon - One on Ones
 
 ## Week 1
 
