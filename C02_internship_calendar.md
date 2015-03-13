@@ -4,6 +4,7 @@
 
 Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
+Mar 9   | Week 00                             | NO CLASS
 Mar 17  | [Week 01](#week-1-of-internships)   | Language Specific Mini-Project
 Mar 24  | [Week 02](#week-2-of-internships)   | Personal Projects: Importance/Finding, OS Contribution
 Mar 31  | [Week 03](#week-3-of-internships)   | Tackling hard projects
@@ -39,7 +40,30 @@ Possible CS Fundamental topics:
 - Recursive vs Iterative Solutions
 - Language pros and cons
 - Compiled languages vs interpreted languages
--
+- Dean's list:
+CS (to be spread out throughout the year):
+ - Thinking about collections: Bags, Stacks, and Queues
+    * The simplest collection interface
+    * Getting things back in order: LIFO and FIFO
+ - Thinking about performance: Simplified Big-O
+    * O(1): Hashes and lookup tables
+    * O(n): Arrays and Enumerable methods
+    * O(n^2) … O(n^k): Nested loops and matrices
+ - Thinking about collections 2: Linked lists
+ - Thinking about sorting
+    * Bubble sort
+    * Insertion sort
+ - Thinking about sorting 2: Quicksort
+   * The plan: divide and conquer
+   * Pivots
+ - Thinking about collections 3: Trees and Graphs
+   * Parents and children
+   * Tree height
+   * BSTs
+ - Pointers to advanced things
+  * Heaps and priority queues
+  * Hashes
+  * Game CS: A*, quad trees, occlusion
 
 -->
 
@@ -80,14 +104,14 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Read Hsing-Hui and Liz's Talk            |
+| 1:00 - 2:00  | Read/Watch Hsing-Hui and Liz's Talk      |
 | 2:00 - 2:30  | Internship Talk: Challenges              |
 | 2:30 - 3:30  | Tackling hard projects                   | ??
 | 3:30 - 5:00  | One-on-one / Project Time                |
 
 ![alt text](topic_resources/infographics/RoadToSuccess.jpg "Road to Success")
 
-###Cohort 1 Hsing-Hui Hsu and Liz Rush: [Cascadia Ruby 2014 Talk](http://lizmrush.com/cascadia-ruby-2014/)
+###Cohort 1 Hsing-Hui Hsu and Liz Rush: [Cascadia Ruby 2014 Talk](http://lizmrush.com/cascadia-ruby-2014/) [Video Version](http://confreaks.tv/videos/cascadiaruby2014-good-luck-with-that-tag-teaming-civic-data)
 - How did they tackle hard problems?
 - What lessons can you glean from their experience?
 
