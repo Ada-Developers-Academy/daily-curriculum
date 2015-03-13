@@ -4,7 +4,7 @@
 
 Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
-Mar 9   | Week 00                             | NO CLASS
+Mar 9   |                                     | **NO CLASS - INTERNSHIPS START**
 Mar 17  | [Week 01](#week-1-of-internships)   | Language Specific Mini-Project
 Mar 24  | [Week 02](#week-2-of-internships)   | Personal Projects: Importance/Finding, OS Contribution
 Mar 31  | [Week 03](#week-3-of-internships)   | Tackling hard projects
@@ -74,7 +74,7 @@ CS (to be spread out throughout the year):
 | 1:00 - 2:00  | Social Time to chat about internships    |
 | 2:00 - 2:30  | Doxing                                   | Irene from Context Relevant
 | 2:30 - 3:30  | Internship Talk: First Week              | Crystal
-| 3:30 - 5:00  | Internship-Lang-Specific Coding Project  | 
+| 3:30 - 5:00  | Internship-Lang-Specific Coding Project  |
 
 ###[Language Specific Mini-Project - Josephus Problem](topic_resources/josephus.md)
 
