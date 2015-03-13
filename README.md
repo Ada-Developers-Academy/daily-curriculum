@@ -1,7 +1,8 @@
 Curriculum Schedules
 --------------------
-* Cohort 2: [Classroom Calendar](C02_classroom_calendar.md); [Internship Calendar](C02_internship_calendar.md)
-* Cohort 1: [Internship Calendar](C01_internship_calendar.md)
+* Cohort 3: [Classroom Calendar](cohort_schedules/C03_classroom.md);
+* Cohort 2: [Classroom Calendar](cohort_schedules/C02_classroom.md); [Internship Calendar](cohort_schedules/C02_internship.md)
+* Cohort 1: [Internship Calendar](cohort_schedules/C01_internship.md)
 
 Books
 -----
