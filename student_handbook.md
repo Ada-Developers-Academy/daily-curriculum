@@ -1,6 +1,4 @@
-# Program Introduction
-
-## Student Handbook
+# Student Handbook
 
 ### Inclusivity
 
