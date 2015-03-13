@@ -47,7 +47,7 @@ Possible CS Fundamental topics:
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Welcome Back                             | Bookis
+| 1:00 - 2:00  | Social Time to chat about internships    |
 | 2:00 - 2:30  | Doxing                                   | Irene from Context Relevant
 | 2:30 - 3:30  | Internship Talk: First Week              | Crystal
 | 3:30 - 5:00  | One-on-one / Josephus Problem            |
@@ -80,14 +80,16 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  |                                          |
+| 1:00 - 2:00  | Read Hsing-Hui and Liz's Talk            |
 | 2:00 - 2:30  | Internship Talk: Challenges              |
-| 2:30 - 3:30  | Tackling hard projects                   |
+| 2:30 - 3:30  | Tackling hard projects                   | ??
 | 3:30 - 5:00  | One-on-one / Project Time                |
 
 ![alt text](topic_resources/infographics/RoadToSuccess.jpg "Road to Success")
 
 ###Cohort 1 Hsing-Hui Hsu and Liz Rush: [Cascadia Ruby 2014 Talk](http://lizmrush.com/cascadia-ruby-2014/)
+- How did they tackle hard problems?
+- What lessons can you glean from their experience?
 
 ## Week 4 of Internships
 
