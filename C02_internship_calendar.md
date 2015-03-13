@@ -69,6 +69,14 @@ CS (to be spread out throughout the year):
 
 ## Week 1 of Internships
 
+###Learning Goals
+- Understanding and Identifying a problem and structures needed to solve the problem.
+- Indentifying example use cases and proper unit/test cases.
+- Creating language-agnostic pseudocode
+- Better understanding and grasp of the intern's internship-specific coding language
+
+###Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Social Time to chat about internships    |
