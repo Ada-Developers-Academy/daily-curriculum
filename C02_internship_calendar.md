@@ -74,7 +74,7 @@ CS (to be spread out throughout the year):
 | 1:00 - 2:00  | Social Time to chat about internships    |
 | 2:00 - 2:30  | Doxing                                   | Irene from Context Relevant
 | 2:30 - 3:30  | Internship Talk: First Week              | Crystal
-| 3:30 - 5:00  | Intern-Lang-Secific Coding Project       | 
+| 3:30 - 5:00  | Internship-Lang-Specific Coding Project  | 
 
 ###[Language Specific Mini-Project - Josephus Problem](topic_resources/josephus.md)
 
