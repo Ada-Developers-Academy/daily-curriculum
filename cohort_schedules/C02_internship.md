@@ -84,7 +84,7 @@ CS (to be spread out throughout the year):
 | 2:30 - 3:30  | Internship Talk: First Week              | Crystal
 | 3:30 - 5:00  | Internship-Lang-Specific Coding Project  |
 
-###[Language Specific Mini-Project - Josephus Problem](topic_resources/josephus.md)
+###[Language Specific Mini-Project - Josephus Problem](../topic_resources/josephus.md)
 
 ## Week 2 of Internships
 
