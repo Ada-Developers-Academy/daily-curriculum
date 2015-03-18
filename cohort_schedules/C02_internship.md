@@ -87,9 +87,16 @@ CS (to be spread out throughout the year):
 
 ## Week 3 of Internships
 
+###Learning Goals
+- The importance of personal projects as educational tools and resume liners
+- How to find personal projects
+- How to contribute to the open source community
+
+###Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Project Time                             | Karen
+| 1:00 - 2:00  | Project Time to finish Josephus Problem  | Karen
 | 2:00 - 3:00  | Personal Projects: Importance/Finding    | Crystal
 | 3:00 - 5:00  | One-on-one / OS Contribution Kickoff     | Bookis
 
