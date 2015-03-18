@@ -19,8 +19,7 @@ May 26  | [Week 12](#week-12-of-internships)  | User Centered Design,
 Jun 2   | [Week 13](#week-13-of-internships)  | Technical Interview Prep,
 Jun 9   | [Week 14](#week-14-of-internships)  |
 Jun 16  | [Week 15](#week-15-of-internships)  | Networking,
-Jun 23  | [Week 16](#week-16-of-internships)  |
-Jun 30  | [Week 17](#week-17-of-internships)  | Climbing the corporate ladder, Reflections
+Jun 23  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Reflections
         |                                     | **GRADUATION**
 
 <!--
@@ -67,7 +66,7 @@ CS (to be spread out throughout the year):
 
 -->
 
-## Week 1 of Internships
+## Week 2 of Internships
 
 ###Learning Goals
 - Understanding and Identifying a problem and structures needed to solve the problem.
@@ -86,7 +85,7 @@ CS (to be spread out throughout the year):
 
 ###[Language Specific Mini-Project - Josephus Problem](../topic_resources/josephus.md)
 
-## Week 2 of Internships
+## Week 3 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
@@ -108,7 +107,7 @@ Then try to find a project to work on, which can be difficult, here are some way
 
 If you find a project that would allow for multiple contributors or pairing, share!
 
-## Week 3 of Internships
+## Week 4 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
@@ -123,7 +122,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 - How did they tackle hard problems?
 - What lessons can you glean from their experience?
 
-## Week 4 of Internships
+## Week 5 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
@@ -131,19 +130,13 @@ If you find a project that would allow for multiple contributors or pairing, sha
 | 3:00 - 4:00  | Leveraging your coworkers                | ??
 | 4:00 - 5:00  | One-on-one / Project Time                |
 
-## Week 5 of Internships
+## Week 6 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 3:00  | Youth Apps Judging                       |
 | 3:00 - 4:00  | CS ADTs                                  | Crystal
 | 4:00 - 5:00  | One-on-one / Project Time                |
-
-## Week 6 of Internships
-
-| Time         | Topic                                    | With
-|--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Youth Apps Judging                       |
 
 ## Week 7 of Internships
 
@@ -153,6 +146,9 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 8 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 2:00  | Youth Apps Judging                       |
 
 ## Week 9 of Internships
 
@@ -161,6 +157,10 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 
 ## Week 11 of Internships
+
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 2:00 - 2:30  | "Modern Day Machiavellianism: Reinventing Yourself In The Digital Age" | Hesper, Geek Girls Carrots                      |
 
 
 ## Week 12 of Internships
