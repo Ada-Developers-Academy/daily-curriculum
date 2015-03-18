@@ -5,22 +5,22 @@
 Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
 Mar 9   |                                     | **NO CLASS - INTERNSHIPS START**
-Mar 17  | [Week 01](#week-1-of-internships)   | Language Specific Mini-Project
-Mar 24  | [Week 02](#week-2-of-internships)   | Personal Projects: Importance/Finding, OS Contribution
-Mar 31  | [Week 03](#week-3-of-internships)   | Tackling hard projects
-Apr 7   | [Week 04](#week-4-of-internships)   | Youth Apps, Leveraging your coworkers
-Apr 14  | [Week 05](#week-5-of-internships)   | Youth Apps, CS ADTs
-Apr 21  | [Week 06](#week-6-of-internships)   | Youth Apps, Addressing difficult situations
-Apr 28  | [Week 07](#week-7-of-internships)   | Youth Apps,
-May 5   | [Week 08](#week-8-of-internships)   | Confidence in Coding,
-May 12  | [Week 09](#week-9-of-internships)   |
-May 19  | [Week 10](#week-10-of-internships)  | Resumes, Portfolios, Selling yourself
-May 26  | [Week 11](#week-11-of-internships)  | User Centered Design,
-Jun 2   | [Week 12](#week-12-of-internships)  | Technical Interview Prep,
-Jun 9   | [Week 13](#week-13-of-internships)  |
-Jun 16  | [Week 14](#week-14-of-internships)  | Networking,
-Jun 23  | [Week 15](#week-15-of-internships)  |
-Jun 30  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Reflections
+Mar 17  | [Week 02](#week-2-of-internships)   | Language Specific Mini-Project
+Mar 24  | [Week 03](#week-3-of-internships)   | Personal Projects: Importance/Finding, OS Contribution
+Mar 31  | [Week 04](#week-4-of-internships)   | Tackling hard projects
+Apr 7   | [Week 05](#week-5-of-internships)   | Youth Apps, Leveraging your coworkers
+Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, CS ADTs
+Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps, Addressing difficult situations
+Apr 28  | [Week 08](#week-8-of-internships)   | Youth Apps,
+May 5   | [Week 09](#week-9-of-internships)   | Confidence in Coding,
+May 12  | [Week 10](#week-10-of-internships)  |
+May 19  | [Week 11](#week-11-of-internships)  | Resumes, Portfolios, Selling yourself
+May 26  | [Week 12](#week-12-of-internships)  | User Centered Design,
+Jun 2   | [Week 13](#week-13-of-internships)  | Technical Interview Prep,
+Jun 9   | [Week 14](#week-14-of-internships)  |
+Jun 16  | [Week 15](#week-15-of-internships)  | Networking,
+Jun 23  | [Week 16](#week-16-of-internships)  |
+Jun 30  | [Week 17](#week-17-of-internships)  | Climbing the corporate ladder, Reflections
         |                                     | **GRADUATION**
 
 <!--
@@ -79,9 +79,9 @@ CS (to be spread out throughout the year):
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Social Time to chat about internships    |
+| 1:00 - 2:00  | Group Internship Checkin                 | Karen
 | 2:00 - 2:30  | Doxing                                   | Irene from Context Relevant
-| 2:30 - 3:30  | Internship Talk: First Week              | Crystal
+| 2:30 - 3:30  | Internship Talk: First Week              | Crystal/Karen
 | 3:30 - 5:00  | Internship-Lang-Specific Coding Project  |
 
 ###[Language Specific Mini-Project - Josephus Problem](../topic_resources/josephus.md)
@@ -90,8 +90,8 @@ CS (to be spread out throughout the year):
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Project Time                             |
-| 2:00 - 3:00  | Personal Projects: Importance/Finding    |
+| 1:00 - 2:00  | Project Time                             | Karen
+| 2:00 - 3:00  | Personal Projects: Importance/Finding    | Crystal
 | 3:00 - 5:00  | One-on-one / OS Contribution Kickoff     | Bookis
 
 ### Open Source Contributions
@@ -112,7 +112,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Read/Watch Hsing-Hui and Liz's Talk      |
+| 1:00 - 2:00  | Read/Watch Hsing-Hui and Liz's Talk      | Karen
 | 2:00 - 2:30  | Internship Talk: Challenges              |
 | 2:30 - 3:30  | Tackling hard projects                   | ??
 | 3:30 - 5:00  | One-on-one / Project Time                |
