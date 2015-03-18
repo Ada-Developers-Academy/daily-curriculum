@@ -160,8 +160,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 2:00 - 2:30  | "Modern Day Machiavellianism: Reinventing Yourself In The Digital Age" | Hesper, Geek Girls Carrots                      |
-
+| 2:00 - 2:30  | "Modern Day Machiavellianism"            | Hesper, Geek Girls Carrots
 
 ## Week 12 of Internships
 
