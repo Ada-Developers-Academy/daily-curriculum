@@ -16,7 +16,7 @@ http://goo.gl/forms/NpoVLLMQt2
 Training provided for each.
 
 ###Teaching Assistant
-As a TA you will be asked to help students during project time.
+As a TA, you will be asked to help students during project time.
 
 Your role will be to:
 - provide expertise knowledge to students on why/when/how coding structures are used to solve a problem
@@ -29,7 +29,7 @@ Your knowledge and expertise as a seasonal programmer is invaluable to our stude
 If there is down time while volunteering at Ada, you are more than welcome to work on projects of your own, but please ensure that students know that you are still available for help and that they are not "bugging you" when they ask for help.
 
 ###Guest Lecturer
-As a Guest Lecturer you will provide training to students on coding skills/tools and/or soft skills.
+As a Guest Lecturer, you will provide training to students on coding skills/tools and/or soft skills.
 
 Your role will be to:
 - know your audience is a group of women who are new to coding; please define terms, do not assume that they know something already, and do not refer to concepts as something that "programmers should already know" or as something that "you can't get a job if you don't understand"
@@ -38,6 +38,11 @@ Your role will be to:
 - field questions at the end of the lecture and  provide resources for students who are interested in learning more
 
 ### Code Reviewer
+As a Code Reviewer, you will assess the quality of students' code and provide feedback to them. This can be done in person or remotely.
 
+Your role will be to:
+- read the provided assignment description and grading rubric
+- assign a "level" to the student's code -- beginner, proficient, or master -- for each of the categories on the rubric
+- leave encouraging, as well as constructive, comments/suggestions/feedback to students
 
 ### Application Reviewer
