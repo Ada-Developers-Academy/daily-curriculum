@@ -9,9 +9,10 @@ http://goo.gl/forms/NpoVLLMQt2
 
 ##Ways you can be involved
 - **Teaching Assistant** - Helping students problem solve/learn in the classroom
-- **Guest Lecturer** - Speak to a specific topic or tool.
+- **Guest Lecturer** - Speak to a specific topic or tool
 - **Code Reviewer** - Provide students with comments/code reviews either in person or remotely
 - **Application Reviewer** - Review candidate application submissions and score
+- **Mentor** (from a sponsoring company) - Provide regular professional/techincal support for a specific student
 
 Training provided for each.
 
@@ -50,3 +51,9 @@ Your role will be to:
 ####[Code Review Process](rubrics/code_review_process.md)
 
 ### Application Reviewer
+
+### Mentor (Designated representative from Sponsoring Company)
+-	Provide 1-on-1 technical and professional guidance to a designated Ada student
+-	Meet with student at regular intervals, preferably once per week (at the start at Ada, later at the Job Site)
+-	Be available for non-mentee support in the classroom (this provides ability to meet more students)
+-	Be available for email or phone questions from mentee
