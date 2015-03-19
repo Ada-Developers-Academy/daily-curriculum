@@ -47,4 +47,6 @@ Your role will be to:
 - assign a "level" to the student's code -- beginner, proficient, or master -- for each of the categories on the rubric
 - leave encouraging, as well as constructive, comments/suggestions/feedback to students
 
+####[Code Review Process](rubrics/code_review_process.md)
+
 ### Application Reviewer
