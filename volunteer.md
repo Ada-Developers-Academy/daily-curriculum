@@ -43,17 +43,22 @@ You bring expertise to our classroom that gives students the ability to learn mo
 ### Code Reviewer
 As a Code Reviewer, you will assess the quality of students' code and provide feedback to them. This can be done in person or remotely.
 
+####[Code Review Process](rubrics/code_review_process.md)
+
 Your role will be to:
 - read the provided assignment description and grading rubric
 - assign a "level" to the student's code -- beginner, proficient, or master -- for each of the categories on the rubric
 - leave encouraging, as well as constructive, comments/suggestions/feedback to students
 
-####[Code Review Process](rubrics/code_review_process.md)
-
 ### Application Reviewer
 
 ### Mentor (Designated representative from Sponsoring Company)
+As a Mentor, you will provide 1-on-1 support to specific Ada students.
+
+Your role will be to:
 -	Provide 1-on-1 technical and professional guidance to a designated Ada student
 -	Meet with student at regular intervals, preferably once per week (at the start at Ada, later at the Job Site)
 -	Be available for non-mentee support in the classroom (this provides ability to meet more students)
 -	Be available for email or phone questions from mentee
+
+You create an emotional tie with our students and help support them on a deeper and very meaningful level. You provide students with weekly support that encourages them to survive an emotionally intense career change.
