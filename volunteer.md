@@ -24,7 +24,7 @@ Your role will be to:
 - provide specific feedback to students their code and problem solving approach
 - encourage and support students on their journey to being professional developers
 
-Your knowledge and expertise as a seasonal programmer is invaluable to our students. We ask that you model your thinking to students by not just giving them the answers, but by asking them leading questions that help them find the solution with your guidance. Remember that our students are completely new to coding and that your support and guidance will help them achieve quicker and with more success!
+Your knowledge and expertise as a seasoned programmer is invaluable to our students. We ask that you model your thinking to students by not just giving them the answers, but by asking them leading questions that help them find the solution with your guidance. Remember that our students are completely new to coding and that your support and guidance will help them achieve quicker and with more success!
 
 If there is down time while volunteering at Ada, you are more than welcome to work on projects of your own, but please ensure that students know that you are still available and that they are not "bugging you" when they ask for help.
 
@@ -37,7 +37,7 @@ Your role will be to:
 - if your lecture is teaching a tool or skill, scaffold the lecture so that students are first presented with an intro to the topic and smaller problem; build to more challenging problems after guided instruction and walkthrough of how to solve the problem; providing plenty of simpler examples and problems is a perk
 - field questions at the end of the lecture and  provide resources for students who are interested in learning more
 
-You bring expertise to our classroom that gives students the ability to learn more and do more. A diverse collection of guest lecturers allows each student to find specific topics that they are passionate about and also provide assistance to our instructors by covering topics they may not be familiar with/have the time to prepare for. 
+You bring expertise to our classroom that gives students the ability to learn more and do more. A diverse collection of guest lecturers allows each student to find specific topics that they are passionate about and also provide assistance to our instructors by covering topics they may not be familiar with/have the time to prepare for.
 
 ### Code Reviewer
 As a Code Reviewer, you will assess the quality of students' code and provide feedback to them. This can be done in person or remotely.
