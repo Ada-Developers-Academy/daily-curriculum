@@ -16,6 +16,8 @@ http://goo.gl/forms/NpoVLLMQt2
 Training provided for each.
 
 ###Teaching Assistant
+We ask that you come visit the classroom one afternoon prior to committing to a regular schedule so that you can give TAing a no-obligation trial!
+
 As a TA, you will be asked to help students during project time.
 
 Your role will be to:
