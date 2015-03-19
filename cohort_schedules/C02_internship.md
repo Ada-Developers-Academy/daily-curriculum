@@ -6,7 +6,7 @@ Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
 Mar 9   |                                     | **NO CLASS - INTERNSHIPS START**
 Mar 17  | [Week 02](#week-2-of-internships)   | Language Specific Mini-Project
-Mar 24  | [Week 03](#week-3-of-internships)   | Personal Projects: Importance/Finding, OS Contribution
+Mar 24  | [Week 03](#week-3-of-internships)   | Culture Shock: What to do, Personal Projects/OS Contribution
 Mar 31  | [Week 04](#week-4-of-internships)   | Tackling hard projects
 Apr 7   | [Week 05](#week-5-of-internships)   | Youth Apps, Leveraging your coworkers
 Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, CS ADTs
@@ -79,7 +79,7 @@ CS (to be spread out throughout the year):
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Group Internship Checkin                 | Karen
-| 2:00 - 2:30  | Doxing                                   | Irene from Context Relevant
+| 2:00 - 2:30  | Doxing                                   | Irene, Context Relevant
 | 2:30 - 3:30  | Internship Talk: First Week              | Crystal/Karen
 | 3:30 - 5:00  | Internship-Lang-Specific Coding Project  |
 
@@ -97,8 +97,8 @@ CS (to be spread out throughout the year):
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Project Time to finish Josephus Problem  | Karen
-| 2:00 - 3:00  | Personal Projects: Importance/Finding    | Crystal
-| 3:00 - 5:00  | One-on-one / OS Contribution Kickoff     | Bookis
+| 2:00 - 3:00  | Culture Shock: What to do                | Heather, Substantial
+| 3:00 - 5:00  | Personal Projects/OS Contribution        | Bookis
 
 ### Open Source Contributions
 
