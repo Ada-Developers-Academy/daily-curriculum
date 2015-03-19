@@ -4,7 +4,7 @@ Ada is a community-supported organization, and we rely on the talents of profess
 Get involved and give back to the Seattle tech community by mentoring and overseeing students’ learning. The opportunities are limitless!
 
 ##How to get involved
-Complete the following form to get involved. You should hear back from Ada staff shortly afterwards.
+Complete the following form to get involved. You should hear back from Ada staff shortly afterwards to schedule a no-obligation visit to the classroom so you can check out our program up-close!
 http://goo.gl/forms/NpoVLLMQt2
 
 ##Ways you can be involved
@@ -16,8 +16,6 @@ http://goo.gl/forms/NpoVLLMQt2
 Training provided for each.
 
 ###Teaching Assistant
-We ask that you come visit the classroom one afternoon prior to committing to a regular schedule so that you can give TAing a no-obligation trial!
-
 As a TA, you will be asked to help students during project time.
 
 Your role will be to:
