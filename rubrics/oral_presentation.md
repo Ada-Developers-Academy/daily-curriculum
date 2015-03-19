@@ -2,15 +2,15 @@
 
 ##Presentation Topic
 
-###
+
 
 ##Presenters
 
-###
-###
+
+
 
 ##Rubric
-1=Beginner, 2=Adequate, 3=Exceeds
+1=Beginner, 2=Proficient, 3=Master
 
 ###TECHNICAL CONTENT
 
@@ -35,6 +35,6 @@
 
 ###OVERALL RATING
 
-####
+
 
 ###COMMENTS
