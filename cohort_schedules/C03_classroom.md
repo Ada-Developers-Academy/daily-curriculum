@@ -257,7 +257,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | **9:15 - 9:30**   | Pairing
 | **9:30 - 10:00**  | [Reading from CSV](../topic_resources/csv_database.md)
 | **10:00 - 11:00** | [Enumerable Methods](../topic_resources/enumerable.md)
-| **11:00 - 11:30** | [CSV Quiz](https://canvas.instructure.com/courses/881804/quizzes/1047539)
+| **11:00 - 11:30** | CSV Quiz
 | **11:30 - 12:30** | CSV Project Intro ([FarMarFinder](../topic_resources/farmarfinder.md))
 | **1:30 - 2:30**   | Syncing project via Github: [Getting Started on Far Mar Finder](../topic_resources/farmarfinder.md)
 | **2:30 - 5:00**   | [FarMarFinder](../topic_resources/farmarfinder.md) Project Time
@@ -337,7 +337,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 | Time             | Topic
 |------------------|-----------------------------------------------------------------------------------
-| **9:00 - 9:45**  | Morning Warmup -- [Word Count](../topic_resources/resources/word_count/README.md)
+| **9:00 - 9:45**  | Morning Warmup -- [Word Count](../topic_resources/word_count/README.md)
 | **9:50 - 12:30** | [Scrabble](../topic_resources/scrabble.md)
 | **1:30 - 5:00*** | [Dictionary](../topic_resources/dictionary.md)
 
@@ -436,7 +436,7 @@ Read a little about JavaScript in _Eloquent JavaScript_:
 ### No Friday. Yay!
 
 Resources
-- For additional online resources see the [resources](../topic_resources/resources/resources.md) page.
+- For additional online resources see the [resources](../topic_resources/resources.md) page.
 
 ## Week 6
 
@@ -540,7 +540,7 @@ For the weekend:
 
 ## Week 7
 
-In week 7 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](../topic_resources/resources/rails-request-cycle.pdf). Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Betsy](../topic_resources/resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced the rails stack.
+In week 7 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](../topic_resources/rails-request-cycle.pdf). Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced the rails stack.
 
 ### Learning Goals
 
@@ -565,9 +565,9 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **9:00 - 9:30**       | Koans
 | **9:30 - 10:30**      | [Controllers](../topic_resources/controllers.md)
 | **10:30** - **11:30** | [User Authentication](../topic_resources/user-authentication.md)
-| **11:30** - **2:00**  | [Beginning bEtsy](../topic_resources/resources/betsy.md)
+| **11:30** - **2:00**  | [Beginning bEtsy](../topic_resources/betsy.md)
 | **2:00 - 4:00**       | [James Spence on Designing a Project](../topic_resources/design.md)
-| **4:00** - **5:00**   | [bEtsy](../topic_resources/resources/betsy.md)
+| **4:00** - **5:00**   | [bEtsy](../topic_resources/betsy.md)
 
 **Homework**
 [Git Branching & Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
@@ -579,14 +579,14 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | **9:00 - 9:20**   | Warm Up
 | **9:20 - 9:45**   | Branches & Merging
 | **9:45 - 10:45**  | [Validations](../topic_resources/validations.md)
-| **11:30 - 5:00*** | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **11:30 - 5:00*** | [Betsy Project Time](../topic_resources/betsy.md)
 
 #### Wednesday
 
 | Time                | Topic
 |---------------------|-------------------------------------------------------------
 | **9:00 - 9:15**     | Stand up
-| **9:20** - **5:00** | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **9:20** - **5:00** | [Betsy Project Time](../topic_resources/betsy.md)
 
 **Homework**
 - Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
@@ -596,7 +596,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | Time                 | Topic
 |----------------------|-------------------------------------------------------------
 | **9:30** - **10:30** | [Views](../topic_resources/views-101.md)
-| **10:30 - 5:00**     | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **10:30 - 5:00**     | [Betsy Project Time](../topic_resources/betsy.md)
 
 **Homework**
 
@@ -616,11 +616,11 @@ the problem for the small word set.
 | **9:30 - 10:30**     | Ordered Insertion and the Array Dictionary
 | **10:30 - 12:00**    | Linked Lists and Recursion
 | **12:00 - 12:15**    | Stand up
-| **12:00** - **4:00** | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **12:00** - **4:00** | [Betsy Project Time](../topic_resources/betsy.md)
 | **4:00** - **5:00**  | [Weekly Retro](http://juliepagano.com/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/)
 
 ## Resources
-- For additional resources on the topics covered this week see [weekly resources](../topic_resources/resources/resources.md).
+- For additional resources on the topics covered this week see [weekly resources](../topic_resources/resources.md).
 
 ## Week 8
 
@@ -640,9 +640,9 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 
 | Time            | Topic
 |-----------------|-------------------------------------------------------------
-| **9:00 - 1:30** | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **9:00 - 1:30** | [Betsy Project Time](../topic_resources/betsy.md)
 | **1:30 - 2:15** | Guest Speaker: Rohit from ApexLearning
-| **2:15 - 5:00** | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **2:15 - 5:00** | [Betsy Project Time](../topic_resources/betsy.md)
 
 
 #### Tuesday
@@ -651,7 +651,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 |-------------------|-------------------------------------------------------------
 | **9:00 - 9:30***  | Warmup
 | **9:30 - 10:30*** | [Rails Forms](../topic_resources/rails-forms.md)
-| **9:00 - 5:00***  | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **9:00 - 5:00***  | [Betsy Project Time](../topic_resources/betsy.md)
 
 \* Take an hour lunch at any time
 
@@ -660,7 +660,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 
 | Time             | Topic
 |------------------|-------------------------------------------------------------
-| **9:00 - 5:00*** | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **9:00 - 5:00*** | [Betsy Project Time](../topic_resources/betsy.md)
 
 
 \* Take an hour lunch at any time
@@ -669,7 +669,7 @@ In Week 8 we will continue working in groups of 4 on the Betsy project introduce
 
 | Time             | Topic
 |------------------|-------------------------------------------------------------
-| **9:00 - 5:00*** | [Betsy Project Time](../topic_resources/resources/betsy.md)
+| **9:00 - 5:00*** | [Betsy Project Time](../topic_resources/betsy.md)
 
 
 \* Take an hour lunch at any time
@@ -707,21 +707,21 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 |-------------------|-----------------------------------------------------------------------
 | **9:15 - 10:00**  | [Project Presentations](../topic_resources/project-outline.md)
 | **10:00 - 11:00** | Betsy Quiz
-| **11:00 - 11:30** | [Media Ranker Overview](../topic_resources/resources/media_ranker.md)
+| **11:00 - 11:30** | [Media Ranker Overview](../topic_resources/media_ranker.md)
 | **11:30 - 12:30** | [Rails request state](../topic_resources/rails-request-state.md)
-| **12:30 - 5:00**  | [Media Ranker](../topic_resources/resources/media_ranker.md)
+| **12:30 - 5:00**  | [Media Ranker](../topic_resources/media_ranker.md)
 
 #### Tuesday
 
 | Time              | Topic
 |-------------------|----------------------------------------------------------------------
-| **9:00 - 9:30**   | Warm Up)
-| **9:30 - 9:45**   | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073953)
+| **9:00 - 9:30**   | Warm Up
+| **9:30 - 9:45**   | Quiz
 | **9:45 - 10:15**  | Betsy Quiz Recap
 | **10:15 - 11:15** | Lecture
-| **11:15 - 1:30**  | [Media Ranker](../topic_resources/resources/media_ranker.md)
+| **11:15 - 1:30**  | [Media Ranker](../topic_resources/media_ranker.md)
 | **1:30 - 2:15**   | Aki & Erica from Marchex
-| **2:15 - 5:00**   | [Media Ranker](../topic_resources/resources/media_ranker.md)
+| **2:15 - 5:00**   | [Media Ranker](../topic_resources/media_ranker.md)
 
 
 #### Wednesday
@@ -730,7 +730,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 |-------------------|--------------------------------------------------------------
 | **9:30 - 10:15**  | [View methods](../topic_resources/view-methods.md)
 | **10:15 - 11:15** | [Routes 102](../topic_resources/routes-102.md)
-| **11:15 - 4:30**  | [Media Ranker](../topic_resources/resources/media_ranker.md)
+| **11:15 - 4:30**  | [Media Ranker](../topic_resources/media_ranker.md)
 | **4:30 - 5:00**   | Carol Lin from Zillow
 
 #### Thursday
@@ -739,7 +739,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 |------------------|----------------------------------------------------------------------
 | **9:00 - 9:30**  | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073955)
 | **9:30 - 11:15** | [Refactoring](../topic_resources/refactoring.md)
-| **11:15 - 5:00** | [Media Ranker](../topic_resources/resources/media_ranker.md)
+| **11:15 - 5:00** | [Media Ranker](../topic_resources/media_ranker.md)
 
 #### Friday
 
@@ -869,7 +869,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 | Time             | Topic
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | **9:00 - 9:30**  | Warmup
-| **9:30 - 12:30** | Lecture: JavaScript fundamentals. [JS notes & Files](../topic_resources/js)
+| **9:30 - 12:30** | Lecture: JavaScript fundamentals. [JS notes & Files](../topic_resources/js/)
 | **12:30 - 1:30** | Demo: Using the JavaScript console
 | **1:30 - 5:00**  | Project: Console to do [list maker](../topic_resources/js/todo_html.html) [Biggest #](../topic_resources/js/project1_day1.md) [Objects](../topic_resources/js/project2_day1.md)
 
@@ -1318,7 +1318,7 @@ basics of front-end javascript frameworks.
 | **9:30 - 10:00**  | [Routing and Controllers, pt 1: First route and controller](../topic_resources/routing-pt-1.md)
 | **10:00 - 10:15** | Break
 | **10:15 - 10:45** | [Rails vs Angular: Some Comparisons](../topic_resources/rails-v-ng.md)
-| **11:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md)
+| **11:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [blahg](../topic_resources/blog.md)
 
 #### Thursday
 
@@ -1327,7 +1327,7 @@ basics of front-end javascript frameworks.
 | **9:00 - 9:15**   | Stand Up
 | **9:15 - 10:00**  | [Scope, Forms, and Input](../topic_resources/scope-forms-user-input.md)
 | **10:00 - 10:45** | [Filters](../topic_resources/filters.md)
-| **10:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md)
+| **10:00 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [blahg](../topic_resources/blog.md)
 
 #### Friday
 
@@ -1338,7 +1338,7 @@ basics of front-end javascript frameworks.
 | **9:30 - 10:00**  | [Routes and Controllers, pt 2: More routes and refactoring!](../topic_resources/routing-pt-2.md)
 | **10:30 - 11:00** | Student-led discussion
 | **11:00 - 11:30** | Optional lecture about tags in the conference room
-| **11:30 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [Blahg](blog.md)
+| **11:30 - 5:00**  | [AngularJS Tutorial](https://docs.angularjs.org/tutorial) and [blahg](../topic_resources/blog.md)
 
 
 ##Debugging resource:
@@ -1404,12 +1404,12 @@ Nothing! WOOOOO! Day off :D
 |------------------|----------------------------------------------------------
 | **9:00 - 9:15**  | Stand Up
 | **9:15 - 11:00** | [Blahg](../topic_resources/blog.md)
-| **11:00 - 4:00** | [Lightning Talks](../topic_resources/lightning-talks.md)
+| **11:00 - 4:00** | [Lightning Talks](../topic_resources/framework-presentations.md)
 | **4:00 - 5:00**  | Retrospective
 
 ## Week 20
 
-In Week 20 we begin [capstone projects](capstone/capstone.md). In this week
+In Week 20 we begin [capstone projects](../capstone/capstone.md). In this week
 we will have lectures on relevant topics for a wide variety of capstone
 requirements. Students will have frequent checkins with an instructor to ensure
 the project is on track, review stories, and consult on any problems.
@@ -1425,37 +1425,37 @@ the project is on track, review stories, and consult on any problems.
 
 | Time             | Topic
 |------------------|----------------------------------------------
-| **9:00 - 10:30** | [Capstone Product Plan](capstone/capstone.md)
-| **10:30 - 1:30** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 10:30** | [Capstone Product Plan](../capstone/capstone.md)
+| **10:30 - 1:30** | [Capstone Project Time](../capstone/capstone.md)
 | **1:30 - 3:00**  | On Languages by Andrew Gorcester
-| **3:00 - 5:00**  | [Capstone Project Time](capstone/capstone.md)
+| **3:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)
 
 #### Tuesday
 
 | Time             | Topic
 |------------------|-------------------------------------------------------------------------------
 | **9:00 - 11:30** | [Deploying to EC2](../topic_resources/provisioning-and-deploying-to-a-vps.md)
-| **11:30 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **11:30 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Wednesday
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Thursday
 
 | Time             | Topic
 |------------------|----------------------------------------------
 | **9:30 - 11:00** | Jack Danger Canty
-| **11:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **11:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Friday
 
 | Time             | Topic
 |------------------|----------------------------------------------
 | **9:30 - 11:00** | Jack Danger Canty
-| **11:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **11:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 Additional Topics
 ----------
@@ -1466,7 +1466,7 @@ Additional Topics
 
 ## Week 21
 
-In Week 21 we continue [capstone projects](capstone/capstone.md). In this week
+In Week 21 we continue [capstone projects](../capstone/capstone.md). In this week
 we will have guest lectures on relevant topics for a wide variety of capstone
 requirements. Students will have frequent checkins with an instructor to ensure
 the project is on track, review stories, and consult on any problems.
@@ -1481,9 +1481,9 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------
-| **9:00 - 1:30** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 1:30** | [Capstone Project Time](../capstone/capstone.md)
 | **1:30 - 3:00** | [On Performance](http://nbviewer.ipython.org/github/andrewsg/wep_app_performance_talk/blob/master/Performance%20presentation.ipynb) by Andrew Gorcester
-| **3:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **3:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 * Checkins with Bookis during project time
 
@@ -1491,32 +1491,32 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Wednesday
 
 | Time             | Topic
 |------------------|--------------------------------------------------------------
 | **9:00 - 10:00** | [DNS Configuration](../topic_resources/dns-configuration.md)
-| **10:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **10:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Thursday
 
 | Time             | Topic
 |------------------|--------------------------------------------------
 | **9:00 - 10:30** | [CarrierWave](../topic_resources/carrierwave.md)
-| **10:30 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **10:30 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Friday
 
 | Time              | Topic
 |-------------------|---------------------------------------------------------------------------------------------
 | **10:30 - 11:30** | [Collecting Collections and Other Loose Ends](../topic_resources/collecting_collections.md)
-| **10:30 - 5:00**  | [Capstone Project Time](capstone/capstone.md)
+| **10:30 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)
 
 ## Week 22
 
-In Week 22 we continue [capstone projects](capstone/capstone.md). In this week we will have 2 guest lectures on relevant topics for a wide variety of capstone requirements. Students will have regular checkins with an instructor to ensure the project is on track, review stories, and consult on any problems.
+In Week 22 we continue [capstone projects](../capstone/capstone.md). In this week we will have 2 guest lectures on relevant topics for a wide variety of capstone requirements. Students will have regular checkins with an instructor to ensure the project is on track, review stories, and consult on any problems.
 
 Lecture topics include:
 + Internationalization (i18n)
@@ -1533,25 +1533,25 @@ Lecture topics include:
 | Time             | Topic
 |------------------|------------------------------------------------------------------------------------------
 | **9:00 - 11:00** | [Revisiting Deploying to EC2](../topic_resources/provisioning-and-deploying-to-a-vps.md)
-| **11:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **11:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Tuesday
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Wednesday
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Thursday
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 
 #### Friday
@@ -1559,12 +1559,12 @@ Lecture topics include:
 | Time             | Topic
 |------------------|----------------------------------------------
 | **9:00 - 10:00** | [Graphs](../topic_resources/graphs.md)
-| **10:00 - 4:00** | [Capstone Project Time](capstone/capstone.md)
+| **10:00 - 4:00** | [Capstone Project Time](../capstone/capstone.md)
 | **4:00 - 5:00**  | Brad & Amaranth
 
 ## Week 23
 
-In Week 23 we continue [capstone projects](capstone/capstone.md). In this week
+In Week 23 we continue [capstone projects](../capstone/capstone.md). In this week
 we will have guest lectures on relevant topics for a wide variety of capstone
 requirements. Students will have frequent checkins with an instructor to ensure
 the project is on track, review stories, and consult on any problems.
@@ -1579,34 +1579,34 @@ the project is on track, review stories, and consult on any problems.
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 
 #### Tuesday
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 #### Wednesday
 
 | Time             | Topic
 |------------------|----------------------------------------------
 | **9:30 - 10:30** | Jeremy Flores on Preprocessors
-| **9:00 - 5:00**  | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00**  | [Capstone Project Time](../capstone/capstone.md)
 
 #### Thursday
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 5:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 5:00** | [Capstone Project Time](../capstone/capstone.md)
 
 
 #### Friday
 
 | Time            | Topic
 |-----------------|----------------------------------------------
-| **9:00 - 3:00** | [Capstone Project Time](capstone/capstone.md)
+| **9:00 - 3:00** | [Capstone Project Time](../capstone/capstone.md)
 | **3:00 - 5:00** | Capstone Presentation Practice
 
 ## Week 24
