@@ -14,8 +14,6 @@ http://goo.gl/forms/NpoVLLMQt2
 - **Application Reviewer** - Review candidate application submissions and score
 - **Mentor** (from a sponsoring company) - Provide regular professional/techincal support for a specific student
 
-Training provided for each.
-
 ###Teaching Assistant
 As a TA, you will be asked to help students during project time.
 
