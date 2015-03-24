@@ -49,7 +49,7 @@ Warmup ideas:
 * Daily - warmup
 * Monday Morning - Quiz
 * Tuesday afternoon - Guest Lecture
-* Friday afternoon - One on Ones
+* Friday afternoon - 1-on-1s
 
 ## Week 1
 
