@@ -125,7 +125,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ![alt text](../topic_resources/infographics/RoadToSuccess.jpg "Road to Success")
 
-###Cohort 1 Hsing-Hui Hsu and Liz Rush: [Cascadia Ruby 2014 Talk](http://lizmrush.com/cascadia-ruby-2014/) [Video Version](http://confreaks.tv/videos/cascadiaruby2014-good-luck-with-that-tag-teaming-civic-data)
+###Cohort 1 Hsing-Hui Hsu and Liz Rush: [Cascadia Ruby 2014 Talk](http://lizmrush.com/cascadia-ruby-2014/) ([Video Version](http://confreaks.tv/videos/cascadiaruby2014-good-luck-with-that-tag-teaming-civic-data))
 - How did they tackle hard problems?
 - What lessons can you glean from their experience?
 
