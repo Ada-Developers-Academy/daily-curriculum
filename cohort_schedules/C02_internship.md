@@ -158,14 +158,14 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  |                                          |
+| 1:00 - 2:00  | Youth Apps Judging                       |
 |              | Leveraging your coworkers                | Blake?
 
 ## Week 8 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Youth Apps Judging                       |
+| 1:00 - 2:00  |                                          |
 |              |                                          |
 
 ## Week 9 of Internships
