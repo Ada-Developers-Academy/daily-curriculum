@@ -11,7 +11,7 @@ Mar 31  | [Week 04](#week-4-of-internships)   | Tackling challenges, CS ADTs
 Apr 7   | [Week 05](#week-5-of-internships)   | Youth Apps, Tackling big problems, Learning new code bases
 Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, Database Design
 Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps, Addressing difficult situations
-Apr 28  | [Week 08](#week-8-of-internships)   | Youth Apps,
+Apr 28  | [Week 08](#week-8-of-internships)   |
 May 5   | [Week 09](#week-9-of-internships)   | Confidence in Coding,
 May 12  | [Week 10](#week-10-of-internships)  |
 May 19  | [Week 11](#week-11-of-internships)  | Resumes, Portfolios, Selling yourself
@@ -151,14 +151,14 @@ If you find a project that would allow for multiple contributors or pairing, sha
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 3:00  | Youth Apps Judging                       |
-| 3:00 - 4:00  |                                          | Jennifer, Sound Data??
+| 3:00 - 4:00  | Databases: What? When? How?              | Jennifer, Sound Data
 | 4:00 - 5:00  | One-on-one / Project Time                |
 
 ## Week 7 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Youth Apps Judging                       |
+| 1:00 - 2:00  |                                          |
 |              | Leveraging your coworkers                | Blake?
 
 ## Week 8 of Internships
