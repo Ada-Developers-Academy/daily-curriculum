@@ -7,7 +7,7 @@ Date    | Week                                | Topics
 Mar 9   |                                     | **NO CLASS - INTERNSHIPS START**
 Mar 17  | [Week 02](#week-2-of-internships)   | Language Specific Mini-Project
 Mar 24  | [Week 03](#week-3-of-internships)   | Culture Shock: What to do, Personal Projects/OS Contribution
-Mar 31  | [Week 04](#week-4-of-internships)   | , CS ADTs
+Mar 31  | [Week 04](#week-4-of-internships)   | Tackling challenges, CS ADTs
 Apr 7   | [Week 05](#week-5-of-internships)   | Youth Apps, Tackling big problems, Learning new code bases
 Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, Database Design
 Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps, Addressing difficult situations
@@ -127,9 +127,9 @@ If you find a project that would allow for multiple contributors or pairing, sha
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Read/Watch Hsing-Hui and Liz's Talk      | Karen
-| 2:00 - 3:00  | How to tackle sticky situations          | Lisa
+| 2:00 - 3:00  | How to challenges                        | Lisa
 | 3:00 - 3:30  | Internship Talk: Challenges              | Karen/Crystal
-| 3:30 - 5:00  | One-on-one / CS ADTs                     | Karen / Crystal
+| 3:30 - 5:00  | CS ADTs                                  | Crystal
 
 ![alt text](../topic_resources/infographics/RoadToSuccess.jpg "Road to Success")
 
