@@ -124,11 +124,18 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 4 of Internships
 
+### Learning Goals
+- The path to success isn't always smooth
+- Strategies for handling challenging situations
+- Advanced Data Types (ADTs) - Linked List, Set, Stack/Queue, Map, Tree, Hash: What? When?
+
+### Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Read/Watch Hsing-Hui and Liz's Talk      | Karen
-| 2:00 - 3:00  | How to challenges                        | Lisa
-| 3:00 - 3:30  | Internship Talk: Challenges              | Karen/Crystal
+| 2:00 - 2:30  | Internship Talk: Challenges              | Karen/Crystal
+| 2:30 - 3:30  | How to handle challenging situations     | Lisa
 | 3:30 - 5:00  | CS ADTs                                  | Crystal
 
 ![alt text](../topic_resources/infographics/RoadToSuccess.jpg "Road to Success")
