@@ -127,7 +127,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 ### Learning Goals
 - The path to success isn't always smooth
 - Strategies for handling challenging situations
-- Advanced Data Types (ADTs) - Linked List, Set, Stack/Queue, Map, Tree, Hash: What? When?
+- Abstract Data Types (ADTs) - Native Arrays, Linked List, Tree Nodes, Tree, Hash, Set, Map, Stack/Queue : What? When?
 
 ### Schedule
 
