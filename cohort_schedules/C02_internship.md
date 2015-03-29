@@ -144,6 +144,10 @@ If you find a project that would allow for multiple contributors or pairing, sha
 - How did they tackle hard problems?
 - What lessons can you glean from their experience?
 
+### CS ADTs
+- Notes
+- [Questions](../topics_resources/interview-questions-data-structures.md)
+
 ## Week 5 of Internships
 
 | Time         | Topic                                    | With
