@@ -23,5 +23,7 @@ How is this data going to be accessed? Do we need to optimize for latency or spa
   - What are the bottle necks in the system? How will you resolve them?
 + Vending Machine
   - Design a system for a vending machine.
-  - Write
-+
++ Nightclub Bouncer
+  - Design a system for admitting people into a nightclub
+  - Consider VIPs and parties larger than 1
+  - Only 500 people may be inside at a time (per fire code, of course)
