@@ -146,7 +146,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ### CS ADTs
 - Notes in Lecture Video that I have to figure out how to post
-- [Questions](../topics_resources/interview-questions-data-structures.md)
+- [Questions](../topic_resources/interview-questions-data-structures.md)
 
 ## Week 5 of Internships
 
