@@ -146,6 +146,12 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 5 of Internships
 
+### Learning Goals
+- How to tackle new code bases
+- When to use specific ADTs
+
+### Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Youth Apps Training                      | Karen/Peter
