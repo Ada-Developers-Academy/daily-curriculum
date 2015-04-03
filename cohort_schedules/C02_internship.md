@@ -126,7 +126,6 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ### Learning Goals
 - The path to success isn't always smooth
-- Strategies for handling challenging situations
 - Abstract Data Types (ADTs) - Native Arrays, Linked List, Tree Nodes, Tree, Hash, Set, Map, Stack/Queue, Graph : What? When?
 
 ### Schedule
@@ -134,11 +133,8 @@ If you find a project that would allow for multiple contributors or pairing, sha
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Read/Watch Hsing-Hui and Liz's Talk      | Karen
-| 2:00 - 2:30  | Internship Talk: Challenges              | Karen/Crystal
-| 2:30 - 3:30  | How to handle challenging situations     | Lisa
-| 3:30 - 5:00  | CS ADTs                                  | Crystal
-
-![alt text](../topic_resources/infographics/RoadToSuccess.jpg "Road to Success")
+| 2:00 - 3:00  | Reflections on last week                 | Crystal
+| 3:00 - 5:00  | CS ADTs                                  | Crystal
 
 ###Cohort 1 Hsing-Hui Hsu and Liz Rush: [Cascadia Ruby 2014 Talk](http://lizmrush.com/cascadia-ruby-2014/) ([Video Version](http://confreaks.tv/videos/cascadiaruby2014-good-luck-with-that-tag-teaming-civic-data))
 - How did they tackle hard problems?
@@ -152,10 +148,10 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Youth Apps Training                      | Peter
-| 2:00 - 2:30  |                                          | Karen/Crystal
+| 1:00 - 2:00  | Youth Apps Training                      | Karen/Peter
+| 2:00 - 2:30  | Jeremy Time                              | Jeremy
 | 2:30 - 3:30  | Tackling Big Problems / Learning New Code Bases / Google Cloud  | Aja, Google
-| 4:00 - 5:00  | One-on-one / Project Time                |
+| 4:00 - 5:00  | One-on-one / CS ADT Design Scenarios     | Karen / Crystal
 
 ## Week 6 of Internships
 
