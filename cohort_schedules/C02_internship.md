@@ -161,6 +161,9 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 6 of Internships
 
+### Learning Goals
+- Understand the role of databases
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 3:00  | Youth Apps Judging                       | Jeremy
