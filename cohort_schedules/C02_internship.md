@@ -163,17 +163,17 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Project Time                             | Jeremy
+| 1:00 - 3:00  | Youth Apps Judging                       | Jeremy
 | 3:00 - 4:00  | Databases: What? When? How?              | Jennifer, Sound Data
-| 3:30 - 5:00  | Youth Apps Judging                       |
+| 4:00 - 5:00  | Project Time / Lightening Talk Conf Goers | Jeremy
 
 ## Week 7 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 3:00  | Youth Apps Judging                       |
-|              | Leveraging your coworkers                | Blake?
-| 3:00 - 5:00  | Project Time                             | 
+| 3:00 - 4:00  | Leveraging your coworkers                | Blake?
+| 3:00 - 5:00  | Project Time                             |
 
 ## Week 8 of Internships
 
