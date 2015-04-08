@@ -155,7 +155,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | Youth Apps Training                      | Karen/Peter
-| 2:00 - 2:30  | Jeremy Time                              | Jeremy
+| 2:00 - 2:30  | Jeremy/Cynthia Time                      | Jeremy
 | 2:30 - 3:30  | Tackling Big Problems / Learning New Code Bases / Google Cloud  | Aja, Google
 | 4:00 - 5:00  | One-on-one / CS ADT Design Scenarios     | Karen / Crystal
 
@@ -163,16 +163,17 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 3:00  | Youth Apps Judging                       |
+| 1:00 - 2:00  | Project Time                             | Jeremy
 | 3:00 - 4:00  | Databases: What? When? How?              | Jennifer, Sound Data
-| 4:00 - 5:00  | One-on-one / Project Time                |
+| 3:30 - 5:00  | Youth Apps Judging                       |
 
 ## Week 7 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | Youth Apps Judging                       |
+| 1:00 - 3:00  | Youth Apps Judging                       |
 |              | Leveraging your coworkers                | Blake?
+| 3:00 - 5:00  | Project Time                             | 
 
 ## Week 8 of Internships
 
