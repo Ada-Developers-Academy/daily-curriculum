@@ -164,6 +164,8 @@ If you find a project that would allow for multiple contributors or pairing, sha
 ### Learning Goals
 - Understand the role of databases
 
+### Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 3:00  | Youth Apps Judging                       | Jeremy
