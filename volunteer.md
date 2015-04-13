@@ -1,27 +1,27 @@
-#Volunteer Information
+# Volunteer Information
 Ada is a community-supported organization, and we rely on the talents of professional software developers for teaching assistantship, guest lectures, and curriculum oversight.
 
 Get involved and give back to the Seattle tech community by mentoring and overseeing students’ learning. The opportunities are limitless!
 
-##How to get involved
+## How to get involved
 1. Complete the Volunteer Information Survey: http://goo.gl/forms/NpoVLLMQt2
 2. Return a signed copy of the [Volunteer Code of Conduct](https://docs.google.com/document/d/1LCGKZXhtCMCxpc4y_jfNOq3RDHA3tet29qqunVg7z6k/edit?usp=sharing) to contact@adadevelopersacademy.org
 
 You should hear back from Ada staff shortly afterwards to schedule a no-obligation visit to the classroom so you can check out our program up-close!
 
-##Ways you can be involved
+## Ways you can be involved
 - **Teaching Assistant** - Helping students problem solve/learn in the classroom
 - **Guest Lecturer** - Speak to a specific topic or tool
 - **Code Reviewer** - Provide students with comments/code reviews either in person or remotely
 - **Application Reviewer** - Review candidate application submissions and score
 - **Mentor** (from a sponsoring company) - Provide regular professional/techincal support for a specific student
 
-###Teaching Assistant
+### Teaching Assistant
 As a TA, you will be asked to help students during project time.
 
 Your role will be to:
 - know your audience is a group of women who are new to coding--students began their cohort with very little to no experience coding; Ada provides them with 7 months of intensive classroom experience in Ruby, Rails, HTML/CSS, and JS followed by a 5 month industry internship; please define terms, do not assume that they know something already, and do not refer to concepts as something that "programmers should already know" or as something that "you can't get a job if you don't understand"
-- - provide expertise knowledge to students on why/when/how coding structures are used to solve a problem
+- provide expertise knowledge to students on why/when/how coding structures are used to solve a problem
 - help students get "unstuck" by asking them probing questions, providing suggestions, and scaffolding the process of solving a problem
 - provide specific feedback to students their code and problem solving approach
 - encourage and support students on their journey to being professional developers
@@ -30,7 +30,7 @@ Your knowledge and expertise as a seasoned programmer is invaluable to our stude
 
 If there is down time while volunteering at Ada, you are more than welcome to work on projects of your own, but please ensure that students know that you are still available and that they are not "bugging you" when they ask for help.
 
-###Guest Lecturer
+### Guest Lecturer
 As a Guest Lecturer, you will provide training to students on coding skills/tools and/or soft skills.
 
 Your role will be to:
