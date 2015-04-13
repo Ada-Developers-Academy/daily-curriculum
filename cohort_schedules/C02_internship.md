@@ -12,8 +12,8 @@ Apr 7   | [Week 05](#week-5-of-internships)   | Youth Apps, Tackling big problem
 Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, Database Design
 Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps, Addressing difficult situations
 Apr 28  | [Week 08](#week-8-of-internships)   | Leveraging your Coworkers
-May 5   | [Week 09](#week-9-of-internships)   | Confidence in Coding,
-May 12  | [Week 10](#week-10-of-internships)  |
+May 5   | [Week 09](#week-9-of-internships)   | **NO CLASS**
+May 12  | [Week 10](#week-10-of-internships)  | Confidence in Coding,
 May 19  | [Week 11](#week-11-of-internships)  | Resumes, Portfolios, Selling yourself
 May 26  | [Week 12](#week-12-of-internships)  | User Centered Design,
 Jun 2   | [Week 13](#week-13-of-internships)  | Technical Interview Prep,
@@ -189,6 +189,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 9 of Internships
 
+NO CLASS
 
 ## Week 10 of Internships
 
