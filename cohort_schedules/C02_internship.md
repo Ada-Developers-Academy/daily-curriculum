@@ -10,7 +10,7 @@ Mar 24  | [Week 03](#week-3-of-internships)   | Culture Shock: What to do, Perso
 Mar 31  | [Week 04](#week-4-of-internships)   | Tackling challenges, CS ADTs
 Apr 7   | [Week 05](#week-5-of-internships)   | Youth Apps, Tackling big problems, Learning new code bases
 Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, Database Design
-Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps, Addressing difficult situations
+Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps,
 Apr 28  | [Week 08](#week-8-of-internships)   | Leveraging your Coworkers
 May 5   | [Week 09](#week-9-of-internships)   | **NO CLASS**
 May 12  | [Week 10](#week-10-of-internships)  | Confidence in Coding,
@@ -174,18 +174,23 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 7 of Internships
 
+### Learning Goals
+- Understanding "this" in JS
+
+### Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 3:00  | Youth Apps Judging                       |
-| 3:00 - 4:00  |                                          | Kesley, Moz
-| 3:00 - 5:00  | Project Time                             |
+| 1:00 - 3:00  | Youth Apps Judging                       | Jeremy
+| 3:00 - 4:00  | JS - this                                | Jeremy
+| 4:00 - 5:00  | Brain Dump / Project Time                | Crystal
 
 ## Week 8 of Internships
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  |                                          |
-|              |                                          |
+| 4:00 - 5:00  | Leveraging/Collaborating with your coworkers to create amazing products | Amanda, Amazon
 
 ## Week 9 of Internships
 
