@@ -13,14 +13,14 @@ Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, Database Design
 Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps,
 Apr 28  | [Week 08](#week-8-of-internships)   | Leveraging your Coworkers
 May 5   | [Week 09](#week-9-of-internships)   | **NO CLASS**
-May 12  | [Week 10](#week-10-of-internships)  | Confidence in Coding,
-May 19  | [Week 11](#week-11-of-internships)  | Resumes, Portfolios, Selling yourself
+May 12  | [Week 10](#week-10-of-internships)  | Confidence in Coding, Resumes, Portfolios, Selling yourself
+May 19  | [Week 11](#week-11-of-internships)  | XX
 May 26  | [Week 12](#week-12-of-internships)  | User Centered Design,
-Jun 2   | [Week 13](#week-13-of-internships)  | Technical Interview Prep,
-Jun 9   | [Week 14](#week-14-of-internships)  |
-Jun 16  | [Week 15](#week-15-of-internships)  | Networking,
-Jun 23  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Reflections
-        |                                     | **GRADUATION**
+Jun 2   | [Week 13](#week-13-of-internships)  | XX
+Jun 9   | [Week 14](#week-14-of-internships)  | Technical Interview Prep,
+Jun 16  | [Week 15](#week-15-of-internships)  | XX
+Jun 23  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Networking, TA Scheduling
+Aug 28  |                                     | **GRADUATION**
 
 <!--
 
