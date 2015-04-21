@@ -12,7 +12,7 @@
 | Jun 8   | [Week 06](#week-6)  | Intro to Rails
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
-| Jun 29  |                     |  4th of July Break __
+| Jun 29  |                     | __4th of July Break__
 | Jun 29  | [Week 09](#week-9)  | Rails III, Intro to Agile
 | Jul 6   | [Week 10](#week-10) | Testing in Rails
 | Jul 13  | [Week 11](#week-11) | Intro to Javascript
@@ -23,15 +23,15 @@
 | Aug17   | [Week 16](#week-16) | SOA Rails Project
 | Aug 24  | [Week 17](#week-17) | Individual Student-Defined Rails Project
 | Aug 31  | [Week 18](#week-18) | Pair JS Framework Project
-| Sept 7  |                     |  Labor Day Break __
+| Sept 7  |                     | __Labor Day Break__
 | Sept 7  | [Week 19](#week-19) | Pair JS Framework Project
 | Sept 14 | [Week 20](#week-20) | Final Rails Project
 | Sept 21 | [Week 21](#week-21) | Final Rails Project
 | Sept 28 | [Week 22](#week-22) | Final Rails Project
 | Oct 5   | [Week 23](#week-23) | Final Rails Project Presentations
 | Oct 12  | [Week 24](#week-24) | Internship Spike Project
-| Nov 23  |                     |  Thanksgiving Break __
-| June 29 |                     | INTERNSHIP BEGINS__
+| Nov 23  |                     | __Thanksgiving Break__
+| June 29 |                     | __INTERNSHIP BEGINS__
 
 <!--
 Warmup ideas:
@@ -120,7 +120,6 @@ __Resources__
 | 3:30 - 5:00  | [Git Immersion](../topic_resources/git_immersion.md) lab
 
 __Homework__
-
 - Read chapters 2-5 of Learn to Program.
 - Create a directory called `ltp_5_6` and initialize it into a git repo.
 - Complete the two exercises in section 5.6. (saving the files into the `ltp_5_6` dir).
