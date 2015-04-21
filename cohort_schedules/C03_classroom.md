@@ -90,6 +90,14 @@ Warmup ideas:
 
 #### Tuesday
 
+__Warmup__
++ Take one of the cards off the projector in the middle of the room, with your elbow partner
++ Research the woman on that card and try to answer the following Qs:
+    + Who is she?
+    + What is her background?
+    + What has she accomplished?
+    + Anything else important/interesting to know about her?
+
 | Time           | Activity                                                      | With
 |----------------|---------------------------------------------------------------|----------
 |  9:00 - 10:00  | Empowered Women Activity                                      |
