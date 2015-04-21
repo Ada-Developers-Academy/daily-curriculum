@@ -4,7 +4,7 @@
 
 | Date    | Week                | Topic
 |---------|---------------------|-----------------------------------------
-| May 4   | [Week 01](#week-1)  | Bash, Git, Ruby
+| May 4   | [Week 01](#week-1)  | Student Orientation, Bash, Git, Ruby
 | May 11  | [Week 02](#week-2)  | Ruby II
 | May 18  | [Week 03](#week-3)  | Ruby III
 | May 25  | [Week 04](#week-4)  | Testing, Sinatra, HTTP, DOM & HTML
@@ -12,7 +12,7 @@
 | Jun 8   | [Week 06](#week-6)  | Intro to Rails
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
-| Jun 29  |                     |  4th of July Break **
+| Jun 29  |                     |  4th of July Break __
 | Jun 29  | [Week 09](#week-9)  | Rails III, Intro to Agile
 | Jul 6   | [Week 10](#week-10) | Testing in Rails
 | Jul 13  | [Week 11](#week-11) | Intro to Javascript
@@ -23,15 +23,15 @@
 | Aug17   | [Week 16](#week-16) | SOA Rails Project
 | Aug 24  | [Week 17](#week-17) | Individual Student-Defined Rails Project
 | Aug 31  | [Week 18](#week-18) | Pair JS Framework Project
-| Sept 7  |                     |  Labor Day Break **
+| Sept 7  |                     |  Labor Day Break __
 | Sept 7  | [Week 19](#week-19) | Pair JS Framework Project
 | Sept 14 | [Week 20](#week-20) | Final Rails Project
 | Sept 21 | [Week 21](#week-21) | Final Rails Project
 | Sept 28 | [Week 22](#week-22) | Final Rails Project
 | Oct 5   | [Week 23](#week-23) | Final Rails Project Presentations
 | Oct 12  | [Week 24](#week-24) | Internship Spike Project
-| Nov 23  |                     |  Thanksgiving Break **
-| June 29 |                     | INTERNSHIP BEGINS**
+| Nov 23  |                     |  Thanksgiving Break __
+| June 29 |                     | INTERNSHIP BEGINS__
 
 <!--
 Warmup ideas:
@@ -44,21 +44,15 @@ Warmup ideas:
   - Strong vs Weak Typed Languages
 -->
 
-<!--
-## Bare Bones Weekly Schedule
 
-* Daily - warmup
-* Monday Morning - Quiz
-* Tuesday afternoon - Guest Lecture
-* Friday afternoon - 1-on-1s
--->
-
-<!--
 ## Week 1
 
 ### Learning Goals
 
   + Introduction to the program
+      + Get to know each other (students and staff)
+      + Understand expectations
+      + What is Ada?
   + Working Ruby development environment
   + Comfort with basic OS X Hotkeys
   + Comfort with basic UNIX command-line skills
@@ -79,38 +73,45 @@ Warmup ideas:
       - Text Editors (Atom)
       - Git
       - Terminal
-  + Discuss what is Ada?
 
 ### Schedule
 
+#### Monday
+
+| Time           | Activity                                                      | With
+|----------------|---------------------------------------------------------------|----------
+|  9:00 - 10:00  | Meet and Greet with staff + Breakfast                         | Staff
+| 10:00 - 12:00  | Get to know you activities                                    | 
+| 12:00 -  1:00  | LUNCH / Photobooth                                            |
+|  1:00 -  2:00  | What is Ada?                                                  | 
+|  2:00 -  3:00  | Program Guide / Student Handbook                              |
+|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              | 
+|  4:00 -  5:00  | Thoughts from pre-assignments                                 |
+
 #### Tuesday
 
-| Time          | Topic
-|---------------|--------------------------------------------------------
-| 9:00 - 10:00 | Meet & Greet with Community Members + Breakfast
-| 10:00 - 12:00 | Get to know you games
-| 11:00 - 12:00 | Ada Overview (handbook, culture, & expecations)
-| 12:00 - 1:00 | Lunch
-| 1:00 - 1:30 | [How to OS X](../topic_resources/how-to-os-x.md)
-| 1:30 - 2:30 | [Introduction to Unix](../topic_resources/nix.md)
-| 2:30 - 3:30 | [Installfest](../topic_resources/installfest.md)
-| 3:30 - 4:00 | [Ruby Messaging](../topic_resources/ruby-messaging.md)
-| 4:00 - 5:00 | Introduction to [Ruby](../topic_resources/ruby_101.md)
+| Time           | Activity                                                      | With
+|----------------|---------------------------------------------------------------|----------
+|  9:00 - 10:00  | Empowered Women Activity                                      |
+| 10:00 - 11:00  | [Introduction to Unix](../topic_resources/nix.md)             |
+| 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
+| 12:00 -  1:00  | LUNCH                                                         |
+|  1:00 -  4:00  | Team Photo Scavenger Hunt                                     |
+|  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         |
 
-**Homework**
-
+__Homework__
 + Introduction and Chap 1 - Learn To Program
 + Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby
-+ Setup an account on Twitter, Github, and Gravatar (with same email address)
++ Setup an account on Twitter, LinkedIn, Github, and Gravatar (with same email address)
 
-**Resources**
+__Resources__
 + [Navigating the Terminal](http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/)
 + [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
 
 #### Wednesday
 
 | Time          | Topic
-|---------------|---------------------------------------------------------------------------------------------------------------------------
+|---------------|-------------------
 | 9:00 - 9:30 | [Introduction to Ruby](../topic_resources/ruby_101.md)
 | 9:30 - 10:00 | [Introduction to Atom](../topic_resources/atom.md)
 | 10:00 - 12:30 | [Rails Bridge Setup](../topic_resources/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/))
@@ -118,7 +119,7 @@ Warmup ideas:
 | 1:30 - 3:30  | [Rails Bridge Continued](http://docs.railsbridge.org/intro-to-rails/)
 | 3:30 - 5:00  | [Git Immersion](../topic_resources/git_immersion.md) lab
 
-**Homework**
+__Homework__
 
 - Read chapters 2-5 of Learn to Program.
 - Create a directory called `ltp_5_6` and initialize it into a git repo.
@@ -137,7 +138,7 @@ Warmup ideas:
 | 1:00 - 5:00  | [Calculator Lab](../topic_resources/calculator.md)
 | 3:00 - 5:00  | After completing calculator: [gitimmersion.com](http://gitimmersion.com)
 
-**Homework**
+__Homework__
 
 + Read through Chapter 2 of Beginning Ruby
 + Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com)) (upto lab 25)
@@ -152,14 +153,14 @@ Warmup ideas:
 | 12:00 - 1:00 | Lunch
 | 1:00 - 5:00 | Adventure Game lab part 2. Page 149-158 in Beginning Ruby
 
-**Homework**
+__Homework__
 * Work through Chapters 7, 8 of Learn to Program
 * More Git Immersion (upto lab 25)
 
 #### Optional Lesson: More About Methods
 Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over some common (and not-so-common) methods for some of our favorite types of objects: integers and strings.
 
-
+<!--
 ## Week 2
 
 In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
@@ -197,7 +198,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 
 \* If you finish with the solar system.
 
-**Homework**
+__Homework__
 
 + Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
 
@@ -229,7 +230,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 | 2:30 - 3:30 | Inheritance
 | 3:30 - 5:00 | Project Time
 
-**Homework**
+__Homework__
 
 + Read Chapter 9 of Beginning Ruby, up to Storing Objects and Data Structures
 + Read about assertions:
@@ -300,7 +301,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor
 | 11:15 - 4:00 | [FarMarFinder](../topic_resources/farmarfinder.md) Project Time
 | 4:00 - 5:00 | Retro
 
-**Homework**:
+__Homework__:
 - Reading Beginning Ruby:
   - pgs. 139-149 (Modules, Namespaces, and Mix-Ins)
   - pgs. 228-246 (Relational Databases and SQL)
@@ -332,7 +333,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | 1:30 - 2:30 | [FizzBuzz Testing](../topic_resources/testing.md)
 | 2:30 - 5:00 | [Scrabble](../topic_resources/scrabble.md)
 
-**Homework**
+__Homework__
 
 - Read about rspec best practices: http://betterspecs.org/
 
@@ -375,7 +376,7 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 | 2:00 - 4:00 | Regular Expressions with Nell
 | 4:00 - 5:00 | Retro
 
-**Homework**:
+__Homework__:
 
 - Complete the HTMLDog [Beginner HTML tutorial](http://www.htmldog.com/guides/html/beginner/)
 - Complete the HTMLDog [Beginner CSS tutorial](http://www.htmldog.com/guides/css/beginner/)
@@ -401,7 +402,7 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 | 10:30 - 11:30 | [Starting HTML](../topic_resources/starting-an-html-website.md)
 | 11:30 - 5:00 | [Personal Website Project](../topic_resources/personal-website-overview.md)
 
-**Homework**
+__Homework__
 
 Read Lessons 2 & 3 of http://learn.shayhowe.com/html-css/getting-to-know-css/
 
@@ -414,7 +415,7 @@ Read Lessons 2 & 3 of http://learn.shayhowe.com/html-css/getting-to-know-css/
 | 10:00 - 12:00 | Live Code CSS
 | 12:00 - 5:00 | [Personal Website Project](../topic_resources/personal-website-overview.md)
 
-**Homework**
+__Homework__
 Read a little about JavaScript in _Eloquent JavaScript_:
 [Intro](http://eloquentjavascript.net/00_intro.html)
 [Values, Types, and Operators](http://eloquentjavascript.net/01_values.html)
@@ -481,7 +482,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | 2:30 - 2:35 | Stand Up
 | 2:35 - 5:00 | [FarMar Project](../topic_resources/far-mar-rails.md)
 
-**Homework**
+__Homework__
 
 - Complete one trello task. Before leaving class clearly define tasks that can be completed which are not dependent on each other (front end, back end).
 - Push the change to github.
@@ -507,7 +508,7 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 | 11:00 - 11:15 | Standup
 | 11:15 - 5:00 | [FarMar Project](../topic_resources/far-mar-rails.md)
 
-**Homework**
+__Homework__
 
 Make sure you've at least tried the following koans (by running the
 following from your main koans directory):
@@ -572,7 +573,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | 2:00 - 4:00 | [James Spence on Designing a Project](../topic_resources/design.md)
 | 4:00 | [bEtsy](../topic_resources/betsy.md)
 
-**Homework**
+__Homework__
 [Git Branching & Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
 
 #### Tuesday
@@ -591,7 +592,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | 9:00 - 9:15 | Stand up
 | 9:20 | [Betsy Project Time](../topic_resources/betsy.md)
 
-**Homework**
+__Homework__
 - Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
 
 #### Thursday
@@ -601,7 +602,7 @@ In week 7 we will focus on reinforcing the major components of Rails, seen in th
 | 9:30 | [Views](../topic_resources/views-101.md)
 | 10:30 - 5:00 | [Betsy Project Time](../topic_resources/betsy.md)
 
-**Homework**
+__Homework__
 
 Make sure you've at least tried the following koans (by running the
 following from your main koans directory):
@@ -701,7 +702,7 @@ In week 9 we will be focusing on comprehension of the rails request cycle. Stude
 - Understanding of rails views,
     - Availability of controller methods and instance variables
     - View Helpers
-- **Learn to identify and describe the current state and availabilty of different methods and variables at any given point in the request cycle.**
+- __Learn to identify and describe the current state and availabilty of different methods and variables at any given point in the request cycle.__
 
 ### Schedule
 #### Monday
@@ -755,7 +756,7 @@ No Class.
 |      | [Controller methods](../topic_resources/controller-methods.md)
 
 
-**Weekend Homework**
+__Weekend Homework__
 
 Create your own app
 
@@ -772,7 +773,7 @@ Create a single serving (no users) version of Twitter. The app should have:
     - A `new` action (optional, you can put the form on `index`)
     - A `create` action where tweets are created
 
-**optional**
+__optional__
 
 - tweet_spec.rb
     - Testing validations of body (presence and length)
@@ -781,7 +782,7 @@ Create a single serving (no users) version of Twitter. The app should have:
     - Test each controller action
     - No need to test private actions
 
-**Extra Credit**
+__Extra Credit__
 
 Implement Users using a TDD approach.
 
@@ -886,7 +887,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 | 12:30 - 1:30 | Example: Adding new elements to the DOM
 | 1:30 - 5:00 | Project: To do list maker
 
-**Resources**
+__Resources__
 
 [Element Object](https://developer.mozilla.org/en-US/docs/Web/API/Element)
 
@@ -916,7 +917,7 @@ Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focu
 | 12:00 - 4:00 | Project Time
 | 4:00 - 4:45 | Retro
 
-**Weekend Homework**
+__Weekend Homework__
 
 Look at the jQuery ajax (http://api.jquery.com/jquery.ajax/) API and
 think about how you might send a list of to do items to store on
@@ -1067,7 +1068,7 @@ Additional Lectures
 | 11:00 - 12:00 | [ActionMailer](../topic_resources/mailers.md)
 | 12:00 -5:00 | SeeMore Project Time
 
-**Homework**
+__Homework__
 [Chapter 1 videos and challenges for CodeSchool Chrome DevTools: Elements](http://discover-devtools.codeschool.com/chapters/1)
 
 
@@ -1078,7 +1079,7 @@ Additional Lectures
 | 10:00 - 11:30 | [Background Jobs w/Resque](../topic_resources/background-jobs.md)
 | 11:30 -5:00 | [PPP Project Time](../topic_resources/p_patch_planner.md)
 
-**Homework**
+__Homework__
 [Chapter 2 videos and challenges for CodeSchool Chrome DevTools: Sources](http://discover-devtools.codeschool.com/chapters/2)
 
 
@@ -1088,7 +1089,7 @@ Additional Lectures
 | 9:00 - 10:00 | Whenever Gem
 | 10:00 - 5:00 | [PPP Project Time](../topic_resources/p_patch_planner.md)
 
-**Homework**
+__Homework__
 [Chapter 3 videos and challenges for CodeSchool Chrome DevTools: Console](http://discover-devtools.codeschool.com/chapters/3)
 
 
@@ -1101,7 +1102,7 @@ Additional Lectures
 | 2:00 - 4:00 | Kelsey Foley
 | 4:00 - 5:00 | [PPP Project Time](../topic_resources/p_patch_planner.md)
 
-**Homework**
+__Homework__
 [Chapter 4 videos and challenges for CodeSchool Chrome DevTools: Debugging](http://discover-devtools.codeschool.com/chapters/4)
 
 
@@ -1228,7 +1229,7 @@ This week lectures may be à la carte.
 | 9:15 - 3:00 | [SOA Shipping](../topic_resources/shipping_service.md)
 | 4:00 - 6:00 | Holiday Party
 
-**Homework**
+__Homework__
 
 [Holiday Break Project](../topic_resources/holiday-break-project.md)
 
@@ -1278,7 +1279,7 @@ This week lectures may be à la carte.
 | 4:00 - 4:30 | Interview Feedback
 | 4:30 - 5:00 | Project Pitches
 
-**Homework**: We are going to be doing a lot of JavaScript next week.
+__Homework__: We are going to be doing a lot of JavaScript next week.
 - Complete the [Cat Adventure Project](../topic_resources/cat_adventure_homework.md)
 - Practice JavaScript
 - [Install a few things](../topic_resources/installfest2.md)
@@ -1386,7 +1387,7 @@ Nothing! WOOOOO! Day off :D
 | 10:45 - 11:30 | [Services, Factories, and Directives](../topic_resources/sfd.md)
 | 11:15 - 5:00 | [Blahg](../topic_resources/blog.md)
 
-**there will be a break someplace in here
+__there will be a break someplace in here
 
 #### Thursday
 
