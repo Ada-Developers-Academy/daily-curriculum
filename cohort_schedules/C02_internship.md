@@ -10,8 +10,8 @@ Mar 24  | [Week 03](#week-3-of-internships)   | Culture Shock: What to do, Perso
 Mar 31  | [Week 04](#week-4-of-internships)   | Tackling challenges, CS ADTs
 Apr 7   | [Week 05](#week-5-of-internships)   | Youth Apps, Tackling big problems, Learning new code bases
 Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, Database Design
-Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps,
-Apr 28  | [Week 08](#week-8-of-internships)   | Leveraging your Coworkers
+Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps
+Apr 28  | [Week 08](#week-8-of-internships)   | Command Line Tools, Divide and Conquer, Leveraging your Coworkers
 May 5   | [Week 09](#week-9-of-internships)   | **NO CLASS**
 May 12  | [Week 10](#week-10-of-internships)  | Confidence in Coding, Resumes, Portfolios, Selling yourself
 May 19  | [Week 11](#week-11-of-internships)  | OFFSITE PROJECT TIME
@@ -34,7 +34,6 @@ Soft-Skills:
 Possible people to ask to speak:
 - Elton: Networking
 - Koz: Climbing the corporate ladder
-- Blake: Leveraging your coworkers
 - Margaeux:
 - Adam:
 - Andy: User Centered Design
@@ -187,11 +186,18 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ## Week 8 of Internships
 
+### Learning Goals
+- Divide and Conquer algorithms
+- grep, regex, vim, review of basic commands
+- skills for leveraging your PM, TPM, Manager, and others to get your work done effectively
+
+### Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | C2 Tshirt Design / Project Time          | 
-| 2:00 - 3:00  | Divide and Conquer                       |       
-| 3:00 - 4:00  | Buffing up your Command Line / RegEx Skills | Crystal
+| 2:00 - 3:00  | Divide and Conquer                       | Kari  
+| 3:00 - 4:00  | Buffing up your Command Line / RegEx Skills | Crystal/Jeremy
 | 4:00 - 5:00  | Leveraging/Collaborating with your coworkers to create amazing products | Amanda, Amazon
 
 ## Week 9 of Internships
