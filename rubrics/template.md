@@ -1,15 +1,15 @@
-#TEMPLATE RUBRIC
+# TEMPLATE RUBRIC
 
 1=Beginner, 2=Proficient, 3=Master
 
-###PROJECT LEARNING GOALS
+### PROJECT LEARNING GOALS
 
 | Rating | Content        | Description
 |--------|----------------|-----------------------------------------------------------
 |        | s              | s |
 
 
-###SPEAKING SKILLS
+### CODE QUALITY
 
 | Rating | Skill          | Description
 |--------|----------------|-----------------------------------------------------------
