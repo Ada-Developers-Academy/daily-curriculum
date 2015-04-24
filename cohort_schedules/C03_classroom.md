@@ -104,8 +104,8 @@ __Warmup__
 | 10:00 - 11:00  | [Introduction to Unix](../topic_resources/nix.md)             |
 | 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
 | 12:00 -  1:00  | LUNCH                                                         |
-|  1:00 -  4:00  | Team Photo Scavenger Hunt                                     |
-|  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         |
+|  1:00 -  4:00  | Team [Photo Scavenger Hunt](topic_resources/ScavengerHuntSeattle.txt) | All Ada Staff
+|  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         | 
 
 __Homework__
 + Introduction and Chap 1 - Learn To Program
