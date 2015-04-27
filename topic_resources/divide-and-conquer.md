@@ -14,28 +14,31 @@
 		+ The leaves (final nodes) of the tree contain no key. Leaves are commonly represented by a special leaf or nil symbol, a NULL pointer, etc.
 		+ Each subtree is itself a binary search tree.
 		+ The left subtree of a node contains only nodes with keys strictly less than the node's key.
-		+ The right subtree of a node contains only nodes with keys strictly greater than the node's key.
-	+ Big O notation: Average, O(log n), Worst case O(n).  
-	+ [Visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+		+ The right subtree of a node contains only nodes with keys strictly greater than the node's key.  
+	+ [Interactive Visualization](https://www.cs.usfca.edu/~galles/visualization/BST.html)  
+	![Picture](http://programminggeeks.com/wp-content/uploads/2014/01/nodes-in-binary-search-tree.png)
+	
 2. **Quicksort** is a sorting algorithm.  
 	+ The steps are:
 		1. Pick an element, called a pivot, from the array.  
 		2. Reorder the array so that all elements with values less than the pivot come before the pivot, while all elements with values greater than the pivot come after it (equal values can go either way). After this partitioning, the pivot is in its final position. This is called the partition operation.  
 		3. Recursively apply the above steps to the sub-array of elements with smaller values and separately to the sub-array of elements with greater values.  
-	`QUICKSORT(A):  
+	```
+	QUICKSORT(A):  
 		If A has fewer than 2 elements:  
-		Return A  
-		Pick a pivot p from A  
-		L ← QUICKSORT(Things in A ≤ p)  
-		U ← QUICKSORT(Things in A > p)  
-		Return L + [p] + U`  
-
-	+ Big O notation: Average, O(n log n), Worst case O(n<sup>2</sup>)
+			Return A  
+		Else  
+			Pick a pivot p from A  
+			L ← QUICKSORT(Things in A ≤ p)  
+			U ← QUICKSORT(Things in A > p)  
+			Return L + [p] + U
+	```
+	
 	+ When implemented well, it can be about two or three times faster than its main competitors, merge sort and heapsort
 	+ [Hungarian Dance](https://www.youtube.com/watch?v=ywWBy6J5gz8)
 3. **Merge sort** is a sorting algorithm.  
 	+ The steps are:
 		1. Divide the unsorted list into __n__ sublists, each containing 1 element (a list of 1 element is considered sorted).
-		2. Repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list.
-	+ Big O notation: Average, O(n log n), Worst case O(n log n)
+		2. Repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list.  
+	![Visualization](http://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 	+ [Hungarian Dance](https://www.youtube.com/watch?v=XaqR3G_NVoo)
