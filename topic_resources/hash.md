@@ -6,22 +6,22 @@ For example if we have a CSV:
 
 | name              | email                                   |
 |:------------------ |:----------------------------------------|
-| Bookis Smuin   | bookis@adadevelopersacademy.org |
-| Karen Hambro   | karen.hambro@adadevelopersacademy.org |
+| Jeremy Flores   | jeremy@adadevelopersacademy.org |
+| Kari Bancroft    | kari@adadevelopersacademy.org |
 
 Each line of this could be represented as a hash, using the headers as the keys:
 
 ```ruby
-{name: "Bookis Smuin", email: "bookis@adadevelopersacademy.org"}
+{name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org"}
 ```
 ```ruby
-{name: "Karen Hambro", email: "karen.hambro@adadevelopersacademy.org"}
+{name: "Kari Bancroft", email: "kari@adadevelopersacademy.org"}
 ```
 
 Further we could groups these in an Array:
 ```ruby
-[{name: "Bookis Smuin", email: "bookis@adadevelopersacademy.org"},
-{name: "Karen Hambro", email: "karen.hambro@adadevelopersacademy.org"}]
+[{name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org"},
+{name: "Kari Bancroft", email: "kari@adadevelopersacademy.org"}]
 ```
 
 A `Hash` key can have any object as it's value, even another hash.
@@ -29,20 +29,16 @@ A `Hash` key can have any object as it's value, even another hash.
 ```ruby
 {bookis:
   {
-    last_name: "Smuin",
-    first_name: "Bookis",
+    last_name: "Flores",
+    first_name: "Jeremy",
     address: {
       street: "123 fake st",
       city: "Seattle",
       state: "WA"
     },
-    children: [{
-      name: "Isaac",
-
-    }],
     pets: [{
-      type: "cat",
-      name: "Urchin Jr."
+      type: "dog",
+      name: "Rosa"
     }]
   }
 }
@@ -63,7 +59,7 @@ class Address
     @postal_code = postal_code
   end
 end
-Address.new("Bookis", "Smuin", "123 fake st", "seattle", "WA", "US", 98102)
+Address.new("Jeremy", "Flores", "123 fake st", "Seattle", "WA", "US", 98102)
 ```
 
 What is the problem (or at least obnoxious) there? What if you don't have a `street_two` attribute?
@@ -83,7 +79,7 @@ class Address
   end
 end
 
-Address.new(first_name: "Bookis")
+Address.new(first_name: "Jeremy")
 
 ```
 Example
