@@ -196,7 +196,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 2:00  | C2 Tshirt Design / Project Time          | 
-| 2:00 - 3:00  | Divide and Conquer                       | Kari  
+| 2:00 - 3:00  | [Divide and Conquer](../topic_resources/divide-and-conquer.md)                       | Kari  
 | 3:00 - 4:00  | Buffing up your Command Line / RegEx Skills | Crystal/Jeremy
 | 4:00 - 5:00  | Leveraging/Collaborating with your coworkers to create amazing products | Amanda, Amazon
 
