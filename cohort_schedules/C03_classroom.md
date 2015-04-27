@@ -81,11 +81,11 @@ Warmup ideas:
 | Time           | Activity                                                      | With
 |----------------|---------------------------------------------------------------|----------
 |  9:00 - 10:00  | Meet and Greet with staff + Breakfast                         | Staff
-| 10:00 - 12:00  | Get to know you activities                                    | 
+| 10:00 - 12:00  | Get to know you activities                                    |
 | 12:00 -  1:00  | LUNCH / Photobooth                                            |
-|  1:00 -  2:00  | What is Ada?                                                  | 
+|  1:00 -  2:00  | What is Ada?                                                  |
 |  2:00 -  3:00  | Program Guide / Student Handbook                              |
-|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              | 
+|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              |
 |  4:00 -  5:00  | Thoughts from pre-assignments                                 |
 
 #### Tuesday
