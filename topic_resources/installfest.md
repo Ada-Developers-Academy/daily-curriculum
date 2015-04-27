@@ -131,22 +131,22 @@ Trust, But Verify
 
 ```
 which ruby
-/usr/local/rvm/rubies/ruby-2.1.2/bin/ruby
+/usr/local/rvm/rubies/ruby-2.2.1/bin/ruby
 ```
 
 ```
 rvm current
-ruby-2.1.2
+ruby-2.2.1
 ```
 
 ```
 rails -v
-Rails 4.1.5
+Rails 4.2.1
 ```
 
 ```
 which rails
-/usr/local/rvm/gems/ruby-2.1.2-p247/bin/rails
+/usr/local/rvm/gems/ruby-2.2.1/bin/rails
 ```
 
 Text Editors

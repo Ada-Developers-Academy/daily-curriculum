@@ -85,8 +85,8 @@ Warmup ideas:
 | 12:00 -  1:00  | LUNCH / Photobooth                                            |
 |  1:00 -  2:00  | What is Ada?                                                  |
 |  2:00 -  3:00  | Program Guide / Student Handbook                              |
-|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              |
-|  4:00 -  5:00  | Thoughts from pre-assignments                                 |
+|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              | 
+|  4:00 -  5:00  | Thoughts from pre-assignments                                 | 
 
 #### Tuesday
 
@@ -100,16 +100,16 @@ __Empowered Women Activity__
 
 | Time           | Activity                                                      | With
 |----------------|---------------------------------------------------------------|----------
-|  9:00 - 10:00  | [Introduction to Unix](../topic_resources/nix.md)             |
-| 10:00 - 11:00  | Empowered Women Activity                                      |
+|  9:00 - 10:00  | [Introduction to Unix](../topic_resources/nix.md)             | 
+| 10:00 - 11:00  | Empowered Women Activity                                      | 
 | 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
 | 12:00 -  1:00  | LUNCH                                                         |
 |  1:00 -  4:00  | Team [Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md) | All Ada Staff
 |  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         | 
 
 __Homework__
-+ [Remove]Introduction and Chap 1 - Learn To Program
-+ [Remove]Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby
++ Introduction and Chap 1 - Learn To Program
++ Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby
 + Setup an account on Twitter, LinkedIn, Github, and Gravatar (with same email address)
 
 __Resources__
@@ -128,8 +128,6 @@ __Resources__
 | 3:30 - 5:00  | [Git Immersion](../topic_resources/git_immersion.md) lab
 
 __Homework__
-+ [KAB Add]Introduction and Chap 1 - Learn To Program
-+ [KAB Add]Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby
 - Read chapters 2-5 of Learn to Program.
 - Create a directory called `ltp_5_6` and initialize it into a git repo.
 - Complete the two exercises in section 5.6. (saving the files into the `ltp_5_6` dir).
