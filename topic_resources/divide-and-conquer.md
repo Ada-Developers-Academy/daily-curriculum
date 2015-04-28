@@ -47,6 +47,6 @@
 3. **Merge sort** is a sorting algorithm.  
 	+ The steps are:
 		1. Divide the unsorted list into __n__ sublists, each containing 1 element (a list of 1 element is considered sorted).
-		2. Repeatedly merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list.  
+		2. __Repeatedly__ merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list.  
 	![Visualization](http://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)  
 	+ [Hungarian Dance](https://www.youtube.com/watch?v=XaqR3G_NVoo)
