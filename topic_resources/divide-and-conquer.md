@@ -50,3 +50,6 @@
 		2. __Repeatedly__ merge sublists to produce new sorted sublists until there is only 1 sublist remaining. This will be the sorted list.  
 	![Visualization](http://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)  
 	+ [Hungarian Dance](https://www.youtube.com/watch?v=XaqR3G_NVoo)
+
+	### Problem
+	Create a merge sort algorithm that also removes duplicates.
