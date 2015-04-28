@@ -81,14 +81,23 @@ Warmup ideas:
 | Time           | Activity                                                      | With
 |----------------|---------------------------------------------------------------|----------
 |  9:00 - 10:00  | Meet and Greet with staff + Breakfast                         | Staff
-| 10:00 - 12:00  | Get to know you activities / Classroom Contract               | 
+| 10:00 - 12:00  | Get to know you activities / Classroom Contract               |
 | 12:00 -  1:00  | LUNCH / Photobooth                                            |
 |  1:00 -  2:00  | What is Ada?                                                  |
 |  2:00 -  3:00  | Program Guide / Student Handbook                              |
-|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              | 
-|  4:00 -  5:00  | Thoughts from pre-assignments                                 | 
+|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              |
+|  4:00 -  5:00  | Thoughts from pre-assignments                                 |
 
 #### Tuesday
+
+| Time           | Activity                                                      | With
+|----------------|---------------------------------------------------------------|----------
+|  9:00 - 10:00  | [Introduction to Unix](../topic_resources/nix.md)             |
+| 10:00 - 11:00  | Empowered Women Activity                                      |
+| 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
+| 12:00 -  1:00  | LUNCH                                                         |
+|  1:00 -  4:00  | Team [Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md) | All Ada Staff
+|  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         |
 
 __Empowered Women Activity__
 + Take one of the cards off the projector in the middle of the room, with your elbow partner
@@ -97,15 +106,6 @@ __Empowered Women Activity__
     + What is her background?
     + What has she accomplished?
     + Anything else important/interesting to know about her?
-
-| Time           | Activity                                                      | With
-|----------------|---------------------------------------------------------------|----------
-|  9:00 - 10:00  | [Introduction to Unix](../topic_resources/nix.md)             | 
-| 10:00 - 11:00  | Empowered Women Activity                                      | 
-| 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
-| 12:00 -  1:00  | LUNCH                                                         |
-|  1:00 -  4:00  | Team [Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md) | All Ada Staff
-|  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         | 
 
 __Homework__
 + Introduction and Chap 1 - Learn To Program
