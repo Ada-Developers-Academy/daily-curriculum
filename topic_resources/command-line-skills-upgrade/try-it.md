@@ -1,6 +1,6 @@
 # Try your command line skills
 
-1. Grab [these files](daily-curriculum-d5a8308082a021c0d8963bdc6520c89a3db5f302)
+1. Grab [these files](daily-curriculum-d5a8308082a021c0d8963bdc6520c89a3db5f302.zip)
 2. Rename the directory to `daily-curriculum-old`
 3. Make a copy of the entire directory called `daily-curriculum-new`
 4. Move all the files from `week*/day/` to a new folder called `topic_resources`

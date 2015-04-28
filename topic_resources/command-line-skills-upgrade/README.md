@@ -70,9 +70,9 @@
 + `a{3,}`	3 or more of a
 + `a{3,6}`	Between 3 and 6 of a
 
+# [Try It](try-it.md)
+
 ## FURTHER READING/EXPLORATION
 + [RegExOne Tutorial](http://regexone.com/)
 + [Cheatsheet reference](http://www.pixelbeat.org/cmdline.html) for several command line commands.
 + [Become a command line ninja](http://lifehacker.com/5743814/become-a-command-line-ninja-with-these-time-saving-shortcuts)
-
-# [Try It](try-it.md)
