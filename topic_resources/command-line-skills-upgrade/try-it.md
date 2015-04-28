@@ -4,7 +4,7 @@ Yes, you could do some of this stuff without the command line, but since we're p
 
 Before actually tackling this list and executing commands, first list out which commands you think you'll use for each task. Compare your list with someone else before you get hackin'.
 
-1. Grab [these files](daily-curriculum-d5a8308082a021c0d8963bdc6520c89a3db5f302)
+1. [Go back in time](https://github.com/Ada-Developers-Academy/daily-curriculum/tree/ee543f7035dbc10f41850ba0804903ec98d26927) and download the Ada daily-curriculum repo as of Feb 2015
 2. Rename the directory to `daily-curriculum-old`
 3. Make a copy of the entire directory called `daily-curriculum-new`
 4. Move all the files from `week/day/` to a new folder called `topic_resources`
