@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ada's To Do List - jQuery version</title>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<style>
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+header {
+	position: relative;
+	background-color: rgb(37, 166, 217);
+	color: white;
+	text-shadow: 2px 2px 3px gray;
+}
+h1 {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding: 100px 0 100px 0;
+	font-weight: 100;
+}
+section {
+	padding: 30px 60px;
+}
+input {
+	width: 80%;
+	background-color: rgb(206, 232, 242);
+	outline: none;
+	font-size: 1.5em;
+	padding: .2em;
+	border-radius: 3px;
+}
+button {
+	width: 15%;
+	border-radius: 3px;
+	background-color: rgb(206, 232, 242);
+	font-size: 1.5em;
+	padding: .2em;
+	color: rgb(160, 160, 160);
+	outline: none;
+}
+button:hover {
+	background-color: rgb(91, 181, 217);
+	color: #fafafa;
+}
+ul {
+	font-size: 1.5em;
+	list-style-type: none;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	background-color: rgb(244, 241, 243);
+	width: 97%;
+}
+ul li {
+	padding: .2em;
+	display: none;
+}
+ul li:nth-child(2n-1) {
+	background-color: rgb(206, 232, 242);
+}
+span {
+	user-select: none;
+}
+span.check {
+	display: inline-block;
+	padding: .2em;
+	font-size: 1.5em;
+	margin-right: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	background-color: #FF9999;
+}
+span.check.done {
+	background-color: #80CC80;
+}
+
+</style>
+<script>
+
+$(function() {
+	$("#addTask").click(function(e) {
+		e.preventDefault();
+		var taskInput = $("#task").val();
+		if (taskInput === "") {
+			return;
+		}
+		$taskItem = $("<li></li>");
+		$check = $("<span></span>");
+		$task = $("<span>" + taskInput + "</span>");
+
+		$check.css("display", "inline-block")
+			.addClass("check")
+			.click(function() {
+				$(this).toggleClass("done");
+				if ($(".done").length === $(".check").length) {
+					var answer = prompt("You've finished everything! Clear the list?");
+					if (answer !== null && answer.toLowerCase() !== "no") {
+						$("#list").fadeOut("slow", function() {
+							$(this).empty();
+							$(this).fadeIn("fast");
+						});
+					}
+				}
+		});
+
+		$taskItem.append($check, $task);
+		$("#list").append($taskItem);
+		$taskItem.fadeIn("slow");
+
+		$("form")[0].reset();
+	});
+});
+
+</script>
+</head>
+<body>
+<header>
+	<h1>Ada's To Do List</h1>
+</header>
+<section>
+	<form>
+		<input type="text" id="task" placeholder="task">
+		<button id="addTask">add</button>
+	</form>
+	<ul id="list">
+	</ul>
+</section>
+</body>
+</html>

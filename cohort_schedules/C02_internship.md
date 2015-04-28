@@ -165,10 +165,10 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ### Schedule
 
-| Time         | Topic                                    | With
-|--------------|------------------------------------------|----------
-| 1:00 - 3:00  | Youth Apps Judging                       | Jeremy
-| 3:00 - 4:00  | Databases: What? When? How?              | Jennifer, Sound Data
+| Time         | Topic                                     | With
+|--------------|-------------------------------------------|----------
+| 1:00 - 3:00  | Youth Apps Judging                        | Jeremy
+| 3:00 - 4:00  | Databases: What? When? How?               | Jennifer, Sound Data
 | 4:00 - 5:00  | Project Time / Lightening Talk Conf Goers | Jeremy
 
 ## Week 7 of Internships
@@ -193,11 +193,11 @@ If you find a project that would allow for multiple contributors or pairing, sha
 
 ### Schedule
 
-| Time         | Topic                                    | With
-|--------------|------------------------------------------|----------
-| 1:00 - 2:00  | C2 Tshirt Design / Project Time          | 
-| 2:00 - 3:00  | [Divide and Conquer](../topic_resources/divide-and-conquer.md)                       | Kari  
-| 3:00 - 4:00  | Buffing up your Command Line / RegEx Skills | Crystal/Jeremy
+| Time         | Topic                                                          | With
+|--------------|----------------------------------------------------------------|----------
+| 1:00 - 2:00  | C2 Tshirt Design / Project Time                                |
+| 2:00 - 3:00  | [Divide and Conquer](../topic_resources/divide-and-conquer.md) | Kari  
+| 3:00 - 4:00  | [Buffing up your Command Line / RegEx Skills](../topic_resources/command-line-skills-upgrade/)                     | Crystal/Jeremy
 | 4:00 - 5:00  | Leveraging/Collaborating with your coworkers to create amazing products | Amanda, Amazon
 
 ## Week 9 of Internships

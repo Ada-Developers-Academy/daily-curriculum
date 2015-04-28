@@ -1,0 +1,18 @@
+<!-- index.erb -->
+Hello, the time is currently <%= Time.now %>
+
+<form action="/" method="get" accept-charset="utf-8">
+  <label for="fname">Name</label>
+  <input type="text" name="first_name" value="" id="fname">
+  <input type="text" name="last_name" value="" id="lname">
+  
+
+  <p><input type="submit" value="Submit &rarr;"></p>
+</form>
+
+
+<div id='debug'>
+  <hr>
+  <h4>DEBUG</h4>
+  The params hash: <%= params %>
+</div>

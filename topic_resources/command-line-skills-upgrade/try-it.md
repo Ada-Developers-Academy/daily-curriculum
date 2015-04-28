@@ -1,0 +1,19 @@
+# Try your command line skills
+
+1. Grab [these files](daily-curriculum-d5a8308082a021c0d8963bdc6520c89a3db5f302)
+2. Rename the directory to `daily-curriculum-old`
+3. Make a copy of the entire directory called `daily-curriculum-new`
+4. Move all the files from `week*/day/` to a new folder called `topic_resources`
+5. Fix all the now-broken links to `topic_resources/*`
+6. Remove all topic_resources that are not mentioned in any weekly_overview.md (or the new combined file)
+7. Move stray files in `/` to `/topic_resources/` IFF they are actually referenced somewhere, otherwise, delete them.
+
+### Optional Challenges
++ Move the contents of each `weekly_overview.md` into one file called `cohort_calendar.md`
++ Delete all the empty directories
++ Repeat this process for `intern_weeks/`
+
+### Things you could fix on the real Ada daily-curriculum
++ Consistency with - or _ in file/folder names
++ UGH The table dividers not aligning on the cohort_schedules pages
++ There's probably more...

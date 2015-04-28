@@ -1,0 +1,15 @@
+title "A SERIES OF TUBES"
+
+theme "slate"
+
+slides "database.md"
+slides "sql.md"
+slides "sqlite.md"
+slides "create_table.md"
+slides "insert.md"
+slides "update.md"
+slides "delete.md"
+slides "sequel.md"
+slides "datasets.md"
+slides "crud.md"
+
