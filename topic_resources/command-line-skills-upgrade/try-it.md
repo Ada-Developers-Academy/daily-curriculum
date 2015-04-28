@@ -1,11 +1,15 @@
 # Try your command line skills
 
+Yes, you could do some of this stuff without the command line, but since we're practicing the command line, let's use that!
+
+Before actually tackling this list and executing commands, first list out which commands you think you'll use for each task. Compare your list with someone else before you get hackin'.
+
 1. Grab [these files](daily-curriculum-d5a8308082a021c0d8963bdc6520c89a3db5f302.zip)
 2. Rename the directory to `daily-curriculum-old`
 3. Make a copy of the entire directory called `daily-curriculum-new`
-4. Move all the files from `week*/day/` to a new folder called `topic_resources`
+4. Move all the files from `week/day/` to a new folder called `topic_resources`
 5. Fix all the now-broken links to `topic_resources/*`
-6. Remove all topic_resources that are not mentioned in any weekly_overview.md (or the new combined file)
+6. Remove all topic_resources that are not mentioned in any weekly_overview.md
 7. Move stray files in `/` to `/topic_resources/` IFF they are actually referenced somewhere, otherwise, delete them.
 
 ### Optional Challenges
