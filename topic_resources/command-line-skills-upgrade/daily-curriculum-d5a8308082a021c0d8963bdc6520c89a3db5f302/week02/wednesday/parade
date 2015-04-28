@@ -1,0 +1,25 @@
+title "Wednesday, November 6"
+
+theme "archetect"
+
+section "Starting Our Day" do
+  slides "schedule.md"
+  slides "standup.md"
+end
+
+section "Seattle.rb Retrospective" do
+  slides "seattle.rb.md"
+end
+
+section "Objects Using Objects" do
+  slides "objects_using_objects.md"
+end
+
+section "Worksheet" do
+  slides "worksheet.md"
+end
+
+section "Homework" do
+  slides "homework.md"
+end
+

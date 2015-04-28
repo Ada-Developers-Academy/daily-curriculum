@@ -1,0 +1,17 @@
+title "Thursday, November 21"
+
+theme "archetect"
+
+section "Starting Our Day" do
+  slides "schedule.md"
+  slides "warmup.md"
+  slides "standup.md"
+end
+
+section "Rubocop" do
+  slides "rubocop.md"
+end
+
+section "Homework" do
+  slides "homework.md"
+end

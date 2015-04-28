@@ -1,0 +1,13 @@
+title "Friday, November 8"
+
+theme "archetect"
+
+section "Starting Our Day" do
+  slides "schedule.md"
+  slides "standup.md"
+end
+
+
+section "Ask A Teen" do
+  slides "personalitysortinghat.md"
+end

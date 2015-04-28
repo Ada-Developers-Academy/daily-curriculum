@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div id="they-tell-me-i-have-to-use-this-thing-called-a-vps-for-my-capstone-project..." class="slide section level1">
+<h1>&quot;They tell me I have to use this thing called a VPS for my Capstone project...&quot;</h1>
+<p><strong>You:</strong> Why? And what is it anyway?</p>
+<p><strong>Me:</strong> It's a remote computer that you fully control.</p>
+<p><strong>You:</strong> Oh, like Heroku!</p>
+<p><strong>Me:</strong> Yup. For our purposes the end-goal is the same: to publish your Rails app for the world to see. But now we'll get there by taking a different path.</p>
+</div>
+<div id="what-does-heroku-buy-us" class="slide section level1">
+<h1>What does Heroku buy us?</h1>
+<p>It lets us easily:</p>
+<ol style="list-style-type: decimal">
+<li>Set up web servers</li>
+<li>Deploy web applications</li>
+<li>Scale to handle heavy traffic</li>
+</ol>
+</div>
+<div id="but-at-what-cost" class="slide section level1">
+<h1>But at what cost?!</h1>
+<p>Heroku is a great solution, but so far it's a bunch of magic.</p>
+<p>Relying on magic without understanding it is risky:</p>
+<ol style="list-style-type: decimal">
+<li>Don't know the incantations to diagnose/fix problems on the server.</li>
+<li>Fewer opportunities to customize/optimize the server.</li>
+<li>Many projects don't use Heroku; it's good to understand what they do instead.</li>
+<li>Magic can be expensive.</li>
+</ol>
+</div>
+<div id="connecting-to-servers" class="slide section level1">
+<h1>Connecting to Servers</h1>
+<p>Loading a website in the browser works because your computer and the server are having a conversation. They're talking using a protocol called HTTP.</p>
+<pre><code>Client                     Server
+  |                          |
+  |          request         |
+  |-------------------------&gt;|
+  |                          |
+  |         response         |
+  |&lt;-------------------------|
+  |                          |</code></pre>
+<p>HTTP is a great protocol for using websites, but not it's going to let us set up a web server. For that we need SSH.</p>
+</div>
+<div id="ssh-crash-course" class="slide section level1">
+<h1>SSH Crash Course</h1>
+<p>SSH stands for <strong>S</strong>ecure <strong>SH</strong>ell, and it's just another communication protocol for computers. Let's try it.</p>
+<p>Pick a random user: <code>ada1</code>, <code>ada2</code>, <code>ada3</code>, ... <code>ada100</code>. Your password is the same.</p>
+<p>It's okay if some people have the same user.</p>
+<p>Now open your terminal and connect.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">ssh</span> ada58@[some ip]
+<span class="kw">Password</span>:ada58</code></pre>
+<p>Notice how the prompt changed? You're connected to a Linux machine running on my laptop. Try typing in <code>watch -n1 'who'</code> to monitor which users are connected. As people log in and out the output should change.</p>
+<p>SSH can also be used to securely copy files from one computer to another. This will be useful when it comes time to copy the Rails application code to the server.</p>
+</div>
+<div id="now-we-need-a-server" class="slide section level1">
+<h1>Now we need a server</h1>
+<p>A Heroku server would be fine, but remember we're trying to unravel Heroku's magic.</p>
+<p>High-level requirements:</p>
+<ol style="list-style-type: decimal">
+<li>Must support Rails, database system, and any other dependencies of the Rails application</li>
+<li>Must be accessible on the internet via HTTP and SSH</li>
+</ol>
+</div>
+<div id="shared-web-hosting" class="slide section level1">
+<h1>Shared Web Hosting</h1>
+<div class="figure">
+<img src="shared-hosting-model.png" />
+</div>
+<p>Shared hosting is inexpensive, but provides little to no control over</p>
+<ul>
+<li>operating system</li>
+<li>software</li>
+<li>availability of system resources
+<ul>
+<li>processor (CPU)</li>
+<li>memory (RAM)</li>
+<li>storage (hard drive)</li>
+</ul></li>
+</ul>
+</div>
+<div id="virtual-private-servers" class="slide section level1">
+<h1>Virtual Private Servers</h1>
+<div class="figure">
+<img src="vps-model.png" />
+</div>
+<p>VPSs are more expensive than shared hosting, but they let us control nearly everything. Beyond the free tiers, they can be less expensive than Heroku.</p>
+<p>Ultimately, shared hosting isn't flexible enough to support Rails; we really need a VPS.</p>
+</div>
+<div id="setting-up-a-vps-on-amazons-ec2-service" class="slide section level1">
+<h1>Setting up a VPS on Amazon's EC2 service</h1>
+<p>EC2 is short for Elastic Compute Cloud. Using it feels a lot like buying parts for a custom computer. What we're really doing is renting a personal computer in the cloud.</p>
+<p>Fortunately EC2 provides a <a href="http://aws.amazon.com/free/">free tier</a>. Rails can run just fine on it.</p>
+<ol style="list-style-type: decimal">
+<li>Open the <a href="https://console.aws.amazon.com">AWS Console</a> and click EC2.</li>
+<li>Select the latest version of Ubuntu Linux that's marked as free tier eligible.</li>
+<li>Choose the instance type. The <em>t1.micro</em> with all the default settings will be a fine starting point.</li>
+<li>Add EBS storage (basically a hard drive).</li>
+<li>Set up the security group and allow HTTP traffic.</li>
+<li>Click launch.</li>
+<li>Set up a key pair so you can securely SSH into the new server. Keep careful track of this new file (and <em>never</em> commit it to any of your public git repositories!).</li>
+<li>Click &quot;Launch instance&quot;.</li>
+<li>Bookmark any helpful links.</li>
+</ol>
+</div>
+<div id="ssh-into-the-server" class="slide section level1">
+<h1>SSH into the server</h1>
+<p>To securely connect to the VPS you'll first have to set up some things on your laptop. Follow the instructions <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html">here</a>.</p>
+<p>Look at the new instance in the AWS console and find the public DNS. You'll also need the key file that you downloaded when you created the VPS.</p>
+<div class="figure">
+<img src="vps-dns.png" />
+</div>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">ssh</span> -i [key file] ubuntu@[vps public dns]</code></pre>
+<p>You can simplify this process storing some of this information in your <code>~/.ssh/config</code> file.</p>
+</div>
+<div id="use-ubuntus-package-manager-to-install-several-dependencies" class="slide section level1">
+<h1>Use Ubuntu's package manager to install several dependencies</h1>
+<p>A package manager is a lot like an app store for hackers. You can search for and install programs. If you've ever used <a href="http://brew.sh/">Homebrew</a> to install software on your laptop, it's really similar.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">sudo</span> apt-get update
+$ <span class="kw">sudo</span> apt-get -y upgrade
+$ <span class="kw">sudo</span> apt-get -y install git apache2 postgresql \
+     <span class="kw">libopenssl-ruby</span> libcurl4-openssl-dev \
+     <span class="kw">apache2-threaded-dev</span> libapr1-dev \
+     <span class="kw">libaprutil1-dev</span></code></pre>
+</div>
+<div id="install-rvm-ruby-and-essential-gems" class="slide section level1">
+<h1>Install RVM, Ruby, and Essential Gems</h1>
+<p>This process is exactly like what you did on your laptop during the <a href="https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/week01/monday/installfest.md#rvm-installation">installfest</a> on day 1.</p>
+<p>Start by installing <a href="http://rvm.io">RVM</a>.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ \<span class="kw">curl</span> -sSL https://get.rvm.io <span class="kw">|</span> <span class="kw">bash</span> -s stable
+$ <span class="kw">source</span> /home/ubuntu/.rvm/scripts/rvm</code></pre>
+<p>Then use RVM to install Ruby 2.0.0.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">rvm</span> install 2.0.0
+$ <span class="kw">rvm</span> use 2.0.0 --default</code></pre>
+<p>And now we can install the Rails, Bundler, and Passenger gems.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">gem</span> install rails bundler passenger --no-ri --no-rdoc</code></pre>
+</div>
+<div id="install-passenger-module-for-apache" class="slide section level1">
+<h1>Install Passenger module for Apache</h1>
+<p><a href="http://httpd.apache.org/">Apache</a> and <a href="https://www.phusionpassenger.com/">Passenger</a> may be unfamiliar. In short, Apache and Passenger translate between browser-speak and Rails-speak.</p>
+<p>Go through interactive passenger setup process:</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">passenger-install-apache2-module</span></code></pre>
+<p>Follow its recommendations, including</p>
+<ol style="list-style-type: decimal">
+<li>setting aside some hard drive space as virtual memory (aka swap)</li>
+<li>passenger module loading and configuration</li>
+</ol>
+<p>Now run <code>sudo a2enmod passenger</code> to enable Passenger.</p>
+<p>For now you can skip the virtual host configuration recommendation.</p>
+</div>
+<div id="web-application-servers-wha..." class="slide section level1">
+<h1>Web Application Servers: wha...?</h1>
+<p>The VPS needs software to facilitate conversations between your Rails app and all the browsers connecting to it.</p>
+<p>We already installed a popular web application server called Apache. By default Apache knows how to speak HTTP, but to speak 'Rails' it needs a module called Passenger. We just installed that too!</p>
+<pre><code>| = = = = |  |= = = = = = = = = = = = = = = = |
+| Client  |  |           S e r v e r          |
+| = = = = |  |= = = = = = = = = = = = = = = = |
+| Browser |  |Apache      Passenger      Rails|
+| = = = = |  |= = = = = = = = = = = = = = = = |
+     |          |             |            |
+     |---------&gt;|             |            |
+     |          |------------&gt;|            |
+     |          |             |-----------&gt;|
+     |          |             |&lt;-----------|
+     |          |&lt;------------|            |
+     |&lt;---------|             |            |
+     |          |             |            |</code></pre>
+</div>
+<div id="create-a-dummy-rails-app-on-the-vps-to-test-apachepassenger" class="slide section level1">
+<h1>Create a dummy Rails app on the VPS to test Apache/Passenger</h1>
+<p>While SSHed into the VPS, navigate to <code>/var/www</code> and create a new Rails project.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">cd</span> /var/www
+$ <span class="kw">rvmsudo</span> rails new crash-test-dummy</code></pre>
+<p>If you run into problems using <code>rvmsudo</code> take a look at <a href="https://rvm.io/integration/sudo">this page</a>.</p>
+</div>
+<div id="tell-apache-what-it-needs-to-know-about-your-app" class="slide section level1">
+<h1>Tell Apache what it needs to know about your app</h1>
+<p>Create a <code>crash-test-dummy.conf</code> file in <code>/etc/apache2/sites-available</code>. Be sure to replace the <code>ServerName</code> part with your server's public DNS.</p>
+<pre><code>&lt;VirtualHost *:80&gt;
+    ServerName ec2-184-72-148-221.compute-1.amazonaws.com
+    DocumentRoot /var/www/crash-test-dummy/public
+    &lt;Directory /var/www/crash-test-dummy/public&gt;
+        Allow from all
+        Options -MultiViews
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;</code></pre>
+<p>Tell Apache to start using this new configuration by running <code>sudo a2ensite crash-test-dummy.conf</code>.</p>
+<p>For more details on configuring Passenger, refer to <a href="http://www.modrails.com/documentation/Users%20guide%20Apache.html#_deploying_a_rack_based_ruby_application_including_rails_gt_3">this section</a> of the docs.</p>
+</div>
+<div id="test-the-dummy-rails-app" class="slide section level1">
+<h1>Test the dummy Rails app</h1>
+<ol style="list-style-type: decimal">
+<li>Restart Apache: <code>sudo service apache2 restart</code></li>
+<li>Paste the server's public DNS into your web browser</li>
+</ol>
+<div class="figure">
+<img src="crash-test-dummy-passenger-error.png" />
+</div>
+<p>Notice the <code>/var/www/crash-test-dummy/</code> lines. Passenger is successfully reading the dummy project. It's complaining due to the dummy project's lack of required gems, but that's no surprise. At least we can be confident in the Apache/Passenger configuration!</p>
+</div>
+<div id="where-to-go-from-here" class="slide section level1">
+<h1>Where to go from here?</h1>
+<p>We've got a couple options:</p>
+<ol style="list-style-type: decimal">
+<li>Continue developing the <code>crash-test-dummy</code> project <em>on</em> the production server.</li>
+<li>Develop on our laptops and periodically deploy changes to production.</li>
+</ol>
+<p>On the balance, the first option would be super frustrating.</p>
+<ul>
+<li>requires developing completely in the terminal (no Atom here)</li>
+<li>all changes, including major bugs, would be published to the world immediately</li>
+<li>no separation of test/production data</li>
+<li>development would require an internet connection</li>
+</ul>
+<p>Let's forget about the crash-test-dummy project. We'll work locally and deploy to production on our terms.</p>
+</div>
+<div id="start-a-rails-app-on-your-laptop" class="slide section level1">
+<h1>Start a Rails app on your laptop</h1>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">rails</span> new my-spiffy-project
+$ <span class="kw">cd</span> my-spiffy-project
+$ <span class="kw">git</span> init .
+$ <span class="kw">git</span> add .
+$ <span class="kw">git</span> commit -m <span class="st">&quot;initial commit&quot;</span>
+
+<span class="co"># deploy to a git server</span>
+$ <span class="kw">git</span> remote add origin git@scm.twiggilybeard.com:mekaj/ada-deployment-demo.git
+$ <span class="kw">git</span> push -u origin master</code></pre>
+<p>...or simply continue with a project you've already started. Keep in mind that syncing to a remote git repo that's internet-accessible will become important.</p>
+</div>
+<div id="create-a-basic-homepage" class="slide section level1">
+<h1>Create a basic homepage</h1>
+<p>Set up a new route in <code>config/routes.rb</code></p>
+<pre class="sourceCode ruby"><code class="sourceCode ruby">root <span class="st">&#39;welcome#index&#39;</span></code></pre>
+<p>Generate a default welcome controller</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">rails</span> generate controller Welcome index</code></pre>
+<p>Confirm it works</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">rails</span> s</code></pre>
+<p>Don't forget to git commit and push.</p>
+</div>
+<div id="install-capistrano-gem" class="slide section level1">
+<h1>Install Capistrano gem</h1>
+<p><a href="https://github.com/capistrano/capistrano">Capistrano</a> is a helpful gem for deploying your Rails code.</p>
+<p>Follow the latest installation and configuration instructions <a href="https://github.com/capistrano/capistrano/blob/master/README.md">here</a>. To start, add the Capistrano dependency to your Gemfile and build out the default skeleton. While you're at it, add the <code>rubyracer</code> gem.</p>
+<pre class="sourceCode ruby"><code class="sourceCode ruby">group <span class="st">:development</span> <span class="kw">do</span>
+  gem <span class="st">&#39;capistrano&#39;</span>
+  gem <span class="st">&#39;capistrano-rvm&#39;</span>
+  gem <span class="st">&#39;capistrano-bundler&#39;</span>
+  gem <span class="st">&#39;capistrano-rails&#39;</span>
+<span class="kw">end</span>
+
+gem <span class="st">&#39;therubyracer&#39;</span>, platforms: <span class="st">:ruby</span></code></pre>
+<p>And of course run bundler to actually install the gems.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">bundle</span> install</code></pre>
+</div>
+<div id="capistrano-stages" class="slide section level1">
+<h1>Capistrano stages</h1>
+<p>In our case we only need a deployment stage for the new production server.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash"><span class="kw">bundle</span> exec cap install STAGES=production</code></pre>
+<p>If you had clients or a QA team who need to vet changes before they're deployed to prod, you could also use an intermediary stage that's widely accessible (often called 'staging').</p>
+</div>
+<div id="configure-capistrano" class="slide section level1">
+<h1>Configure Capistrano</h1>
+<p>Tell Capistrano to use the helper gems we installed. Open <code>Capfile</code> and uncomment these lines:</p>
+<pre class="sourceCode ruby"><code class="sourceCode ruby">require <span class="st">&#39;capistrano/rvm&#39;</span>
+require <span class="st">&#39;capistrano/bundler&#39;</span>
+require <span class="st">&#39;capistrano/rails/assets&#39;</span>
+require <span class="st">&#39;capistrano/rails/migrations&#39;</span></code></pre>
+<p>Open <code>config/deploy.rb</code> and fix these settings:</p>
+<pre class="sourceCode ruby"><code class="sourceCode ruby">set <span class="st">:application</span>, <span class="st">&#39;my-spiffy-project&#39;</span>
+set <span class="st">:repo_url</span>, <span class="st">&#39;git@scm.twiggilybeard.com:mekaj/ada-deployment-demo.git&#39;</span>
+set <span class="st">:use_sudo</span>, <span class="dv">false</span>
+
+set <span class="st">:deploy_to</span>, <span class="st">&#39;/var/www/my-spiffy-project&#39;</span></code></pre>
+<p>And uncomment this line in the <code>:restart</code> task. Whenever Capistrano deploys to production this code will tell Apache to restart so the new changes take effect.</p>
+<pre class="sourceCode ruby"><code class="sourceCode ruby">execute <span class="st">:touch</span>, release_path.join(<span class="st">&#39;tmp/restart.txt&#39;</span>)</code></pre>
+</div>
+<div id="production-stage-configuration" class="slide section level1">
+<h1>Production stage configuration</h1>
+<p>Open <code>config/deploy/production.rb</code>.</p>
+<ol style="list-style-type: decimal">
+<li>Change all the <code>example.com</code>s to the public DNS.</li>
+<li>Change all the <code>deploy</code> user references to <code>ubuntu</code>, the primary user on the VPS.</li>
+<li>Add a server configuration section like this:</li>
+</ol>
+<pre><code>server &#39;ec2-184-72-148-221.compute-1.amazonaws.com&#39;,
+  user: &#39;ubuntu&#39;,
+  roles: %w{web app},
+  ssh_options: {
+    keys: %w(/Users/jacobmitchell/.ssh/my-spiffy-project.pem),
+    forward_agent: false,
+    auth_methods: %w(publickey)
+  }</code></pre>
+</div>
+<div id="attempt-deployment-via-capistrano" class="slide section level1">
+<h1>Attempt deployment via Capistrano</h1>
+<p>To see the list of commands supported by <code>cap</code>, run</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">bundle</span> exec cap -vT</code></pre>
+<p>We already used <code>install</code>. Now we're interested in <code>deploy</code>.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">bundle</span> exec cap production deploy --trace</code></pre>
+<p>You'll probably see an error like this:</p>
+<pre><code>DEBUG [f96c1cb9]    Permission denied (publickey,password).
+DEBUG [f96c1cb9]    fatal: Could not read from remote repository.
+DEBUG [f96c1cb9]
+DEBUG [f96c1cb9]    Please make sure you have the correct access rights
+DEBUG [f96c1cb9]    and the repository exists.</code></pre>
+<p>Look in the <code>config/deploy.rb</code> file. The <code>:repo_url</code> setting indicates what git repo Capistrano should read from when deploying code. The git server doesn't have SSH access to the VPS, so when Capistrano tries to copy from the git server to prod it's rejected. We can fix that by setting up a deployment key.</p>
+</div>
+<div id="deployment-keys" class="slide section level1">
+<h1>Deployment Keys</h1>
+<p>Both <a href="github.com">GitHub</a> and <a href="gitlab.com">GitLab</a> make this really easy. Here's how to do it in GitHub.</p>
+<ol style="list-style-type: decimal">
+<li>Log into GitHub and open your project's page.</li>
+<li>Click &quot;Settings&quot; and then &quot;Deploy Keys&quot;.</li>
+<li>Click &quot;Add deploy key&quot;</li>
+<li>In another terminal window, log into your VPS</li>
+<li>Run <code>ssh-keygen -t rsa -C &quot;[your GitHub email address]&quot;</code></li>
+<li>Press enter through all the prompts until you're returned to the terminal prompt</li>
+<li>Run <code>cat ~/.ssh/id_rsa.pub</code> (<strong>WARNING:</strong> don't forget the &quot;pub&quot; part)</li>
+<li>Copy the entire output into the Key section on GitHub and give it a title</li>
+<li>Click &quot;Add key&quot;</li>
+</ol>
+</div>
+<div id="retry-deployment" class="slide section level1">
+<h1>Retry deployment</h1>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">bundle</span> exec cap production deploy --trace</code></pre>
+<p>If you see an error like this...</p>
+<pre><code>DEBUG [06ffe91f]    mkdir:
+DEBUG [06ffe91f]    cannot create directory ‘/var/www/my-spiffy-project’
+DEBUG [06ffe91f]    : Permission denied</code></pre>
+<p>Log onto the server, create the directory, and assign ownership to the <code>ubuntu</code> user.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">sudo</span> mkdir /var/www/my-spiffy-project
+$ <span class="kw">sudo</span> chown -R ubuntu /var/www/my-spiffy-project
+$ <span class="kw">sudo</span> chgrp -R ubuntu /var/www/my-spiffy-project</code></pre>
+<p>Or an error like this:</p>
+<pre><code>DEBUG [3309bb27]    touch:
+DEBUG [3309bb27]    cannot touch ‘/var/www/my-spiffy-project/releases/20140402184020/tmp/restart.txt’
+DEBUG [3309bb27]    : No such file or directory</code></pre>
+<p>Add an empty <code>tmp/restart.txt</code> file to your local repo, commit, push, and try again. You may have to tweak the <code>.gitignore</code> file.</p>
+</div>
+<div id="after-successful-deployment-configure-apache" class="slide section level1">
+<h1>After successful deployment, configure Apache</h1>
+<p>We already have Apache configured for the <code>crash-test-dummy</code> project on the production server. Now we need something similar for the real project.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">cd</span> /etc/apache2/sites-available
+$ <span class="kw">sudo</span> cp crash-test-dummy.conf my-spiffy-project.conf</code></pre>
+<p>Edit the new file to point to the deployment directory.</p>
+<pre><code>...
+  DocumentRoot /var/www/my-spiffy-project/current/public
+  &lt;Directory /var/www/my-spiffy-project/current/public&gt;
+...</code></pre>
+<p>Tell Apache to stop serving the <code>crash-test-dummy</code> and start serving <code>my-spiffy-project</code>.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">sudo</span> a2dissite crash-test-dummy.conf
+$ <span class="kw">sudo</span> a2ensite my-spiffy-project.conf
+$ <span class="kw">sudo</span> service apache2 reload</code></pre>
+</div>
+<div id="browser-test" class="slide section level1">
+<h1>Browser test</h1>
+<p>Navigate to your server's public DNS in the browser and cross your fingers.</p>
+<p>If Passenger complains with an error about <code>bundle install</code>. In that case you may have forgotten to install the Capistrano helper gems like <code>capistrano-bundler</code> and require them in the <code>Capfile</code>.</p>
+<div class="figure">
+<img src="missing-capistrano-bundler-gem.png" />
+</div>
+<p>Once everything's working development and deployment will feel a lot more like Heroku.</p>
+</div>
+<div id="deploy-a-bug...intentionally" class="slide section level1">
+<h1>Deploy a bug...intentionally</h1>
+<p>Capistrano has a nifty way to help us recover from a bad deployment. Let's try it out.</p>
+<p>Comment out the <code>root</code> route in the <code>config/routes.rb</code>, commit, push, and deploy.</p>
+<div class="figure">
+<img src="intentional-bug.png" />
+</div>
+</div>
+<div id="rollbacks-to-the-rescue" class="slide section level1">
+<h1>Rollbacks to the rescue</h1>
+<p>Eww, we don't want that. Rollback to where things were good.</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">bundle</span> exec cap production deploy:rollback --trace</code></pre>
+<p>Ah, that's better.</p>
+<div class="figure">
+<img src="it-works.png" />
+</div>
+</div>
+</body>
+</html>

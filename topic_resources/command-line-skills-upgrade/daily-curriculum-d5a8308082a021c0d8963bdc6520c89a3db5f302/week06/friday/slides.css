@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Arbutus);
+
+body {
+  background-color: #e09224;
+  color: #212526;
+}
+
+.slide {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Arbutus', cursive;
+  color: white;
+  font-size: 50px;
+}
+
+
+table {
+   margin: 0 auto;
+   font-size: 40px;
+}
+
+li {
+  padding: 0 !important;
+}

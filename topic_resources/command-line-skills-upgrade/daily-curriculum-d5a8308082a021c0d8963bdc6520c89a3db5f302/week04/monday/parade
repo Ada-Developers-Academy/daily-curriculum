@@ -1,0 +1,12 @@
+title "Monday, November 18"
+
+theme "archetect"
+
+section "Starting Our Day" do
+  slides "schedule.md"
+  slides "standup.md"
+end
+
+section "Homework" do
+  slides "homework.md"
+end
