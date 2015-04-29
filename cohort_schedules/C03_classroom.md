@@ -81,9 +81,10 @@ Warmup ideas:
 | Time           | Activity                                                      | With
 |----------------|---------------------------------------------------------------|----------
 |  9:00 - 10:00  | Meet and Greet with staff + Breakfast                         | Staff
-| 10:00 - 12:00  | Get to know you activities / Classroom Contract               |
+| 10:00 - 12:00  | Get to know you activities                                    |
 | 12:00 -  1:00  | LUNCH / Photobooth                                            |
-|  1:00 -  2:00  | What is Ada?                                                  |
+|  1:00 -  1:30  | What is Ada?                                                  |
+|  1:30 -  2:00  | Classroom Contract                                            |
 |  2:00 -  3:00  | Program Guide / Student Handbook                              |
 |  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              |
 |  4:00 -  5:00  | Thoughts from pre-assignments                                 |
@@ -109,7 +110,7 @@ __Empowered Women Activity__
 
 __Homework__
 + Introduction and Chap 1 - Learn To Program
-+ Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby
+<!--+ Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby-->
 + Setup an account on Twitter, LinkedIn, Github, and Gravatar (with same email address)
 
 __Resources__
@@ -122,17 +123,27 @@ __Resources__
 |---------------|-------------------
 | 9:00 - 9:30 | [Introduction to Ruby](../topic_resources/ruby_101.md)
 | 9:30 - 10:00 | [Introduction to Atom](../topic_resources/atom.md)
-| 10:00 - 12:30 | [Rails Bridge Setup](../topic_resources/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/))
-| 12:30 - 1:30 | Lunch
-| 1:30 - 3:30  | [Rails Bridge Continued](http://docs.railsbridge.org/intro-to-rails/)
-| 3:30 - 5:00  | [Git Immersion](../topic_resources/git_immersion.md) lab
+| 10:00 - 12:00 | 
+| 12:00 - 1:00 | Lunch
+| 1:00 - 3:30  | 
+| 3:30 - 5:00  | 
 
+<!-- KAB note we can't do this until we've covered Git -->
 __Homework__
 - Read chapters 2-5 of Learn to Program.
 - Create a directory called `ltp_5_6` and initialize it into a git repo.
 - Complete the two exercises in section 5.6. (saving the files into the `ltp_5_6` dir).
 - Create a `ltp_5_6` repo on Github.com.
 - Push your assignments to Github!
+
+<!-- Rails Bridge used to be here on Wed
+[Rails Bridge Setup](../topic_resources/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/))
+[Rails Bridge Continued](http://docs.railsbridge.org/intro-to-rails/)
+-->
+
+<!-- Git Immersion used to be here on Wed
+[Git Immersion](../topic_resources/git_immersion.md) lab
+-->
 
 #### Thursday
 
