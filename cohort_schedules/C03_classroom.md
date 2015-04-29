@@ -82,8 +82,8 @@
 
 | Time           | Activity                                                      | With
 |----------------|---------------------------------------------------------------|----------
-|  9:00 - 10:00  | [Introduction to Unix](../topic_resources/nix.md)             |
-| 10:00 - 11:00  | Empowered Women Activity                                      |
+|  9:00 - 10:00  | Empowered Women Activity                                      |
+| 10:00 - 11:00  | [Introduction to Unix](../topic_resources/nix.md)             |
 | 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
 | 12:00 -  1:00  | LUNCH                                                         |
 |  1:00 -  4:00  | Team [Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md) | All Ada Staff
@@ -98,8 +98,8 @@ __Empowered Women Activity__
     + Anything else important/interesting to know about her?
 
 __Homework__
-+ Introduction and Chap 1 - Learn To Program
-<!--+ Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby-->
++ Introduction and Chap 1 - Learn To Program  
+<!-- Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby-->
 + Setup an account on Twitter, LinkedIn, Github, and Gravatar (with same email address)
 
 __Resources__
@@ -110,12 +110,14 @@ __Resources__
 
 | Time          | Topic
 |---------------|-------------------
-| 9:00 - 9:30 | [Introduction to Ruby](../topic_resources/ruby_101.md)
-| 9:30 - 10:00 | [Introduction to Atom](../topic_resources/atom.md)
-| 10:00 - 12:00 | 
-| 12:00 - 1:00 | Lunch
-| 1:00 - 3:30  | 
-| 3:30 - 5:00  | 
+|  9:00 - 9:15  | 
+|  9:15 - 9:45  | [Introduction to Ruby](../topic_resources/ruby_101.md)
+|  9:45 - 10:30 | Intro Ruby Exercises
+| 10:30 - 11:00 | 
+| 11:00 - 12:00 | [Introduction to Atom](../topic_resources/atom.md)
+| 12:00 - 1:00  | Lunch
+|  1:00 - 3:30  | 
+|  3:30 - 5:00  | [Ruby 102](../topic_resources/ruby-102.md)
 
 <!-- KAB note we can't do this until we've covered Git -->
 __Homework__
@@ -138,7 +140,7 @@ __Homework__
 
 | Time               | Topic
 |--------------------|-------------------------------------------------------------------------
-| 9:10 - 10:30 | [Ruby 102](../topic_resources/ruby-102.md)
+| 9:10 - 10:30 | 
 | 10:30 - 11:00  | [Flow Control](../topic_resources/flow-control.md)
 | 11:00 - 12:00  | [Calculator Lab](../topic_resources/calculator.md)
 | 12:00 - 1:00 | Lunch
