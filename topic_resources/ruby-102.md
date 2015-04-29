@@ -17,14 +17,14 @@ by ruby it would be a `String`
 "-" * 40
 # => "----------------------------------------"
 
-"Bookis".reverse
-# => "sikooB"
+"Kari".reverse
+# => "iraK"
 
 "I'm thirty one characters long!".length
 # => 31
 ```
 
-Check out the [Documentation for String](http://www.ruby-doc.org/core-2.1.2/String.html) to see other things that you can do to a String
+Check out the [Documentation for String](http://www.ruby-doc.org/core-2.2.2/String.html) to see other things that you can do to a String
 
 #### Single or Double Quotes?
 Either work, they do have some differences, double quotes interpolate special characters and Ruby.
@@ -54,11 +54,11 @@ puts "\"Hello\" I said"
 Symbols are a lot like strings but they are meant to represent names (short strings), basically it's text that is meant only for keeping track of the name of something inside of a ruby application. An identifier.
 
 ```ruby
-:bookis.object_id # => 483528
-:bookis.object_id # => 483528
+:kari.object_id # => 483528
+:kari.object_id # => 483528
 
-"bookis".object_id # => 70259726644020
-"bookis".object_id # => 70359726563680
+"kari".object_id # => 70259726644020
+"kari".object_id # => 70359726563680
 ```
 
 `Numbers`
@@ -87,7 +87,7 @@ Use Integers unless you have a specific reason not to.
 # (be careful, you may not always get the type that you expect back)
 ```
 
-Check out the Documentation for [Integers](http://www.ruby-doc.org/core-2.1.2/Integer.html) and [Floats](http://www.ruby-doc.org/core-2.1.2/Float.html).
+Check out the Documentation for [Integers](http://www.ruby-doc.org/core-2.2.2/Integer.html) and [Floats](http://www.ruby-doc.org/core-2.2.2/Float.html).
 
 Collections
 -----------
@@ -138,7 +138,7 @@ h[:greeting] # => "Hello"
 h[:pi] # => 3.14
 
 ```
-Look at the Ruby docs for [Array](http://www.ruby-doc.org/core-2.1.2/Array.html) and [Hash](http://www.ruby-doc.org/core-2.1.2/Hash.html) for more info
+Look at the Ruby docs for [Array](http://www.ruby-doc.org/core-2.2.2/Array.html) and [Hash](http://www.ruby-doc.org/core-2.2.2/Hash.html) for more info
 
 #### Iteration
 
@@ -163,8 +163,8 @@ the variable `food` will point to the current object.
 
 Resources
 ---------
-- http://www.ruby-doc.org/core-2.1.2/String.html
-- http://www.ruby-doc.org/core-2.1.2/Integer.html
-- http://www.ruby-doc.org/core-2.1.2/Float.html
-- http://www.ruby-doc.org/core-2.1.2/Array.html
-- http://www.ruby-doc.org/core-2.1.2/Hash.html
+- http://www.ruby-doc.org/core-2.2.2/String.html
+- http://www.ruby-doc.org/core-2.2.2/Integer.html
+- http://www.ruby-doc.org/core-2.2.2/Float.html
+- http://www.ruby-doc.org/core-2.2.2/Array.html
+- http://www.ruby-doc.org/core-2.2.2/Hash.html
