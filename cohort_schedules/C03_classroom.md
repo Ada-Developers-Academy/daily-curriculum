@@ -118,7 +118,7 @@ __Resources__
 |  1:00 - 2:00  | [Ruby 102](../topic_resources/ruby-102.md)
 |  2:00 - 3:00  | Array & Hash Exercises
 |  3:00 - 4:00  | [Flow Control](../topic_resources/flow-control.md)
-|  4:00 - 5:00  | [Calculator Lab](../topic_resources/calculator.md)
+|  4:00 - 5:00  | Karen Time
 
 <!-- KAB note we can't do this until we've covered Git -->
 __Homework__
@@ -162,8 +162,8 @@ After completing calculator: [gitimmersion.com](http://gitimmersion.com) -->
 |---------------|-----------------------------------------------------------------------------------
 | 9:00 - 9:15   | Review
 | 9:15 - 10:00  | Assessment
-| 10:00 - 10:30 | [Ruby Objects](../topic_resources/object-orientation.md)
-| 10:45 - 12:00 | 
+| 10:00 - 11:00 | Cynthia Time
+| 11:00 - 12:00 | [Ruby Objects](../topic_resources/object-orientation.md)
 | 12:00 - 1:00 | Lunch
 | 1:00 - 5:00 | Adventure Game lab part 2. Page 149-158 in Beginning Ruby
 | 1:00 - 5:00 | Crystal 1-on-1s
