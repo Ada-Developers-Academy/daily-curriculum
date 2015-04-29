@@ -60,7 +60,6 @@
       - Object Orientation
   + Learn about basic tools
       - Text Editors (Atom)
-      - Git
       - Terminal
 
 ### Schedule
@@ -119,7 +118,7 @@ __Resources__
 |  1:00 - 2:00  | [Ruby 102](../topic_resources/ruby-102.md)
 |  2:00 - 3:00  | Array & Hash Exercises
 |  3:00 - 4:00  | [Flow Control](../topic_resources/flow-control.md)
-|  4:00 - 5:00  | (start calculator or...?)
+|  4:00 - 5:00  | [Calculator Lab](../topic_resources/calculator.md)
 
 <!-- KAB note we can't do this until we've covered Git -->
 __Homework__
@@ -142,12 +141,13 @@ __Homework__
 
 | Time               | Activity
 |--------------------|-------------------------------------------------------------------------
-|  9:00 - 9:15   | 
-|  9:15 - 11:00  | 
-| 11:00 - 12:00  | [Calculator Lab](../topic_resources/calculator.md)
-| 12:00 - 1:00 | Lunch
-| 1:00 - 5:00  | [Calculator Lab](../topic_resources/calculator.md)
-| 3:00 - 5:00  | 
+|  9:00 - 9:15  | Review
+| 9:15 - 12:00  | [Calculator Lab](../topic_resources/calculator.md)
+| 12:00 - 1:00  | Lunch
+|  1:00 - 2:00  | Calculator De-brief
+|  2:00 - 3:00  | [Ruby 103](../topic_resources/ruby-103.md)
+|  3:00 - 4:00  | [More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)
+|  4:00 - 5:00  | Exercises
 
 __Homework__
 <!-- Read through Chapter 2 of Beginning Ruby 
@@ -158,13 +158,15 @@ After completing calculator: [gitimmersion.com](http://gitimmersion.com) -->
 
 #### Friday
 
-| Time          | Topic
+| Time          | Activity
 |---------------|-----------------------------------------------------------------------------------
-| 9:00 - 10:00 | [Ruby 103](../topic_resources/ruby-103.md)
-| 10:00 - 10:30 | [More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)
-| 10:45 - 12:00 | [Ruby Objects](../topic_resources/object-orientation.md)
+| 9:00 - 9:15   | Review
+| 9:15 - 10:00  | Assessment
+| 10:00 - 10:30 | [Ruby Objects](../topic_resources/object-orientation.md)
+| 10:45 - 12:00 | 
 | 12:00 - 1:00 | Lunch
 | 1:00 - 5:00 | Adventure Game lab part 2. Page 149-158 in Beginning Ruby
+| 1:00 - 5:00 | Crystal 1-on-1s
 
 __Homework__
 * Work through Chapters 7, 8 of Learn to Program
