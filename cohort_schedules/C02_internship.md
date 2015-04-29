@@ -22,56 +22,6 @@ Jun 16  | [Week 15](#week-15-of-internships)  | OFFSITE PROJECT TIME
 Jun 23  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Networking, TA Scheduling
 Aug 28  |                                     | **GRADUATION**
 
-<!--
-
-Soft-Skills:
-- Confidence in communication
-- Bringing someone around to your thinking
-- dealing with stress
-- interaction styles
-- Workshop on getting yelled at
-
-Possible people to ask to speak:
-- Elton: Networking
-- Koz: Climbing the corporate ladder
-- Margaeux:
-- Adam:
-- Andy: User Centered Design
--
-
-Possible CS Fundamental topics:
-- ADTs (LinkedList, Stack/Queue, Sets, Maps, Trees)
-- Algorithms ()
-- Efficiency - Big O
-- Recursive vs Iterative Solutions
-- Language pros and cons
-- Compiled languages vs interpreted languages
-- Dean's list:
-CS (to be spread out throughout the year):
- - Thinking about collections: Bags, Stacks, and Queues
-    * The simplest collection interface
-    * Getting things back in order: LIFO and FIFO
- - Thinking about performance: Simplified Big-O
-    * O(1): Hashes and lookup tables
-    * O(n): Arrays and Enumerable methods
-    * O(n^2) … O(n^k): Nested loops and matrices
- - Thinking about collections 2: Linked lists
- - Thinking about sorting
-    * Bubble sort
-    * Insertion sort
- - Thinking about sorting 2: Quicksort
-   * The plan: divide and conquer
-   * Pivots
- - Thinking about collections 3: Trees and Graphs
-   * Parents and children
-   * Tree height
-   * BSTs
- - Pointers to advanced things
-  * Heaps and priority queues
-  * Hashes
-  * Game CS: A*, quad trees, occlusion
-
--->
 
 ## Week 2 of Internships
 

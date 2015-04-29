@@ -31,18 +31,7 @@
 | Oct 5   | [Week 23](#week-23) | Final Rails Project Presentations
 | Oct 12  | [Week 24](#week-24) | Internship Spike Project
 | Nov 23  |                     | __Thanksgiving Break__
-| June 29 |                     | __INTERNSHIP BEGINS__
-
-<!--
-Warmup ideas:
-- Koans
-- Codecademy
-- Project Euler
-- Blog Posts
-- Look up various terms
-  - Compiled vs Interpreted
-  - Strong vs Weak Typed Languages
--->
+| Nov 30 |                     | __INTERNSHIP BEGINS__
 
 
 ## Week 1
