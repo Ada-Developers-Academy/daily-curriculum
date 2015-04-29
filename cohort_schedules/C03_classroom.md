@@ -108,16 +108,18 @@ __Resources__
 
 #### Wednesday
 
-| Time          | Topic
+| Time          | Activity
 |---------------|-------------------
-|  9:00 - 9:15  | 
+|  9:00 - 9:15  | Review
 |  9:15 - 9:45  | [Introduction to Ruby](../topic_resources/ruby_101.md)
 |  9:45 - 10:30 | Intro Ruby Exercises
-| 10:30 - 11:00 | 
+| 10:30 - 11:00 | (fun times?)
 | 11:00 - 12:00 | [Introduction to Atom](../topic_resources/atom.md)
 | 12:00 - 1:00  | Lunch
-|  1:00 - 3:30  | 
-|  3:30 - 5:00  | [Ruby 102](../topic_resources/ruby-102.md)
+|  1:00 - 2:00  | [Ruby 102](../topic_resources/ruby-102.md)
+|  2:00 - 3:00  | Array & Hash Exercises
+|  3:00 - 4:00  | [Flow Control](../topic_resources/flow-control.md)
+|  4:00 - 5:00  | (start calculator or...?)
 
 <!-- KAB note we can't do this until we've covered Git -->
 __Homework__
@@ -138,19 +140,21 @@ __Homework__
 
 #### Thursday
 
-| Time               | Topic
+| Time               | Activity
 |--------------------|-------------------------------------------------------------------------
-| 9:10 - 10:30 | 
-| 10:30 - 11:00  | [Flow Control](../topic_resources/flow-control.md)
+|  9:00 - 9:15   | 
+|  9:15 - 11:00  | 
 | 11:00 - 12:00  | [Calculator Lab](../topic_resources/calculator.md)
 | 12:00 - 1:00 | Lunch
 | 1:00 - 5:00  | [Calculator Lab](../topic_resources/calculator.md)
-| 3:00 - 5:00  | After completing calculator: [gitimmersion.com](http://gitimmersion.com)
+| 3:00 - 5:00  | 
 
 __Homework__
+<!-- Read through Chapter 2 of Beginning Ruby 
++ Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com)) (upto lab 25) -->
 
-+ Read through Chapter 2 of Beginning Ruby
-+ Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com)) (upto lab 25)
+<!-- Git Immersion was here for 2 hours
+After completing calculator: [gitimmersion.com](http://gitimmersion.com) -->
 
 #### Friday
 
