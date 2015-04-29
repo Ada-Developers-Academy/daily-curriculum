@@ -33,17 +33,6 @@
 | Nov 23  |                     | __Thanksgiving Break__
 | Nov 30 |                     | __INTERNSHIP BEGINS__
 
-<!--
-Warmup ideas:
-- Koans
-- Codecademy
-- Project Euler
-- Blog Posts
-- Look up various terms
-  - Compiled vs Interpreted
-  - Strong vs Weak Typed Languages
--->
-
 
 ## Week 1
 
