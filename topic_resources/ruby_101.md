@@ -38,7 +38,7 @@ Ruby Community
 
 Our First Textbooks
 ===================
-We'll be using Beginning Ruby by Peter Cooper and Learn to Program to get ourselves acquainted with Ruby.
+We'll be using Learn to Program to get ourselves acquainted with Ruby.
 
 
 What is it about Ruby?
