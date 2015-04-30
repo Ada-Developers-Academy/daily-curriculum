@@ -74,7 +74,23 @@ An iterator does a piece of work over and over and over and over and over...
 10.times
    puts "Hello World!"
  end
- ``` 
+ ```
+ 
+Ranges
+======
+
+```ruby
+(1..10).each { |number| puts number }
+('a'..'z').each { |letter| puts letter }
+```
+
+What would this do?
+
+```ruby
+first = 10
+last = 20
+(first..last).each { |number| puts number }
+``` 
 
 The most powerful use for any Ruby collection is iteration. The most basic iteration method that
 exists for any collection object is `#each`.

@@ -125,19 +125,3 @@ when "sqrt"
   # find the square root of the number
 end
 ```
-
-Ranges
-======
-
-```ruby
-(1..10).each { |number| puts number }
-('a'..'z').each { |letter| puts letter }
-```
-
-What would this do?
-
-```ruby
-first = 10
-last = 20
-(first..last).each { |number| puts number }
-```
