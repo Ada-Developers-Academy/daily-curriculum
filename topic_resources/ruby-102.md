@@ -139,27 +139,6 @@ h[:pi] # => 3.14
 
 ```
 Look at the Ruby docs for [Array](http://www.ruby-doc.org/core-2.2.2/Array.html) and [Hash](http://www.ruby-doc.org/core-2.2.2/Hash.html) for more info
-<!--
-#### Iteration
-
-The most powerful use for any Ruby collection is iteration. The most basic iteration method that
-exists for any collection object is `#each`.
-
-```ruby
-["Ice Cream", "Chocolate", "Smores"].each do |food|
-  puts "I love #{food}"
-end
-
-# I love Ice Cream
-# I love Chocolate
-# I love Smores
-# => ["Ice Cream", "Chocolate", "Smores"]
-```
-
-The each method takes a block as an argument, blocks can be represented in a couple different
-ways, but the `do` `end` style is the most simple. We'll learn more about blocks in the future.
-For each Object in the array, the code inside of the block will be executed, during execution
-the variable `food` will point to the current object.-->
 
 Resources
 ---------

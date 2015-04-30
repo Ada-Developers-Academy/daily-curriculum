@@ -64,3 +64,33 @@ end
 ```
 
 `n` is the defined argument, this means that objects given to the block are going to be assigned to the `n` variable within the scope of the block
+
+#### Iteration
+
+Basic Iterators
+===============
+An iterator does a piece of work over and over and over and over and over...
+```
+10.times
+   puts "Hello World!"
+ end
+ ``` 
+
+The most powerful use for any Ruby collection is iteration. The most basic iteration method that
+exists for any collection object is `#each`.
+
+```ruby
+["Ice Cream", "Chocolate", "Smores"].each do |food|
+  puts "I love #{food}"
+end
+
+# I love Ice Cream
+# I love Chocolate
+# I love Smores
+# => ["Ice Cream", "Chocolate", "Smores"]
+```
+
+The each method takes a block as an argument, blocks can be represented in a couple different
+ways, but the `do` `end` style is the most simple. We'll learn more about blocks in the future.
+For each Object in the array, the code inside of the block will be executed, during execution
+the variable `food` will point to the current object.
