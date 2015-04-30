@@ -1,4 +1,4 @@
-# Ruby 103: Literals, Iterators, & Blocks
+# Ruby 103: Literals, Iterators & Blocks
 
 ## Literals
 
@@ -71,9 +71,25 @@ puts are_tacos_awesome
 12..0 # tricky!
 ```
 
-## Iterators
+## Iterators & Blocks
 
-## Ruby Blocks
+_Iteration_ is the process of progromatically interacting with a collection of values, one at a time. We call it "looping" sometimes, and we do a lot of it. Here is a simple loop; fire up irb and give it a try:
+
+```ruby
+10.times { |n| puts n } # So... what happened
+```
+#### Question: What is `times`?
+
+We can iterate all kinds of things, but probably the most common and most fun is iterating an _Array_. They're especially suited for iteration because they, by default, have a objective order to their elements. Here's an example of iterating an _Array_ using the `each` _method_:
+
+```ruby
+[10, 20, 30, 40, 50].each do |number|
+  puts number * 10
+end
+```
+Cool, right? `each` iterated the _Array_, starting with the first value, multiplied the value by 10, and spit it out. It knew what to do on each step of the iteration because we provided a _block_ of instructions.
+
+### Let's talk about Blocks...
 
 Blocks (also referred to as _closures_, especially in other languages like JavaScript) are not a unique features of Ruby, but they're one that many people talk about (and more people use without realizing it!) What is a block?
 
@@ -102,130 +118,46 @@ Block can be identified by either `do ... end` or `{ }`.
 Block arguments are defined using a pair of `|` (pipe) characters. They look like a slide, so I like to say that we slide arguments into the block. For example:
 
 ```
-[1,2,3].each do |n|
-  puts n # wheeeee! Right down the slide!
+[1,2,3].each do |number|
+  puts number # wheeeee! Right down the slide!
 end
 ```
 
-`n` is the defined argument, this means that objects given to the block are going to be assigned to the `n` variable within the scope of the block.
+`number` is the defined argument, this means that objects given to the block are going to be assigned to the `number` variable within the scope of the block.
 
-### Lambdas and Stabby Lambdas: Doing Things Later
+### Exercise: Walk Through a Loop:
 
-Lambdas are blocks that are stored in a variable to be executed later. They work a lot like methods, and deciding to use a method or a lambda is often an architectural decision. Let's say we want to add some number, our code might look like:
-
-```ruby
-4+5 # => 9
-```
-
-Pretty simple. Now let's try it with variables:
+It's very important to understand what's happening during iteration. The best way to get comfortable with loops is to make a chart showing how values change during iteration. Here's an example of a loop and it's corresponding value chart:
 
 ```ruby
-a = 4 # => 4
-b = 5 # => 5
-a + b # => 9
-```
-
-Now, what if we wanted to store the behavior of `a + b`? Well, we could write a method:
-
-```ruby
-def add(a,b)
-  a + b
-end
-
-add(4,5) # => 9
-```
-
-And that's ok, but here's an easier way:
-
-```ruby
-add = lambda { |a, b| return a + b }
-add.call(4,5) # => 9
-```
-
-What's going on here? The variable `add` was assigned a _lambda_ block that accepts two _arguments_, and returns their sum. The `.call` _method_ invokes the lambda, executing it with the arguments we provided (4 and 5).
-
-#### Question: What would be the result of `add.call(1000,10_000)`?
-
-Ok, so _lambda_ is really hard to type. Seriously, I've messed it up so many times while working on this lecture. Fortunately, lots of other Rubyists agree, so now we have something called the __stabby lambda__:
-
-```ruby
-add = -> { |a, b| return a + b } # the -> is a stabby lambda
-```
-
-They work exactly the same and are becoming increasingly common.
-
-## Why do we need blocks and lambdas, stabby or otherwise?
-
-Would you believe you've already been using them without knowing it? Take this bit of Ruby:
-
-```ruby
-[1,2,3].select { |n| return n.odd? }
-```
-
-In the above example, `{ |n| n.odd? }` is a block! We're passing it in to `.select` (a _method_ from the _Enumerable_ class) which iterates over each element in the _Array_ and uses the block to determine what to return; it only returns the values that are evaluated `true` in the block.
-
-Here's another use of a block:
-
-```ruby
-[1,2,3].each do |n|
-  puts n * 2
+[11,5,8,100].each do |n|
+  puts number * 4
 end
 ```
 
-`n` is the defined argument, this means that objects given to the block are going to be assigned to the `n` variable within the scope of the block
+| loop count | value of n | output |
+|------------|------------|---------
+| 1          | 11         | 4
+| 2          | 5          | 20
+| 3          | 8          | 32
+| 4          | 100        | 400
 
-#### Iteration
 
-Basic Iterators
-===============
-An iterator does a piece of work over and over and over and over and over...
-```
-10.times
-   puts "Hello World!"
- end
- ```
+With a pair, figure out what's happening on each iteration of the following loop, on paper, using the handy table template:
 
-Ranges
-======
+| loop count | value of x | value of y | output |
+|------------|------------|------------|---------
+| | | |
+| | | |
 
-```ruby
-(1..10).each { |number| puts number }
-('a'..'z').each { |letter| puts letter }
-```
-
-What would this do?
+You'll need more rows, but you get the idea.
 
 ```ruby
-first = 10
-last = 20
-(first..last).each { |number| puts number }
-```
-
-The most powerful use for any Ruby collection is iteration. The most basic iteration method that
-exists for any collection object is `#each`.
-
-```ruby
-["Ice Cream", "Chocolate", "Smores"].each do |food|
-  puts "I love #{food}"
+y = 0
+[9,8,7,6,5,4,3,2,1].each do |x|
+  if x % 2 == 0
+    y = y + x
+  end
+  puts y
 end
-
-# I love Ice Cream
-# I love Chocolate
-# I love Smores
-# => ["Ice Cream", "Chocolate", "Smores"]
-```
-
-The each method takes a block as an argument, blocks can be represented in a couple different
-ways, but the `do` `end` style is the most simple. We'll learn more about blocks in the future.
-For each Object in the array, the code inside of the block will be executed, during execution
-the variable `food` will point to the current object.
-=======
-Different format, same output.
-
-### Question: Why would I use `{}` versus `do/end`?
-
-Last example, putting it all together:
-
-```ruby
-
 ```
