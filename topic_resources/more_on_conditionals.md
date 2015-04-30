@@ -87,7 +87,7 @@ end
 puts "OMG It's about time!"
 ```
 
-case/when
+More complex conditionals
 ==================
 
 ```ruby
