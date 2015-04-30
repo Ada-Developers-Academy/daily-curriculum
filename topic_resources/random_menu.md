@@ -12,7 +12,7 @@ For example, you could have a list of adjectives, cooking styles and foods in or
 
 Each array should contain ten items. When the program runs, it should create and show a list of ten different numbered menu items.
 ```ruby
-# => 1. hot pan-fried dumplings
+1. hot pan-fried dumplings
 2. soft steamed clams
 3. ...
 ...
