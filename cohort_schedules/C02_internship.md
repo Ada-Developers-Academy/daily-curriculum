@@ -90,7 +90,7 @@ If you find a project that would allow for multiple contributors or pairing, sha
 - What lessons can you glean from their experience?
 
 ### CS ADTs
-- Notes in Lecture Video that I have to figure out how to post
+- [Video with Notes](http://lectures.adadevelopersacademy.org/adt.m4v)
 - [Questions](../topic_resources/interview-questions-data-structures.md)
 
 ## Week 5 of Internships
