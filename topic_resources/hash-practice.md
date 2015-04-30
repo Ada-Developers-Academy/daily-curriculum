@@ -1,4 +1,5 @@
 # Hash Practice
+- In teams of two
 
 - Pick an idea to represent in a `Hash` (people, plants, books, events, anything...), with at least four attributes.
 - In a .rb file, write an `Array` of `Hash` objects that represent at least two different versions of the idea.
