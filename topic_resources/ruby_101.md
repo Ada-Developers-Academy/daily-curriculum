@@ -103,31 +103,10 @@ Math.sqrt(a+b) => 5.0
 ```
 Methods
 ============
-We have to tell computers how to do every single step, but we don't have to tell them every step every single time.
+We have used a lot of methods up to this point, and we didn't even know it!  
 
-```
-def hello
-  puts "Hello World!"
-end
-```
 
-Methods part 2
-===================
-What if we wanted to say hello to specific people, not just the whole world?
+In the ```Math.sqrt(9)``` example, ```sqrt``` is the name of a method. In this case, we **call** the ```sqrt``` method in the ```Math``` **module** with the __parameter__ value 9.  
+```gets.chomp``` is another example where we were using a method. In this case, we **call** the ```chomps``` method with no __parameters__ on the user input that is provided by ```gets```. 
 
-```
-def hello(name)
-  puts "Hello #{name}!"
-end
-```
-<!--
-Basic Iterators
-===============
-An iterator does a piece of work over and over and over and over and over...
-
-```
-10.times do
-  puts "Hello World!"
-end
-```
--->
+As we continue on, we will use a lot of methods. Pretty soon, we'll be defining and using our own methods!
