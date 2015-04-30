@@ -1,6 +1,7 @@
 ## SO FANCY!
 
-### Update the Baby Dragon application we made together with at least 2 of the items below
+### Update the Baby Dragon
+#### Include at least 2 of the items from the list below
 + Add the ability to give the dragon water and have the dragon track it's thirst. Be sure to enforce consequences if time continues to pass and no water is given to the dragon.  
 + Add a color attribute for each baby dragon which will directly correlate to some sort of special behavior (your choice).  
 + Add another behavior of your choice:   
