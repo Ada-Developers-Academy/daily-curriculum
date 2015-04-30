@@ -1,6 +1,44 @@
-# Object Orientation: Classes, Instances, and Methods
+# Object Orientation: Methods, Classes, and Instances
 
-## Overview
+## Methods
+We have seen and used methods before, but we haven't created our own method definitions yet.  
+
+### Creating methods
+
+Creating a __method definition__ is the process of defining a method header and contents in order to create a re-usable block of code. 
+
+```ruby
+def say_hello
+  puts "hello world!"
+end
+```
+
+In this example, ```say_hello``` is the method name. The purpose of this method is to print out a string to the user. As we learned earlier, we want to __call__ a method in order to execute the functionality.
+
+```ruby
+say_hello
+# => hello world!
+```
+
+### Method parameters
+
+Once we have created a method, we may want to use a __parameter__ to tell the object how to 'do' the method. Think back to our ```Math.sqrt(9)``` example.
+
+To add a parameter to the ```say_hello``` method, we would change the __method definition__ to:
+
+```ruby
+def say_hello(name)
+  puts "welcome #{name}! hello world!"
+end
+
+say_hello("kari")
+# => welcome kari! hello world!
+```  
+
+In this updated method,```name``` is a variable that contains the value for the parameter passed in. When we called the method, the ```name``` variable was set equal to the string ```"kari"``` since that was the value we passed in.  
+
+
+## Objects Overview
 An object is the representation of an idea within a program.
 Let's look at the common objects we already know.
 
@@ -19,6 +57,8 @@ Where we would normally just use `""`, we can also call the `.new` method on the
 A class can be identified by it's capitialized first letter. So `""`, `[]`, and `{}` are really just magic
 ways of initiating a new instance of a certain type of object. Most classes do **NOT** have this kind of
 convenience.
+
+
 
 ### Creating a custom class
 
