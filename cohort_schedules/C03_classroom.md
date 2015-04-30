@@ -4,7 +4,7 @@
 
 | Date    | Week                | Topic
 |---------|---------------------|-----------------------------------------
-| May 4   | [Week 01](#week-1)  | Student Orientation, Bash, Git, Ruby
+| May 4   | [Week 01](#week-1)  | Student Orientation, Bash, Ruby
 | May 11  | [Week 02](#week-2)  | Ruby II
 | May 18  | [Week 03](#week-3)  | Ruby III
 | May 25  | [Week 04](#week-4)  | Testing, Sinatra, HTTP, DOM & HTML
@@ -169,11 +169,8 @@ After completing calculator: [gitimmersion.com](http://gitimmersion.com) -->
 | 1:00 - 5:00 | Crystal 1-on-1s
 
 __Homework__
-* Work through Chapters 7, 8 of Learn to Program
-* More Git Immersion (upto lab 25)
-
-#### Optional Lesson: More About Methods
-Can't get enough methods? Check out Chapter 6 of Learn to Program. It'll go over some common (and not-so-common) methods for some of our favorite types of objects: integers and strings.
+* Work through Chapters 6, 7, and 8 of Learn to Program
+<!-- * More Git Immersion (upto lab 25)-->
 
 <!--
 ## Week 2

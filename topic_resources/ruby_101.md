@@ -120,7 +120,7 @@ def hello(name)
   puts "Hello #{name}!"
 end
 ```
-
+<!--
 Basic Iterators
 ===============
 An iterator does a piece of work over and over and over and over and over...
@@ -130,3 +130,4 @@ An iterator does a piece of work over and over and over and over and over...
   puts "Hello World!"
 end
 ```
+-->
