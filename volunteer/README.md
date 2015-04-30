@@ -3,7 +3,7 @@ Ada is a community-supported organization, and we rely on the talents of profess
 
 ## How to get involved
 1. Complete the Volunteer Information Survey: http://goo.gl/forms/NpoVLLMQt2
-2. Return a signed copy of the [Volunteer Code of Conduct](https://docs.google.com/document/d/1LCGKZXhtCMCxpc4y_jfNOq3RDHA3tet29qqunVg7z6k/edit?usp=sharing) to contact@adadevelopersacademy.org
+2. Return a signed copy of the [Volunteer Code of Conduct](volunteer-handbook.pdf) to contact@adadevelopersacademy.org
 
 You should hear back from Ada staff shortly afterwards to schedule a no-obligation visit to the classroom so you can check out our program up-close!
 

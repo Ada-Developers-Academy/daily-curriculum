@@ -6,5 +6,5 @@ Curriculum Schedules
 
 How to Volunteer
 ----------------
-[Volunteer with Ada Developers Academy](volunteer.md)
+[Volunteer with Ada Developers Academy](volunteer/)
 [Hang out in our IRC #adadevacademy and answer questions](IRC-channel.md)
