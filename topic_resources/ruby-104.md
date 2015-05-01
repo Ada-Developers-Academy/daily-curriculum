@@ -48,6 +48,25 @@ end
 Wait a ```while```
 =============
 
+Execute the iterator ```while``` the condition is true.
+
+```ruby
+i = 0
+
+while i < 4
+  puts i
+  i += 1
+end
+```
+
+The above code will output the values of i until i is no longer less than 4, resulting in the following output:
+```
+0
+1
+2
+3
+```
+
 ```ruby
 command = gets.chomp
 
@@ -62,6 +81,25 @@ puts "OMG It's about time!"
 
 Make it clearer by using ```Until```
 ==================
+
+Execute the iterator ```until``` the condition is true.
+
+```ruby
+i = 0
+
+until i == 4
+   puts i
+   i += 1
+end
+```
+
+The above code will output the values of i until i is equal to 4, resulting in the following (equivalent to the above) output:
+```
+0
+1
+2
+3
+```
 
 ```ruby
 command = gets.chomp
