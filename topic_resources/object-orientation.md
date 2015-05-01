@@ -167,7 +167,27 @@ class Chair
 end
 ```
 
+### attr!
+
+The code above allows us to read/get and write/set the color and name properties in the Chair class. This is done so frequently that there is a much faster way for us to do this! Using these attributes our class is much more simplified:
+
+```ruby
+class Chair
+  attr_reader :name, :color
+  attr_writer :name, :color
+
+  def initialize(name, color)
+    @name = name
+    @color = color
+  end
+end
+```
+
+These two attributes, ```attr_reader``` and ```attr_writer``` allow you to control the reading a writing of these particular properties.
+
 ### attr_accessor
+
+If you don't need to be able to control the read/get and write/set functionality independently from one another, you can just use ```attr_accessor``` which covers both! Using this attribute our class code is __even more__ simple:
 
 ```ruby
 class Chair
