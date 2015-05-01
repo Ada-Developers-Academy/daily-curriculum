@@ -1,20 +1,22 @@
-Calculator
-==========
-Build a calculator command line interface (CLI) that allows a user to perform
-simple arithmetic. The program should ask for an operation and two numbers, then
-give the result. We'll build this first part as a class, follow along.
+# Calculator Exercise
 
-Next Steps
-----------
-1. Instead of printing the result, print out the formula ("2+2=4")
-1. Try adding ability to
-     + divide
-     + multiply
-     + find the exponent (such as 2 to the fourth or 2^4 or 2*2*2*2)
-     + find the square root of a single number
-1. Rather than typing in the name of the mathematical function, could we accept the symbol (+,-,*, etc...)?
-1. If the user enters "nil" (just hits enter) instead of a number, what happens? Assuming they meant "0" instead, can our code adjust?
-1. What happens if the user enters a String instead of a Number? Can we print an error message if they do that?
-1. Quit early if the action is not within our parameters
-1. Allow for complex equations (i.e.  1 + (2 * 4))
-1. Smarts to return a float or Integer
+## Bronze
+Build a calculator command line interface (CLI) that allows a user to perform simple arithmetic. The program should ask for an operation (addition, subtraction, multiplication, division) and two numbers, then give the result of applying the operation to the two numbers.
+
+The program should accept both the name (`add`) and the symbol (`+`) for each possible operation.
+
+## Silver
+- Print out the formula in addition to the result, i.e. `2 + 2 = 4`
+- Add support for computing exponents (`2^4 = 2 * 2 * 2 * 2 = 16`).
+- Add support for the modulo operator (`10 % 3 = 1`).
+
+## Gold
+Gracefully handle unexpected user input:
+
+- What happens if the user input is `nil` (i.e., the user just pressed enter)?
+- What happens if the user tries to add `hotdog` to `elephant`?
+
+## Platinum
+- Make your program know when it needs to return an _integer_ versus a _float_.
+- Add support for parentheticals, i.e. `10 / (5 + 5) = 1`.
+
