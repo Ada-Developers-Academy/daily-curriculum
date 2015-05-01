@@ -27,7 +27,7 @@ Further we could groups these in an Array:
 A `Hash` key can have any object as it's value, even another hash.
 
 ```ruby
-{bookis:
+{jeremy:
   {
     last_name: "Flores",
     first_name: "Jeremy",
