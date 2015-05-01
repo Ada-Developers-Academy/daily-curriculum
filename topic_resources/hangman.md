@@ -1,6 +1,8 @@
 # Hangman
 
+## Bronze
 Create a hangman game that can be played from the Terminal.
+
 The rules according to Wikipedia:
 
 > The word to guess is represented by a row of dashes, giving the number of letters. If the guessing player suggests a letter or number which occurs in the word, the other player writes it in all its correct positions. If the suggested letter or number does not occur in the word, the other player draws one element of the hanged man stick figure as a tally mark. The game is over when:
@@ -10,10 +12,8 @@ The rules according to Wikipedia:
 
 To get the hang of gameplay, here is an [online version to play](http://www.playhangman.com/PH.asp?g=cats)
 - Between each guess, the board should be redrawn to the terminal output (Ascii art!).
-- The letters that have already been guessed should be displayed before each time the player guesses.
-- Use the colorize gem to make each piece of the hangman a different color.
 - Use classes for each different idea represented in the game
-- Place the application flow/logic in a method outside of any class,  call  this method at the end of the file to start the game.
+- Place the application flow/logic in a method outside of any class,  call this method at the end of the file to start the game.
 
 ```
 |     _________
@@ -25,3 +25,16 @@ To get the hang of gameplay, here is an [online version to play](http://www.play
 |     |
 | ____|___
 ```
+
+## Silver
+- Display the letters that have already been guessed before each player guesses a new letter.
+- Use the colorze gem to make each piece of the hangman a different color.
+
+## Gold
+- Ensure the user is not penalized for guessing the same letter more than once.
+- Allow the user to choose their difficulty level: higher levels will have words or phrases with more letters. You determine the specific logic that will deterine a low, medium, high level, for example.
+- Handle inappropriate user input. For example, what happens when a user enters an exclamation point. 
+
+## Platinum
+- Make your program accept a command line argument that is a file name. This file will contain CSV data of words to be used in the game. Your program must accept and be able to use any CSV file that is formatted according to the sample. Ensure that the difficulty level functionality from the Gold level is still enforced using this new CSV data.
+Note: Refer to LRTHW materials on reading file data.
