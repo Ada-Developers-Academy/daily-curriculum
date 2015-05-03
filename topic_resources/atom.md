@@ -4,14 +4,13 @@ Atom is a powerful new text editor created by Github. It's build using node.js
 and other web technologies, which means that customizing it is very similar to customizing
 a webpage.
 
-
 #### Packages
 
 One way that Atom is extended through install external packages,
 
 1. Open the preferences pane from the app menue `Atom > Preferences...` (or press `cmd,`).
-2. Click on the `Packages` tab in the left menu.
-3. Search and install the following packages
+2. Click on the `Packages` tab in the left menu. This will show you the packages that are installed by default.
+3. Clikc on the '+Install' tab in the left menu. Search and install the following packages:
     - Autoclose HTML
     - Color Picker
     - Rspec
@@ -21,8 +20,8 @@ One way that Atom is extended through install external packages,
     - Linter ruby
     - Linter CSSlint
     - Sublime Style Column Selection
-    - Whitespace
-    - Autosave (this one should be installed, but needs to be enabled)
+    - Whitespace (may already be installed)
+    - Autosave (may already be installed)
 
 ### Themes
 
