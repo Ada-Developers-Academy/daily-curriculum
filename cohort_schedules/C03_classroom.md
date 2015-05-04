@@ -85,7 +85,7 @@
 | 10:00 - 11:00  | [Introduction to Unix](../topic_resources/nix.md)             |
 | 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
 | 12:00 -  1:00  | LUNCH                                                         |
-|  1:00 -  4:00  | Team [Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md) | All Ada Staff
+|  1:00 -  4:00  | Team Photo Scavenger Hunt                                     | All Ada Staff
 |  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         |
 
 __Empowered Women Activity__
@@ -98,7 +98,6 @@ __Empowered Women Activity__
 
 __Homework__
 + Introduction and Chap 1 - Learn To Program  
-<!-- Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby-->
 + Setup an account on Twitter, LinkedIn, Github, and Gravatar (with same email address)
 
 __Resources__
@@ -150,7 +149,7 @@ __Homework__
 |  4:00 - 5:00  | Exercises
 
 __Homework__
-<!-- Read through Chapter 2 of Beginning Ruby 
+<!-- Read through Chapter 2 of Beginning Ruby
 + Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com)) (upto lab 25) -->
 
 <!-- Git Immersion was here for 2 hours
