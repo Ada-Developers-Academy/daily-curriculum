@@ -57,122 +57,57 @@
       - Iterators
       - Variables
       - Conditionals
-      - Object Orientation
   + Learn about basic tools
       - Text Editors (Atom)
       - Terminal
 
-### Schedule
-
-#### Monday
-
-| Time           | Activity                                                      | With
-|----------------|---------------------------------------------------------------|----------
-|  9:00 - 10:00  | Meet and Greet with staff + Breakfast                         | Staff
-| 10:00 - 12:00  | Get to know you activities                                    |
-| 12:00 -  1:00  | LUNCH / Photobooth                                            |
-|  1:00 -  1:30  | What is Ada?                                                  |
-|  1:30 -  2:00  | Classroom Contract                                            |
-|  2:00 -  3:00  | Program Guide / Student Handbook                              |
-|  3:00 -  4:00  | [How to OS X](../topic_resources/how-to-os-x.md)              |
-|  4:00 -  5:00  | Thoughts from pre-assignments                                 |
-
-#### Tuesday
-
-| Time           | Activity                                                      | With
-|----------------|---------------------------------------------------------------|----------
-|  9:00 - 10:00  | Empowered Women Activity                                      |
-| 10:00 - 11:00  | [Introduction to Unix](../topic_resources/nix.md)             |
-| 11:00 - 12:00  | [Installfest](../topic_resources/installfest.md)              |
-| 12:00 -  1:00  | LUNCH                                                         |
-|  1:00 -  4:00  | Team [Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md) | All Ada Staff
-|  4:00 -  5:00  | Share out on Scavenger Hunt + Prizes!                         |
-
-__Empowered Women Activity__
-+ Take one of the cards off the projector in the middle of the room, with your elbow partner
-+ Research the woman on that card and try to answer the following Qs:
-    + Who is she?
-    + What is her background?
-    + What has she accomplished?
-    + Anything else important/interesting to know about her?
-
-__Homework__
-+ Introduction and Chap 1 - Learn To Program  
-<!-- Introduction and Chap 2 through "Turning ideas into Ruby code" - Beginning Ruby-->
-+ Setup an account on Twitter, LinkedIn, Github, and Gravatar (with same email address)
+### Resources
+[How to OS X](../topic_resources/how-to-os-x.md) 
+[Introduction to Unix](../topic_resources/nix.md)
+[Installfest](../topic_resources/installfest.md)
+[Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md)
 
 __Resources__
 + [Navigating the Terminal](http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/)
 + [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
 
-#### Wednesday
+[Introduction to Ruby](../topic_resources/ruby_101.md)  
++ Overview  
++ Community  
++ IRB  
++ Math  
++ Basic variables  
++ Using methods  
+[Introduction to Atom](../topic_resources/atom.md)  
+[Ruby 102](../topic_resources/ruby-102.md)  
++ String  
++ Symbol  
++ Number  
++ Array  
++ Hash (Intro)  
+[Flow Control](../topic_resources/flow-control.md)   
++ Boolean  
++ Conditionals (excluding elsif)  
 
-| Time          | Activity
-|---------------|-------------------
-|  9:00 - 9:15  | Review
-|  9:15 - 9:45  | [Introduction to Ruby](../topic_resources/ruby_101.md)
-|  9:45 - 10:30 | Intro Ruby Exercises
-| 10:30 - 11:00 | (fun times?)
-| 11:00 - 12:00 | [Introduction to Atom](../topic_resources/atom.md)
-| 12:00 - 1:00  | Lunch
-|  1:00 - 2:00  | [Ruby 102](../topic_resources/ruby-102.md)
-|  2:00 - 3:00  | Array & Hash Exercises
-|  3:00 - 4:00  | [Flow Control](../topic_resources/flow-control.md)
-|  4:00 - 5:00  | Karen Time
+[Calculator Lab](../topic_resources/calculator.md)  
+[Ruby 103](../topic_resources/ruby-103.md)  
++ Iterators  
++ Block  
++ Block scope  
++ Literals  
+[More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)  
++ Compound conditionals  
++ While  
++ Until  
++ Case/when  
 
-<!-- KAB note we can't do this until we've covered Git -->
-__Homework__
-- Read chapters 2-5 of Learn to Program.
-- Create a directory called `ltp_5_6` and initialize it into a git repo.
-- Complete the two exercises in section 5.6. (saving the files into the `ltp_5_6` dir).
-- Create a `ltp_5_6` repo on Github.com.
-- Push your assignments to Github!
 
 <!-- Rails Bridge used to be here on Wed
 [Rails Bridge Setup](../topic_resources/railsbridge-setup.md) & [Tutorial]((http://docs.railsbridge.org/intro-to-rails/))
 [Rails Bridge Continued](http://docs.railsbridge.org/intro-to-rails/)
 -->
 
-<!-- Git Immersion used to be here on Wed
-[Git Immersion](../topic_resources/git_immersion.md) lab
--->
 
-#### Thursday
-
-| Time               | Activity
-|--------------------|-------------------------------------------------------------------------
-|  9:00 - 9:15  | Review
-| 9:15 - 12:00  | [Calculator Lab](../topic_resources/calculator.md)
-| 12:00 - 1:00  | Lunch
-|  1:00 - 2:00  | Calculator De-brief
-|  2:00 - 3:00  | [Ruby 103](../topic_resources/ruby-103.md)
-|  3:00 - 4:00  | [More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)
-|  4:00 - 5:00  | Exercises
-
-__Homework__
-<!-- Read through Chapter 2 of Beginning Ruby 
-+ Keep working through Git Immersion ([gitimmersion.com](http://gitimmersion.com)) (upto lab 25) -->
-
-<!-- Git Immersion was here for 2 hours
-After completing calculator: [gitimmersion.com](http://gitimmersion.com) -->
-
-#### Friday
-
-| Time          | Activity
-|---------------|-----------------------------------------------------------------------------------
-| 9:00 - 9:15   | Review
-| 9:15 - 10:00  | Assessment
-| 10:00 - 11:00 | Cynthia Time
-| 11:00 - 12:00 | [Ruby Objects](../topic_resources/object-orientation.md)
-| 12:00 - 1:00 | Lunch
-| 1:00 - 5:00 | Adventure Game lab part 2. Page 149-158 in Beginning Ruby
-| 1:00 - 5:00 | Crystal 1-on-1s
-
-__Homework__
-* Work through Chapters 6, 7, and 8 of Learn to Program
-<!-- * More Git Immersion (upto lab 25)-->
-
-<!--
 ## Week 2
 
 In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
@@ -184,50 +119,39 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
     - Objects
     - Object Inheritance
 - Solidify our knowledge of Strings, Arrays, and Hashes
-- Explore Date and Time classes
-- Create a game in Gosu
+- Intro to Git
+- Using gems
 
-### Schedule
+### Resources
+[Objects](../topic_resources/object-orientation.md)  
++ Creating methods  
++ new  
++ Creating classes  
++ initialize  
++ attributes  
+[Local & Instance Variables & Scope](../topic_resources/variables_and_scope.md)  
++ Difference between local and instance variables  
++ Variable scope  
 
-#### Monday
+[Hashes](../topic_resources/hash.md)  
++ Creation  
++ Initialize an Object  
+[Hash Practice](../topic_resources/hash-practice.md)  
 
-| Time          | Topic
-|---------------|---------------------------------------------------------------------------------
-| 9:00 - 10:20 | [Local & Instance Variables & Scope](../topic_resources/variables_and_scope.md)
-| 10:30 - 11:30 | [Revisiting Classes](../topic_resources/revisiting_classes.md)
-| 11:40 - 12:00 | Variable Quiz
-| 12:00 - 1:00 | Lunch
-| 1:00 - 5:00 | [Orange Tree (from L2P)](../topic_resources/orange_tree.md)
+[Introducing Gems](../topic_resources/introducing-gems.md)  
++ Installation  
++ Usage  
++ Research  
 
-#### Tuesday
+### Projects
+[Orange Tree](../topic_resources/orange_tree.md)
+[Solar System Project](../topic_resources/solar-system.md)
+[Baby Dragon Project](../topic_resources/baby_dragon.md)
 
-| Time          | Topic
-|---------------|--------------------------------------------------------------------
-| 09:10 - 10:00 | [Hashes](../topic_resources/hash.md)
-| 10:00 - 11:00 | [Hash Practice](../topic_resources/hash-practice.md)
-| 11:00 - 2:00 | [Solar System Project](../topic_resources/solar-system.md)
-| 2:00 - 5:00 | [Baby Dragon Project](../topic_resources/baby_dragon.md)* from L2P
+[MasterMind](../topic_resources/mastermind.md)
+[Hangman](../topic_resources/hangman.md)
 
-\* If you finish with the solar system.
-
-__Homework__
-
-+ Read Chapter 6 Beginning Ruby up to "Modules, Namespaces, And Mix-Ins"
-
-#### Wednesday
-
-| Time             | Topic
-|------------------|---------------------------------------------------------------------------------------------
-| 9:00 - 9:30 | [Introducing Gems](../topic_resources/introducing-gems.md)
-| 9:30 - 12:00 | Week 1 & 2 Recap
-| 9:30 - 5:00 | [Hangman](../topic_resources/hangman.md) or [MasterMind](../topic_resources/mastermind.md)
-
-#### Thursday
-| Time          | Topic
-|---------------|---------------------------------------------------------------------------------------------
-| 9:00 - 10:30 | Week 1 & 2 Recap
-| 10:30 - 12:00 | Live Code Hangman
-| 1:00 - 5:00 | [Hangman](../topic_resources/hangman.md) or [MasterMind](../topic_resources/mastermind.md)
+<!--
 
 #### Friday
 
@@ -239,7 +163,7 @@ __Homework__
 | 11:30 - 12:30 | [Ruby Koans](../topic_resources/koans.md)
 | 12:30 - 1:30 | Lunch
 | 1:30 - 2:30 | [Ruby Koans](../topic_resources/koans.md)
-| 2:30 - 3:30 | Inheritance
+| 2:30 - 3:30 | [Inheritance](../topic_resources/inheritance.md)
 | 3:30 - 5:00 | Project Time
 
 __Homework__
@@ -248,17 +172,18 @@ __Homework__
 + Read about assertions:
 [Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
 
+
 ## Week 3
 
-In Week 3 we will be learning some intermediate ruby ideas such as attr_accessor, advanced variables, memoization, and Enumerable. For the project we will be building a pure ruby application backed by a CSV database called [FarMarFinder](../topic_resources/farmarfinder.md). By the end of the week students should be able to build a ruby DSL for a relational CSV backed database using basic ruby methodologies and best practices.
+In Week 3 we will be learning some intermediate ruby ideas such as advanced variables, memoization, and Enumerable. For the project we will be building a pure ruby application backed by a CSV database called [FarMarFinder](../topic_resources/farmarfinder.md). By the end of the week students should be able to build a ruby DSL for a relational CSV backed database using basic ruby methodologies and best practices.
 
 ### Learning Goals
 
   - Learn basic/intermediate ruby concepts and methods
-      - Defining attributes with attr_accessor
       - Scopes of all variable types (local, instance, global, etc...)
       - Performance with memoization
       - Enumerable methods
+  - Running Koans
   - Unit testing your application with Rspec
   - Build a CSV backed ruby application
   - Practice pair programming
