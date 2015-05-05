@@ -100,7 +100,7 @@
 + Block scope
 + Literals
 
-[More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)
+[More on Conditionals & Flow Control](../topic_resources/ruby-104.md)
 + Compound conditionals
 + While
 + Until
