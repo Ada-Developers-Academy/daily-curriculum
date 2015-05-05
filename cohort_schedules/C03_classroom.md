@@ -107,7 +107,6 @@ __Resources__
 [Rails Bridge Continued](http://docs.railsbridge.org/intro-to-rails/)
 -->
 
-
 ## Week 2
 
 In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
