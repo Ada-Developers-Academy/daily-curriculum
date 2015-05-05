@@ -1,6 +1,6 @@
 # Hashes
 
-Hash's in Ruby are used often to represent an object instead of or before an actual class object.
+Hashes in Ruby are used often to represent an object instead of an actual class object.
 This often happens when we get some type of input that can be parsed into sane parts. This could come in many different formats such as JSON, XML, YAML, or CSV.
 For example if we have a CSV:
 
@@ -24,7 +24,7 @@ Further we could groups these in an Array:
 {name: "Kari Bancroft", email: "kari@adadevelopersacademy.org"}]
 ```
 
-A `Hash` key can have any object as it's value, even another hash.
+A `Hash` key can have any object as its value, even another hash.
 
 ```ruby
 {jeremy:
@@ -45,7 +45,7 @@ A `Hash` key can have any object as it's value, even another hash.
 ```
 Using Hash to initiate objects
 ---------
-A Hash is a great way to pass in arguments to `initialize`, first let's look at a use case for this.
+A Hash is a great way to pass in arguments to `initialize`. First, let's look at a use case for this.
 ```ruby
 class Address
   def initialize(first_name, last_name, street_one, street_two, city, state, country, postal_code)
