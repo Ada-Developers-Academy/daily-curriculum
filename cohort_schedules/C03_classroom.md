@@ -62,12 +62,12 @@
       - Terminal
 
 ### Resources
-[How to OS X](../topic_resources/how-to-os-x.md) 
-[Introduction to Unix](../topic_resources/nix.md)
-[Installfest](../topic_resources/installfest.md)
-[Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md)
+[How to OS X](../topic_resources/how-to-os-x.md)  
+[Introduction to Unix](../topic_resources/nix.md)  
+[Installfest](../topic_resources/installfest.md)  
+[Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md)  
 
-__Resources__
+#### Terminal Links
 + [Navigating the Terminal](http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/)
 + [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
 
