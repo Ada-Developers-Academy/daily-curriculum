@@ -73,7 +73,7 @@ Did we just write the world’s shortest “Hello World” program? Not exactly.
 Free calculators for everyone!
 ==============================
 
-* Try doing some arithmetic in irb
+Try doing some arithmetic in irb
 * 2 + 3
 * 2 * 3
 * 2 ** 3
@@ -92,7 +92,7 @@ Math.sqrt(9)
 
 Basic Variables
 ===============
-A **variable** is just like "X" from high school algebra. It's a placeholder that stands in for a value. It's like a little post office box can be a number, a string, a piece of code.. it doesn't care how big a thing you put inside it, but you can only put one thing in it at a time.
+A **variable** is just like "X" from high school algebra. It's a placeholder that stands in for a value. It's like a little post office box: it can hold a number, a string, a piece of code. It doesn't care how big a thing you put inside it, but you can only put one thing in it at a time.
 
 ```
 a = 3 ** 2
@@ -101,10 +101,10 @@ Math.sqrt(a+b) => 5.0
 ```
 Methods
 ============
-We have used a lot of methods up to this point, and we didn't even know it!  
+We have used a lot of methods up to this point, and we didn't even know it!
 
 
-In the ```Math.sqrt(9)``` example, ```sqrt``` is the name of a method. In this case, we **call** the ```sqrt``` method in the ```Math``` **module** with the __parameter__ value 9.  
+In the ```Math.sqrt(9)``` example, ```sqrt``` is the name of a method. In this case, we **call** the ```sqrt``` method in the ```Math``` **module** with the __parameter__ value 9.
 ```gets.chomp``` is another example where we were using a method. In this case, we **call** the ```chomps``` method with no __parameters__ on the user input that is provided by ```gets```.
 
 As we continue on, we will use a lot of methods. Pretty soon, we'll be defining and using our own methods!
