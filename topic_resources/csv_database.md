@@ -4,14 +4,14 @@ A database is a system of storing and organizing information on a computer. In t
 
 | ID | Name    |
 |:---|:--------|
-| 1  | Dean   |
-| 2  | Bookis  |
-| 3  | Karen   |
-| 4  | Elise   |
+| 1  | Kari    |
+| 2  | Jeremy  |
+| 3  | Crystal |
+| 4  | Cynthia |
 
 We're going to quickly create a CSV to read later, don't worry about this code for now, just copy and paste it. Notice that it created a file named `ada_people.csv` on your computer.
 ```ruby
-people = [[1,"Dean"], [2, "Bookis"], [3, "Karen"], [4, "Elise"]]
+people = [[1,"Kari"], [2, "Jeremy"], [3, "Crystal"], [4, "Cynthia"]]
 CSV.open("ada_people.csv", "w") do |file|
   people.each do |person|
     file << person
@@ -24,15 +24,15 @@ Ruby includes a CSV library used to read and write CSV files. This class is very
 ```ruby
 require 'csv'
 # Reads the contents of the file into an array of arrays.
-CSV.read("markets.csv")
-# => [["1", "Kerri"],["2", "Bookis"],["3", "Cheri"],["4", "Elise"]]
+CSV.read("moar_ada_people.csv")
+# => [["1", "Elise"],["2", "Karen"],["3", "Brooke"]]
 
 # Returns a CSV Object, to be read or manipulated.
-csv = CSV.open("markets.csv")
+csv = CSV.open("moar_ada_people.csv")
 # <#CSV io_type:File io_path:"file.csv" encoding:UTF-8 ...>
 ```
 
-The `open` method require at least one argument and up to three arguments as well as an optional block.
+The `open` method requires at least one argument and up to three arguments as well as an optional block.
 
 ```ruby
 CSV.open(filename, mode='r', options) {|file| block}
