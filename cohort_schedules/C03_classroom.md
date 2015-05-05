@@ -62,49 +62,49 @@
       - Terminal
 
 ### Resources
-[How to OS X](../topic_resources/how-to-os-x.md)  
-[Introduction to Unix](../topic_resources/nix.md)  
-[Installfest](../topic_resources/installfest.md)  
-[Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md)  
+[How to OS X](../topic_resources/how-to-os-x.md)
+[Introduction to Unix](../topic_resources/nix.md)
+[Installfest](../topic_resources/installfest.md)
+[Photo Scavenger Hunt](../topic_resources/ScavengerHuntSeattle.md)
 
 #### Terminal Links
 + [Navigating the Terminal](http://mac.tutsplus.com/tutorials/terminal/navigating-the-terminal-a-gentle-introduction/)
 + [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
 
-[Introduction to Ruby](../topic_resources/ruby_101.md)  
-+ Overview  
-+ Community  
-+ IRB  
-+ Math  
-+ Basic variables  
-+ Using methods  
+[Introduction to Ruby](../topic_resources/ruby-101.md)
++ Overview
++ Community
++ IRB
++ Math
++ Basic variables
++ Using methods
 
-[Introduction to Atom](../topic_resources/atom.md)  
+[Introduction to Atom](../topic_resources/atom.md)
 
-[Ruby 102](../topic_resources/ruby-102.md)  
-+ String  
-+ Symbol  
-+ Number  
-+ Array  
-+ Hash (Intro)  
+[Ruby 102](../topic_resources/ruby-102.md)
++ String
++ Symbol
++ Number
++ Array
++ Hash (Intro)
 
-[Flow Control](../topic_resources/flow-control.md)   
-+ Boolean  
-+ Conditionals (excluding elsif)  
+[Flow Control](../topic_resources/flow-control.md)
++ Boolean
++ Conditionals (excluding elsif)
 
-[Calculator Lab](../topic_resources/calculator.md)  
+[Calculator Lab](../topic_resources/calculator.md)
 
-[Ruby 103](../topic_resources/ruby-103.md)  
-+ Iterators  
-+ Block  
-+ Block scope  
-+ Literals  
+[Ruby 103](../topic_resources/ruby-103.md)
++ Iterators
++ Block
++ Block scope
++ Literals
 
-[More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)  
-+ Compound conditionals  
-+ While  
-+ Until  
-+ Case/when  
+[More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)
++ Compound conditionals
++ While
++ Until
++ Case/when
 
 
 <!-- Rails Bridge used to be here on Wed
@@ -127,35 +127,35 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 - Using gems
 
 ### Resources
-[Objects](../topic_resources/object-orientation.md)  
-+ Creating methods  
-+ new  
-+ Creating classes  
-+ initialize  
-+ attributes  
+[Objects](../topic_resources/object-orientation.md)
++ Creating methods
++ new
++ Creating classes
++ initialize
++ attributes
 
-[Local & Instance Variables & Scope](../topic_resources/variables_and_scope.md)  
-+ Difference between local and instance variables  
-+ Variable scope  
+[Local & Instance Variables & Scope](../topic_resources/variables_and_scope.md)
++ Difference between local and instance variables
++ Variable scope
 
-[Hashes](../topic_resources/hash.md)  
-+ Creation  
-+ Initialize an Object  
+[Hashes](../topic_resources/hash.md)
++ Creation
++ Initialize an Object
 
-[Hash Practice](../topic_resources/hash-practice.md)  
+[Hash Practice](../topic_resources/hash-practice.md)
 
-[Introducing Gems](../topic_resources/introducing-gems.md)  
-+ Installation  
-+ Usage  
-+ Research  
+[Introducing Gems](../topic_resources/introducing-gems.md)
++ Installation
++ Usage
++ Research
 
 ### Projects
-[Orange Tree](../topic_resources/orange_tree.md)  
-[Solar System Project](../topic_resources/solar-system.md)  
-[Baby Dragon Project](../topic_resources/baby_dragon.md)  
+[Orange Tree](../topic_resources/orange_tree.md)
+[Solar System Project](../topic_resources/solar-system.md)
+[Baby Dragon Project](../topic_resources/baby_dragon.md)
 
-[MasterMind](../topic_resources/mastermind.md)  
-[Hangman](../topic_resources/hangman.md)  
+[MasterMind](../topic_resources/mastermind.md)
+[Hangman](../topic_resources/hangman.md)
 
 <!--
 
