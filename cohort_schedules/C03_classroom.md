@@ -78,23 +78,28 @@ __Resources__
 + Math  
 + Basic variables  
 + Using methods  
+
 [Introduction to Atom](../topic_resources/atom.md)  
+
 [Ruby 102](../topic_resources/ruby-102.md)  
 + String  
 + Symbol  
 + Number  
 + Array  
 + Hash (Intro)  
+
 [Flow Control](../topic_resources/flow-control.md)   
 + Boolean  
 + Conditionals (excluding elsif)  
 
 [Calculator Lab](../topic_resources/calculator.md)  
+
 [Ruby 103](../topic_resources/ruby-103.md)  
 + Iterators  
 + Block  
 + Block scope  
 + Literals  
+
 [More on Conditionals & Flow Control](../topic_resources/more_on_conditionals.md)  
 + Compound conditionals  
 + While  
@@ -128,6 +133,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 + Creating classes  
 + initialize  
 + attributes  
+
 [Local & Instance Variables & Scope](../topic_resources/variables_and_scope.md)  
 + Difference between local and instance variables  
 + Variable scope  
@@ -135,6 +141,7 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 [Hashes](../topic_resources/hash.md)  
 + Creation  
 + Initialize an Object  
+
 [Hash Practice](../topic_resources/hash-practice.md)  
 
 [Introducing Gems](../topic_resources/introducing-gems.md)  
@@ -143,12 +150,12 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 + Research  
 
 ### Projects
-[Orange Tree](../topic_resources/orange_tree.md)
-[Solar System Project](../topic_resources/solar-system.md)
-[Baby Dragon Project](../topic_resources/baby_dragon.md)
+[Orange Tree](../topic_resources/orange_tree.md)  
+[Solar System Project](../topic_resources/solar-system.md)  
+[Baby Dragon Project](../topic_resources/baby_dragon.md)  
 
-[MasterMind](../topic_resources/mastermind.md)
-[Hangman](../topic_resources/hangman.md)
+[MasterMind](../topic_resources/mastermind.md)  
+[Hangman](../topic_resources/hangman.md)  
 
 <!--
 
