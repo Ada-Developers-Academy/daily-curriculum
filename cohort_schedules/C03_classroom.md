@@ -175,6 +175,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as advanced vari
 
 ### Resources
 [Assertions](../topic_resources/assert.md)
+[More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
 [Ruby Koans](../topic_resources/koans.md)
 [Inheritance](../topic_resources/inheritance.md)
 
