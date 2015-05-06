@@ -11,7 +11,7 @@ One way that Atom is extended through install external packages,
 1. Open the preferences pane from the app menue `Atom > Preferences...` (or press `cmd,`).
 2. Click on the `Packages` tab in the left menu. This will show you the packages that are installed by default.
 3. Clikc on the '+Install' tab in the left menu. Search and install the following packages:
-    - Autoclose HTML
+    - Autoclose HTML (meh)
     - Color Picker
     - Rspec
     - Lanugage Rspec
@@ -20,25 +20,26 @@ One way that Atom is extended through install external packages,
     - Linter ruby
     - Linter CSSlint
     - Sublime Style Column Selection
-    - Whitespace (may already be installed)
-    - Autosave (may already be installed)
+    - Whitespace (may already be installed) (yaaaayyyyy)
+    - Autosave (may already be installed) (boooo)
 
 ### Themes
 
 Themes change the way your editor looks, similar to packages
 enter the `Preference` and click on the `Themes` tab, browse, and install.
 
-### Navigation
+### Awesome keyboard shortcuts
 
-Here are some common hotkeys used:
-
-- `⌘⇧p` - Open the Command Pallete to execute commands in the editor (almost like a help menu)
-- `⌘t` - Search files, open in a new tab
-- `⌘w` - Close the current tab
-- `⌘⇧w` - Close the current window (all tabs)
-- `⌘l` - Select the current line
-- `⌘⇧d` - Copy the current line
-- `⌃⇧k` - Delete the current line
+- `⌘⇧p`: Open the _Command Pallete_ to execute commands in the editor
+- `⌘t`: Search files, open in a new tab
+- `⌘w`: Close the current tab
+- `⌘⇧w`: Close the current window (all tabs)
+- `⌘l`: Select the current line
+- `⌘⇧d`: Copy the current line
+- `⌃⇧k`: Delete the current line
+- `⌘^up` & `⌘^down`: Move the active line up or down
+- `⌘d`: Select the next instance of the highlighted string
+- `⌃⇧up` & `⌃⇧down`: add a cursor in the same position on the line above/below.
 
 ### Customizing
 
