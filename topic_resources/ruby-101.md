@@ -1,18 +1,16 @@
-Welcome To Ruby!
-================
+# Welcome To Ruby!
+
 We're going to start working with Ruby! Ruby is a programming language and will be the foundation of most everything we learn for the next 3 months.
 
 Like learning any new language, getting good at Ruby will just take practice. You'll find over time that there's nothing "magic" about programming - you're issuing commands that a computer understands and can execute.
 
-The History of Ruby
-===================
+## The History of Ruby
 
 Ruby is different than other programming languages. It was written with the human in mind, rather than the computer. Its creator, Yukihiro Matsumoto, wanted to create a programming language that was fun for programmers.
 
 Ruby was first written in 1993 by Yukihiro "Matz" Matsumoto. Many of the design concepts were taken from Perl and SmallTalk. One of the unique things about Ruby is the core cultural principles associated with the language, much of which was influenced by Matz.
 
-Ruby is for People
-==================
+## Ruby is for People
 
 > "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language."
 
@@ -20,15 +18,15 @@ A well-written line of Ruby code can be read aloud, and a non-programmer should 
 
 In the Ruby community, we try to focus on the people, not the machines.
 
-> Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines. We are the masters. They are the slaves.
+> Often people, especially computer engineers, focus on the machines. They think, "By doing this, the machine will run fast. By doing this, the machine will run more effectively. By doing this, the machine will something something something." They are focusing on machines. But in fact we need to focus on humans, on how humans care about doing programming or operating the application of the machines.
 
-MINASWAN
-========
-### Matz Is Nice And So We Are Nice
+## MINASWAN: Matz Is Nice And So We Are Nice
 
-Ruby Community
-==============
+![MINASWAN](https://pbs.twimg.com/media/B2575XuCIAE4BNB.jpg)
 
+## Ruby Community
+
++ *.rb <- New!
 + [Railsbridge](http://www.railsbridge.org/) & [Rails Girls](http://railsgirls.com/)
 + [Seattle.rb](http://www.seattlerb.org/)
 + Twitter
@@ -107,6 +105,6 @@ We have used a lot of methods up to this point, and we didn't even know it!
 
 
 In the ```Math.sqrt(9)``` example, ```sqrt``` is the name of a method. In this case, we **call** the ```sqrt``` method in the ```Math``` **module** with the __parameter__ value 9.  
-```gets.chomp``` is another example where we were using a method. In this case, we **call** the ```chomps``` method with no __parameters__ on the user input that is provided by ```gets```. 
+```gets.chomp``` is another example where we were using a method. In this case, we **call** the ```chomps``` method with no __parameters__ on the user input that is provided by ```gets```.
 
 As we continue on, we will use a lot of methods. Pretty soon, we'll be defining and using our own methods!
