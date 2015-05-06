@@ -13,11 +13,11 @@ Apr 14  | [Week 06](#week-6-of-internships)   | Youth Apps, Database Design
 Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps
 Apr 28  | [Week 08](#week-8-of-internships)   | Command Line Tools, Divide and Conquer, Leveraging your Coworkers
 May 5   | [Week 09](#week-9-of-internships)   | **NO CLASS**
-May 12  | [Week 10](#week-10-of-internships)  | Resumes, Negotiations, Selling yourself
+May 12  | [Week 10](#week-10-of-internships)  | Resumes, Calibration and Feedback
 May 19  | [Week 11](#week-11-of-internships)  | PROJECT TIME
-May 26  | [Week 12](#week-12-of-internships)  | User Centered Design,
+May 26  | [Week 12](#week-12-of-internships)  | Panel: Negotiating and Getting what you want (salary, job, promotions)
 Jun 2   | [Week 13](#week-13-of-internships)  | PROJECT TIME
-Jun 9   | [Week 14](#week-14-of-internships)  | Technical Interview Prep,
+Jun 9   | [Week 14](#week-14-of-internships)  | Technical Interview Prep + Mock Interviews
 Jun 16  | [Week 15](#week-15-of-internships)  | PROJECT TIME
 Jun 23  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Networking, TA Scheduling
 Aug 28  |                                     | **GRADUATION**
@@ -165,7 +165,7 @@ NO CLASS
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  | 
+| 1:00 - 2:00  |
 | 2:00 - 2:30  | "Modern Day Machiavellianism"            | Hesper, Geek Girls Carrots
 
 ## Week 12 of Internships
