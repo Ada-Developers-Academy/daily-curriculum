@@ -15,3 +15,6 @@ You should hear back from Ada staff shortly afterwards to schedule a no-obligati
 - **Mentor** (from a sponsoring company) - Provide regular professional/techincal support for a specific student
 
 ## Check out the Ada [Volunter Handbook](volunteer-handbook.pdf) and the [Volunteer Code of Conduct](volunteer-coc.pdf)
+
+## Teaching Assistant Calendar
+[TA Calendar](https://www.google.com/calendar/embed?src=ecgrrk7bbqqtbn89d5ggqoso64%40group.calendar.google.com&ctz=America/Los_Angeles)
