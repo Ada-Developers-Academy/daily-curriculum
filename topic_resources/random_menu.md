@@ -26,6 +26,7 @@ Expand your solution to use __any__ number of menu items that you provided. So i
 Gold
 ----
 Expand your solution to ensure that no descriptive term in a menu item is ever repeated.
+Expand your solution to allow the user to determine how many items they'd like to see via user input.
 
 Platinum
 --------
