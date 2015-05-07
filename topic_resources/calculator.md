@@ -20,3 +20,4 @@ Gracefully handle unexpected user input:
 - Make your program know when it needs to return an _integer_ versus a _float_.
 - Add support for parentheticals, i.e. `10 / (5 + 5) = 1`.
 
+### [Rubric](../rubrics/week_1_calculator.md)
