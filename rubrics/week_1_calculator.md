@@ -67,10 +67,11 @@ total = 1 + num.to_i
 
 | Rating | Skill          | Description
 |--------|----------------|-----------------------------------------------------------
-|        | Correctness    |
-|        | Readability    |
-|        | Structure      |
+|        | Correctness    | Code runs without errors or bugs, edge cases are tested for and dealt with, 
+|        | Readability    | Formatting is consistent, naming conventions are followed, spacing vs tabs is consistent,
+|        | Structure      | Methods are used to avoid code duplication,
 |        | Efficiency     |
+|        | Comments       | Comments accurately describe code logic and are placed before or on the line they describe.
 
 
 ###OVERALL RATING
