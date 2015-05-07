@@ -9,7 +9,7 @@
 |        | Variables                | Variables names are logical, clear, and in snake case. Variables are not needlessly assigned or reassigned ([variable examples](#variables)).
 |        | Loops                    | While loops control the flow of the code, keeping the user on track, and continuing the program until an appropriate end point.
 |        | Data Types               | Hashes, arrays, strings, symbols, numbers, and booleans used appropriately. ([data type examples](#data-types))
-|        | Conditionals & Operators | Logical and mathematical operators guide program flow efficiently and properly deal with edge cases ([operator/conditional examples](#conditional--operators)).
+|        | Conditionals & Operators | Logical and mathematical operators guide program flow efficiently and properly deal with edge cases (Gold) ([operator/conditional examples](#conditional--operators)).
 
 ### Examples or somesuch
 
@@ -67,10 +67,11 @@ total = 1 + num.to_i
 
 | Rating | Skill          | Description
 |--------|----------------|-----------------------------------------------------------
-|        | Correctness    |
-|        | Readability    |
-|        | Structure      |
-|        | Efficiency     |
+|        | Correctness    | Code runs without errors or bugs. (Gold) Edge cases are tested for and handled appropriately.
+|        | Readability    | Formatting is consistent. Naming conventions are followed. Use of white space and tabs are consistent. Code is concise. Each group of statements creates a complete thought and those thoughts are separated by blank lines. Variable names are meaningful.
+|        | Structure      | Blocks of code that are run multiple times are not cut-and-pasted, but instead are written as loops. Variables are not duplicated unnecessarily.
+|        | Efficiency     | There is no unused code included.
+|        | Comments       | Comments accurately describe code logic and are placed before or on the line they describe. Comments are either: information that can’t be expressed in code, intent comments, or summary comments.
 
 
 ###OVERALL RATING
