@@ -67,9 +67,9 @@ total = 1 + num.to_i
 
 | Rating | Skill          | Description
 |--------|----------------|-----------------------------------------------------------
-|        | Correctness    | Code runs without errors or bugs, edge cases are tested for and dealt with, 
-|        | Readability    | Formatting is consistent, naming conventions are followed, spacing vs tabs is consistent,
-|        | Structure      | Methods are used to avoid code duplication,
+|        | Correctness    | Code runs without errors or bugs. Edge cases are tested for and handled appropriately. Unit tests are written for appropriate testing of code correctness.
+|        | Readability    | Formatting is consistent. Naming conventions are followed. Spacing vs tabs is consistent, code is concise and methods do not span longer than one screen. Each group of statements creates a complete thought and those thoughts are separated by blank lines. If one function calls another, they should be vertically close, and the caller should be above the callee, if at all possible. Variable and method names are meaningful. Well named constants are used for values that are used throughout a program. 
+|        | Structure      | Methods performs one, and only one, function. Methods are used to avoid code duplication. Variables are not duplicated unecessarily.
 |        | Efficiency     |
 |        | Comments       | Comments accurately describe code logic and are placed before or on the line they describe.
 
