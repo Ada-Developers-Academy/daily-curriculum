@@ -69,8 +69,7 @@ total = 1 + num.to_i
 |--------|----------------|-----------------------------------------------------------
 |        | Correctness    | Code runs without errors or bugs. (Gold) Edge cases are tested for and handled appropriately.
 |        | Readability    | Formatting is consistent. Naming conventions are followed. Use of white space and tabs are consistent. Code is concise. Each group of statements creates a complete thought and those thoughts are separated by blank lines. Variable names are meaningful.
-|        | Structure      | Blocks of code that are run multiple times
-are not cut-and-pasted, but instead are written as loops. Variables are not duplicated unnecessarily.
+|        | Structure      | Blocks of code that are run multiple times are not cut-and-pasted, but instead are written as loops. Variables are not duplicated unnecessarily.
 |        | Efficiency     | There is no unused code included.
 |        | Comments       | Comments accurately describe code logic and are placed before or on the line they describe. Comment are either: information that can’t be expressed in code, intent comments, or summary comments.
 
