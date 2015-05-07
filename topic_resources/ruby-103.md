@@ -107,7 +107,7 @@ Sound complicated? Let's look at some Ruby.
   puts number * 100 # <= this is a block. :)
 end
 
-[1,2,3,4].each { |number
+[1,2,3,4].each { |number|
   puts number * 100 # <= this is a block too! :D
 }
 ```
@@ -132,13 +132,13 @@ It's very important to understand what's happening during iteration. The best wa
 
 ```ruby
 [11,5,8,100].each do |n|
-  puts number * 4
+  puts n * 4
 end
 ```
 
 | loop count | value of n | output |
 |------------|------------|---------
-| 1          | 11         | 4
+| 1          | 11         | 44
 | 2          | 5          | 20
 | 3          | 8          | 32
 | 4          | 100        | 400
