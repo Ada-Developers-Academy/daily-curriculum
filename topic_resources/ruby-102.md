@@ -4,8 +4,8 @@ We're going to review some of the basic and most used Object types within Ruby.
 
 `String`
 ------
-Ruby strings are a sequence (or array) or characters, if this sentence were evaluated
-by ruby it would be a `String`
+Ruby strings are a sequence (or array) or characters. If this sentence were evaluated
+by Ruby, it would be a `String`.
 
 ```ruby
 "Hello World"
@@ -24,10 +24,10 @@ by ruby it would be a `String`
 # => 31
 ```
 
-Check out the [Documentation for String](http://www.ruby-doc.org/core-2.2.2/String.html) to see other things that you can do to a String
+Check out the [Documentation for String](http://www.ruby-doc.org/core-2.2.2/String.html) to see other things that you can do to a String.
 
 #### Single or Double Quotes?
-Either work, they do have some differences, double quotes interpolate special characters and Ruby.
+Either work, they do have some differences, double quotes interpolate special characters and Ruby code.
 For example `\n` is a special character for a new line. Using double quotes will allow this character to be evaluated.
 
 ```ruby
@@ -51,7 +51,7 @@ puts "\"Hello\" I said"
 
 `Symbol`
 --------
-Symbols are a lot like strings but they are meant to represent names (short strings), basically it's text that is meant only for keeping track of the name of something inside of a ruby application. An identifier.
+Symbols are a lot like strings but they are meant to represent names (short strings), basically it's text that is meant only for keeping track of the name of something inside of a Ruby application. An identifier.
 
 ```ruby
 :kari.object_id # => 483528
@@ -63,11 +63,11 @@ Symbols are a lot like strings but they are meant to represent names (short stri
 
 `Numbers`
 --------
-Numbers are pretty obvious, but maybe not as simple as you might think. Numbers can be a few different datatypes, the most common in ruby are Integer and Float.The most obvious difference is the decimal point.
+Numbers are pretty obvious, but maybe not as simple as you might think. Numbers can be a few different datatypes, the most common in Ruby are `Integer` and `Float`. The most obvious difference is the decimal point.
 
-`Integer` objects are whole numbers (`1`, `9999`, `-255`) and are most commonly used.
+`Integer` objects are whole numbers (`1`, `9999`, `-255`) and are the most commonly used.
 
-`Float` objects are numbers with a decimal point (`3.14`, `0.001`) and are most often used for mathmatics.
+`Float` objects are numbers with a decimal point (`3.14`, `0.001`) and are most often used for mathematics.
 
 Use Integers unless you have a specific reason not to.
 
@@ -91,7 +91,7 @@ Check out the Documentation for [Integers](http://www.ruby-doc.org/core-2.2.2/In
 
 Collections
 -----------
-Were going to talk about the two most common collection types in Ruby, `Array` and `Hash`.
+We're going to talk about the two most common collection types in Ruby, `Array` and `Hash`.
 
 ### `Array`
 
@@ -104,10 +104,10 @@ An `Array` is an ordered collection of any object
 Some things to note:
 
 1. We created the `Array` simply by using `[]`.
-2. The objects within the array are not all of the same type, we have an `Integer`, `String`, and `Float`
+2. The objects within the array are not all of the same type, we have an `Integer`, a `String`, and a `Float`
 
-Arrays are integer-indexed, what this means is that each item in the array corresponds to an integer
-value. and that integer is used to access an object within the `Array`. The first object is assigned
+Arrays are integer-indexed; what this means is that each item in the array corresponds to an integer
+value, and that integer is used to access an object within the `Array`. The first object is assigned
 0 and increments up from there. Ruby also allows for negative indexing, so -1 corresponds to the
 last element, -2 the second to last and so on.
 
@@ -127,9 +127,9 @@ A `Hash` is a lot like an array, it is a collection of key/value pairs:
 {first_num: 1, greeting: "Hello", pi: 3.14}
 ```
 
-This doesn't seem a lot like an `Array`, but if you think of the key of the key/pair as the index
-they have a lot more in common. In this above case, we have the equivelant of an `Array` with `[1, "hello", 3.14]`
-but instead of the indices 0,1,2, we use first_num, greeting, pi.
+This doesn't seem a lot like an `Array`, but if you think of the key of the key/pair as the index,
+they have a lot more in common. In this above case, we have the equivalent of an `Array` with `[1, "hello", 3.14]`
+but instead of the indices `0, 1, 2`, we use `first_num, greeting, pi`.
 
 ```ruby
 h = {first_num: 1, greeting: "Hello", pi: 3.14}
@@ -138,7 +138,7 @@ h[:greeting] # => "Hello"
 h[:pi] # => 3.14
 
 ```
-Look at the Ruby docs for [Array](http://www.ruby-doc.org/core-2.2.2/Array.html) and [Hash](http://www.ruby-doc.org/core-2.2.2/Hash.html) for more info
+Look at the Ruby docs for [Array](http://www.ruby-doc.org/core-2.2.2/Array.html) and [Hash](http://www.ruby-doc.org/core-2.2.2/Hash.html) for more info.
 
 Resources
 ---------

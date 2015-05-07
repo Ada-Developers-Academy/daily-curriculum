@@ -2,15 +2,15 @@
 
 ## Literals
 
-Literals are special syntax to create _objects_, they do a lot of the magic that makes Ruby very readable.  There are quite a few types of Literals but we're going to focus on the most common just to get the idea across.
+Literals are special syntax to create _objects_; they do a lot of the magic that makes Ruby very readable.  There are quite a few types of Literals but we're going to focus on the most common just to get the idea across.
 
-First, lets go over a basic Ruby idea, _objects_ are initialized by _class_, so a common approach to making a new object is to use the `.new` method on a class.
+First, lets go over a basic Ruby idea: _objects_ are initialized by _class_, so a common approach to making a new object is to use the `.new` method on a class.
 
 ```ruby
 String.new # => ""
 ```
 
-But, that isn't how we've seen a string created up until now, we've simply just written `"tacos"`, and those two quotes are _literals_.
+But, that's not how we've seen a string created up until now; we've simply just written `"tacos"`, and those two quotes are _literals_.
 
 Behind the scene Ruby is indeed initializing a `String` _object_ from the `String` _class_, just as we would in the above example. But it would be obnoxious and ugly if we had to type `String.new` everytime we wanted to use a string.
 
@@ -30,11 +30,11 @@ Hash.new
 123
 ```
 
-There are a many more literals, but not seen as commonly, for a complete list see the [guide](http://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals)
+There are a many more literals, just not seen as commonly. For a complete list see the [guide](http://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals)
 
-### Group Exercise: Divide & Conquor Ruby Literals (6 x 4)
+### Group Exercise: Divide & Conquer Ruby Literals (6 x 4)
 
-Each group will choose a literal-ish expression from the following list. Research, explore, and try (in irb) the literal. You'll then present what you've learned about the syntax to the other groups. Try to figure out how they work, when we'll need them, and what kind of problem they might be appropriate for.
+Each group will choose a literal-ish expression from the following list. Research, explore, and try (in irb) the literal. You'll then present what you've learned about the syntax to the other groups. Try to figure out how they work, when we'd need them, and what kind of problem they might be appropriate for.
 
 ```ruby
 # bignum and floats
@@ -74,7 +74,7 @@ puts are_tacos_awesome
 
 ## Iterators & Blocks
 
-_Iteration_ is the process of progromatically interacting with a collection of values, one at a time. We call it "looping" sometimes, and we do a lot of it. Here is a simple loop; fire up irb and give it a try:
+_Iteration_ is the process of programmatically interacting with a collection of values, one at a time. We call it "looping" sometimes, and we do a lot of it. Here is a simple loop; fire up irb and give it a try:
 
 ```ruby
 10.times { |n| puts n } # So... what happened
@@ -92,7 +92,9 @@ Cool, right? `each` iterated the _Array_, starting with the first value, multipl
 
 ### Let's talk about Blocks...
 
-Blocks (also referred to as _closures_, especially in other languages like JavaScript) are not a unique features of Ruby, but they're one that many people talk about (and more people use without realizing it!) What is a block?
+Blocks (also referred to as _closures_, especially in other languages like JavaScript) are not a unique features of Ruby, but they're one that many people talk about (and more people use without realizing it!)
+
+#### What is a block?
 
 >A section of code which is grouped together.
 

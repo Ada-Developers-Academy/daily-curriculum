@@ -59,7 +59,7 @@ while i < 4
 end
 ```
 
-The above code will output the values of i until i is no longer less than 4, resulting in the following output:
+The above code will output the values of `i` until `i` is no longer less than 4, resulting in the following output:
 ```
 0
 1
@@ -79,7 +79,7 @@ puts "OMG It's about time!"
 ```
 
 
-Make it clearer by using ```Until```
+Make it clearer by using ```until```
 ==================
 
 Execute the iterator ```until``` the condition is true.
@@ -101,6 +101,9 @@ The above code will output the values of i until i is equal to 4, resulting in t
 3
 ```
 
+Make it clearer by using `include?`
+==================
+
 ```ruby
 command = gets.chomp
 
@@ -112,7 +115,7 @@ end
 puts "OMG It's about time!"
 ```
 
-Make it clearer by using `include?`
+Instead of using a bunch of ||, you can make it more readable by doing something like this:
 
 ```ruby
 command = gets.chomp
