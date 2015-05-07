@@ -6,11 +6,11 @@
 
 | Rating | Concept    | Description
 |--------|------------|-----------------------------------------------------------
-|        | Variables  | Variables are used effectively and efficiently. |
-|        | Loops      | While loops and iterative loops used appropriately. |
+|        |Variables   | Variables names are logical, clear, and in snake case (Good: "post_height", Bad: 'ph, p, postHeight'). Variables are not needlessly assigned or reassigned (Good: "input = 2; input += 2" Bad: "input = 2; num = input; input = num + 2"). |
+|        | Loops      | While loops control the flow of the code, keeping the user on track, and continuing the program until an appropriate end point. |
 |        | Arrays     | Code demonstrates correctly iterating over arrays, and accessing array elements by index. |
-|        | Strings    | Code demonstrates string concatenation. |
-|        | Operators  | Logical and mathematical operators used effectively and efficiently. |
+|        | Strings    | Strings are used and manipulated (compared, concatenated) correctly to prevent data loss and incorrect output. |
+|        | Operators  | Logical and mathematical operators guide program flow efficiently and properly deal with edge cases (Bad(what if x is 2?): if x < 2; return x; elsif x > 2; return nil; end Good: if x < 2; return x; if x > 2; return nil; else; return 2; end). |
 
 
 ### CODE QUALITY
