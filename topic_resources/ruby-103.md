@@ -40,6 +40,7 @@ Each group will choose a literal-ish expression from the following list. Researc
 # bignum and floats
 123_456_789
 123_456.789
+2.2e-5
 
 # string backslash notation
 "tacos\nare\nawesome"
