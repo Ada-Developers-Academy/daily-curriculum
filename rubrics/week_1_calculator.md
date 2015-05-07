@@ -9,7 +9,7 @@
 |        | Variables                | Variables names are logical, clear, and in snake case. Variables are not needlessly assigned or reassigned ([variable examples](#variables)).
 |        | Loops                    | While loops control the flow of the code, keeping the user on track, and continuing the program until an appropriate end point.
 |        | Data Types               | Hashes, arrays, strings, symbols, numbers, and booleans used appropriately. ([data type examples](#data-types))
-|        | Conditionals & Operators | Logical and mathematical operators guide program flow efficiently and properly deal with edge cases (Gold) ([operator/conditional examples](#conditional--operators)).
+|        | Conditionals & Operators | Logical and mathematical operators guide program flow efficiently and properly deal with edge cases (Gold) ([operator/conditional examples](#conditionals--operators)).
 
 ### Examples or somesuch
 
