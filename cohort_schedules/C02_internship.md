@@ -14,11 +14,11 @@ Apr 21  | [Week 07](#week-7-of-internships)   | Youth Apps
 Apr 28  | [Week 08](#week-8-of-internships)   | Command Line Tools, Divide and Conquer, Leveraging your Coworkers
 May 5   | [Week 09](#week-9-of-internships)   | **NO CLASS**
 May 12  | [Week 10](#week-10-of-internships)  | Resumes, Calibration and Feedback
-May 19  | [Week 11](#week-11-of-internships)  | PROJECT TIME
+May 19  | [Week 11](#week-11-of-internships)  | Structured Project Time w/TA Support
 May 26  | [Week 12](#week-12-of-internships)  | Panel: Negotiating and Getting what you want (salary, job, promotions)
-Jun 2   | [Week 13](#week-13-of-internships)  | PROJECT TIME
+Jun 2   | [Week 13](#week-13-of-internships)  | Structured Project Time w/TA Support
 Jun 9   | [Week 14](#week-14-of-internships)  | Technical Interview Prep + Mock Interviews
-Jun 16  | [Week 15](#week-15-of-internships)  | PROJECT TIME
+Jun 16  | [Week 15](#week-15-of-internships)  | Structured Project Time w/TA Support
 Jun 23  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Networking, TA Scheduling
 Aug 28  |                                     | **GRADUATION**
 
@@ -177,7 +177,7 @@ NO CLASS
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 2:00  |
+| 1:00 - 5:00  | Structured Project Time w/TA Support     |
 | 2:00 - 2:30  | "Modern Day Machiavellianism"            | Hesper, Geek Girls Carrots
 
 ## Week 12 of Internships
@@ -185,6 +185,9 @@ NO CLASS
 
 ## Week 13 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 5:00  | Structured Project Time w/TA Support     |
 
 ## Week 14 of Internships
 Interviewing 1-hour slots with 5 interviewers.
@@ -193,5 +196,8 @@ Interviewing 1-hour slots with 5 interviewers.
 
 ## Week 15 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 1:00 - 5:00  | Structured Project Time w/TA Support     |
 
 ## Week 16 of Internships
