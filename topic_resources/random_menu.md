@@ -31,3 +31,5 @@ Expand your solution to allow the user to determine how many items they'd like t
 Platinum
 --------
 Instead of using hardcoded or predefined arrays, make your program accept user input. Then generate menu items from the user provided input. You'll need to prompt for and store a varying number of entries for each array.
+
+### [Rubric](../rubrics/week_1_random_menu.md)
