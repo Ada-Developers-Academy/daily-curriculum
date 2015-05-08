@@ -155,11 +155,23 @@ If you find a project that would allow for multiple contributors or pairing, sha
 NO CLASS
 
 ## Week 10 of Internships
+
+### Please come with
+- your current, up-to-date resume
+- your current, up-to-date linkedin
+
+### Learning Goals
+- the do's and dont's of resumes and linkedin
+- how to improve your resume and linkedin
+- the importance of calibration and feedback
+
+### Schedule
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 3:00  | Resume Building Workshop                 | Annie???
-| 3:00 - 4:00  | Calibration and Feedback                 | Kelsey, Moz
-| 4:00 - 5:00  |                                          |
+| 1:00 - 3:00  | Resume Building Workshop                 | Annie, Senior Recruiter, GettyImages
+| 3:00 - 4:00  | Calibration and Feedback                 | Kelsey, SDET Team Manager, Moz
+| 4:00 - 5:00  | Project Time                             |
 
 ## Week 11 of Internships
 
