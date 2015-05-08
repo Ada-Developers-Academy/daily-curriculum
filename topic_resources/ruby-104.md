@@ -1,5 +1,4 @@
-More About Conditionals and Flow Control
-=======================
+# More About Conditionals and Flow Control
 
 In the calculator project, we talked about conditionals
 
@@ -10,9 +9,8 @@ else
   # do something different
 end
 ```
-Comparisons
-===========
 
+## Comparisons
 - >
 - <
 - ==
@@ -20,14 +18,33 @@ Comparisons
 - <=
 - !=
 
+## Negating Comparisons
+Ruby has an `unless` keyword that works just like `if`, but measured the other way.
 
-Compound Conditions
-===================
+```ruby
+# The following code executes identically
+if !(number <= 10)
+  puts "big number"
+else
+  puts "little number"
+end
 
+unless number <= 10
+  puts "big number"
+else
+  puts "little number"
+end
+```
+
+The `if` block executes if the _conditional_ evaluates as `true`. The `unless` block executes if the _conditional_ evaluates as `false`.
+
+__Therefore, `unless x` is the same as `if !x`.__
+
+
+## Compound Conditions
 Comparison expressions are often combined:
-
-+ **OR** or **||**
-+ **AND** or **&&**
+- `&&`
+- `||`
 
 ```ruby
 if command == "add"
@@ -45,10 +62,8 @@ elsif command == "subtract" || command == "-"
 end
 ```
 
-Wait a ```while```
-=============
-
-Execute the iterator ```while``` the condition is true.
+## Wait a `while`
+Execute the iterator `while` the condition is true.
 
 ```ruby
 i = 0
@@ -78,11 +93,8 @@ end
 puts "OMG It's about time!"
 ```
 
-
-Make it clearer by using ```Until```
-==================
-
-Execute the iterator ```until``` the condition is true.
+## Make it clearer by using `Until`
+Execute the iterator `until` the condition is true.
 
 ```ruby
 i = 0
@@ -112,8 +124,7 @@ end
 puts "OMG It's about time!"
 ```
 
-Make it clearer by using `include?`
-
+## Make it clearer by using `include?`
 ```ruby
 command = gets.chomp
 
@@ -125,9 +136,7 @@ end
 puts "OMG It's about time!"
 ```
 
-More complex conditionals
-==================
-
+## Simplifying really complex conditionals
 ```ruby
 if command == "add" || command == "+"
   # adds numbers
@@ -144,22 +153,22 @@ elsif command == "sqrt"
 end
 ```
 
-case/when
-==================
-
+The above code works, but it's kinda messy. We can trim it by using the `case/when` syntax:
 ```ruby
 case command
-when "add", "+"
-  # adds numbers
-when "subtract", "-"
-  # subtract the numbers
-when "multiply", "*"
-  # multiply the numbers
-when "divide", "/"
-  # divide the numbers
-when "exponify", "**"
-  # exponify the number
-when "sqrt"
-  # find the square root of the number
+  when "add", "+"
+    # adds numbers
+  when "subtract", "-"
+    # subtract the numbers
+  when "multiply", "*"
+    # multiply the numbers
+  when "divide", "/"
+    # divide the numbers
+  when "exponify", "**"
+    # exponify the number
+  when "sqrt"
+    # find the square root of the number
+  else
+    puts "What do you want from me?!"
 end
 ```
