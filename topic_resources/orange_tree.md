@@ -11,7 +11,7 @@ The `OrangeGrove` should also have a `@soil_quality` attribute, the more trees i
 
 Depending on the soil quality any new tree on the grove has a chance of being dead.
 
-Also create a `self.plant_on(grove)` method for the `OrangeTree` class which adds a new tree to the grove passed in as an argument.
+Also create a `plant_on(grove)` method for the `OrangeTree` class which adds a new tree to the grove passed in as an argument.
 
 
 ## Dessert nom nom nom
