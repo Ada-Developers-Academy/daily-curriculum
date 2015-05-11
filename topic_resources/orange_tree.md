@@ -46,3 +46,5 @@ Create a Ascii-text based tree program which shows a map of the grove that chang
 - `,` = Healthy
 
 p.s. Google is your friend.
+
+### [Rubric](../rubrics/week_2_orangetree.md)
