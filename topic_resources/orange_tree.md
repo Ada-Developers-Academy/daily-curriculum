@@ -39,3 +39,5 @@ Create a Ascii-text based tree program which shows a map of the grove that chang
 - `_` = Unhealthy
 - `.` = Average
 - `,` = Healthy
+
+### [Rubric](../rubrics/week_2_orangetree.md)
