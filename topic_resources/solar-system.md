@@ -20,3 +20,5 @@
 
 ## Dessert
 - Give each planet a `@distance_from_the_sun` attribute, and a method to determine the distance from any other planet (assuming planets are in a stright line from the sun)
+
+### [Rubric](../rubrics/week_2_solar_system.md)
