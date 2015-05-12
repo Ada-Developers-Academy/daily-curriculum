@@ -157,6 +157,40 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 [MasterMind](../topic_resources/mastermind.md)  
 [Hangman](../topic_resources/hangman.md)  
 
+
+## Week 3
+In Week 3 we will be learning some intermediate ruby ideas such as advanced variables, memoization, and Enumerable. For the project we will be building a pure ruby application backed by a CSV database called [FarMarFinder](../topic_resources/farmarfinder.md). By the end of the week students should be able to build a ruby DSL for a relational CSV backed database using basic ruby methodologies and best practices.
+
+### Learning Goals
+
+  - Learn basic/intermediate ruby concepts and methods
+      - Scopes of all variable types (local, instance, global, etc...)
+      - Performance with memoization
+      - Enumerable methods
+  - Running Koans
+  - Unit testing your application with Rspec
+  - Build a CSV backed ruby application
+  - Practice pair programming
+  - Collaborate on code via [Github](http://github.com)
+
+### Resources
+[Assertions](../topic_resources/assert.md)
+[More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
+[Ruby Koans](../topic_resources/koans.md)
+[Inheritance](../topic_resources/inheritance.md)
+
+[Reading from CSV](../topic_resources/csv_database.md)
+[Enumerable Methods](../topic_resources/enumerable.md)
+CSV Project Intro ([FarMarFinder](../topic_resources/farmarfinder.md))
+
+[RSpec](../topic_resources/rspec.md)
+[Advanced Variables](../topic_resources/advanced_variables.md)
+[Memoization](../topic_resources/memoization.md)
+[Rubocop](../topic_resources/rubocop.md) -- maybe not?
+
+### Projects
+[FarMarFinder](../topic_resources/farmarfinder.md)
+
 <!--
 
 #### Friday
