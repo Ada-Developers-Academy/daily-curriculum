@@ -1,15 +1,18 @@
-# Hashes
+# More About Classes: Using Hashes and Establishing Default Values
 
-Hash's in Ruby are used often to represent an object instead of or before an actual class object.
+## Hashes: A Quick Refresher
+Hashes in Ruby are used often to represent an object instead of or before an actual class object.
 This often happens when we get some type of input that can be parsed into sane parts. This could come in many different formats such as JSON, XML, YAML, or CSV.
 For example if we have some data:
+
+Why isn't this updating?
 
 | name              | email                                   |
 |:----------------- |:----------------------------------------|
 | Jeremy Flores     | jeremy@adadevelopersacademy.org
 | Kari Bancroft     | kari@adadevelopersacademy.org
 
-Each line of this could be represented as a hash, using the headers as the keys:
+Each line of this could be represented as a Hash, using the table headers as _keys_:
 
 ```ruby
 person1 = {name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org"}
@@ -17,6 +20,7 @@ person2 = {name: "Kari Bancroft", email: "kari@adadevelopersacademy.org"}
 ```
 
 Further we could groups these in an Array:
+
 ```ruby
 people = [
   { name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org" },
@@ -24,11 +28,11 @@ people = [
 ]
 ```
 
-A `Hash` key can have any object as it's value, even another hash.
+A Hash _key_ can have any object as its _value_, even another Hash.
 
 ```ruby
-{ jeremy:
-  {
+{ jeremy: # this is the key
+  { # this entire hash is the value
     last_name: "Flores",
     first_name: "Jeremy",
     address: {
@@ -51,7 +55,8 @@ A `Hash` key can have any object as it's value, even another hash.
 ```
 
 ## Using Hash to initiate objects
-A Hash is a great way to pass in arguments to `initialize`, first let's look at a use case for this.
+A Hash is a great way to pass in arguments to the `initialize` method of a Class. Have a look at this Class:
+
 ```ruby
 class Address
   def initialize(first_name, last_name, street_one, street_two, city, state, country, postal_code)
@@ -100,3 +105,50 @@ with
 ```ruby
 Address.new("Jeremy","","","","WA","","")
 ```
+
+## Default Attribute Values for Methods
+
+It's very common for a method to have optional arguments. These arguments can represent common values, slightly modified functionality, or similar minor deviations.
+
+__Every method should embrace SRP (single responsibility principle).__
+
+Here's a method that might look familiar:
+
+```ruby
+def exponate(base, power)
+  base ** power
+end
+```
+
+We can define an optional argument by assigning a default value to an argument in the method declaration:
+
+```ruby
+def exponate(base, power = 2)
+  # if we don't pass in a power, it will be assigned 2 by default
+  base ** power
+end
+
+exponate(2)
+exponate(2, 3)
+exponate(4)
+```
+
+__Question: Is this a good use case for an optional argument?__
+
+Let's look at another example:
+
+```ruby
+def exponate(base, power, abs = false)
+  if abs
+    (base ** power).abs
+  else
+    base ** power
+  end
+end
+
+exponate(2)
+exponate(-2, 3)
+exponate(-2, 3, true)
+```
+
+__Question: Is this a good use case for an optional argument?__
