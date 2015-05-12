@@ -41,24 +41,6 @@ end
 - **Pros**: automation FTW!
 - **Cons**: still testing the entire program in one shot; error message possibly not all that helpful.
 
-TDD
-----
-
-- Test First Development
-- Test Driven Development
-- Behavior Driven Development
-- Growing Object Oriented Software, Guided by Tests (which is actually a book title)
-
-(1) Write a test that describes some new feature of the software. Run the test, and watch it fail. (Watching it fail is crucial!) (2) Write code that makes all the tests pass. (3) Look for opportunities to simplify your code.
-
-- Write a test
-- Watch it fail
-- Make it pass
-- Simplify
-- Repeat
-
-You'll often hear this cycle shorthanded as "Red, Green, Refactor."
-
 FizzBuzz w/TDD
 -------------
 
