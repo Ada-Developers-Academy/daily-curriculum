@@ -7,11 +7,9 @@ Make an `OrangeTree` class. It should have a `height` method which returns its h
 Make an `OrangeGrove` class that holds many `OrangeTree` objects. When one year passes all trees should progress a year. You should have a `count_all_the_oranges` method which returns the total number of oranges on all trees.
 
 ## Dinner
-The `OrangeGrove` should also have a `@soil_quality` attribute, the more trees in the grove the lower this number is, but a lower number also produces longer living trees that produce more fruit.
+Add a `@soil_quality` attribute to your `OrangeGrove`. More trees in the grove will lower the soil quality over time, which impacts the longevity of the trees, and the amount of fruit each tree produces. Fewer trees in a grove will increase the `@soil_quality` as years pass.
 
-Depending on the soil quality any new tree on the grove has a chance of being dead.
-
-Also create a `plant_on(grove)` method for the `OrangeTree` class which adds a new tree to the grove passed in as an argument.
+Also create a `plant_on(grove)` method for the `OrangeTree` class which adds a new tree to the grove.
 
 
 ## Dessert nom nom nom
