@@ -2,32 +2,32 @@
 
 Hash's in Ruby are used often to represent an object instead of or before an actual class object.
 This often happens when we get some type of input that can be parsed into sane parts. This could come in many different formats such as JSON, XML, YAML, or CSV.
-For example if we have a CSV:
+For example if we have some data:
 
 | name              | email                                   |
-|:------------------ |:----------------------------------------|
-| Jeremy Flores   | jeremy@adadevelopersacademy.org |
-| Kari Bancroft    | kari@adadevelopersacademy.org |
+|:----------------- |:----------------------------------------|
+| Jeremy Flores     | jeremy@adadevelopersacademy.org
+| Kari Bancroft     | kari@adadevelopersacademy.org
 
 Each line of this could be represented as a hash, using the headers as the keys:
 
 ```ruby
-{name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org"}
-```
-```ruby
-{name: "Kari Bancroft", email: "kari@adadevelopersacademy.org"}
+person1 = {name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org"}
+person2 = {name: "Kari Bancroft", email: "kari@adadevelopersacademy.org"}
 ```
 
 Further we could groups these in an Array:
 ```ruby
-[{name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org"},
-{name: "Kari Bancroft", email: "kari@adadevelopersacademy.org"}]
+people = [
+  { name: "Jeremy Flores", email: "jeremy@adadevelopersacademy.org" },
+  { name: "Kari Bancroft", email: "kari@adadevelopersacademy.org" }
+]
 ```
 
 A `Hash` key can have any object as it's value, even another hash.
 
 ```ruby
-{jeremy:
+{ jeremy:
   {
     last_name: "Flores",
     first_name: "Jeremy",
@@ -36,15 +36,21 @@ A `Hash` key can have any object as it's value, even another hash.
       city: "Seattle",
       state: "WA"
     },
-    pets: [{
-      type: "dog",
-      name: "Rosa"
-    }]
+    pets: [
+      {
+        name:    "Rosalita",
+        species: "dog"
+      },
+      {
+        name:    "Raquel",
+        species: "cat"
+      }
+    ]
   }
 }
 ```
-Using Hash to initiate objects
----------
+
+## Using Hash to initiate objects
 A Hash is a great way to pass in arguments to `initialize`, first let's look at a use case for this.
 ```ruby
 class Address
@@ -59,12 +65,11 @@ class Address
     @postal_code = postal_code
   end
 end
-Address.new("Jeremy", "Flores", "123 fake st", "Seattle", "WA", "US", 98102)
 ```
 
-What is the problem (or at least obnoxious) there? What if you don't have a `street_two` attribute?
+What's the problem here? What happens if you don't have a `street_two` attribute?
 
-Let's try again using a hash
+Let's try again using a hash:
 ```ruby
 class Address
   def initialize(address_hash)
@@ -79,36 +84,19 @@ class Address
   end
 end
 
-Address.new(first_name: "Jeremy")
-
+Address.new(first_name: "Jeremy", state: "WA")
 ```
-Example
---------
+
+Using a hash to provide parameters to a class' `initialize` method lets us omit parameters that may not exist for some instances. It also adds clarity to instantiation process by explicitely providing keys and values.
+
+Compare:
+
 ```ruby
-books = {
-  top_time_travel: [
-    {
-      title: "The Time Machine",
-      author: "H. G. Wells",
-      category: "Fiction",
-      rating: (4 + 4.5 + 3 + 5 + 4.5) / 5,
-      sales: {1895 => 3_000_000},
-      plot: {
-        year: 802701,
-        species: ["Morlocks", "Eloi"]
-      }
-    },
-    {
-      title: "A Connecticut Yankee in King Arthur's Court",
-      author: "Mark Twain",
-      category: "Fiction",
-      rating: (4.5 + 4.5 + 2 + 5 + 4.5 + 4) / 6,
-      sales: {1889 => 2_100_000},
-      plot: {
-        year: 528,
-        species: ["Human"]
-      }
-    }
-  ]
-}
+Address.new(first_name: "Jeremy", state: "WA")
+```
+
+with
+
+```ruby
+Address.new("Jeremy","","","","WA","","")
 ```
