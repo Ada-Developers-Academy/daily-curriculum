@@ -13,7 +13,7 @@
 |        | Methods                  | Methods are designed and implemented with a single purpose. Methods are logically named in snake case.
 |        | Classes                  | Classes are used to represent a single object, and contain all of the functionality and information associated with that object.
 
-### Examples or somesuch
+### Examples
 
 #### Variables
 ```ruby
@@ -81,8 +81,7 @@ total = 1 + num.to_i
 |--------|----------------|-----------------------------------------------------------
 |        | Correctness    | Code runs without errors or bugs. Edge cases are tested for and handled appropriately.
 |        | Readability    | Formatting is consistent. Naming conventions are followed. Use of white space and tabs are consistent. Code is concise. Each group of statements creates a complete thought and those thoughts are separated by blank lines. Variable, method and class names are meaningful.
-|        | Structure      | Methods perform one, and only one, function. Blocks of code that are run multiple times
-are not cut-and-pasted, but instead are written as loops and functions. Variables are not duplicated unnecessarily.
+|        | Structure      | Methods perform one, and only one, function. Blocks of code that are run multiple times are not cut-and-pasted, but instead are written as loops and functions. Variables are not duplicated unnecessarily.
 |        | Efficiency     | There is no unused code included.
 |        | Comments       | Comments accurately describe code logic and are placed before or on the line they describe. Comments are either: information that can’t be expressed in code, intent comments, or summary comments.
 
