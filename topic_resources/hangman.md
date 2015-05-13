@@ -1,6 +1,6 @@
 # Hangman
 
-## Bronze
+## Breakfast
 Create a hangman game that can be played from the Terminal.
 
 The rules according to Wikipedia:
@@ -26,15 +26,11 @@ To get the hang of gameplay, here is an [online version to play](http://www.play
 | ____|___
 ```
 
-## Silver
+## Lunch
 - Display the letters that have already been guessed before each player guesses a new letter.
 - Use the colorze gem to make each piece of the hangman a different color.
 
-## Gold
+## Dinner
 - Ensure the user is not penalized for guessing the same letter more than once.
 - Allow the user to choose their difficulty level: higher levels will have words or phrases with more letters. You determine the specific logic that will deterine a low, medium, high level, for example.
-- Handle inappropriate user input. For example, what happens when a user enters an exclamation point. 
-
-## Platinum
-- Make your program accept a command line argument that is a file name. This file will contain CSV data of words to be used in the game. Your program must accept and be able to use any CSV file that is formatted according to the sample. Ensure that the difficulty level functionality from the Gold level is still enforced using this new CSV data.
-Note: Refer to LRTHW materials on reading file data.
+- Handle inappropriate user input. For example, what happens when a user enters an exclamation point.
