@@ -1,4 +1,4 @@
-# Gems
+# An Introduction to Ruby Gems
 
 Gems (or RubyGems) are what you would other languages would call a library.
 They are packaged code that can be shared and distributed. Most gems are
@@ -8,10 +8,9 @@ Let's look at a couple gems to get an idea of what would be packaged and why.
 
 - [Rails](https://rubygems.org/gems/rails)
 - [Sinatra](https://rubygems.org/gems/sinatra)
-- [Money](https://rubygems.org/gems/money)
 - [Colorize](https://rubygems.org/gems/colorize)
 
-### Installing Gems
+## Installing Gems
 
 Installing gems is super easy. You can do it right from the Terminal.
 
@@ -20,7 +19,7 @@ Installing gems is super easy. You can do it right from the Terminal.
 gem install money
 ```
 
-### Requiring Gems
+## Requiring Gems
 
 Since gems are external Ruby libraries, they are not included in core Ruby.
 So, if we want to use the gem we have to use the `require` statement first
@@ -31,7 +30,7 @@ require "money"
 
 You can do this at the top of any ruby script, app, or in irb.
 
-### Using Gems
+## Example: Using the `money` gem.
 
 Generally the github page for a gem is the best place to go to get started.
 Let's check out the [money gems page](https://github.com/RubyMoney/money).
@@ -82,3 +81,15 @@ puts "This is red on blue and underline".colorize(:red).on_blue.underline
 puts "This is blue text on red".blue.on_red.blink
 puts "This is uncolorized".blue.on_red.uncolorize
 ```
+
+## Activity: Divide & Conquer Ruby Gems
+
+In groups, research the usage of one of the following gems and create a small example showing at least one of the features of the gem.
+
+- [Money](http://rubymoney.github.io/money/)
+- [Awesome Print](https://github.com/michaeldv/awesome_print)
+- [lolcat](https://github.com/busyloop/lolcat)
+- [pry](https://github.com/pry/pry)
+- [Chronic](https://github.com/mojombo/chronic)
+- [Geocoder](http://www.rubygeocoder.com/)
+
