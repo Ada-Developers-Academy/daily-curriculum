@@ -10,11 +10,6 @@ The rules according to Wikipedia:
 > - The guessing player completes the word, or guesses the whole word correctly
 > - The other player completes the diagram:
 
-To get the hang of gameplay, here is an [online version to play](http://www.playhangman.com/PH.asp?g=cats)
-- Between each guess, the board should be redrawn to the terminal output (Ascii art!).
-- Use classes for each different idea represented in the game
-- Place the application flow/logic in a method outside of any class,  call this method at the end of the file to start the game.
-
 ```
 |     _________
 |     |/      |
@@ -23,8 +18,14 @@ To get the hang of gameplay, here is an [online version to play](http://www.play
 |     |       |
 |     |      / \
 |     |
-| ____|___
+| ____|___ word: _ O _ D O _
 ```
+
+To get the hang of gameplay, here is an [online version to play](http://www.playhangman.com/PH.asp?g=cats)
+
+- Between each guess, the board should be redrawn to the terminal output (Ascii art!).
+- Use classes to contain your game logic. You may be able to implement your solution using just one class, but consider how isolating related functionality into separate classes may increase your code's readability and maintainability (single responsibility principle).
+- You should be able to play your game by running it from `ruby` directly, as opposed to starting it in `irb`. We did this with Mastermind, so refer to it for reference.
 
 ## Lunch
 - Display the letters that have already been guessed before each player guesses a new letter.
@@ -34,3 +35,5 @@ To get the hang of gameplay, here is an [online version to play](http://www.play
 - Ensure the user is not penalized for guessing the same letter more than once.
 - Allow the user to choose their difficulty level: higher levels will have words or phrases with more letters. You determine the specific logic that will deterine a low, medium, high level, for example.
 - Handle inappropriate user input. For example, what happens when a user enters an exclamation point.
+
+### [Rubric](../rubrics/week_2_hangman.md)
