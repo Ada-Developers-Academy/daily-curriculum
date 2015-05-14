@@ -18,7 +18,7 @@ The rules according to Wikipedia:
 |     |       |
 |     |      / \
 |     |
-| ____|___
+| ____|___ word: _ O _ D O _
 ```
 
 To get the hang of gameplay, here is an [online version to play](http://www.playhangman.com/PH.asp?g=cats)
