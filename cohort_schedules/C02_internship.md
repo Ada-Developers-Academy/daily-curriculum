@@ -182,6 +182,9 @@ NO CLASS
 
 ## Week 12 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 2:00 - 4:00  | Panel: Negotiating to get what you want  | Cynthia moderating
 
 ## Week 13 of Internships
 
@@ -192,7 +195,7 @@ NO CLASS
 ## Week 14 of Internships
 Interviewing 1-hour slots with 5 interviewers.
 - George
--
+- Heather
 
 ## Week 15 of Internships
 
@@ -201,3 +204,5 @@ Interviewing 1-hour slots with 5 interviewers.
 | 1:00 - 5:00  | Structured Project Time w/TA Support     |
 
 ## Week 16 of Internships
+
+- Scott in July or here?
