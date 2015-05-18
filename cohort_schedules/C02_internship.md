@@ -178,7 +178,6 @@ NO CLASS
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 5:00  | Structured Project Time w/TA Support     |
-| 2:00 - 2:30  | "Modern Day Machiavellianism"            | Hesper, Geek Girls Carrots
 
 ## Week 12 of Internships
 
