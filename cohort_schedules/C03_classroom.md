@@ -7,8 +7,8 @@
 | May 4   | [Week 01](#week-1)  | Student Orientation, Bash, Ruby
 | May 11  | [Week 02](#week-2)  | Ruby II
 | May 18  | [Week 03](#week-3)  | Ruby III
-| May 25  | [Week 04](#week-4)  | Testing, Sinatra, HTTP, DOM & HTML
-| Jun 1   | [Week 05](#week-5)  | HTML & CSS
+| May 25  | [Week 04](#week-4)  | HTML & CSS
+| Jun 1   | [Week 05](#week-5)  | Testing, Sinatra, HTTP, DOM & HTML
 | Jun 8   | [Week 06](#week-6)  | Intro to Rails
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
