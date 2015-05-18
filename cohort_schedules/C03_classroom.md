@@ -88,7 +88,7 @@
 + Array  
 + Hash (Intro)  
 
-[Flow Control](../topic_resources/flow-control.md)   
+[Flow Control](../topic_resources/flow-control.md)
 + Boolean  
 + Conditionals (excluding elsif)  
 
@@ -174,19 +174,15 @@ In Week 3 we will be learning some intermediate ruby ideas such as advanced vari
   - Collaborate on code via [Github](http://github.com)
 
 ### Resources
+[Enumerable Methods](../topic_resources/enumerable.md)
+[Inheritance](../topic_resources/inheritance.md)
+[Advanced Variables](../topic_resources/advanced_variables.md)
+[Reading from CSV](../topic_resources/csv_database.md)
+[TDD/BDD](../topic_resources/tdd_bdd.md)
+[RSpec](../topic_resources/rspec.md)
 [Assertions](../topic_resources/assert.md)
 [More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
 [Ruby Koans](../topic_resources/koans.md)
-[Inheritance](../topic_resources/inheritance.md)
-
-[Reading from CSV](../topic_resources/csv_database.md)
-[Enumerable Methods](../topic_resources/enumerable.md)
-CSV Project Intro ([FarMarFinder](../topic_resources/farmarfinder.md))
-
-[RSpec](../topic_resources/rspec.md)
-[Advanced Variables](../topic_resources/advanced_variables.md)
-[Memoization](../topic_resources/memoization.md)
-[Rubocop](../topic_resources/rubocop.md) -- maybe not?
 
 ### Projects
 [FarMarFinder](../topic_resources/farmarfinder.md)
