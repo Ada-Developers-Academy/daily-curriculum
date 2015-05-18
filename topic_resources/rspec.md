@@ -3,6 +3,9 @@
 
 [Additional Tutorial Info](http://code.tutsplus.com/tutorials/ruby-for-newbies-testing-with-rspec--net-21297)
 
+#### What is RSpec?
+RSpec is technically a DSL (Domain-specific language) written in Ruby that is designed to help you test your code. RSpec's syntax also reads like English to
+
 #### Setting Up
 Install Rspec
 ``` gem install rspec ```
