@@ -175,7 +175,8 @@ NO CLASS
 
 ## Week 11 of Internships
 
-##  Project Time w/TA Support
+##  Project Time w/TA Support - Project: Tic Tac Toe
+
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
 | 1:00 - 1:30  | Project Intro                            |
