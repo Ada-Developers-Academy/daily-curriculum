@@ -7,8 +7,8 @@
 | May 4   | [Week 01](#week-1)  | Student Orientation, Bash, Ruby
 | May 11  | [Week 02](#week-2)  | Ruby II
 | May 18  | [Week 03](#week-3)  | Ruby III
-| May 25  | [Week 04](#week-4)  | Testing, Sinatra, HTTP, DOM & HTML
-| Jun 1   | [Week 05](#week-5)  | HTML & CSS
+| May 25  | [Week 04](#week-4)  | HTML & CSS
+| Jun 1   | [Week 05](#week-5)  | Testing, Sinatra, HTTP, DOM & HTML
 | Jun 8   | [Week 06](#week-6)  | Intro to Rails
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
@@ -88,7 +88,7 @@
 + Array  
 + Hash (Intro)  
 
-[Flow Control](../topic_resources/flow-control.md)   
+[Flow Control](../topic_resources/flow-control.md)
 + Boolean  
 + Conditionals (excluding elsif)  
 
@@ -174,19 +174,15 @@ In Week 3 we will be learning some intermediate ruby ideas such as advanced vari
   - Collaborate on code via [Github](http://github.com)
 
 ### Resources
+[Enumerable Methods](../topic_resources/enumerable.md)
+[Inheritance](../topic_resources/inheritance.md)
+[Advanced Variables](../topic_resources/advanced_variables.md)
+[Reading from CSV](../topic_resources/csv_database.md)
+[TDD/BDD](../topic_resources/tdd_bdd.md)
+[RSpec](../topic_resources/rspec.md)
 [Assertions](../topic_resources/assert.md)
 [More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
 [Ruby Koans](../topic_resources/koans.md)
-[Inheritance](../topic_resources/inheritance.md)
-
-[Reading from CSV](../topic_resources/csv_database.md)
-[Enumerable Methods](../topic_resources/enumerable.md)
-CSV Project Intro ([FarMarFinder](../topic_resources/farmarfinder.md))
-
-[RSpec](../topic_resources/rspec.md)
-[Advanced Variables](../topic_resources/advanced_variables.md)
-[Memoization](../topic_resources/memoization.md)
-[Rubocop](../topic_resources/rubocop.md) -- maybe not?
 
 ### Projects
 [FarMarFinder](../topic_resources/farmarfinder.md)

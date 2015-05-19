@@ -24,11 +24,11 @@ Ruby includes a CSV library used to read and write CSV files. This class is very
 ```ruby
 require 'csv'
 # Reads the contents of the file into an array of arrays.
-CSV.read("moar_ada_people.csv")
-# => [["1", "Elise"],["2", "Karen"],["3", "Brooke"]]
+CSV.read("ada_people.csv")
+# => [["1", "Kari"],["2", "Jeremy"],["3", "Crystal"],["4", "Cynthia"]]
 
 # Returns a CSV Object, to be read or manipulated.
-csv = CSV.open("moar_ada_people.csv")
+csv = CSV.open("ada_people.csv")
 # <#CSV io_type:File io_path:"file.csv" encoding:UTF-8 ...>
 ```
 
@@ -38,7 +38,7 @@ The `open` method requires at least one argument and up to three arguments as we
 CSV.open(filename, mode='r', options) {|file| block}
 ```
 
-The required argument is the filename, the second argument ('mode') is the permissions that are allowed when the file is opened, this defaults to "r" (read), possible values are:
+The required argument is the CSV filename and path. The second argument (`mode`) sets what permissions Ruby has to the file when it is opened. This defaults to `r` (read onle). Possible values are:
 
 |Mode |  Meaning
 |:---:|---------------------------------------------------------|
@@ -48,17 +48,17 @@ The required argument is the filename, the second argument ('mode') is the permi
 |"w+" |  Read-write, truncates existing file to zero length.    |
 |"a"  |  Write-only, starts at end of file if file exists.      |
 |"a+" |  Read-write, starts at end of file if file exists.      |
-| "b" |  Binary file mode                                       |
-| "t" |  Text file mode                                         |
+|"b"  |  Binary file mode                                       |
+|"t"  |  Text file mode                                         |
 
 Most modes will create a new file if one doesn't already exist with the given name.
 
-The block is too manipulate the file upon opening it and close the file after completing the code within the block:
+If you pass a block to `open`, Ruby will open the file, execute the code within the block (the file contents is given to the block as a local variable), and then close the file.
 
 ```ruby
 require 'csv'
-CSV.open("some_new_file.csv", 'w') do |csv|
-  csv << ["some data"]
+CSV.open("moar_ada_peeps.csv", 'w') do |csv|
+  csv << "1,Elise\n2,Karen"
 end
 ```
 
@@ -67,16 +67,42 @@ We can iterate over each line of the file using the `each` method:
 ```ruby
 require 'csv'
 CSV.open("markets.csv", 'r').each do |line|
-  puts line.inspect
+  puts line
 end
 ```
 
-The `.read` method requires one arguement, the filename, and allows for additional options.
+The `.read` method requires one arguement, the filename, and allows for additional options. `.read` first opens the CSV file, then reads the contents of it into a new `Array`. Each row of CSV data is translated into an array as well.
+
+```
+# ada_peeps.csv
+1,Kari
+2,Jeremy
+3,Cynthia
+4,Crystal
+```
 
 ```ruby
 require 'csv'
-array_of_markets = CSV.read("markets.csv")
-# => [["1", "Market 1"], [2, "Market 2"], [...]]
+require 'awesome_print'
+array_of_ada_peeps = CSV.read("ada_peeps.csv")
+ap array_of_ada_peeps
+# [
+#     [0] [
+#         [0] 1,
+#         [1] "Kari"
+#     ],
+#     [1] [
+#         [0] 2,
+#         [1] "Jeremy"
+#     ],
+#     [2] [
+#         [0] 3,
+#         [1] "Cynthia"
+#     ],
+#     [3] [
+#         [0] 4,
+#         [1] "Crystal"
+#     ]
+# ]
 ```
 
-`.read` reads the contents of the CSV and creates an `Array` for each row of data.

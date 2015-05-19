@@ -174,30 +174,47 @@ NO CLASS
 | 4:00 - 5:00  | Project Time                             |
 
 ## Week 11 of Internships
+- Karen talks about 90-day reviews
+- Pilot CR process
+
+##  Project Time w/TA Support - Project: Tic Tac Toe
 
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 5:00  | Structured Project Time w/TA Support     |
-| 2:00 - 2:30  | "Modern Day Machiavellianism"            | Hesper, Geek Girls Carrots
+| 1:00 - 1:30  | Project Intro                            |
+| 1:30 - 4:00  | Project Time                             |
+| 4:00 - 5:00  | Live code solution                       |
+
 
 ## Week 12 of Internships
 
+| Time         | Topic                                    | With
+|--------------|------------------------------------------|----------
+| 2:00 - 4:00  | Panel: Negotiating to get what you want  | Cynthia moderating
 
 ## Week 13 of Internships
 
+##  Project Time w/TA Support
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 5:00  | Structured Project Time w/TA Support     |
+| 1:00 - 1:30  | Project Intro                            |
+| 1:30 - 4:00  | Project Time                             |
+| 4:00 - 5:00  | Live code solution                       |
 
 ## Week 14 of Internships
 Interviewing 1-hour slots with 5 interviewers.
 - George
--
+- Heather
 
 ## Week 15 of Internships
 
+##  Project Time w/TA Support
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 5:00  | Structured Project Time w/TA Support     |
+| 1:00 - 1:30  | Project Intro                            |
+| 1:30 - 4:00  | Project Time                             |
+| 4:00 - 5:00  | Live code solution                       |
 
 ## Week 16 of Internships
+
+- Scott in July or here?

@@ -1,17 +1,17 @@
 # Revisiting Classes
 
-We are going to recap the following four ideas within classes:
+We are going to recap the following three ideas within classes:
 
-- Constructor
+- Constructor (`initialize`)
 - Instance Methods
-- Class Methods
 - Attributes (stored in instance variables)
 
-Constructor (`initialize`)
---------------
+Then we're going to add one more concept to our classes: __Class Methods & Self__
 
-The `initialize` method within a class is special, when the `new` method is called on a class a new instance is instantiated and the `initialize` method is promptly called on it. This method is used to setup the default state of an object
-Typically within a `initialize` method we set any given attributes and make any data manipulations that we need to
+## Constructor (`initialize`)
+The `initialize` method within a class is special, when the `new` method is called on a class a new _instance _is created and the `initialize` method is promptly called on it. This method is used to setup the default state of an object.
+
+Typically within a `initialize` method we set any given attributes and make any data manipulations that we need to...
 
 ```ruby
 class Product
@@ -27,10 +27,8 @@ class Product
 end
 ```
 
-Instance Methods
----------------
-
-Instance methods are defined with `def a_snake_case_word`. Instance methods are only available on instances of a class.
+## Instance Methods
+Instance methods are defined with `def a_snake_case_name`. Instance methods are only available on _instances_ of a class.
 
 ```ruby
 class Order
@@ -54,38 +52,8 @@ order = Order.new(1000, 2)
 order.to_money
 ```
 
-Class Methods
-------------
-
-Class methods are defined like instance methods, but they start with `self.`, `def self.make_row`
-
-```ruby
-class Pawn
-  def initialize(position)
-    @position = position
-  end
-
-  # This is the class method, it starts with self.
-  # It is only called on the class directly Pawn.make_row
-  def self.make_row(side)
-    if side == "white"
-      num = 2
-    else
-      num = 7
-    end
-
-    ("a".."h").collect do |letter|
-      new("#{letter}#{num}")
-    end
-  end
-end
-Pawn.make_row("black")
-```
-
-Attributes
-----------
-
-Attributes are really just instance variables. But Ruby provides a couple of methods to help us get and set these instance variables.
+## Attributes
+Attributes are really just instance variables. But Ruby provides a couple of methods to help us get and set these instance variables. `attr_accessor` defines methods to get and set an instance variable as the same name as the symbol we give it.
 
 ```ruby
 class Coordinate
@@ -113,4 +81,31 @@ class Coordinate
 end
 ```
 
-`attr_accessor` defines methods to get and set an instance variable as the same name as the symbol we give it.
+## Class Methods & `self`
+Class methods are defined like instance methods, but they start with `def self.make_row` and are called internally with the `self` identifier.
+
+Class methods are called directly by the _class_ and not by an _instance_ of the class.
+
+```ruby
+class Pawn
+  def initialize(position)
+    @position = position
+  end
+
+  # This is the class method, it starts with self.
+  # It is only called on the class directly Pawn.make_row
+  def self.make_row(side)
+    if side == "white"
+      num = 2
+    else
+      num = 7
+    end
+
+    ("a".."h").collect do |letter|
+      new("#{letter}#{num}")
+    end
+  end
+end
+
+pawns = Pawn.make_row("black")
+```
