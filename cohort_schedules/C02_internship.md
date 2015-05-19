@@ -175,9 +175,13 @@ NO CLASS
 
 ## Week 11 of Internships
 
+##  Project Time w/TA Support
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 5:00  | Structured Project Time w/TA Support     |
+| 1:00 - 1:30  | Project Intro                            |
+| 1:30 - 4:00  | Project Time                             |
+| 4:00 - 5:00  | Live code solution                       |
+
 
 ## Week 12 of Internships
 
@@ -187,9 +191,12 @@ NO CLASS
 
 ## Week 13 of Internships
 
+##  Project Time w/TA Support
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 5:00  | Structured Project Time w/TA Support     |
+| 1:00 - 1:30  | Project Intro                            |
+| 1:30 - 4:00  | Project Time                             |
+| 4:00 - 5:00  | Live code solution                       |
 
 ## Week 14 of Internships
 Interviewing 1-hour slots with 5 interviewers.
@@ -198,9 +205,12 @@ Interviewing 1-hour slots with 5 interviewers.
 
 ## Week 15 of Internships
 
+##  Project Time w/TA Support
 | Time         | Topic                                    | With
 |--------------|------------------------------------------|----------
-| 1:00 - 5:00  | Structured Project Time w/TA Support     |
+| 1:00 - 1:30  | Project Intro                            |
+| 1:30 - 4:00  | Project Time                             |
+| 4:00 - 5:00  | Live code solution                       |
 
 ## Week 16 of Internships
 
