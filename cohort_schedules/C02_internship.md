@@ -174,6 +174,8 @@ NO CLASS
 | 4:00 - 5:00  | Project Time                             |
 
 ## Week 11 of Internships
+- Karen talks about 90-day reviews
+- Pilot CR process
 
 ##  Project Time w/TA Support - Project: Tic Tac Toe
 
