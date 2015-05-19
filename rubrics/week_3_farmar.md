@@ -12,9 +12,9 @@
 |        | Conditionals & Operators | Logical and mathematical operators guide program flow efficiently and properly deal with edge cases ([operator/conditional examples](#conditionals--operators)).
 |        | Methods                  | Methods are designed and implemented with a single purpose. Methods are logically named in snake case.
 |        | Classes and Modules      | Classes are used to represent a single object, and contain all of the functionality and information associated with that object. Classes are stored appropriately in modules, and namespaces are used properly.
-|        | Gems                     | Gems are chosen and used appropriately. No gems are included that are not used in the code.
+|        | Gems                     | Gems are chosen and used for a specific purpose within the project.
 |        | Rspec/Testing            | Testing logic is sound, ensuring that tests pass and fail appropriately.
-|        | Level-specific expectations | Project meets the [requirements](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/topic_resources/farmarfinder.md#requirements) for the designated level (Bronze, Silver, etc). 
+|        | Level-specific expectations | Project meets the [requirements](https://github.com/Ada-Developers-Academy/daily-curriculum/blob/master/topic_resources/farmarfinder.md#requirements) for the designated feature set (Breakfast/Lunch/Dinner).
 
 ### Examples
 
