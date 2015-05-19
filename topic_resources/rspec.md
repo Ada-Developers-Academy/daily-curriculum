@@ -1,10 +1,8 @@
 ### RSPEC
 [Rspec](rspec.info)
 
-[Additional Tutorial Info](http://code.tutsplus.com/tutorials/ruby-for-newbies-testing-with-rspec--net-21297)
-
 #### What is RSpec?
-RSpec is technically a DSL (Domain-specific language) written in Ruby that is designed to help you test your code. RSpec's syntax also reads like English to
+RSpec is technically a DSL (Domain-specific language) written in Ruby that is designed to help you test your code. RSpec's syntax reads like English to make it easier to understand and write tests.
 
 #### Setting Up
 Install Rspec
@@ -13,7 +11,7 @@ Install Rspec
 For each class file that we create, we create one spec file.
 
 Create the ```chair_spec.rb``` test file.
-```
+```ruby
 require 'spec_helper'
 
 describe Chair do
@@ -33,7 +31,7 @@ Use the describe block to specify actions of a method.
 ```
 describe "#new" do
     it "takes three parameters and returns a Chair object" do
-        @chair.should be_an_instance_of Chair
+        expect(@chair).to be_an_instance_of Chair
     end
 end
 ```
@@ -59,3 +57,6 @@ end
 
 
 _So far we have completed one cycle! "Red, green, refactor"_
+
+#### Notes
+- An older version of RSpec used ```.should``` methods which was equivalent to the ```expect(object).to``` functionality. We mention it here because if you look up RSpec documentation you may see this old usage.
