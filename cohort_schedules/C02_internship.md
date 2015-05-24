@@ -19,7 +19,8 @@ May 26  | [Week 12](#week-12-of-internships)  | Panel: Negotiating and Getting w
 Jun 2   | [Week 13](#week-13-of-internships)  | **Structured Project Time w/TA Support**
 Jun 9   | [Week 14](#week-14-of-internships)  | Technical Interview Prep + Mock Interviews
 Jun 16  | [Week 15](#week-15-of-internships)  | **Structured Project Time w/TA Support**
-Jun 23  | [Week 16](#week-16-of-internships)  | Climbing the corporate ladder, Networking, TA Scheduling
+        |                                     | Scott's Presentation
+        |                                     | Climbing the corporate ladder, Networking, TA Scheduling
 Aug 28  |                                     | **GRADUATION**
 
 
