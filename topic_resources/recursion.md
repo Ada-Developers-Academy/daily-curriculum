@@ -80,8 +80,6 @@ Often it's not. If you find yourself saying "Geez, I wish I'd used a loop here" 
 
 With your chair-pair, write an algorithm to compute factorials that __does not__ use recursion. We will look at a couple of your solutions, pick one we really like, and compare it to a recursive solution. The goal is to have a conversation in which we compaire two solutions on their design, readability, and efficiency.
 
-## Projects
-
 ## Thinking about the Call Stack: Recursive Fibonnacci
 
 The Fibonacci Sequence, which sums each number with the one before it, is a great example of a problem that can be solved recursively. Let's live code it!
