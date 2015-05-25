@@ -92,4 +92,4 @@ The Fibonacci Sequence, which sums each number with the one before it, is a grea
 * [Ruby Recursion [VIDEO]](http://vimeo.com/24716767)
 * [Flood Fill, Zombies, and Kittens](http://inventwithpython.com/blog/2011/08/11/recursion-explained-with-the-flood-fill-algorithm-and-zombies-and-cats/)
 * [Fibonacci](http://kittykaraoke.tumblr.com/post/70391881556/fibonacci-with-memoization)
-* [CodeQuiz on Recursion](http://www.codequizzes.com/topics/5/quizzes/7)
+* [Example code for this lecture](https://gist.github.com/jnf/e8493c9f40fddcd20038)
