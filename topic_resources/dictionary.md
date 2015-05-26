@@ -27,13 +27,13 @@ that are out of our control. words.rb is owned by a different team at
 ScrabbleCo who may change what words it has access to and how it gets
 its words at any time.
 
-## Bronze
+## Breakfast
 
 #### Hash backed `Dictionary` class
 
 Build a Dictionary class that stores all the words from words.rb in a hash and
 has a method to check whether or not a given word is valid. Use BDD
-(write specs) to check your import (total words should match) and 
+(write specs) to check your import (total words should match) and
 your word checking method.
 
 #### Questions
@@ -42,7 +42,7 @@ your word checking method.
 - What is the space complexity of the backing store?
 - What is the time complexity of a word check?
 
-## Silver
+## Lunch
 
 #### Array backed `Dictionary` class
 
@@ -59,7 +59,7 @@ with the Hash-backed Dictionary.
 - What is the time complexity of a word check?
 - Is this better or worse than our last version?
 
-## Gold
+## Dinner
 
 #### Sorted Array backed `Dictionary` class
 
@@ -78,7 +78,7 @@ we add them!
 - What is the time complexity of a word check?
 - Is this better or worse than our last version? The first version?
 
-## Platinum
+## Dessert
 
 #### Binary Search
 

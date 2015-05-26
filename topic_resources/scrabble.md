@@ -49,7 +49,8 @@ Create specs for (minimum 2) and add to the `Player` class the following instanc
 
 - `#tiles` a collection of letters that the player can play (max 7)
 - `#draw_tiles(tile_bag)` fills tiles array until it has 7 letters from the given tile bag
-- Beginning Tile Quantities:
+
+Beginning Tile Quantities:
   - A: 9
   - B: 2
   - C: 2
