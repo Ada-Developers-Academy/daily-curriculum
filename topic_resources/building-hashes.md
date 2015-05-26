@@ -1,6 +1,6 @@
 Use irb, a script, or object oriented class to convert the following string into a `Hash` with the given rules.
 
-Bronze
+Breakfast
 -------
 
 ```ruby
@@ -12,7 +12,7 @@ Bronze
 
 Partial Example: `{first_name: "Ada", last_name: "Lovelace"}`
 
-Silver
+Lunch
 -------
 
 ```ruby
@@ -25,7 +25,7 @@ Silver
 Partial Example: `{name: "Ada Lovelace"}`
 
 
-Gold
+Dinner
 -------
 Create a nested hash by separating the following into hashes
 
@@ -38,7 +38,7 @@ Create a nested hash by separating the following into hashes
 
 Partial Example: `{person: {first_name: "Ada", last_name: "Lovelace"}}`
 
-Platinum
+Dessert
 -----
 
 ```ruby
