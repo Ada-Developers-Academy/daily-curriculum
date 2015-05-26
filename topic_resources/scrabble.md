@@ -16,11 +16,11 @@ Use TDD to create classes that would be used to build a scrabble game (don't act
 
 Create a `Scrabble` class with a minimum of 8 specs. The class should have the following class methods:
 
-- `self.score(word)`: returns the total score value for the given word (case insensitive)
+- `self.score(word)`: returns the total score value for the given word. The word is input as a string (case insensitive)
 - `self.highest_score_from(array_of_words)`: returns the word in the array with the highest score.
     - Note that it’s better to use fewer tiles, so if the top score is tied between multiple words, pick the one with the fewest letters.
-    - But there is a bonus for using all seven letters. If one of the highest scores uses all seven letters, pick that one
-    - But if the there are multiple words that are the same score and same length, pick the first one in supplied list
+    - Note that there is a greater bonus for using all seven letters. If the top score is tied between multiple words and one used all seven letters, choose the one with seven letters over the one with fewer tiles.
+    - If the there are multiple words that are the same score and same length, pick the first one in supplied list
 
 ## Lunch
 
@@ -28,11 +28,11 @@ Create a `Player` class with a minimum of 11 specs. The class should have the fo
 
 - `self.new(name)`: creates a new instance with the instance variable `name` assigned
 - `#name`: returns the `@name` instance variable
-- `#total_score`: Adds and returns the total score of the players words
-- `#won?`: If the player has over 100 points, returns `true`
-- `#plays`: An Array of the words played by the player.
-- `#play(word)`: Adds the word to the `plays` Array
-    - Returns false if player as won
+- `#plays`: returns an Array of the words played by the player
+- `#play(word)`: Adds the input word to the `plays` Array
+    - Returns false if player has already won
+- `#total_score`: Sums up and returns the score of the players words
+- `#won?`: If the player has over 100 points, returns `true`, otherwise returns 'false'
 - `#highest_scoring_word`: Returns the highest scoring word the user has played.
 - `#highest_word_score`: Returns the `highest_scoring_word` score.
 
@@ -49,7 +49,8 @@ Create specs for (minimum 2) and add to the `Player` class the following instanc
 
 - `#tiles` a collection of letters that the player can play (max 7)
 - `#draw_tiles(tile_bag)` fills tiles array until it has 7 letters from the given tile bag
-- Beginning Tile Quantities:
+
+Beginning Tile Quantities:
   - A: 9
   - B: 2
   - C: 2

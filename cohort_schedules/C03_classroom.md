@@ -7,8 +7,8 @@
 | May 4   | [Week 01](#week-1)  | Student Orientation, Bash, Ruby
 | May 11  | [Week 02](#week-2)  | Ruby II
 | May 18  | [Week 03](#week-3)  | Ruby III
-| May 25  | [Week 04](#week-4)  | HTML & CSS
-| Jun 1   | [Week 05](#week-5)  | Testing, Sinatra, HTTP, DOM & HTML
+| May 25  | [Week 04](#week-4)  | Ruby IV
+| Jun 1   | [Week 05](#week-5)  | HTTP, DOM, HTML, CSS, Sinatra
 | Jun 8   | [Week 06](#week-6)  | Intro to Rails
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
@@ -174,110 +174,68 @@ In Week 3 we will be learning some intermediate ruby ideas such as advanced vari
   - Collaborate on code via [Github](http://github.com)
 
 ### Resources
-[Enumerable Methods](../topic_resources/enumerable.md)
-[Inheritance](../topic_resources/inheritance.md)
-[Advanced Variables](../topic_resources/advanced_variables.md)
-[Reading from CSV](../topic_resources/csv_database.md)
-[TDD/BDD](../topic_resources/tdd_bdd.md)
-[RSpec](../topic_resources/rspec.md)
-[Assertions](../topic_resources/assert.md)
-[More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
-[Ruby Koans](../topic_resources/koans.md)
+[Enumerable Methods](../topic_resources/enumerable.md)  
+[Inheritance](../topic_resources/inheritance.md)  
+[Advanced   Variables](../topic_resources/advanced_variables.md)  
+[Reading from CSV](../topic_resources/csv_database.md)  
+[TDD/BDD](../topic_resources/tdd_bdd.md)  
+[RSpec](../topic_resources/rspec.md)  
+[Assertions](../topic_resources/assert.md)  
+[More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development)  
+[Ruby Koans](../topic_resources/koans.md)  
 
 ### Projects
 [FarMarFinder](../topic_resources/farmarfinder.md)
 
-<!--
+## Week 4
 
-#### Friday
-
-| Time          | Topic
-|---------------|--------------------------------------------
-| 9:15 - 10:00 | Live Code a Class
-| 10:00 - 10:30 | Installing Koans
-| 10:30 - 11:30 | [Assertions](../topic_resources/assert.md)
-| 11:30 - 12:30 | [Ruby Koans](../topic_resources/koans.md)
-| 12:30 - 1:30 | Lunch
-| 1:30 - 2:30 | [Ruby Koans](../topic_resources/koans.md)
-| 2:30 - 3:30 | [Inheritance](../topic_resources/inheritance.md)
-| 3:30 - 5:00 | Project Time
-
-__Homework__
-
-+ Read Chapter 9 of Beginning Ruby, up to Storing Objects and Data Structures
-+ Read about assertions:
-[Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
-
-
-## Week 3
-
-In Week 3 we will be learning some intermediate ruby ideas such as advanced variables, memoization, and Enumerable. For the project we will be building a pure ruby application backed by a CSV database called [FarMarFinder](../topic_resources/farmarfinder.md). By the end of the week students should be able to build a ruby DSL for a relational CSV backed database using basic ruby methodologies and best practices.
+In Week 4 we continue working with Test-Driven Development (TDD) and advanced Ruby concepts. We will spend a few days exploring TDD and the rspec toolset through building our own testing projects and tests.
 
 ### Learning Goals
 
-  - Learn basic/intermediate ruby concepts and methods
-      - Scopes of all variable types (local, instance, global, etc...)
-      - Performance with memoization
-      - Enumerable methods
+  - Solidify knowledge and use of intermediate ruby concepts
+    - Scopes of all variable types
+    - Enumerable methods
+  - Begin an introduction into computer science (CS) fundamental concepts
+    - Recursion
+    - Big O notation
   - Running Koans
-  - Unit testing your application with Rspec
-  - Build a CSV backed ruby application
-  - Practice pair programming
-  - Collaborate on code via [Github](http://github.com)
+  - Writing Rspec tests
+  - Giving lightning talks
 
-### Schedule
+### Resources
+[Recursion](../topic_resources/recursion.md)  
+[Complexity](../topic_resources/complexity.md)  
 
-#### Monday
+### Projects
+[Scrabble](../topic_resources/scrabble.md)  
+[Dictionary](../topic_resources/dictionary.md)  
 
-| Time          | Topic
-|---------------|---------------------------------------------------------------------------------------------------------------
-| 9:15 - 9:30 | Pairing
-| 9:30 - 10:00 | [Reading from CSV](../topic_resources/csv_database.md)
-| 10:00 - 11:00 | [Enumerable Methods](../topic_resources/enumerable.md)
-| 11:00 - 11:30 | CSV Quiz
-| 11:30 - 12:30 | CSV Project Intro ([FarMarFinder](../topic_resources/farmarfinder.md))
-| 1:30 - 2:30 | Syncing project via Github: [Getting Started on Far Mar Finder](../topic_resources/farmarfinder.md)
-| 2:30 - 5:00 | [FarMarFinder](../topic_resources/farmarfinder.md) Project Time
+## Week 5
+In Week 5 we will cover an introduction of the "plumbing" of the Internet and how clients such as web browsers communicate with servers. We will be learning the basics of HTML & CSS. By the end of the week we will style a single page website using the common HTML & CSS practices and deploy it to [Heroku](http://heroku.com).
 
-#### Tuesday
+Our learning will focus on the usage of basic HTML tags and their potential attributes. We will learn about CSS selectors, cascading rules, and common techniques for creating important web page elements. By the end of the week students should be able to create and style a webpage using valid HTML and CSS.
 
-| Time             | Topic
-|------------------|---------------------------------------------------------------------------
-| 9:00 - 9:30 | Koans: Iteration & Classes
-| 9:30 - 10:30 | [RSpec](../topic_resources/rspec.md)
-| 1:00 - 5:00 | [FarMarFinder](../topic_resources/farmarfinder.md) Project Time
+### Learning Goals
+- Learn basic architecture of the Internet
+- Learn the HTTP response cycle
+- Learn basic techniques and best practices for HTML
+- Learn basic techniques and best practices for CSS
+- Build a personal blog in Sinatra
+- Grow skills in reading technical documentation by working with the Sinatra: Up and Running book
+- Gain exposure to deployment via Heroku
 
-#### Wednesday
+### Resources
+[Intro to HTTP](../topic_resources/networking.md)  
+[HTML](../topic_resources/html.md)  
+[Intro to Sinatra](../topic_resources/sinatra-practice-overview.md)  
+[CSS](../topic_resources/more-css.md)  
+Intermediate CSS
 
-| Time          | Topic
-|---------------|---------------------------------------------------------------------------
-| 9:00 - 9:30 | Koans
-| 9:35 - 11:00 | [Advanced Variables](../topic_resources/advanced_variables.md)
-| 11:00 - 5:00 | [FarMarFinder](../topic_resources/farmarfinder.md) Project Time
+### Projects
+[Sinatra Blog](../topic_resources/sinatra-blog.md)  
 
-#### Thursday
-
-| Time             | Topic
-|------------------|---------------------------------------------------------------------------
-| 9:00 - 9:30 | Koans
-| 9:30 - 5:00 | [FarMarFinder](../topic_resources/farmarfinder.md) Project Time
-
-#### Friday
-
-| Time          | Topic
-|---------------|---------------------------------------------------------------------------
-| 9:00 - 9:30 | Koans
-| 9:30 - 10:00 | Self
-| 10:00 - 10:30 | [Memoization](../topic_resources/memoization.md)
-| 10:40 - 11:00 | [Rubocop](../topic_resources/rubocop.md)
-| 11:00 - 11:15 | SimpleCov
-| 11:15 - 4:00 | [FarMarFinder](../topic_resources/farmarfinder.md) Project Time
-| 4:00 - 5:00 | Retro
-
-__Homework__:
-- Reading Beginning Ruby:
-  - pgs. 139-149 (Modules, Namespaces, and Mix-Ins)
-  - pgs. 228-246 (Relational Databases and SQL)
+<!--
 
 ## Week 4
 
@@ -297,39 +255,6 @@ In Week 4 we introduce introduce Test-Driven Development (TDD) and basic network
 
 ### Schedule
 
-#### Monday
-
-| Time          | Topic
-|---------------|-----------------------------------------------------
-| 9:00 - 10:00 | Koans
-| 10:00 - 12:00 | [CS Fundementals](../topic_resources/complexity.md)
-| 1:30 - 2:30 | [FizzBuzz Testing](../topic_resources/testing.md)
-| 2:30 - 5:00 | [Scrabble](../topic_resources/scrabble.md)
-
-__Homework__
-
-- Read about rspec best practices: http://betterspecs.org/
-
-#### Tuesday
-
-| Time             | Topic
-|------------------|-----------------------------------------------------------------------------------
-| 9:00 - 9:45 | Morning Warmup -- [Word Count](../topic_resources/word_count/README.md)
-| 9:50 - 12:30 | [Scrabble](../topic_resources/scrabble.md)
-| 1:30 - 5:00 | [Dictionary](../topic_resources/dictionary.md)
-
-#### Wednesday
-
-| Time          | Topic
-|---------------|-----------------------------------------------------------------------
-| 9:00 - 11:00 | [Sinatra Practice](../topic_resources/sinatra-practice.md)
-| 11:00 - 12:00 | [Intro to HTTP, Clients, & Servers](../topic_resources/networking.md)
-| 1:00 - 5:00 | [Sinatra Blog](../topic_resources/sinatra-blog.md)
-
-\* Take an hour lunch at any time
-
-
-#### Thursday
 
 | Time          | Topic
 |---------------|----------------------------------------------------------
@@ -360,8 +285,6 @@ In week 5 we will be learning the basics of HTML & CSS. By the end of the week w
 Our learning will focus on the usage of basic HTML tags and their potential attributes. We will learn about CSS selectors, cascading rules, and common techniques for creating important web page elements. By the end of the week students should be able to create and style a webpage using valid HTML and CSS.
 
 ### Learning Goals
-- Learn basic techniques and best practices for HTML
-- Learn basic techniques and best practices for CSS
 - Create a personal website focusing on styling
 - Reiterate the concepts of views and layouts of Sinatra
 
