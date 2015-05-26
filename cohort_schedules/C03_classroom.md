@@ -174,15 +174,15 @@ In Week 3 we will be learning some intermediate ruby ideas such as advanced vari
   - Collaborate on code via [Github](http://github.com)
 
 ### Resources
-[Enumerable Methods](../topic_resources/enumerable.md)
-[Inheritance](../topic_resources/inheritance.md)
-[Advanced Variables](../topic_resources/advanced_variables.md)
-[Reading from CSV](../topic_resources/csv_database.md)
-[TDD/BDD](../topic_resources/tdd_bdd.md)
-[RSpec](../topic_resources/rspec.md)
-[Assertions](../topic_resources/assert.md)
-[More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development))
-[Ruby Koans](../topic_resources/koans.md)
+[Enumerable Methods](../topic_resources/enumerable.md)  
+[Inheritance](../topic_resources/inheritance.md)  
+[Advanced   Variables](../topic_resources/advanced_variables.md)  
+[Reading from CSV](../topic_resources/csv_database.md)  
+[TDD/BDD](../topic_resources/tdd_bdd.md)  
+[RSpec](../topic_resources/rspec.md)  
+[Assertions](../topic_resources/assert.md)  
+[More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development)  
+[Ruby Koans](../topic_resources/koans.md)  
 
 ### Projects
 [FarMarFinder](../topic_resources/farmarfinder.md)
@@ -204,12 +204,12 @@ In Week 4 we continue working with Test-Driven Development (TDD) and advanced Ru
   - Giving lightning talks
 
 ### Resources
-[Recursion](../topic_resources/recursion.md)
-[Complexity](../topic_resources/complexity.md)
+[Recursion](../topic_resources/recursion.md)  
+[Complexity](../topic_resources/complexity.md)  
 
 ### Projects
-[Scrabble](../topic_resources/scrabble.md)
-[Dictionary](../topic_resources/dictionary.md)
+[Scrabble](../topic_resources/scrabble.md)  
+[Dictionary](../topic_resources/dictionary.md)  
 
 ## Week 5
 In Week 5 we will cover an introduction of the "plumbing" of the Internet and how clients such as web browsers communicate with servers. We will be learning the basics of HTML & CSS. By the end of the week we will style a single page website using the common HTML & CSS practices and deploy it to [Heroku](http://heroku.com).
@@ -226,14 +226,14 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 - Gain exposure to deployment via Heroku
 
 ### Resources
-[Intro to HTTP](../topic_resources/networking.md)
-[HTML](../topic_resources/html.md)
-[Intro to Sinatra](../topic_resources/sinatra-practice-overview.md)
-[CSS](../topic_resources/more-css.md)
+[Intro to HTTP](../topic_resources/networking.md)  
+[HTML](../topic_resources/html.md)  
+[Intro to Sinatra](../topic_resources/sinatra-practice-overview.md)  
+[CSS](../topic_resources/more-css.md)  
 Intermediate CSS
 
 ### Projects
-[Sinatra Blog](../topic_resources/sinatra-blog.md)
+[Sinatra Blog](../topic_resources/sinatra-blog.md)  
 
 <!--
 
