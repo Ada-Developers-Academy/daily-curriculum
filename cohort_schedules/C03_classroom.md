@@ -7,8 +7,8 @@
 | May 4   | [Week 01](#week-1)  | Student Orientation, Bash, Ruby
 | May 11  | [Week 02](#week-2)  | Ruby II
 | May 18  | [Week 03](#week-3)  | Ruby III
-| May 25  | [Week 04](#week-4)  | HTML & CSS
-| Jun 1   | [Week 05](#week-5)  | Testing, Sinatra, HTTP, DOM & HTML
+| May 25  | [Week 04](#week-4)  | Ruby IV
+| Jun 1   | [Week 05](#week-5)  | HTTP, DOM, HTML, CSS, Sinatra
 | Jun 8   | [Week 06](#week-6)  | Intro to Rails
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
@@ -186,6 +186,29 @@ In Week 3 we will be learning some intermediate ruby ideas such as advanced vari
 
 ### Projects
 [FarMarFinder](../topic_resources/farmarfinder.md)
+
+## Week 4
+
+In Week 4 we continue working with Test-Driven Development (TDD) and advanced Ruby concepts. We will spend 2 days exploring TDD and the rspec toolset through building our own testing projects and tests.
+
+### Learning Goals
+
+  - Solidify knowledge and use of intermediate ruby concepts
+    - Scopes of all variable types
+    - Enumerable methods
+  - Begin an introduction into computer science (CS) fundamental concepts
+    - Recursion
+    - Big O notation
+  - Running Koans
+  - Writing Rspec tests
+  - Giving lightning talks
+
+### Resources
+[Recursion](../topic_resources/recursion.md)
+
+### Projects
+[Scrabble](../topic_resources/scrabble.md)
+[Dictionary](../topic_resources/dictionary.md)
 
 <!--
 
