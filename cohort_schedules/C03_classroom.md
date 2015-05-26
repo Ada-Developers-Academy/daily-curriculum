@@ -189,7 +189,7 @@ In Week 3 we will be learning some intermediate ruby ideas such as advanced vari
 
 ## Week 4
 
-In Week 4 we continue working with Test-Driven Development (TDD) and advanced Ruby concepts. We will spend 2 days exploring TDD and the rspec toolset through building our own testing projects and tests.
+In Week 4 we continue working with Test-Driven Development (TDD) and advanced Ruby concepts. We will spend a few days exploring TDD and the rspec toolset through building our own testing projects and tests.
 
 ### Learning Goals
 
