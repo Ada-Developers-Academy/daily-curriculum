@@ -28,11 +28,11 @@ Create a `Player` class with a minimum of 11 specs. The class should have the fo
 
 - `self.new(name)`: creates a new instance with the instance variable `name` assigned
 - `#name`: returns the `@name` instance variable
-- `#total_score`: Adds and returns the total score of the players words
-- `#won?`: If the player has over 100 points, returns `true`
-- `#plays`: An Array of the words played by the player.
-- `#play(word)`: Adds the word to the `plays` Array
-    - Returns false if player as won
+- `#plays`: returns an Array of the words played by the player
+- `#play(word)`: Adds the input word to the `plays` Array
+    - Returns false if player has already won
+- `#total_score`: Sums up and returns the score of the players words
+- `#won?`: If the player has over 100 points, returns `true`, otherwise returns 'false'
 - `#highest_scoring_word`: Returns the highest scoring word the user has played.
 - `#highest_word_score`: Returns the `highest_scoring_word` score.
 
