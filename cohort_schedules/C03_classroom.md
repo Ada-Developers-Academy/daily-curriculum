@@ -209,6 +209,7 @@ In Week 4 we continue working with Test-Driven Development (TDD) and advanced Ru
 
 ### Projects
 [Scrabble](../topic_resources/scrabble.md)  
+[Bank Accounts](../topic_resources/bank_accounts.md)  
 [Dictionary](../topic_resources/dictionary.md)  
 
 ## Week 5
