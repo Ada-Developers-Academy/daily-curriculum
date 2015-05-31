@@ -61,4 +61,4 @@ to generate the HTML content dynamically each time a request is made.
 
 A webserver interfaces your application with incoming HTTP requests on the server.
 
-![The Request Cycle](networking/request-cycle.png)
+![The Request Cycle](networking/request-cycle.jpg)
