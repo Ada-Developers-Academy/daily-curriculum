@@ -10,7 +10,6 @@ The purpose of the Sinatra Practice is to learn and practice the basics of a Sin
 4. Add basic HTML/CSS to the viewable page
 5. Start the application on a local server
 6. View the application in a web browser
-7. Use Heroku to deploy and host the application for the world to see
 
 ### Get Started
 We will be creating a simple Sinatra application that serves a single simple page. At any point you are stuck in this walk-through, you can refer to the completed project on [Github](https://github.com/Ada-Developers-Academy/daily-curriculum/sinatra_practice)
