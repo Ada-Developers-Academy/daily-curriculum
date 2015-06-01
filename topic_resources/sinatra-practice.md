@@ -1,5 +1,22 @@
 ## Sinatra Practice
-We will be creating a simple Sinatra application that serves a single simple page. At any point you are stuck in this walk-through, you can refer to my completed project on [Github](https://github.com/Ada-Developers-Academy/daily-curriculum/tree/master/week4/friday/sinatra_practice)
+
+The purpose of the Sinatra Practice is to learn and practice the basics of a Sinatra application. The end result should be a single page website hosted on Heroku. The application will also be used as a "blank canvas" to learn and experiment with HTML and CSS.
+
+#### After this lesson you will be able to:
+
+1. Create a basic Sinatra application
+2. Define url's that the application will accept (routes)
+3. Create an individual html/erb file for our route
+4. Add basic HTML/CSS to the viewable page
+5. Start the application on a local server
+6. View the application in a web browser
+7. Use Heroku to deploy and host the application for the world to see
+
+### Get Started
+We will be creating a simple Sinatra application that serves a single simple page. At any point you are stuck in this walk-through, you can refer to the completed project on [Github](https://github.com/Ada-Developers-Academy/daily-curriculum/sinatra_practice)
+
+### What is Sinatra?
+Sinatra is a DSL for quickly creating web applications with Ruby
 
 #### Setup
 
@@ -18,15 +35,7 @@ mkdir sinatra_practice
 cd sinatra_practice
 ```
 
-Open the entire project in Atom:
-
-```bash
-atom .
-```
-
-In bash `.` refers to your current directory.
-
-**Note if your `atom` command doesn't work:** You can also open the directory in Atom by opening the application and navigating to `File > Open` and selecting the `sinatra_practice` dir from the drop down selector.
+Open the entire project from this sinatra_practice directory in your text editor.
 
 #### Gemfile (hand wave)
 First we'll create a file called `Gemfile` (no extension, just `Gemfile`) and install the `bundler` gem. In Terminal run:
@@ -78,7 +87,7 @@ Line by line let's look at what we're doing here:
 require 'sinatra'
 ```
 
-This line just loads the Sinatra gem into our code. Since Sinatra is not part of standard ruby, we have to explicity load it into our project.
+This line just loads the Sinatra gem into our code. Since Sinatra is not part of standard ruby, we have to explicitly load it into our project.
 
 ```ruby
 # my_app.rb
@@ -180,7 +189,7 @@ end
 
 I've added the line `erb :index`, the `erb` method also comes from Sinatra, it requires an argument, here we're giving it the argument of `:index`. This method tells our application to read at file located at `views/index.erb`.
 
-If you restart your server, and load the page again, you will get an error that looks like
+If you restart your server (ctrl + C, then `rackup` again), and load the page again, you will get an error that looks like
 
 ```
 No such file or directory -
@@ -201,49 +210,13 @@ Again if we load "http://localhost:9292" in our browser, we'll get a blank page.
 Hello, the time is currently <%= Time.now %>
 ```
 
-Now if we reload our page, we will see this text. And if we reload again we will see that the ruby code `Time.now` is being evaluated on every page load.
+Now if we reload our page (you don't need to restart the server), we will see this text. And if we reload again we will see that the ruby code `Time.now` is being evaluated on every page load.
 
 Since this is a just a practice application, we don't *need* to put a bunch of cool stuff into it. Feel free to add any content to the index.erb file you'd like though.
 
-#### Deploying to Heroku
+Now we have a dummy app to practice HTML/CSS with. Later, we will use this project to add content to.
 
-Heroku uses git, so first we'll setup git with our project
-
-```bash
-git init
-git add .
-git commit -m "initial commit"
-```
-
-This is the normal git flow of initializing a dir, adding, and commiting all of the code.
-
-Heroku is the service that will actually host our application. We will use the [Heroku Toolbelt](https://toolbelt.heroku.com) (a tool we installed on day one). First we'll use a command that will create a repo on Heroku's server for us to push our application into.
-
-```bash
-heroku create bookis-sinatra
-```
-
-Use a unique name where I used `bookis-sinatra`. You should see out put that looks similar to:
-
-```bash
-Creating bookis-sinatra... done, stack is cedar
-http://bookis-sinatra.herokuapp.com/ | git@heroku.com:bookis-sinatra.git
-Git remote heroku added
-```
-
-The `heroku create` command creates the repo on Heroku and also creates the git remote link on our computer.
-
-Note: The git remote link is automatically called `heroku`, where in the past we've named this link `origin`.
-
-Now push your app to Heroku:
-
-    git push heroku master
-
-You should see a bunch of output for about a minute. Heroku is receiving your application and deploying it. Now you app is available on the internet. Navigate to "http://YOURAPPNAME.herokuapp.com" where YOURAPPNAME is the name you gave to heroku, `bookis-sinatra` in my case, so the full url is `http://bookis-sinatra.herokuapp.com`. TADA!
-
-Now we have a dummy app to practice HTML/CSS with. On monday we will use this project to add content to.
-
-#### Moar Practice
+#### Moar Practice!
 
 - Try to create a route and erb page called "/cute_pictures_of_animals".
 - Try to implement some HTML Images of cute animals on the `cute_pictures_of_animals` page.
