@@ -80,7 +80,7 @@ Getting around the directories of our computer is a snap!
 $ pwd
 /Users/Bookis/work/ada
 ```
-pwd returns the **p**resent **w**orking **d**irectory. Use this command to find in which directory you are currently "in".
+`pwd` returns the **p**resent **w**orking **d**irectory. Use this command to find in which directory you are currently "in".
 
 ```
 $ cd <some path>
@@ -143,7 +143,7 @@ As you get more comfortable with using Terminal, you'll notice that you start ty
 We can string commands together to create powerful compound commands. We use the pipe character '|' to send the output of one command on to the next one.
 
 ```
-grep -irn banana .|grep -v Pie
+grep -irn banana . | grep -v Pie
 ```
 
 (Take note: This idea of chaining commands together is important in Ruby!)
