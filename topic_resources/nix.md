@@ -100,7 +100,7 @@ $ pwd
 ```
 $ cd ~
 ```
-"~" represents your Home directory, for me this is "/Users/Bookis"
+"~" represents your Home directory, for me this is "/Users/Bookis". As a shortcut, you can also just type `cd` with no directory at all.
 ```
 $ cd .
 ```
@@ -113,6 +113,10 @@ $ cd ..
 $ cd ../../
 ```
 Commands can be chained together, this goes back two directories.
+```
+$ cd -
+```
+A single "-" means to go back to the prior directory that you were in. This is different from the parent directory and more like the back button except it only keeps one directory of history. Running `cd -` again will toggle back and forth between the same two directories. This can be useful if you have a source directory and a documentation directory that you need to switch back and forth between.
 
 Digging In
 ==========
