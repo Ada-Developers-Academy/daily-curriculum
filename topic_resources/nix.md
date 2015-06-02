@@ -112,7 +112,7 @@ $ cd ..
 ```
 $ cd ../../
 ```
-Commands can be chained together, this goes back two directories.
+Directories can be chained together, this goes up two directories.
 ```
 $ cd -
 ```
