@@ -64,6 +64,7 @@ In your Terminal, type
 ```
 $ man ls
 ```
+`man` is short for **man**ual.
 
 \*using `man`, will enter a reading mode, a couple things to note about this mode:
 - Normal commands will no longer work.
