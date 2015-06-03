@@ -4,7 +4,7 @@ When we're working on our projects, requirements can change. Maybe I messed some
 
 Here's how to do it:
 
-1. First, make sure your local branch/repository is up to date. Commit or reset any outstanding changes so that `git status` reports a clean working directory.
+1. First, make sure your local branch/repository is up to date. Commit or reset any outstanding changes so that `git status` reports a clean working directory. These instructions assume you're starting on your branch of your project fork (for me, that's `jnf/master`).
 1. Get the clone url for the project master. I'll use `git@github.com:Ada-Developers-Academy/C3Projects--SinatraSite.git` in this example
 1. On your project fork, you'll need to add a new _remote_ called 'upstream':
   - `$ git remote add upstream git@github.com:Ada-Developers-Academy/C3Projects--SinatraSite.git`
