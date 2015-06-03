@@ -2,6 +2,8 @@
 
 This is a step-by-step guide describing the git workflow we'll be using for every project that's assessed against a rubric. It involves both _cloning_ and _forking_ the project repo. In short, you will _clone_ the project repo, then create and _push_ a new branch that represents where your project will live when it is complete. Then you will _fork_ the project and code against the forked version of the branch you pushed to the project master. When you are ready for your code to be reviewed, you will _open a Pull Request_ to _merge_ your forked branch back into your branch on the project master.
 
+__UPDATE 03 June 15__: Jeremy wrote a script that largely automates __Part 1__ of this process. You only need to complete __Part 1__ if your branch on the _project master_ repo was not created for you. If you do have a branch on the master repo already, skip to __Part 2__.
+
 Here's the detailed, step-by-step, version, using __Solar System__ as an example.
 
 ### Part 1: Setting up your space in the project master
