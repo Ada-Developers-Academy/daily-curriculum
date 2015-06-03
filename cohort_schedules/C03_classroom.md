@@ -229,7 +229,8 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 ### Resources
 [Intro to HTTP](../topic_resources/networking.md)  
 [HTML](../topic_resources/html.md)  
-[Intro to Sinatra](../topic_resources/sinatra-practice-overview.md)  
+[Intro to Sinatra](../topic_resources/sinatra-practice.md)
+[Heroku](../topic_resources/heroku.md)
 [CSS](../topic_resources/more-css.md)  
 Intermediate CSS
 
