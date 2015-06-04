@@ -13,23 +13,26 @@
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
 | Jun 29  |                     | __4th of July Break__
-| Jun 29  | [Week 09](#week-9)  | Rails III, Intro to Agile
-| Jul 6   | [Week 10](#week-10) | Testing in Rails
-| Jul 13  | [Week 11](#week-11) | Intro to Javascript
-| Jul 20  | [Week 12](#week-12) | Special Topics & Group Rails Project
-| Jul 27  | [Week 13](#week-13) | Group Rails Project, Thanksgiving
-| Aug 3   | [Week 14](#week-14) | 2 week pairing Rails Project
-| Aug 10  | [Week 15](#week-15) | 2 week pairing Rails Project
-| Aug17   | [Week 16](#week-16) | SOA Rails Project
-| Aug 24  | [Week 17](#week-17) | Individual Student-Defined Rails Project
-| Aug 31  | [Week 18](#week-18) | Pair JS Framework Project
+| Jul 6   | [Week 09](#week-9)  | Rails III, Intro to Agile
+| Jul 13  | [Week 10](#week-10) | Testing in Rails
+| Jul 20  | [Week 11](#week-11) | Intro to Javascript
+| Jul 27  | [Week 12](#week-12) | Special Topics & Group Rails Project
+| Aug 3   | [Week 13](#week-13) | Group Rails Project
+| Aug 10  | [Week 14](#week-14) | 2 week pairing Rails Project
+| Aug 17  | [Week 15](#week-15) | 2 week pairing Rails Project
+| Aug 24  | [Week 16](#week-16) | SOA Rails Project
+| Aug 31  | [Week 17](#week-17) | Individual Student-Defined Rails Project
 | Sept 7  |                     | __Labor Day Break__
-| Sept 7  | [Week 19](#week-19) | Pair JS Framework Project
-| Sept 14 | [Week 20](#week-20) | Final Rails Project
-| Sept 21 | [Week 21](#week-21) | Final Rails Project
-| Sept 28 | [Week 22](#week-22) | Final Rails Project
-| Oct 5   | [Week 23](#week-23) | Final Rails Project Presentations
-| Oct 12  | [Week 24](#week-24) | Internship Spike Project
+| Sept 14 | [Week 18](#week-18) | Pair JS Framework Project
+| Sept 21 | [Week 19](#week-19) | Pair JS Framework Project
+| Sept 28 | [Week 20](#week-20) | Final Rails Project
+| Oct 5   | [Week 21](#week-21) | Final Rails Project
+| Oct 12  | [Week 22](#week-22) | Final Rails Project
+| Oct 19  | [Week 23](#week-23) | Final Rails Project Presentations
+| Oct 26  | [Week 24](#week-24) | Internship Spike Project
+| Nov 2   | [Week 25](#week-25) |
+| Nov 9   | [Week 26](#week-26) |
+| Nov 16  | [Week 27](#week-27) | 
 | Nov 23  |                     | __Thanksgiving Break__
 | Nov 30 |                     | __INTERNSHIP BEGINS__
 
