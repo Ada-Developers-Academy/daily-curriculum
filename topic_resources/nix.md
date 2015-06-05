@@ -64,6 +64,7 @@ In your Terminal, type
 ```
 $ man ls
 ```
+`man` is short for **man**ual.
 
 \*using `man`, will enter a reading mode, a couple things to note about this mode:
 - Normal commands will no longer work.
@@ -79,7 +80,7 @@ Getting around the directories of our computer is a snap!
 $ pwd
 /Users/Bookis/work/ada
 ```
-pwd returns the **p**resent **w**orking **d**irectory. Use this command to find in which directory you are currently "in".
+`pwd` returns the **p**resent **w**orking **d**irectory. Use this command to find in which directory you are currently "in".
 
 ```
 $ cd <some path>
@@ -99,7 +100,7 @@ $ pwd
 ```
 $ cd ~
 ```
-"~" represents your Home directory, for me this is "/Users/Bookis"
+"~" represents your Home directory, for me this is "/Users/Bookis". As a shortcut, you can also just type `cd` with no directory at all.
 ```
 $ cd .
 ```
@@ -111,7 +112,11 @@ $ cd ..
 ```
 $ cd ../../
 ```
-Commands can be chained together, this goes back two directories.
+Directories can be chained together, this goes up two directories.
+```
+$ cd -
+```
+A single "-" means to go back to the prior directory that you were in. This is different from the parent directory and more like the back button except it only keeps one directory of history. Running `cd -` again will toggle back and forth between the same two directories. This can be useful if you have a source directory and a documentation directory that you need to switch back and forth between.
 
 Digging In
 ==========
@@ -142,7 +147,7 @@ As you get more comfortable with using Terminal, you'll notice that you start ty
 We can string commands together to create powerful compound commands. We use the pipe character '|' to send the output of one command on to the next one.
 
 ```
-grep -irn banana .|grep -v Pie
+grep -irn banana . | grep -v Pie
 ```
 
 (Take note: This idea of chaining commands together is important in Ruby!)
