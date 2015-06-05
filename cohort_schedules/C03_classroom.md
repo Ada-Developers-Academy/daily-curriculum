@@ -13,25 +13,28 @@
 | Jun 15  | [Week 07](#week-7)  | Rails II
 | Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
 | Jun 29  |                     | __4th of July Break__
-| Jun 29  | [Week 09](#week-9)  | Rails III, Intro to Agile
-| Jul 6   | [Week 10](#week-10) | Testing in Rails
-| Jul 13  | [Week 11](#week-11) | Intro to Javascript
-| Jul 20  | [Week 12](#week-12) | Special Topics & Group Rails Project
-| Jul 27  | [Week 13](#week-13) | Group Rails Project, Thanksgiving
-| Aug 3   | [Week 14](#week-14) | 2 week pairing Rails Project
-| Aug 10  | [Week 15](#week-15) | 2 week pairing Rails Project
-| Aug17   | [Week 16](#week-16) | SOA Rails Project
-| Aug 24  | [Week 17](#week-17) | Individual Student-Defined Rails Project
-| Aug 31  | [Week 18](#week-18) | Pair JS Framework Project
+| Jul 6   | [Week 09](#week-9)  | Rails III, Intro to Agile
+| Jul 13  | [Week 10](#week-10) | Testing in Rails
+| Jul 20  | [Week 11](#week-11) | Intro to Javascript
+| Jul 27  | [Week 12](#week-12) | Special Topics & Group Rails Project
+| Aug 3   | [Week 13](#week-13) | Group Rails Project
+| Aug 10  | [Week 14](#week-14) | 2 week pairing Rails Project
+| Aug 17  | [Week 15](#week-15) | 2 week pairing Rails Project
+| Aug 24  | [Week 16](#week-16) | SOA Rails Project
+| Aug 31  | [Week 17](#week-17) | Individual Student-Defined Rails Project
 | Sept 7  |                     | __Labor Day Break__
-| Sept 7  | [Week 19](#week-19) | Pair JS Framework Project
-| Sept 14 | [Week 20](#week-20) | Final Rails Project
-| Sept 21 | [Week 21](#week-21) | Final Rails Project
-| Sept 28 | [Week 22](#week-22) | Final Rails Project
-| Oct 5   | [Week 23](#week-23) | Final Rails Project Presentations
-| Oct 12  | [Week 24](#week-24) | Internship Spike Project
+| Sept 14 | [Week 18](#week-18) | Pair JS Framework Project
+| Sept 21 | [Week 19](#week-19) | Pair JS Framework Project
+| Sept 28 | [Week 20](#week-20) | Final Rails Project
+| Oct 5   | [Week 21](#week-21) | Final Rails Project
+| Oct 12  | [Week 22](#week-22) | Final Rails Project
+| Oct 19  | [Week 23](#week-23) | Final Rails Project Presentations
+| Oct 26  | [Week 24](#week-24) | Internship Spike Project
+| Nov 2   | [Week 25](#week-25) |
+| Nov 9   | [Week 26](#week-26) |
+| Nov 16  | [Week 27](#week-27) |
 | Nov 23  |                     | __Thanksgiving Break__
-| Nov 30 |                     | __INTERNSHIP BEGINS__
+| Nov 30  |                     | __INTERNSHIP BEGINS__
 
 
 ## Week 1
@@ -235,114 +238,18 @@ Our learning will focus on the usage of basic HTML tags and their potential attr
 Intermediate CSS
 
 ### Projects
-[Sinatra Blog](../topic_resources/sinatra-blog.md)  
-
-<!--
-
-## Week 4
-
-In Week 4 we introduce introduce Test-Driven Development (TDD) and basic networking concepts. We will spend 2 days exploring TDD and the rspec toolset through building our own testing projects and tests. We then pivot into an introduction of the "plumbing" of the Internet and how clients such as web browsers communicate with servers. We build a pair of applications using the streamlined website framework *Sinatra* to begin exploring HTTP response cycles and basic Model-View-Control (MVC) techniques through building and deploying a blog.
-
-### Learning Goals
-
-  - Introduced to basic TDD concepts
-      - rspec
-      - how to write a test
-      - becoming comfortable writing code against a spec
-  - Learn basic architecture of the Internet
-  - Learn the HTTP response cycle
-  - Build a personal blog in Sinatra
-  - Grow skills in reading technical documentation by working with the Sinatra: Up and Running book
-  - Gain exposure to deployment via Heroku
-
-### Schedule
-
-
-| Time          | Topic
-|---------------|----------------------------------------------------------
-| 9:00 - 9:30 | [Building Hashes](../topic_resources/building-hashes.md)
-| 9:30 - 10:30 | Sinatra Walkthrough
-| 10:30 - 11:30 | [Views and Forms](../topic_resources/views-and-forms.md)
-| 11:00 - 5:00 | Project Time - Sinatra Blog
-
-\* Take an hour lunch at any time
-
-
-#### Friday
-
-| Time          | Topic
-|---------------|------------------------------------------------
-| 10:00 - 11:30 | [Forms](../topic_resources/views-and-forms.md)
-| 2:00 - 4:00 | Regular Expressions with Nell
-| 4:00 - 5:00 | Retro
-
-__Homework__:
-
-- Complete the HTMLDog [Beginner HTML tutorial](http://www.htmldog.com/guides/html/beginner/)
-- Complete the HTMLDog [Beginner CSS tutorial](http://www.htmldog.com/guides/css/beginner/)
-
-## Week 5
-In week 5 we will be learning the basics of HTML & CSS. By the end of the week we will style a single page website using the common HTML & CSS practices and deploy it to [Heroku](http://heroku.com). We will also rebuild a blog to implement as side pages to our single page site.
-
-Our learning will focus on the usage of basic HTML tags and their potential attributes. We will learn about CSS selectors, cascading rules, and common techniques for creating important web page elements. By the end of the week students should be able to create and style a webpage using valid HTML and CSS.
-
-### Learning Goals
-- Create a personal website focusing on styling
-- Reiterate the concepts of views and layouts of Sinatra
-
-### Schedule
-
-#### Monday
-
-| Time          | Topic
-|---------------|-----------------------------------------------------------------------------
-| 9:30 - 10:30 | [HTML](../topic_resources/html.md)
-| 10:30 - 11:30 | [Starting HTML](../topic_resources/starting-an-html-website.md)
-| 11:30 - 5:00 | [Personal Website Project](../topic_resources/personal-website-overview.md)
-
-__Homework__
-
-Read Lessons 2 & 3 of http://learn.shayhowe.com/html-css/getting-to-know-css/
-
-#### Tuesday
-
-| Time          | Topic
-|---------------|-----------------------------------------------------------------------------
-| 9:00 - 9:30 | [Warm up](../topic_resources/moar_work/decoding-strings.md)
-| 9:30 - 10:00 | [More CSS](../topic_resources/more-css.md)
-| 10:00 - 12:00 | Live Code CSS
-| 12:00 - 5:00 | [Personal Website Project](../topic_resources/personal-website-overview.md)
-
-__Homework__
-Read a little about JavaScript in _Eloquent JavaScript_:
-[Intro](http://eloquentjavascript.net/00_intro.html)
-[Values, Types, and Operators](http://eloquentjavascript.net/01_values.html)
-
-#### Wednesday
-
-| Time          | Topic
-|---------------|-----------------------------------------------------------------------------
-| 9:30 - 10:30 | [Basic JavaScript](../topic_resources/basic-javascript.md)
-| 10:30 - 12:30 | [Try jQuery](../topic_resources/playing-with-jquery.md)
-| 1:30 - 5:00 | [Personal Website Project](../topic_resources/personal-website-overview.md)
-
-
-#### Thursday
-
-| Time             | Topic
-|------------------|-----------------------------------------------------------------------------
-| 9:00 - 9:30 | Koans
-| 9:30 - 11:00 | ??? (students choice)
-| 11:00 - 5:00 | [Personal Website Project](../topic_resources/personal-website-overview.md)
-
-### No Friday. Yay!
-
-Resources
-- For additional online resources see the [resources](../topic_resources/resources.md) page.
+[Sinatra Blog](https://github.com/Ada-Developers-Academy/C3Projects--SinatraSite)  
 
 ## Week 6
 
-Week 6 we introduce students to the Ruby on Rails framework, which will be the focus of much of their work for the remainder of the course. Working in pairs, students build [a basic Rails application](../topic_resources/far-mar-rails.md). The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models and relationships, and begin to develop very basic proficiency with Rails.
+## Learning Goals
+
+## Resources
+
+## Projects
+
+## Week 7
+In week 7 we introduce students to the Ruby on Rails framework, which will be the focus of much of the work for the remainder of the course. Working in pairs, students build [a basic Rails application](../topic_resources/far-mar-rails.md). The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models and relationships, and begin to develop basic proficiency with Rails.
 
 ### Learning Goals
 - Solidify understanding of web response cycle
@@ -350,9 +257,13 @@ Week 6 we introduce students to the Ruby on Rails framework, which will be the f
 - Improve workflow
 - Practice pair programming skills
 
-### Schedule
+## Resources
 
-#### Monday
+## Projects
+
+<!--
+
+
 
 
 | Time          | Topic
