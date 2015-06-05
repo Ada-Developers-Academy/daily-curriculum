@@ -10,9 +10,9 @@ Your presentation should address the following points:
 - How fast is this algorithm, or what is the complexity (Big O notation)?
 
 ### Algorithms
-Merge Sort
-Bubble Sort
-Binary Search
-MapReduce
-Dijkstra's Algorithm
-RSA Algorithm
+Merge Sort  
+Bubble Sort  
+Binary Search  
+MapReduce  
+Dijkstra's Algorithm  
+RSA Algorithm  
