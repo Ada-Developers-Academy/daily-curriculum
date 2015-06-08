@@ -4,7 +4,7 @@ We've met `GET`. In our Sinatra site, we've defined routes using a syntax like `
 
 So what is `GET` exactly, and why do I keep typing it in all caps? Short answer: `GET` is one of a family of HTTP _verbs_ that we use to describe the nature of a request. Some _verbs_ are responsible for fetching information from the server; others are responsible for doing things like telling the server to update or even delete data. There's quite a few default _verbs_ in the HTTP spec, though we (Ruby/Rails devs) mostly just use `GET`, `POST`, `PUT` (and `PATCH`), and `DELETE`.
 
-Here's the long version (paraphrased/contextualized from [REST API Tutorial](http://www.restapitutorial.com/lessons/httpmethods.html):
+Here's the long version (paraphrased/contextualized from [REST API Tutorial](http://www.restapitutorial.com/lessons/httpmethods.html)):
 
 ### GET
 The HTTP `GET` method is used to __read__ (or retrieve) a representation of a resource. In the everything-went-swimmingly case, `GET` return a representation of data in a format like HTML, XML or JSON, and a HTTP response code of 200 (OK). In an error case, return a 404 (NOT FOUND) or 400 (BAD REQUEST). We'll learn more about HTTP response codes as we go.
@@ -33,7 +33,7 @@ This idea of crafting _idemopotent_ requests is a design ideal. There's nothing 
 We're not covering `PATCH` much right now. It serves essentially the same purpose as `PUT` (__update__), there's some technical wiggly bits that won't be relevant until we're in Rails. If it's now the future instead of the present and we're knee-deep in Rails, [here's the deets on how we're now preferring `PATCH` to `PUT`](http://weblog.rubyonrails.org/2012/2/26/edge-rails-patch-is-the-new-primary-http-method-for-updates/).
 
 ### DELETE
-`DELETE` is pretty easy to understand. It is used to __delete__ a resource.
+`DELETE` does what it says on the tin. It is used to __delete__ a resource.
 
 On successful deletion, return HTTP status 200 (OK) along with a response body (usually the representation of the deleted item), or a wrapped response (see Return Values below). If you're bandwidth constrained or just feeling kinda lazy, return HTTP status 204 (NO CONTENT) with no response body.
 
