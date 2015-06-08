@@ -241,12 +241,23 @@ Intermediate CSS
 [Sinatra Blog](https://github.com/Ada-Developers-Academy/C3Projects--SinatraSite)  
 
 ## Week 6
+In Week 6 we continue using Sinatra to solidify our understanding of web page elements using forms and additional HTTP verbs.
+
+Our learning will cover an introduction to relational database concepts as well as understanding how to utilize these concepts. This includes an introduction to using SQL concepts using SQLite.
 
 ## Learning Goals
+- Learn the HTTP verbs and the appropriate scenarios to use them
+- Learn how and when to use forms in our web pages
+- Enhance Sinatra blog using forms
+- Learn the basics of relationship database constructs
+- Practice pair programming
 
 ## Resources
+[HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)
 
 ## Projects
+[Scrabble Sinatra](https://github.com/Ada-Developers-Academy/C3Projects--ScrabbleSinatra)
+
 
 ## Week 7
 In week 7 we introduce students to the Ruby on Rails framework, which will be the focus of much of the work for the remainder of the course. Working in pairs, students build [a basic Rails application](../topic_resources/far-mar-rails.md). The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models and relationships, and begin to develop basic proficiency with Rails.
