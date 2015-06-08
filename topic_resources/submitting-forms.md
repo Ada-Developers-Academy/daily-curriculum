@@ -1,87 +1,98 @@
-## Submitting Forms
+# HTML Forms
+Forms are how users provide input to servers for operation. Everything from authoring a tweet to logging into an email account is accomplished using a small set of HTML tags that create and structure forms.
 
-We are going to look at how inputs from a form are passed along through the browser to our server. We'll start by adding a basic form anywhere on our `index.erb` page:
+## Relevant Tags
+- `<form>`
+- `<fieldset>` (handy, but not often used)
+- `<label>`
+- `<input>`
+  - `<input type="text">`
+  - `<input type="checkbox">`
+  - `<input type="radio">`
+  - `<input type="password">`
+  - `<input type="file">` and `<input type="image">`
+  - `<input type="submit">`
+  - `<input type="reset">` (careful with this one)
+  - `<input type="hidden">`
+- `<textarea>`
+- `<select>`
+  - `<option>`
+- `<button>`, and `<input type="button">` are primarily used for JavaScript interactions.
+
+## Creating and Submitting Forms
+Forms are used to create requests to servers that can create, update, and delete resources.
+
+We are going to look at how inputs from a form are passed along through the browser to our server. Let's open our __SinatraSite__ project and create a new route and view like:
+
+```bash
+$ touch views/my-first-form.erb
+```
+
+```ruby
+# my-site.rb
+get '/my-first-form' do
+  erb :my_first_form
+end
+```
+
+Then, let's open `views/my-first-form.erb` in our editor. Add the following code to the page:
+
 ```html
-<form action="" method="get" accept-charset="utf-8">
-  <label for="fname">Name</label>
-  <input type="text" name="first_name" value="" id="fname">
-  <input type="text" name="last_name" value="" id="lname">
+<form action="" method="post" accept-charset="utf-8">
+  <label for="username">Username</label>
+  <input type="text" name="username" value="" id="username">
 
+  <label for="fave-animal">Favorite Animal</label>
+  <input type="text" name="fave-animal" value="" id="fave-animal">
 
-  <p><input type="submit" value="Submit"></p>
+  <input type="submit" value="Submit">
 </form>
 ```
 
-In the `form` tag the `action` attribute defines what url (or path) this form will submit to. In this case we're using a blank value because we just want to submit to the same url as the current page.
+In the `form` tag, the `action` attribute defines to which route this form will `POST`. We're using a blank value because, by default, forms submit to the same route as the current page. We know that submitting the form will create a `POST` request because that's the value of the `method` parameter. We could use `PUT`, `DELETE`, or any other verb (even `GET`, but that's often silly).
 
 Next we have a `label` tag
 ```html
-<label for="fname">Name</label>
+<label for="fname">Username</label>
 ```
 
-Labels are the text portion of a form. The reason we use labels instead of plain text is because we can join an `input` and a `label` to when the text is clicked the cursor will focus on the input. The `for` attribute defines the `id` that the `label` will match.
+Labels are the text portion of a form. The reason we use labels instead of plain text is because we can join an `input` and a `label` to when the text is clicked the cursor will focus on the input. The `for` attribute defines the `id` that the `label` will match. Also, creating a link between the `label` and `input` tags is critical in creating usable form content for folks using screen readers.
 
 Next we have two `input` tags with the type of 'text' (see [here](http://www.htmldog.com/reference/htmltags/input/) for a complete list of input types).
 
 ```html
-<input type="text" name="first_name" value="" id="fname">
-<input type="text" name="last_name" value="" id="lname">
+<input type="text" name="username" value="" id="username">
+<input type="text" name="fave-animal" value="" id="fave-animal">
 ```
-Each `input` tag will pass a value along to the server when we submit the form. The `name` attribute defines the key to the value we input. In this case `first_name` will be assigned to what we type into the first text field.
+Each `input` tag will pass a value along to the server when we submit the form. The `name` attribute defines the __key__ to the __value__ provided by the user. In this case `username` will be assigned to what we type into the first text field.
 
-And finally we have an `input` with the type of submit. This input simply is a button to click to send an HTTP request with the forms data to the url in the `action` attribute of the `form` tag.
+And finally we have an `input` with the type of _submit_. This input creates a button to click that will send an HTTP request with the form data to the route in the `action` attribute of the `form` tag.
 
-Give it a try.
-
-Basically nothing changes except the way the url in the browser navigation bar looks. And with plain ol' HTML there isn't really anything further we could do.
-
-Let's make our form a little bit smarter. We can submit nested data by changing the `name` attribute.
-
-```html
-<form action="" method="get" accept-charset="utf-8">
-  <label for="fname">Name</label>
-  <input type="text" name="person[first_name]" value="" id="fname">
-  <input type="text" name="person[last_name]" value="" id="lname">
-
-
-  <p><input type="submit" value="Submit"></p>
-</form>
-```
-
-Now our `params` `Hash` has become a nested hash.
+Give it a try. It broke, right? We haven't taught Sinatra how to handle a `POST` to the route. So let's do that:
 
 ```ruby
-{"person"=>{"first_name"=>"Bookis", "last_name"=>"Smuin"}}
+# my-site.rb
+post '/my-first-form' do
+  erb :my_first_form #yup, let's just render the same form again
+end
+```
+Now it'll work, but it's not much fun. Let's make it more fun by adding something to our view:
+
+```erb
+<pre><%= params %></pre>
 ```
 
-In Sinatra and Rails this is the way we model Objects. Imagine a `Person` class where the initialize method is coded to assign attributes from a hash. We would simply need to pass the inner hash to the `new` method and all of our attributes would be assigned.
+### Nested params
+Let's make our form a little bit smarter. We can submit nested data by manipulating the `name` attribute.
+
+```html
+  <input type="text" name="peep[name]" value="" id="name">
+  <input type="text" name="peep[fave_animal]" value="" id="fave_animal">
+```
+
+In Sinatra (and Rails) this is the way we model Objects. Imagine a `Peep` class where the initialize method is coded to assign attributes from a hash. We would simply need to pass the inner hash to the `new` method and all of our attributes would be assigned.
 
 ```ruby
-Person.new(params["person"])
-```
-Try to add a small message to the top of your page after someone submits a value using the form. Something like:
-
-```html
-Thanks for signing up for our newsletter FIRSTNAME LASTNAME!
-```
-#### Making a form with Rails `form_tag`
-```html
-<%= form_tag "/users" do %>
-  <%= label_tag :fname, "First name" %>
-  <%= text_field_tag :first_name, params[:first_name] %>
-  <%= check_box_tag :bread, 1, params[:bread] %>
-  <br>
-  <%= label_tag :last_name %>
-  <%= text_field_tag :last_name, params[:last_name] %>
-  <br>
-  <%= submit_tag "Search" %>
-<% end %>
+Peep.new(params["peep"])
 ```
 
-- `form_tag` takes an argument, which is the path we want our form to submit to. This argument generates the `action` attribute within our `form` tag.
-
-- `label_tag` creates an HTML `label` element. The first argument will set the `for` attribute as well as the text within the `label` element. We can optionally give a second argument which will overwrite the text.
-
-- `text_field` tag generates an HTML `input` tag with the `type` of `text`, the first agrument we pass in will determine the `name` attribute of the `input` tag.
-
-- `submit_tag` generates an HTML `input` tag with the `type` of `submit`
