@@ -63,7 +63,7 @@ Neat, yeah? Now people (with and without assistive devices) and robots alike wil
 
 Radio buttons are strutured and work just like checkboxes with one key difference. You can only activate _one_ radio button in a given group, whereas you can activate _many_ checkboxes. We define the group with the `name` attribute in the `<input>` element. So for the code above, we have to pick _one favorite topping_ and only from the list provided. That's a hard one.
 
-
+__Question: If I really wanted to know a person's favorite pizza topping, what would be the best type of `<input>` to use? What are the limitations or concerns of that type of input versus a group of checkboxes or radio buttons?__
 
 
 
