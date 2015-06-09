@@ -5,10 +5,10 @@ Checkboxes and Radio buttons are quite odd. They're purpose is similar; provide 
 ```html
 <form action="" method="post">
   <p>My favorite pizza toppings are:</p>
-  <input type="checkbox" name="toppings" value="pepperoni">Pepperoni
-  <input type="checkbox" name="toppings" value="ham">Ham
-  <input type="checkbox" name="toppings" value="mushrooms">Mushrooms
-  <input type="checkbox" name="toppings" value="onions">Onions
+  <input type="checkbox" name="toppings[]" value="pepperoni">Pepperoni
+  <input type="checkbox" name="toppings[]" value="ham">Ham
+  <input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms
+  <input type="checkbox" name="toppings[]" value="onions">Onions
 
   <input type="submit" value="Choose">
 </form>
@@ -24,10 +24,10 @@ we could _style_ this form to create implied visual groupings, but that only hel
 <form action="" method="post">
   <fieldset>
     <legend>My favorite pizza toppings are:</legend>
-    <label><input type="checkbox" name="toppings" value="pepperoni">Pepperoni</label>
-    <label><input type="checkbox" name="toppings" value="ham">Ham</label>
-    <label><input type="checkbox" name="toppings" value="mushroom</label>s">Mushrooms</label>
-    <label><input type="checkbox" name="toppings" value="onions">Onions</label>
+    <label><input type="checkbox" name="toppings[]" value="pepperoni">Pepperoni</label>
+    <label><input type="checkbox" name="toppings[]" value="ham">Ham</label>
+    <label><input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms</label>
+    <label><input type="checkbox" name="toppings[]" value="onions">Onions</label>
   </fieldset>
 
   <input type="submit" value="Choose">
@@ -51,10 +51,10 @@ Neat, yeah? Now people (with and without assistive devices) and robots alike wil
 <form action="" method="post">
   <fieldset>
     <legend>My most favorite pizza topping is:</legend>
-    <label><input type="radio" name="toppings" value="pepperoni">Pepperoni</label>
-    <label><input type="radio" name="toppings" value="ham">Ham</label>
-    <label><input type="radio" name="toppings" value="mushroom</label>s">Mushrooms</label>
-    <label><input type="radio" name="toppings" value="onions">Onions</label>
+    <label><input type="radio" name="topping" value="pepperoni">Pepperoni</label>
+    <label><input type="radio" name="topping" value="ham">Ham</label>
+    <label><input type="radio" name="topping" value="mushrooms">Mushrooms</label>
+    <label><input type="radio" name="topping" value="onions">Onions</label>
   </fieldset>
 
   <input type="submit" value="Yum">
