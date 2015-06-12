@@ -64,4 +64,4 @@ actually performing an action on the object, they are only setting up the client
 
 --------------
 
-![Rails Request Cycle](../resources/rails-request-cycle.jpg)
+![Rails Request Cycle](../topic_resources/rails-request-cycle.jpg)
