@@ -4,3 +4,9 @@
 ## Procedure
 
 ## Indexes
+
+## Sorting
+
+## Grouping
+
+## Joins

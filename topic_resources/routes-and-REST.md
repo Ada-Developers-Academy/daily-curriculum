@@ -20,7 +20,7 @@ we can then refer to it by name when creating links and redirects.
 get "/pineapple", to: "home#index", as: :fruit
 ```
 
-This creates a controller/view helper method, which generates the path for us, simply by refering to the name. In a controller or view:
+This creates a controller/view helper method, which generates the path for us, simply by referencing to the name. In a controller or view:
 
 ```ruby
 fruit_path # => "/pineapple"
@@ -36,8 +36,8 @@ fruit_path # => "/pinesnapple"
 REST
 -----
 
-Representational state transfer (REST) is an architectual style. This is a recommendation for the structure and style in which
-a resource (ruby object) can be represetned and managed through a web server.
+Representational state transfer (REST) is an architectural style. This is a recommendation for the structure and style in which
+a resource (ruby object) can be represented and managed through a web server.
 
 The core of this idea can be described through routing. We'll look at an example if we have a `Market` object we want to represent through a web server.
 
@@ -45,9 +45,9 @@ The core of this idea can be described through routing. We'll look at an example
 |:----------:|:-----:|:-----------|
 | /markets       | GET    | Retrieves a collection of market objects|
 |                | POST   | Creates a market object on the server. |
-| /markets/:id   | GET    | Retrieves an  individual market object through an identifying attribute, givin in the url path.|
-|                | PUT    | Updates an individual market object through an identifying attribute, givin in the url path.|
-|                | DELETE | Removes an individual market object through an identifying attribute, givin in the url path.|
+| /markets/:id   | GET    | Retrieves an  individual market object through an identifying attribute, given in the url path.|
+|                | PUT    | Updates an individual market object through an identifying attribute, given in the url path.|
+|                | DELETE | Removes an individual market object through an identifying attribute, given in the url path.|
 
 You can see that many actions can be performed on a market object using only two paths.
 The paths represent the scope of the objects to operate on and the HTTP method indicates what type of action should be performed.
@@ -64,4 +64,4 @@ actually performing an action on the object, they are only setting up the client
 
 --------------
 
-![Rails Request Cycle](../resources/rails-request-cycle.jpg)
+![Rails Request Cycle](../topic_resources/rails-request-cycle.jpg)
