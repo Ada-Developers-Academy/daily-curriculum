@@ -9,30 +9,30 @@
 | May 18  | [Week 03](#week-3)  | Ruby III
 | May 25  | [Week 04](#week-4)  | Ruby IV
 | Jun 1   | [Week 05](#week-5)  | HTTP, DOM, HTML, CSS, Sinatra
-| Jun 8   | [Week 06](#week-6)  | Intro to Rails
-| Jun 15  | [Week 07](#week-7)  | Rails II
-| Jun 22  | [Week 08](#week-8)  | Adv Ruby & CS Fundamentals
+| Jun 8   | [Week 06](#week-6)  | Sinatra, Databases
+| Jun 15  | [Week 07](#week-7)  | Intro to Rails
+| Jun 22  | [Week 08](#week-8)  | Rails II, Intro to Agile
 | Jun 29  |                     | __4th of July Break__
-| Jul 6   | [Week 09](#week-9)  | Rails III, Intro to Agile
-| Jul 13  | [Week 10](#week-10) | Testing in Rails
-| Jul 20  | [Week 11](#week-11) | Intro to Javascript
+| Jul 6   | [Week 09](#week-9)  | Rails III, Group Rails Project
+| Jul 13  | [Week 10](#week-10) | Testing in Rails, Group Rails Project
+| Jul 20  | [Week 11](#week-11) | Group Rails Project
 | Jul 27  | [Week 12](#week-12) | Special Topics & Group Rails Project
-| Aug 3   | [Week 13](#week-13) | Group Rails Project
-| Aug 10  | [Week 14](#week-14) | 2 week pairing Rails Project
-| Aug 17  | [Week 15](#week-15) | 2 week pairing Rails Project
-| Aug 24  | [Week 16](#week-16) | SOA Rails Project
-| Aug 31  | [Week 17](#week-17) | Individual Student-Defined Rails Project
+| Aug 3   | [Week 13](#week-13) | Rails Project - Using APIs
+| Aug 10  | [Week 14](#week-14) | Rails Project - Using APIs
+| Aug 17  | [Week 15](#week-15) | Rails Project - Create API
+| Aug 24  | [Week 16](#week-16) | Intro to Javascript
+| Aug 31  | [Week 17](#week-17) | JavaScript API project
 | Sept 7  |                     | __Labor Day Break__
 | Sept 14 | [Week 18](#week-18) | Pair JS Framework Project
 | Sept 21 | [Week 19](#week-19) | Pair JS Framework Project
 | Sept 28 | [Week 20](#week-20) | Final Rails Project
 | Oct 5   | [Week 21](#week-21) | Final Rails Project
 | Oct 12  | [Week 22](#week-22) | Final Rails Project
-| Oct 19  | [Week 23](#week-23) | Final Rails Project Presentations
-| Oct 26  | [Week 24](#week-24) | Internship Spike Project
-| Nov 2   | [Week 25](#week-25) |
-| Nov 9   | [Week 26](#week-26) |
-| Nov 16  | [Week 27](#week-27) |
+| Oct 19  | [Week 23](#week-23) | Final Rails Project
+| Oct 26  | [Week 24](#week-24) | Final Rails Project Presentations
+| Nov 2   | [Week 25](#week-25) | Internship Spike Project, Interview Prep
+| Nov 9   | [Week 26](#week-26) | Internship Spike Project
+| Nov 16  | [Week 27](#week-27) | Internship Spike Project
 | Nov 23  |                     | __Thanksgiving Break__
 | Nov 30  |                     | __INTERNSHIP BEGINS__
 
@@ -253,114 +253,69 @@ Our learning will cover an introduction to relational database concepts as well 
 - Practice pair programming
 
 ## Resources
-[HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)
+[HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)  
+[Creating & Submitting Forms](../topic_resources/submitting-forms.md)  
+[More Forms](../topic_resources/checkboxes-and-radio-buttons.md)  
+[Intro to Databases](../topic_resources/database/intro_to_db.md)
+[Using SQL](../topic_resources/database/using_sqlite.md)
 
 ## Projects
-[Scrabble Sinatra](https://github.com/Ada-Developers-Academy/C3Projects--ScrabbleSinatra)
-
+[Scrabble Sinatra](https://github.com/Ada-Developers-Academy/C3Projects--ScrabbleSinatra)  
+[Tasks List](https://github.com/Ada-Developers-Academy/C3Projects--TaskList)  
 
 ## Week 7
-In week 7 we introduce students to the Ruby on Rails framework, which will be the focus of much of the work for the remainder of the course. Working in pairs, students build [a basic Rails application](../topic_resources/far-mar-rails.md). The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models and relationships, and begin to develop basic proficiency with Rails.
+In week 7 we introduce students to the Ruby on Rails framework, which will be the focus of much of the work for the remainder of the course. Working individually, students build a basic Rails application. The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models, and begin to develop basic proficiency with Rails.
 
 ### Learning Goals
 - Solidify understanding of web response cycle
 - Introduce Rails
+  - ActiveRecord
+  - Controllers, Views & Routes
+  - Forms
+- Introduce Data Modeling
 - Improve workflow
+
+## Resources
+[MVC & Rest]()
+[ActiveRecord](../topic_resources/rails/active_record.md)
+[ActiveRecord Practice](../topic_resources/rails/active_record_practice.md)
+
+## Projects
+[Tasks in Rails]()
+
+## Week 8
+In week 8 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](../topic_resources/rails/rails-request-cycle.pdf). Working in pairs, we will revisit a previous project using Rails. We will examine how to work with ActiveRecord relationships. We will introduce Agile methodologies and how we will use them on our projects. At the end of the week students will have learned and practiced the rails stack.
+
+### Learning Goals
+- Continued exposure to Rails
+- DB seeds with CSV
+- Begin using agile practices in pair projects
 - Practice pair programming skills
 
 ## Resources
+[ActiveRecord relationships](..topic_resources/rails/active-record-relationships.md)
 
 ## Projects
+[FarMar Rails]()
 
-<!--
+<!-- KAB ADDED
+## Week 9
+In Week 9 we will be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods.
 
+### Learning Goals
+- Continued exposure to Rails
+- Increasing skills in group work habits
+- Improving technical workflow
+- Increasing git/github competency
 
+## Projects
+[Betsy]()
 
-
-| Time          | Topic
-|---------------|------------------------------------------------------------
-| 9:00 - 10:00 | Blog Presentations
-| 10:00 - 10:30 | [Agile](../topic_resources/agile.md)
-| 10:40 - 12:00 | [Setting up Rails](../topic_resources/setting-up-rails.md)
-| 1:00 - 2:30 | [Running Rails & HTTP](../topic_resources/rails.md)
-| 2:30 - 3:30 | Database
-
-[RoRT Online](https://www.railstutorial.org/book/demo_app#cha-a_demo_app):
-    + review sections 1.2.3 & 1.2.5
-    + read section 1.2.6 and all of Chapter 2
-
-
-#### Tuesday
-
-| Time          | Topic
-|---------------|--------------------------------------------------------------------------
-| 9:00 - 10:15 | [ActiveRecord](../topic_resources/active_record.md)
-| 10:25 - 11:30 | [Model Relationships](../topic_resources/active-record-relationships.md)
-| 11:30 - 12:00 | [ActiveRecord Practice](../topic_resources/active-record-practice.md)
-| 1:30 - 2:00 | [params & session](../topic_resources/params-and-session.md)
-| 2:00 - 2:30 | Project Planning
-| 2:30 - 2:35 | Stand Up
-| 2:35 - 5:00 | [FarMar Project](../topic_resources/far-mar-rails.md)
-
-__Homework__
-
-- Complete one trello task. Before leaving class clearly define tasks that can be completed which are not dependent on each other (front end, back end).
-- Push the change to github.
-- If the push is rejected, it means your partner has pushed first, you need to pull first then retry the push.
-
-#### Wednesday
-
-| Time          | Topic
-|---------------|-----------------------------------------------------------------------
-| 9:00 - 9:30 | [HTTP Body Parser](../topic_resources/moar_work/http-body-to-hash.md)
-| 9:30 - 10:30 | [Forms](../topic_resources/submitting-forms.md)
-| 10:30 - 10:35 | [Pairing](../topic_resources/pair.md)
-| 10:35 - 10:40 | Stand Up
-| 10:35 - 5:00 | [FarMar Project](../topic_resources/far-mar-rails.md)
+## Week 10
+In Week 10 we will continue working in groups of 4 on the Betsy project introduced in Week 9. The majority of the week will be devoted to project time, with short lectures and assignments relating to TDD in Rails.
 
 
-#### Thursday
 
-| Time          | Topic
-|---------------|-----------------------------------------------------------------------
-| 9:00 - 9:30 | [HTTP Body Parser](../topic_resources/moar_work/http-body-to-hash.md)
-| 9:30 - 11:00 | [Routes & REST](../topic_resources/routes-and-REST.md)
-| 11:00 - 11:15 | Standup
-| 11:15 - 5:00 | [FarMar Project](../topic_resources/far-mar-rails.md)
-
-__Homework__
-
-Make sure you've at least tried the following koans (by running the
-following from your main koans directory):
-
-  $ ruby koans/about_beginning_the_search.rb
-  $ ruby koans/about_guessing_game.rb
-  $ ruby koans/about_hash_backed_dictionary.rb
-
-NOTE! If you haven't done about_beginning_the_search.rb, you may be
-surprised that the tests hang when you try to run it. This is because
-the koan has an infinite loop that you need to fix. Open the file and
-try to figure out how to get the to get the while loop at line 47 to
-terminate.
-
-#### Friday
-
-| Time          | Topic
-|---------------|-------------------------------------------------------
-| 9:00 - 9:30 | Koans Review: Search, Guessing Game, Dictionary
-| 9:30 - 10:00 | Group Koan: Array Backed Dictionary
-| 10:00 - 11:00 | Insertion Sort
-| 11:00 - 11:15 | Stand Up
-| 11:15 - 5:00 | [FarMar Project](../topic_resources/far-mar-rails.md)
-
-Homework:
-
-For the weekend:
-+ RoRT:
-    + work through 3.3 and 3.4, and the first exercise of 3.5
-
-
-\* Take an hour lunch at any time
 
 ## Week 7
 
