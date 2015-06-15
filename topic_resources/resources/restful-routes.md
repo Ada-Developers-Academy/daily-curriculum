@@ -1,4 +1,4 @@
-# RESTful routes
+# RESTful Routing
 
 REST (Representational State Transfer) is a pattern to help us provide a consitent method of accessing and managing our resources on the web. Many different languages and frameworks implement some sort of RESTful routing.
 
