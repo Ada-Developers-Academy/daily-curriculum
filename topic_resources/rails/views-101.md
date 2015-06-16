@@ -1,4 +1,4 @@
-## Rails Veiws 101
+## Rails Views 101
 
 Common Helper Methods
 -------
@@ -14,6 +14,9 @@ will become the text between the `<a></a>` tags, the second argument will become
 the value assigned to the "href" attribute of the tag.
 ```
 <%= link_to "About Me", "/profile" %>
+```
+The above `link_to` will give you this HTML:
+```
 <a href="/profile">About Me</a>
 ```
 
@@ -21,6 +24,9 @@ An additional options hash argument is optional to set arbitrary attributes of t
 
 ```
 <%= link_to "About Me", "/profile", class: "link" %>
+```
+The above `link_to` will give you this HTML:
+```
 <a href="/profile" class="link">About Me</a>
 ```
 
@@ -33,6 +39,9 @@ This is generally used to submit HTTP request with a method type different from 
 
 ```
 <%= button_to "Remove That", "/products/1" %>
+```
+The above `button_to` will give you this HTML:
+```
 <form method="POST" action="/products/1" >
   <div><input value="Remove That" type="submit" /></div>
 </form>
@@ -43,6 +52,9 @@ optional argument of method.
 
 ```
 <%= button_to "Remove That", "/products/1", method: :delete %>
+```
+The above `button_to` using the optional parameter will give you this HTML:
+```
 <form method="DELETE" action="/products/1" >
   <div><input value="Remove That" type="submit" /></div>
 </form>
@@ -52,11 +64,14 @@ optional argument of method.
 image_tag
 ---------
 
-`image_tag` generates an HTML `<img>` tag. The argument given will be a image filename for the `src` attribute.
+`image_tag` generates an HTML `<img>` tag. The argument given will be an image filename for the `src` attribute.
 Rails (the asset pipeline) will do magic to look within the `app/assets/images` directory.
 
 ```
 <%= image_tag "cat.jpg" %>
+```
+The above `image_tag` will give you this HTML:
+```
 <img src="/assets/cat.jpg" alt="cat.jpg" />
 ```
 
