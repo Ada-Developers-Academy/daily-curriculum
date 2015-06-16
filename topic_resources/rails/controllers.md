@@ -84,7 +84,7 @@ Controllers inherit from `ApplicationController`, this file can be found in the 
 
     end
 
-The `signed_in?` method would now be available to all of our controllers, in our `OrdersController` we could do something like:
+The `require_login` method would now be available to all of our controllers, in our `OrdersController` we could do something like:
 
     class OrdersController < ApplicationController
 
@@ -94,6 +94,8 @@ The `signed_in?` method would now be available to all of our controllers, in our
         end
       end
     end
+
+[ApplicationController::Base docs](http://api.rubyonrails.org/classes/ActionController/Base.html)
 
 #### Controller Filters
 
@@ -112,4 +114,4 @@ Now the `require_login` method defined in the `ApplicationController` will run b
 [Filters guide](http://guides.rubyonrails.org/action_controller_overview.html#filters)
 
 
-![Rails Request Cycle](../resources/rails-request-cycle.pdf)
+![Rails Request Cycle](../rails/rails-request-cycle.jpg)
