@@ -1,33 +1,17 @@
-Active Record
-=============
+# Introduction to Active Record
 
 Active Record is an  **Object Relational Mapping** technique. It is used to abstract and simplify the connection between your code and a database.
 
 
-Active Record Models
-====================
+## Generating New AR Models
 
-So far we've created models like so:
-
-```ruby
-class Student
-
-end
-```
-
-To work with a database, we have to manually set up the connection. Something like this, perhaps?
-
-
-Generating New AR Models
-========================
 Active Record can set up the connections for us!
 
-<pre>
-$ rails generate model student name:string class:string birthday:datetime
-</pre>
+```bash
+rails generate model student name:string class:string birthday:datetime
+```
 
-Naming Conventions
-------------------
+### Naming Conventions
 |Model / Class (singular) |	Table / Schema (plural)| Filename (singular) |
 |:------------:|:--------------:|:------:|
 | Post	       | posts | post.rb|
@@ -37,22 +21,19 @@ Naming Conventions
 |Medium |	media| medium.rb|
 |Person |	people| person.rb |
 
-Active Record Models
-====================
+## Active Record Models
 
 ```ruby
-class Student << ActiveRecord::Base
+class Student < ActiveRecord::Base
 
 end
 ```
 
 This will create a Student model, mapped to a students table at the database. By doing this you'll also have the ability to map the columns of each row in that table with the attributes of the instances of your model.
 
-Active Record Migrations
-========================
+## Active Record Migrations
 
-You can think of each migration as being a new 'version' of the database.
-A schema starts off with nothing in it, and each migration modifies it to add or remove tables, columns, or entries.
+Rails gives us a structured approach to maintaining the database schema: database migrations. These are step-by-step instructions on how to construct the schema. If done right, they provide a blueprint of not only how to construct the database schema, but a histroy of how the database requirements have changed over time. A schema starts off with nothing in it, and each migration modifies it. Migrations may add or remove tables, columns, or entries.
 
 ```bash
 rake db:migrate
@@ -67,7 +48,7 @@ rails generate migration add_author_name_to_posts
 This will generate a file within the migrate directory, it will be named something like:
 
 ```
-20141007001749_add_author_name_to_posts.rb
+20151007001749_add_author_name_to_posts.rb
 ```
 Open that file:
 
@@ -97,16 +78,15 @@ end
 
 Learn more about migrations from the [official rails guides](http://guides.rubyonrails.org/migrations.html)
 
-Active Record as a DSL
-======================
+## Active Record as a DSL
 
 Given a table in our database called "students" that has this structure:
 
 | id | name  | class       | birthday   |
 |:--:|:-----:|:-----------:|:----------:|
-|  1 | Mary  | Fall 2013   | 11-13-1984 |
-|  2 | Sally | Fall 2013   | 08-11-1979 |
-|  3 | Alice | Spring 2014 | 03-27-1990 |
+|  1 | Mary  | Fall 2015   | 11-13-1984 |
+|  2 | Rosalita | Fall 2015   | 08-11-1979 |
+|  3 | Raquel | Spring 2015 | 03-27-1990 |
 
 ```ruby
 s = Student.new
@@ -128,10 +108,10 @@ melissa = Student.find_by(name: 'Melissa')
 It behaves like any other Ruby code, so we can chain methods together to create more complex queries.
 
 <pre>
-Student.where(class: "Fall 2013").order(birthday:  :desc)
+Student.where(class: "Fall 2015").order(birthday:  :desc)
 </pre>
 
-This finds all the records in our students table *where* class is "Fall 2013" and *orders* them by their birthdays, from youngest to newest (descending).
+This finds all the records in our students table *where* class is "Fall 2015" and *orders* them by their birthdays, from youngest to newest (descending).
 
 Using Multiple Primary Keys
 
@@ -142,78 +122,74 @@ Student.find([1,2]) # This will return an array with two students
 Array Conditions
 
 ```ruby
-Student.where("name = ?", "Sally")
+Student.where("name = ?", "Rosalita")
 ```
 
 Placeholder Conditions
 ```ruby
-Student.where("name = :name AND class = :class", name: "Sally", class: "Fall 2013")
+Student.where("name = :name AND class = :class", name: "Rosalita", class: "Fall 2015")
 ```
 
 Hash Conditions
 ```ruby
-Student.where(name: "Sally", class: "Fall 2013")
+Student.where(name: "Rosalita", class: "Fall 2015")
 ```
 
 Not
 ```ruby
-Student.where.not(name: "Sally")
+Student.where.not(name: "Rosalita")
 ```
 
 Ordering
 ```ruby
-Student.where(class: "Fall 2013").order(name: :asc)
+Student.where(class: "Fall 2015").order(name: :asc)
 ```
 
 There are many more querying methods within active record, see the [Rails guide](http://guides.rubyonrails.org/active_record_querying.html)
 for more.
-What's it doing?
-================
 
-The Active Record DSL translates our Ruby code into SQL - similar to what you built in the FarMar Finder app.
-<pre>
-Student.where(class: "Fall 2013").order('birthday DESC')
-</pre>
+## What's it doing?
+
+The Active Record DSL translates our Ruby code into SQL - similar to what you built in the FarMar Finder and Sinatra TaskList apps.
+
+```ruby
+Student.where(class: "Fall 2015").order('birthday DESC')
+```
 
 becomes
 
-<pre>
-SELECT * FROM 'students' WHERE class = "Fall 2013" ORDER BY birthday DESC
-</pre>
-
+```sql
+SELECT * FROM 'students' WHERE class = "Fall 2015" ORDER BY birthday DESC;
+```
 
 Active Record objects can be created from a hash, a block or have their attributes manually set after creation. **.new** returns a new object of that class, but doesn't save it to the database.
 
 ```ruby
-Student.new(name: "Cassie", class: "Spring 2014")
+Student.new(name: "Cassie", class: "Spring 2015")
 ```
 
 ```ruby
 student = Student.new
 student.name = "Cassie"
-student.class = "Spring 2014"
+student.class = "Spring 2015"
 ```
-
 
 Meanwhile, **.create** will return the object *and* save it to the database.
 
 ```ruby
-Student.create(name: "Cassie", class: "Spring 2014")
+Student.create(name: "Cassie", class: "Spring 2015")
 ```
 
 Learn more about ActiveRecord from the [official rails guides](http://guides.rubyonrails.org/active_record_basics.html)
 
 
-What Did We Learn?
-==================
+## What Did We Learn?
 + Active Record is an ORM, and provides a DSL for building queries
 + We touched briefly on how to create an Active Record model and migration
 + Some basic CRUD queries using Active Record
 
 
-Other Resources
-===============
+## Other Resources
 http://guides.rubyonrails.org/active_record_basics.html  
 http://guides.rubyonrails.org/migrations.html  
 http://guides.rubyonrails.org/active_record_querying.html  
-http://railsforzombies.org/  
