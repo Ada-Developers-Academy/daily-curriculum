@@ -17,7 +17,7 @@ The `gem "binding_of_caller"` gems enables some of the more advanced features of
 
 Now, when our application comes across an error we will see an error message like this
 
-![Better Errors](resources/better_errors.png)
+![Better Errors](../resources/better_errors.png)
 
 There are a lot of helpful tools here, the main features are:
 
@@ -30,7 +30,7 @@ There are a lot of helpful tools here, the main features are:
 
 Clicking on the `All Frames` link within `bettor_errors` we can see a `stack` of different classes, methods, and files.
 
-![Stack Trace](resources/stack-trace.png)
+![Stack Trace](../resources/stack-trace.png)
 
 Ruby code works by calling a series of methods.  Each time a method is called, ruby adds the file and line that called the method to a history. Even the "magic" is recorded. A stack trace shows us this history of methods. A stack trace is composed of stack frames, with each stack frame indicating a call. The deepest frames  -- those called last before the error -- are the frames at the top. The stack trace is the same thing we see in our console, development logs, or regular rails error page with ruby. Learning to read it can be difficult, but it can be very useful.
 
@@ -47,7 +47,7 @@ At any given moment running code has some definite state. If we were to stop cod
 
 In the rails request cycle, we jump through some major components, routes, controllers, views, and models. Each of these components can be visualized along the timeline of the request cycle like this:
 
-![Request Timeline](resources/request-timeline.png)
+![Request Timeline](../resources/request-timeline.png)
 
 We can define a couple rules based on this representation for how the state should act.
 
