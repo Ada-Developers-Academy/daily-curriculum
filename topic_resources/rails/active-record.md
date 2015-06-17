@@ -8,7 +8,7 @@ Active Record is an  **Object Relational Mapping** technique. It is used to abst
 Active Record can set up the connections for us!
 
 ```bash
-rails generate model student name:string class:string birthday:datetime
+rails generate model student name:string cohort:string birthday:datetime
 ```
 
 ### Naming Conventions
@@ -82,7 +82,7 @@ Learn more about migrations from the [official rails guides](http://guides.rubyo
 
 Given a table in our database called "students" that has this structure:
 
-| id | name  | class       | birthday   |
+| id | name  | cohort       | birthday   |
 |:--:|:-----:|:-----------:|:----------:|
 |  1 | Mary  | Fall 2015   | 11-13-1984 |
 |  2 | Rosalita | Fall 2015   | 08-11-1979 |
@@ -108,10 +108,10 @@ melissa = Student.find_by(name: 'Melissa')
 It behaves like any other Ruby code, so we can chain methods together to create more complex queries.
 
 <pre>
-Student.where(class: "Fall 2015").order(birthday:  :desc)
+Student.where(cohort: "Fall 2015").order(birthday:  :desc)
 </pre>
 
-This finds all the records in our students table *where* class is "Fall 2015" and *orders* them by their birthdays, from youngest to newest (descending).
+This finds all the records in our students table *where* cohort is "Fall 2015" and *orders* them by their birthdays, from youngest to newest (descending).
 
 Using Multiple Primary Keys
 
@@ -127,12 +127,12 @@ Student.where("name = ?", "Rosalita")
 
 Placeholder Conditions
 ```ruby
-Student.where("name = :name AND class = :class", name: "Rosalita", class: "Fall 2015")
+Student.where("name = :name AND cohort = :cohort", name: "Rosalita", cohort: "Fall 2015")
 ```
 
 Hash Conditions
 ```ruby
-Student.where(name: "Rosalita", class: "Fall 2015")
+Student.where(name: "Rosalita", cohort: "Fall 2015")
 ```
 
 Not
@@ -142,7 +142,7 @@ Student.where.not(name: "Rosalita")
 
 Ordering
 ```ruby
-Student.where(class: "Fall 2015").order(name: :asc)
+Student.where(cohort: "Fall 2015").order(name: :asc)
 ```
 
 There are many more querying methods within active record, see the [Rails guide](http://guides.rubyonrails.org/active_record_querying.html)
@@ -153,31 +153,31 @@ for more.
 The Active Record DSL translates our Ruby code into SQL - similar to what you built in the FarMar Finder and Sinatra TaskList apps.
 
 ```ruby
-Student.where(class: "Fall 2015").order('birthday DESC')
+Student.where(cohort: "Fall 2015").order('birthday DESC')
 ```
 
 becomes
 
 ```sql
-SELECT * FROM 'students' WHERE class = "Fall 2015" ORDER BY birthday DESC;
+SELECT * FROM 'students' WHERE cohort = "Fall 2015" ORDER BY birthday DESC;
 ```
 
 Active Record objects can be created from a hash, a block or have their attributes manually set after creation. **.new** returns a new object of that class, but doesn't save it to the database.
 
 ```ruby
-Student.new(name: "Cassie", class: "Spring 2015")
+Student.new(name: "Cassie", cohort: "Spring 2015")
 ```
 
 ```ruby
 student = Student.new
 student.name = "Cassie"
-student.class = "Spring 2015"
+student.cohort = "Spring 2015"
 ```
 
 Meanwhile, **.create** will return the object *and* save it to the database.
 
 ```ruby
-Student.create(name: "Cassie", class: "Spring 2015")
+Student.create(name: "Cassie", cohort: "Spring 2015")
 ```
 
 Learn more about ActiveRecord from the [official rails guides](http://guides.rubyonrails.org/active_record_basics.html)
