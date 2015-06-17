@@ -1,4 +1,4 @@
-## Rails Veiws 101
+## Rails Views 101
 
 Common Helper Methods
 -------
@@ -14,6 +14,9 @@ will become the text between the `<a></a>` tags, the second argument will become
 the value assigned to the "href" attribute of the tag.
 ```
 <%= link_to "About Me", "/profile" %>
+```
+The above `link_to` will give you this HTML:
+```
 <a href="/profile">About Me</a>
 ```
 
@@ -21,6 +24,9 @@ An additional options hash argument is optional to set arbitrary attributes of t
 
 ```
 <%= link_to "About Me", "/profile", class: "link" %>
+```
+The above `link_to` will give you this HTML:
+```
 <a href="/profile" class="link">About Me</a>
 ```
 
@@ -33,6 +39,9 @@ This is generally used to submit HTTP request with a method type different from 
 
 ```
 <%= button_to "Remove That", "/products/1" %>
+```
+The above `button_to` will give you this HTML:
+```
 <form method="POST" action="/products/1" >
   <div><input value="Remove That" type="submit" /></div>
 </form>
@@ -43,6 +52,9 @@ optional argument of method.
 
 ```
 <%= button_to "Remove That", "/products/1", method: :delete %>
+```
+The above `button_to` using the optional parameter will give you this HTML:
+```
 <form method="DELETE" action="/products/1" >
   <div><input value="Remove That" type="submit" /></div>
 </form>
@@ -52,11 +64,14 @@ optional argument of method.
 image_tag
 ---------
 
-`image_tag` generates an HTML `<img>` tag. The argument given will be a image filename for the `src` attribute.
+`image_tag` generates an HTML `<img>` tag. The argument given will be an image filename for the `src` attribute.
 Rails (the asset pipeline) will do magic to look within the `app/assets/images` directory.
 
 ```
 <%= image_tag "cat.jpg" %>
+```
+The above `image_tag` will give you this HTML:
+```
 <img src="/assets/cat.jpg" alt="cat.jpg" />
 ```
 
@@ -70,27 +85,29 @@ The `app/helpers` directory is just for that. When using controller generators
 a helper file is generated for that controller, but the names for helpers can be
 totally arbitrary. They should just describe the methods within.
 
-For example, if I wanted to create a method that generated some complex HTML to help me
-display dollar amounts. I want to take a integer in cents and convert it into dollars,
+For example, I might want to create a method that generates some complex HTML to help me
+display dollar amounts. I want to take an integer in cents and convert it into dollars,
 at the same time I want to wrap the different parts of the dollar amount into
 HTML `<span>` elements to add style.
 
 ```html
-  <span class='dollar-symbol'>$</span>
-  <span class="dollar-amount">30</span>
-  <span class='dollar-decimal'>.35</span>
+<span class='dollar-symbol'>$</span>
+<span class="dollar-amount">30</span>
+<span class='dollar-decimal'>.35</span>
 ```
 
 <span style='color: #89ab2b; font-weight: bold;'>$</span><span style="font-weight: bold;">30</span><span style='font-size: 70%; color: gray;'>.35</span>
 
 This is quite a bit of HTML to write each time I want to display a dollar amount.
-Here it would be appropriate to write a helper method for this. First create a helper file
+Here it would be appropriate to write a helper method for this.
+
+First, create a helper file:
 
 ```bash
 touch app/views/helpers/money_helper.rb
 ```
 
-In that blank file you will add a **module** to define methods within.
+In that blank file you will add a **module** and define methods within.
 
 ```ruby
 module MoneyHelper
@@ -113,7 +130,7 @@ Partials are used to DRY your HTML code. It's a way to render an html file withi
 
 A common use for this could be for a form, error messages, or even the HTML that represents an object that is repeated on multiple pages
 
-A partial is a special file in rails, they live in the `app/views` directory, but they filename begins with an underscore.
+A partial is a special file in rails, that lives in the `app/views` directory, but the filename begins with an underscore.
 
 ```bash
 touch app/views/posts/_error_messages.html.erb
@@ -133,10 +150,10 @@ We can put HTML into the partial file
 <% end %>
 ```
 
-Then implement the partial in the original position of the error message HTML.
+Then implement the partial in the original position of the error message HTML (in that view that it originated)
 
 ```html
 <%= render "error_messages" %>
 ```
 
-The `render` takes a string argument, the string is the filename of the partial (without the underscore)
+The `render` takes a string argument, and the string is the filename of the partial (without the leading underscore)

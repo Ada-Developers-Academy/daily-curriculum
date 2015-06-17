@@ -1,6 +1,6 @@
 ## Rails Controllers
 
-Rails controllers are the brains of an application.  After a request is routed to our controller action, the controller is responsible for processing incoming data from the request and sending a repsonse. The controller response generally involves saving data to the model or retrieving data from the model, and assembling data to use in the view. 
+Rails controllers are the brains of an application.  After a request is routed to our controller action, the controller is responsible for processing incoming data from the request and sending a repsonse. The controller response generally involves saving data to the model or retrieving data from the model, and assembling data to use in the view.
 
 
 ### In this lesson we will learn about:
@@ -15,7 +15,7 @@ Rails controllers are the brains of an application.  After a request is routed t
 
 `params` is a method available within all of our controllers. The key/value pairs assigned to the `params` hash happen in three ways:
 
-- Query String. The query string is everything after `?` in the URL `?name=bookis` would add {name: "bookis"} to the params hash.
+- Query String. The query string is everything after `?` in the URL `?name=ada` would add {name: "ada"} to the params hash.
 - HTTP POST data (Form submissions)
 - Named parameters. Named parameters are first defined in the `routes.rb` in the route with a `:` before the name of the desired parameter. The named parameter will be added as a key to the params, the text in the url will be the value to the key. For a route of `/users/:id`, then a request to the url `/users/1`, the params hash would become `{id: 1}`.
 
@@ -29,7 +29,7 @@ Typically any variable we set in a controller action will be instance variables,
 
 #### redirect_to vs. render
 
-The last thing our controller action does is send an HTTP response. By default the controller action renders a layout with the same name as the action.
+The last thing our controller action does is send an HTTP response. _By default the controller action renders a layout with the same name as the action._
 
     class UsersController < ApplicationController
       def index
@@ -45,7 +45,9 @@ The `index` action will render the `app/views/users/index.html.erb`, in this pat
       end
     end
 
-Would render `app/views/users/home.html.erb`. In many cases we wouldn't want to render a view from an action, such as an action that is meant to create, update, or delete a record in the database. In this case we could redirect to a different controller action.
+The snippet above would render `app/views/users/home.html.erb`.  
+
+In many cases we wouldn't want to render a view from an action, such as an action that is meant to create, update, or delete a record in the database. In this case we could redirect to a different controller action.
 
     class UsersController < ApplicationController
       def create
@@ -60,9 +62,9 @@ The `redirect_to` creates a new HTTP request to the path you pass in as an argum
 - A named route `user_path(@user)`
 - An ActiveRecord object `@user`
 
-All of these three methods will redirect to the same place `/users/1` (given that is the `id` of the created user object)
+All of these three methods will redirect to the same place `/users/1` (given that `1` is the `id` of the created user object)
 
-[render guide](http://guides.rubyonrails.org/layouts_and_rendering.html#using-render)
+[render guide](http://guides.rubyonrails.org/layouts_and_rendering.html#using-render)  
 [redirect_to guide](http://guides.rubyonrails.org/layouts_and_rendering.html#using-redirect-to)
 
 #### ApplicationController
@@ -82,7 +84,7 @@ Controllers inherit from `ApplicationController`, this file can be found in the 
 
     end
 
-The `signed_in?` method would now be available to all of our controllers, in our `OrdersController` we could do something like:
+The `require_login` method would now be available to all of our controllers, in our `OrdersController` we could do something like:
 
     class OrdersController < ApplicationController
 
@@ -92,6 +94,8 @@ The `signed_in?` method would now be available to all of our controllers, in our
         end
       end
     end
+
+[ApplicationController::Base docs](http://api.rubyonrails.org/classes/ActionController/Base.html)
 
 #### Controller Filters
 
@@ -110,4 +114,4 @@ Now the `require_login` method defined in the `ApplicationController` will run b
 [Filters guide](http://guides.rubyonrails.org/action_controller_overview.html#filters)
 
 
-![Rails Request Cycle](../resources/rails-request-cycle.pdf)
+![Rails Request Cycle](../rails/rails-request-cycle.jpg)
