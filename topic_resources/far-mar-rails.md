@@ -5,14 +5,14 @@ In this implementation we won't be using static data, but rather building a tool
 
 As you are using ActiveRecord to access the database compare the methods that are given to those you had to create in the CSV implementation of FarMar
 
-This project is mean to be exploratory. Take time to try to dive into each piece of Rails (routes, controllers, models, views)
+This project is meant to be exploratory. Take time to try to dive into each piece of Rails (routes, controllers, models, views)
 
 ## Requirements
 However far you and your partner get, the application should have, at a minimum, the following features:
 
 - Multiple Active Record models.
 - Push the application to Heroku
-- A "look and feel" that will make happy!
+- A "look and feel" that will make you and your partner happy!
 
 
 ## Best Practices
