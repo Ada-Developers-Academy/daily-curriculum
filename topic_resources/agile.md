@@ -18,6 +18,8 @@ Two ideas in creating software.
 - Project time several days to weeks.
 - Testing integrated with development
 
+![Waterfall vs. Agile](http://www.business-software.com/wp-content/uploads/2013/11/dev-methods.gif)
+
 Stand Up
 --------
 
