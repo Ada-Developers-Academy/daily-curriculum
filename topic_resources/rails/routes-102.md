@@ -88,4 +88,4 @@ end
 ```
 --------------
 
-![Rails Request Cycle](../../week06/resources/rails-request-cycle.jpg)
+![Rails Request Cycle](../rails/rails-request-cycle.jpg)
