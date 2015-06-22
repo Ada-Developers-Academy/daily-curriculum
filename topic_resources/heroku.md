@@ -32,7 +32,7 @@ Note: The git remote link is automatically called `heroku`, where in the past we
 
 Now push your app to Heroku:
 ```bash
-git push heroku master
+git push heroku master:your-branch-name
 ```
 
 You should see a bunch of output for about a minute. Heroku is receiving your application and deploying it. Now your app is available on the internet. Navigate to "http://YOURAPPNAME.herokuapp.com" where YOURAPPNAME is the name you gave to heroku, `kari-sinatra` in my case, so the full url is `http://kari-sinatra.herokuapp.com`. TADA!
