@@ -45,7 +45,11 @@ __Note:__ ActiveRecord does _not_ require a formal `foreign_key` relationship de
 A whole slew of nice lookup methods that help us build queries for the associated model. Instead of my talking about them all day, let's head over to our sandbox and make a new app to play with...
 
 ```bash
-git clone git@github.com:jnf/records-example.git
+$ git clone git@github.com:jnf/records-example.git
+$ cd records-example
+$ gem install bundler
+$ bundle
+$ rake db:setup
 ```
 
 ### belongs_to :market
