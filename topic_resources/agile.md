@@ -2,9 +2,8 @@
 Agile developement is a set of methodologies that promotes adaptive, flexible,
 and rapid development.
 
-Iterative vs Waterfall
--------------
-Two ideas in creating software.
+## Iterative vs Waterfall
+Two (competing) ideas in creating software.
 
 **Waterfall** (old school)
 
@@ -18,9 +17,7 @@ Two ideas in creating software.
 - Project time several days to weeks.
 - Testing integrated with development
 
-Stand Up
---------
-
+## Stand Up
 > Daily stand-up meetings have become a common ritual of many teams, especially in Agile software development. However, there are many subtle details that distinguish effective stand-ups and a waste of time.
 
 Stand up is a daily meeting for a small team, typically at the same place and time each day.
@@ -34,11 +31,9 @@ The point is to keep is short and sweet. Do not:
 
 1. Ask in-depth questions of others, instead quickly communicate a time to meet individually to talk.
 1. Ramble.
-1. Not be prepared.
+1. Show up unprepared.
 
-User Stories
-----------
-
+## User Stories
 User stories are a way to define application requirements. Typically they are
 written by a project manager or customer. The format of a user story varies
 but is typically something like
@@ -53,15 +48,11 @@ As a <role>, I want <goal/desire>
 For this project we'll be using a [Kanban Board](http://en.wikipedia.org/wiki/Kanban_board)
 system called [Trello](trello.com) to document and manage user stories.
 
-[Example Trello](https://trello.com/b/FhN9zxnm/far-mar-rails)
+[Example Trello](https://trello.com/b/jNhwTrKB/example-project-kanban)
 
-Agile Methodologies
-------------------
-- [TDD](http://en.wikipedia.org/wiki/Test-driven_development)
+## Further Reading
 - [User Stories](http://en.wikipedia.org/wiki/User_story)
-- [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development)
-- [CI](http://en.wikipedia.org/wiki/Continuous_integration)
+- [TDD](http://en.wikipedia.org/wiki/Test-driven_development) & [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development)
+- [Continuous Integration (CI)](http://en.wikipedia.org/wiki/Continuous_integration)
 - [Pair Programming](http://en.wikipedia.org/wiki/Pair_programming)
-- [Velocity](http://en.wikipedia.org/wiki/Velocity_(software_development)
-
-[Agile Manifesto](http://agilemanifesto.org/)
+- [Agile "Manifesto"](http://agilemanifesto.org/)
