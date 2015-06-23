@@ -1,7 +1,6 @@
 # Routing 102
 
-Order
------
+## Order
 
 Rails routes are matched in the order they are specified. This can present a problem when a wildcard is used.
 
@@ -22,8 +21,7 @@ get "/products/:id", to: "products#show"
 ```
 
 
-REST
------
+## REST
 
 Representational state transfer (REST) is an architectual style. This is a recommendation for the structure and style in which
 a resource (ruby object) can be represetned and managed through a web server.
@@ -42,30 +40,25 @@ The core of this idea can be described through routing. We'll look at an example
 You can see that many actions can be performed on a market object using only two paths.
 The paths represent the scope of the objects to operate on and the HTTP method indicates what type of action should be performed.
 
-**Common non RESTful routes**
-
-|PATH        | METHOD| DESCRIPTION|
-|:----------|:-----:|:-----------|
-| /markets/new | GET    | Shows the form to create a resource |
-| /markets/:id/edit | GET    | Shows the form to edit a resource|
-
-Named Routes for REST
-------------
-
+## Named Routes for REST
 Since the standard RESTful resource only requires to paths, all five actions can be represented by just the two named routes.
-The conventional route names for a RESTful resource would be `markets_path` and `market_path`
 
-The `new` (and `edit`) pages of a resource are not considered part of REST, because those pages are not
-actually performing an action on the object, they are only setting up the client to be able to send a RESTful request (like POST or PUT)
+The conventional route names for this RESTful resource would be `markets_path` and `market_path`. We use the plural version when referring to a _collection_ of Market objects (`index` action), and the singular version when refrring to an _instance_ or _specific_ Market (`show`, `edit`, etc).
 
-Resources
----------
+Here's an example:
+
+```erb
+<% @markets.each do |market| %>
+  <%= link_to "Market Details", market_path(market) %>
+<% end %>
+```
+
+## Resources
 Rails routes has a magic method
 
 ```ruby
-MediaRanker::Application.routes.draw do
+Rails.application.routes.draw do
   resources :albums
-  root to: "home#index"
 end
 ```
 
@@ -73,7 +66,7 @@ This `resources :albums` line is adding all of the RESTful routes, it is equivel
 
 
 ```ruby
-MediaRanker::Application.routes.draw do
+Rails.application.routes.draw do
   get    "/albums"          , to: "albums#index",   as: :albums
   post   "/albums"          , to: "albums#create"
   get    "/albums/:id"      , to: "albums#show",    as: :album
@@ -82,10 +75,5 @@ MediaRanker::Application.routes.draw do
   delete "/albums/:id"      , to: "albums#destroy"
   get    "/albums/new"      , to: "albums#new",     as: :new_album
   get    "/albums/:id/edit" , to: "albums#edit",    as: :edit_album
-
-  root to: "home#index"
 end
 ```
---------------
-
-![Rails Request Cycle](../../week06/resources/rails-request-cycle.jpg)
