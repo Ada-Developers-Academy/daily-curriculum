@@ -253,15 +253,15 @@ Our learning will cover an introduction to relational database concepts as well 
 - Practice pair programming
 
 ## Resources
-[HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)  
-[Creating & Submitting Forms](../topic_resources/submitting-forms.md)  
-[More Forms](../topic_resources/checkboxes-and-radio-buttons.md)  
-[Intro to Databases](../topic_resources/database/intro_to_db.md)
-[Using SQL](../topic_resources/database/using_sqlite.md)
+- [HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)  
+- [Creating & Submitting Forms](../topic_resources/submitting-forms.md)  
+- [More Forms](../topic_resources/checkboxes-and-radio-buttons.md)  
+- [Intro to Databases](../topic_resources/database/intro_to_db.md)
+- [Using SQL](../topic_resources/database/using_sqlite.md)
 
 ## Projects
-[Scrabble Sinatra](https://github.com/Ada-Developers-Academy/C3Projects--ScrabbleSinatra)  
-[Tasks List](https://github.com/Ada-Developers-Academy/C3Projects--TaskList)  
+- [Scrabble Sinatra](https://github.com/Ada-Developers-Academy/C3Projects--ScrabbleSinatra)  
+- [Tasks List](https://github.com/Ada-Developers-Academy/C3Projects--TaskList)  
 
 ## Week 7
 In week 7 we introduce students to the Ruby on Rails framework, which will be the focus of much of the work for the remainder of the course. Working individually, students build a basic Rails application. The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models, and begin to develop basic proficiency with Rails.
@@ -276,12 +276,13 @@ In week 7 we introduce students to the Ruby on Rails framework, which will be th
 - Improve workflow
 
 ## Resources
-[MVC & Rest]()
-[ActiveRecord](../topic_resources/rails/active_record.md)
-[ActiveRecord Practice](../topic_resources/rails/active_record_practice.md)
+- [RESTful Routing](../topic_resources/resources/restful-routes.md)
+- [Intro to MVC](../topic_resources/resources/intro-to-mvc.md)
+- [ActiveRecord](../topic_resources/rails/active_record.md)
+- [ActiveRecord Practice](../topic_resources/rails/active_record_practice.md)
 
 ## Projects
-[Tasks in Rails]()
+- [Tasks in Rails](https://github.com/Ada-Developers-Academy/C3Projects--TaskListRails)
 
 ## Week 8
 In week 8 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](../topic_resources/rails/rails-request-cycle.pdf). Working in pairs, we will revisit a previous project using Rails. We will examine how to work with ActiveRecord relationships. We will introduce Agile methodologies and how we will use them on our projects. At the end of the week students will have learned and practiced the rails stack.
@@ -293,10 +294,12 @@ In week 8 we will focus on reinforcing the major components of Rails, seen in th
 - Practice pair programming skills
 
 ## Resources
-[ActiveRecord relationships](..topic_resources/rails/active-record-relationships.md)
+- [ActiveRecord relationships](..topic_resources/rails/active-record-relationships.md)
+- [Intro to Agile](../topic_resources/agile.md)
+- [Routing 102](../topic_resources/rails/routes-102.md)
 
 ## Projects
-[FarMar Rails]()
+- [FarMar Rails](https://github.com/Ada-Developers-Academy/C3Projects--FarMarRails)
 
 <!-- KAB ADDED
 ## Week 9
