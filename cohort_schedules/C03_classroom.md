@@ -300,13 +300,19 @@ In week 8 we will focus on reinforcing the major components of Rails, seen in th
 
 <!-- KAB ADDED
 ## Week 9
-In Week 9 we will be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods.
+In Week 9 we will be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced more with the rails stack.
 
 ### Learning Goals
 - Continued exposure to Rails
+  - User Authentication
+  - Validations
 - Increasing skills in group work habits
 - Improving technical workflow
 - Increasing git/github competency
+- Use agile development practices in a group of four
+
+## Resources
+[User Authentication](../topic_resources/user-authentication.md)
 
 ## Projects
 [Betsy]()
