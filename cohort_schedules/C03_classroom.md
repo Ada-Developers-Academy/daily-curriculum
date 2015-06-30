@@ -13,7 +13,7 @@
 | Jun 15  | [Week 07](#week-7)  | Intro to Rails
 | Jun 22  | [Week 08](#week-8)  | Rails II, Intro to Agile
 | Jun 29  |                     | __4th of July Break__
-| Jul 6   | [Week 09](#week-9)  | Rails III, Group Rails Project
+| Jul 6   | [Week 09](#week-9)  | Rails III, Team Rails Project
 | Jul 13  | [Week 10](#week-10) | Testing in Rails, Group Rails Project
 | Jul 20  | [Week 11](#week-11) | Group Rails Project
 | Jul 27  | [Week 12](#week-12) | Special Topics & Group Rails Project
@@ -303,12 +303,37 @@ In week 8 we will focus on reinforcing the major components of Rails, seen in th
 
 <!-- KAB ADDED
 ## Week 9
-In Week 9 we will be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced more with the rails stack.
+In Week 9 students will be creating a rails app to store and rank media by type. By the end of the week students will be able to identify each piece of the rails request cycle and the methods and variable scopes available within each of them. Students will also begin testing some of the functionality within their web applictions.
+
+### Learning Goals
+
+- __Learn to identify and describe the current state and availability of different methods and variables at any given point in the request cycle.__
+- Identify the role of HTTP request
+- Advanced understanding of the role, scope, and syntax or routes.rb
+- Understanding of rails controller
+    - Native controller method (params, session, render, redirect_to, etc...)
+    - Scope with inter-controller methods and instance variables
+- Understanding of rails views
+    - Availability of controller methods and instance variables
+    - View Helpers
+- Usage of the rails models
+    - Validations
+
+## Resources
+[TDD]()
+[Bootstrap]()
+[Validations](../topic_resources/validations.md)
+[Routes 102](../topic_resources/routes-102.md)??
+
+## Projects
+[Media Ranker]()
+
+## Week 10
+In Week 10 we will be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced more with the rails stack.
 
 ### Learning Goals
 - Continued exposure to Rails
   - User Authentication
-  - Validations
 - Increasing skills in group work habits
 - Improving technical workflow
 - Increasing git/github competency
@@ -316,229 +341,39 @@ In Week 9 we will be working on [Betsy](../topic_resources/betsy.md), an online 
 
 ## Resources
 [User Authentication](../topic_resources/user-authentication.md)
+[View methods](../topic_resources/view-methods.md)
+
+## Projects
+[Betsy]()
+[Small Ruby Project]()
+
+## Week 11
+In Week 11 we will continue working in groups of 4 on the Betsy project introduced in Week 9. The majority of the week will be devoted to project time, with short lectures and assignments relating to TDD in Rails.
+
+### Learning Goals
+- Continued exposure to Rails
+  - User Authentication
+- Increasing skills in group work habits
+- Improving technical workflow
+- Increasing git/github competency
+- Use agile development practices in a group of four
+- Increased exposure to best practices in OO design
+
+## Resources
+[Refactoring](../topic_resources/refactoring.md)
+[OO Design](../topic_resources/object-rules-of-thumb.md)
 
 ## Projects
 [Betsy]()
 
-## Week 10
-In Week 10 we will continue working in groups of 4 on the Betsy project introduced in Week 9. The majority of the week will be devoted to project time, with short lectures and assignments relating to TDD in Rails.
-
-
-
-
-## Week 7
-
-In week 7 we will focus on reinforcing the major components of Rails, seen in this [rails stack diagram](../topic_resources/rails-request-cycle.pdf). Each day we will have a lecture on a piece in order of the request cycle. We will also be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced the rails stack.
+## Week 12
 
 ### Learning Goals
-
-- Learn about the major components of a rails app
-    - User Authentication
-    - Controllers
-    - Views
-    - ActiveRecord
-    - Validations
-- Practice implementing features within a rails app
-- Use project management software
-- Use agile development practices in a group of four
-
-
-
-### Schedule
-
-#### Monday
-
-| Time                  | Topic
-|-----------------------|---------------------------------------------------------------------
-| 9:00 - 9:30 | Koans
-| 9:30 - 10:30 | [Controllers](../topic_resources/controllers.md)
-| 10:30 | [User Authentication](../topic_resources/user-authentication.md)
-| 11:30 | [Beginning bEtsy](../topic_resources/betsy.md)
-| 2:00 - 4:00 | [James Spence on Designing a Project](../topic_resources/design.md)
-| 4:00 | [bEtsy](../topic_resources/betsy.md)
-
-__Homework__
-[Git Branching & Merging](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging)
-
-#### Tuesday
-
-| Time          | Topic
-|---------------|-------------------------------------------------------------
-| 9:00 - 9:20 | Warm Up
-| 9:20 - 9:45 | Branches & Merging
-| 9:45 - 10:45 | [Validations](../topic_resources/validations.md)
-| 11:30 - 5:00 | [Betsy Project Time](../topic_resources/betsy.md)
-
-#### Wednesday
-
-| Time                | Topic
-|---------------------|-------------------------------------------------------------
-| 9:00 - 9:15 | Stand up
-| 9:20 | [Betsy Project Time](../topic_resources/betsy.md)
-
-__Homework__
-- Remember JavaScript? Good! Please read [Chapter 2: Program Structure](http://eloquentjavascript.net/02_program_structure.html) from *Eloquent JavaScript*.
-
-#### Thursday
-
-| Time                 | Topic
-|----------------------|-------------------------------------------------------------
-| 9:30 | [Views](../topic_resources/views-101.md)
-| 10:30 - 5:00 | [Betsy Project Time](../topic_resources/betsy.md)
-
-__Homework__
-
-Make sure you've at least tried the following koans (by running the
-following from your main koans directory):
-
-  $ ruby koans/about_array_backed_dictionary.rb
-
-You don't need to finish the entire koan, but at least try to solve
-the problem for the small word set.
-
-#### Friday
-
-| Time          | Topic
-| 9:00 - 9:20 | Warm Up
-|----------------------|---------------------------------------------------------------------------------------------------------------------------
-| 9:30 - 10:30 | Ordered Insertion and the Array Dictionary
-| 10:30 - 12:00 | Linked Lists and Recursion
-| 12:00 - 12:15 | Stand up
-| 12:00 | [Betsy Project Time](../topic_resources/betsy.md)
-| 4:00 | [Weekly Retro](http://juliepagano.com/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/)
-
+- Responsive Design
+- Continue using RSpec with rails
 ## Resources
-- For additional resources on the topics covered this week see [weekly resources](../topic_resources/resources.md).
 
-## Week 8
-
-In Week 8 we will continue working in groups of 4 on the Betsy project introduced in Week 7. The majority of the week will be devoted to project time, with short lectures and assignments to introduce students to basic computer science concepts.
-
-### Learning Goals
-
-+ continued exposure to Rails
-+ increasing skills in group work habits
-+ improving technical workflow
-+ increasing git/github competency
-+ extended introduction of computer science material
-
-### Schedule
-
-#### Monday
-
-| Time            | Topic
-|-----------------|-------------------------------------------------------------
-| 9:00 - 1:30 | [Betsy Project Time](../topic_resources/betsy.md)
-| 1:30 - 2:15 | Guest Speaker: Rohit from ApexLearning
-| 2:15 - 5:00 | [Betsy Project Time](../topic_resources/betsy.md)
-
-
-#### Tuesday
-
-| Time          | Topic
-|---------------|-------------------------------------------------------------
-| 9:00 - 9:30 | Warmup
-| 9:30 - 10:30 | [Rails Forms](../topic_resources/rails-forms.md)
-| 9:00 - 5:00 | [Betsy Project Time](../topic_resources/betsy.md)
-
-\* Take an hour lunch at any time
-
-
-#### Wednesday
-
-| Time             | Topic
-|------------------|-------------------------------------------------------------
-| 9:00 - 5:00 | [Betsy Project Time](../topic_resources/betsy.md)
-
-
-\* Take an hour lunch at any time
-
-#### Thursday
-
-| Time             | Topic
-|------------------|-------------------------------------------------------------
-| 9:00 - 5:00 | [Betsy Project Time](../topic_resources/betsy.md)
-
-
-\* Take an hour lunch at any time
-
-#### Friday
-
-| Time               | Topic
-|--------------------|--------------------------------------------------------------
-| 9:00 - 9:30 | Betsy Trial Quiz
-| 9:30 - 11:30 | Project Time
-| 11:30 - 12:30 | [OO Design](../topic_resources/object-rules-of-thumb.md)
-| 1:30 - 4:00 | [Recursion and Merge Sort](../topic_resources/merge-sort.md)
-| 4:00 - 5:00 | Weekly Retro
-
-## Week 9
-
-In week 9 we will be focusing on comprehension of the rails request cycle. Students will be creating a simple rails app to store and rank media by type. By the end of the week students will be able to identify each piece of the rails request cycle and the methods and variable scopes available within each of them.
-
-### Learning Goals
-
-- Identify the role of HTTP request
-- Advanced understanding of the role, scope, and syntax or routes.rb
-- Understanding of rails controller
-    - Native controller method (params, session, render, redirect_to, etc...)
-    - Scope with inter-controller methods and instance variables
-- Understanding of rails views,
-    - Availability of controller methods and instance variables
-    - View Helpers
-- __Learn to identify and describe the current state and availabilty of different methods and variables at any given point in the request cycle.__
-
-### Schedule
-#### Monday
-
-| Time          | Topic
-|---------------|-----------------------------------------------------------------------
-| 9:15 - 10:00 | [Project Presentations](../topic_resources/project-outline.md)
-| 10:00 - 11:00 | Betsy Quiz
-| 11:00 - 11:30 | [Media Ranker Overview](../topic_resources/media_ranker.md)
-| 11:30 - 12:30 | [Rails request state](../topic_resources/rails-request-state.md)
-| 12:30 - 5:00 | [Media Ranker](../topic_resources/media_ranker.md)
-
-#### Tuesday
-
-| Time          | Topic
-|---------------|----------------------------------------------------------------------
-| 9:00 - 9:30 | Warm Up
-| 9:30 - 9:45 | Quiz
-| 9:45 - 10:15 | Betsy Quiz Recap
-| 10:15 - 11:15 | Lecture
-| 11:15 - 1:30 | [Media Ranker](../topic_resources/media_ranker.md)
-| 1:30 - 2:15 | Aki & Erica from Marchex
-| 2:15 - 5:00 | [Media Ranker](../topic_resources/media_ranker.md)
-
-
-#### Wednesday
-
-| Time          | Topic
-|---------------|--------------------------------------------------------------
-| 9:30 - 10:15 | [View methods](../topic_resources/view-methods.md)
-| 10:15 - 11:15 | [Routes 102](../topic_resources/routes-102.md)
-| 11:15 - 4:30 | [Media Ranker](../topic_resources/media_ranker.md)
-| 4:30 - 5:00 | Carol Lin from Zillow
-
-#### Thursday
-
-| Time             | Topic
-|------------------|----------------------------------------------------------------------
-| 9:00 - 9:30 | [Quiz](https://canvas.instructure.com/courses/881804/quizzes/1073955)
-| 9:30 - 11:15 | [Refactoring](../topic_resources/refactoring.md)
-| 11:15 - 5:00 | [Media Ranker](../topic_resources/media_ranker.md)
-
-#### Friday
-
-No Class.
-
-### Extra Lectures
-| Time | Topic
-|------|------------------------------------------------------------------------
-|      | [Rails RESTful Routes](../topic_resources/resources/restful-routes.md)
-|      | [Controller methods](../topic_resources/controller-methods.md)
-
+## Projects
 
 __Weekend Homework__
 
