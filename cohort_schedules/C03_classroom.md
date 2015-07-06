@@ -301,33 +301,26 @@ In week 8 we will focus on reinforcing the major components of Rails, seen in th
 ## Projects
 - [FarMar Rails](https://github.com/Ada-Developers-Academy/C3Projects--FarMarRails)
 
-<!-- KAB ADDED
 ## Week 9
-In Week 9 students will be creating a rails app to store and rank media by type. By the end of the week students will be able to identify each piece of the rails request cycle and the methods and variable scopes available within each of them. Students will also begin testing some of the functionality within their web applictions.
+In Week 9 students will be creating a rails app to store and rank media by type. By the end of the week students will be able to identify each piece of the rails request cycle and the methods and variable scopes available within each of them. Students will begin testing some of the functionality within their web applications using RSpec as well as start to use Bootstap for styling.
 
 ### Learning Goals
-
-- __Learn to identify and describe the current state and availability of different methods and variables at any given point in the request cycle.__
-- Identify the role of HTTP request
-- Advanced understanding of the role, scope, and syntax or routes.rb
-- Understanding of rails controller
-    - Native controller method (params, session, render, redirect_to, etc...)
-    - Scope with inter-controller methods and instance variables
-- Understanding of rails views
-    - Availability of controller methods and instance variables
-    - View Helpers
+- Begin using RSpec to test functionality in Rails applications
+- Introduce the use of Bootstrap
 - Usage of the rails models
-    - Validations
+    - Basic and Advanced Validations
+- Learn to identify and describe the current state and availability of different methods and variables at any given point in the request cycle.
 
 ## Resources
-[TDD]()
-[Bootstrap]()
 [Validations](../topic_resources/validations.md)
-[Routes 102](../topic_resources/routes-102.md)??
+[Testing in Rails]()
+[Bootstrap](../topic_resources/bootstrap.md)
+[Advanced Validations]()
 
 ## Projects
-[Media Ranker]()
+[Media Ranker](https://github.com/Ada-Developers-Academy/C3Projects--MediaRanker)
 
+<!--
 ## Week 10
 In Week 10 we will be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced more with the rails stack.
 
