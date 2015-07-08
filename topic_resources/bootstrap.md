@@ -13,3 +13,8 @@ the CSS on the fly, this allows you to change the defaults within bootstrap by s
 changing variables. There is a ruby gem which enables this but we're going to take the
 easy way out and just download the raw CSS. Go to [Bootstrap](http://getbootstrap.com/getting-started/#download)
 and click on the "Download Bootstrap" button. This will download all of the CSS, JS, and fonts.
+
+### References
+[Bootstrap Docs](http://getbootstrap.com/getting-started/)  
+[W3Schools Tutorial](http://www.w3schools.com/bootstrap/default.asp)  
+[Bootstrap-Sass Gem](https://github.com/twbs/bootstrap-sass)  
