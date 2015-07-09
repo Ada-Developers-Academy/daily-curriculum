@@ -65,14 +65,14 @@ user.password = "mypassword"
 user.password_confirmation = "mypassword"
 ```
 
-We are given these two methods `password=` and `password_confirmation=`, these two field
+We are given these two methods `password=` and `password_confirmation=`, these two fields
 are **not** stored in the database, they are only "virtual" attributes (just like regular ruby object, before we saved stuff to the database)
 
 `has_secure_password` adds validations to the user, so if the password and password_confirmation do not match
 the user will be invalid, so it will not save, nor will it create the `password_digest`.
 
 ```ruby
-user = User.new(username: "Bookis")
+user = User.new(username: "Ada")
 user.password = "password"
 user.password_confirmation = "wrong_password"
 user.save # => false
@@ -88,7 +88,7 @@ Now that the user object has a saved `password_digest`, we can check if a new in
 given matches the hash, Rails gives a method to do this in an easy way.
 
 ```ruby
-user = User.find_by(username: "Bookis")
+user = User.find_by(username: "Ada")
 user.authenticate("wrong_password") # => false
 user.authenticate("password")
 # => returns user object itself if true

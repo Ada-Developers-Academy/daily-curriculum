@@ -13,8 +13,8 @@
 | Jun 15  | [Week 07](#week-7)  | Intro to Rails
 | Jun 22  | [Week 08](#week-8)  | Rails II, Intro to Agile
 | Jun 29  |                     | __4th of July Break__
-| Jul 6   | [Week 09](#week-9)  | Rails III, Team Rails Project
-| Jul 13  | [Week 10](#week-10) | Testing in Rails, Group Rails Project
+| Jul 6   | [Week 09](#week-9)  | Testing in Rails, Individual Project
+| Jul 13  | [Week 10](#week-10) | Group Rails Project
 | Jul 20  | [Week 11](#week-11) | Group Rails Project
 | Jul 27  | [Week 12](#week-12) | Special Topics & Group Rails Project
 | Aug 3   | [Week 13](#week-13) | Rails Project - Using APIs
@@ -294,15 +294,15 @@ In week 8 we will focus on reinforcing the major components of Rails, seen in th
 - Practice pair programming skills
 
 ## Resources
-- [ActiveRecord relationships](..topic_resources/rails/active-record-relationships.md)
-- [Intro to Agile](../topic_resources/agile.md)
-- [Routing 102](../topic_resources/rails/routes-102.md)
+- [ActiveRecord relationships](..topic_resources/rails/active-record-relationships.md)  
+- [Intro to Agile](../topic_resources/agile.md)  
+- [Routing 102](../topic_resources/rails/routes-102.md)  
 
 ## Projects
 - [FarMar Rails](https://github.com/Ada-Developers-Academy/C3Projects--FarMarRails)
 
 ## Week 9
-In Week 9 students will be creating a rails app to store and rank media by type. By the end of the week students will be able to identify each piece of the rails request cycle and the methods and variable scopes available within each of them. Students will begin testing some of the functionality within their web applications using RSpec as well as start to use Bootstap for styling.
+In Week 9 students will be creating a rails app to store and rank media by type. By the end of the week students will be able to identify each piece of the rails request cycle and the methods and variable scopes available within each of them. Students will begin testing some of the functionality within their web applications using RSpec as well as start to use Bootstrap for styling.
 
 ### Learning Goals
 - Begin using RSpec to test functionality in Rails applications
@@ -312,17 +312,22 @@ In Week 9 students will be creating a rails app to store and rank media by type.
 - Learn to identify and describe the current state and availability of different methods and variables at any given point in the request cycle.
 
 ## Resources
-[Validations](../topic_resources/validations.md)
-[Testing in Rails]()
-[Bootstrap](../topic_resources/bootstrap.md)
-[Advanced Validations]()
+[Validations](../topic_resources/validations.md)  
+[Bootstrap](../topic_resources/bootstrap.md)  
+[Advanced Validations](http://guides.rubyonrails.org/active_record_validations.html#performing-custom-validations)  
+
+## Testing
+[RSpec Rails](https://github.com/rspec/rspec-rails)  
+[Controler Specs](https://www.relishapp.com/rspec/rspec-rails/docs/controller-specs)  
+[RSPec Practices](http://tutorials.jumpstartlab.com/topics/internal_testing/rspec_practices.html)  
+[Shared Example Specs](https://www.relishapp.com/rspec/rspec-core/docs/example-groups/shared-examples)  
 
 ## Projects
-[Media Ranker](https://github.com/Ada-Developers-Academy/C3Projects--MediaRanker)
+[Media Ranker](https://github.com/Ada-Developers-Academy/C3Projects--MediaRanker)  
 
-<!--
+
 ## Week 10
-In Week 10 we will be working on [Betsy](../topic_resources/betsy.md), an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced more with the rails stack.
+In Week 10 we will be working on Betsy, an online webstore for independent merchants to sell their goods. At the end of the week students will have learned and practiced more with the rails stack and working in larger teams to complete a project.
 
 ### Learning Goals
 - Continued exposure to Rails
@@ -331,21 +336,22 @@ In Week 10 we will be working on [Betsy](../topic_resources/betsy.md), an online
 - Improving technical workflow
 - Increasing git/github competency
 - Use agile development practices in a group of four
+- Revisiting smaller Ruby exercises
 
 ## Resources
-[User Authentication](../topic_resources/user-authentication.md)
-[View methods](../topic_resources/view-methods.md)
+[User Authentication](../topic_resources/user-authentication.md)  
+[Session](../topic_resources/params-and-session..md)  
+[View methods](../topic_resources/view-methods.md)  
 
 ## Projects
-[Betsy]()
+[Betsy]()  
 [Small Ruby Project]()
 
 ## Week 11
-In Week 11 we will continue working in groups of 4 on the Betsy project introduced in Week 9. The majority of the week will be devoted to project time, with short lectures and assignments relating to TDD in Rails.
+In Week 11 we will continue working in groups of 4 on the Betsy project introduced in Week 10. The majority of the week will be devoted to project time, with short lectures and assignments. We will revisit some of the tools and practices that we learned from Metz to work through some refactoring and DRYing up our code.
 
 ### Learning Goals
 - Continued exposure to Rails
-  - User Authentication
 - Increasing skills in group work habits
 - Improving technical workflow
 - Increasing git/github competency
@@ -357,8 +363,10 @@ In Week 11 we will continue working in groups of 4 on the Betsy project introduc
 [OO Design](../topic_resources/object-rules-of-thumb.md)
 
 ## Projects
-[Betsy]()
+[Betsy]()  
+[Small Ruby Project]()
 
+<!--
 ## Week 12
 
 ### Learning Goals
