@@ -2,7 +2,7 @@
 
 [b]Etsy will be an online store where a wide variety of products can be listed and sold by any user. In this project we will focus on reinforcing the major components of Rails, Model Validation, as well as introducing some more complex logic such as user authentication.
 
-#### In this project you will learn
+#### In this project you will cover
 
 - Core comprehension of:
     - Routes
@@ -28,13 +28,12 @@
 
 ### Getting Started
 
-1. Sign up for [Trello.com](http://trello.com)
-2. As a group decide on an app name (this may help lead the aesthetic)
-3. One team member:
+1. As a group decide on an app name (this may help lead the aesthetic)
+1. One team member:
     1. Create a repo with the same name as the app
     2. Push to Github
     3. Add the other team members as collaborators on Github
-4. A different team member:
+1. A different team member:
     1. Create a "Board" on Trello for your project
     2. Add your team members to the Trello "Board"
 
@@ -173,22 +172,21 @@ Many of our models will have attributes that are required for our application to
 ## Submission Guidelines
 
 Your project must be "live" on the web for evaluation. We recommend you deploy it on [Heroku](http://Heroku.com).
-Your `README` file on Github should contain a link to your live site.
-Your code will be code reviewed.
+Your `README` file on your Github repo should contain a link to your live site.
 
 ## Group Leaders
 
 Each group will have group leaders who are responsible for keeping track of each
-group members involvment.
+group members involvement.
 
 - Pick a "driver" for white boarding.
 - Lead stand up meetings
 - Keep quick notes of each individuals daily stand-up responses.
 - Manage Trello: Ensure that each member of the team is assigned appropriate tasks, based on:
-    - Background (lack of experience & variety takes priority)
+    - Background (less experience & variety takes priority)
     - Desire
-    - Ability (use pairs if an individual doesn't feel confident leading, less experienced individual always drives)
-- At the end of the leader cycle, send bookis an email report including each members:
+    - Ability (use pairs if an individual doesn't feel confident leading, less comfortable individual always drives)
+- At the end of the leader cycle, send instructor(s) an email report including each members:
     - Stand up notes
     - A list of Trello stories completed
 
