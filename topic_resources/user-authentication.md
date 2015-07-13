@@ -25,8 +25,8 @@ This process is called hashing, similar to encoding or encryption, except hashin
 
 This is the key to the solution of not storing the users data. If we use hashing
 to create gibberish out of a users password and store that gibberish, then not only are we
-not storing their password, but since hashing is not reversable, even we as website owners
-have no way of determining what their password origianally was.
+not storing their password, but since hashing is not reversible, even we as website owners
+have no way of determining what their password originally was.
 
 If the data we are storing is not reversible, how do we use it to authenticate the user?
 When the user puts their password in again (sign in) we can recreate the same gibberish and compare the two.
@@ -41,7 +41,7 @@ hashed_password == "some user input"
 has_secure_password
 -------------------
 
-`has_secure_password` is built into Rails to utelize bcrypt in the exact way described above.
+`has_secure_password` is built into Rails to utilize bcrypt in the exact way described above.
 simply adding the line `has_secure_password` to any active record model (typically a `User`).
 The `has_secure_password` functionality depends on the model having a column in the DB called `password_digest`
 
