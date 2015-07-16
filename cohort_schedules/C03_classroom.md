@@ -340,12 +340,15 @@ In Week 10 we will be working on Betsy, an online webstore for independent merch
 
 ## Resources
 [User Authentication](../topic_resources/user-authentication.md)  
-[Session](../topic_resources/params-and-session..md)  
-[View methods](../topic_resources/view-methods.md)  
+[Session](../topic_resources/rails/session..md)  
+[Conditional Validation](http://guides.rubyonrails.org/active_record_validations.html#conditional-validation)  
+[ActiveRecord Callbacks](http://guides.rubyonrails.org/active_record_callbacks.html)  
+[Controller Filters](http://guides.rubyonrails.org/action_controller_overview.html#filters)  
+[Custom View methods](../topic_resources/view-methods.md)  
 
 ## Projects
-[Betsy]()  
-[Small Ruby Project]()
+[Betsy](https://github.com/Ada-Developers-Academy/C3Projects--bEtsy)  
+[Small Ruby Project - ProPass](https://github.com/Ada-Developers-Academy/C3Projects--ProPass)
 
 ## Week 11
 In Week 11 we will continue working in groups of 4 on the Betsy project introduced in Week 10. The majority of the week will be devoted to project time, with short lectures and assignments. We will revisit some of the tools and practices that we learned from Metz to work through some refactoring and DRYing up our code.
@@ -363,7 +366,7 @@ In Week 11 we will continue working in groups of 4 on the Betsy project introduc
 [OO Design](../topic_resources/object-rules-of-thumb.md)
 
 ## Projects
-[Betsy]()  
+[Betsy](https://github.com/Ada-Developers-Academy/C3Projects--bEtsy)  
 [Small Ruby Project]()
 
 <!--
