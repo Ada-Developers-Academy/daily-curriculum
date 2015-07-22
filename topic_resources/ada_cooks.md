@@ -1,5 +1,5 @@
 # Ada Cooks!
-The goal of this project is to build an online cookbook application where users can manage Recipes and Ingredients, create Cookbook collections of different Recipes, and keep track of their Ingredients and Gadgets.
+The goal of this project is to build an online cookbook application where users can manage Recipes and Ingredients, create Cookbook collections of different Recipes, and keep track of their Ingredients.
 
 ## Learning Goals
 - Explore advanced ActiveRecord relationships like `has_many through:` and `has_and_belongs_to_many`.
@@ -20,21 +20,16 @@ We're doing this to make the final project easier to code review. Because the ba
 ## User Stories
 
 ### As any User, I can...
-- search by the name of an Ingredient or Gadget and get related Recipes back.
+- search by the name of an Ingredient and get related Recipes back.
 - __Recipes__
   - view an alphabetical list of all Recipes
   - view the details of a Recipe, inluding...
     - a link to the User profile of the person who created the Recipe
-    - a link to the Gadget profile for any associated Gadgets
     - links to the Ingridient profile for all associated Ingredients
 - __Ingredients__
   - view an alphabetical list of all Ingedients
   - view the details of an individual Ingredient, including...
     - a list of links to Recipes associated with the Ingredient
-- __Gadgets__
-  - view an alphabetical list of all Gadgets
-  - view the details of one Gadget, including...
-    - a list of links to Recipes associated with the Gadget
     
 ### As an anonymous User I can...
 - register a new User account
@@ -45,7 +40,6 @@ We're doing this to make the final project easier to code review. Because the ba
 - __Cookbooks__
   - See a list of Cookbooks I've already created, including...
     - The number of Recipes associated with the Cookbook
-    - The number of unique Gadgets associated with the Cookbook
     - The number of unique Recipes associated with the Cookbook
   - See the details of a specific Cookbook, including...
     - a list of links to the Recipes associated with the Cookbook
@@ -63,13 +57,11 @@ We're doing this to make the final project easier to code review. Because the ba
     - an uploaded image of the prepared Recipe (optional)
     - a `preparation` (required)
     - one or more Ingredients (required)
-    - zero or more Gadgets (optional)
   - Edit an existing Recipe that I created by...
     - Changing the `name`, `description`, uploaded image, and/or `preparation`
     - Removing or Adding Ingredients
-    - Removing or Adding Gadgets
   - Destroy an existing Recipe that I created
-    - Destroying a Recipe __does not__ destroy the Ingrdients or Gadgets, just the associations
+    - Destroying a Recipe __does not__ destroy the Ingrdients, just the associations
   - From a Recipe's detail page, I can save the Recipe to an existing Cookbook
 - __Ingredients__
   - Create an Ingredient with...
@@ -77,12 +69,6 @@ We're doing this to make the final project easier to code review. Because the ba
     - an uploaded image of the Ingredient (optional)
   - Edit the `name` and/or the uploaded image of an existing Ingredient that I created
   - Destroy an existing Ingredient that I created
-- __Gadgets__
-  - Create a Gadget with...
-    - a unique `name` (required)
-    - an uploaded image of the Gadget (optional)
-  - Edit the `name` and/or uploaded image of an existing Gadget that I created
-  - Destroy an existing Gadget that I created
-  - From the Gadget `index`, I can add a Gadget to my "collection"
-  - From the Gadget and `show` pages, I can and or remove Gadgets from my collection
-  - View a list of Gadgets (with links to each Gadget's detail page) in my collection
+
+### Other Requirements
+- A minimum 80% test coverage for all Models and Controllers.
