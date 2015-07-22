@@ -5,6 +5,7 @@ The goal of this project is to build an online cookbook application where users 
 - Explore advanced ActiveRecord relationships like `has_many through:` and `has_and_belongs_to_many`.
 - Explore controlling access to functionality based on User state and/or role.
 - Explore working with image uploads with [CarrierWave](https://github.com/carrierwaveuploader/carrierwave).
+- Explore object factories using [factory_girl](https://github.com/thoughtbot/factory_girl_rails) as a means of simplifying object setup in tests.
 
 ## Project Baseline
 We are going to try something new with this project. When you've accomplished all of the baseline requirements, please issue a PR back to the project master. We will review and merge your baseline, but you don't need to wait for that to happen before helping your classmates and moving onto the project requirements.
