@@ -1,71 +1,88 @@
 # Ada Cooks!
+The goal of this project is to build an online cookbook application where users can manage Recipes and Ingredients, create Cookbook collections of different Recipes, and keep track of their Ingredients and Gadgets.
 
-The goal of this assignment is to build an online cookbook application where users can add Recipes and new Ingredients, create Cookbook collections of different Recipes, and keep track of their Ingredients and Gadgets.
+## Learning Goals
+- Explore advanced ActiveRecord relationships like `has_many through:` and `has_and_belongs_to_many`.
+- Explore controlling access to functionality based on User state and/or role.
+- Explore working with image uploads with [CarrierWave](https://github.com/carrierwaveuploader/carrierwave).
 
+## Project Baseline
+We are going to try something new with this project. When you've accomplished all of the baseline requirements, please issue a PR back to the project master. We will review and merge your baseline, but you don't need to wait for that to happen before helping your classmates and moving onto the project requirements.
+
+We're doing this to make the final project easier to code review. Because the baseline includes all of the Rails setup and boilerplate, issuing (and merging) a PR at the beginning will remove those files from the Pull Request interface for the PR you'll open at the end of the project.
+
+### The baseline requirements are...
+- a ruby-gemset and ruby-version.
+- a new rails 4.2.2 application.
+- rspec setup in document format (hint: use a .rspec config file)
+- code coverage reporting (hint: user simplecov)
 
 ## User Stories
 
-### Bronze Star
-+ As a user, I can create, edit, or delete a Recipe 
-+ As a user, I can create, edit, or delete a Cookbook
-+ As a user, I can create or edit an Ingredient
-+ As a user, I can add or remove a Recipe from a Cookbook
+### As any User, I can...
+- search by the name of an Ingredient or Gadget and get related Recipes back.
+- __Recipes__
+  - view an alphabetical list of all Recipes
+  - view the details of a Recipe, inluding...
+    - a link to the User profile of the person who created the Recipe
+    - a link to the Gadget profile for any associated Gadgets
+    - links to the Ingridient profile for all associated Ingredients
+- __Ingredients__
+  - view an alphabetical list of all Ingedients
+  - view the details of an individual Ingredient, including...
+    - a list of links to Recipes associated with the Ingredient
+- __Gadgets__
+  - view an alphabetical list of all Gadgets
+  - view the details of one Gadget, including...
+    - a list of links to Recipes associated with the Gadget
+    
+### As an anonymous User I can...
+- register a new User account
+- Log In to an existing User account
 
-### Silver Star
-+ As a user, I can create or edit an Gadget
-+ As a user, I can add a Gadget to my collection
-
-### Gold Star
-+ As a user, I can search for Recipes by  typing in the name of an Ingredient or Gadget
-
-
-## Requirements
-However far you and your partner get, the application should have, at a minimum, the following features:
-
-+ Multiple Active Record models, with at least one "has_many through" relationship (Recipes <-> Ingredients for example)
-+ some rspec in addition to any provided to you
-+ A "look and feel" that will make users want to cook! 
-
-
-## Pairs
-
-We're going to assign partners for this project. 
-
-|                      |                    |
-|:--------------------:|:------------------:|
-| Whitney-Rose Levis   | Sue White          |
-| Galina Yermicheva    | Blake Johnson      |
-| Ellen Wondra-Lindley | Simone Sydnor      |
-| Shadae Holmes        | Davida Marion      |
-| Elizabeth Uselton    | Anne Kimsey        |
-| Liz Rush             | Melinda Mizuta     |
-| Hsing-Hui Hsu        | Christina Thompson |
-| Asha Golveo          | Audrey Carlsen     |
-
-
-## Extra Credit
-
-+ Add the ability to browse for Recipes by Ingredient or Gadget
-+ Code Metrics
-    + less than 20 issues reported by Rubocop
-    + no method with a Flog score > 30
-+ Add a feature that allows users to keep track of what Ingredients are in their physical kitchen. Add a SpiceRack, Pantry, Refrigerator, and Freezer model, and create a "has_many through" relationship. Ingredients should have a column that determines which location they belong in, and a quantity column should be on the "has_many through" relationship model.
-
-
-## Double Bonus Gold Star Territory
-+ Sign up for Code Climate (http://codeclimate.com) and add it to your project
-+ Add the CarrierWave gem (https://github.com/carrierwaveuploader/carrierwave) and allow the user to upload a picture for a Recipe or Ingredient
-+ Add the Devise gem (https://github.com/plataformatec/devise) to allow for multiple users, and for users to sign in or out
-+ Add an adminsection that allows Users who have the correct access permissions to edit the Cookbooks, Recipes, etc of all Users in the system
-
-
-## Evaluation
-
-You will be evaluated on:
-
-- Running `rspec` from Terminal with no failures
-- Code quality (is your code organized and logical)
-- Extra credit for additional methods to add neat functionality
-- Extra credit for writing additional specs
-- Extra credit for attractive or inventive user interface
-
+### As a Logged In User I can...
+- Log Out
+- __Cookbooks__
+  - See a list of Cookbooks I've already created, including...
+    - The number of Recipes associated with the Cookbook
+    - The number of unique Gadgets associated with the Cookbook
+    - The number of unique Recipes associated with the Cookbook
+  - See the details of a specific Cookbook, including...
+    - a list of links to the Recipes associated with the Cookbook
+    - a link to remove (unassociate) a Recipe from the Cookbook
+  - Create a new Cookbook, associated with my User account, with...
+    - a `name` (required)
+    - a `description` (optional)
+  - Destroy an existing Cookbook
+    - Destroying a Cookbook __does not__ destroy the Recipes, just the associations.
+  - Edit an existing Cookbook's `name` and `description` information.
+- __Recipes__
+  - Create a new Recipe, optionally associated with one of my existing Cookbooks, with...
+    - a `name` (required)
+    - a `description` (optional)
+    - an uploaded image of the prepared Recipe (optional)
+    - a `preparation` (required)
+    - one or more Ingredients (required)
+    - zero or more Gadgets (optional)
+  - Edit an existing Recipe that I created by...
+    - Changing the `name`, `description`, uploaded image, and/or `preparation`
+    - Removing or Adding Ingredients
+    - Removing or Adding Gadgets
+  - Destroy an existing Recipe that I created
+    - Destroying a Recipe __does not__ destroy the Ingrdients or Gadgets, just the associations
+  - From a Recipe's detail page, I can save the Recipe to an existing Cookbook
+- __Ingredients__
+  - Create an Ingredient with...
+    - a unique `name` (required)
+    - an uploaded image of the Ingredient (optional)
+  - Edit the `name` and/or the uploaded image of an existing Ingredient that I created
+  - Destroy an existing Ingredient that I created
+- __Gadgets__
+  - Create a Gadget with...
+    - a unique `name` (required)
+    - an uploaded image of the Gadget (optional)
+  - Edit the `name` and/or uploaded image of an existing Gadget that I created
+  - Destroy an existing Gadget that I created
+  - From the Gadget `index`, I can add a Gadget to my "collection"
+  - From the Gadget and `show` pages, I can and or remove Gadgets from my collection
+  - View a list of Gadgets (with links to each Gadget's detail page) in my collection
