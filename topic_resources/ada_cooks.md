@@ -14,7 +14,8 @@ We're doing this to make the final project easier to code review. Because the ba
 ### The baseline requirements are...
 - a ruby-gemset and ruby-version.
 - a new rails 4.2.2 application.
-- rspec setup in document format (hint: use a .rspec config file)
+- [rspec](https://github.com/rspec/rspec-rails) setup in document format (hint: use a .rspec config file and the `rspec_rails` gem)
+- [factory_girl](https://github.com/thoughtbot/factory_girl_rails) included and set up to work with rspec (hint: use the `factory_girl_rails` gem)
 - code coverage reporting (hint: user simplecov)
 
 ## User Stories
@@ -43,7 +44,7 @@ We're doing this to make the final project easier to code review. Because the ba
     - The number of unique Recipes associated with the Cookbook
   - See the details of a specific Cookbook, including...
     - a list of links to the Recipes associated with the Cookbook
-    - a link to remove (unassociate) a Recipe from the Cookbook
+    - a link to remove (unassociate) a Recipe from the Cookbook. This does not destroy the Recipe.
   - Create a new Cookbook, associated with my User account, with...
     - a `name` (required)
     - a `description` (optional)
@@ -68,7 +69,7 @@ We're doing this to make the final project easier to code review. Because the ba
     - a unique `name` (required)
     - an uploaded image of the Ingredient (optional)
   - Edit the `name` and/or the uploaded image of an existing Ingredient that I created
-  - Destroy an existing Ingredient that I created
+  - Destroy an existing Ingredient that I created (this does not destroy any associated Ingredients)
 
 ### Other Requirements
 - A minimum 80% test coverage for all Models and Controllers.
