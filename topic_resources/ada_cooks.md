@@ -70,7 +70,7 @@ We're doing this to make the final project easier to code review. Because the ba
     - a unique `name` (required)
     - an uploaded image of the Ingredient (optional)
   - Edit the `name` and/or the uploaded image of an existing Ingredient that I created
-  - Destroy an existing Ingredient that I created (this does not destroy any associated Ingredients)
+  - Destroy an existing Ingredient that I created (this does not destroy any associated Recipes)
 
 ### Other Requirements
 - A minimum 80% test coverage for all Models and Controllers.
