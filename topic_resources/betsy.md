@@ -5,10 +5,10 @@
 #### In this project you will cover
 
 - Core comprehension of:
-    - Routes
-    - Controllers
-    - Models
-    - Views
+  - Routes
+  - Controllers
+  - Models
+  - Views
 - User based application logic
 - User authentication
 - Agile practices
@@ -17,7 +17,7 @@
 #### Guidelines
 
 - Groups of four will collaborate in pairs or individually
-- Use [Trello.com](http://trello.com) as a project management service
+- Use a task manager like [Trello](http://trello.com) to track your team's efforts
 - Build a logical user-flow that moves across multiple controllers and models
 - Use HTML/CSS to style your website.
 
@@ -29,14 +29,10 @@
 ### Getting Started
 
 1. As a group decide on an app name (this may help lead the aesthetic)
-1. One team member:
-    1. Create a repo with the same name as the app
-    2. Push to Github
-    3. Add the other team members as collaborators on Github
-1. A different team member:
-    1. Create a "Board" on Trello for your project
-    2. Add your team members to the Trello "Board"
-
+1. As a group decide on a team name (this will amuse me)
+1. Create a branch on the master repo with your team name
+1. Have one person on your team fork/clone the project master as per usual.
+  1. Figure out your workflow for the project, re: Git and Task management
 
 ### Expectations
 
@@ -77,7 +73,7 @@ As a guest to the website (not signed in) I **can**:
 - Sign up to be a merchant, providing:
     - Email Address
     - Username
-    - Password (passwords cannot be stored in the database) ([suggested resoruce](#password))
+    - Password (plain text passwords cannot be stored in the database)
     - Password confirmation
 - Sign in to my merchant account
 
@@ -129,10 +125,9 @@ As a signed-in user, I **cannot**:
 - View order items from a shared order that belong to another merchant
 - View another users private data (i.e. order fulfillment or product management)
 
-
 ### Model Validations
 
-Many of our models will have attributes that are required for our application to use and display data consistently. Each model will have attributes with requirements for a valid record ([Suggested Resource](#validations)). The requirements are summarized below:
+Many of our models will have attributes that are required for our application to use and display data consistently. Each model will have attributes with requirements for a valid record. The requirements are summarized below:
 
 #### User
 
@@ -170,46 +165,29 @@ Many of our models will have attributes that are required for our application to
 - Rating must be between 1 and 5
 
 ## Submission Guidelines
+Your final project must be deployed to [Heroku](http://Heroku.com). Your team will open a single pull request for the entire project. Include the link to your Heroku deployment in the PR's description.
 
-Your project must be "live" on the web for evaluation. We recommend you deploy it on [Heroku](http://Heroku.com).
 Your `README` file on your Github repo should contain a link to your live site.
 
-## Group Leaders
+## Team Leaders
+Each team will have team leaders who are responsible for keeping track of each
+team member's contributions. Rotate leader roles at the beginning of every week; every team member should be in at least one leader role during the project.
 
-Each group will have group leaders who are responsible for keeping track of each
-group members involvement.
+- Stand Up Leader
+  - Takes notes about each person's daily report in Stand Up
+  - Keeps the meeting moving
+- Task Leader
+  - Leads discussion on task assignment
+    - Decide if a task should be completed alone or in a pair
+    - Assign tasks based on...
+      - Individual comfort
+      - Desire
+      - Ability
+  - Ensures the task list stays up to date
 
-- Pick a "driver" for white boarding.
-- Lead stand up meetings
-- Keep quick notes of each individuals daily stand-up responses.
-- Manage Trello: Ensure that each member of the team is assigned appropriate tasks, based on:
-    - Background (less experience & variety takes priority)
-    - Desire
-    - Ability (use pairs if an individual doesn't feel confident leading, less comfortable individual always drives)
-- At the end of the leader cycle, send instructor(s) an email report including each members:
-    - Stand up notes
-    - A list of Trello stories completed
+At the end of each day, the team leaders will prepare a report containing the Stand Up notes for that day and the last of Tasks completed or started that day. Email that report to your team's Project Manager.
 
-## Grades (100 points)
+## Weekly Demos
+In a real world work environment, a team's success is measured by their product as opposed to each individual's contribution.
 
-In a real world work environment the group is judged on the end result
-of their product opposed to each individuals contribution.
-
-A quiz will be used to grade the project. Each member of the team
-will take the quiz. All members of the team will adopt the score of the lowest
-scoring submission. The quiz will consist of four sections:
-
-- Routes
-- Controllers
-- Models
-- Views
-
-Each section will include 5 questions on concepts and syntax.
-
-# Resources
-
-The exact code in the following resources may not fit with your custom application, I recommend reading/watching them and assessing how you can implement the logic on your own.
-
-- <a id="password" href="http://railscasts.com/episodes/250-authentication-from-scratch-revised">User Authentication with has_secure_password</a>
-
-- <a id="validations" href="http://edgeguides.rubyonrails.org/active_record_validations.html">Active Record Validations</a>
+Each team will present their progress and respond to questions from their Project Manager each Friday. Every team member will participate in these demos; the PM will ask specific questions regarding 1) the team's progress and plan for completing the project, 2) the technical decisions and implementation, and 3) every team member's understanding of the underlying technical structures.
