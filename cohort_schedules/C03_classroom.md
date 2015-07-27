@@ -361,24 +361,68 @@ In Week 11 we will continue working in groups of 4 on the Betsy project introduc
 - Use agile development practices in a group of four
 - Increased exposure to best practices in OO design
 
-## Resources
-[Refactoring](../topic_resources/refactoring.md)
-[OO Design](../topic_resources/object-rules-of-thumb.md)
-
 ## Projects
 [Betsy](https://github.com/Ada-Developers-Academy/C3Projects--bEtsy)  
-[Small Ruby Project]()
+[CS Fundamentals](https://gist.github.com/sudocrystal/8578ad90cf9bf1189de1
+)
 
-<!--
 ## Week 12
+In week 12 we will work on Ada Cooks which will allow us to continue practicing TDD and solidify our understanding of database relationships using Rails. We will start using Factory Girl to write tests and Learn about uploading files.
 
 ### Learning Goals
-- Responsive Design
-- Continue using RSpec with rails
+- Using FactoryGirl for fixture data in our tests
+- Using CarrierWave for file uploads
+- Solidify knowledge of database relationships
+- Practice TDD
+
+## Resources
+[RSpec Tools](../topic_resources/rspec-tools.md)  
+[Getting Started w/ Factory Girl](http://www.rubydoc.info/gems/factory_girl/file/GETTING_STARTED.md)  
+[CarrierWave (minus S3)](../topic_resources/carrierwave.md)  
+[Refactoring](../topic_resources/refactoring.md)  
+[OO Design](../topic_resources/object-rules-of-thumb.md)  
+
+## Projects
+[Ada Cooks](https://github.com/Ada-Developers-Academy/C3Projects--AdaCooks)
+
+
+## Week 13
+In week 13 we will work on SeeMore, in which we will create a RESTful web API from a public or private data source, and continue our learning within a larger Agile team.
+
+### Learning Goals
+- Identify when to use an external web API
+- Create a web API
+- Build data in JSON or XML format
+- Consume data in JSON or XML format
+- HTTP from Ruby ([HTTParty](https://github.com/jnunemaker/httparty))
+- local User creation via OAuth service
+- push to authorized services via APIs
+- increasing comfort with API interactions
+- increasing professional comportment and team project skills
+- focus on project "polish" and customer deliverables
+
+## Resources
+[Web Api 101](../topic_resources/web-api-101.md)  
+[Consuming an Api](../topic_resources/consuming-an-api.md)  
+[Practice Consuming an Api](../topic_resources/consuming-an-api.md#practice)  
+[Starting SeeMore](../topic_resources/see-more.md)  
+[Authentication w/ OmniAuth](../topic_resources/omniauth.md)  
+
+## Projects
+[SeeMore](https://github.com/Ada-Developers-Academy/C3Projects--SeeMore)
+
+## Week 14
+In week 14 we will continue working with our teams on SeeMore.
+
+### Learning Goals
+Continued from [Week 13](#week-13)
+
 ## Resources
 
 ## Projects
+[SeeMore](https://github.com/Ada-Developers-Academy/C3Projects--SeeMore)
 
+<!--
 __Weekend Homework__
 
 Create your own app
@@ -408,67 +452,6 @@ __optional__
 __Extra Credit__
 
 Implement Users using a TDD approach.
-
-## Week 10
-
-In week 10 we will be learning more about rspec. We will practice TDD while solidifying
-out understanding of relationships in databases and Rails.
-
-### Learning Goals
-- Learn rspec
-- Solidify knowledge of database relationships
-- Practice TDD
-
-## Possible Lectures
-- Rspec rails
-- Form Objects
-- Associations
-- ActiveRecord Querying
-
-#### Monday
-
-| Time             | Topic
-|------------------|-----------------------------------------------------------------------------------
-| 9:00 - 10:00 | [Media Ranker Quiz](https://canvas.instructure.com/courses/881804/quizzes/1083242)
-| 10:00 - 5:00 | Sam Livingston-Gray
-
-
-#### Tuesday
-
-| Time            | Topic
-|-----------------|--------------------
-| 9:00 - 5:00 | Sam Livingston-Gray
-
-#### Wednesday
-
-| Time             | Topic
-|------------------|-------------------------------------------------------------------------------
-| 9:30 - 11:00 | [ActiveRecord Associations](../topic_resources/active-record-associations.md)
-| 1:30 - 2:15 | David Weiser from Moz
-| 2:15 - 5:00 | [Ada Cooks](../topic_resources/ada-cooks-mini.md)
-
-#### Thursday
-
-| Time             | Topic
-|------------------|----------------------------------------------------------
-| 9:00 - 9:15 | Group Interview Prep?
-| 9:15 - 9:45 | [Rspec Rails Setup](https://github.com/rspec/rspec-rails)
-| 9:45 - 11:00 | [Form Object](../topic_resources/form-objects.md)
-| 11:00 - 1:30 | [Ada Cooks](../topic_resources/ada-cooks-mini.md)
-| 1:30 - 2:15 | Joe Goldberg from EnergySavvy
-| 2:15 - 4:00 | [Ada Cooks](../topic_resources/ada-cooks-mini.md)
-| 4:00 - 5:00 | Marchex Fieldtrip
-
-#### Friday
-
-| Time          | Topic
-|---------------|---------------------------------------------------
-| 9:00 - 10:00 | Megan Kiester
-| 11:00 - 12:00 | Peter Abrahamsen
-| 12:00 - 5:00 | [Ada Cooks](../topic_resources/ada-cooks-mini.md)
-| 1:30 - 2:15 | Adam from Chef
-| 2:15 - 4:30 | [Ada Cooks](../topic_resources/ada-cooks-mini.md)
-| 4:30 - 5:00 | Weekly Retro
 
 ## Week 11
 
