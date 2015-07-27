@@ -29,7 +29,7 @@ A **feed** is an API that a web service uses to provide users with frequently up
 Build a feed aggregator service that allows users to login via Twitter, Github, Instagram and Vimeo. It will allow users to view updates from all their tracked feeds in one location, and share them back to associated social media services.
 
 ### Technical Requirements
-#### Bronze (20 points)
+#### Wave 1
 + Allows Users to sign in and out using [OmniAuth's Developer Strategy](http://rubydoc.info/github/intridea/omniauth/master/OmniAuth/Strategies/Developer)
 - Can search Twitter users
 - Can add Twitter users to your SeeMore feed
@@ -38,8 +38,7 @@ Build a feed aggregator service that allows users to login via Twitter, Github, 
 + Can aggregate feeds from two separate social media feeds (Twitter & Vimeo)
 - Write at least 20 specs (5 from each member)
 
-#### Silver (20 points)
-All of Bronze, plus:
+#### Wave 2
 - Save each social media post to the local database, duplicates should not be allowed.
 + Allows Users to sign-up and login with at least one social media account (Instagram (required), Twitter, Vimeo, Github)
 - Can search and add Github users to your SeeMore feed
@@ -50,33 +49,33 @@ All of Bronze, plus:
     - One or more Github users
     - One or more Instagram users (must be authenticated with Instagram)
 
-#### Gold (20 points)
+#### Wave 3
 All of Silver, plus:
 - Automatically pulls in Twitter timeline feed for the authenticated user
 - Automatically pulls in Instagram timeline feed for the authenticated user
 + Uses **cron** to periodically update feeds without duplication
 + Can send email or SMS messages to users to update them
 
-#### Platinum (10 points)
+#### Wave 4
 + Allows Users to share favorite stories back to social media services
 + offers API of aggregated feeds
 + add a Google Map that shows the location of any feed items that contain geolocative information
 
 
 ## Evaluation
-+ Learning Goals (10 points)
++ Learning Goals
     * Demonstrate comprehension of Rails
     * Comfort with Pivotal Tracker (and any other project tools used)
     * Working as a team
     * Accepting challenges by working on parts of the project outside your individual comfort zone
 
-+ Client Satisfaction (10 points)
++ Client Satisfaction
     * Visually appealing and polished
     * No major bugs
         - Minor bugs noted in Pivotal Tracker or as a Github issue
     * Good communication with Project Owner
 
-+ Code Quality (10 points)
++ Code Quality
     * Metrics
         - Flog: no Controller method > 25, no Model method > 15
         - Rubocop: no more than 15 code style issues
