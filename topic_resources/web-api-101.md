@@ -10,13 +10,13 @@ http://openweathermap.org/API is used for current weather data, forecasting, sea
 
 - **Documentation**: http://openweathermap.org/API
 - **Base URI**: http://api.openweathermap.org/data/2.5/
-- **Example**: 
+- **Example**:
     - http://api.openweathermap.org/data/2.5/weather?q=Seattle
-    - http://api.openweathermap.org/data/2.5/forcast?q=Seattle
+    - http://api.openweathermap.org/data/2.5/forecast?q=Seattle
     - http://api.openweathermap.org/data/2.5/find?q=Seattle&mode=xml
 
 #### Google Books API
-The google books api is used to request and information about books. 
+The google books api is used to request and information about books.
 
 - **Base URI**: https://www.googleapis.com/books/v1
 - **Documentation**: [Google API](https://developers.google.com/books/docs/v1/using)
@@ -27,4 +27,4 @@ Used to retrieve photos by album, collection, user, and search.
 
 - **Base URI**: http://api.flickr.com/services/rest/
 - **Documentation**: http://www.flickr.com/services/api/
-- **Example**: http://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=488881d39315809815f25c7289ecb7b0&format=json
+- **Example**: http://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key=INSERT_API_KEY_HERE&format=json

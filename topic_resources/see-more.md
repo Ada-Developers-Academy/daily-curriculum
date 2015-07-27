@@ -35,31 +35,30 @@ Build a feed aggregator service that allows users to login via Twitter, Github, 
 - Can add Twitter users to your SeeMore feed
 - Can search for a Vimeo user
 - Can add Vimeo users to your SeeMore feed
-+ Can aggregate feeds from two separate social media feeds (Twitter & Vimeo)
+- Can aggregate feeds from two separate social media feeds (Twitter & Vimeo)
 - Write at least 20 specs (5 from each member)
 
 #### Wave 2
 - Save each social media post to the local database, duplicates should not be allowed.
-+ Allows Users to sign-up and login with at least one social media account (Instagram (required), Twitter, Vimeo, Github)
+- Allows Users to sign-up and login with at least one social media account (Instagram (required), Twitter, Vimeo, Github)
 - Can search and add Github users to your SeeMore feed
 - Can search and add Instagram users to your SeeMore feed
-+ Can aggregate feeds from
+- Can aggregate feeds from
     - One or more Twitter users
     - One or more Vimeo users
     - One or more Github users
     - One or more Instagram users (must be authenticated with Instagram)
 
 #### Wave 3
-All of Silver, plus:
 - Automatically pulls in Twitter timeline feed for the authenticated user
 - Automatically pulls in Instagram timeline feed for the authenticated user
-+ Uses **cron** to periodically update feeds without duplication
-+ Can send email or SMS messages to users to update them
+- Uses **cron** to periodically update feeds without duplication
+- Can send email or SMS messages to users to update them
 
 #### Wave 4
-+ Allows Users to share favorite stories back to social media services
-+ offers API of aggregated feeds
-+ add a Google Map that shows the location of any feed items that contain geolocative information
+- Allows Users to share favorite stories back to social media services
+- offers API of aggregated feeds
+- add a Google Map that shows the location of any feed items that contain geolocative information
 
 
 ## Evaluation
@@ -77,9 +76,9 @@ All of Silver, plus:
 
 + Code Quality
     * Metrics
-        - Flog: no Controller method > 25, no Model method > 15
-        - Rubocop: no more than 15 code style issues
-        - Brakeman: no major security issues
+        - Flog: no Controller method > 25, no Model method > 15[?]
+        - Rubocop: no more than 15 code style issues[?]
+        - Brakeman: no major security issues[?]
         - Code Coverage: 90%+
 
 
