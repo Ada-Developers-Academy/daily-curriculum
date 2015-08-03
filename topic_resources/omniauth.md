@@ -83,7 +83,7 @@ gem 'dotenv-rails', :groups => [:development, :test]
 ```
 
 ```ruby
-#.env
+#omni/.env
 GITHUB_CLIENT_ID: fd6XXXXXXXX
 GITHUB_CLIENT_SECRET: y6wXXXXXXX
 ```
@@ -164,10 +164,10 @@ config.before(:suite) do
   OmniAuth.config.test_mode = true
 
   # The mock_auth configuration allows you to
-  set per-provider (or default) authentication
-  hashes to return during testing.
+  # set per-provider (or default) authentication
+  # hashes to return during testing.
 
-  OmniAuth.config.mock_auth[:twitter] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", nickname: "Bookis"}})
+  OmniAuth.config.mock_auth[:twitter] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", nickname: "Ada"}})
 end
 ```
 
@@ -175,11 +175,12 @@ end
 # /spec/models/user_spec.rb
 
 require 'spec_helper'
+require 'rails_helper'
 
-describe User do
-let(:user) { User.new(
+RSpec.describe User, type: :model do
+  let(:user) { User.new(
     email:    "a@b.com",
-    username: "Bookis",
+    username: "Ada",
     uid:      "1234",
     provider: "github")
   }
@@ -259,8 +260,9 @@ config/routes.rb, adding a root_path route.
 ```ruby
 # spec/controllers/sessions_controller_spec.rb
 require 'spec_helper'
+require 'rails_helper'
 
-describe SessionsController do
+RSpec.describe SessionsController, type: :controller  do
   describe "GET 'create'" do
     context "when using github authorization" do
       context "is successful" do
@@ -355,10 +357,11 @@ Next we'll quickly create a show page to redirect to after we login:
 
 app/controllers/application_controller.rb
 ```ruby
+    helper_method :current_user
+
     def current_user
       @current_user ||= User.find(session[:user_id]) if session[:user_id]
-    end
-    helper_method :current_user
+    end    
 ```
 app/views/users/show.html.erb
 
