@@ -25,17 +25,23 @@ In both of these examples `:provider` is a named parameter that will equal the n
 
 ### Getting started
 
-Enough with talking, lets implement this into a quick application:
-```
-rails new omni -T -d postgresql
-cd omni
-atom .
+Enough with talking, lets implement this into a quick application. Head over to your sandbox (I keep mine in `~/sandbox`) and...
+
+```bash
+$ mkdir omni
+$ echo '2.2.2' > omni/.ruby-version
+$ echo 'omni' > omni/.ruby-gemset 
+$ cd omni
+$ gem install rails --no-ri --no-rdoc
+$ rails new . -T
 ```
 
-Open the Gemfile and add two gems
+Open the Gemfile and add some gems:
+
 ```ruby
   gem "omniauth"
   gem "omniauth-github"
+
   group :development do
     gem "better_errors" # These two are just for debugging
     gem "binding_of_caller"
@@ -71,8 +77,8 @@ end
 ```
 
 We don't want to commit our id or secret to github, so we can use what is called
-and environment variable. Basically there is a constant in called `ENV` which is a hash
-of data loaded when ruby was loaded.
+an "environment variable". Basically there is a constant called `ENV` which is a hash
+of data read into memory when ruby was loaded.
 
 We can use a gem called [dotenv-rails](https://github.com/bkeepers/dotenv) to help us
 manage our environment variables.
@@ -118,11 +124,15 @@ class SessionsController < ApplicationController
 
 end
 ```
-You can see, we're assigning a variable to `request.env['omniauth.auth']`, this is information stored in the `headers` of the HTTP request, don't worry about how it gets there, it's a bit of magic. This data is a hash, you can see all of the likely keys this hash will have in the [OmniAuth README](https://github.com/intridea/omniauth/wiki/Auth-Hash-Schema), but the key/values returned varies by provider, although, Github will return the following important keys.
-
-    auth_hash["uid"] # The unique ID of the user from the providers database
+We're assigning a variable to `request.env['omniauth.auth']`. This is information stored in the `headers` of the HTTP request. This data is a hash, you can see all of the likely keys this hash will have in the [OmniAuth README](https://github.com/intridea/omniauth/wiki/Auth-Hash-Schema), but the key/values returned varies by provider (there's lots of documentation reading in our future). Github will return the following important keys:
 
 ```ruby
+# the `uid` is an identifier for the user from the provider's system
+# using it plus the provider type (github in this case),
+# we can uniquely identify a user
+auth_hash["uid"]
+
+# the info hash contains specifics of the user's account
 auth_hash["info"]["name"]
 auth_hash["info"]["email"]
 auth_hash["info"]["image"]
@@ -136,16 +146,16 @@ We can use the above information returned by Github to create a user.
 We'll create a user model and use TDD to implement the OmniAuth creation of a user
 ```ruby
 # Gemfile
-
 group :development do
   gem 'rspec-rails'
 end
 ```
+
 ```bash
-    rails g rspec:install
-    rails g model user username:string email:string uid:string provider:string avatar_url:string
-    rake db:migrate
-    rake db:test:clone
+  rails g rspec:install
+  rails g model user username:string email:string uid:string provider:string avatar_url:string
+  rake db:migrate
+  rake db:test:prepare
 ```
 
 Next we'll add some configuration and specs to test the creation of users with OmniAuth:
@@ -167,7 +177,7 @@ config.before(:suite) do
   # set per-provider (or default) authentication
   # hashes to return during testing.
 
-  OmniAuth.config.mock_auth[:twitter] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", nickname: "Ada"}})
+  OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", nickname: "Ada"}})
 end
 ```
 
@@ -189,6 +199,7 @@ RSpec.describe User, type: :model do
     it "is valid" do
       expect(user).to be_valid
     end
+
     it "requires an email" do
       user.email = nil
       expect(user).to be_invalid
@@ -203,6 +214,7 @@ RSpec.describe User, type: :model do
       user.uid = nil
       expect(user).to be_invalid
     end
+
     it "requires a provider" do
       user.provider = nil
       expect(user).to be_invalid
@@ -211,7 +223,7 @@ RSpec.describe User, type: :model do
 
 
   describe ".initialize_from_omniauth" do
-    let(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:twitter]) }
+    let(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:github]) }
 
     it "creates a valid user" do
       expect(user).to be_valid
@@ -245,28 +257,30 @@ end
 
 ### Receiving the request
 
-Now we have the functionality to initialize a user using the hash that will be return from the provider request, lets TDD the sessions controller create action
+Now we have the functionality to initialize a user using the hash that will be return from the provider request, lets TDD `sessions_controller#create`:
 
-Terminal
+##### Let's set a `root_path` to make things easier for us:
+```ruby
+  # in config/routes.rb
+  root to: "users#show"
+```
 
-    mkdir spec/controllers
-    touch spec/controllers/sessions_controller_spec.rb
+##### Generate a controller spec
+```bash
+  $ rails g rspec:controller sessions
+```
 
-
-config/routes.rb, adding a root_path route.
-
-    root to: "users#show"
-
+##### And now some tests:
 ```ruby
 # spec/controllers/sessions_controller_spec.rb
 require 'spec_helper'
 require 'rails_helper'
 
 RSpec.describe SessionsController, type: :controller  do
-  describe "GET 'create'" do
+  describe "GET #create" do
     context "when using github authorization" do
       context "is successful" do
-        before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:twitter] }
+        before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github] }
 
         it "redirects to home page" do
           get :create, provider: :github
@@ -290,8 +304,8 @@ RSpec.describe SessionsController, type: :controller  do
       end
 
       context "when the user has already signed up" do
-        before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:twitter] }
-        let!(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:twitter]) }
+        before { request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github] }
+        let!(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:github]) }
 
         it "doesn't create another user" do
           expect { get :create, provider: :github }.to_not change(User, :count).by(1)
