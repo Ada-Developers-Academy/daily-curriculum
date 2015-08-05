@@ -422,7 +422,33 @@ Continued from [Week 13](#week-13)
 ## Projects
 [SeeMore](https://github.com/Ada-Developers-Academy/C3Projects--SeeMore)
 
+
+## Week 15
+In Week 15 we will be begin a unit on Refactoring and Service Oriented Architecture. Build a Shipping service for a ecommerce projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop expertise with testing.
+
+### Learning Goals
+- Build an API
+- Practice SOA
+
+## Resources
+[Building APIs](../topic_resources/building_apis.md)  
+[Creating an Api in Rails](../topic_resources/creating-an-api-in-rails.md)  
+
+?? [Basic Mocks and Stubs](../topic_resources/see-more.md)
+
+
+## Projects
+[Shipping Service](../topic_resources/shipping_service.md)  
+
+
 <!--
+
+JS HW:
+
+- Complete the [Cat Adventure Project](../topic_resources/cat_adventure_homework.md)
+
+
+
 __Weekend Homework__
 
 Create your own app
@@ -537,57 +563,6 @@ Take a look at JavaScript's JSON object (https://developer.mozilla.org/en-US/doc
 and the Local Storage API (https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage).
 Add code to your to do list manager to save items in localStorage.
 
-## Week 12
-
-In week 12 work on [SeeMore project](../topic_resources/see-more.md), in which the students will create a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
-
-### Learning Goals
-- Identify when to use an external web API
-- Create a web API
-- Build data in JSON or XML format
-- Consume data in JSON or XML format
-- HTTP from Ruby ([HTTParty](https://github.com/jnunemaker/httparty))
-- local User creation via OAuth service
-- push to authorized services via APIs
-- increasing comfort with API interactions
-- increasing professional comportment and team project skills
-- focus on project "polish" and customer deliverables
-
-#### Monday
-
-| Time                | Topic
-|---------------------|------------------------------------------------------------------------------
-| 9:00 - 9:30 | Pivotal
-| 9:30 - 9:45 | Environment Variables
-| 9:15 - 9:45 | [Web Api 101](../topic_resources/web-api-101.md)
-| 9:45 - 10:15 | [Consuming an Api](../topic_resources/consuming-an-api.md)
-| 10:15 - 10:30 | [Practice Consuming an Api](../topic_resources/consuming-an-api.md#practice)
-| 10:30 - 1:30 | [Starting SeeMore](../topic_resources/see-more.md)
-| 1:30 - 2:30 | [Authentication w/ OmniAuth](../topic_resources/omniauth.md)
-| 2:30 | [See More Project Work](../topic_resources/see-more.md)
-
-#### Tuesday
-
-| Time                 | Topic
-|----------------------|---------------------------------------------------------
-| 9:00 | SeeMore Requirement Review
-| 9:30 | Omniauth / API recap
-| 10:30 | [See More Project work](../topic_resources/see-more.md)
-
-#### Wednesday
-
-| Time                 | Topic
-|----------------------|---------------------------------------------------------
-| 9:00 - 9:15 | Stand Up
-| 9:30 | Omniauth / API recap
-| 10:45 | [See More Project work](../topic_resources/see-more.md)
-
-#### Thursday
-
-| Time                | Topic
-|---------------------|---------------------------------------------------------
-| 9:00 - 9:15 | Stand Up
-| 9:15 | [See More Project work](../topic_resources/see-more.md)
 
 #### Friday
 
@@ -595,46 +570,7 @@ In week 12 work on [SeeMore project](../topic_resources/see-more.md), in which t
 |----------------------|------------------------------------------------------------
 | 9:00 - 9:30 | [Golf Jquery Warmup](../topic_resources/moar_work/golf.md)
 | 9:30 | [Ajax Lecture](../topic_resources/ajax.md)
-| 10:30 | [See More Project work](../topic_resources/see-more.md)
-| 4:00 | Katherine & Rhea from Isilon
 
-## Week 13
-
-In week 13 we will continue working on [SeeMore project](../topic_resources/see-more.md), in which the students will consume a RESTful web API from a public or private data source, and learn to work within a larger Agile team.
-
-### Learning Goals
-- Identify when to use an external web API
-- Create a web API
-- Build data in JSON or XML format
-- Consume data in JSON or XML format
-- HTTP from Ruby ([HTTParty](https://github.com/jnunemaker/httparty))
-- local User creation via OAuth service
-- push to authorized services via APIs
-- increasing comfort with API interactions
-- increasing professional comportment and team project skills
-- focus on project "polish" and customer deliverables
-
-#### Monday
-
-| Time                | Topic
-|---------------------|---------------------------------------------------------
-| 9:00 | [See More Project Work](../topic_resources/see-more.md)
-
-#### Tuesday
-
-| Time                 | Topic
-|----------------------|---------------------------------------------------------
-| 9:00 | [See More Project work](../topic_resources/see-more.md)
-| 11:30 | See More Sprint Check-ins
-| 2:00 - 4:00 | Kronda
-| 4:00 | [See More Project work](../topic_resources/see-more.md)
-
-#### Wednesday
-
-| Time                 | Topic
-|----------------------|---------------------------------------------------------
-| 9:15 | [/week15/friday/basic-mocks-and-stubs.md]
-| 9:00 | [See More Project work](../topic_resources/see-more.md)
 
 #### Thursday
 
