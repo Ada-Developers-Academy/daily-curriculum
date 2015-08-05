@@ -1,6 +1,8 @@
 # Shipping Service
 Build a stand-alone shipping service API that calculates estimated shipping cost for an order from your Toys App application.
 
+Something about [Active Shipping](https://github.com/Shopify/active_shipping)
+
 ## Learning Goals
 - Develop the ability to read 3rd party code
 - APIs
