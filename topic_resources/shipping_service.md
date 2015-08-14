@@ -21,7 +21,7 @@ Build a stand-alone shipping service API that calculates estimated shipping cost
 - Integrate the [Active Shipping](https://github.com/Shopify/active_shipping) gem to do shipping-specific logic for you
 
 ## Project Baseline
-When you've accomplished all of the baseline requirements, please issue a PR back to the project master. We will review and merge your baseline, but you don't need to wait for that to happen before helping your classmates and moving on to the project requirements.
+When you've accomplished all of the baseline requirements, please issue a PR back to the bEtsy team's fork. We will review and merge your baseline, but you don't need to wait for that to happen before helping your classmates and moving on to the project requirements.
 
 ### The baseline requirements are...
 - a ruby-gemset and ruby-version.
