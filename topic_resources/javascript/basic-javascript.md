@@ -111,7 +111,7 @@ str.substr(2,5); // "is is" - call the substr function
 ```
 
 ### Arrays
-* Arrays are similar to Ruby arrays. They are declared and accessed
+* [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) are similar to Ruby arrays. They are declared and accessed
   with square brackets ([]).
 
 ```javascript
@@ -125,7 +125,7 @@ arr;         // [1, 2, 3]
 ```
 
 ### Objects
-* Objects are like simple Ruby hashes. They are declared with braces
+* [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) are like simple Ruby hashes. They are declared with braces
   (`{}`). You can access properties in an Object with bracket notation
   (like an array) or dot notation.
 
@@ -145,7 +145,7 @@ obj.foo;    // undefined
 
 ```
 
-### Conditionals
+### [Conditionals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 * Conditions are surrounded by parenthesis `()` and each block is surrounded by brackets `{}`.
 ```javascript
 var name = "kittens";
