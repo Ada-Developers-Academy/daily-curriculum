@@ -3,7 +3,7 @@
 We try to separate concerns in web applications:
 
 * HTML - Document structure and information. Your HTML mark up should
-  be a semantic represenation of the information in your document.
+  be a semantic representation of the information in your document.
 
 * CSS - Presentation. CSS controls the way that we present our
   information to the user.
@@ -157,6 +157,11 @@ if (name == "puppies") {
   name = "!" + name;
 }
 name == "kittens!!"
+```
+
+* JavaScript also has the ternary operator
+```javascript
+var adult = (age > 18) ? "yes" : "no";
 ```
 
 ### Iterators
