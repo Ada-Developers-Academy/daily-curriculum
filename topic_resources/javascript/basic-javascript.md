@@ -1,9 +1,9 @@
-# Basic JavaScript and jQuery
+# Basic JavaScript
 
 We try to separate concerns in web applications:
 
 * HTML - Document structure and information. Your HTML mark up should
-  be a semantic represenation of the information in your document.
+  be a semantic representation of the information in your document.
 
 * CSS - Presentation. CSS controls the way that we present our
   information to the user.
@@ -23,7 +23,7 @@ JavaScript Console), or via the keyboard shortcut (Command - Option - J).
 
 There are also several sites that allow you to live code JavaScript,
 HTML, and CSS. The three most popular are [JSFiddle](//jsfiddle.net),
-[CodePen](//codepen.io), and [JS Bin](//jsbin.com). I'll be using
+[CodePen](//codepen.io), and [JS Bin](//jsbin.com). We'll use
 JSFiddle for demonstrations, but it's a matter of taste.
 
 ### Getting Help
@@ -32,7 +32,7 @@ The best JS doumentation is on the
 [Mozilla Developer Network](https://developer.mozilla.org). ProTip:
 add "mdn" to your Google searches about JavaScript
 questions. W3Schools results will show up above MDN otherwise, and
-their documentation is bad.
+their documentation is not as useful.
 
 ### Variables
 
@@ -45,12 +45,17 @@ var five = 5;
 If you omit ```var``` you will get a global variable, which can lead
 to all sorts of problems. JUST DON'T DO IT!
 
+**Note** that each line of JavaScript code ends with the `;`.
+This is optional for the code to work but **not** optional when taking into consideration style guidelines.
+
 ### Types
+
+[MDN Data Types and Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 JavaScript supports similar basic types to Ruby: Boolean, Null,
 Undefined, Number, String, Array, Object, and Function.
 
-Open the JavaScript Console and try the followin examples.
+Open the JavaScript Console and try the following examples.
 
 * Boolean is true or false
 
@@ -78,10 +83,10 @@ if (blahblah) {  // blahblah has not been declared it returns undefined
 * Number is a numeric value including integers (1, 2, 3, etc.), floats
   (1.4, -40.1), infinity (+Infinity, -Infinity), and NaN which means
   "not a number." NaN is returned when you do a numeric operation on
-  anything that's not a Number. 
+  anything that's not a Number.
 
 ```javascript
-var four = 4,
+var four = 4,     // Note the comma-separated variable declarations
     two = 2.0;
 
 Infinity < Number.MAX_VALUE  // false
@@ -105,19 +110,23 @@ str.length;      // 16 - access the length property
 str.substr(2,5); // "is is" - call the substr function
 ```
 
-* Arrays are similar to Ruby arrays. They are declared and accessed
+### Arrays
+* [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) are similar to Ruby arrays. They are declared and accessed
   with square brackets ([]).
 
 ```javascript
 var arr = [1, 2, 3, 4];
 arr.length;  // 4 - access the length property
+             // Note this *cannot* be accessed like a method with parenthesis
 arr[0];      // 1
 arr.pop()    // 4 - call the pop() function
+             // Note this method *cannot* be used without the parenthesis
 arr;         // [1, 2, 3]
 ```
 
-* Objects are like simple Ruby hashes. They are declared with braces
-  ({}). You can access properties in an Object with bracket notation
+### Objects
+* [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) are like simple Ruby hashes. They are declared with braces
+  (`{}`). You can access properties in an Object with bracket notation
   (like an array) or dot notation.
 
 ```javascript
@@ -136,7 +145,53 @@ obj.foo;    // undefined
 
 ```
 
-* Functions in JavaScript are awesome. They are more "pure" than Ruby
+### [Conditionals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+* Conditions are surrounded by parenthesis `()` and each block is surrounded by brackets `{}`.
+```javascript
+var name = "kittens";
+if (name == "puppies") {
+  name += "!";
+} else if (name == "kittens") {
+  name += "!!";
+} else {
+  name = "!" + name;
+}
+name == "kittens!!"
+```
+
+* JavaScript also has the ternary operator
+```javascript
+var adult = (age > 18) ? "yes" : "no";
+```
+
+### Iterators
+- Most common is the for-loop which has three parts:
+  - `var i = 0` - **starter**  
+    This executes at loop start.
+  - `i < 5` - **loop condition**  
+    The condition to check if loop is finished. It is checked after every execution of loop body.
+  - `i++` - **increment**  
+    An action to perform after every iteration, but before the loop condition is checked.
+
+
+```javascript
+for (var i = 0; i < 5; i++) {
+  // Will execute 5 times
+}
+```
+
+### Functions
+* Functions in JavaScript are awesome. Rather than using the `def` keyword like we're used to, JavaScript uses the `function` keyword to declare a function.
+
+```javascript
+function (choice1, choice2) {
+  if (choice1 == choice2) {
+    return "This is the same!";
+  }
+}
+```
+
+They are more "pure" than Ruby
   methods and can be put in variables, and passed around like any
   other type. Understanding functions is the key to JavaScript
   enlightenment.
@@ -150,4 +205,3 @@ var adder = function (a, b) {
 adder;        // this returns the function that you just declared
 adder(1, 2);  // 3
 ```
-
