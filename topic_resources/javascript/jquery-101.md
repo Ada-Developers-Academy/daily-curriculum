@@ -49,9 +49,9 @@ The following functions are of practical value. Look 'em up!
 * .click()
 * .submit()
 
-## Simple DOM Manipulation
+## DOM Manipulation
 
-Here's [a simple example](http://jsfiddle.net/wstfe20a/) on JSFiddle.
+Here's [an example](http://jsfiddle.net/wstfe20a/) on JSFiddle.
 
 Play with the example:
 
