@@ -43,10 +43,10 @@ var five = 5;
 ```
 
 If you omit ```var``` you will get a global variable, which can lead
-to all sorts of problems. JUST DON'T DO IT!
+to all sorts of problems. __JUST DON'T DO IT!__
 
 **Note** that each line of JavaScript code ends with the `;`.
-This is optional for the code to work but **not** optional when taking into consideration style guidelines.
+This is optional for the code to work (sometimes, and the rules are inconsistent) but **not** optional when taking into consideration style guidelines.
 
 ### Types
 
@@ -203,5 +203,5 @@ var adder = function (a, b) {
 
 // You need to use parens to call your function!
 adder;        // this returns the function that you just declared
-adder(1, 2);  // 3
+adder(1, 2);  // 3 - this executes the function and returns the result
 ```

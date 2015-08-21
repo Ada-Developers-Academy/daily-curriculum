@@ -1,6 +1,24 @@
 # JavaScript Exercises
 
-### Exercise #1: Find the biggest number in the array
+### Exercise #1: Create a ToDo object, with the following properties:
+
+- a task (a string) - a description of the thing to do
+- assignee (a string) - the name of a person to do it
+- done (a boolean) - is the task done or not?
+- getDone (a method) - get the value of done, use "this" in the body of the method.
+- setDone (a method) - set the value of done, use "this" in the body of the method.
+
+```javascript
+var todoList = {
+  task: "I am a task",
+  assignee: "jeremy",
+  done: false,
+  getDone: function() { return this.done; },
+  setDone: function(state) { this.done = state; }
+}
+```
+
+### Exercise #2: Find the biggest number in the array
 
 - Utilize the stub code below to complete the problem:
  - `getBiggest`should accept an array as a parameter and return a numeric value which corresponds to the largest value
@@ -21,11 +39,3 @@ function getBiggest(array) {
 var biggest = getBiggest(arrayOfNums);
 console.log("The biggest is: ", biggest);
 ```
-
-### Exercise #2: Create a ToDo object, with the following properties:
-
-- a task (a string) - a description of the thing to do
-- assignee (a string) - the name of a person to do it
-- done (a boolean) - is the task done or not?
-- getDone (a method) - get the value of done, use "this" in the body of the method.
-- setDone (a method) - set the value of done, use "this" in the body of the method.
