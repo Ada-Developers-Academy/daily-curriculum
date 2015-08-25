@@ -431,15 +431,40 @@ In Week 15 we will be begin a unit on Refactoring and Service Oriented Architect
 - Practice SOA
 
 ## Resources
-[Building APIs](../topic_resources/building_apis.md)  
-[Creating an Api in Rails](../topic_resources/creating-an-api-in-rails.md)  
-
-?? [Basic Mocks and Stubs](../topic_resources/see-more.md)
+[Creating an Api in Rails](../topic_resources/creating-an-api-in-rails.md)
+[Ada Pets](https://github.com/Ada-Developers-Academy/ada-pets)  
 
 
 ## Projects
-[Shipping Service](../topic_resources/shipping_service.md)  
+[Shipping Service](https://github.com/Ada-Developers-Academy/C3Projects--Shipping)
+[Shipping Service Teams](../topic_resources/c3-shipping-teams.md)
 
+
+## Week 16
+In Week 16 we will start using JavaScript! We will start with an introduction and a few small projects using on Chrome Dev Tools and JSFiddle. Then we will go into a few larger projects in the browser. Finally we will integrate some of our new found skills into a Rails application.
+
+## Learning Goals
+ - Introduction to JavaScript
+ - Utilize Dev Tools for increased debugging skills
+ - Introduction to jQuery
+ - Integrate JavaScript into Rails app
+
+## Resources
+#### Lecture Topics
+[JS 101](../topic_resources/javascript/javascript-101.md)  
+[JS 102](../topic_resources/javascript/javascript-102.md)  
+[jQuery 101](../topic_resources/javascript/jquery-101.md)  
+[ajax](../topic_resources/javascript/ajax.md)  
+
+#### Exercises
+[JS 101 Exercises](../topic_resources/javascript/exercises-101.md)  
+[Ch 2 Exercises](http://eloquentjavascript.net/02_program_structure.html#h_TcUD2vzyMe)  
+[Ch 3 Exercises](http://eloquentjavascript.net/03_functions.html#h_TcUD2vzyMe)  
+[JS Koans](https://github.com/mrdavidlaing/javascript-koans)  
+
+#### Projects
+[Digital Clock](https://github.com/Ada-Developers-Academy/js-digital-clock)  
+[Keyboard](https://github.com/Ada-Developers-Academy/js-music-keyboard)  
 
 <!--
 
