@@ -4,40 +4,44 @@ In this lesson we will look at AJAX and the supporting ideas to making an AJAX r
 
 Ajax (Asynchronous JavaScript and XML), is a method of making HTTP requests from the browser to a server without refreshing the browser page. Ajax is initiated using Javascript, here is an example:
 
-    var xhr = new XMLHttpRequest();
-    xhr.open('get', '/some-url');
+```js
+var xhr = new XMLHttpRequest();
+xhr.open('get', '/some-url');
 
-    // Track the state changes of the request
-    xhr.onreadystatechange = function(){
-        // Ready state 4 means the request is done
-        if(xhr.readyState === 4){
-            // 200 is a successful return
-            if(xhr.status === 200){
-                alert(xhr.responseText); // 'This is the returned text.'
-            }else{
-                alert('Error: '+xhr.status); // An error occurred during the request
-            }
+// Track the state changes of the request
+xhr.onreadystatechange = function(){
+    // Ready state 4 means the request is done
+    if(xhr.readyState === 4){
+        // 200 is a successful return
+        if(xhr.status === 200){
+            alert(xhr.responseText); // 'This is the returned text.'
+        }else{
+            alert('Error: '+xhr.status); // An error occurred during the request
         }
     }
+}
 
-    // Send the request to send-ajax-data.php
-    xhr.send(null);
+// Send the request to send-ajax-data.php
+xhr.send(null);
+```
 
 But, we are going to be looking more in-depth at requests using jQuery, here is a similar request:
 
-    $.get('/some-url', function(data) {
-        alert(data);
-    });
-
+```js
+$.get('/some-url', function(data) {
+    alert(data);
+});
+```
 
 ### An App
 
-Next, lets warm up with just a little jquery DOM manipulation, that will help us get a feel for what we want the functionality to be. I want to be able to delete clubs without refreshing the page.
+Next, lets warm up with just a little jQuery DOM manipulation, that will help us get a feel for what we want the functionality to be. I want to be able to delete clubs without refreshing the page.
 
-```
+```ruby
 # app/views/clubs/index.html.erb
 <%= button_to "Choose", player_club_path(club.id), class: "choose btn btn-success"  %>
 ```
+
 I've added a class of `.choose` to the button to.
 
 ```js
@@ -82,11 +86,11 @@ $(function () {
 });
 ```
 
-The `.ajax` method takes a couple of arguments, the first being the url we want to send
-an HTTP request to. The next is an object of options. The two options we are setting are
-`type`, this specifies the HTTP method (GET, POST, etc...) that should be sent.
-The next option is `success`, this option takes a `function` as a value, if the HTTP
-request is successful this function will be run with the HTTP response as an argument.
+The `.ajax` method takes two arguments. The first parameter is the url we want to send
+an HTTP request to. The second is an object of options, or settings as jQuery calls it.
+
+In this example, the first option we are setting is `type`, which specifies the HTTP method (GET, POST, etc...) that should be sent.
+The next option is `success`, which takes a `function` as a value. If the HTTP request is successful this function will be executed with the HTTP response as an argument.
 
 Let's look at the jQuery ajax methods a little closer. jQuery provides several methods to help make ajax requests:
 
@@ -96,18 +100,18 @@ Let's look at the jQuery ajax methods a little closer. jQuery provides several m
 - `$.getJSON`
 
 Each of these do the same thing (an ajax request), they just set some of the HTTP request attributes differently. The `$.ajax` method is the most broad, this is the method to use for full functionaltiy. But let's take a quick look at the `$.get` method to try to simplify things a bit:
+```js
+$.get('/clubs.json', function(data, textStatus, xhr) {
+  console.log(data)
+  console.log(textStatus)
+  console.log(xhr)
+});
+```
 
-    $.get('/clubs.json', function(data, textStatus, xhr) {
-      console.log(data)
-      console.log(textStatus)
-      console.log(xhr)
-    });
-
-This method takes on argument, and then a function to handle the response. The argument is simply the url to submit the request to, then a function that will receive, the data, status, and the HTTP response itself.
+This method takes two arguments. The first argument is the url to submit the request to. The second is a function which will receive, the data, status, and the HTTP response itself.
 
 ### Resources
 
-[jQuery Ajax docs](http://api.jquery.com/jquery.ajax/)
-[jQuery Railscast](http://railscasts.com/episodes/136-jquery)
-[jQuery & Ajax Railscast (paid)](http://railscasts.com/episodes/136-jquery-ajax-revised)
-[Rails w/javascript](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html)
+[jQuery Ajax docs](http://api.jquery.com/jquery.ajax/)  
+[jQuery Railscast](http://railscasts.com/episodes/136-jquery)  
+[Rails w/javascript](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html)  
