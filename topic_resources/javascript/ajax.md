@@ -8,6 +8,20 @@ Ajax (Asynchronous JavaScript and XML), is a method of making HTTP requests from
 
 Next, lets warm up with just a little jQuery DOM manipulation, that will help us get a feel for what we want the functionality to be. We want to be able to delete clubs without refreshing the page.
 
+#### Setup
+- Clone [this repo](https://github.com/Ada-Developers-Academy/golf-jquery-practice)
+- Get the app running with:
+```bash
+bundle
+rake db:create db:migrate db:seed
+rails server
+```
+- Navigate to the root page in the browser
+
+#### Getting started
+
+We are going to start on the index page of our app to add some interactivity. We will start with the "Choose" button.
+
 ```html
 # app/views/clubs/index.html.erb
 <%= button_to "Choose", player_club_path(club.id), class: "choose btn btn-success"  %>
