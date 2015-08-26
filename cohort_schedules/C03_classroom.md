@@ -444,10 +444,19 @@ In Week 15 we will be begin a unit on Refactoring and Service Oriented Architect
 In Week 16 we will start using JavaScript! We will start with an introduction and a few small projects using on Chrome Dev Tools and JSFiddle. Then we will go into a few larger projects in the browser. Finally we will integrate some of our new found skills into a Rails application.
 
 ## Learning Goals
- - Introduction to JavaScript
- - Utilize Dev Tools for increased debugging skills
- - Introduction to jQuery
- - Integrate JavaScript into Rails app
+ - Introduction to JavaScript, including core concepts and features:
+   - variables
+   - types
+   - arrays
+   - functions
+   - scope
+   - objects
+ - Understanding of the DOM and how the browser loads and represents web pages.
+ - Using JavaScript and jQuery to modify a web page:
+     - with the JavaScript document object and associated methods
+     - with jQuery's $ function and associated methods
+ - Integrate JavaScript into a Rails app
+  - Understanding event handlers to write code that responds to user interaction.
 
 ## Resources
 #### Lecture Topics
@@ -467,49 +476,6 @@ In Week 16 we will start using JavaScript! We will start with an introduction an
 [Keyboard](https://github.com/Ada-Developers-Academy/js-music-keyboard)  
 
 <!--
-
-JS HW:
-
-- Complete the [Cat Adventure Project](../topic_resources/cat_adventure_homework.md)
-
-
-
-__Weekend Homework__
-
-Create your own app
-
-OR
-
-Create a single serving (no users) version of Twitter. The app should have:
-
-- Tweet model
-    - body (must be present, max 140 characters long)
-    - author
-- TweetsController
-    - An `index` action which shows all of the tweets
-    - A `show` action to view a specific tweet
-    - A `new` action (optional, you can put the form on `index`)
-    - A `create` action where tweets are created
-
-__optional__
-
-- tweet_spec.rb
-    - Testing validations of body (presence and length)
-    - Testing any addition methods you add
-- tweets_controller_spec.rb
-    - Test each controller action
-    - No need to test private actions
-
-__Extra Credit__
-
-Implement Users using a TDD approach.
-
-## Week 11
-
-Week 11 will be a break from Rails to focus on JavaScript and jQuery. We'll focus first on learning core JavaScript language concepts, and then how to use JavaScript and jQuery to program web pages in the browser. Students will create a simple to do list app to add to do list items dynamically to a web page. By the end of the week, students will be able to use JavaScript and jQuery to interact with and modify web pages, and use JavaScript variables, types, arrays, functions, objects, and jQuery methods.
-
-### Learning Goals
-
 - Understanding of core JavaScript concepts and features:
     - variables
     - types

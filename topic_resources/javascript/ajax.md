@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
   $(".choose").click(function(e) {
     e.preventDefault();
     var div = $(this).parents(".club");
-    div.addClass("chosen")
+    div.addClass("chosen");
   });
 ```
 
@@ -80,7 +80,7 @@ $(function () {
     $.ajax(url, {
       type: "POST",
       success: function (data) {
-        div.addClass("chosen")
+        div.addClass("chosen");
       }
     });
   });
@@ -102,9 +102,9 @@ Let's look at the jQuery ajax methods a little closer. jQuery provides several m
 Each of these do the same thing (an ajax request), they just set some of the HTTP request attributes differently. The `$.ajax` method is the most broad, this is the method to use for full functionality. But let's take a quick look at the `$.get` method to try to simplify things a bit:
 ```js
 $.get('/clubs.json', function(data, textStatus, xhr) {
-  console.log(data)
-  console.log(textStatus)
-  console.log(xhr)
+  console.log(data);
+  console.log(textStatus);
+  console.log(xhr);
 });
 ```
 
