@@ -9,7 +9,7 @@ Ajax (Asynchronous JavaScript and XML), is a method of making HTTP requests from
 Next, lets warm up with just a little jQuery DOM manipulation, that will help us get a feel for what we want the functionality to be. We want to be able to delete clubs without refreshing the page.
 
 #### Setup
-- Clone [this repo](https://github.com/Ada-Developers-Academy/golf-jquery-practice)
+- Clone [this repo](https://github.com/Ada-Developers-Academy/jquery-practice)
 - Get the app running with:
 ```bash
 bundle
