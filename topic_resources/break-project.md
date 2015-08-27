@@ -1,6 +1,6 @@
-# Holiday Break Project
+# Break Project
 
-Create an application during the holiday break. The app can be anything that you want! Here are some examples to get creative juices flowing:
+Create an application during your break. The app can be anything that you want! Here are some examples to get creative juices flowing:
 
 - http://thissocks.herokuapp.com/ (Blake's C1 project)
 - http://bksydg.com/
