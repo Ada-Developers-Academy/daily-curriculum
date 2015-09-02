@@ -1,4 +1,4 @@
-# Calculator Exercise
+# Calculator
 
 Build a calculator command line interface (CLI) that allows a user to perform simple arithmetic.
 
