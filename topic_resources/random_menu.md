@@ -9,7 +9,7 @@ For example, the first array can contain adjectives, the second, cooking styles 
   - soft steamed clams
   - etc.
 
-## Breakfast
+## Primary Requirements
 Create a random menu generator that can be played from the Terminal.
 
 Your generator should pull one item from each array you made in the baseline requirements to create a "menu item".
@@ -23,16 +23,8 @@ When the program runs, it should create and show a list of ten numbered menu ite
 10. creamy taco cake
 ```
 
-## Lunch
-Expand your solution to use __any__ number of menu items that you provided. So if you expand your arrays to contain 15 or 20 items, your program will show a list of 15 or 20 items.
-  __Note:__ Since you are utilizing three different arrays, you will need to determine which one of those three you will use to determine the length of your list.
-
-## Dinner
-- Expand your solution to ensure that no descriptive term in a menu item is ever repeated. For example, if the first menu item is `hot pan-fried dumplings`, the the phrases `hot`, `pan-friend` and `dumpling` cannot individually be used in any other menu items.
+## Optional Requirements
+- Expand your solution to ensure that no descriptive term in a menu item is ever repeated. So if the first menu item is `hot pan-fried dumplings`, the the phrases `hot`, `pan-friend` and `dumpling` cannot individually be used in any other menu items.
 - Expand your solution to allow the user to determine how many items they'd like to see via user input.
-  __Note:__ You will
-
-## Dessert
-Instead of using hardcoded or predefined arrays, make your program accept user input. This user input will be utilized to generate the menu items. You'll need to prompt for and store a varying number of entries for each foot-type array.
-
-### [Rubric](../rubrics/week_1_random_menu.md)
+  __Note:__ You will need to ensure that this user-chosen number of items is not larger than the number of items you have in your arrays.
+- Instead of using hardcoded or predefined arrays, make your program accept user input. This user input will be utilized to generate the menu items. You'll need to prompt for and store a varying number of entries for each food-type array.
