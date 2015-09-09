@@ -4,7 +4,7 @@
 
 Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
-Nov 30  |   | None
+Nov 30  |   | **NO CLASS - INTERNSHIPS START**
 Dec 7   |   | Culture Shock & Learning New Code Bases
 Dec 14  |   | Calibration & Feedback
 Jan 4   |   |
