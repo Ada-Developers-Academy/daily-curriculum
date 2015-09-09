@@ -3,7 +3,8 @@ Curriculum Schedules
 * Cohort 4:  
   [Classroom Calendar](cohort_schedules/C04_classroom.md)
 * Cohort 3:  
-  [Classroom Calendar](cohort_schedules/C03_classroom.md)
+  [Classroom Calendar](cohort_schedules/C03_classroom.md)  
+  [Classroom Calendar](cohort_schedules/C03_internship.md)
 * Cohort 2:  
   [Classroom Calendar](cohort_schedules/C02_classroom.md)  
 [Internship Calendar](cohort_schedules/C02_internship.md)
