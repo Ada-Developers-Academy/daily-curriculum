@@ -13,14 +13,13 @@ __(You must have at least one team member in each picture)__
 - [ ] A fresh donut from The Daily Dozen
 - [ ] A fresh donut from Top Pot
 - [ ] A fruit or vegetable that no one in your group has tried before
-- [ ] A geocache
 - [ ] A group of 4+ bikers
 - [ ] A group of people sporting Seahawks apparel
 - [ ] A handlebar (or otherwise fancy) mustache
 - [ ] A non-compact car in a "compact only" space
 - [ ] A photo of an out-of-state license plate
 - [ ] A picture from the top of the ferris wheel
-- [ ] A promotional pen from a software company (other than Moz)
+- [ ] A promotional pen from a software company
 - [ ] A rainbow
 - [ ] A ferry
 - [ ] A Henry mural
@@ -42,11 +41,9 @@ __(You must have at least one team member in each picture)__
 - [ ] Olympic Sculpture Park
 - [ ] Freeway park
 - [ ] A working pinball or arcade machine
-- [ ] Molly Moons ice cream
 - [ ] Ostentatious recycling
 - [ ] People waiting in line at Dick's
 - [ ] Put some gum on the gum wall
-- [ ] REI
 - [ ] A Seattle-centric tattoo
 - [ ] SAM
 - [ ] Someone eating seafood
@@ -63,7 +60,5 @@ __(You must have at least one team member in each picture)__
 - [ ] Teatro ZinZanni
 - [ ] The original Starbucks
 - [ ] The view from the highest altitude Starbucks
-- [ ] The giant gummi bear
 - [ ] Yoga pants and a briefcase
 - [ ] Your entire group in a picture with the Space Needle
-- [ ] Bike polo
