@@ -34,8 +34,8 @@ Hotkeys
 - `⌘w` - close the current tab (window if single tab)
 - `⌘⇧w` - close the current window (all tabs)
 - `⌘q` - quit the current application
-- `⌘⇥` - switch applications, continue to hold `⌘` to display all open programs, each tap on `⇥` will switch to the next app.
-- `⌘ backtick` - (backtick is below `esc`), switch windows in the current application
+- `⌘⇥` - switch applications, continue to hold `⌘` to display all open programs, each tap on `⇥` will switch to the next app. Use ⇧⇥ to switch to previous app.
+- `⌘ backtick` - (backtick is below `esc`), switch windows in the current application, use ⇧ backtick to switch to previous window.
 - `⌘␣` - open Spotlight. Spotlight is a tool to search applications, files, and perform some basic function like math and conversions
 
 ### Common Application Hotkeys\*
