@@ -23,7 +23,7 @@ You will receive an error during the “Finding Software” stage, this means th
 xcode-select -p
 ```
 
-You should get something like `/Library/Developer/CommandLineTools`
+You should get something like `/Applications/Xcode.app/Contents/Developer` or `/Library/Developer/CommandLineTools`.
 
 Homebrew
 ========
