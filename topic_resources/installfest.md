@@ -108,13 +108,13 @@ Installing Ruby
 ## FINALLY!
 
 ```
-rvm install 2.1.2
+rvm install 2.2.3
 ```
 
-Set Ruby 2.0 as our default
+Set Ruby 2.2 as our default
 
 ```
-rvm use 2.1.2 --default
+rvm use 2.2.3 --default
 ```
 
 
@@ -131,22 +131,22 @@ Trust, But Verify
 
 ```
 which ruby
-/usr/local/rvm/rubies/ruby-2.2.1/bin/ruby
+/usr/local/rvm/rubies/ruby-2.2.3/bin/ruby
 ```
 
 ```
 rvm current
-ruby-2.2.1
+ruby-2.2.3
 ```
 
 ```
 rails -v
-Rails 4.2.1
+Rails 4.2.4
 ```
 
 ```
 which rails
-/usr/local/rvm/gems/ruby-2.2.1/bin/rails
+/usr/local/rvm/gems/ruby-2.2.3/bin/rails
 ```
 
 Text Editors
