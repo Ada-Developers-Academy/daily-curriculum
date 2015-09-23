@@ -68,9 +68,7 @@
 [How to OS X](../topic_resources/how-to-os-x.md)  
 [Introduction to Unix](../topic_resources/nix.md)  
 [Installfest](../topic_resources/installfest.md)  
-
-#### Terminal Links
-+ [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
+[Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
 
 [Introduction to Ruby](../topic_resources/ruby_101.md)  
 + Overview  
@@ -106,3 +104,5 @@
 + Case/when  
 
 ### Projects/Exercises
+[Calculator](https://github.com/Ada-C4/Calculator)  
+[Random Menu](https://github.com/Ada-C4/Random-Menu)  
