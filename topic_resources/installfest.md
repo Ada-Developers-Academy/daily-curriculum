@@ -3,7 +3,7 @@ Intro to Installfest!
 
 Many of you will have these tools installed, but we're going to go through them together and make sure everyone is set to go.
 
-Follow the steps below, typing any necassary code into the Terminal application.
+Follow the steps below, typing any necessary code into the Terminal application.
 
 If you've got pieces installed, help your fellow students!
 
