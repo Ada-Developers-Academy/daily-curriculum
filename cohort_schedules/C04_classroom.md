@@ -87,21 +87,22 @@
 + Array  
 + Hash (Intro)  
 
-[Flow Control](../topic_resources/flow-control.md)
-+ Boolean  
-+ Conditionals (excluding elsif)  
-
 [Ruby 103](../topic_resources/ruby-103.md)  
 + Iterators  
 + Block  
 + Block scope  
-+ Literals  
+
+[Flow Control](../topic_resources/flow-control.md)
++ Boolean  
++ Conditionals (excluding elsif)  
 
 [More on Conditionals & Flow Control](../topic_resources/ruby-104.md)  
 + Compound conditionals  
 + While  
 + Until  
 + Case/when  
+
+[Literals](../topic_resources/literals.md)  
 
 ### Projects/Exercises
 [Calculator](https://github.com/Ada-C4/Calculator)  
