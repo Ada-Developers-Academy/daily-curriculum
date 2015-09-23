@@ -35,3 +35,74 @@
 | Apr 4   | [Week 26](#week-26) | Internship Spike Project
 | Apr 11  | [Week 27](#week-27) | Internship Spike Project
 | Apr 18   |                     | __INTERNSHIP BEGINS__
+
+
+## Week 1
+
+### Learning Goals
+
+  + Introduction to the program
+      + Get to know each other (students and staff)
+      + Understand expectations
+      + What is Ada?
+  + Working Ruby development environment
+  + Comfort with basic OS X Hotkeys
+  + Comfort with basic UNIX command-line skills
+      + navigation
+      + file manipulation
+      + grep
+      + man pages
+      + modifying your terminal
+  + Ruby history & background
+  + Learning basic ruby concepts
+      - irb
+      - Methods
+      - Iterators
+      - Variables
+      - Conditionals
+  + Learn about basic tools
+      - Text Editors (Atom)
+      - Terminal
+
+### Resources
+[How to OS X](../topic_resources/how-to-os-x.md)  
+[Introduction to Unix](../topic_resources/nix.md)  
+[Installfest](../topic_resources/installfest.md)  
+
+#### Terminal Links
++ [Terminal Aliases & Profile](http://mac.tutsplus.com/tutorials/terminal/speed-up-your-terminal-workflow-with-command-aliases-and-profile/)
+
+[Introduction to Ruby](../topic_resources/ruby_101.md)  
++ Overview  
++ Community  
++ IRB  
++ Math  
++ Basic variables  
++ Using methods  
+
+[Introduction to Atom](../topic_resources/atom.md)  
+
+[Ruby 102](../topic_resources/ruby-102.md)  
++ String  
++ Symbol  
++ Number  
++ Array  
++ Hash (Intro)  
+
+[Flow Control](../topic_resources/flow-control.md)
++ Boolean  
++ Conditionals (excluding elsif)  
+
+[Ruby 103](../topic_resources/ruby-103.md)  
++ Iterators  
++ Block  
++ Block scope  
++ Literals  
+
+[More on Conditionals & Flow Control](../topic_resources/ruby-104.md)  
++ Compound conditionals  
++ While  
++ Until  
++ Case/when  
+
+### Projects/Exercises
