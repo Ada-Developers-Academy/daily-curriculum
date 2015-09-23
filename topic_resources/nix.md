@@ -144,10 +144,25 @@ As you get more comfortable with using Terminal, you'll notice that you start ty
 "Piping"
 ========
 
-We can string commands together to create powerful compound commands. We use the pipe character '|' to send the output of one command on to the next one.
+We can string commands together to create powerful compound commands. We can also use the greater-than character '>' to write the output of a command into a file.
 
 ```
-grep -irn banana . | grep -v Pie
+printf "bananas\napples\npancakes\n"
+printf "tacos\noranges\ncupcakes\n" > foods
+cat foods
+```
+
+We use the pipe character '|' to send the output of one command on to the next one. 
+
+```
+printf "bananas\napples\npancakes\n" | grep "an"
+cat foods | grep "an"
+```
+
+For the `grep` command the above can be written more simply as:
+
+```
+grep "an" foods
 ```
 
 (Take note: This idea of chaining commands together is important in Ruby!)
