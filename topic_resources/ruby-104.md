@@ -150,6 +150,45 @@ if command == "add" || command == "+"
 end
 ```
 
+### Simplifying really complex conditionals
+```ruby
+if command == "add" || command == "+"
+  # adds numbers
+elsif command == "subtract" || command == "-"
+  # subtract the numbers
+elsif command == "multiply" || command == "*"
+  # multiply the numbers
+elsif command == "divide" || command == "/"
+  # divide the numbers
+elsif command == "exponify" || command == "**"
+  # exponify the number
+elsif command == "sqrt"
+  # find the square root of the number
+end
+```
+
+The above code works, but it's kinda messy. We can trim it by using the `case/when` syntax:
+```ruby
+case command
+  when "add", "+"
+    # adds numbers
+  when "subtract", "-"
+    # subtract the numbers
+  when "multiply", "*"
+    # multiply the numbers
+  when "divide", "/"
+    # divide the numbers
+  when "exponify", "**"
+    # exponify the number
+  when "sqrt"
+    # find the square root of the number
+  else
+    puts "What do you want from me?!"
+end
+```
+
+
+
 ## Conditional Loops
 ### Wait a `while`
 Execute the iterator `while` the condition is true.
@@ -223,41 +262,4 @@ until ["add", "+", "subtract", "-"].include? command
 end
 
 puts "OMG It's about time!"
-```
-
-## Simplifying really complex conditionals
-```ruby
-if command == "add" || command == "+"
-  # adds numbers
-elsif command == "subtract" || command == "-"
-  # subtract the numbers
-elsif command == "multiply" || command == "*"
-  # multiply the numbers
-elsif command == "divide" || command == "/"
-  # divide the numbers
-elsif command == "exponify" || command == "**"
-  # exponify the number
-elsif command == "sqrt"
-  # find the square root of the number
-end
-```
-
-The above code works, but it's kinda messy. We can trim it by using the `case/when` syntax:
-```ruby
-case command
-  when "add", "+"
-    # adds numbers
-  when "subtract", "-"
-    # subtract the numbers
-  when "multiply", "*"
-    # multiply the numbers
-  when "divide", "/"
-    # divide the numbers
-  when "exponify", "**"
-    # exponify the number
-  when "sqrt"
-    # find the square root of the number
-  else
-    puts "What do you want from me?!"
-end
 ```
