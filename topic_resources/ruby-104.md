@@ -95,6 +95,22 @@ end
 
 The `if` block executes if the _conditional_ evaluates as `true`. The `unless` block executes if the _conditional_ evaluates as `false`.
 
+Another way to "negate" a conditional is to use the `!` (not) operator. This should be placed just before a boolean value, or a comparison. When combined with a comparison the comparison should be enclosed in parentheses:
+
+```ruby
+puts "What day of the week is it?"
+day_of_week = gets.chomp
+
+puts "What did you have for lunch today?"
+lunch = gets.chomp
+
+if day_of_week.downcase == "tuesday"
+  if !(lunch == "tacos")
+    puts "Taco Tuesdays are my favorite, though!"
+  end
+end
+```
+
 
 ### Compound Conditions
 Comparisons are often combined. Combinations can take one of two forms, *and* and *or*. When you combine with `and`, *both* comparisons must be `true` for the entire combination to be `true`. By combining with `or`, when *either* of the comparisons are `true`, the entire combination is `true`:
