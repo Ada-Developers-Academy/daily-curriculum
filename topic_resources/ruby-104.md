@@ -97,7 +97,7 @@ The `if` block executes if the _conditional_ evaluates as `true`. The `unless` b
 
 
 ### Compound Conditions
-Comparison expressions are often combined. Combinations can take one of two forms, *and* and *or*. When you combine with `and`, *both* comparisons must be `true` for the entire combination to be `true`. By combining with `or`, when *either* of the comparisons are `true`, the entire combination is `true`:
+Comparisons are often combined. Combinations can take one of two forms, *and* and *or*. When you combine with `and`, *both* comparisons must be `true` for the entire combination to be `true`. By combining with `or`, when *either* of the comparisons are `true`, the entire combination is `true`:
 - `&&` (and)
 - `||` (or)
 
