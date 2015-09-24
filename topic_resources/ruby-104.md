@@ -180,21 +180,23 @@ This can be very useful, when you have more than one `elsif` line, because the i
 
 
 ### Simplifying really complex conditionals
-When you have several `elsif` lines within a single `if`, there's an even simpler way to write each conditional:
+When you have several `elsif` lines within a single `if`, there's a way to write each conditional, with much less repetition:
 
 ```ruby
 if command == "add" || command == "+"
-  # adds numbers
+  puts "We're adding numbers"
 elsif command == "subtract" || command == "-"
-  # subtract the numbers
+  puts "We're subtracting numbers"
 elsif command == "multiply" || command == "*"
-  # multiply the numbers
+  puts "We're multiplying numbers"
 elsif command == "divide" || command == "/"
-  # divide the numbers
+  puts "We're dividing numbers"
 elsif command == "exponify" || command == "**"
-  # exponify the number
+  puts "We're exponentiating numbers"
 elsif command == "sqrt"
-  # find the square root of the number
+  puts "We're finding the square root of a number"
+else
+  puts "What do you want from me?!"
 end
 ```
 
@@ -202,17 +204,17 @@ The above code works, but it's kinda messy. We can trim it by using the `case/wh
 ```ruby
 case command
   when "add", "+"
-    # adds numbers
+    puts "We're adding numbers"
   when "subtract", "-"
-    # subtract the numbers
+    puts "We're subtracting numbers"
   when "multiply", "*"
-    # multiply the numbers
+    puts "We're multiplying numbers"
   when "divide", "/"
-    # divide the numbers
+    puts "We're dividing numbers"
   when "exponify", "**"
-    # exponify the number
+    puts "We're exponentiating numbers"
   when "sqrt"
-    # find the square root of the number
+    puts "We're finding the square root of a number"
   else
     puts "What do you want from me?!"
 end
