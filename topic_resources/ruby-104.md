@@ -150,7 +150,38 @@ if command == "add" || command == "+"
 end
 ```
 
+### Complex conditionals
+The `if/else/end` code we've written above is the standard and simplest form of a conditional. It is possible to extend this form with one or more `elsif` lines:
+
+```ruby
+if command == "add" || command == "+"
+  puts "We're adding numbers"
+else
+  if command == "subtract" || command == "-"
+    puts "We're subtracting numbers"
+  else
+    if command == "multiply" || command == "*"
+      puts "We're multiplying numbers"
+    end
+  end
+end
+
+# This is equivalent to the above
+if command == "add" || command == "+"
+  puts "We're adding numbers"
+elsif command == "subtract" || command == "-"
+  puts "We're subtracting numbers"
+elsif command == "multiply" || command == "*"
+  puts "We're multiplying numbers"
+end
+```
+
+This can be very useful, when you have more than one `elsif` line, because the indentation, or *nesting*, can quickly become very deep, and more difficult to understand.
+
+
 ### Simplifying really complex conditionals
+When you have several `elsif` lines within a single `if`, there's an even simpler way to write each conditional:
+
 ```ruby
 if command == "add" || command == "+"
   # adds numbers
