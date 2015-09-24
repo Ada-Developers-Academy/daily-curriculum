@@ -24,7 +24,7 @@ by ruby it would be a `String`
 # => 31
 ```
 
-Check out the [Documentation for String](http://www.ruby-doc.org/core-2.2.2/String.html) to see other things that you can do to a String
+Check out the [Documentation for String](http://www.ruby-doc.org/core-2.2.3/String.html) to see other things that you can do to a String
 
 #### Single or Double Quotes?
 Either work, they do have some differences, double quotes interpolate special characters and Ruby.
@@ -87,7 +87,7 @@ Use Integers unless you have a specific reason not to.
 # (be careful, you may not always get the type that you expect back)
 ```
 
-Check out the Documentation for [Integers](http://www.ruby-doc.org/core-2.2.2/Integer.html) and [Floats](http://www.ruby-doc.org/core-2.2.2/Float.html).
+Check out the Documentation for [Integers](http://www.ruby-doc.org/core-2.2.3/Integer.html) and [Floats](http://www.ruby-doc.org/core-2.2.3/Float.html).
 
 Collections
 -----------
@@ -138,12 +138,12 @@ h[:greeting] # => "Hello"
 h[:pi] # => 3.14
 
 ```
-Look at the Ruby docs for [Array](http://www.ruby-doc.org/core-2.2.2/Array.html) and [Hash](http://www.ruby-doc.org/core-2.2.2/Hash.html) for more info
+Look at the Ruby docs for [Array](http://www.ruby-doc.org/core-2.2.3/Array.html) and [Hash](http://www.ruby-doc.org/core-2.2.3/Hash.html) for more info
 
 Resources
 ---------
-- http://www.ruby-doc.org/core-2.2.2/String.html
-- http://www.ruby-doc.org/core-2.2.2/Integer.html
-- http://www.ruby-doc.org/core-2.2.2/Float.html
-- http://www.ruby-doc.org/core-2.2.2/Array.html
-- http://www.ruby-doc.org/core-2.2.2/Hash.html
+- http://www.ruby-doc.org/core-2.2.3/String.html
+- http://www.ruby-doc.org/core-2.2.3/Integer.html
+- http://www.ruby-doc.org/core-2.2.3/Float.html
+- http://www.ruby-doc.org/core-2.2.3/Array.html
+- http://www.ruby-doc.org/core-2.2.3/Hash.html
