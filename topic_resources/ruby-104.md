@@ -1,4 +1,4 @@
-# ￼Ruby 104 - Flow Control
+# ￼Ruby 104
 
 ## Comparisons
 Equality comparisons can be used on all objects, including `Strings`, `Integers`, `Floats`, `Arrays`, `Hashes`, etc:
@@ -23,9 +23,8 @@ The "result" of a comparison is known as a `Boolean`. There are only two kinds o
 # => true
 ```
 
-
-## Conditionals
-
+## Flow Control
+### Conditionals
 `if` and `else` allow you to control the flow of your program. This means that they allow you to define which lines of code will execute, and which will be skipped.
 
 ```ruby
@@ -73,7 +72,7 @@ end
 ```
 
 
-## Negating Comparisons
+### Negating Comparisons
 Ruby has an `unless` keyword that works just like `if`, but in the reverse way.
 
 ```ruby
@@ -97,7 +96,7 @@ end
 The `if` block executes if the _conditional_ evaluates as `true`. The `unless` block executes if the _conditional_ evaluates as `false`.
 
 
-## Compound Conditions
+### Compound Conditions
 Comparison expressions are often combined. Combinations can take one of two forms, *and* and *or*. When you combine with `and`, *both* comparisons must be `true` for the entire combination to be `true`. By combining with `or`, when *either* of the comparisons are `true`, the entire combination is `true`:
 - `&&` (and)
 - `||` (or)
@@ -167,7 +166,7 @@ end
 puts "OMG It's about time!"
 ```
 
-## Make it clearer by using `Until`
+### Make it clearer by using `Until`
 Execute the iterator `until` the condition is true.
 
 ```ruby
@@ -198,7 +197,7 @@ end
 puts "OMG It's about time!"
 ```
 
-## Make it clearer by using `include?`
+### Make it clearer by using `include?`
 ```ruby
 command = gets.chomp
 
