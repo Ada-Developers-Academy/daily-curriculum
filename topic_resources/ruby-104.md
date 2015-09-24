@@ -11,7 +11,7 @@ Numeric comparisons are used primarily on `Integers` and `Floats`:
 - \>= (greater than or equal to?)
 - <= (less than or equal to?)
 
-The "result" of a comparison is known as a `Boolean`. There are only two kinds of `Boolean` object:
+The "result" of a comparison is known as a boolean. There are only two kinds of boolean object:
 - `true`
 - `false`
 
