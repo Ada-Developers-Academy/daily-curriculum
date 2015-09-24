@@ -1,6 +1,68 @@
-# More About Conditionals and Flow Control
+# ￼Ruby 104 - Flow Control
 
-In the calculator project, we talked about conditionals
+## Comparisons
+Equality comparisons can be used on all objects, including `Strings`, `Integers`, `Floats`, `Arrays`, `Hashes`, etc:
+- == (equal to?)
+- != (not equal to?)
+
+Numeric comparisons are used primarily on `Integers` and `Floats`:
+- >  (greater than?)
+- <  (less than?)
+- \>= (greater than or equal to?)
+- <= (less than or equal to?)
+
+The "result" of a comparison is known as a `Boolean`. There are only two kinds of `Boolean` object:
+- `true`
+- `false`
+
+```ruby
+1 > 0
+# => true
+
+"hello" == "hello"
+# => true
+```
+
+
+## Conditionals
+
+`if` and `else` allow you to control the flow of your program. This means that they allow you to define which lines of code will execute, and which will be skipped.
+
+```ruby
+if boolean_value
+  code
+end
+
+additional_code
+```
+
+When you use an `if`, the `code` that follows it (until the `end`) will only be executed *if* the `boolean_value` is `true`. Additionally, you may add `else` before the `end`:
+
+```ruby
+if boolean_value
+  code
+else
+  other_code
+end
+
+additional_code
+```
+
+In this case, when `boolean_value` is `false`, then `other_code` will be executed. Otherwise, it will be skipped. When you have an `if` and an `else` only one or the other of `code` or `other_code` will be executed, and that is determined by the value of `boolean_value`.
+
+```ruby
+puts "Hey! What’s your name?"
+response = gets.chomp
+
+is_my_name = response.downcase == "computer"
+if is_my_name
+  puts "Weird, that's my name too. Small world!"
+else
+  puts "Wacky name!"
+end
+
+puts "Well, it was nice to meet you #{response}."
+```
 
 ```ruby
 if 1 > 0
@@ -10,59 +72,71 @@ else
 end
 ```
 
-## Comparisons
-- >
-- <
-- ==
-- \>=
-- <=
-- !=
 
 ## Negating Comparisons
-Ruby has an `unless` keyword that works just like `if`, but measured the other way.
+Ruby has an `unless` keyword that works just like `if`, but in the reverse way.
 
 ```ruby
-# The following code executes identically
-if !(number <= 10)
-  puts "big number"
+puts "What is your favorite animal?"
+fav_animal = gets.chomp
+
+if fav_animal.downcase == "camel"
+  puts "I also love camels!"
 else
-  puts "little number"
+  puts "That's a great animal, but I love camels the most."
 end
 
-unless number <= 10
-  puts "big number"
+# The following code works identically to the above
+unless fav_animal.downcase == "camel"
+  puts "That's a great animal, but I love camels the most."
 else
-  puts "little number"
+  puts "I also love camels!"
 end
 ```
 
 The `if` block executes if the _conditional_ evaluates as `true`. The `unless` block executes if the _conditional_ evaluates as `false`.
 
-__Therefore, `unless x` is the same as `if !x`.__
-
 
 ## Compound Conditions
-Comparison expressions are often combined:
-- `&&`
-- `||`
+Comparison expressions are often combined. Combinations can take one of two forms, *and* and *or*. When you combine with `and`, *both* comparisons must be `true` for the entire combination to be `true`. By combining with `or`, when *either* of the comparisons are `true`, the entire combination is `true`:
+- `&&` (and)
+- `||` (or)
+
+```ruby
+puts "What is your first name?"
+first_name = gets.chomp
+puts "What is your last name?"
+last_name = gets.chomp
+
+if first_name.length > 8
+  if last_name.length > 10
+    puts "Your name is considerable!"
+  end
+end
+
+# This is the same as the above
+if first_name.length > 8 && first_name.length > 10
+  puts "Your name is considerable!"
+end
+```
 
 ```ruby
 if command == "add"
-  # add numbers
-elsif command == "+"
-  # also adds numbers
+  puts "We're adding numbers."
 end
-```
 
-```ruby
+if command == "+"
+  puts "We're adding numbers."
+end
+
+# This is the same as the above
 if command == "add" || command == "+"
-  # adds numbers
-elsif command == "subtract" || command == "-"
-  # subtract the numbers
+  puts "We're adding numbers."
 end
 ```
 
-## Wait a `while`
+## Conditional Loops
+### Wait a `while`
 Execute the iterator `while` the condition is true.
 
 ```ruby
