@@ -130,7 +130,7 @@ if first_name.length > 8
 end
 
 # This is the same as the above
-if first_name.length > 8 && first_name.length > 10
+if first_name.length > 8 && last_name.length > 10
   puts "Your name is considerable!"
 end
 ```
