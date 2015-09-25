@@ -2,14 +2,14 @@
 
 ## Comparisons
 Equality comparisons can be used on all objects, including `Strings`, `Integers`, `Floats`, `Arrays`, `Hashes`, etc:
-- == (equal to?)
-- != (not equal to?)
+- `==` (equal to?)
+- `!=` (not equal to?)
 
 Numeric comparisons are used primarily on `Integers` and `Floats`:
-- >  (greater than?)
-- <  (less than?)
-- \>= (greater than or equal to?)
-- <= (less than or equal to?)
+- `>`  (greater than?)
+- `<`  (less than?)
+- `>=` (greater than or equal to?)
+- `<=` (less than or equal to?)
 
 The "result" of a comparison is known as a boolean. There are only two kinds of boolean object:
 - `true`
