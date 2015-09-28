@@ -7,7 +7,7 @@
 - Write a each loop for the `Array` that creates a new class instance and `puts` it's attributes
 
 A simplified example:
-```
+```ruby
 people = [
   {name: "B", ...},
   {name: "C", ...}

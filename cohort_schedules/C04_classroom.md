@@ -107,3 +107,47 @@
 ### Projects/Exercises
 [Calculator](https://github.com/Ada-C4/Calculator)  
 [Random Menu](https://github.com/Ada-C4/Random-Menu)  
+
+## Week 2
+
+In Week 2 we continue to discover the Ruby language with more exercises involving command-line scripts. We will focus the majority of our time on Objects, cementing the learning of Hash, Array, and String functionality, and begin to explore other standard classes from Ruby core (Dates and Times, for example.)
+
+### Learning Goals
+
+- Scope
+- Learn core Ruby concepts
+    - Objects
+    - Object Inheritance
+- Solidify our knowledge of Strings, Arrays, and Hashes
+- Intro to Git
+- Using gems
+
+### Resources
+[Objects](../topic_resources/object-orientation.md)  
++ Creating methods  
++ new  
++ Creating classes  
++ initialize  
++ attributes  
+
+[Local & Instance Variables & Scope](../topic_resources/variables_and_scope.md)  
++ Difference between local and instance variables  
++ Variable scope  
+
+[Hashes](../topic_resources/hash.md)  
++ Creation  
++ Initialize an Object  
+
+[Hash Practice](../topic_resources/hash-practice.md)  
+
+[Introducing Gems](../topic_resources/introducing-gems.md)  
++ Installation  
++ Usage  
++ Research  
+
+### Projects
+[Solar System Project](https://github.com/Ada-C4/Solar-System)  
+[Baby Dragon Project](../topic_resources/baby_dragon.md)  
+
+[MasterMind](../topic_resources/mastermind.md)  
+[Word Guess](https://github.com/Ada-C4/Word-Guess)  
