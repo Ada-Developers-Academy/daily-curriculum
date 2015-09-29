@@ -2,9 +2,9 @@
 
 ## Version Control
 Git is a "distributed version control" system:
-- Distributed - used in opposition to Centralized. This means that there is no single "correct" computer for the source code to exist upon. Each person who uses or writes the code will have their own copy, with any changes that they want.
-- Version - This refers to the idea that source code files change over time. When you save a file, that is a single version of the file. When you add a new line of code and save it again, that is a new version of the file.
-- Control - The Git system is used to control or manage the process of creating new Versions of source code files, and the process of distributing those versions to other people.
+- **Distributed** - used in opposition to Centralized. This means that there is no single "correct" computer for the source code to exist upon. Each person who uses or writes the code will have their own copy, with any changes that they want.
+- **Version** - This refers to the idea that source code files change over time. When you save a file, that is a single version of the file. When you add a new line of code and save it again, that is a new version of the file.
+- **Control** - The Git system is used to control or manage the process of creating new Versions of source code files, and the process of distributing those versions to other people.
 
 ## But Why???
 Version Control is used in software development because we have multiple people working together to build a single project, and we need to coordinate that process of working together to ensure it is reliable and efficient.
@@ -232,8 +232,8 @@ With Git, the concept of time is represented by the history of changes that we c
 The `log` command shows us a "linear" history, where each change happens before and after a single other change. However, this is only one view of the entire timeline... there are other possible histories and we can see them and move between them using "branches".
 
 Each branch represents a particular, linear history of changes (the `log` command shows us the history for a particular branch). We've already created two branches:
-- 'master' is the default branch that is created when you make a new repo with `git init`.
-- 'bttf' is another branch that we created with the `git checkout -b bttf` command.
+- **master** is the default branch that is created when you make a new repo with `git init`.
+- **bttf** is another branch that we created with the `git checkout -b bttf` command.
 
 We can look at the histories of these two branches using the `log` command:
 ```bash
