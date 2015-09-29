@@ -75,6 +75,7 @@ The reason we used the `-m "Add first-file.txt"` option for the `git commit` com
 
 When you `commit` a change, Git requires that you explain yourself. This is highly important, as it will help other people (and your future self!) understand what changes you made without having to read the complete details.
 
+## A Little Historical Context
 ### Viewing your history in Git
 Now that we've committed a change to Git we can take a look at the history of our repository, which shows all of the changes that have been committed, in reverse chronological order:
 
@@ -165,6 +166,7 @@ This process looks pretty similar to the previous one in which we added `second-
 
 With these two lines Git is showing us first what file we have modified in our pending change, before we commit it. And second (after we commit it), what the actual modification to that file was -- we removed one line (the original "This is a file!"), and added one line (the new "This is the new file content!").
 
+## Time(ing) Is Everything
 ### Time travelling with Git
 By updating `first-file.txt` and committing that update to Git, we have created two versions of the file. This is helpful because we can, if necessary, *time travel into the past* and gain access to previous versions of our files. Let's check that out now!
 
