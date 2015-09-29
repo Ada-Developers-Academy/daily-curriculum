@@ -13,7 +13,7 @@ While most of our work until now has been individual, it's important to also rec
 As an analogy, it might help to consider the case of a group of artists working on a gigantic mural. To ensure that the overall design and intention of the mural is achieved, the artists must coordinate amongst themselves to avoid painting over each others' work. A similar dynamic exists for multiple programmers working on a set of files for a programming project.
 
 ## Lets Git Started!
-### Creating a Repository
+### Creating a repository
 With Git, a collection of files, and all of the versions of those files, are called a "repository" or "repo" for short. Before Git can start "tracking" the different versions of your files, we need to create that repository:
 
 ```bash
@@ -165,7 +165,7 @@ This process looks pretty similar to the previous one in which we added `second-
 
 With these two lines Git is showing us first what file we have modified in our pending change, before we commit it. And second (after we commit it), what the actual modification to that file was -- we removed one line (the original "This is a file!"), and added one line (the new "This is the new file content!").
 
-### Time Travelling with Git
+### Time travelling with Git
 By updating `first-file.txt` and committing that update to Git, we have created two versions of the file. This is helpful because we can, if necessary, *time travel into the past* and gain access to previous versions of our files. Let's check that out now!
 
 ```bash
@@ -222,8 +222,8 @@ This is the new file content!
 
 ... And we're right back to where we had been, nothing was lost. This is the fundamental power of Git (and version control in general). We can make changes to files, save those changes, undo them later, and then even undo that undo!
 
-### Time is a Tree, not a Line
-(or a Flat Circle...)
+### Time is a tree, not a line
+(or a flat circle...)
 
 With Git, the concept of time is represented by the history of changes that we can look at with `git log` -- rather than moving forward at 60 seconds per minute, time only advances when a new change is committed to the repository.
 
