@@ -130,7 +130,7 @@ We want the attributes (color & name) to be able to be set by dynamically.
 ```ruby
 class Chair
 
-  def initialize()
+  def initialize
 
   end
 
