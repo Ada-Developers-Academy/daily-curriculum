@@ -16,10 +16,6 @@ Here's the detailed, step-by-step, version, using __Solar System__ as an example
 1. Clone the project master repo: `$ git clone git@github.com:Ada-Developers-Academy/C3Projects--SolarSystem.git` ![Clone the project repo](clone-project-master.png)
 1. `cd` into the cloned repo directory: `$ cd C3Projects--SolarSystem/` ![cd into your cloned project](cd-solar-system.png)
 1. __CRITICAL__ Checkout a new local branch, with your initials in the branch name: `$ git checkout -b jnf/master` ![Checkout new local branch](checkout-jnf-master.png)
-1. Open the project directory in your editor: `$ subl .` or `$ atom .`
-1. Open `RUBRIC.md`, then edit the first line to include your name: ![Add name to Rubric](name-in-rubric.png)
-1. `$ git status` should report that you have a file change to commit: ![Change to Rubric](git-status-rubric.png)
-1. Commit the changed rubric to your local branch: `$ git commit RUBRIC.md -m "Added my name to the rubric."` ![Commit rubric changes](commit-name-to-rubric.png)
 1. Push your changes upstream to Github.: `$ git push -u origin jnf/master` ![Push your branch upstream](push-branch-upstream.png)
 
 ### Part 2: Forking the project to create your own working version
@@ -46,4 +42,3 @@ Here's the detailed, step-by-step, version, using __Solar System__ as an example
 ## Workflow Diagram
 
 This diagram shows the entire workflow, but condenses some of the steps listed above. I've included it here for reference and clarity, but use the steps above to guarantee your projects are submitted correctly. ![Git workflow diagram](project-turn-in-workflow.png)
-
