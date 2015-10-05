@@ -13,7 +13,7 @@ There are 5 types of variables in ruby
 
 #### Local Variable
 
-    my_name = "Bookis"
+    my_name = "Ada"
 
 - Local variables start with a lowercase letter or an underscore.
 - Local variables are only available within the block of its initialization.
@@ -22,20 +22,22 @@ There are 5 types of variables in ruby
 
 #### Instance Variables
 
-    class Ghost
-      def initialize(name_var)
-        @name = name_var
-      end
+```ruby
+class Ghost
+  def initialize(name_var)
+    @name = name_var
+  end
 
-      def name
-        @name
-      end
+  def name
+    @name
+  end
 
-      def self.rise_from_the_grave
-         # @name won't work be the same value
-         puts "Rising..."
-      end
-    end
+  def self.rise_from_the_grave
+     # @name won't work be the same value
+     puts "Rising..."
+  end
+end
+```
 
 - Instance variables begin with `@`
 - Instance variables are available to the object of it's initialization
@@ -43,37 +45,41 @@ There are 5 types of variables in ruby
 
 #### Class Variables
 
-    class Ghost
-      @@lives = 10
+```ruby
+class Ghost
+  @@lives = 10
 
-      def self.rise_from_the_grave
-        @@lives -= 1
-        puts "Rising... You have #{@@lives} left"
-      end
+  def self.rise_from_the_grave
+    @@lives -= 1
+    puts "Rising... You have #{@@lives} left"
+  end
 
-    end
+end
+```
 
 - Class variables begin with `@@`
 - Class variables are available to the entire class (in any method)
 - Class variables will raise an error if they are read before they're created
-- Class variables can cause problem down the road (avoid using them)
+- Class variables can cause problem down the road (*avoid using them*)
 - Class variables are often used for application configuration
 
 #### Global Variables
 
-    $dead = true
+```ruby
+$dead = true
 
-    class Ghost
+class Ghost
 
-      def is_dead?
-        $dead
-      end
+  def is_dead?
+    $dead
+  end
 
-    end
+end
+```
 
 - Global variables begin with `$`
 - Global variables are available to the entire application
-- Global variables are dangerous (don't use them)
+- Global variables are dangerous (*don't use them*)
 
 #### Predefined Global Variables
 
@@ -114,23 +120,24 @@ There are 5 types of variables in ruby
 - $-w		True if option -w is set.
 
 #### Constants
+```ruby
+class Ghost
+  CEMETARY = "Lake View"
 
-    class Ghost
-      CEMETARY = "Lake View"
+  def address
+    CEMETARY
+  end
+end
 
-      def address
-        CEMETARY
-      end
-    end
-
-    Ghost::CEMETARY
+Ghost::CEMETARY
+```
 
 - Constants are all uppercase with using underscores to separate words
 - Constants are available within the scope of it's initialization
 - Constants will raise an error if they are read before they're created
-- Constants can be used outside of it's scope through the class it was instanciated
+- Constants can be used outside of it's scope through the class it was instantiated
 - Used a lot in Rails, not so much in projects so far
-- A Constant is like a variable, except that its value is supposed to remain constant for the duration of the program.
+- A Constant is like a variable, except that its value must remain constant for the duration of the program.
 
 #### Predefined Constants
 
