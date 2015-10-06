@@ -60,7 +60,7 @@ end
 - Class variables begin with `@@`
 - Class variables are available to the entire class (in any method)
 - Class variables will raise an error if they are read before they're created
-- Class variables can cause problem down the road (*avoid using them*)
+- Class variables can cause problem down the road (**avoid using them**)
 - Class variables are often used for application configuration
 
 #### Global Variables
@@ -79,7 +79,7 @@ end
 
 - Global variables begin with `$`
 - Global variables are available to the entire application
-- Global variables are dangerous (*don't use them*)
+- Global variables are dangerous (**don't use them**)
 
 #### Predefined Global Variables
 
