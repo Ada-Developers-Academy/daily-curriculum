@@ -58,7 +58,7 @@ If you pass a block to `open`, Ruby will open the file, execute the code within 
 ```ruby
 require 'csv'
 CSV.open("moar_ada_peeps.csv", 'w') do |csv|
-  csv << "1,Elise\n2,Karen"
+  csv << "5,Charles"
 end
 ```
 
@@ -71,7 +71,7 @@ CSV.open("markets.csv", 'r').each do |line|
 end
 ```
 
-The `.read` method requires one arguement, the filename, and allows for additional options. `.read` first opens the CSV file, then reads the contents of it into a new `Array`. Each row of CSV data is translated into an array as well.
+The `.read` method requires one argument, the filename, and allows for additional options. `.read` first opens the CSV file, then reads the contents of it into a new `Array`. Each row of CSV data is translated into an array as well.
 
 ```
 # ada_peeps.csv
@@ -105,4 +105,3 @@ ap array_of_ada_peeps
 #     ]
 # ]
 ```
-
