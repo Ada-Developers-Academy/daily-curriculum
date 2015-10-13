@@ -151,3 +151,52 @@ In Week 2 we continue to discover the Ruby language with more exercises involvin
 
 [MasterMind](../topic_resources/mastermind.md)  
 [Word Guess](https://github.com/Ada-C4/Word-Guess)  
+
+
+## Week 3
+In Week 3 we will be learning some intermediate ruby ideas such as advanced variables, inheritance and Enumerable. For the project we will be building a multiple-wave pure ruby application using a CSV database and inheritance called [Bank Accounts](https://github.com/Ada-C4/BankAccounts).
+
+By the end of the week students should be able to build a ruby DSL for a relational CSV backed database using basic ruby methodologies and best practices.
+
+### Learning Goals
+
+  - Learn basic/intermediate ruby concepts and methods
+      - Scopes of all variable types (local, instance, global, etc...)
+      - Enumerable methods
+  - Running Koans
+  - Build a CSV backed ruby application
+  - Build an application using inheritance
+  - Collaborate on code via [Github](http://github.com)
+
+### Resources
+[Enumerable Methods](../topic_resources/enumerable.md)  
+[Inheritance](../topic_resources/inheritance.md)  
+[Advanced Variables](../topic_resources/advanced_variables.md)  
+[Reading from CSV](../topic_resources/csv_database.md)  
+[Assertions](../topic_resources/assert.md)  
+[More on Assertions](http://en.wikipedia.org/wiki/Assertion_(software_development)  
+[Ruby Koans](../topic_resources/koans.md)  
+
+### Projects
+[Bank Accounts](https://github.com/Ada-C4/BankAccounts)
+
+## Week 4
+
+In Week 4 we start working with Test-Driven Development (TDD) and advanced Ruby concepts. We will spend a few days exploring TDD and the RSpec toolset through building our own projects and tests.
+
+### Learning Goals
+
+  - Solidify knowledge and use of intermediate ruby concepts
+    - Scopes of all variable types
+    - Enumerable methods
+  - Begin an introduction into computer science (CS) fundamental concepts  
+  - Working through Koans
+  - Unit testing your application with Rspec
+  - Practice pair programming
+
+### Resources
+[TDD/BDD](../topic_resources/tdd_bdd.md)  
+[RSpec](../topic_resources/rspec.md)  
+
+### Projects
+[Scrabble](https://github.com/Ada-C4/Scrabble)  
