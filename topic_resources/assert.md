@@ -1,4 +1,4 @@
-# Assert and Asertions
+# Assert and Assertions
 
 Assertions are methods that we can use to verify our code. The idea
 is very simple: We pass an expression that we believe is true to a
