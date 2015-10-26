@@ -1,19 +1,10 @@
 #ORAL PRESENTATION RUBRIC
 
-##Presentation Topic
-
-
-
-##Presenters
-
-
-
-##Rubric
-1=Beginner, 2=Proficient, 3=Master
+##Guideline
 
 ###TECHNICAL CONTENT
 
-| Rating | Content        | Description
+|        | Content        | Description
 |--------|----------------|-----------------------------------------------------------
 |        | Problem        | Presentation begins with identification, scope, and need of the problem.
 |        | Solution       | Solution is identified and shown in use. There is no question on how the solution solves the problem.
@@ -25,15 +16,12 @@
 
 ###SPEAKING SKILLS
 
-| Rating | Skill          | Description
+|        | Skill          | Description
 |--------|----------------|-----------------------------------------------------------
 |        | Delivery       | Presenter doesn’t rush, shows enthusiasm, avoids likes, ums, kind ofs, you knows, etc. Uses complete sentences.
 |        | Eye Contact    | Presenter keeps head up, does not read, and speaks to whole audience.
 |        | Posture        | Presenter stands up straight, faces audience, and doesn’t fidget.
 |        | Volume         | Presenter can be easily heard by all. No gum, etc.
-
-###OVERALL RATING
-
 
 
 ###COMMENTS
