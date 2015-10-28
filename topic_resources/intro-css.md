@@ -59,9 +59,8 @@ A large list of [common CSS properties here](https://developer.mozilla.org/en-US
 - [Flamingo Sample](http://dabblet.com/gist/8175c48b9ed924e84101)
 
 ## More Resources
-- [Hex and RGB Colors](http://www.w3schools.com/tags/ref_colorpicker.asp)
-- [Hex Colors](http://0to255.com)
-
-- [Pseudo Classes](http://htmldog.com/guides/css/intermediate/pseudoclasses/)
-- [HTML Validator](http://html5.validator.nu)
-- [CSS Validator](http://jigsaw.w3.org/css-validator)
+- [Hex and RGB Colors](http://www.w3schools.com/tags/ref_colorpicker.asp)  
+- [Hex Colors](http://0to255.com)  
+- [Pseudo Classes](http://htmldog.com/guides/css/intermediate/pseudoclasses/)  
+- [HTML Validator](http://html5.validator.nu)  
+- [CSS Validator](http://jigsaw.w3.org/css-validator)  
