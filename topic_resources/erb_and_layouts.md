@@ -19,7 +19,7 @@ We can use value tags to write Ruby code that transforms the text in an HTML doc
 
 We can also use value tags to insert values from variables in Ruby:
 ```erb
-<h3>Welcome to your account page, <%= user_name %>.</h3>
+<h3>Welcome to your account page, <%= @user.name %>.</h3>
 ```
 
 Code tags can be used to decide whether or not to include certain portions of content in the final document:
@@ -28,7 +28,7 @@ Code tags can be used to decide whether or not to include certain portions of co
   <head></head>
   <body>
   <!-- other code here... -->
-    <% if user.logged_in? %>
+    <% if @user.logged_in? %>
       <a href="/user/logout">Log out of your account</a>
     <% else %>
       <a href="/user/login">Log in or sign up</a>
@@ -44,7 +44,7 @@ Both code tags and value tags can be combined to create loops with Ruby code tha
   <head></head>
   <body>
   <!-- other code here... -->
-    <% found_products.each do |product| %>
+    <% @found_products.each do |product| %>
       <p><%= product.name %></p>
     <% end %>
   <!-- other code here... -->
@@ -69,7 +69,7 @@ end
   <body>
     <h1>Our Products</h1>
     <% @all_products.each do |product| %>
-      <div id="<% product.id %>" class="product">
+      <div id="<%= product.id %>" class="product">
         <h3><%= product.name %></h3>
         <p><%= product.description %></p>
         <a href="/product/<%= product.id %>/purchase">Buy Now</a>
