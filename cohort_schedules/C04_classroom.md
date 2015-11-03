@@ -200,3 +200,95 @@ In Week 4 we start working with Test-Driven Development (TDD) and advanced Ruby 
 
 ### Projects
 [Scrabble](https://github.com/Ada-C4/Scrabble)  
+
+## Week 5
+In Week 5 we will re-visit some topics introduced in previous weeks to assist in concept solidification. We will work as individuals on the FarMar project in order to gain some solid footing in CSVs as databases, and additional practice using intermediate Ruby concepts. By the end of the week students should be able to build a ruby DSL for a relational CSV backed database using basic ruby methodologies and best practices.
+
+### Learning Goals
+
+  - Introduce code coverage as a methodology for ensuring accurate testing
+  - Solidify git workflow process, specifically with a pair
+  - Use intermediate ruby concepts and methods
+    - Variable scope
+    - Class methods vs Instance methods
+    - Enumerable methods
+  - Build a CSV backed ruby application
+
+### Resources
+Pair programming
+Code Coverage Setup
+
+### Projects
+[FarMar](https://github.com/Ada-C4/FarMar)
+
+## Week 6
+In Week 6 we will cover an introduction of the "plumbing" of the Internet and how clients such as web browsers communicate with servers. We will be learning the basics of HTML & CSS. By the end of the week we will style a single page website using the common HTML & CSS practices.
+
+Our learning will focus on the usage of basic HTML tags and their potential attributes. We will learn about CSS selectors, cascading rules, and common techniques for creating important web page elements. By the end of the week students should be able to create and style a webpage using valid HTML and CSS.
+
+### Learning Goals
+- Learn basic architecture of the Internet
+- Learn the HTTP response cycle
+- Learn basic techniques and best practices for HTML
+- Learn basic techniques and best practices for CSS
+- Build a personal blog in Sinatra
+
+### Resources
+[Intro to HTTP](../topic_resources/networking.md)  
+[HTML](../topic_resources/html.md)  
+[HTML Divide and Conquer](../topic_resources/html-d&c.md)  
+[Intro to Sinatra](../topic_resources/sinatra-practice.md)  
+[CSS](../topic_resources/more-css.md)  
+[CSS Divide & Conquer](../topic_resources/css-d&c.md)  
+[ERB & layouts](../topic_resources/erb_and_layouts.md)
+
+### Projects
+[Sinatra Site](https://github.com/Ada-C4/SinatraSite)  
+
+## Week 7
+In Week 7 we continue using Sinatra to solidify our understanding of web page elements using forms and additional HTTP verbs.
+
+Our learning will cover an introduction to relational database concepts as well as understanding how to utilize these concepts. This includes an introduction to using SQL concepts using SQLite.
+
+## Learning Goals
+- Learn the HTTP verbs and the appropriate scenarios to use them
+- Learn how and when to use forms in our web pages
+- Enhance Sinatra blog using forms
+- Learn the basics of relationship database constructs
+- Practice pair programming
+- Gain exposure to deployment via Heroku
+
+## Resources
+- [Advanced Sinatra](https://github.com/kariabancroft/SinatraDogs)  
+- [Creating & Submitting Forms](../topic_resources/submitting-forms.md)  
+- [HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)  
+- [Intro to Databases](../topic_resources/database/intro_to_db.md)  
+- [More Forms](../topic_resources/checkboxes-and-radio-buttons.md)  
+- [Using SQL](../topic_resources/database/using_sqlite.md)  
+- [Heroku Installfest](../topic_resources/heroku_installfest.md)  
+- [Heroku](../topic_resources/heroku.md)  
+
+## Projects
+- [Scrabble Sinatra](https://github.com/Ada-C4/ScrabbleSinatra)  
+- [Tasks List](https://github.com/Ada-C4/TaskListSinatra)  
+
+## Week 8
+In week 8 we introduce students to the Ruby on Rails framework, which will be the focus of much of the work for the remainder of the course. Working individually, students build a basic Rails application. The focus is on learning how Rails and its implementation of MVC differ from Sinatra, how to work with ActiveRecord models, and begin to develop basic proficiency with Rails.
+
+### Learning Goals
+- Solidify understanding of web response cycle
+- Introduce Rails
+  - ActiveRecord
+  - Controllers, Views & Routes
+  - Forms
+- Introduce Data Modeling
+- Improve workflow
+
+## Resources
+- [RESTful Routing](../topic_resources/resources/restful-routes.md)
+- [Intro to MVC](../topic_resources/resources/intro-to-mvc.md)
+- [ActiveRecord](../topic_resources/rails/active_record.md)
+- [ActiveRecord Practice](../topic_resources/rails/active_record_practice.md)
+
+## Projects
+- [Tasks in Rails](https://github.com/Ada-C4/TaskListRails)
