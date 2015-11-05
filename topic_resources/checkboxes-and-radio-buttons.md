@@ -16,7 +16,7 @@ Checkboxes and Radio buttons are quite odd. They're purpose is similar; provide 
 
 __Question: What's wrong with this code?__
 
-Right. It's not creating an association between the checkboxes and their values. This is not good for a couple of reasons. First, it totally breaks accessiblity guidelines, especially in regards to screen readers. Second, it disassociates the word `Pepproni` with the checkbox that represents the value of `pepperoni`. Nobody likes disassociated meats.
+Right. It's not creating an association between the checkboxes and their values. This is not good for a couple of reasons. First, it totally breaks accessibility guidelines, especially in regards to screen readers. Second, it disassociates the word `Pepperoni` with the checkbox that represents the value of `pepperoni`. Nobody likes disassociated meats.
 
 we could _style_ this form to create implied visual groupings, but that only helps sighted humans who read/think they same way that we do. Let's look at a better (and unfortunately more verbose) way.
 
@@ -61,10 +61,6 @@ Neat, yeah? Now people (with and without assistive devices) and robots alike wil
 </form>
 ```
 
-Radio buttons are strutured and work just like checkboxes with one key difference. You can only activate _one_ radio button in a given group, whereas you can activate _many_ checkboxes. We define the group with the `name` attribute in the `<input>` element. So for the code above, we have to pick _one favorite topping_ and only from the list provided. That's a hard one.
+Radio buttons are structured and work just like checkboxes with one key difference. You can only activate _one_ radio button in a given group, whereas you can activate _many_ checkboxes. We define the group with the `name` attribute in the `<input>` element. So for the code above, we have to pick _one favorite topping_ and only from the list provided. That's a hard one.
 
 __Question: If I really wanted to know a person's favorite pizza topping, what would be the best type of `<input>` to use? What are the limitations or concerns of that type of input versus a group of checkboxes or radio buttons?__
-
-
-
-
