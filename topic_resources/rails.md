@@ -10,7 +10,7 @@ Rails, like Sinatra, is a DSL for creating web pages.
 Fully open source, it is constantly adapting to new trends and requirements of modern web development. It's distributed as a family of gems; there were 28 individual gems last time I counted that made up the core of Rails.. The philosophy of Rails (ostensibly) boils down to two things:
 
 1. DRY - Don't Repeat Yourself (yawn)
-1. Convention over Configuration (a milliont tiny hearts, all aflutter)
+1. Convention over Configuration (a million tiny hearts, all aflutter)
 
 ## Creating a New Rails Project
 ```bash
