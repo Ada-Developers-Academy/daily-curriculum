@@ -4,15 +4,15 @@
 
 Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
-Nov 30  |   | **NO CLASS - INTERNSHIPS START**
-Dec 7   |   | Culture Shock & Learning New Code Bases
-Dec 14  |   | Calibration & Feedback
-Jan 4   |   |
-Jan 11  |   |
-Jan 18  |   |
-Feb 15  |   | Resume Workshop & Mock Interviews
-Mar 7   |   | Lightning Talks about Internships (w/ C4)
-Mar 14  |   | Salary Worth Panel
+Dec 1   |   | **NO CLASS - INTERNSHIPS START**
+Dec 8   |   | Culture Shock & Learning New Code Bases
+Dec 15  |   | Calibration & Feedback
+Jan 5   |   |
+Jan 12  |   |
+Jan 19  |   |
+Feb 16  |   | Resume Workshop & Mock Interviews
+Mar 8   |   | Lightning Talks about Internships (w/ C4)
+Mar 15  |   | Salary Worth Panel
 April   |   | Wine & Cheese & Board Games
 
 ## Other Activities:
