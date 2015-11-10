@@ -36,7 +36,7 @@ cd sinatra_practice
 
 Open the entire project from this sinatra_practice directory in your text editor.
 
-#### Gemfile (hand wave)
+#### Gemfile
 First we'll create a file called `Gemfile` (no extension, just `Gemfile`) and install the `bundler` gem. In Terminal run:
 
 ```bash
@@ -58,8 +58,6 @@ bundle install
 ```
 
 This will install the gems listed within our Gemfile
-
-Don't worry about the Gemfile, this part is still magic, we'll get into that in another lesson.
 
 #### Creating the app
 Next, we'll create our application class, create a `my_app.rb` file, from the Terminal:
