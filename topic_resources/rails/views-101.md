@@ -75,6 +75,8 @@ The above `image_tag` will give you this HTML:
 <img src="/assets/cat.jpg" alt="cat.jpg" />
 ```
 
+<!--
+
 Defining Helper Methods
 ----------------
 
@@ -157,3 +159,5 @@ Then implement the partial in the original position of the error message HTML (i
 ```
 
 The `render` takes a string argument, and the string is the filename of the partial (without the leading underscore)
+
+-->
