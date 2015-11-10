@@ -70,48 +70,23 @@ All of these three methods will redirect to the same place `/users/1` (given tha
 #### ApplicationController
 
 Controllers inherit from `ApplicationController`, this file can be found in the `app/controllers/` dir. You can add additional functionality to your `ApplicationController` to share methods across all controllers. This is very common with things like determining if the user is logged in before displaying content, or finding the current user from the database.
+```ruby
+class ApplicationController < ActionController::Base
+  # ...
 
-    class ApplicationController < ActionController::Base
-      ...
+  def current_user
+    @current_user ||= User.find(user_id)
+  end
+end
+```
+The `current_user` method would now be available to all of our controllers, in our `OrdersController` we could do something like:
+```ruby
+class OrdersController < ApplicationController
+  # ...
 
-      def require_login
-        unless session[:user_id].present?
-          redirect_to sign_in_path, notice: "Please sign in"
-        else
-          true
-        end
-      end
-
-    end
-
-The `require_login` method would now be available to all of our controllers, in our `OrdersController` we could do something like:
-
-    class OrdersController < ApplicationController
-
-      def index
-        if require_login
-          @order = Order.where(...)
-        end
-      end
-    end
-
+  def index
+    @orders = Order.where(user: current_user)
+  end
+end
+```
 [ApplicationController::Base docs](http://api.rubyonrails.org/classes/ActionController/Base.html)
-
-#### Controller Filters
-
-Filters are methods that are run before, after or "around" a controller action. We'll focus on the before action here as it is the most common. Before filters can be used for many things, but they commonly help with the same methods we implement in the `ApplicationController`, from the example above we could alternately do:
-
-    class OrdersController < ApplicationController
-      before_action :require_login
-
-      def index
-        @order = Order.where(...)
-      end
-    end
-
-Now the `require_login` method defined in the `ApplicationController` will run before every method within the `OrdersController`.
-
-[Filters guide](http://guides.rubyonrails.org/action_controller_overview.html#filters)
-
-
-![Rails Request Cycle](../rails/rails-request-cycle.jpg)
