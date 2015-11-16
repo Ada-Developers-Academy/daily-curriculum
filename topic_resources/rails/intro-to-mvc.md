@@ -19,7 +19,7 @@ Essentially, MVC is way to divide reponsibilities to complete a task. It's espec
 - Receive events from the outside world (usually from views)
 - Interact with the model
 - Determine the next step in the process flow
-- Often responsible for notifing the View of state changes
+- Often responsible for notifying the View of state changes
 
 We can think of each of these roles as the responsibility of an object, and use those responsibilities to organize a web service, like this:
 
