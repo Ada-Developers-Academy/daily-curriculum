@@ -6,7 +6,7 @@ Date    | Week                                | Topics
 --------|-------------------------------------|-----------------------------
 Dec 1   |   | **NO CLASS - INTERNSHIPS START**
 Dec 8   |   | Culture Shock & Learning New Code Bases
-Dec 15  |   | Calibration & Feedback
+Dec 15  |   | Calibration & Feedback, Working to your Strengths Workshop at Moz
 Jan 5   |   | Andrew G Lecture on Programming Languages (2 Hours)  
 Jan 12  |   |
 Jan 19  |   |
