@@ -45,7 +45,7 @@ First create a model.
 We can see this command created three things:
 
     invoke  active_record
-    create  db/migrate/20131209161227_create_posts.rb
+    create  db/migrate/20151209161227_create_posts.rb
     create  app/models/post.rb
     invoke  rspec
     create  spec/models/post_spec.rb
@@ -66,7 +66,7 @@ describe ".validates" do
   end
 end
 ```
-We have our first spec, let's run it.
+Now we have written our first spec, let's run it.
 
     rspec
 
@@ -115,7 +115,7 @@ Run `rspec`, and now they pass!
 
 Open a new tab in Terminal (Command T), and create a controller:
 
-    rails g controller posts
+    rails generate controller posts
 
 This command creates quite a few files, the ones we are going to focus on are the actual controller and it's associated spec file:
 
