@@ -3,15 +3,20 @@
 Create a rails app
 
 ```bash
-rails new rspec-practice -T -d postgresql
+cd class-exs
+rails new rspec-practice -T
+echo 'rspec-practice' > rspec-practice/.ruby-gemset
+echo '2.2.3' > rspec-practice/.ruby-version
 cd rspec-practice
+gem install bundler
+bundle install
 ```
 
 Add `rspec-rails` gem:
 
 ```ruby
 group :development, :test do
-  gem "rspec-rails"
+  gem 'rspec-rails'
 end
 ```
 
@@ -22,15 +27,21 @@ bundle
 rails generate rspec:install
 ```
 
+This command will generate the Spec folder which will contain `rails_helper.rb` and `spec_helper.rb` files by default.
+
 Model
 ------
 
 Create a user class:
 
 ```bash
-rails g model user email:string password_digest:string
-rake db:create db:migrate
+rails generate model user email:string
+rake db:migrate
 ```
+
+Since this model was generated _after_ the rspec command was executed, rails will automatically create a spec file in `spec/models` for the new model called `user_spec.rb`. By default, this spec file will contain one pending pending placeholder example.
+
+This one pending example can be run by using the `rspec` command in the terminal.
 
 I expect that the email is required for a user to be valid.
 
