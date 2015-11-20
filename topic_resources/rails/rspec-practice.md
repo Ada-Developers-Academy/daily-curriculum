@@ -49,7 +49,7 @@ I expect that the email is required for a user to be valid.
 # spec/models/user_spec.rb
 require 'rails helper'
 describe User do
-  let(:user) { User.new(email: "b@example.com", password_digest: "1234")}
+  let(:user) { User.new(email: "b@example.com")}
 
   describe ".validates" do
     it "is valid with valid attrs" do

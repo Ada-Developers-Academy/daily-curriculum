@@ -11,7 +11,7 @@
 
 First we will create a new rails app to implement rspec into. But, since we'll be using rspec, I want to leave out Test::Unit so it doesn't clutter up my app.
 
-    rails new twitter_ripoff -T -d postgresql
+    rails new twitter_ripoff -T
 
 The `-T` is the flag to leave out Test::Unit
 
@@ -40,7 +40,7 @@ Now rspec is ready, let's create some code to test.
 
 First create a model.
 
-    rails g model post body:text user_id:integer
+    rails generate model post body:text user_id:integer
 
 We can see this command created three things:
 
@@ -54,7 +54,11 @@ First a migration to setup our database, next the class our logic will go in `po
 
     rake db:migrate
 
-In the `spec/models/post_spec.rb` we can see that some of the structure for writing rspec tests already exists. We have a `pending` spec, this syntax can be useful for keeping track of upcoming tasks. But we don't need it, so replace that line with a new test:
+In the `spec/models/post_spec.rb` we can see that some of the structure for writing rspec tests already exists. We have a `pending` spec, this syntax can be useful for keeping track of upcoming tasks.
+
+Let's see the `pending` spec run by running `rspec` from the terminal.
+
+Now that we've verified our `pending` test, let's replace that line with a new test:
 ```ruby
 describe ".validates" do
   it "must have a body" do
