@@ -3,7 +3,7 @@
 Rails gives us a nice way to validate data before it goes into the database.
 
 Why would we want to validate data? If we receive input from a user that doesn't match
-what is required for our application to run, we want to halt the process and re ask
+what is required for our application to run, we want to halt the process and continue to ask
 for the input until it is correct.
 
 If our application depends on a user having an email address (to show on the html page and/or to send emails)
@@ -20,7 +20,7 @@ end
 ```
 ## Helpers
 
-There are many validations helpers (like `presence`) the most common are
+There are many validation helpers (like `presence`) the most common are
 
 - `:uniqueness` (ensures the field doesn't already exist in the db)
 - `:format` (uses a regular expression to ensure a match)
@@ -42,7 +42,7 @@ end
 
 ## Error Messages
 
-When there is a failed validation. ActiveRecord keeps track of which column(s)
+When there is a failed validation ActiveRecord keeps track of which column(s)
 caused the failure. ActiveRecord models have a "virtual" attribute called `errors`.
 This `errors` attribute is a hash of error messages. By default it is empty, but
 when a record is validated and fails this hash is updated with error messages about each failure.
@@ -54,8 +54,8 @@ user.save # validations run when a save is attempted.
 user.errors {title: ["can't be blank"]}
 ```
 
-Since each column could have multiple validations (email must be present and match a regex)
-the value associated with a column is an Array of error messages
+Since each column could have multiple validations (for example, email must be present and match a regex)
+the value associated with a column is an Array of error messages.
 
 ## Showing Error Messages
 
