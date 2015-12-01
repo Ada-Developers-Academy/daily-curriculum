@@ -174,4 +174,4 @@ expect(response.status).to eq 200
 # => response is typically the object we want to test in controller specs
 ```
 
-Rails specs have a lot of extra syntax from regular rspec. See the [rspec cheat sheet](https://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) to learn about more the matchers.
+Rails specs have a lot of extra syntax from regular rspec. See the [relish docs](https://relishapp.com/rspec/rspec-rails/docs/matchers) to learn about more the matchers.
