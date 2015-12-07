@@ -9,8 +9,7 @@ with their password. You need to be responsible with that information.
 
 **What is the absolute safest way to keep data secure?**
 
-Bcrypt
--------
+## Bcrypt
 Bcrypt is an algorithm created in 1999. The algorithm takes some type of user input
 and creates gibberish out of it.
 
@@ -45,10 +44,29 @@ has_secure_password
 simply adding the line `has_secure_password` to any active record model (typically a `User`).
 The `has_secure_password` functionality depends on the model having a column in the DB called `password_digest`
 
+First, we'll create a User model:
 ```bash
-rails g model User username:string email:string password_digest:string
+rails generate model user
 ```
 
+Next we'll add the user fields to the migration:
+```ruby
+class CreateUsers < ActiveRecord::Migration
+  def change
+    create_table :users do |t|
+      t.string :first_name
+      t.string :last_name
+      t.string :email
+      t.string :password_digest
+
+      t.timestamps null: false
+    end
+  end
+end
+
+```
+
+Then we'll add the `has_secure_password` attribute to the model class:
 ```ruby
 class User < ActiveRecord::Base
   has_secure_password
@@ -58,6 +76,11 @@ end
 The `password_digest` is the column which rails will save the gibberish created by bcrypt.
 
 The `has_secure_password` gives us the functionality to create the gibberish in a concise way.
+
+Let's migrate our database and then check out some of the newly created attributes in the rails console:
+```bash
+rake db:migrate
+```
 
 ```ruby
 user = User.new
