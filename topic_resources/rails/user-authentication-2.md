@@ -13,7 +13,7 @@ Creating a new User is very similar to creating any new entity in a Rails app.
 ` rails generate controller Users`
 
 1. Configure routes to point to these new controller actions  
-`resources :users, :only => [new, create]`
+`resources :users, :only => [:new, :create]`
 
 1. Create the controller actions that corresponds to the routes we configured  
 ```ruby
@@ -54,11 +54,11 @@ In combination with the concept of `sessions`, we will utilize a `SessionsContro
 ```
 
 1. Configure the corresponding routes  
-`resources :sessions, :only => [new, create]`
+`resources :sessions, :only => [:new, :create]`
 
 1. Create the view form that will handle the user login
 ```ruby
-<%= form_for @user do |f| %>
+<%= form_for(:session_data, url: sessions_path) do |f| %>
 <% end %>
 ```
 
@@ -77,6 +77,6 @@ In combination with the concept of `sessions`, we will utilize a `SessionsContro
 ```
 
 1. Update the routes to allow for this new controller action  
-`resources :sessions, :only => [new, create, destroy]`
+`delete "/logout", to: "sessions#destroy", as: :logout`
 
 1. Add a logout button somewhere on the site that will trigger the logout route and functionality
