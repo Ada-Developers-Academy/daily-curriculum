@@ -329,3 +329,24 @@ For week 10 students continue to build web applications with the Ruby on Rails f
 
 ### Projects
 - [Media Ranker](https://github.com/Ada-C4/MediaRanker)
+
+## Week 11
+Week 11 brings the first group, multi-week project for students. This is a major expansion of the project development process that we've used in the classroom until now. In order to emphasize the Agile methodology discussed in previous weeks teams select task managers and stand up leads, have stand up meetings with their project manager (instructor) each day, track all progress in Trello with user stories, and whiteboard site flows and entity relationships. Projects are demoed to project managers at the end of the week.
+In addition to all of this, students are learning how to perform user authentication in Rails using session data and controller filters. Advanced validations for model classes are also discussed, and the bEtsy project provides several opportunities for using custom validations.
+
+### Learning Goals
+- Long-term project development with the Agile methodology 
+- Different team member roles (task manager, stand up leader, project manager)
+- Password-based user authentication in Rails
+- Authorization of specific actions/routes in Rails
+- Building custom validations for advanced model designs
+
+### Resources
+- [User Authentication in Rails (1)](../topic_resources/rails/rspec-with-rails.md)
+- [User Authentication in Rails (2)](../topic_resources/rails/rspec-with-rails.md)
+- [Advanced ActiveRecord Validations](../topic_resources/rails/custom-validators.md)
+- [Rails Controller Filters](../topic_resources/rails/controller-filters.md)
+- [Rails View Methods](../topic_resources/view-methods.md)
+
+### Projects
+- [bEtsy](https://github.com/Ada-C4/betsy)
