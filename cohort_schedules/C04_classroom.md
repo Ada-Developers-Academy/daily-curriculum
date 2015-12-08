@@ -250,7 +250,7 @@ In Week 7 we continue using Sinatra to solidify our understanding of web page el
 
 Our learning will cover an introduction to relational database concepts as well as understanding how to utilize these concepts. This includes an introduction to using SQL concepts using SQLite.
 
-## Learning Goals
+### Learning Goals
 - Learn the HTTP verbs and the appropriate scenarios to use them
 - Learn how and when to use forms in our web pages
 - Enhance Sinatra blog using forms
@@ -258,7 +258,7 @@ Our learning will cover an introduction to relational database concepts as well 
 - Practice pair programming
 - Gain exposure to deployment via Heroku
 
-## Resources
+### Resources
 - [Advanced Sinatra](https://github.com/kariabancroft/SinatraDogs)  
 - [Creating & Submitting Forms](../topic_resources/submitting-forms.md)  
 - [HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)  
@@ -268,7 +268,7 @@ Our learning will cover an introduction to relational database concepts as well 
 - [Heroku Installfest](../topic_resources/heroku_installfest.md)  
 - [Heroku](../topic_resources/heroku.md)  
 
-## Projects
+### Projects
 - [Scrabble Sinatra](https://github.com/Ada-C4/ScrabbleSinatra)  
 - [Tasks List](https://github.com/Ada-C4/TaskListSinatra)  
 
@@ -284,11 +284,69 @@ In week 8 we introduce students to the Ruby on Rails framework, which will be th
 - Introduce Data Modeling
 - Improve workflow
 
-## Resources
+### Resources
 - [RESTful Routing](../topic_resources/resources/restful-routes.md)
 - [Intro to MVC](../topic_resources/resources/intro-to-mvc.md)
 - [ActiveRecord](../topic_resources/rails/active_record.md)
 - [ActiveRecord Practice](../topic_resources/rails/active_record_practice.md)
 
-## Projects
+### Projects
 - [Tasks in Rails](https://github.com/Ada-C4/TaskListRails)
+
+## Week 9
+In week 9 students continue to expand their knowledge of Ruby on Rails, learning how ActiveRecord can be used to achieve data/model designs with relationships. Working in pairs, students build upon their existing experience by revisiting the Farmer's Market project from week 5 in which they first dealt with a large, inter-related dataset. Additionally this week students are introduced to Agile development practices using Kanban boards with [Trello](https://trello.com/).
+
+### Learning Goals
+- Solidify understanding of data modeling in MVC context
+- Knowledge of one-to-one and one-to-many relationships, with primary and foreign keys
+- Better understanding of CRUD routes through Rails resources
+- Improve workflow with task tracking/management
+
+### Resources
+- [ActiveRecord Relationships](../topic_resources/rails/active-record-relationships.md)
+- [Advanced Routing in Rails](../topic_resources/rails/routes-102.md)
+- [Gemsets](../topic_resources/rails/gemsets.md)
+- [Agile Development Methodology](../topic_resources/agile.md)
+
+### Projects
+- [FarMar in Rails](https://github.com/Ada-C4/FarMarRails)
+
+## Week 10
+For week 10 students continue to build web applications with the Ruby on Rails framework. The focus in this week is on testing both models and controllers using RSpec. A second major theme for the week is the use of [Bootstrap](https://getbootstrap.com/) to quickly build responsive websites. Basic validations for model classes are introduced, and the week's project has requirements for using them on each model.
+
+### Learning Goals
+- Understand how models can be checked for validity, and how validation requirements can be defined
+- Extend RSpec knowledge from pre-web projects (Scrabble, FarMar) into the Ruby on Rails context
+- Understand how to build DRY spec code by using shared examples
+- Improve front-end design capabilities and productivity using a responsive, grid-based framework
+
+### Resources
+- [ActiveRecord Validations](../topic_resources/rails/validations.md)
+- [Testing in Rails with RSpec](../topic_resources/rails/rspec-with-rails.md)
+- [RSpec Shared Examples](../topic_resources/rails/rspec-shared-examples.md)
+- [Easy Site Design with Bootstrap](../topic_resources/bootstrap.md)
+- [Rails Entity-Reltionship Diagrams](../topic_resources/rails/rails-erd.md) ([rails-erd gem](https://github.com/voormedia/rails-erd))
+
+### Projects
+- [Media Ranker](https://github.com/Ada-C4/MediaRanker)
+
+## Week 11
+Week 11 brings the first group, multi-week project for students. This is a major expansion of the project development process that we've used in the classroom until now. In order to emphasize the Agile methodology discussed in previous weeks teams select task managers and stand up leads, have stand up meetings with their project manager (instructor) each day, track all progress in Trello with user stories, and whiteboard site flows and entity relationships. Projects are demoed to project managers at the end of the week.
+In addition to all of this, students are learning how to perform user authentication in Rails using session data and controller filters. Advanced validations for model classes are also discussed, and the bEtsy project provides several opportunities for using custom validations.
+
+### Learning Goals
+- Long-term project development with the Agile methodology 
+- Different team member roles (task manager, stand up leader, project manager)
+- Password-based user authentication in Rails
+- Authorization of specific actions/routes in Rails
+- Building custom validations for advanced model designs
+
+### Resources
+- [User Authentication in Rails (1)](../topic_resources/rails/rspec-with-rails.md)
+- [User Authentication in Rails (2)](../topic_resources/rails/rspec-with-rails.md)
+- [Advanced ActiveRecord Validations](../topic_resources/rails/custom-validators.md)
+- [Rails Controller Filters](../topic_resources/rails/controller-filters.md)
+- [Rails View Methods](../topic_resources/view-methods.md)
+
+### Projects
+- [bEtsy](https://github.com/Ada-C4/betsy)
