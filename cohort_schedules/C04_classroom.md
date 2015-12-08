@@ -250,7 +250,7 @@ In Week 7 we continue using Sinatra to solidify our understanding of web page el
 
 Our learning will cover an introduction to relational database concepts as well as understanding how to utilize these concepts. This includes an introduction to using SQL concepts using SQLite.
 
-## Learning Goals
+### Learning Goals
 - Learn the HTTP verbs and the appropriate scenarios to use them
 - Learn how and when to use forms in our web pages
 - Enhance Sinatra blog using forms
@@ -258,7 +258,7 @@ Our learning will cover an introduction to relational database concepts as well 
 - Practice pair programming
 - Gain exposure to deployment via Heroku
 
-## Resources
+### Resources
 - [Advanced Sinatra](https://github.com/kariabancroft/SinatraDogs)  
 - [Creating & Submitting Forms](../topic_resources/submitting-forms.md)  
 - [HTTP Verbs, CRUD & Idempotency](../topic_resources/http-verbs.md)  
@@ -268,7 +268,7 @@ Our learning will cover an introduction to relational database concepts as well 
 - [Heroku Installfest](../topic_resources/heroku_installfest.md)  
 - [Heroku](../topic_resources/heroku.md)  
 
-## Projects
+### Projects
 - [Scrabble Sinatra](https://github.com/Ada-C4/ScrabbleSinatra)  
 - [Tasks List](https://github.com/Ada-C4/TaskListSinatra)  
 
@@ -284,13 +284,13 @@ In week 8 we introduce students to the Ruby on Rails framework, which will be th
 - Introduce Data Modeling
 - Improve workflow
 
-## Resources
+### Resources
 - [RESTful Routing](../topic_resources/resources/restful-routes.md)
 - [Intro to MVC](../topic_resources/resources/intro-to-mvc.md)
 - [ActiveRecord](../topic_resources/rails/active_record.md)
 - [ActiveRecord Practice](../topic_resources/rails/active_record_practice.md)
 
-## Projects
+### Projects
 - [Tasks in Rails](https://github.com/Ada-C4/TaskListRails)
 
 ## Week 9
