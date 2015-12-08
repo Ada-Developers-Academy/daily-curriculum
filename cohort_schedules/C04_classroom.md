@@ -292,3 +292,21 @@ In week 8 we introduce students to the Ruby on Rails framework, which will be th
 
 ## Projects
 - [Tasks in Rails](https://github.com/Ada-C4/TaskListRails)
+
+## Week 9
+In week 9 students continue to expand their knowledge of Ruby on Rails, learning how ActiveRecord can be used to achieve data/model designs with relationships. Working in pairs, students build upon their existing experience by revisiting the Farmer's Market project from week 5 in which they first dealt with a large, inter-related dataset. Additionally this week students are introduced to Agile development practices using Kanban boards with [Trello](https://trello.com/).
+
+### Learning Goals
+- Solidify understanding of data modeling in MVC context
+- Knowledge of one-to-one and one-to-many relationships, with primary and foreign keys
+- Better understanding of CRUD routes through Rails resources
+- Improve workflow with task tracking/management
+
+### Resources
+- [ActiveRecord Relationships](../topic_resources/rails/active-record-relationships.md)
+- [Advanced Routing in Rails](../topic_resources/rails/routes-102.md)
+- [Gemsets](../topic_resources/rails/gemsets.md)
+- [Agile Development Methodology](../topic_resources/agile.md)
+
+### Projects
+- [FarMar in Rails](https://github.com/Ada-C4/FarMarRails)
