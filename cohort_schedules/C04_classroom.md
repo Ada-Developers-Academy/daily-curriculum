@@ -310,3 +310,22 @@ In week 9 students continue to expand their knowledge of Ruby on Rails, learning
 
 ### Projects
 - [FarMar in Rails](https://github.com/Ada-C4/FarMarRails)
+
+## Week 10
+For week 10 students continue to build web applications with the Ruby on Rails framework. The focus in this week is on testing both models and controllers using RSpec. A second major theme for the week is the use of [Bootstrap](https://getbootstrap.com/) to quickly build responsive websites. Basic validations for model classes are introduced, and the week's project has requirements for using them on each model.
+
+### Learning Goals
+- Understand how models can be checked for validity, and how validation requirements can be defined
+- Extend RSpec knowledge from pre-web projects (Scrabble, FarMar) into the Ruby on Rails context
+- Understand how to build DRY spec code by using shared examples
+- Improve front-end design capabilities and productivity using a responsive, grid-based framework
+
+### Resources
+- [ActiveRecord Validations](../topic_resources/rails/validations.md)
+- [Testing in Rails with RSpec](../topic_resources/rails/rspec-with-rails.md)
+- [RSpec Shared Examples](../topic_resources/rails/rspec-shared-examples.md)
+- [Easy Site Design with Bootstrap](../topic_resources/bootstrap.md)
+- [Rails Entity-Reltionship Diagrams](../topic_resources/rails/rails-erd.md) ([rails-erd gem](https://github.com/voormedia/rails-erd))
+
+### Projects
+- [Media Ranker](https://github.com/Ada-C4/MediaRanker)
