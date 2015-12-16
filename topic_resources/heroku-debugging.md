@@ -33,3 +33,10 @@ From an individual heroku application on the web app:
 - Run command for creating the heroku addons
 - Return to the Heroku application web page
 - Click on Papertrail link
+
+### Show Detailed Error Pages
+Change the following line in your `config/environments/production.rb` file:
+```
+config.consider_all_requests_local = true
+```
+**IMPORTANT: Make sure to change this back to `false` after you've finished fixing bugs!**
