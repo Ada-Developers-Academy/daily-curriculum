@@ -18,21 +18,23 @@ These tasks should be completed on your project. You should utilize GitHub Issue
 
 #### Continuous
 1. Watch your Issues for comments
-  - Add interested parties as collaborators to your project via the settings page (so they can push a branch)
+  - Add interested parties as collaborators to your project via the settings page
   - Assign issues to them to ensure another person does not attempt to work on it
 1. Watch your GitHub notifications for pull requests from collaborators. Review the contents of the pull request and initiate a discussion with the contributor, if necessary.
   - If pull request is satisfactory, merge using the "merge" button
 
 ## Contribute
-These are the steps you should complete to contribute to another person's project.
-1. Review a few open issues on a few different student's projects. This will help you get a feel for what types of things you can potentially work on.
+These are the steps you should complete to contribute to another person's project.  
+1. Review a few open issues on a few different student's projects. This will help you get a feel for what types of things you can potentially work on.  
   - Feel free to fork and run code to get an idea for what is out there thus far
 1. Once you decide which project you want to work on, create a fork.  
   - On your fork create a branch that corresponds to the issue that you will be working on.   
-  **Note** You will not be able to push your branch until you are added to the owner's project as a collaborator.
 1. Comment on the GitHub Issue you will be working on so the project owner can add you as a collaborator and assign the specific issue to you.
 1. Issue a pull request from your fork back to the project's master project and branch for the project owner to review.
   - Watch your pull request notifications for responses from the project owner. They may recommend changes or simply merge your PR if the changes are satisfactory.
 
 ## Pull requests
 GitHub provides some really awesome documentation about pull requests, so we will link that [here](https://help.github.com/articles/using-pull-requests/) for your reading pleasure since we think this is really great resource!
+
+## Syncing a Fork
+Changes could potentially cause a merge conflict from a project's master when submitting a pull request from a fork. To resolve these, you may need to sync the code on your fork with the updates from the project master. The github [documentation](https://help.github.com/articles/syncing-a-fork/) outlines how to pull the latest changes.
