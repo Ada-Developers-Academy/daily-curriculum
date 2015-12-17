@@ -1,8 +1,16 @@
 # Heroku Debugging
 This is not an exhaustive listing of how to debug a Heroku application, only a few handy tips that usually work.
 
-### Logging
-`heroku logs`
+### Viewing Logs
+To get an automatically updated history of your Rails logs from Heroku you can use either of these methods:
+
+Command-line method: `heroku logs`
+
+Website method:
+* Visit [Heroku Dashboard](https://dashboard.heroku.com/)
+* Select your application
+* Click the 'Actions' menu (three vertical dots in the upper right-hand corner of the page)
+* Select 'View Logs'
 
 ### App information
 ```
@@ -25,6 +33,8 @@ heroku run rake db:seed
 
 ### PaperTrail Add-On
 https://elements.heroku.com/addons/papertrail
+
+This add-on allows you to view and search through a history of your Rails logs from Heroku for the previous several days. Paid versions of the add-on allow for viewing and searching a longer history of logs (up to a year). This is critical for production deployments, as you may not know about an error until long after the relevant logs have disappeared from `heroku logs`.
 
 From an individual heroku application on the web app:
 - Select "Find More Add-Ons"
