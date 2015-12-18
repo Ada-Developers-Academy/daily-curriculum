@@ -2,20 +2,37 @@
 
 ## At a Glance
 
-Date    | Week                                | Topics
+Date    | Intern Continuing Education         | Topics
 --------|-------------------------------------|-----------------------------
-Dec 1   |   | **NO CLASS - INTERNSHIPS START**
-Dec 8   |   | Internship Check-in, Culture Shock, Gallup Strenghtsfinder Test, Code Review Intro
-Dec 15  |   | Calibration & Feedback, Working to your Strengths Workshop at Moz
-Jan 5   |   | Andrew G Lecture on Programming Languages (2 Hours 1:00PM-3:00PM)  
-Jan 12  |   |
-Jan 19  |   |
-Feb 16  |   | Resume Workshop & Mock Interviews
-Mar 8   |   | Lightning Talks about Internships (w/ C4)
-Mar 15  |   | Salary Worth Panel
-April   |   | Wine & Cheese & Board Games
+Dec 1   | [Session 1](#session-1) | **NO CLASS - INTERNSHIPS START**
+Dec 8   | [Session 2](#session-2)   | Internship Check-in, Culture Shock, Gallup Strenghtsfinder Test, Code Review Intro
+Dec 15  | [Session 3](#session-3)   | Calibration & Feedback, Working to your Strengths Workshop at Moz
+Jan 5   | [Session 4](#session-4)   | Andrew G Lecture on Programming Languages (2 Hours 1:00PM-3:00PM)  
+Jan 12  | [Session 5](#session-5)   |
+Jan 19  | [Session 6](#session-6)   |
+Feb 16  | [Session 7](#session-7)   | Resume Workshop & Mock Interviews
+Mar 8   | [Session 8](#session-8)   | Lightning Talks about Internships (w/ C4)
+Mar 15  | [Session 9](#session-9)   | Salary Worth Panel
+April   | [Session 10](#session-10)   | Wine & Cheese & Board Games
 
-## Other Activities:
-- Command Line
-- Project: Tic Tac Toe
-- CS ADTs
+## Session 1
+
+## Session 2
+
+## Session 3
+
+## Session 4
+
+## Session 5
+
+## Session 6
+
+## Session 7
+
+## Session 8
+
+## Session 9
+
+## Session 10
+
+
