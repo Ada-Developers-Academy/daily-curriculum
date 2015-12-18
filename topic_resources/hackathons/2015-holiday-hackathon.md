@@ -16,7 +16,7 @@ Don’t expect to have actually solved a problem by the end of the hackathon. So
 
 ## What does a good project look like?
 - **Clearly articulated and thought out.** Projects should have a clear question or problem they are trying to solve plus a reasonably specific proposed solution.
-Attainable. Most projects will accomplish about 25% of what they think they can accomplish in the limited time they have. Manage each project’s goals so participants are able to feel accomplished at the end of the session, not interrupted.
+- **Attainable.** Most projects will accomplish about 25% of what they think they can accomplish in the limited time they have. Manage the project tasks so that you are able to feel accomplished at the end of the session, not interrupted.
 - **Everyone should be able to participant.**. Projects should have ready-to-go tasks for perople with a variety of skill levels and interests. The project setup should be able to be spun up in less than 20 minutes. 
 - **Led by a Task Master.** The task master guides the project. The task master’s role should be to coordinate the details of the project, ensuring each team member has something to work on and helping pieces come together fluidly.
 
