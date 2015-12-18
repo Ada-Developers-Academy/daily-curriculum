@@ -16,8 +16,13 @@ Mar 15  | [Session 9](#session-9)   | Salary Worth Panel
 April   | [Session 10](#session-10)   | Wine & Cheese & Board Games
 
 ## Session 1
+- No class
 
 ## Session 2
+- 1:00 - 1:30 - Checkin
+- 1:30 - 2:30 - Gallup StrengthsFinder
+- 2:30 - 3:30 - Cynthia, Cutlture Shock
+- 3:30 - 5:00 - Charles, Code Review Intro
 
 ## Session 3
 
