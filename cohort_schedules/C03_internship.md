@@ -27,6 +27,8 @@ April   | [Session 10](#session-10)   | Wine & Cheese & Board Games
 ## Session 3
 
 ## Session 4
+- 1:00 - 3:00-  Andrew G Lecture on Programming Languages 
+- 3:00- 5:00 - Code Reviewing
 
 ## Session 5
 
