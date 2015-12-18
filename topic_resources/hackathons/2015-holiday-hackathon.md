@@ -21,8 +21,8 @@ Attainable. Most projects will accomplish about 25% of what they think they can 
 - **Led by a Task Master.** The task master guides the project. The task master’s role should be to coordinate the details of the project, ensuring each team member has something to work on and helping pieces come together fluidly.
 
 ## Hackathon Theme
-For this Hackathon you will be creating a card game of your choice. You can utilize `[https://github.com/jdan/rubycards](https://g
-ithub.com/jdan/rubycards)` to handle the creation of Cards and Decks.
+For this Hackathon you will be creating a card game of your choice. You can utilize [`https://github.com/jdan/rubycards`](https://g
+ithub.com/jdan/rubycards) to handle the creation of Cards and Decks.
 
 ## Basic Requirements
 - This should be a card based game
