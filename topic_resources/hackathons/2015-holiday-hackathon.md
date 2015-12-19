@@ -25,8 +25,11 @@ For this Hackathon you will be creating a card game of your choice. You can util
 
 ## Basic Requirements
 - This should be a card based game
+    - Using only standard playing cards
+    - Does not have to be a 52-card deck (can be more or less)
 - Everyone in the group should be participating
 - There should be at least 1 way to win and 1 way to lose the game
+- Can be multiplayer, but assume that all players will be using the same screen
 
 ## Baseline
 - Pick a card game and research how to play
