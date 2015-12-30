@@ -13,10 +13,10 @@ Jan 19  | [Session 6](#session-6)   | Password and Sercurity Lecture with Charle
 Jan 26  | [Session 7](#session-7)   | Tentative Career Path Lecture with C4 and Urmila 
 Feb 2   | [Session 8](#session-8)   | Intro Salary Conversation with Aubrey
 Feb 9   | [Session 9](#session-9)   | Resume Workshop 
-Feb 16  | [Session 10](#session-10)   | Off and Mock Interviews
+Feb 16  | [Session 10](#session-10)   | 12 Student for Mock Interviews/ 12 Students are off
 Feb 23  | [Session 11](#session-11)   | Resume Workshop 
-Mar 1   | [Session 12](#session-12)   | Lightning Talks about Interships with C4 
-Mar 8   | [Session 13](#session-13)   | In class Code Review and help with Capstones
+Mar 1   | [Session 12](#session-12)   | 12 Students for Mock Interviews/ 12 Students are off  
+Mar 8   | [Session 13](#session-13)   | Lightning Talks about Internships with C4, In-class Code Review, Capstone Help
 Mar 15  | [Session 14](#session-14)   | Salary Worth/ Negotiation 
 Mar 22  | [Session 15](#session-15)   | Off-- SPRING BREAK 
 Mar 29  | [Session 16](#session-16)   | Compensation Package Panel - Tentative 
@@ -51,28 +51,48 @@ Apr 19  | [Session 19](#session-19)   | Tentative Code Reviewing if needed
 - 3:30- 5:00 Code Reviewing and helping C4 
 
 ## Session 7
-- 1:00- 1:30 -  Check-In with Alexandra 
+- 1:00- 1:30 -  Check-In with Alexandra: Interview Coaching Sign Up. Resume Workshop. 
 - 1:30- 3:30 - Career Path Lecture with Urmilla 
 - 3:30- 5:00 - Code Reviewing and Helping C4 
 
 ## Session 8
+- 1:00 - 3:00 - Intro to Salary conversation with Aubrey
+- 3:00 - 3:30 - Check in with Alexandra 
+- 3:00 - 5:00 - Code Reviewing and helping C4
 
 ## Session 9
+- 1:00- 3:00 - Resume Workshop with Annie
+- 3:00 - 4:00 - Check in with Alexandra: Lighning Talks. 
+- 3:00 - 5:00- Code Reviewing and helping C4 
 
 ## Session 10
+- 1:00- 5:00 - 12 Students @ AdaHQ for Mock interviewing with coaches
+- *if you are one of the 12 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing.  
 
 ## Session 11 
+- 1:00 - 5:00 - 1:1 Resume Review with Annie. Code Reviewing
 
 ## Session 12 
+- 1:00- 5:00 - 12 Students @ AdaHQ for Mock interviewing with coaches
+- *if you are one of the 12 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing. 
 
 ## Session 13 
+- 1:00- 2:30 - Lightning Talks to C4 about internships
+- 2:30- 3:00- Check-in with Alexandra 
+- 3:00- 5:00- Code Reviewing and helping C4 with Capstones 
 
-## Session 14 
+## Session 14
+- 1:00- 3:00- Salary Worth and Negotation Lecture with Aubrey 
+- 3:00- 4:00- Planning session with Alexandra for Compensation Package Panel 
+- 4:00- 5:00- Code Reviewing 
 
 ## Session 15 
+-- Spring Break WooHoo
 
 ## Session 16 
+-- 1:00- 5:00-- Compensation Packages Panel 
 
 ## Session 17 
 
 ## Session 18 
+- 1:00- 5:00-- Wine and cheese graduation planning party
