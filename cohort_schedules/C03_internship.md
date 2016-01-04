@@ -13,10 +13,10 @@ Jan 19  | [Session 6](#session-6)   | Password and Sercurity Lecture with Charle
 Jan 26  | [Session 7](#session-7)   | Career Path Lecture with C4 and Urmila 
 Feb 2   | [Session 8](#session-8)   | Intro Salary Conversation with Aubrey
 Feb 9   | [Session 9](#session-9)   | Resume Workshop 
-Feb 16  | [Session 10](#session-10)   | 12 Student for Mock Interviews/ 12 Students are off
+Feb 16  | [Session 10](#session-10)   | 8 Student for Mock Interviews/ 16 Students are off
 Feb 23  | [Session 11](#session-11)   | Resume Workshop 
-Mar 1   | [Session 12](#session-12)   | 12 Students for Mock Interviews/ 12 Students are off  
-Mar 8   | [Session 13](#session-13)   | Lightning Talks about Internships with C4, In-class Code Review, Capstone Help
+Mar 1   | [Session 12](#session-12)   | 8 Students for Mock Interviews/ 16 Students are off  
+Mar 8   | [Session 13](#session-13)   | 8 Students for Mock Interviews/ Lightning Talks about Internships with C4, In-class Code Review, Capstone Help
 Mar 15  | [Session 14](#session-14)   | Salary Worth/ Negotiation 
 Mar 22  | [Session 15](#session-15)   | Off-- SPRING BREAK 
 Mar 29  | [Session 16](#session-16)   | Compensation Package Panel - Tentative 
@@ -66,17 +66,18 @@ Apr 19  | [Session 19](#session-19)   | Tentative Code Reviewing if needed
 - 3:00 - 5:00- Code Reviewing and helping C4 
 
 ## Session 10
-- 1:00- 5:00 - 12 Students @ AdaHQ for Mock interviewing with coaches
-- *if you are one of the 12 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing.  
+- 1:00- 5:00 - 8 Students @ AdaHQ for Mock interviewing with coaches
+- *if you are one of the 8 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing.  
 
 ## Session 11 
 - 1:00 - 5:00 - 1:1 Resume Review with Annie. Code Reviewing
 
 ## Session 12 
-- 1:00- 5:00 - 12 Students @ AdaHQ for Mock interviewing with coaches
-- *if you are one of the 12 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing. 
+- 1:00- 5:00 - 8 Students @ AdaHQ for Mock interviewing with coaches
+- *if you are one of the 8 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing. 
 
 ## Session 13 
+- 1:00-5:00 - 8 Students will be conducting 50 minute mock interviews
 - 1:00- 2:30 - Lightning Talks to C4 about internships
 - 2:30- 3:00- Check-in with Alexandra 
 - 3:00- 5:00- Code Reviewing and helping C4 with Capstones 
