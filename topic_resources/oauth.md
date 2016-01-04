@@ -1,6 +1,6 @@
 # OAuth
 OAuth stands for Open Authorization.  
-![OAuth](/rails/oauth.png)
+![OAuth](rails/oauth.png)
 
 OAuth is a protocol that allows for a more streamlined user experience for login, utilizing an existing application's logon experience. This is because OAuth allows you to share your private resources stored on one site with another site without having to hand out your username and password.
 
