@@ -6,7 +6,7 @@ OmniAuth is a gem that standardizes the authentication process using 3rd party p
 - Facebook
 - Github
 - Heroku
-- LinkdIn
+- LinkedIn
 - Netflix
 - Paypal
 
@@ -30,7 +30,7 @@ Enough with talking, lets implement this into a quick application. Head over to 
 ```bash
 $ mkdir omni
 $ echo '2.2.2' > omni/.ruby-version
-$ echo 'omni' > omni/.ruby-gemset 
+$ echo 'omni' > omni/.ruby-gemset
 $ cd omni
 $ gem install rails --no-ri --no-rdoc
 $ rails new . -T
