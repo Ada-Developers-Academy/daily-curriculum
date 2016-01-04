@@ -10,7 +10,7 @@ Dec 15  | [Session 3](#session-3)   | Working to your Strengths Workshop with Mo
 Jan 5   | [Session 4](#session-4)   | Andrew G Lecture on Programming Languages   
 Jan 12  | [Session 5](#session-5)   | @ HOME SESSION- 3 hours of Code Reviewing
 Jan 19  | [Session 6](#session-6)   | Password and Sercurity Lecture with Charles + Callibration and Feedback 
-Jan 26  | [Session 7](#session-7)   | Tentative Career Path Lecture with C4 and Urmila 
+Jan 26  | [Session 7](#session-7)   | Career Path Lecture with C4 and Urmila 
 Feb 2   | [Session 8](#session-8)   | Intro Salary Conversation with Aubrey
 Feb 9   | [Session 9](#session-9)   | Resume Workshop 
 Feb 16  | [Session 10](#session-10)   | 12 Student for Mock Interviews/ 12 Students are off
