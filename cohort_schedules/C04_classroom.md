@@ -379,3 +379,26 @@ Week 13 only has one day of class time, on Monday. We are taking the opportunity
 
 ### Resources
 - [2015 Winter Hackathon](../topic_resources/hackathons/2015-holiday-hackathon.md)
+
+## Week 14
+Week 14 is our introduction to working with Web APIs (Application Programming Interfaces). Web APIs allow for the integration of our website with various services provided by other organizations. These services will supercharge our Rails apps and provide the final piece of our back-end programming curriculum.
+
+Our project for Week 14 is another two-week team effort, further emphasizing the collaboration, agile methodology, and team management skills. For this project, teams build a site which allows users to sign-up with a social media account, and to then track other social media users using one integrated activity feed.
+
+### Learning Goals
+- JSON and XML data formats for computer-computer interaction
+- OAuth and the standard web-based login flow 
+- Using the OmniAuth gem to integrate OAuth strategies for popular social networks
+- APIs - What they are and how to use them
+- Model factories for advanced testing, using [Factory Girl](https://github.com/thoughtbot/factory_girl_rails)
+
+### Resources
+- [JSON & XML](https://zapier.com/learn/apis/chapter-3-data-formats/)
+- [APIs 101](../topic_resources/web-api-101.md)
+- [Consuming APIs](../topic_resources/consuming-an-api.md)
+- [Intro to OAuth](../topic_resources/oauth.md)
+- [Using OmniAuth](../topic_resources/rails/omniauth.md)
+- [Factory Girl](../topic_resources/rails/factory-girl.md)
+
+### Projects
+- [SeeMore](https://github.com/Ada-C4/seemore)
