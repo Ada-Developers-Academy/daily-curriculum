@@ -306,7 +306,7 @@ RSpec.describe SessionsController, type: :controller  do
         let!(:user) { User.find_or_create_from_omniauth(OmniAuth.config.mock_auth[:github]) }
 
         it "doesn't create another user" do
-          expect { get :create, provider: :github }.to_not change(User, :count).by(1)
+          expect { get :create, provider: :github }.to change(User, :count).by(0)
         end
 
         it "assigns the session[:user_id]" do
