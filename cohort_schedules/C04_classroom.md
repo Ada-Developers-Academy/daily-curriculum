@@ -17,7 +17,7 @@
 | Nov 30  | [Week 10](#week-10) | Testing in Rails, Individual Project
 | Dec 7   | [Week 11](#week-11) | Group Rails Project
 | Dec 14  | [Week 12](#week-12) | Group Rails Project
-| Dec 21  | [Week 13](#week-13) | Special Topics & Group Rails Project + __Break__
+| Dec 21  | [Week 13](#week-13) | Special Topics + __Break__
 | Dec 28  |                     | __Winter Break__
 | Jan 4   | [Week 14](#week-14) | Rails Project - Using APIs
 | Jan 11  | [Week 15](#week-15) | Rails Project - Using APIs
@@ -369,3 +369,36 @@ Because we're continuing with the bEtsy project from Week 11, there is not much 
 
 ### Projects
 - [bEtsy](https://github.com/Ada-C4/betsy)
+
+## Week 13
+Week 13 only has one day of class time, on Monday. We are taking the opportunity provided by this short week to run our own Ada Hackathon! Students present their project ideas (all card games in standard Ruby) and classmates sign up to be part of their team along with at least one TA or instructor.
+
+### Learning Goals
+- Hackathons are fun and social experiences!
+- Have a great winter break!
+
+### Resources
+- [2015 Winter Hackathon](../topic_resources/hackathons/2015-holiday-hackathon.md)
+
+## Week 14
+Week 14 is our introduction to working with Web APIs (Application Programming Interfaces). Web APIs allow for the integration of our website with various services provided by other organizations. These services will supercharge our Rails apps and provide the final piece of our back-end programming curriculum.
+
+Our project for Week 14 is another two-week team effort, further emphasizing the collaboration, agile methodology, and team management skills. For this project, teams build a site which allows users to sign-up with a social media account, and to then track other social media users using one integrated activity feed.
+
+### Learning Goals
+- JSON and XML data formats for computer-computer interaction
+- OAuth and the standard web-based login flow 
+- Using the OmniAuth gem to integrate OAuth strategies for popular social networks
+- APIs - What they are and how to use them
+- Model factories for advanced testing, using [Factory Girl](https://github.com/thoughtbot/factory_girl_rails)
+
+### Resources
+- [JSON & XML](https://zapier.com/learn/apis/chapter-3-data-formats/)
+- [APIs 101](../topic_resources/web-api-101.md)
+- [Consuming APIs](../topic_resources/consuming-an-api.md)
+- [Intro to OAuth](../topic_resources/oauth.md)
+- [Using OmniAuth](../topic_resources/rails/omniauth.md)
+- [Factory Girl](../topic_resources/rails/factory-girl.md)
+
+### Projects
+- [SeeMore](https://github.com/Ada-C4/seemore)
