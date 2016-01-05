@@ -332,6 +332,7 @@ For week 10 students continue to build web applications with the Ruby on Rails f
 
 ## Week 11
 Week 11 brings the first group, multi-week project for students. This is a major expansion of the project development process that we've used in the classroom until now. In order to emphasize the Agile methodology discussed in previous weeks teams select task managers and stand up leads, have stand up meetings with their project manager (instructor) each day, track all progress in Trello with user stories, and whiteboard site flows and entity relationships. Projects are demoed to project managers at the end of the week.
+
 In addition to all of this, students are learning how to perform user authentication in Rails using session data and controller filters. Advanced validations for model classes are also discussed, and the bEtsy project provides several opportunities for using custom validations.
 
 ### Learning Goals
@@ -347,6 +348,24 @@ In addition to all of this, students are learning how to perform user authentica
 - [Advanced ActiveRecord Validations](../topic_resources/rails/custom-validators.md)
 - [Rails Controller Filters](../topic_resources/rails/controller-filters.md)
 - [Rails View Methods](../topic_resources/view-methods.md)
+
+### Projects
+- [bEtsy](https://github.com/Ada-C4/betsy)
+
+## Week 12
+Week 12 finishes up the first team project for students. Within each team a different set of students take on the Task Manager and Stand Up Leader roles, but teams retain their previous Project Manager (instructor). Emphasis this week is on getting to a "feature complete" state; improving code quality through testing and code coverage; and presenting a project demo to colleagues and stakeholders. 
+
+Because we're continuing with the bEtsy project from Week 11, there is not much new lecture material. Crystal is presenting another CS Fundamentals lecture on the mergesort algorithm, and Kari will cover the use of GitHub Issues for contributing to open source projects by reporting bugs or feature requests.
+
+### Learning Goals
+- Long-term project development with the Agile methodology 
+- Different team member roles (task manager, stand up leader, project manager)
+- Collaborating on other people's/teams' projects using GitHub Issues
+
+### Resources
+- [GitHub Issues](https://guides.github.com/features/issues/)
+- [Project Collaboration](../topic_resources/team-project-contributions.md)
+- [CS Fundamentals (mergesort)](https://gist.github.com/sudocrystal/8578ad90cf9bf1189de1)
 
 ### Projects
 - [bEtsy](https://github.com/Ada-C4/betsy)

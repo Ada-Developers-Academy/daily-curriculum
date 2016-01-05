@@ -21,7 +21,7 @@ The `OmniAuth` gem provides pretty much everything you need to use these service
 
 In both of these examples `:provider` is a named parameter that will equal the name of the service we are using, in this example it will be `github`. These two routes in our application are how we start and end the authentication interaction with the provider, sending the user to `/auth/github`, will start the authentication process, when Github is finished authenticating them, they will be sent back to our application to the route `/auth/github/callback`
 
-![OmniAuth Dance](resources/omniauth-dance.png)
+![OmniAuth Dance](../resources/omniauth-dance.png)
 
 ### Getting started
 
@@ -53,11 +53,11 @@ Then `bundle install`, you notice that we have a specific gem for Github. Each p
 
 Each provider requires you to provide some credential for your application, so they can keep track of which website is authorizing which user. We can login to [Github](http://github.com) and register a new "application" here [https://github.com/settings/applications/new](https://github.com/settings/applications/new)
 
-![Github Application Registration](resources/github-application.png)
+![Github Application Registration](../resources/github-application.png)
 
 After registration you will be given a `client id` and a `client secret`:
 
-![Github Application Credentials](resources/github-credentials.png)
+![Github Application Credentials](../resources/github-credentials.png)
 
 **Note:** These are essentially passwords to your Github account, keep them safe, never post them in public places or commit them in git.
 
