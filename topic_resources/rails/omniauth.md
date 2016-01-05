@@ -136,7 +136,6 @@ auth_hash["uid"]
 auth_hash["info"]["name"]
 auth_hash["info"]["email"]
 auth_hash["info"]["image"]
-auth_hash["info"]["nickname"]
 ```
 
 We can use the above information returned by Github to create a user.
@@ -176,7 +175,7 @@ config.before(:suite) do
   # set per-provider (or default) authentication
   # hashes to return during testing.
 
-  OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", nickname: "Ada"}})
+  OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({:provider => 'github', :uid => '123545', info: {email: "a@b.com", name: "Ada"}})
 end
 ```
 
