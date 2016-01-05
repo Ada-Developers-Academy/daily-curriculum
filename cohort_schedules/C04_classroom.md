@@ -17,7 +17,7 @@
 | Nov 30  | [Week 10](#week-10) | Testing in Rails, Individual Project
 | Dec 7   | [Week 11](#week-11) | Group Rails Project
 | Dec 14  | [Week 12](#week-12) | Group Rails Project
-| Dec 21  | [Week 13](#week-13) | Special Topics & Group Rails Project + __Break__
+| Dec 21  | [Week 13](#week-13) | Special Topics + __Break__
 | Dec 28  |                     | __Winter Break__
 | Jan 4   | [Week 14](#week-14) | Rails Project - Using APIs
 | Jan 11  | [Week 15](#week-15) | Rails Project - Using APIs
@@ -369,3 +369,13 @@ Because we're continuing with the bEtsy project from Week 11, there is not much 
 
 ### Projects
 - [bEtsy](https://github.com/Ada-C4/betsy)
+
+## Week 13
+Week 13 only has one day of class time, on Monday. We are taking the opportunity provided by this short week to run our own Ada Hackathon! Students present their project ideas (all card games in standard Ruby) and classmates sign up to be part of their team along with at least one TA or instructor.
+
+### Learning Goals
+- Hackathons are fun and social experiences!
+- Have a great winter break!
+
+### Resources
+- [2015 Winter Hackathon](../topic_resources/hackathons/2015-holiday-hackathon.md)
