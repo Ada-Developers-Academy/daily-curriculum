@@ -155,7 +155,6 @@ end
   rails g rspec:install
   rails g model user username:string email:string uid:string provider:string avatar_url:string
   rake db:migrate
-  rake db:test:prepare
 ```
 
 Next we'll add some configuration and specs to test the creation of users with OmniAuth:
