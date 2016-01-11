@@ -9,7 +9,7 @@ Dec 8   | [Session 2](#session-2)   | Internship Check-in, Culture Shock, Gallup
 Dec 15  | [Session 3](#session-3)   | Working to your Strengths Workshop with Moz
 Jan 5   | [Session 4](#session-4)   | Andrew G Lecture on Programming Languages   
 Jan 12  | [Session 5](#session-5)   | @ HOME SESSION- 3 hours of Code Reviewing
-Jan 19  | [Session 6](#session-6)   | Password and Sercurity Lecture with Charles + Code Reviewing
+Jan 19  | [Session 6](#session-6)   | Password and Security Lecture with Charles + Code Reviewing
 Jan 26  | [Session 7](#session-7)   | Career Path Lecture with C4 and Urmila + Work+Life Integration/Balance In Tech 
 Feb 2   | [Session 8](#session-8)   | Intro Salary Conversation with Aubrey
 Feb 9   | [Session 9](#session-9)   | Resume Workshop 
