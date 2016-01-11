@@ -34,6 +34,26 @@ FactoryGirl.define do
 end
 ```
 
+### Naming Factories
+Note that by default, the factory must have the same name as the class for which the factory is created. If you want to name the factory something other than the object name, you must specify the `class` name in the factory definition.
+
+```ruby
+FactoryGirl.define do
+ factory :book do
+   name "House of Leaves"
+   author "Mark Z. Danielewski"
+   description "House of Leaves is the debut novel by the American author Mark Z. Danielewski, published by Pantheon Books. The novel quickly became a bestseller following its release on March 7, 2000. It was followed by a companion piece, The Whalestoe Letters"
+ end
+
+ factory :older, class: Book do
+   name "To Kill a Mockingbird"
+   author "Harper Lee"
+   description "To Kill a Mockingbird is primarily a novel about growing up under extraordinary circumstances in the 1930s in the Southern United States. The story covers a span of three years, during which the main characters undergo significant changes."
+ end
+end
+```
+
+
 ### Use Factories
 
 Now within our specs we can use the FactoryGirl syntax to create this Book object, which will be an ActiveRecord Book object that we defined in `app/models/book.rb`. FactoryGirl is just storing the default values.
@@ -59,7 +79,8 @@ The `create` and `build` methods are going to be the most common FactoryGirl met
 __create__ will attempt to __save__ the record  
 __build__ will not attempt to save the record  
 
-The first argument is the name of the factory, which is the symbol after `factory` in the `factories.rb`, the next argument is an optional hash, where you can pass in additional attributes or attributes to override on the creation of the object.
+
+The first argument in the `create` or `build` method call is the name of the factory, which is the symbol after `factory` in the `factories.rb`. The second argument in the `create` or `build` method call is an optional hash, where you can pass in additional attributes or attributes to override on the creation of the object.
 
 
 ### More Factory Girl
