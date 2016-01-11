@@ -1,13 +1,24 @@
 # Factory Girl
 
-[Factory Girl Rails](https://github.com/thoughtbot/factory_girl_rails) is a fixture replacement (not that we've learned what fixtures are). Basically what it does is allows you to define `ActiveRecord` object presets, then use the `FactoryGirl` syntax to initialize or create those object(s) at any time and with additional attribute definitions. Each preset is called a "factory". To install add the gem to the `development` and `test` environments to your `Gemfile`:
+[Factory Girl Rails](https://github.com/thoughtbot/factory_girl_rails) is a fixture replacement (not that we've learned what fixtures are). Basically what it does is allows you to define `ActiveRecord` object presets, then use the `FactoryGirl` syntax to initialize or create those object(s) at any time and with additional attribute definitions. Each preset is called a "factory".
 
-    gem "factory_girl_rails"
+### Configuration
+To install add the gem to the `development` and `test` environments to your `Gemfile`:
+
+    gem 'factory_girl_rails'
+
+In the `spec_helper.rb` file, add a `require` statement:  
+```ruby
+require 'factory_girl'
+```
 
 Add the following line within the `config` block in `spec_helper.rb`
 ```ruby
 config.include FactoryGirl::Syntax::Methods
 ```
+This line will give you access to the shortened `FactoryGirl` methods so you don't need to type out the full class with method call every time.
+
+### Define Factories
 Next create a file to define your factories,
 
     touch spec/factories.rb
@@ -22,6 +33,8 @@ FactoryGirl.define do
   end
 end
 ```
+
+### Use Factories
 
 Now within our specs we can use the FactoryGirl syntax to create this Book object, which will be an ActiveRecord Book object that we defined in `app/models/book.rb`. FactoryGirl is just storing the default values.
 ```ruby
@@ -42,7 +55,13 @@ describe Book do
 end
 ```
 
-The `create` and `build` methods are going to be the most common FactoryGirl methods, these methods accept the same argument, but create will attempt to save the record, while build will not. The first argument is the name of the factory, which is the symbol after `factory` in the `factories.rb`, the next argument is an optional hash, where you can pass in additional attributes or attributes to override on the creation of the object.
+The `create` and `build` methods are going to be the most common FactoryGirl methods, these methods accept the same argument, but are slightly different.  
+__create__ will attempt to __save__ the record  
+__build__ will not attempt to save the record  
 
-This is a great resource to use to investigation more with Factory Girl.
+The first argument is the name of the factory, which is the symbol after `factory` in the `factories.rb`, the next argument is an optional hash, where you can pass in additional attributes or attributes to override on the creation of the object.
+
+
+### More Factory Girl
+The Factory Girl Getting Started documentation is the best resources for more detailed information about how to use factories in your testing.  
 [Factory Girl Getting Started](http://www.rubydoc.info/gems/factory_girl/file/GETTING_STARTED.md)
