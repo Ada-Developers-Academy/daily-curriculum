@@ -9,8 +9,8 @@ Dec 8   | [Session 2](#session-2)   | Internship Check-in, Culture Shock, Gallup
 Dec 15  | [Session 3](#session-3)   | Working to your Strengths Workshop with Moz
 Jan 5   | [Session 4](#session-4)   | Andrew G Lecture on Programming Languages   
 Jan 12  | [Session 5](#session-5)   | @ HOME SESSION- 3 hours of Code Reviewing
-Jan 19  | [Session 6](#session-6)   | Password and Sercurity Lecture with Charles + Callibration and Feedback 
-Jan 26  | [Session 7](#session-7)   | Career Path Lecture with C4 and Urmila 
+Jan 19  | [Session 6](#session-6)   | Password and Sercurity Lecture with Charles + Code Reviewing
+Jan 26  | [Session 7](#session-7)   | Career Path Lecture with C4 and Urmila + Work+Life Integration/Balance In Tech 
 Feb 2   | [Session 8](#session-8)   | Intro Salary Conversation with Aubrey
 Feb 9   | [Session 9](#session-9)   | Resume Workshop 
 Feb 16  | [Session 10](#session-10)   | 8 Student for Mock Interviews/ 16 Students are off
@@ -47,13 +47,12 @@ Apr 19  | [Session 19](#session-19)   | Tentative Code Reviewing if needed
 
 ## Session 6
 - 1:00 - 2:00 Password and Security Lecture with Charles
-- 2:00 - 3:30 Callibration and Feedback Lecture with Kelsey 
-- 3:30- 5:00 Code Reviewing and helping C4 
+- 2:00 - 5:00 Code Reviewing and helping C4 
 
 ## Session 7
 - 1:00- 1:30 -  Check-In with Alexandra: Interview Coaching Sign Up. Resume Workshop. 
 - 1:30- 3:30 - Career Path Lecture with Urmilla 
-- 3:30- 5:00 - Code Reviewing and Helping C4 
+- 3:30- 5:00 - Work+Life Integration/Balance In Tech 
 
 ## Session 8
 - 1:00 - 3:00 - Intro to Salary conversation with Aubrey
