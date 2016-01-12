@@ -5,7 +5,8 @@ The Capstone Project is the largest undertaking you'll experience in the Ada cla
 For the capstone project, you have the option to work individually or in a pair. If you do decide to work individually, you will have another individual with whom you will work with throughout the capstone as a sounding board and support system even though you will be working on different projects.
 
 ### Goals
-- Teach yourself new technologies
+- Demonstrate self-direction, time management, and independent learning
+- Learn and implement new technologies
 - Complete a product lifecycle from conception to delivery
 - Utilize agile practices learned to assist in project completion
 
