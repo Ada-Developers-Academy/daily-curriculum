@@ -25,7 +25,7 @@
 | Jan 25  | [Week 17](#week-17) | Intro to Javascript
 | Feb 1   | [Week 18](#week-18) | JavaScript API project
 | Feb 8   | [Week 19](#week-19) | Pair JS Framework Project
-| Feb 15  | [Week 20](#week-20) | Capstone Project, Interview Prep
+| Feb 15  | [Week 20](#week-20) | Internship Interviews
 | Feb 22  | [Week 21](#week-21) | Capstone Project
 | Feb 29  | [Week 22](#week-22) | Capstone Project
 | Mar 7   | [Week 23](#week-23) | Capstone Project
@@ -336,7 +336,7 @@ Week 11 brings the first group, multi-week project for students. This is a major
 In addition to all of this, students are learning how to perform user authentication in Rails using session data and controller filters. Advanced validations for model classes are also discussed, and the bEtsy project provides several opportunities for using custom validations.
 
 ### Learning Goals
-- Long-term project development with the Agile methodology 
+- Long-term project development with the Agile methodology
 - Different team member roles (task manager, stand up leader, project manager)
 - Password-based user authentication in Rails
 - Authorization of specific actions/routes in Rails
@@ -353,12 +353,12 @@ In addition to all of this, students are learning how to perform user authentica
 - [bEtsy](https://github.com/Ada-C4/betsy)
 
 ## Week 12
-Week 12 finishes up the first team project for students. Within each team a different set of students take on the Task Manager and Stand Up Leader roles, but teams retain their previous Project Manager (instructor). Emphasis this week is on getting to a "feature complete" state; improving code quality through testing and code coverage; and presenting a project demo to colleagues and stakeholders. 
+Week 12 finishes up the first team project for students. Within each team a different set of students take on the Task Manager and Stand Up Leader roles, but teams retain their previous Project Manager (instructor). Emphasis this week is on getting to a "feature complete" state; improving code quality through testing and code coverage; and presenting a project demo to colleagues and stakeholders.
 
 Because we're continuing with the bEtsy project from Week 11, there is not much new lecture material. Crystal is presenting another CS Fundamentals lecture on the mergesort algorithm, and Kari will cover the use of GitHub Issues for contributing to open source projects by reporting bugs or feature requests.
 
 ### Learning Goals
-- Long-term project development with the Agile methodology 
+- Long-term project development with the Agile methodology
 - Different team member roles (task manager, stand up leader, project manager)
 - Collaborating on other people's/teams' projects using GitHub Issues
 
@@ -387,7 +387,7 @@ Our project for Week 14 is another two-week team effort, further emphasizing the
 
 ### Learning Goals
 - JSON and XML data formats for computer-computer interaction
-- OAuth and the standard web-based login flow 
+- OAuth and the standard web-based login flow
 - Using the OmniAuth gem to integrate OAuth strategies for popular social networks
 - APIs - What they are and how to use them
 - Model factories for advanced testing, using [Factory Girl](https://github.com/thoughtbot/factory_girl_rails)
