@@ -1,22 +1,8 @@
-# Basic JavaScript
-
-We try to separate concerns in web applications:
-
-* HTML - Document structure and information. Your HTML mark up should
-  be a semantic representation of the information in your document.
-
-* CSS - Presentation. CSS controls the way that we present our
-  information to the user.
-
-* JavaScript - Behavior and interactivity. We use JavaScript to handle
-  user interactions via events, and to add interactivity to our web
-  apps.
-
 ## JavaScript basics
 
 ### Playing with JavaScript
 
-Safai, Firefox, and Chrome all support a JavaScript console, which
+Safari, Firefox, and Chrome all support a JavaScript console, which
 allows us to write JavaScript directly in the browser. In Chrome, you
 can access the console either via the menu (View > Developer >
 JavaScript Console), or via the keyboard shortcut (Command - Option - J).
@@ -26,9 +12,11 @@ HTML, and CSS. The three most popular are [JSFiddle](//jsfiddle.net),
 [CodePen](//codepen.io), and [JS Bin](//jsbin.com). We'll use
 JSFiddle for demonstrations, but it's a matter of taste.
 
+Since we are used to using a REPL like IRB, we will be using Node's REPL which will look quite familiar to us now. 
+
 ### Getting Help
 
-The best JS doumentation is on the
+The best JS documentation is on the
 [Mozilla Developer Network](https://developer.mozilla.org). ProTip:
 add "mdn" to your Google searches about JavaScript
 questions. W3Schools results will show up above MDN otherwise, and
@@ -55,7 +43,7 @@ This is optional for the code to work (sometimes, and the rules are inconsistent
 JavaScript supports similar basic types to Ruby: Boolean, Null,
 Undefined, Number, String, Array, Object, and Function.
 
-Open the JavaScript Console and try the following examples.
+Open the REPL and try the following examples.
 
 * Boolean is true or false
 
