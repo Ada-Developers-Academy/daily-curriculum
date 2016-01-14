@@ -16,6 +16,7 @@ For the capstone project, you have the option to work individually or in a pair.
 - Practice TDD to lead the development process
 
 ### Technical Guidelines
+- Cover the requirements for technical [features](../capstone/features.md)
 - Host the application using a VPS such as Amazon EC2
 - Configure DNS with custom domain
 - Create a stylized, responsive design for all devices (phone, tablet, display)
