@@ -12,7 +12,7 @@ HTML, and CSS. The three most popular are [JSFiddle](//jsfiddle.net),
 [CodePen](//codepen.io), and [JS Bin](//jsbin.com). We'll use
 JSFiddle for demonstrations, but it's a matter of taste.
 
-Since we are used to using a REPL like IRB, we will be using Node's REPL which will look quite familiar to us now. 
+Since we are used to using a REPL like IRB, we will be using Node's REPL which will look quite familiar to us now.
 
 ### Getting Help
 
@@ -194,7 +194,7 @@ adder;        // this returns the function that you just declared
 adder(1, 2);  // 3 - this executes the function and returns the result
 ```
 
-# Exercises# JavaScript Exercises
+# JavaScript Exercises
 
 ### Exercise #1: Create a ToDo object, with the following properties:
 
