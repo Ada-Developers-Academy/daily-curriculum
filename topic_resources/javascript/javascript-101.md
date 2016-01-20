@@ -153,6 +153,7 @@ var adult = (age > 18) ? "yes" : "no";
 ```
 
 ### Iterators
+#### For Loop
 - Most common is the **for-loop** which has three parts:
   - `var i = 0` - **starter**  
     This executes at loop start.
@@ -166,6 +167,18 @@ var adult = (age > 18) ? "yes" : "no";
 for (var i = 0; i < 5; i++) {
   // Will execute 5 times
 }
+```
+
+#### While Loop
+JavaScript also uses the `while` loop in a similar way to the way we use it in Ruby.
+
+```javascript
+var i = 0;
+while (i < 10) {
+    text += "The number is " + i;
+    i++;
+}
+console.log(text);
 ```
 
 ### Functions
