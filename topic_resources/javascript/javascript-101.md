@@ -153,7 +153,7 @@ var adult = (age > 18) ? "yes" : "no";
 ```
 
 ### Iterators
-- Most common is the for-loop which has three parts:
+- Most common is the **for-loop** which has three parts:
   - `var i = 0` - **starter**  
     This executes at loop start.
   - `i < 5` - **loop condition**  

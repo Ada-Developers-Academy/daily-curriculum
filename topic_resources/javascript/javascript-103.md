@@ -52,7 +52,7 @@ Ok. Same thing. Let's take a look at this in the node REPL. Start the REPL by ty
 So, same questions: what if our requirements changed and we suddenly needed to raise numbers to the 9th power? 5th power? What are our options?
 
 ### Enter Closures.
-So the paragraph at the top of the page told us that a closure is created when a function access varirables not defined in its local scope, but in its parent scope.  Using this idea, we can create a function that provides us the functionality and flexibility we're looking for. Let's modify `closure.js` to leverage a closure:
+So the paragraph at the top of the page told us that a closure is created when a function access variables not defined in its local scope, but in its parent scope.  Using this idea, we can create a function that provides us the functionality and flexibility we're looking for. Let's modify `closure.js` to leverage a closure:
 
 ```javascript
 function powerer(p) {
@@ -65,7 +65,7 @@ function powerer(p) {
 }
 ```
 
-The outer function, `powerer`, defines a local variable (`power`) and a function (`mather`). It then returns `mather`. The innter function references `power`, a local variable defined in the outer function. Therefore, when invoked, a closure is created so that `mather` knows what `power` is supposed to be. Let's try it out in the Node REPL:
+The outer function, `powerer`, defines a local variable (`power`) and a function (`mather`). It then returns `mather`. The inner function references `power`, a local variable defined in the outer function. Therefore, when invoked, a closure is created so that `mather` knows what `power` is supposed to be. Let's try it out in the Node REPL:
 
 ```javascript
 .load closure.js
@@ -80,7 +80,7 @@ niner(2);
 niner(cuber(squarer(2));
 ```
 
-Everytime we call `powerer()`, a new closure is created. The `mather` function is returned and assigned to a variable (like `cuber`). Invoking `cuber(3)` executes the `mather` function, which references `power`, which will has the value assigned to it when the closure was created.
+Every time we call `powerer()`, a new closure is created. The `mather` function is returned and assigned to a variable (like `cuber`). Invoking `cuber(3)` executes the `mather` function, which references `power`, which will has the value assigned to it when the closure was created.
 
 ### Closure Chair-Pair Exercise
 
