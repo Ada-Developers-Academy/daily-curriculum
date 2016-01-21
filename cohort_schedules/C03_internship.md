@@ -20,7 +20,7 @@ Mar 8   | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ Lig
 Mar 15  | [Session 14](#session-14) - WK44 | Salary Worth/ Negotiation
 Mar 22  | [Session 15](#session-15) - WK45 | Off-- SPRING BREAK
 Mar 29  | [Session 16](#session-16) - WK46 | Compensation Package Panel - Tentative
-Apr 5   | [Session 17](#session-17) - WK47 | TBA
+Apr 5   | [Session 17](#session-17) - WK47 | Dan UNIX Lecture (Tentatively) 
 Apr 12  | [Session 18](#session-18) - WK48 |Wine & Cheese party & Graduation Planning
 Apr 19  | [Session 19](#session-19) - WK49 | Tentative Code Reviewing if needed
 Apr 29  | WK 51 | Graduation
