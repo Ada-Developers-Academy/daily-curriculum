@@ -390,7 +390,6 @@ Our project for Week 14 is another two-week team effort, further emphasizing the
 - OAuth and the standard web-based login flow
 - Using the OmniAuth gem to integrate OAuth strategies for popular social networks
 - APIs - What they are and how to use them
-- Model factories for advanced testing, using [Factory Girl](https://github.com/thoughtbot/factory_girl_rails)
 
 ### Resources
 - [JSON & XML](https://zapier.com/learn/apis/chapter-3-data-formats/)
@@ -398,7 +397,70 @@ Our project for Week 14 is another two-week team effort, further emphasizing the
 - [Consuming APIs](../topic_resources/consuming-an-api.md)
 - [Intro to OAuth](../topic_resources/oauth.md)
 - [Using OmniAuth](../topic_resources/rails/omniauth.md)
+
+### Projects
+- [SeeMore](https://github.com/Ada-C4/seemore)
+
+## Week 15
+In Week 15 we continue working on the API project started in the previous week.
+
+### Learning Goals
+- Week 14 Continued
+- Model factories for advanced testing, using [Factory Girl](https://github.com/thoughtbot/factory_girl_rails)
+
+### Resources
 - [Factory Girl](../topic_resources/rails/factory-girl.md)
 
 ### Projects
 - [SeeMore](https://github.com/Ada-C4/seemore)
+
+## Week 16
+In Week 16 we will be begin a unit on Refactoring and Service Oriented Architecture. Build a Shipping service for a e-commerce projects. The emphasis will be on instilling good code craftsmanship and citizenship, exploring service APIs, and continuing to develop expertise with testing. In addition, we will utilize an unfamiliar code base to build skills in reading and comprehending code.
+
+### Learning Goals
+- Build an API
+- Build a system following SOA principles
+- Integrate features into an unfamiliar system
+
+### Resources
+- [Creating an Api in Rails](../topic_resources/creating-an-api-in-rails.md)  
+- [Intro to SOA](https://www.youtube.com/watch?v=7s_S5Hkm7z0)  
+- [Ada Pets](https://github.com/Ada-Developers-Academy/ada-pets)  
+
+### Projects
+- [Shipping Service](https://github.com/Ada-C4/shipping-service)
+
+## Week 17
+In Week 16 we will start using JavaScript! We will start with an introduction and a few small projects using on Chrome Dev Tools and JSFiddle. Then we will go into a few larger projects in the browser. Finally we will integrate some of our new found skills into a Rails application.
+
+### Learning Goals
+ - Introduction to JavaScript, including core concepts and features:
+   - variables
+   - types
+   - arrays
+   - functions
+   - scope
+   - objects
+ - Understanding of the DOM and how the browser loads and represents web pages.
+ - Using JavaScript and jQuery to modify a web page:
+     - with the JavaScript document object and associated methods
+     - with jQuery's $ function and associated methods
+
+### Resources
+#### Lecture Topics
+- [JS 101](../topic_resources/javascript/javascript-101.md)  
+- [JS 102](../topic_resources/javascript/javascript-102.md)  
+- [JS 103](../topic_resources/javascript/javascript-103.md)  
+- [JS 104](../topic_resources/javascript/javascript-104.md)  
+- [jQuery 101](../topic_resources/javascript/jquery-101.md)  
+<!-- [ajax](../topic_resources/javascript/ajax.md)  -->
+
+#### Exercises
+- [JS 101 Exercises](../topic_resources/javascript/exercises-101.md)  
+- [Ch 2 Exercises](http://eloquentjavascript.net/02_program_structure.html#h_TcUD2vzyMe)  
+- [Ch 3 Exercises](http://eloquentjavascript.net/03_functions.html#h_TcUD2vzyMe)  
+- [Exercism](exercism.io)
+
+#### Projects
+- [Digital Clock](https://github.com/Ada-Developers-Academy/js-digital-clock)  
+- [Keyboard](https://github.com/Ada-Developers-Academy/js-music-keyboard)  
