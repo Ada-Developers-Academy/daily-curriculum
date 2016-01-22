@@ -453,7 +453,6 @@ In Week 16 we will start using JavaScript! We will start with an introduction an
 - [JS 103](../topic_resources/javascript/javascript-103.md)  
 - [JS 104](../topic_resources/javascript/javascript-104.md)  
 - [jQuery 101](../topic_resources/javascript/jquery-101.md)  
-<!-- [ajax](../topic_resources/javascript/ajax.md)  -->
 
 #### Exercises
 - [JS 101 Exercises](../topic_resources/javascript/exercises-101.md)  
