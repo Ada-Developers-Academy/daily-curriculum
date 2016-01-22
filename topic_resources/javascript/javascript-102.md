@@ -4,7 +4,7 @@ Javascript's appeal and power and flexibility are in the myriad ways we can inte
 ### Functional expressions vs. Function declarations
 * Functions are objects
 * `var foo = function(bar){};` vs. `function foo(bar){}`
-* In _many_ cases, the differences here are nominal, but it's important to understand the first example is an __expression__ while the second is a __decleration__.
+* In _many_ cases, the differences here are nominal, but it's important to understand the first example is an __expression__ while the second is a __declaration__.
 * [This StackOverflow answer is one of the best I've seen in describing the difference and when it matters](http://stackoverflow.com/questions/3887408/javascript-function-declaration-and-evaluation-order).
 
 ### Functions, methods, constructor calls
@@ -28,7 +28,7 @@ var o = new Obj();
 ### Passing functions as variables
 * Computer scientists call this _higher order functions_ and/or _first-class functions_.
 
-```
+```javascript
 var talker = function( sum ){
   console.log( "Yo the sum is: " + sum );
 };
@@ -89,5 +89,3 @@ var hello = function(name){
 
 hello( "Jeremy", "what", "are", "you", "doing" ); //=> "Hello Jeremy, what are you doing"
 ```
-
-
