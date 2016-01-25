@@ -1,91 +1,87 @@
-# JavaScipt 104: Objects & Inheritance.
+# JavaScript 104: Closures
 
-Looking back on last week's project utilizing the This Is My Jam API, I saw many functions that looked like this:
+## Closures
+
+Ok, so what's a closure and why does it matter? A closure is an inner function that has access to the outer (enclosing) function’s variables. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function’s variables, and it has access to the global variables. __A _closure_ is created when an inner function refers to an outer function's variables.__
+
+To see how closures are used in Javascript, let's make some objects in both Ruby and JavaScript that do similar things, then see how we might leverage a closure to make our code more powerful and concise.
+
+### To the sandbox!
+
+```bash
+cd ~/sandbox
+mkdir closure-practice
+cd closure-practice
+touch closure.rb
+touch closure.js
+subl .
+```
+
+In your editor, open `closure.rb` and paste this code:
+
+```ruby
+class Powerer
+  def squarer(num)
+    num ** 2
+  end
+
+  def cuber(num)
+    num ** 3
+  end
+end
+```
+
+Let's open it in `irb` and give it a whirl: `irb -r ./closure.rb`. This is great as long as all we want to do is square and cube numbers. But what if our requirements changed and we suddenly needed to raise numbers to the 9th power? 5th power? What are our options?
+
+#### Question: No, really. What are our options?
+
+Ok. Let's look at how we'd do this in JavaScript. Open `closure.js` in your editor and copypasta this in:
 
 ```javascript
-function youtube_embed(data) {
-  var iframe = $('<iframe></iframe>');
-  //... do some work
-  return iframe
+function squarer(num) {
+  return Math.pow(num, 2);
 }
 
-function vimeo_embed(data) {
-  var iframe = $('<iframe></iframe>');
-  //... do some slightly different work
-  return iframe
+function cuber(num) {
+  return Math.pow(num, 3);
 }
 ```
 
-This works well enough, but it's clear that we'll end up with a lot of standlaone functions that do very similar work. If we were creating similar functionality in Ruby, we would likely write a class that would allow us to DRY up the repeated code into something manageable and reusable.
+Ok. Same thing. Let's take a look at this in the node REPL. Start the REPL by typing `node` in the terminal then load our file with: `.load closure.js`. This will open the file and enter it, line by line, into the REPL. Weird, but workable. Give our functions a try. `squarer(2)` and `cuber(2)` and `squarer(cuber(2))` all work as you'd expect, yeah?
 
-But this is JavaScript and things are a little bit different. It might not be as pretty as Ruby, but we can acheive similar DRY, reusable code by using object prototypes.
+So, same questions: what if our requirements changed and we suddenly needed to raise numbers to the 9th power? 5th power? What are our options?
 
-In a _prototypal system_, objects inherit from objects. In Ruby, we know that seeing `class Alpha < Beta`, means that `Alpha` is defined with having all of the methods, accessors, properties, and constants that exist on `Beta`.
-
-JavaScript doesn't have an inheritance operator or keyword like Ruby's `<`. Instead, it has a `new` keyword such that `new Alpha()` produces an object that inherits from `Alpha.prototype`. So where's `Beta` in that setup? How would we create `Alpha` such that it inherits from `Beta`?
-
-## Approach #1: Using Object Prototypes
-Let's copypasta this code block into our Node REPL:
+### Enter Closures.
+So the paragraph at the top of the page told us that a closure is created when a function access variables not defined in its local scope, but in its parent scope.  Using this idea, we can create a function that provides us the functionality and flexibility we're looking for. Let's modify `closure.js` to leverage a closure:
 
 ```javascript
-var Beta = {
-  how_many_dogs: 7,
-  dog: function() { console.log('woof!'); },
-  cat: function() { console.log('mrow!'); }
+function powerer(p) {
+  var power = p;
+  var mather = function(num) {
+    return Math.pow(num, power);
+  }
+
+  return mather
 }
-
-function Alpha() {
-  this.bird = function() { console.log('chirp!'); }
-};
-
-Alpha.prototype = Beta;
-
-var alpha_instance = new Alpha();
 ```
-#### What did we just do?
-`Beta` is a generic JavaScript object. `Alpha` is a function that sets a property on itself (`this.bird`). We then assign `Alpha`'s prototype to be `Beta`. By assigning the prototype, we are telling JavaScript that new _instances_ of the `Alpha` object should inherit the properties and functions defined on `Beta`.
 
-Ok. So now what? Well, let's take a look at what we can do with `alpha_instance`:
+The outer function, `powerer`, defines a local variable (`power`) and a function (`mather`). It then returns `mather`. The inner function references `power`, a local variable defined in the outer function. Therefore, when invoked, a closure is created so that `mather` knows what `power` is supposed to be. Let's try it out in the Node REPL:
 
 ```javascript
-alpha_instance.bird(); // alpha_instance -> Alpha
-alpha_instance.dog(); // alpha_instance -> Alpha -> alpha_instance.prototype -> dog()
-alpha_instance.cat(); // alpha_instance -> Alpha -> alpha_instance.prototype -> cat()
-alpha_instance.how_many_dogs; // alpha_instance -> alpha_instance.prototype -> how_many_dogs
+.load closure.js
+
+var squarer = powerer(2);
+var cuber = powerer(2);
+var niner = powerer(9);
+
+squarer(2);
+cuber(2);
+niner(2);
+niner(cuber(squarer(2));
 ```
 
-#### So how did we instantiate `Alpha`?
+Every time we call `powerer()`, a new closure is created. The `mather` function is returned and assigned to a variable (like `cuber`). Invoking `cuber(3)` executes the `mather` function, which references `power`, which will has the value assigned to it when the closure was created.
 
-The `new` keyword is responsible for creating the instance. Notice that we invoked the function too! The whole line is `new Alpha()`. Invoking the function triggers the function body of `Alpha`, essentially using the function body as the constructor for the object.
+### Closure Chair-Pair Exercise
 
-So `alpha_instance` has a `bird()` function that it got as part of the invocation of `Alpha()`. The function body of `Alpha()` is the constructor for new instances.
-
-#### What can we do with this?
-
-We can build complex functions that look and act like objects we'd use in Ruby. For an example let's take a look at the [code in this file](https://github.com/jnf/jquery-jukebox/blob/jnf/with-views/app/assets/javascripts/embed_formatter.js). In this example, I used `prototype` to add new functions to a `Formatter()` object. Rather than assigning a generic object to `Formatter.prototype`, I added a series of named functions to it. Consuming this object looks like this:
-
-```javascript
-var data = {
-  artist: "Defeater"
-  title: "Spared in Hell"
-  url: "http://soundcloud.com/epitaph-records/defeater-spared-in-hell-1"
-  via: "soundcloud"
-}; // this is the return data from the ajax api request
-
-var formatter  = new Formatter(data);
-var embed_code = formatter.build();
-```
-
-## A note about using `Object.create()`
-
-Introduced in ES5, `Object.create()` is a function that creates new objects. It takes one or two paramters. The first is an object that will be the new object's prototype. The second parameter is an optional object. If the second parameter is provided, it's properties and functions will be applied to the newly created object. You can read more about using `Object.create()` [over at MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create).
-
-There are a couple of gotchas and (to me, at least) unintuitive behaviors with using `Object.create()`, so be sure to read the docs carefully when you try using it.
-
-## A note about the new `class` keyword in ES6.
-
-When reading about JavaScript, you'll come across folks excited about ES6 adding some new keywords like `class`, `extends`, `constructor`, and `super`. These keywords will allow us to build objects and inheritances that feel more familiar to us. However, JavaScript will remain a prototypal language; these keywords are just syntactic sugar sprinkled on top of what we are doing here with `prototype`.
-
-
-http://javascript.crockford.com/prototypal.html
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+Define a function named `makeAccumulator` that takes no arguments. It should create and return a function that takes __one__ argument and __returns a running total of all the arguments it has seen__. _E.g_ if `f` is the function returned by `makeAccumulator`, the first time you call `f(3)` it should return _3_, then if you call `f(2)`, it should return _5_. If you called `f(1000)` after that, it should return _1005_.
