@@ -6,11 +6,10 @@
 
 JavaScript provides an Array.reverse method. For practice, we're going to write something similar. Neither solution should use the reverse method.
 
-<!--Create a module in src/ called reverser.js. This file should export a JS object with methods that are the functions defined in the exercises.-->
 
 ### First
 
-Write a function called reverseArray() that takes an array, `ar` as an argument and returns a new array that has the same elements as `ar`, but in inverted order. Add this function to your reverser module.
+Write a function called reverseArray() that takes an array, `ar` as an argument and returns a new array that has the same elements as `ar`, but in inverted order. 
 
 ### Added fun!
 
