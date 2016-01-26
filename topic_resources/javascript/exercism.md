@@ -1,6 +1,6 @@
 # Exercism
 
-We will be using [Exercism](exercism.io) as a tool to assist in our learning of JavaScript. Exercism provides a number of practice problems along with unit tests to ensure the accuracy of your answer to the test problems.
+We will be using [Exercism](http://exercism.io/) as a tool to assist in our learning of JavaScript. Exercism provides a number of practice problems along with unit tests to ensure the accuracy of your answer to the test problems.
 
 ## Setup
 All of the Exercism exercises can be done from the comfort of your own command line. This will require some configuration and setup on your part.
