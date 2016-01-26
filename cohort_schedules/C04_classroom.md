@@ -458,8 +458,8 @@ In Week 16 we will start using JavaScript! We will start with an introduction an
 - [JS 101 Exercises](../topic_resources/javascript/exercises-101.md)  
 - [Ch 2 Exercises](http://eloquentjavascript.net/02_program_structure.html#h_TcUD2vzyMe)  
 - [Ch 3 Exercises](http://eloquentjavascript.net/03_functions.html#h_TcUD2vzyMe)  
-- [Exercism](exercism.io)
+- [Exercism](http://exercism.io/)
 
 #### Projects
-- [Digital Clock](https://github.com/Ada-Developers-Academy/js-digital-clock)  
-- [Keyboard](https://github.com/Ada-Developers-Academy/js-music-keyboard)  
+- [Digital Clock](https://github.com/Ada-C4/js-digital-clock)  
+- [Keyboard](https://github.com/Ada-C4/js-music-keyboard)  
