@@ -18,3 +18,16 @@ function logIt() {
 
 logIt();
 ```
+
+What is the output of this code:
+```javascript
+var text = 'outside';
+
+function logIt() {
+  console.log(a);
+  var text = 'inside';
+}
+
+logIt();
+```
+Why are they different?
