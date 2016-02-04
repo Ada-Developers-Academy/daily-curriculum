@@ -7,6 +7,7 @@ It should be __no more than 5 minutes__ in length and should have the following 
 - What was one technical challenge you overcame?
 
 Prior to demoing, you should have the following:
-- Dry run at least 2x this weekend, preferably in front of someone else
-- Know the features you'll demo; have test accounts/items working
+- Dry run at least 2x prior to the demo, in front of someone else
+- Know the sequence of events that you will execute to show the features you want to demo
+- Ensure you have test accounts/items working
 - Prepare slides for any non-app talking points (optional)
