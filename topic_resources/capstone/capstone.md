@@ -19,16 +19,9 @@ For the capstone project, you have the option to work individually or in a pair.
 - Cover the requirements for technical [features](../capstone/features.md)
 - Host the application using a VPS such as Amazon EC2
 - Configure DNS with custom domain
-- Create a stylized, responsive design for all devices (phone, tablet, display)
-- Use background jobs for any long running tasks (email, image processing, 3rd party data manipulation)
-- Use caching for slow or bulky database interactions
-- Use performance analytics to asses and optimize site performance (average server response time < 300ms)
-- Integrate email (At least user signup)
 - Expectations for code quality:
-    - 90% or greater test coverage (models and controllers)
-    - Javascript tests (client and server side) w/ Mocha
+    - 90% or greater test coverage (backend code)
     - B- or greater score on Code Climate
-    - No security issues (Brakeman)
 
 ### Final Delivery
 The Capstone Project consists of the following components:
