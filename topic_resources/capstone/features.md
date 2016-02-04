@@ -7,8 +7,13 @@ One of the most exciting and challenging things about the capstone project is le
   - NoSql (MongoDB)
   - Content Delivery Network (CDN)
   - Payment Processing (Stripe)
-  - Front-end Framework (Ember, Angular, Backbone, etc.)
+  - Front-end Framework (React, Ember, Angular, Backbone, etc.)
+  - Backend technology (Node)
+  - Backend Language (Python, Java, Elixir, etc.)
+  - Web App Framework (Django, Flask, Node Express)
+  - MEAN Stack
   - Third-party OAuth (logging in w/ Twitter, Github, etc.)
+  - Visualization tools (high charts, D3)
   - Secure Socket Layer (SSL)
   - Content Management System (CMS)
   - Internationalization (i18n)
@@ -16,5 +21,6 @@ One of the most exciting and challenging things about the capstone project is le
   - Service Oriented Architecture (SOA)
   - S3 storage/delivery
   - Secure Public API (documented)
+  - Dev Ops Tools (Docker, Chef, Puppet, Jenkins, Travis, etc.)
 
 __Instructors will verify that your choices for technology features are appropriate__
