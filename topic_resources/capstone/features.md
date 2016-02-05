@@ -23,4 +23,6 @@ One of the most exciting and challenging things about the capstone project is le
   - Secure Public API (documented)
   - Dev Ops Tools (Docker, Chef, Puppet, Jenkins, Travis, etc.)
 
+This is not an exhaustive list, so there many be technologies and tools that you would like to use that are not on this list.
+
 __Instructors will verify that your choices for technology features are appropriate__

@@ -23,6 +23,10 @@ For the capstone project, you have the option to work individually or in a pair.
     - 90% or greater test coverage (backend code)
     - B- or greater score on Code Climate
 
+### Deliverables
+- [Project Concept](../concept.md)
+- [Product Plan](../product-plan.md)
+
 ### Final Delivery
 The Capstone Project consists of the following components:
 - Completed application, live on the web
