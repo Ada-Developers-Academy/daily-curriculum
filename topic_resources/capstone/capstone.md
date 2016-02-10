@@ -24,8 +24,8 @@ For the capstone project, you have the option to work individually or in a pair.
     - B- or greater score on Code Climate
 
 ### Deliverables
-- [Project Concept](../concept.md)
-- [Product Plan](../product-plan.md)
+- [Project Concept](../capstone/concept.md)
+- [Product Plan](../capstone/product-plan.md)
 
 ### Final Delivery
 The Capstone Project consists of the following components:
