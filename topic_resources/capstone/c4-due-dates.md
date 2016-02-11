@@ -3,11 +3,11 @@
 ## Due Dates
 
 ### Idea
-[Preliminary Concept](../concept.md)  
+[Preliminary Concept](../capstone/concept.md)  
 Due Tuesday 2/16
 
 ### Product Plan
-[Details](../product-plan.md)  
+[Details](../capstone/product-plan.md)  
 Due Monday 2/22
 
 ## Accountability Groups
