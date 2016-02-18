@@ -11,4 +11,13 @@ Due Tuesday 2/16
 Due Monday 2/22
 
 ## Accountability Groups
-TBD
+**PM: Charles**
+- Desiree, Becca, Lauren
+- Meighan, Jennie, Emily
+- Brittany, Tammy, Riley
+- Jenna, Annalee, Daphne
+
+**PM: Kari**
+- Katherine, Sarah, Kelly
+- Hailey, Logan, Amy, Claire
+- Ricky, Audrey, Jessica
