@@ -10,7 +10,7 @@ Due Tuesday 2/16
 [Details](../capstone/product-plan.md)  
 Due Monday 2/22
 
-## Accountability Groups
+## [Capstone Groups](../capstone/groups.md)
 **PM: Charles**
 - Desiree, Becca, Lauren
 - Meighan, Jennie, Emily
