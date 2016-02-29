@@ -61,7 +61,7 @@ Apr 29  | WK 51 | Graduation
 
 ## Session 9
 - 1:00- 3:00 - Resume Workshop with Annie
-- 3:00 - 4:00 - Check in with Alexandra: Lighning Talks.
+- 3:00 - 4:00 - Check in with Alexandra: 
 - 3:00 - 5:00- Code Reviewing and helping C4
 
 ## Session 10
@@ -77,9 +77,9 @@ Apr 29  | WK 51 | Graduation
 
 ## Session 13
 - 1:00-5:00 - 8 Students will be conducting 50 minute mock interviews
-- 1:00- 2:30 - Lightning Talks to C4 about internships
-- 2:30- 3:00- Check-in with Alexandra
-- 3:00- 5:00- Code Reviewing and helping C4 with Capstones
+- 1:00- 3:00 - Panel and Small Group Discussions With C4
+- 3:00-3:30 - Check-in with Alexandra
+- 3:30- 5:00  Code Reviewing and helping C4 with Capstones
 
 ## Session 14
 - 1:00- 3:00- Salary Worth and Negotation Lecture with Aubrey
