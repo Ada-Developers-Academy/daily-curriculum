@@ -19,9 +19,9 @@ Mar 1   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interviews/ 16 
 Mar 8   | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ Lightning Talks about Internships with C4, In-class Code Review, Capstone Help
 Mar 15  | [Session 14](#session-14) - WK44 | Salary Worth/ Negotiation
 Mar 22  | [Session 15](#session-15) - WK45 | Off-- SPRING BREAK
-Mar 29  | [Session 16](#session-16) - WK46 | Compensation Package Panel - Tentative
+Mar 29  | [Session 16](#session-16) - WK46 | At Home Code Review
 Apr 5   | [Session 17](#session-17) - WK47 | Dan UNIX Lecture (Tentatively) 
-Apr 12  | [Session 18](#session-18) - WK48 |Wine & Cheese party & Graduation Planning
+Apr 12  | [Session 18](#session-18) - WK48 |Wine & Cheese party & Graduation Planning @ MOz
 Apr 19  | [Session 19](#session-19) - WK49 | Tentative Code Reviewing if needed
 Apr 29  | WK 51 | Graduation
 
@@ -82,15 +82,15 @@ Apr 29  | WK 51 | Graduation
 - 3:30- 5:00  Code Reviewing and helping C4 with Capstones
 
 ## Session 14
-- 1:00- 3:00- Salary Worth and Negotation Lecture with Aubrey
-- 3:00- 4:00- Planning session with Alexandra for Compensation Package Panel
+- 1:00- 2:30- Salary Worth and Negotation Panel
+- 3:00- 4:00- Check in with Alexandra
 - 4:00- 5:00- Code Reviewing
 
 ## Session 15
 -- Spring Break WooHoo
 
 ## Session 16
--- 1:00- 5:00-- Compensation Packages Panel
+-- 1:00- 5:00-- At home code review
 
 ## Session 17
 
