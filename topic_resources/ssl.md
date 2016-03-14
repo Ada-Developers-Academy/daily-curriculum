@@ -85,3 +85,10 @@ $ brew install awscli
 $ aws configure
 $ aws iam upload-server-certificate --server-certificate-name elastic-beanstalk-x509 --certificate-chain file://0000_chain.pem --certificate-body file://0000_cert.pem --private-key file://privkey.pem
 ```
+
+## Updating AWS with SSL settings
+On AWS navigate to your environment > Configuration > Network Tier (at the bottom) > Load Balancing
+Click the settings/gear next to Load Balancing
+For the drop down that says “secure listener port” select `443`
+For the drop down that says “certificate id” select `elastic-beanstalk-x509`
+Click apply, then wait for AWS to update
