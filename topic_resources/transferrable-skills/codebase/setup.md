@@ -32,7 +32,7 @@ Then from within your copy of the Typo repository, run:
 $ heroku create
 $ git push heroku master
 $ heroku run rake db:migrate
-$ heroku open # doesn't work on C9 --> on C9 right click on link that git push to heroku generates
+$ heroku open 
 ```
 
 At this point a browser should open and take you to typo setup. Follow the onscreen instructions but **please make a careful note of the password it generates for you**.  Once you leave the page with the password on you can't reset it unless you want to work out how to get typo set up to send email on Heroku.  
