@@ -47,5 +47,5 @@ What will the first several days/weeks of your internship look like?
 - **You manage your experience at your internship**
   - Ada is here to support you when you need but it is your responsibility to manage your relationships with coworkers and day-to-day interactions
   - Give yourself attainable goals and track them
-- **Don't Forget** that you are now the lowest person in the ranks. This is not to make you feel bad, but rather to help you manage expectations.   
+- **Don't Forget** that you are now the new person! This is not to make you feel bad, but rather to help you manage expectations.   
   - Your company has a lot of priorities to juggle, and try to be realistic about where your needs fall into those priorities
