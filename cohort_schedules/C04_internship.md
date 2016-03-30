@@ -10,21 +10,21 @@ May 3   | [Session 3](#session-3) - WK33 | TBD
 May 10  | [Session 4](#session-4) - WK34 | TBD
 May 17  | [Session 5](#session-5) - WK35 | @ HOME SESSION- 3 hours of Code Reviewing
 May 24  | [Session 6](#session-6) - WK36 | Password and Security Lecture with Charles + Code Reviewing
-May 31  | [Session 7](#session-7) - WK37 | TBD
+May 31  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
 Jun 7   | [Session 8](#session-8) - WK38 | Intro Salary Conversation with Aubrey
 Jun 14  | [Session 9](#session-9) - WK39 | Resume Workshop
 Jun 21  | [Session 10](#session-10) - WK40 | 8 Student for Mock Interviews/ 16 Students are off
 Jun 28  | [Session 11](#session-11) - WK41 | Resume Workshop
 Jul 5   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interviews/ Lightning Talks about Internships with C5
 Jul 12  | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ 16 Students are off
-Jul 19  | [Session 14](#session-14) - WK44 | **OFF -- SUMMER BREAK**
+Jul 19  | [Session 14](#session-14) - WK44 | **OFF -- BREAK**
 Jul 26  | [Session 15](#session-15) - WK45 | Salary Worth/ Negotiation
 Aug 2   | [Session 16](#session-16) - WK46 | At Home Code Review
-Aug 9   | [Session 17](#session-17) - WK47 | TBD
+Aug 9   | [Session 17](#session-17) - WK47 | NONE
 Aug 16  | [Session 18](#session-18) - WK48 | Wine & Cheese party & Graduation Planning @ Moz
-Aug 23  | [Session 19](#session-19) - WK49 | Tentative Code Reviewing if needed
-Aug 30  | [Session 19](#session-20) - WK50 | TBD
-Sept 6  | [Session 19](#session-21) - WK51 | TBD
+Aug 23  | [Session 19](#session-19) - WK49 | NONE Tentative Code Reviewing if needed
+Aug 30  | [Session 19](#session-20) - WK50 | NONE
+Sept 6  | [Session 19](#session-21) - WK51 | NONE
 Sept 16 |                             WK52 | Graduation
 
 ## Session 1
