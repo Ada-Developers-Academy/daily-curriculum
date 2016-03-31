@@ -14,8 +14,9 @@ def my_method
     if a < 20
     puts "this is poorly indented, but allowed"
   end
-  method_call_outside_if
+  call_outside_if
                end
+        call_outside_method
 ```
 
 Python:
@@ -24,7 +25,8 @@ def my_method():
     a = 10
     if a < 20:
         print "this is correctly indented, otherwise it's a syntax error"
-    method_call_outside_if()
+    call_outside_if()
+call_outside_method()
 ```
 
 While this choice by Python has major benefits for readability, and doesn't ever require hunting down which `end` matches up with which `if` or `def`, it does have a couple of drawbacks.
