@@ -74,7 +74,7 @@ Child.class_method
 Python:
 ```python
 class Parent:
-  pass
+    pass
 
 class Child(Parent):
     def __init__(self, name):
