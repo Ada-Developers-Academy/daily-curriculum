@@ -77,14 +77,16 @@ class Parent:
 class Child(Parent):
   def __init__(self, name):
     self.name = name
-   
+  # There is whitespace here!
   # instance methods in Python always take a "self" parameter
   def say_name(self):
     print "My name is %s" % self.name
   
   @classmethod
   def class_method(cls):
+    print "This is a class method on %s" % cls
     print "Class methods are just instance methods that have the @classmethod 'decorator' above them"
+    print "In class methods we also name the first parameter 'cls' instead of 'self' because it represents the class, not an instance"
 
 angela = Child("Angela")
 angela.say_name()
