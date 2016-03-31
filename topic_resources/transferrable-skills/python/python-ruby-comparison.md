@@ -79,11 +79,11 @@ class Parent:
 class Child(Parent):
     def __init__(self, name):
         self.name = name
-    # There is whitespace here!
+
     # instance methods in Python always take a "self" parameter
     def say_name(self):
         print "My name is %s" % self.name
-    
+ 
     @classmethod
     def class_method(cls):
         print "This is a class method on %s" % cls
