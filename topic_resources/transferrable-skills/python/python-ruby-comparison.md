@@ -21,10 +21,10 @@ def my_method
 Python:
 ```python
 def my_method():
-  a = 10
-  if a < 20:
-    print "this is correctly indented, otherwise it's a syntax error"
-  method_call_outside_if()
+    a = 10
+    if a < 20:
+        print "this is correctly indented, otherwise it's a syntax error"
+    method_call_outside_if()
 ```
 
 While this choice by Python has major benefits for readability, and doesn't ever require hunting down which `end` matches up with which `if` or `def`, it does have a couple of drawbacks.
@@ -32,7 +32,7 @@ While this choice by Python has major benefits for readability, and doesn't ever
 Firstly, if you want to have an "empty" block of code, you'll need to use the `pass` statement:
 ```python
 def empty_method():
-  pass
+    pass
 ```
 
 More importantly, you'll need to make sure that you **NEVER** mix tabs and spaces in the same file! Because a tab character is generally indicated in your code editor as a certain number of spaces (usually 2, 4, or 8) it's not immediately obvious when a given line contains some mix of tabs and spaces.
@@ -75,18 +75,18 @@ class Parent:
   pass
 
 class Child(Parent):
-  def __init__(self, name):
-    self.name = name
-  # There is whitespace here!
-  # instance methods in Python always take a "self" parameter
-  def say_name(self):
-    print "My name is %s" % self.name
-  
-  @classmethod
-  def class_method(cls):
-    print "This is a class method on %s" % cls
-    print "Class methods are just instance methods that have the @classmethod 'decorator' above them"
-    print "In class methods we also name the first parameter 'cls' instead of 'self' because it represents the class, not an instance"
+    def __init__(self, name):
+        self.name = name
+    # There is whitespace here!
+    # instance methods in Python always take a "self" parameter
+    def say_name(self):
+        print "My name is %s" % self.name
+    
+    @classmethod
+    def class_method(cls):
+        print "This is a class method on %s" % cls
+        print "Class methods are just instance methods that have the @classmethod 'decorator' above them"
+        print "In class methods we also name the first parameter 'cls' instead of 'self' because it represents the class, not an instance"
 
 angela = Child("Angela")
 angela.say_name()
