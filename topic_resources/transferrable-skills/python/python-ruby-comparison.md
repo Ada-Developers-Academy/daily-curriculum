@@ -65,7 +65,7 @@ class Child < Parent
 end
 
 angela = Child.new("Angela")
-angela.say_name()
+angela.say_name
 Child.class_method
 ```
 
