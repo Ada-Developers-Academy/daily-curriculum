@@ -94,3 +94,35 @@ angela = Child("Angela")
 angela.say_name()
 Child.class_method()
 ```
+
+
+## Basic Data Types
+Python has most of the same basic data types as Ruby, but some of them are named differently:
+```ruby
+nil.class # NilClass
+true.class # TrueClass
+false.class # FalseClass
+:symbol.class # Symbol
+1.class # Fixnum
+1.0.class # Float
+[1,2,3].class # Array
+{one: 1}.class # Hash
+```
+
+Python:
+```python
+None.__class__ # NoneType
+True.__class__ # <type 'bool'>
+False.__class__ # <type 'bool'>
+(1).__class__ # <type 'int'>
+(1.0).__class__ # <type 'float'>
+[1,2,3].__class__ # <type 'list'>
+{"one": 1}.__class__ # <type 'dict'>
+(1,"two",3.0).__class__ # <type 'tuple'>
+```
+
+NOTE: Python does not have a Symbol type, and the "singleton" instances that are equivalent to `nil`, `true`, and `false` are all capitalized.
+
+That last data type is new to us as Ruby programmers. The **tuple** data type can be written in literal form by using parenthses around any _comma-separated_ set of data. It is a lot like an array, but it has a particular style of usage.
+
+In Python it's highly recommended that you only use lists (arrays in Ruby) to hold data where each element is of the same data type -- e.g. a list of booleans or a list of BlogPosts. If you have a few peices of data that you want to associate together (such as name, age, and hair color) but they're not all the same data type, you should use a tuple instead of a list.
