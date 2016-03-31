@@ -3,7 +3,7 @@
 ## Significant Whitespace
 Probably the biggest difference between Python and almost every other programming language is the concept of "(semantically) significant whitespace". Whitespace means any character in your code's text file that isn't normally visible (e.g. spaces, tabs, and endlines).
 
-In Ruby all "blocks" of code are indicated by a beginning statement (such as `class`, `if`, or `do`) and a closing statement (always `end`). In Python the boundaries of a given block of code are determined based upon the *indentation* of the code.
+In Ruby all "blocks" of code are indicated by a beginning statement (such as `class`, `if`, or `do`) and a closing statement (always `end`). In Python the boundaries of a given block of code are determined based upon the **indentation** of the code.
 
 For example, the following two code snippets are equivalent:
 
@@ -35,10 +35,10 @@ def empty_method():
   pass
 ```
 
-More importantly, you'll need to make sure that you *NEVER* mix tabs and spaces in the same file! Because a tab character is generally indicated in your code editor as a certain number of spaces (usually 2, 4, or 8) it's not immediately obvious when a given line contains some mix of tabs and spaces.
+More importantly, you'll need to make sure that you **NEVER** mix tabs and spaces in the same file! Because a tab character is generally indicated in your code editor as a certain number of spaces (usually 2, 4, or 8) it's not immediately obvious when a given line contains some mix of tabs and spaces.
 
 The Python interpreter knows the difference however, and will not consider a line with mixed tabs and spaces to be the same as a line with only spaces -- even if they look exactly the same in your editor.
 
-So, should you use tabs or spaces? It kind of depends on what project you're working on -- you should always match whatever style is currently in use. However, if you're just starting out with a new project you should definitely follow the *official style guide* for Python (which recommends exactly 4 spaces per indentation "level").
+So, should you use tabs or spaces? It kind of depends on what project you're working on -- you should always match whatever style is currently in use. However, if you're just starting out with a new project you should definitely follow the **official style guide** for Python (which recommends exactly 4 spaces per indentation "level").
 
-The official style guide is called *PEP8* (Python Enhancement Proposal 8), and [you can find it here](https://www.python.org/dev/peps/pep-0008/). Most every code editor will include a syntax checker which conforms to the PEP8 standard, and you should use it. Even if you're not using the official 4 spaces recommendation, there are many other aspects of writing Python code which it covers, and you should try to follow as many of them as you can.
+The official style guide is called **PEP8** (Python Enhancement Proposal 8), and [you can find it here](https://www.python.org/dev/peps/pep-0008/). Most every code editor will include a syntax checker which conforms to the PEP8 standard, and you should use it. Even if you're not using the official 4 spaces recommendation, there are many other aspects of writing Python code which it covers, and you should try to follow as many of them as you can.
