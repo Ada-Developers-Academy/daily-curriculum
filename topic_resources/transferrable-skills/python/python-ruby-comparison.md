@@ -42,3 +42,51 @@ The Python interpreter knows the difference however, and will not consider a lin
 So, should you use tabs or spaces? It kind of depends on what project you're working on -- you should always match whatever style is currently in use. However, if you're just starting out with a new project you should definitely follow the **official style guide** for Python (which recommends exactly 4 spaces per indentation "level").
 
 The official style guide is called **PEP8** (Python Enhancement Proposal 8), and [you can find it here](https://www.python.org/dev/peps/pep-0008/). Most every code editor will include a syntax checker which conforms to the PEP8 standard, and you should use it. Even if you're not using the official 4 spaces recommendation, there are many other aspects of writing Python code which it covers, and you should try to follow as many of them as you can.
+
+
+## Class defintions, instance and class methods
+
+```ruby
+class Parent
+end
+
+class Child < Parent
+  def initialize(name)
+    @name = name
+  end
+
+  def say_name
+    puts "My name is #{name}"
+  end
+
+  def self.class_method
+    puts "This is a class method on #{self}"
+  end
+end
+
+angela = Child.new("Angela")
+angela.say_name()
+Child.class_method
+```
+
+Python:
+```python
+class Parent:
+  pass
+
+class Child(Parent):
+  def __init__(self, name):
+    self.name = name
+   
+  # instance methods in Python always take a "self" parameter
+  def say_name(self):
+    print "My name is %s" % self.name
+  
+  @classmethod
+  def class_method(cls):
+    print "Class methods are just instance methods that have the @classmethod 'decorator' above them"
+
+angela = Child("Angela")
+angela.say_name()
+Child.class_method()
+```
