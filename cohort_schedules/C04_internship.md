@@ -14,10 +14,10 @@ Jun 7   | [Session 8](#session-8) - WK38 | Intro Salary Conversation with Aubrey
 Jun 14  | [Session 9](#session-9) - WK39 | Al and Data
 Jun 21  | [Session 10](#session-10) - WK40 | 8 Student for Mock Interviews/ Al and Data 
 Jun 28  | [Session 11](#session-11) - WK41 | 8 Student for Mock Interview/ Resume Workshop
-Jul 5   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interviews/ Lightning Talks about Internships with C5
+Jul 5   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interviews/ Panel with C4 to C5 about Internships
 Jul 12  | [Session 13](#session-13) - WK43 | 6 Students for Mock Interviews/ Resume Workshop 
 Jul 19  | [Session 14](#session-14) - WK44 | **OFF -- BREAK**
-Jul 26  | [Session 15](#session-15) - WK45 | Salary Worth/ Negotiation
+Jul 26  | [Session 15](#session-15) - WK45 | Salary Worth/ Negotiation Panel 
 Aug 2   | [Session 16](#session-16) - WK46 | At Home Code Review
 Aug 9   | [Session 17](#session-17) - WK47 | NONE
 Aug 16  | [Session 18](#session-18) - WK48 | Wine & Cheese party & Graduation Planning @ Moz
