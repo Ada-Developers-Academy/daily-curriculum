@@ -5,18 +5,17 @@
 Date    | Intern Continuing Education         | Topics
 --------|-------------------------------------|-----------------------------
 Apr 19  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
-Apr 26  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro
-May 3   | [Session 3](#session-3) - WK33 | TBD
-May 10  | [Session 4](#session-4) - WK34 | TBD
-May 17  | [Session 5](#session-5) - WK35 | @ HOME SESSION- 3 hours of Code Reviewing
-May 24  | [Session 6](#session-6) - WK36 | Password and Security Lecture with Charles + Code Reviewing
+Apr 26  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro, 
+May 3   | [Session 3](#session-3) - WK33 | Gallup Strenghth Finder
+May 10  | [Session 4](#session-4) - WK34 | Al and Data
+May 17  | [Session 5](#session-5) - WK35 | Charles, Securty Lecture & Al and Data
 May 31  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
-Jun 7   | [Session 8](#session-8) - WK38 | Intro Salary Conversation with Aubrey
-Jun 14  | [Session 9](#session-9) - WK39 | Resume Workshop
-Jun 21  | [Session 10](#session-10) - WK40 | 8 Student for Mock Interviews/ 16 Students are off
-Jun 28  | [Session 11](#session-11) - WK41 | Resume Workshop
+Jun 7   | [Session 8](#session-8) - WK38 | Intro Salary Conversation with Aubrey from Payscale
+Jun 14  | [Session 9](#session-9) - WK39 | Al and Data
+Jun 21  | [Session 10](#session-10) - WK40 | 8 Student for Mock Interviews/ Al and Data 
+Jun 28  | [Session 11](#session-11) - WK41 | 8 Student for Mock Interview/ Resume Workshop
 Jul 5   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interviews/ Lightning Talks about Internships with C5
-Jul 12  | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ 16 Students are off
+Jul 12  | [Session 13](#session-13) - WK43 | 6 Students for Mock Interviews/ Resume Workshop 
 Jul 19  | [Session 14](#session-14) - WK44 | **OFF -- BREAK**
 Jul 26  | [Session 15](#session-15) - WK45 | Salary Worth/ Negotiation
 Aug 2   | [Session 16](#session-16) - WK46 | At Home Code Review
