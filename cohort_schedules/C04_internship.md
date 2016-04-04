@@ -1,4 +1,4 @@
-# Cohort 3 Internship Calendar
+# Cohort 4 Internship Calendar
 
 ## At a Glance
 
@@ -28,7 +28,7 @@ Sept 16 |                             WK52 | Graduation
 
 ## Session 1
 - No class
-
+<!--
 ## Session 2
 - 1:00 - 1:30 - Checkin
 - 1:30 - 2:30 - Gallup StrengthsFinder
@@ -97,3 +97,4 @@ Sept 16 |                             WK52 | Graduation
 
 ## Session 18
 - 1:00- 5:00-- Wine and cheese graduation planning party
+-->
