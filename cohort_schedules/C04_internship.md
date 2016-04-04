@@ -28,6 +28,7 @@ Sept 16 |                             WK52 | Graduation
 
 ## Session 1
 - No class
+
 <!--
 ## Session 2
 - 1:00 - 1:30 - Checkin
