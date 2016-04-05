@@ -24,9 +24,9 @@ This instance of HTTParty has methods to access the data from the request:
     r.message # => The text message that corresponds to the code ("OK")
     r.headers # => A hash of data about the request (date, server, content-type)
 
-So HTTParty is a tool to make HTTP requests, but HTML isn't a great way for computers to consume data, typically JSON or XML are used to represent data when it's not being displayed to humans. Let's look at an example of HTTParty with a JSON response:
+So HTTParty is a tool to make HTTP requests, but HTML isn't a great way for computers to consume data, typically JSON or XML are used to represent data when it's not being displayed to humans. Let's look at an example of HTTParty with a JSON response. Sign up for a free api key at [OpenWeatherMap.org](https://home.openweathermap.org/users/sign_up).
 
-    r = HTTParty.get("http://api.openweathermap.org/data/2.5/weather?q=Seattle")
+    r = HTTParty.get("http://api.openweathermap.org/data/2.5/weather?q=Seattle&APPID=#{your_api_key}")
     # => <HTTParty::Response:0x7fda1c9e2778 parsed_response={"coord"=>{"lon"=>-122.33, "lat"=>47.61}...
 
 HTTParty will attempt to automatically parse any data that it knows how, it's very good at doing this with JSON
