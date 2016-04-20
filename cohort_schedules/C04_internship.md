@@ -5,7 +5,7 @@
 Date    | Intern Continuing Education         | Topics
 --------|-------------------------------------|-----------------------------
 Apr 19  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
-Apr 26  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro, 
+Apr 26  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro by Charles 
 May 3   | [Session 3](#session-3) - WK33 | Leap Presentation by Yolanda from Microsoft
 May 10  | [Session 4](#session-4) - WK34 | Al and Data
 May 17  | [Session 5](#session-5) - WK35 | Charles, Securty Lecture & Al and Data
