@@ -8,7 +8,7 @@ Apr 19  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
 Apr 26  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro by Charles 
 May 3   | [Session 3](#session-3) - WK33 | Leap Presentation by Yolanda from Microsoft
 May 10  | [Session 4](#session-4) - WK34 | Al and Data
-May 17  | [Session 5](#session-5) - WK35 | Charles, Securty Lecture & Al and Data
+May 17  | [Session 5](#session-5) - WK35 | Charles, Security Lecture & Al and Data
 May 31  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
 Jun 7   | [Session 8](#session-8) - WK38 | Intro Salary Conversation with Aubrey from Payscale
 Jun 14  | [Session 9](#session-9) - WK39 | Al and Data
@@ -31,17 +31,16 @@ Sept 16 |                             WK52 | Graduation
 
 <!--
 ## Session 2
-- 1:00 - 1:30 - Checkin
-- 1:30 - 2:30 - Gallup StrengthsFinder
-- 2:30 - 3:30 - Cynthia, Culture Shock
+- 1:00 - 2:00 - Checkin with Alexandra
+- 2:00 - 3:30 - Cynthia, Culture Shock
 - 3:30 - 5:00 - Charles, Code Review Intro
 
 ## Session 3
-- 1:00- 2:15 - Lunch sponsored by Skytap
-- 2:15- 5:00 - Gallup StrengthsFinder Workshop
+- 1:00- 3:00 - Leap Presentation by Yolanda
+- 2:15- 5:00 - Code Review
 
 ## Session 4
-- 1:00- 3:00 -
+- 1:00- 3:00 - Al and Data
 - 3:00- 5:00 - Code Reviewing
 
 ## Session 5
