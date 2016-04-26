@@ -19,10 +19,10 @@
   * Supportive comments are a lot easier to write so please do put them directly into the PRs!
 
 ###3. General Reviewing Instructions
-  1. Go to [Code Reviewer wiki](http://adadevelopersacademy.wiki/Code_Reviewer) and find latest project
-  1. Open the Pull Requests page and filter the list by 'Everything assigned to you'
-  1. Select a PR and read the comment from the submitter
-  1. Click on 'Files changed' to the end result of all changes in the PR. (Viewing by commit can sometimes make it easier to understand what the coder was doing, but you
+  1. Go to the [Code Reviewer wiki](http://adadevelopersacademy.wiki/Code_Reviewer) and find the latest project.
+  1. Open the Pull Requests page and filter the list by 'Everything assigned to you'.
+  1. Select a PR and read the comment from the submitter.
+  1. Click on 'Files changed' to view the final result of all changes in the PR. (Viewing by commit can sometimes make it easier to understand what the coder was doing, but you
      then must check if they've changed that code in a later commit before commenting).
   1. Browse through most of the files listed. In Rails projects you can probably skip some of the unmodified/boilerplate files:
     * `bin/`
