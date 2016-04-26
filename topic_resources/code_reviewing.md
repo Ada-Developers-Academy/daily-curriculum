@@ -11,12 +11,12 @@
     Please keep track of the **file** and **line number** for each place where you'd make such a comment and then notify Charles of it with a brief (one sentence) description of what your
     comment will be.
 
-    I will then aggregate all of this information and consolidate it into a list of major review "themes" for Jeremy to discuss in class. I might also copy a more
-    thorough version of each comment into each PR. If a comment is unique to that particular student/team I will also put it into the PR, so that it doesn't get missed.
-  * I want to emphasize again using brevity in describing the comment you would make, I've found that the majority of time spent when reviewing PRs comes from trying to find
-    the best way to completely describe what changes should be made, and why. Putting that effort in directly in the middle of a review slows the whole process down a fair bit
-    and is duplicated effort if everyone else is also spending a while trying to come up with the same advice. Just send Charles a short line about what you saw that deserves a comment.
-  * For supportive comments, I've found these are a lot easier to write so please do write them directly into the PRs!
+    Charles will then aggregate all of this information and consolidate it into a list of major review "themes" for instructors to discuss in class. He might also copy a more
+    thorough version of each comment into relevant PRs. If a comment is unique to that particular student/team he will also put it into the PR, so that it doesn't get missed.
+  * Please use brevity in describing the comment you would make. The majority of time spent when reviewing PRs comes from trying to find
+    the best way to completely describe what changes should be made, and why. Putting in that effort during the middle of a review slows the whole process down a fair bit
+    and is duplicated work if everyone else is also spending a while trying to come up with the same advice. Just send Charles a short line about what you saw that deserves a comment.
+  * Supportive comments are a lot easier to write so please do put them directly into the PRs!
 
 ###3. General Reviewing Instructions
   1. Go to [Code Reviewer wiki](http://adadevelopersacademy.wiki/Code_Reviewer) and find latest project
