@@ -7,13 +7,14 @@ Date    | Intern Continuing Education         | Topics
 Apr 19  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
 Apr 26  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro by Charles 
 May 3   | [Session 3](#session-3) - WK33 | Leap Presentation by Yolanda from Microsoft
-May 10  | [Session 4](#session-4) - WK34 | Al and Data
-May 17  | [Session 5](#session-5) - WK35 | Charles, Security Lecture & Al and Data
+May 10  | [Session 4](#session-4) - WK34 | Al and Data 1:00-4:00 
+May 17  | [Session 5](#session-5) - WK35 | Charles, Security Lecture & Al and Data 1:00- 3:00 
+May 24    [Session 6](#session-6) - WK36 | Al and Data- 1:00-3:00 
 May 31  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
-Jun 7   | [Session 8](#session-8) - WK38 | Intro Salary Conversation with Aubrey from Payscale
-Jun 14  | [Session 9](#session-9) - WK39 | Al and Data
-Jun 21  | [Session 10](#session-10) - WK40 | Al and Data 
-Jun 28  | [Session 11](#session-11) - WK41 | Resume Workshop
+Jun 7   | [Session 8](#session-8) - WK38 | Al and Data 1:00-4:00 
+Jun 14  | [Session 9](#session-9) - WK39 | Al and Data 1:00-4:00 
+Jun 21  | [Session 10](#session-10) - WK40 | Al and Data 1:00-4:00 
+Jun 28  | [Session 11](#session-11) - WK41 | Resume Workshop & Intro to Salary Conversation
 Jul 5   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interviews/ Panel with C4 to C5 about Internships
 Jul 12  | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ Resume Workshop 
 Jul 19  | [Session 14](#session-14) - WK44 | **OFF -- BREAK**
