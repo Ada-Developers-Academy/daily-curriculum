@@ -12,6 +12,13 @@ OmniAuth is a gem that standardizes the authentication process using 3rd party p
 
 In this lesson we will be creating a rails application that uses OmniAuth to authenticate new and returning users using Github.
 
+### Learning Goals
+- What is a provider?
+- What is the difference between OAuth and OmniAuth?
+- What is an environment variable?
+- What is an ENV file used for?
+- What are the three steps to utilize an ENV file in a Rails app?
+
 ### OmniAuth
 
 The `OmniAuth` gem provides pretty much everything you need to use these services, starting with adding a couple routes to your application:
@@ -25,27 +32,13 @@ In both of these examples `:provider` is a named parameter that will equal the n
 
 ### Getting started
 
-Enough with talking, lets implement this into a quick application. Head over to your sandbox (I keep mine in `~/sandbox`) and...
-
-```bash
-$ mkdir omni
-$ echo '2.2.2' > omni/.ruby-version
-$ echo 'omni' > omni/.ruby-gemset
-$ cd omni
-$ gem install rails --no-ri --no-rdoc
-$ rails new . -T
-```
+Enough with talking, lets implement this into a quick application. Head over to your sandbox record app...
 
 Open the Gemfile and add some gems:
 
 ```ruby
-  gem "omniauth"
-  gem "omniauth-github"
-
-  group :development do
-    gem "better_errors" # These two are just for debugging
-    gem "binding_of_caller"
-  end
+gem "omniauth"
+gem "omniauth-github"
 ```
 Then `bundle install`, you notice that we have a specific gem for Github. Each provider has a small gem to add the functionality for that specific provider.
 
