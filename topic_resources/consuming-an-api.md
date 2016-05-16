@@ -10,24 +10,30 @@ Web api's are requested using HTTP, this means that many tools and any programmi
 
 Here is an example of a simple HTTP request using the HTTParty gem.
 
-    require 'httparty'
-    r = HTTParty.get("http://amigoingtodie.org")
+```ruby
+require 'httparty'
+r = HTTParty.get("http://pokeapi.co/api/v2/pokemon/25/")
+```
 
 It's that simple. This HTTP request is exactly the same as a request coming from your browser, a form, link, button, etc...  The return value of the HTTParty `.get` method is an HTTParty instance
 
-    #<HTTParty::Response:0x7fda1db7a238 parsed_response="<html>\n<head>\n  </head>\n  <title> am i going to die?</title>\n<body>...
+    #<HTTParty::Response:0x7fe5dc1b8b08 parsed_response={"id"=>25, "name"=>"pikachu", "base_experience"=>112, "height"=>4, "is_default"=>true, "order"=>32, "weight"=>60, "abilities"=>[...
 
 This instance of HTTParty has methods to access the data from the request:
 
-    r.body    # => Raw response of the HTTP body (the html in this case)
-    r.code    # => The numerical code of the response (200)
-    r.message # => The text message that corresponds to the code ("OK")
-    r.headers # => A hash of data about the request (date, server, content-type)
+```ruby
+r.body    # => Raw response of the HTTP body (the html in this case)
+r.code    # => The numerical code of the response (200)
+r.message # => The text message that corresponds to the code ("OK")
+r.headers # => A hash of data about the request (date, server, content-type)
+```
 
 So HTTParty is a tool to make HTTP requests, but HTML isn't a great way for computers to consume data, typically JSON or XML are used to represent data when it's not being displayed to humans. Let's look at an example of HTTParty with a JSON response. Sign up for a free api key at [OpenWeatherMap.org](https://home.openweathermap.org/users/sign_up).
 
-    r = HTTParty.get("http://api.openweathermap.org/data/2.5/weather?q=Seattle&APPID=#{your_api_key}")
-    # => <HTTParty::Response:0x7fda1c9e2778 parsed_response={"coord"=>{"lon"=>-122.33, "lat"=>47.61}...
+```ruby
+r = HTTParty.get("http://api.openweathermap.org/data/2.5/weather?q=Seattle&APPID=#{your_api_key}")
+# => <HTTParty::Response:0x7fda1c9e2778 parsed_response={"coord"=>{"lon"=>-122.33, "lat"=>47.61}...
+```
 
 HTTParty will attempt to automatically parse any data that it knows how, it's very good at doing this with JSON
 
@@ -42,11 +48,12 @@ When `HTTParty` isn't being used, you would need to parse the JSON using Ruby. R
 
     '{"person": {"name": "Bookis"}}'
 
-We can see it suspiciously similar to a ruby Hash, but it's wrapped in a String (JSON IS a string). To turn this into a ruby Hash:
+We can see it suspiciously similar to a ruby Hash, but it's wrapped in a String (JSON is a _string_). The `parse` method interprets a JSON string to create a Ruby hash object:
 
-    JSON.parse('{"person": {"name": "Bookis"}}')
-    # => {"person"=>{"name"=>"Bookis"}}
-
+```ruby
+JSON.parse('{"person": {"name": "jnf"}}')
+# => {"person"=>{"name"=>"jnf"}}
+```
 
 ### Dealing with the data
 
