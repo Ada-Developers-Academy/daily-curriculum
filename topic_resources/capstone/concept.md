@@ -1,7 +1,7 @@
 # Capstone Concept
-The first deliverable for the capstone project is the initial concept. This is your first opportunity to share your capstone idea and research with your instructor.
+The first deliverable for the capstone project is the initial concept. This is your first opportunity to share your capstone ideas and research with your instructor.
 
-You should complete this exercise for any ideas that are still in consideration at the time that it is due. You should have no more than three ideas at this stage.
+You should complete this exercise for any ideas that are still in consideration at the time that it is due. You should have __no more than three ideas__ at this stage.
 
 ## Concept Components
 1. __Problem Statement__: A clear, concise statement describing the problem your project will solve.
