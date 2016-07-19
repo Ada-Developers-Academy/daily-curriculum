@@ -21,7 +21,7 @@ Jul 19  | [Session 14](#session-14) - WK44 | **OFF -- BREAK**
 Jul 26  | [Session 15](#session-15) - WK45 | 5 Students for Mock Interviews 1:00-3:00 Salary Worth/ Negotiation Panel/ 3:30-5:00- Work life Balance with Kelsey Foley
 Aug 2   | [Session 16](#session-16) - WK46 | Panel & Discussion with C5 about Internships
 Aug 9   | [Session 17](#session-17) - WK47 | NONE
-Aug 16  | [Session 18](#session-18) - WK48 | Wine & Cheese party & Graduation Planning @ Moz
+Aug 16  | [Session 18](#session-18) - WK48 | Pizza and Drinks & Graduation Planning @ a bar! 
 Aug 23  | [Session 19](#session-19) - WK49 | NONE Tentative Code Reviewing if needed
 Aug 30  | [Session 19](#session-20) - WK50 | NONE
 Sept 6  | [Session 19](#session-21) - WK51 | NONE
