@@ -25,7 +25,7 @@ Aug 16  | [Session 18](#session-18) - WK48 | Pizza and Drinks & Graduation Plann
 Aug 23  | [Session 19](#session-19) - WK49 | NONE Tentative Code Reviewing if needed
 Aug 30  | [Session 19](#session-20) - WK50 | NONE
 Sept 6  | [Session 19](#session-21) - WK51 | NONE
-Sept 16 |                             WK52 | Graduation
+Sept 13 |                             WK52 | Graduation
 
 ## Session 1
 - No class
