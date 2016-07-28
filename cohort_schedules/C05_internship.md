@@ -1,31 +1,31 @@
-# Cohort 4 Internship Calendar
+# Cohort 5 Internship Calendar
 
 ## At a Glance
 
 Date    | Intern Continuing Education         | Topics
 --------|-------------------------------------|-----------------------------
-Apr 19  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
-Apr 26  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro by Charles
-May 3   | [Session 3](#session-3) - WK33 | Leap Presentation by Yolanda from Microsoft
-May 10  | [Session 4](#session-4) - WK34 | Al and Data 1:00-4:00
-May 17  | [Session 5](#session-5) - WK35   Al and Data 1:00- 3:00
-May 24  | [Session 6](#session-6) - WK36 | Al and Data- 1:00-3:00
-May 31  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
-Jun 7   | [Session 8](#session-8) - WK38 | Al and Data 1:00-4:00
-Jun 14  | [Session 9](#session-9) - WK39 | Al and Data 1:00-4:00
-Jun 21  | [Session 10](#session-10) - WK40 | Al and Data 1:00-4:00
-Jun 28  | [Session 11](#session-11) - WK41 | Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey
-Jul 5   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interview/ Everyone else is off/ Feedback given
-Jul 12  | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ Resume Workshop/1:00- 2:30 Touchbase with Alexnadra/  3:30-5:00- Salary. Deadlines with Meredith.  
-Jul 19  | [Session 14](#session-14) - WK44 | **OFF -- BREAK**
-Jul 26  | [Session 15](#session-15) - WK45 | 5 Students for Mock Interviews 1:00-3:00 Salary Worth/ Negotiation Panel/ 3:30-5:00- Work life Balance with Kelsey Foley
-Aug 2   | [Session 16](#session-16) - WK46 | Panel & Discussion with C5 about Internships
-Aug 9   | [Session 17](#session-17) - WK47 | NONE
-Aug 16  | [Session 18](#session-18) - WK48 | Pizza and Drinks & Graduation Planning @ a bar!
-Aug 23  | [Session 19](#session-19) - WK49 | NONE Tentative Code Reviewing if needed
-Aug 30  | [Session 19](#session-20) - WK50 | NONE
-Sept 6  | [Session 19](#session-21) - WK51 | NONE
-Sept 16 |                             WK52 | Graduation
+Sep 13  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
+Sep 20  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro by Charles
+Sep 27  | [Session 3](#session-3) - WK33 | Leap Presentation by Yolanda from Microsoft
+Oct 4   | [Session 4](#session-4) - WK34 | Al and Data 1:00-4:00
+Oct 11  | [Session 5](#session-5) - WK35   Al and Data 1:00- 3:00
+Oct 18   | [Session 6](#session-6) - WK36 | Al and Data- 1:00-3:00
+Oct 25  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
+Nov 1   | [Session 8](#session-8) - WK38 | Al and Data 1:00-4:00
+Nov 8  | [Session 9](#session-9) - WK39 | Al and Data 1:00-4:00
+Nov 15  | [Session 10](#session-10) - WK40 | Al and Data 1:00-4:00
+Nov 22  | [Session 11](#session-11) - WK41 | Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey
+Nov 29   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interview/ Everyone else is off/ Feedback given
+Dec 6  | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ Resume Workshop/1:00- 2:30 Touchbase with Alexnadra/  3:30-5:00- Salary. Deadlines with Meredith.  
+Dec 13  | [Session 14](#session-14) - WK44 | 
+Dec 20  | [Session 15](#session-15) - WK45 | 5 Students for Mock Interviews 1:00-3:00 Salary Worth/ Negotiation Panel/ 3:30-5:00- Work life Balance with Kelsey Foley
+Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
+Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C5 about Internships
+Jan 10  | [Session 18](#session-18) - WK48 | Pizza and Drinks & Graduation Planning @ a bar!
+Jan 17  | [Session 19](#session-19) - WK49 | NONE Tentative Code Reviewing if needed
+Jan 24    [Session 20](#session-20) - WK50 | NONE Tentative Code Reviewing if needed
+Jan 31  | [Session 21](#session-21) - WK51 | NONE
+Feb 7   | [Session 22](#session-22) - WK52 | Graduation
 
 ## Session 1
 - No class
