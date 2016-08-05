@@ -4,7 +4,7 @@
 
 | Date    | Week                | Topic
 |---------|---------------------|-----------------------------------------
-| Aug 8   | [Week 01](#week-1)  | Student Orientation, Bash, Ruby
+| Aug 8   | [Week 01](#week-1)  | Student Orientation, Bash, Ruby, Intallfest!
 | Aug 15  | [Week 02](#week-2)  | Intro to OO, Gems, Pair Programming
 | Aug 22  | [Week 03](#week-3)  | Intermediate Ruby: More OO, CSV, Inheritance
 | Aug 29  | [Week 04](#week-4)  | Intermediate Ruby: Enumerable, TDD, minitest
