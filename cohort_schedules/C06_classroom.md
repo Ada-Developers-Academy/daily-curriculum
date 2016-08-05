@@ -31,3 +31,38 @@
 | Jan 23  | [Week 23](#week-23) | Capstone Project Presentations
 | Jan 30  |                     | _BREAK_
 | Feb 6   |                     | __INTERNSHIP BEGINS__
+
+
+### Week 01
+
+In week 1 you will learn:
+
+*  Comfort with OSX and Text Editor
+*  UNIX commands
+*  Object Types
+*  While Loop
+*  Each Loop
+*  Conditional statement: if/elsif/else
+*  Boolean expression
+*  Input/output
+*  Running Ruby in the terminal
+*  Interacting with Ruby in IRB
+*  Creating Arrays & Hashes
+*  Adding Elements to an Array using the shovel (<<) & using indexes.
+*  Adding Elements to a Hash
+*  Iterating over an Array or Hash
+*  Creating nested collections like Arrays of Hashes.
+
+### Week 02
+
+In week 2 you will learn:
+*  Objects and classes (instantiate/instantiation)	
+*  Instance variable vs Local variable and their scope
+*  Creating methods (method signature, method definition)
+*  Constructors
+*  Hashes as method parameters
+*  Using methods
+*  Testing & Automated Testing
+*  Basic Git
+*  Pair Programming
+*  Gems
