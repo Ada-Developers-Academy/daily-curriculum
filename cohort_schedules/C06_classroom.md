@@ -53,7 +53,7 @@ In week 1 you will learn:
 *  Iterating over an Array or Hash
 *  Creating nested collections like Arrays of Hashes.
 
-### Week 02
+### <a id="week-1">Week 2</a>
 
 In week 2 you will learn:
 *  Objects and classes (instantiate/instantiation)	
