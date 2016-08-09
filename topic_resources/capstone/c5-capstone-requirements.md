@@ -64,3 +64,29 @@ The Capstone Project consists of the following components:
   - A markdown document with step-by-step instructions for assembling, verifying, and integrating the device(s) with your project
 - [Product Plan](../capstone/product-plan.md): problem statement, user persona(s), market research
 - [Project Presentation](../capstone/presentation.md), a demo of the application and pertinent information about your project
+
+## Capstone Teams
+
+### Project Managers
+| Jeremy | Charles |
+|:------:|:-------:|
+| Risha  | Rowan   |
+| Leah   | Cristal |
+| Deirdre| Anna    |
+| Ania   | Nicole  |
+| Alysia | Jillian |
+| Mindy  | Suze    |
+| Justine| Sarah   |
+| Lisa   | Melissa |
+| Jade   | Sophia  |
+| Adriana| Nadine  |
+| Jess   | Yordanos|
+| Val    |
+
+### Check-in & Demo Teams
+| Team 1 | Team 2   | Team 3  | Team 4  | Team 5  | Team 6 |
+|:------:|:--------:|:-------:|:-------:|:-------:|:------:|
+| Suze   | Cristal  | Val     | Sophia  | Melissa | Anna   |
+| Ania   | Nadine   | Deirdre | Justine | Sarah   | Risha  |
+| Alysia | Yordanos | Jade    | Leah    | Jillian | Jess   |
+| Rowan  | Nicole   |         | Lisa    | Adriana | Mindy  |
