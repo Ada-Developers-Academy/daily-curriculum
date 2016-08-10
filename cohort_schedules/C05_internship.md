@@ -6,18 +6,18 @@ Date    | Intern Continuing Education         | Topics
 --------|-------------------------------------|-----------------------------
 Sep 13  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
 Sep 20  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro by Charles
-Sep 27  | [Session 3](#session-3) - WK33 | 
-Oct 4   | [Session 4](#session-4) - WK34 | Al and Data 1:00-4:00
-Oct 11  | [Session 5](#session-5) - WK35 |  Al and Data 1:00- 3:00
-Oct 18   | [Session 6](#session-6) - WK36 | Al and Data- 1:00-3:00
+Sep 27  | [Session 3](#session-3) - WK33 | CS Fun Practice (1-3)
+Oct 4   | [Session 4](#session-4) - WK34 | CS Fun Practice (1-3)
+Oct 11  | [Session 5](#session-5) - WK35 |  CS Fun Practice (1-3)
+Oct 18   | [Session 6](#session-6) - WK36 | CS Fun Practice (1-3)
 Oct 25  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
-Nov 1   | [Session 8](#session-8) - WK38 | Al and Data 1:00-4:00
-Nov 8  | [Session 9](#session-9) - WK39 | Al and Data 1:00-4:00
-Nov 15  | [Session 10](#session-10) - WK40 | Al and Data 1:00-4:00
+Nov 1   | [Session 8](#session-8) - WK38 | CS Fun Practice (1-3)
+Nov 8  | [Session 9](#session-9) - WK39 | CS Fun Practice (1-3)
+Nov 15  | [Session 10](#session-10) - WK40 | CS Fun Practice (1-3)
 Nov 22  | [Session 11](#session-11) - WK41 | Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey
 Nov 29   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interview/ Everyone else is off/ Feedback given
 Dec 6  | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ Resume Workshop/1:00- 2:30 Touchbase with Alexnadra/  3:30-5:00- Salary. Deadlines with Meredith.  
-Dec 13  | [Session 14](#session-14) - WK44 | 
+Dec 13  | [Session 14](#session-14) - WK44 |
 Dec 20  | [Session 15](#session-15) - WK45 | 5 Students for Mock Interviews 1:00-3:00 Salary Worth/ Negotiation Panel/ 3:30-5:00- Work life Balance with Kelsey Foley
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
 Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C5 about Internships
