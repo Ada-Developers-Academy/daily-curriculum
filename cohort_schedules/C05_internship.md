@@ -17,8 +17,8 @@ Nov 15  | [Session 10](#session-10) - WK40 | CS Fun Practice (1-3)
 Nov 22  | [Session 11](#session-11) - WK41 | Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey
 Nov 29   | [Session 12](#session-12) - WK42 | 8 Students for Mock Interview/ Everyone else is off/ Feedback given
 Dec 6  | [Session 13](#session-13) - WK43 | 8 Students for Mock Interviews/ Resume Workshop/1:00- 2:30 Touchbase with Alexnadra/  3:30-5:00- Salary. Deadlines with Meredith.  
-Dec 13  | [Session 14](#session-14) - WK44 |
-Dec 20  | [Session 15](#session-15) - WK45 | 5 Students for Mock Interviews 1:00-3:00 Salary Worth/ Negotiation Panel/ 3:30-5:00- Work life Balance with Kelsey Foley
+Dec 13  | [Session 14](#session-14) - WK44 | 5 Students for Mock Interviews 
+Dec 20  | [Session 15](#session-15) - WK45 | 1:00-3:00 Salary Worth/ Negotiation Panel/ 3:30-5:00- Work life Balance with Kelsey Foley
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
 Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C5 about Internships
 Jan 10  | [Session 18](#session-18) - WK48 | Pizza and Drinks & Graduation Planning @ a bar!
