@@ -58,7 +58,7 @@ Headings are block level elements.
 
 Headings should be used in order (1-6) to indicate priority and page flow. The `<h1>` element should be used for the primary heading on the page.
 
-Don't use headings to just make the text bigger or bold. Use them to add meaning and structure to the page.
+Don't use headings to just make the text bigger or bold. Use them to add meaning and structure to the page. You will be able to make your text bigger or bold using styles (CSS).
 
 ```html
 <div>I'm a division</div>
@@ -69,10 +69,10 @@ Don't use headings to just make the text bigger or bold. Use them to add meaning
 `div`, `section`, and `span` are purely for building the structure of the site, they don't have any semantic meaning. `div` and `section` are largely interchangeable and are used to divide content into related chunks. `span` tags are used to highlight/emphsize or otherwise identify or callout small, inline pieces of content.
 
 - `<p>`: Block level paragraph element. Used for chunks of text, often following a header element.
-- `<b>`: Inline level element to make text bold. I really don't like this tag.
-- `<i>`: Inline element to make text italic. I don't like this tag either. Ask me why!
-- `<strong>`: Inline level element to imply that text is important.
-- `<em>`: Inline level element to emphasize text.
+- `<b>`: Inline level element to style text as bold, it does not have semantic meaning. I really don't like this tag.
+- `<i>`: Inline element to make to style text as italic. I don't like this tag either. Ask me why!
+- `<strong>`: Inline level element to imply that text is important. This is semantic, screen readers will often use a tone shift to imply importance.
+- `<em>`: Inline level element to emphasize text. This is semantic, screen readers will often use a tone shift to imply emphasis.
 - HTML5 structural elements:
   - `<header>`: Used as an element to hold page header information (logo, navigation, heading)
   - `<nav>`: Used as a container for navigational links
