@@ -22,8 +22,8 @@ Dec 20  | [Session 15](#session-15) - WK45 | 1:00-3:00 Salary Worth/ Negotiation
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
 Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C5 about Internships
 Jan 10  | [Session 18](#session-18) - WK48 | Pizza and Drinks & Graduation Planning @ a bar!
-Jan 17  | [Session 19](#session-19) - WK49 | NONE Tentative Code Reviewing if needed
-Jan 24    [Session 20](#session-20) - WK50 | NONE Tentative Code Reviewing if needed
+Jan 17  | [Session 19](#session-19) - WK49 | NONE 
+Jan 24    [Session 20](#session-20) - WK50 | NONE 
 Jan 31  | [Session 21](#session-21) - WK51 | NONE
 Feb 7   | [Session 22](#session-22) - WK52 | Graduation
 
