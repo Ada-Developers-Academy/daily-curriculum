@@ -4,7 +4,7 @@
 
 Date    | Intern Continuing Education         | Topics
 --------|-------------------------------------|-----------------------------
-Sep 13  | [Session 1](#session-1) - WK31 | **NO CLASS - INTERNSHIPS START**
+Sep 13  | [Session 1] - WK31 | **NO CLASS - INTERNSHIPS START**
 Sep 20  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock, Code Review Intro by Charles
 Sep 27  | [Session 3](#session-3) - WK33 | CS Fun Practice (1-3)
 Oct 4   | [Session 4](#session-4) - WK34 | CS Fun Practice (1-3)
