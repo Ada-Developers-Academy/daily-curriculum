@@ -27,8 +27,16 @@ and then run the first command again.
 
 Once you have Racket installed, you can start up the DrRacket GUI by running the `drracket` command from your terminal.
 
-### TODO: Quick overview of the DrRacket interface
+### DrRacket Interface
+The DrRacket GUI application combines a minimalist code editor that has syntax highlighting and parentheses balancing, with a fully-featured REPL and debugger.
 
+![DrRacket interface](../resources/images/drracket_interface.png)
+
+1. For the code examples discussed in these lectures, always make sure to start with `#lang scheme` to indicate to DrRacket that we will be using the Scheme dialect of Lisp.
+1. This is the definitions section, most equivalent to a text editor. You can enter definitions and any other code in here, and easily edit them in the same way you would with Atom.
+1. Once you've entered your code in the definitions section, press the "Run" button to have DrRacket evaluate the code and start the REPL.
+1. This is the REPL section, most equivalent to IRB. Once you've pressed the "Run" button you can enter code in here interactively and see its results. All of the definitions you've written in the definitions section will automatically be available to use here.
+1. If you have any problems with your code that don't result in an error message (shown in the REPL section) you can press the "Debug" button to enter the debugger mode, which will allow you to step through your code one piece at a time.
 
 ## Scheme Syntax
 Here's a quick primer on how to identify code from Scheme or other Lisp-family languages:
@@ -61,4 +69,112 @@ These lectures are from 1986... the production value is kinda low and the style 
 ### Lecture 1A - Overview and Introduction to Lisp
 The video is [on Youtube](https://www.youtube.com/watch?v=2Op3QLzMgSY) and you can find the PDF [text transcript here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/2Op3QLzMgSY.pdf).
 
-#### TODO: Write some details about this lecture's contents
+#### Notes
+This lecture covers the basic syntax of Scheme (and Lisp-family languages in general), as well as identifying the different pieces of syntax, and different conceptual elements, that underly all kinds of programming languages.
+
+When they're writing code on the chalkboards or showing slides, the code might be in uppercase, like `DEFINE`. This is more of an old-school style, and you should write all of your code using lowercase.
+
+#### Code Samples
+Function for computing the square of a number:
+```scheme
+(define (square x)
+  (* x x))
+```
+
+Alternate syntax for the square function:
+```scheme
+(define square
+  (lambda (x) (* x x)))
+```
+
+Function for computing the average of two numbers:
+```scheme
+(define (average x y)
+  (/ (+ x y) 2))
+```
+
+Function for computing the average of two numbers' squares:
+```scheme
+(define (mean-square x y)
+  (average (square x)
+           (square y)))
+```
+
+Function for computing the absolute value of a number:
+```scheme
+(define (abs x)
+  (cond ((< x 0) (- x))
+        ((= x 0) 0)
+        ((> x 0) x)))
+```
+
+Function for computing the absolute value using if:
+```scheme
+(define (abs x)
+  (if (< x 0)
+      (- x)
+      x))
+```
+
+Function for recursively improving a guess until it is "good enough":
+```scheme
+(define (try guess x)
+  (if (good-enough? guess x)
+      guess
+      (try (improve guess x) x)))
+```
+
+Function to improve a guess for a square-root of x:
+```scheme
+(define (improve guess x)
+  (average guess (/ x guess)))
+```
+
+Function to determine if a guess is "good enough":
+```scheme
+(define (good-enough? guess x)
+  (< (abs (- (square guess) x))
+     0.001))
+```
+
+Function to find the square root of a number, integrating the above definitions:
+```scheme
+(define (sqrt x)
+  (define (improve guess)
+    (average guess (/ x guess)))
+
+  (define (good-enough? guess)
+    (< (abs (- (square guess) x))
+       0.001))
+
+  (define (try guess)
+    (if (good-enough? guess)
+        guess
+        (try (improve guess))))
+
+  (try 1.0))
+```
+
+Javascript code equivalent to the above sqrt function:
+```javascript
+var sqrt = function(x) {
+  var improve = function(guess) {
+    return average(guess, x / guess);
+  };
+
+  var good_enough = function(guess) {
+    var diff = abs(square(guess) - x);
+    return diff < 0.001;
+  };
+
+  var try = function(guess) {
+    if(good_enough(guess)) {
+      return guess;
+    } else {
+      return try(improve(guess));
+    };
+  };
+
+  return try(1.0);
+};
+```
