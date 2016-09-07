@@ -27,8 +27,16 @@ and then run the first command again.
 
 Once you have Racket installed, you can start up the DrRacket GUI by running the `drracket` command from your terminal.
 
-### TODO: Quick overview of the DrRacket interface
+### DrRacket Interface
+The DrRacket GUI application combines a minimalist code editor that has syntax highlighting and parentheses balancing, with a fully-featured REPL and debugger.
 
+![DrRacket interface](../resources/images/drracket_interface.png)
+
+1. For the code examples discussed in these lectures, always make sure to start with `#lang scheme` to indicate to DrRacket that we will be using the Scheme dialect of Lisp.
+1. This is the definitions section, most equivalent to a text editor. You can enter definitions and any other code in here, and easily edit them in the same way you would with Atom.
+1. Once you've entered your code in the definitions section, press the "Run" button to have DrRacket evaluate the code and start the REPL.
+1. This is the REPL section, most equivalent to IRB. Once you've pressed the "Run" button you can enter code in here interactively and see its results. All of the definitions you've written in the definitions section will automatically be available to use here.
+1. If you have any problems with your code that don't result in an error message (shown in the REPL section) you can press the "Debug" button to enter the debugger mode, which will allow you to step through your code one piece at a time.
 
 ## Scheme Syntax
 Here's a quick primer on how to identify code from Scheme or other Lisp-family languages:
