@@ -69,4 +69,112 @@ These lectures are from 1986... the production value is kinda low and the style 
 ### Lecture 1A - Overview and Introduction to Lisp
 The video is [on Youtube](https://www.youtube.com/watch?v=2Op3QLzMgSY) and you can find the PDF [text transcript here](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/1a-overview-and-introduction-to-lisp/2Op3QLzMgSY.pdf).
 
-#### TODO: Write some details about this lecture's contents
+#### Notes
+This lecture covers the basic syntax of Scheme (and Lisp-family languages in general), as well as identifying the different pieces of syntax, and different conceptual elements, that underly all kinds of programming languages.
+
+When they're writing code on the chalkboards or showing slides, the code might be in uppercase, like `DEFINE`. This is more of an old-school style, and you should write all of your code using lowercase.
+
+#### Code Samples
+Function for computing the square of a number:
+```scheme
+(define (square x)
+  (* x x))
+```
+
+Alternate syntax for the square function:
+```scheme
+(define square
+  (lambda (x) (* x x)))
+```
+
+Function for computing the average of two numbers:
+```scheme
+(define (average x y)
+  (/ (+ x y) 2))
+```
+
+Function for computing the average of two numbers' squares:
+```scheme
+(define (mean-square x y)
+  (average (square x)
+           (square y)))
+```
+
+Function for computing the absolute value of a number:
+```scheme
+(define (abs x)
+  (cond ((< x 0) (- x))
+        ((= x 0) 0)
+        ((> x 0) x)))
+```
+
+Function for computing the absolute value using if:
+```scheme
+(define (abs x)
+  (if (< x 0)
+      (- x)
+      x))
+```
+
+Function for recursively improving a guess until it is "good enough":
+```scheme
+(define (try guess x)
+  (if (good-enough? guess x)
+      guess
+      (try (improve guess x) x)))
+```
+
+Function to improve a guess for a square-root of x:
+```scheme
+(define (improve guess x)
+  (average guess (/ x guess)))
+```
+
+Function to determine if a guess is "good enough":
+```scheme
+(define (good-enough? guess x)
+  (< (abs (- (square guess) x))
+     0.001))
+```
+
+Function to find the square root of a number, integrating the above definitions:
+```scheme
+(define (sqrt x)
+  (define (improve guess)
+    (average guess (/ x guess)))
+
+  (define (good-enough? guess)
+    (< (abs (- (square guess) x))
+       0.001))
+
+  (define (try guess)
+    (if (good-enough? guess)
+        guess
+        (try (improve guess))))
+
+  (try 1.0))
+```
+
+Javascript code equivalent to the above sqrt function:
+```javascript
+var sqrt = function(x) {
+  var improve = function(guess) {
+    return average(guess, x / guess);
+  };
+
+  var good_enough = function(guess) {
+    var diff = abs(square(guess) - x);
+    return diff < 0.001;
+  };
+
+  var try = function(guess) {
+    if(good_enough(guess)) {
+      return guess;
+    } else {
+      return try(improve(guess));
+    };
+  };
+
+  return try(1.0);
+};
+```
