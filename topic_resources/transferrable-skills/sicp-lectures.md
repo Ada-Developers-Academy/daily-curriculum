@@ -22,6 +22,7 @@ $ brew cask install racket
 If you get an error about `cask` not being found try running the following command:
 ```bash
 $ brew tap caskroom/cask
+$ brew install brew-cask
 ```
 and then run the first command again.
 
