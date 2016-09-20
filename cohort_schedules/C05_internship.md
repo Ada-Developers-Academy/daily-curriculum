@@ -12,7 +12,7 @@ Oct 11  | [Session 5](#session-5) - WK35 |  CS Fun Practice (2-4)
 Oct 18   | [Session 6](#session-6) - WK36 | CS Fun Practice (2-4)
 Oct 25  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
 Nov 1   | [Session 8](#session-8) - WK38 | CS Fun Practice (2-4)
-Nov 8  | [Session 9](#session-9) - WK39 | <!--Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey-->
+Nov 8  | [Session 9](#session-9) - WK39 | <!-- Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey -->
 Nov 15  | [Session 10](#session-10) - WK40 | CS Fun Practice (2-4)
 Nov 22  | [Session 11](#session-11) - WK41 | CS Fun Practice (2-4)
 Nov 29   | [Session 12](#session-12) - WK42 | <!--8 Students for Mock Interview/ Everyone else is off/ Feedback given-->
