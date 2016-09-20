@@ -6,15 +6,15 @@ Date    | Intern Continuing Education         | Topics
 --------|-------------------------------------|-----------------------------
 Sep 13  | Session 1 - WK31 | **NO CLASS - INTERNSHIPS START**
 Sep 20  | [Session 2](#session-2) - WK32 | Internship Check-in, Culture Shock
-Sep 27  | [Session 3](#session-3) - WK33 | CS Fun Practice (2-4)
-Oct 4   | [Session 4](#session-4) - WK34 | CS Fun Practice (2-4)
-Oct 11  | [Session 5](#session-5) - WK35 |  CS Fun Practice (2-4)
-Oct 18   | [Session 6](#session-6) - WK36 | CS Fun Practice (2-4)
+Sep 27  | [Session 3](#session-3) - WK33 | CS Fun Practice
+Oct 4   | [Session 4](#session-4) - WK34 | CS Fun Practice
+Oct 11  | [Session 5](#session-5) - WK35 |  CS Fun Practice
+Oct 18   | [Session 6](#session-6) - WK36 | CS Fun Practice
 Oct 25  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
-Nov 1   | [Session 8](#session-8) - WK38 | CS Fun Practice (2-4)
+Nov 1   | [Session 8](#session-8) - WK38 | CS Fun Practice
 Nov 8  | [Session 9](#session-9) - WK39 | <!-- Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey -->
-Nov 15  | [Session 10](#session-10) - WK40 | CS Fun Practice (2-4)
-Nov 22  | [Session 11](#session-11) - WK41 | CS Fun Practice (2-4)
+Nov 15  | [Session 10](#session-10) - WK40 | CS Fun Practice
+Nov 22  | [Session 11](#session-11) - WK41 | CS Fun Practice 
 Nov 29   | [Session 12](#session-12) - WK42 | <!--8 Students for Mock Interview/ Everyone else is off/ Feedback given-->
 Dec 6  | [Session 13](#session-13) - WK43 | <!--8 Students for Mock Interviews/ Resume Workshop/1:00- 2:30 Touchbase with Cynthia/  3:30-5:00- Salary. Deadlines with Meredith.  -->
 Dec 13  | [Session 14](#session-14) - WK44 | <!--5 Students for Mock Interviews-->
