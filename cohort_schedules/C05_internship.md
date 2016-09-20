@@ -23,7 +23,7 @@ Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
 Jan 3   | [Session 17](#session-17) - WK47 |
 Jan 10  | [Session 18](#session-18) - WK48 | Pizza/Drinks & Graduation Planning!
 Jan 17  | [Session 19](#session-19) - WK49 | NONE
-Jan 24    [Session 20](#session-20) - WK50 | NONE
+Jan 24  |  [Session 20](#session-20) - WK50 | NONE
 Jan 31  | [Session 21](#session-21) - WK51 | NONE
 Feb 7   | [Session 22](#session-22) - WK52 | Graduation
 
