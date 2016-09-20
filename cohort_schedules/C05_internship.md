@@ -12,20 +12,31 @@ Oct 11  | [Session 5](#session-5) - WK35 |  CS Fun Practice
 Oct 18   | [Session 6](#session-6) - WK36 | CS Fun Practice
 Oct 25  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
 Nov 1   | [Session 8](#session-8) - WK38 | CS Fun Practice
-Nov 8  | [Session 9](#session-9) - WK39 | <!-- Resume Workshop with Jenn Carson & Intro to Salary Conversation with Aubrey -->
+Nov 8  | [Session 9](#session-9) - WK39 |
 Nov 15  | [Session 10](#session-10) - WK40 | CS Fun Practice
-Nov 22  | [Session 11](#session-11) - WK41 | CS Fun Practice 
-Nov 29   | [Session 12](#session-12) - WK42 | <!--8 Students for Mock Interview/ Everyone else is off/ Feedback given-->
-Dec 6  | [Session 13](#session-13) - WK43 | <!--8 Students for Mock Interviews/ Resume Workshop/1:00- 2:30 Touchbase with Cynthia/  3:30-5:00- Salary. Deadlines with Meredith.  -->
-Dec 13  | [Session 14](#session-14) - WK44 | <!--5 Students for Mock Interviews-->
-Dec 20  | [Session 15](#session-15) - WK45 | <!--1:00-3:00 Salary Worth/ Negotiation Panel/ 3:30-5:00- Work life Balance with Kelsey Foley-->
+Nov 22  | [Session 11](#session-11) - WK41 | CS Fun Practice
+Nov 29   | [Session 12](#session-12) - WK42 |
+Dec 6  | [Session 13](#session-13) - WK43 |
+Dec 13  | [Session 14](#session-14) - WK44 |
+Dec 20  | [Session 15](#session-15) - WK45 |
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
-Jan 3   | [Session 17](#session-17) - WK47 | <!--Panel & Discussion with C5 about Internships-->
-Jan 10  | [Session 18](#session-18) - WK48 | Pizza and Drinks & Graduation Planning @ a bar!
+Jan 3   | [Session 17](#session-17) - WK47 |
+Jan 10  | [Session 18](#session-18) - WK48 | Pizza/Drinks & Graduation Planning!
 Jan 17  | [Session 19](#session-19) - WK49 | NONE
 Jan 24    [Session 20](#session-20) - WK50 | NONE
 Jan 31  | [Session 21](#session-21) - WK51 | NONE
 Feb 7   | [Session 22](#session-22) - WK52 | Graduation
+
+## Tentative activities for Tuesdays
+- Company checkins with Cynthia (optional)
+- Midpoint Review Feedback with Cynthia/Alexandra
+- Resume Workshop with Jenn Carson
+- Intro to Salary Conversation with Aubrey
+- Mock Interviews (hour long)
+- Salary Worth/Negotiation Panel
+- Work life Balance with Kelsey Foley
+- Panel & Discussion with C5 about Internships
+
 
 <!--
 ## Session 1
