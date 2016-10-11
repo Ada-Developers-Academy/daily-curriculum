@@ -12,8 +12,8 @@ Oct 11  | [Session 5](#session-5) - WK35 |  CS Fun Problem Solving
 Oct 18   | [Session 6](#session-6) - WK36 | CS Fun Problem Solving
 Oct 25  | [Session 7](#session-7) - WK37 | **OFF -- BREAK**
 Nov 1   | [Session 8](#session-8) - WK38 | CS Fun Problem Solving
-Nov 8  | [Session 9](#session-9) - WK39 |
-Nov 15  | [Session 10](#session-10) - WK40 | CS Fun Problem Solving
+Nov 8  | [Session 9](#session-9) - WK39 | CS Fun Problem Solving
+Nov 15  | [Session 10](#session-10) - WK40 | 
 Nov 22  | [Session 11](#session-11) - WK41 | CS Fun Problem Solving
 Nov 29   | [Session 12](#session-12) - WK42 |
 Dec 6  | [Session 13](#session-13) - WK43 |
