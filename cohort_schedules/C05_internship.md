@@ -20,7 +20,7 @@ Dec 6  | [Session 13](#session-13) - WK43 | CS Fun Problem Solving
 Dec 13  | [Session 14](#session-14) - WK44 | CS Fun Problem Solving
 Dec 20  | [Session 15](#session-15) - WK45 |
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
-Jan 3   | [Session 17](#session-17) - WK47 |
+Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C6 about Internships
 Jan 10  | [Session 18](#session-18) - WK48 | Pizza/Drinks & Graduation Planning!
 Jan 17  | [Session 19](#session-19) - WK49 | NONE
 Jan 24  |  [Session 20](#session-20) - WK50 | NONE
@@ -34,8 +34,7 @@ Feb 7   | [Session 22](#session-22) - WK52 | Graduation
 - Intro to Salary Conversation with Aubrey
 - Mock Interviews (hour long)
 - Salary Worth/Negotiation Panel
-- Work life Balance with Kelsey Foley
-- Panel & Discussion with C5 about Internships
+- Panel & Discussion with C6 about Internships
 
 
 <!--
