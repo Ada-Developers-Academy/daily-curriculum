@@ -22,9 +22,9 @@ Dec 20  | [Session 15](#session-15) - WK45 |
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
 Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C6 about Internships
 Jan 10  | [Session 18](#session-18) - WK48 | Pizza/Drinks & Graduation Planning!
-Jan 17  | [Session 19](#session-19) - WK49 | NONE
-Jan 24  |  [Session 20](#session-20) - WK50 | NONE
-Jan 31  | [Session 21](#session-21) - WK51 | NONE
+Jan 17  | [Session 19](#session-19) - WK49 | NONE - optional learning with Shruti
+Jan 24  |  [Session 20](#session-20) - WK50 | NONE - optional learning with Shruti
+Jan 31  | [Session 21](#session-21) - WK51 | NONE - optional learning with Shruti
 Feb 7   | [Session 22](#session-22) - WK52 | Graduation
 
 ## Tentative activities for Tuesdays
@@ -36,76 +36,3 @@ Feb 7   | [Session 22](#session-22) - WK52 | Graduation
 - Salary Worth/Negotiation Panel
 - Panel & Discussion with C6 about Internships
 
-
-<!--
-## Session 1
-- No class
-
-## Session 2
-- 1:00 - 2:00 - Checkin with Alexandra
-- 2:00 - 3:30 - Cynthia, Culture Shock
-- 3:30 - 5:00 - Charles, Code Review Intro
-
-## Session 3
-- 1:00- 3:00 - Leap Presentation by Yolanda
-- 2:15- 5:00 - Code Review
-
-## Session 4
-- 1:00- 3:00 - Al and Data
-- 3:00- 5:00 - Code Reviewing
-
-## Session 5
-- 3 hours of code reviewing at home due by ____. Please email Alexandra when complete.  This is being tracked.
-
-## Session 6
-- 1:00 - 2:00 Password and Security Lecture with Charles
-- 2:00 - 5:00 Code Reviewing and helping C5
-
-## Session 7
-- 1:00- 1:30 - Check-In with Alexandra: Interview Coaching Sign Up. Resume Workshop.
-- 1:30- 3:30 -
-- 3:30- 5:00 - Work+Life Integration/Balance In Tech
-
-## Session 8
-- 1:00 - 3:00 - Intro to Salary conversation with Aubrey
-- 3:00 - 3:30 - Check in with Alexandra
-- 3:00 - 5:00 - Code Reviewing and helping C5
-
-## Session 9
-- 1:00- 3:00 - Resume Workshop with Annie
-- 3:00- 4:00 - Check in with Alexandra
-- 3:00- 5:00- Code Reviewing and helping C5
-
-## Session 10
-- 1:00- 5:00 - 8 Students @ AdaHQ for Mock interviewing with coaches
-- _if you are one of the 8 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing._
-
-## Session 11
-- 1:00 - 5:00 - 1:1 Resume Review with Annie. Code Reviewing
-
-## Session 12
-- 1:00- 5:00 - 8 Students @ AdaHQ for Mock interviewing with coaches
-- _if you are one of the 8 in this week please arrive at 1:00 and plan to stay till 5:00. You will be code reviewing when you are not interviewing._
-
-## Session 13
-- 1:00-5:00 - 8 Students will be conducting 50 minute mock interviews
-- 1:00- 3:00 - Panel and Small Group Discussions With C5
-- 3:00-3:30 - Check-in with Alexandra
-- 3:30- 5:00  Code Reviewing and helping C5 with Capstones
-
-## Session 14
--- Summer Break WooHoo
-
-## Session 15
-- 1:00- 2:30- Salary Worth and Negotiation Panel
-- 3:00- 4:00- Check in with Alexandra
-- 4:00- 5:00- Code Reviewing
-
-## Session 16
--- 1:00- 5:00-- At home code review
-
-## Session 17
-
-## Session 18
-- 1:00- 5:00-- Wine and cheese graduation planning party
--->
