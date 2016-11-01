@@ -18,7 +18,7 @@ Nov 22  | [Session 11](#session-11) - WK41 | Mock Interviews
 Nov 29   | [Session 12](#session-12) - WK42 | Mock Interviews (11/29, 12/1)
 Dec 6  | [Session 13](#session-13) - WK43 | CS Fun Problem Solving (1-3) & Midpoint Review Feedback w/ Cynthia and An (3-6)
 Dec 13  | [Session 14](#session-14) - WK44 | CS Fun Problem Solving
-Dec 20  | [Session 15](#session-15) - WK45 | HR Panel
+Dec 20  | [Session 15](#session-15) - WK45 | {HR Panel Sessions & Google Interview Process Overview}
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
 Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C6 about Internships
 Jan 10  | [Session 18](#session-18) - WK48 | Pizza/Drinks & Graduation Planning!
