@@ -17,7 +17,7 @@ Nov 15  | [Session 10](#session-10) - WK40 | {Resume & Salary Negotiation Worksh
 Nov 22  | [Session 11](#session-11) - WK41 | Mock Interviews *Midpoint review feedback deadline
 Nov 29   | [Session 12](#session-12) - WK42 | Mock Interviews (11/29, 12/1)
 Dec 6  | [Session 13](#session-13) - WK43 | CS Fun Problem Solving (1-3) & Midpoint Review Feedback w/ Cynthia and An (3-6)
-Dec 13  | [Session 14](#session-14) - WK44 | CS Fun Problem Solving
+Dec 13  | [Session 14](#session-14) - WK44 | 
 Dec 20  | [Session 15](#session-15) - WK45 | {HR Panel Sessions}
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
 Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C6 about Internships
