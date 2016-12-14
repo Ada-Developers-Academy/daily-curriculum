@@ -1,7 +1,10 @@
 Curriculum Schedules
 --------------------
+* Cohort 7:  
+  [Classroom Calendar](cohort_schedules/C07_classroom.md)
 * Cohort 6:  
   [Classroom Calendar](cohort_schedules/C06_classroom.md)  
+  [Internship Calendar](cohort_schedules/C06_internship.md)
 * Cohort 5:  
   [Internship Calendar](cohort_schedules/C05_internship.md)
 * Cohort 4:  
