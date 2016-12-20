@@ -20,11 +20,11 @@ Dec 6  | [Session 13](#session-13) - WK43 | CS Fun Problem Solving (1-3) & Midpo
 Dec 13  | [Session 14](#session-14) - WK44 | Salary Negotiation Workshop (1-3)
 Dec 20  | [Session 15](#session-15) - WK45 | {HR Panel Sessions}
 Dec 27   | [Session 16](#session-16) - WK46 | **OFF -- BREAK**
-Jan 3   | [Session 17](#session-17) - WK47 | Panel & Discussion with C6 about Internships
-Jan 10  | [Session 18](#session-18) - WK48 | Pizza/Drinks & Graduation Planning!
-Jan 17  | [Session 19](#session-19) - WK49 | NONE - optional learning with Shruti
-Jan 24  |  [Session 20](#session-20) - WK50 | NONE - optional learning with Shruti
-Jan 31  | [Session 21](#session-21) - WK51 | NONE - optional learning with Shruti
+Jan 3   | [Session 17](#session-17) - WK47 | **OFF-- USE THIS TIME TO INTERVIEW OR PRACTICE WHITE BOARDING**
+Jan 10  | [Session 18](#session-18) - WK48 | Pizza/Drinks & Graduation Planning! TBA
+Jan 17  | [Session 19](#session-19) - WK49 | Panel & Discussion with C6 about Internships & optional learning with Shruti
+Jan 24  |  [Session 20](#session-20) - WK50 | optional learning with Shruti
+Jan 31  | [Session 21](#session-21) - WK51 |  optional learning with Shruti
 Feb 7   | [Session 22](#session-22) - WK52 | Graduation
 
 ## Tentative activities for Tuesdays
