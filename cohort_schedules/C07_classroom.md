@@ -1,11 +1,5 @@
 # Cohort 7 Classroom Calendar
 
-**
-DELETE THIS NOTE EVENTUALLY
-- Dates are correct, as as week long breaks
-- Topics are NOT correct
-**
-
 ## At a Glance
 
 | Date    | Week    | Topic
@@ -13,21 +7,21 @@ DELETE THIS NOTE EVENTUALLY
 | Feb 6   | Week 01 | Student Orientation, Bash, Ruby, Intallfest!
 | Feb 13  | Week 02 | Intro to OO, Gems, Pair Programming
 | Feb 20  | Week 03 | Intermediate Ruby: More OO, CSV, Inheritance
-| Feb 28  | Week 04 | Intermediate Ruby: Enumerable, TDD, minitest
-| Mar 6   | Week 05 | Intro Sinatra, HTML, CSS
-| Mar 13  | Week 06 | Sinatra & SQL
-| Mar 20  | Week 07 | _BREAK_
-| Mar 27  | Week 08 | Intro to Rails
-| Apr 3   | Week 09 | Rails II, Unit testing
-| Apr 10  | Week 10 | Rails III, OAuth, Agile, PM Skills
-| Apr 17  | Week 11 | Controller filters, advanced validations, AR callbacks
-| Apr 24  | Week 12 | Individual Project - No new topics
+| Feb 28  | Week 04 | Intermediate Ruby: Enumerables, TDD, minitest
+| Mar 6   | Week 05 | Ruby Reinforcement
+| Mar 13  | Week 06 | HTML & CSS
+| Mar 20  | Week 07 | Intro to Rails
+| Mar 27  | Week 08 | _BREAK_
+| Apr 3   | Week 09 | Rails II, Model Associations
+| Apr 10  | Week 10 | Rails III, Unit Testing, CSS Framework
+| Apr 17  | Week 11 | Agile, PM Skills, OAuth
+| Apr 24  | Week 12 | Controller Filters, Advanced Validations, AR Callbacks
 | May 1   | Week 13 | Rails Using APIs
 | May 8   | Week 14 | Rails Creating & Using APIs
-| May 15  | Week 15 | Intro to JavaScript
-| May 22  | Week 16 | jQuery and AJAX
+| May 15  | Week 15 | Intro to JavaScript, jQuery
+| May 22  | Week 16 | jQuery, AJAX, Underscore
 | May 29  | Week 17 | Intro to Backbone
-| Jun 5   | Week 18 | Interviews
+| Jun 5   | Week 18 | _INTERVIEWS_
 | Jun 12  | Week 19 | Intermediate Backbone
 | Jun 19  | Week 20 | Advanced Backbone
 | Jun 26  | Week 21 | _BREAK_
