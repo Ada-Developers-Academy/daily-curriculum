@@ -32,6 +32,7 @@ Students should be able to:
 * Write complex command line programs in Ruby
 * Use object-oriented programming principals to build scalable, maintainable programs
 * Process and build relations between data from files
+* Verify code from the outset using test-driven development
 
 ### HTML & CSS
 
@@ -51,6 +52,15 @@ Students should be able to:
 
 ### JavaScript
 
+As the language of the web, a strong understanding of JavaScript is essential for any prospective web developer. In addition to core language features, we'll cover some of the excellent libraries that enable modern web apps such as jQuery, Underscore and the Backbone framework.
+
+Students should be able to:
+
+* Read, write and test JavaScript
+* Manipulate the DOM dynamically
+* Interact with an API using AJAX
+* Organize a web app using a front-end framework
+
 ### CS Fundamentals
 
 ### Capstone Project
@@ -68,21 +78,21 @@ Project Goals include:
 
 | Date    | Week    | Unit             | Topics
 |---------|---------|------------------|----------------------------------------
-| Feb 6   | Week 01 | Introduction     | Student Orientation, Bash, Ruby, Installfest!
+| Feb 6   | Week 01 | Introduction     | Student Orientation, Bash, Intro to Ruby
 | Feb 13  | Week 02 | Ruby             | Intro to OO, Gems, Pair Programming
 | Feb 20  | Week 03 | Ruby             | More OO, Files, Inheritance
 | Feb 28  | Week 04 | Ruby             | Enumerables, TDD, Minitest
 | Mar 6   | Week 05 | Ruby             | Large Projects, Git
-| Mar 13  | Week 06 | HTML & CSS       | Web Design, Semantic HTML, CSS Layouts
+| Mar 13  | Week 06 | HTML & CSS       | Web Design, Semantic HTML, CSS Layouts, Developer Tools
 | Mar 20  | Week 07 | Ruby on Rails    | HTTP & REST, MVC, Rails Components
 | Mar 27  | Week 08 | _BREAK_          | &nbsp;
 | Apr 3   | Week 09 | Ruby on Rails    | Model Associations
 | Apr 10  | Week 10 | Ruby on Rails    | Unit Testing, Foundation
 | Apr 17  | Week 11 | Ruby on Rails    | OAuth, Controller Filters, Advanced ActiveRecord
-| Apr 24  | Week 12 | Ruby on Rails    | Agile, PM Skills, Working With a Large Group
+| Apr 24  | Week 12 | Ruby on Rails    | Agile, PM Skills, Working With a Large Team
 | May 1   | Week 13 | Web APIs         | Consuming APIs
 | May 8   | Week 14 | Web APIs         | Producing APIs
-| May 15  | Week 15 | JavaScript       | Intro to JavaScript, jQuery
+| May 15  | Week 15 | JavaScript       | Intro to JavaScript, the DOM, jQuery, Advanced Developer Tools
 | May 22  | Week 16 | JavaScript       | jQuery, AJAX, Underscore
 | May 29  | Week 17 | JavaScript       | Intro to Backbone
 | Jun 5   | Week 18 | _INTERVIEWS_     | &nbsp;
