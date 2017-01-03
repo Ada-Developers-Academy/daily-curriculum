@@ -61,13 +61,22 @@ Students should be able to:
 * Interact with an API using AJAX
 * Organize a web app using a front-end framework
 
-### CS Fundamentals
+### Computer Science Fundamentals
+
+Ada graduates are expected to have a strong understanding of the basics of computer science. This includes concepts such as how computers and operating systems work, common data structures and algorithms, and notions of space- and time-efficiency.
+
+Students should be able to:
+
+* Implement sort and search algorithms
+* Select the appropriate data structure to solve a given problem
+* Understand and implement recursive functions
+* Analyze the efficiency of basic programs, and discuss potential trade-offs and optimizations
 
 ### Capstone Project
 
 As a culmination of each student's classroom learning experience, they create a capstone project to showcase what they have learned thus far in the program.
 
-Project Goals include:
+Students should be able to:
 
 * Demonstrate self-direction, time management, and independent learning
 * Learn and implement new technologies
