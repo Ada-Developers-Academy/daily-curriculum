@@ -17,11 +17,7 @@ Major topics of study include:
 | JavaScript              | Networking
 | CS Fundamentals         | Career Readiness
 
-## Outcomes
-
-XXX DPR: TODO
-
-## Units
+## Expected Outcomes
 
 ### Ruby
 
@@ -46,9 +42,19 @@ Students should be able to:
 
 ### Ruby on Rails
 
+
+
+Students should be able to:
+
+*
+
 ### Web APIs
 
 
+
+Students should be able to:
+
+*
 
 ### JavaScript
 
@@ -67,7 +73,7 @@ Ada graduates are expected to have a strong understanding of the basics of compu
 
 Students should be able to:
 
-* Implement sort and search algorithms
+* Implement various sort and search algorithms
 * Select the appropriate data structure to solve a given problem
 * Understand and implement recursive functions
 * Analyze the efficiency of basic programs, and discuss potential trade-offs and optimizations
