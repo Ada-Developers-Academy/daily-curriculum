@@ -21,15 +21,33 @@ Major topics of study include:
 
 XXX DPR: TODO
 
-## Overarching Topics
+## Units
 
 ### Ruby
+
+Ruby is a dynamically typed, interpreted, object-oriented language. In addition to serving as a great introduction to programming, Ruby is the foundation of the Ruby on Rails framework, and is used for most of our CS Fundamentals curriculum.
+
+Students should be able to:
+
+* Write complex command line programs in Ruby
+* Use object-oriented programming principals to build scalable, maintainable programs
+* Process and build relations between data from files
+
+### HTML & CSS
+
+HTML and CSS are two of the core technologies on which the web is built, allowing web developers to structure content in a hierarchy and specify how it should be presented to the user. Both are foundational for much of the rest of the course.
+
+Students should be able to:
+
+* Read and write HTML and CSS
+* Utilize semantic tags to provide clear structure to HTML
+* Manage the layout of a complex web page using CSS
 
 ### Ruby on Rails
 
 ### Web APIs
 
-### HTML & CSS
+
 
 ### JavaScript
 
@@ -44,7 +62,7 @@ Project Goals include:
 * Demonstrate self-direction, time management, and independent learning
 * Learn and implement new technologies
 * Complete a product lifecycle from conception to delivery
-* Utilize agile practices learned to assist in project completion
+* Utilize agile practices to assist in project completion
 
 ## Week-by-Week
 
