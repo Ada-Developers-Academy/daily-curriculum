@@ -53,11 +53,12 @@ Students should be able to:
 
 ### Web APIs
 
-
+APIs allow programs to talk to each other, and have become an important part of the modern web. We focus both on consuming third party APIs, and on producing our own APIs, laying the foundation for future front-end scripting work.
 
 Students should be able to:
 
-*
+* Explore and utilize third party APIs
+* Build an API to expose their own data
 
 ### JavaScript
 
