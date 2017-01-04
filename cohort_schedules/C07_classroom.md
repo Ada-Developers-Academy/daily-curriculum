@@ -42,11 +42,14 @@ Students should be able to:
 
 ### Ruby on Rails
 
-
+Ruby on Rails is a robust and comprehensive MVC framework for building web servers. We use Rails to address a wide range of topics, from HTTP, REST and web standards to database operations. This unit also includes a large team project completed over two weeks.
 
 Students should be able to:
 
-*
+* Build and deploy a complete website, from the HTML & CSS on the page to the backing database
+* Model complex real-world relations using ActiveRecord
+* Understand the basics of web security and user authentication
+* Use Git, TDD and agile practices to coordinate a large team
 
 ### Web APIs
 
