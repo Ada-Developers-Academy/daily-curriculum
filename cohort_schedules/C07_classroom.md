@@ -27,12 +27,12 @@ Students should be able to:
 
 * Write complex command line programs in Ruby
 * Use object-oriented programming principals to build scalable, maintainable programs
-* Process and build relations between data from files
+* Read and write files, and process large amounts of data
 * Verify code from the outset using test-driven development
 
 ### HTML & CSS
 
-HTML and CSS are two of the core technologies on which the web is built, allowing web developers to structure content in a hierarchy and specify how it should be presented to the user. Both are foundational for much of the rest of the course.
+HTML and CSS are two of the core technologies on which the web is built, allowing web developers to structure content in a hierarchy and specify how it should be presented to the user. Both are foundational for web develoeprs.
 
 Students should be able to:
 
@@ -46,34 +46,34 @@ Ruby on Rails is a robust and comprehensive MVC framework for building web serve
 
 Students should be able to:
 
-* Build and deploy a complete website, from the HTML & CSS on the page to the backing database
+* Build and deploy a complete web application, from the HTML & CSS on the page to the backing database
 * Model complex real-world relations using ActiveRecord
-* Understand the basics of web security and user authentication
 * Use Git, TDD and agile practices to coordinate a large team
 
 ### Web APIs
 
-APIs allow programs to talk to each other, and have become an important part of the modern web. We focus both on consuming third party APIs and on producing our own APIs, laying the foundation for future front-end scripting work.
+APIs allow programs to talk to each other, and have become an important part of the modern web. We focus both on consuming third party APIs and on producing our own APIs, laying the foundation for future front-end development.
 
 Students should be able to:
 
 * Explore and utilize third party APIs
-* Build an API to expose their own data
+* Design an API to expose their own data
+* Write programs that parse and format JSON
 
 ### JavaScript
 
-As the language of the web, a strong understanding of JavaScript is essential for any prospective web developer. In addition to core language features, we'll cover some of the excellent libraries that enable modern web apps such as jQuery, Underscore and the Backbone framework.
+As the language of the web, an understanding of JavaScript is essential for any prospective web developer. In addition to core language features, we'll cover some of the excellent libraries that enable modern web apps such as jQuery, Underscore and the Backbone framework.
 
 Students should be able to:
 
 * Read, write and test JavaScript
 * Manipulate the DOM dynamically
-* Interact with an API using AJAX
+* Build a complete single-page application, using AJAX to integrate with an API
 * Organize a web app using a front-end framework
 
 ### Computer Science Fundamentals
 
-Ada graduates are expected to have a strong understanding of the basics of computer science. This includes concepts such as how computers and operating systems work, common data structures and algorithms, and notions of space- and time-efficiency.
+Ada graduates are expected to have an understanding of the basics of computer science. This includes concepts such as how computers and operating systems work, common data structures and algorithms, and notions of space- and time-efficiency.
 
 Students should be able to:
 
