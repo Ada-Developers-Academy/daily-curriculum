@@ -73,13 +73,13 @@ Students should be able to:
 
 ### Computer Science Fundamentals
 
-Ada graduates are expected to have an understanding of the basics of computer science. This includes concepts such as how computers and operating systems work, common data structures and algorithms, and notions of space- and time-efficiency.
+Ada graduates are expected to have an understanding of the basics of computer science. This includes common data structures and algorithms, and notions of space- and time-complexity.
 
 Students should be able to:
 
-* Implement various sort and search algorithms
+* Compare and evaluate different solutions to the same problem
 * Select the appropriate data structure to solve a given problem
-* Understand and implement recursive functions
+* Understand and trace recursive functions
 * Analyze the efficiency of basic programs, and discuss potential trade-offs and optimizations
 
 ### Capstone Project
