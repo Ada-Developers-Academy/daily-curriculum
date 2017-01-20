@@ -22,9 +22,9 @@ Feb 13  | Session 2 - WK32     | Internship Check-in, Culture Shock
   | Session 16 - WK46    | **OFF -- BREAK**
   | Session 17 - WK47    | Panel & Discussion with C6 about Internships
   | Session 18 - WK48    | Pizza/Drinks & Graduation Planning!
-  | Session 19 - WK49    | NONE - optional learning with Shruti
-  |  Session 20 - WK50   | NONE - optional learning with Shruti
-  | Session 21 - WK51    | NONE - optional learning with Shruti
+  | Session 19 - WK49    | 
+  |  Session 20 - WK50   | 
+  | Session 21 - WK51    | 
   | Session 2 - WK52     | Graduation
 
 ## Tentative activities for Tuesdays
