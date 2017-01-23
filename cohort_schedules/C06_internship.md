@@ -8,7 +8,7 @@ Feb 9   | Session 1     | **NO CLASS - INTERNSHIPS START**
 Feb 16  | Session 2     | Internship Check-in, Culture Shock
 Feb 23  | Session 3     | CS Fun Problem Solving #1
 March 2  | Session 4     | CS Fun Problem Solving #2
-March 9  | Session 5     | Ada Service Day- NO CLASS
+March 9  | Session 5     | **Ada Service Day- NO CLASS**
 March 16  | Session 6     | CS Fun Problem Solving #3
 March 23   | Session 7     | CS Fun Problem Solving #4
 March 30   | Session 8     | **OFF -- BREAK**
@@ -24,5 +24,5 @@ June 1  | Session 17    | **Off- Auditorium will be open for whiteboarding pract
 June 8  | Session 18    | **Off- Office closed to C6 -- C7 placement interviews**
 June 15  | Session 19    | Happy Hour Celebration with Alexandra @ The Diller Room
 June 22  | Session 20    | Internship lowdown with C6 (optional for C7) 
-June 29th| Session 21    | **OFF**
+June 29  | Session 21    | **OFF**
 July 6  | Session 22    | **OFF & Graduation July 7, 2017**
