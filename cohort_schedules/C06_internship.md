@@ -5,7 +5,7 @@
 Date    | Continuing Ed        | Topics
 --------|----------------------|-----------------------------
 Feb 9   | Session 1     | **NO CLASS - INTERNSHIPS START**
-Feb 16  | Session 2     | Internship Check-in, Culture Shock
+Feb 16  | Session 2     | Internship Check-in, Culture Shock; GL: What to do when you make a mistake
 Feb 23  | Session 3     | CS Fun Problem Solving #1
 March 2  | Session 4     | CS Fun Problem Solving #2
 March 9  | Session 5     | **Ada Service Day- NO CLASS**
