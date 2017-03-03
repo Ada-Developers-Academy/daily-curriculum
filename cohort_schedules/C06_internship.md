@@ -25,4 +25,4 @@ June 8  | Session 18    | **Off- Office closed to C6 -- C7 placement interviews*
 June 15  | Session 19    | Happy Hour Celebration with Alexandra @ The Diller Room
 June 22  | Session 20    | Internship lowdown with C6 (optional for C7) 
 June 29  | Session 21    | **OFF** ADA CLOSED
-July 6  | Session 22    | **OFF & Graduation July 7, 2017**
+July 6  | Session 22    | **OFF & Graduation July 6, 2017**
