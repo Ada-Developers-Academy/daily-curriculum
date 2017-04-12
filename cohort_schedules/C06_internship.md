@@ -13,7 +13,7 @@ March 16  | Session 6     | CS Fun Problem Solving #3 ; Kari introduction to Cod
 March 23   | Session 7     | CS Fun Problem Solving #4
 March 30   | Session 8     | **OFF -- ADA CLOSED** ; Code Review for 2 hours
 April 6  | Session 9     | CS Fun Problem Solving #5 (also, tentative “How to Interview” with Fahim 3-6)
-April 13  | Session 10    | CS Fun Problem Solving #6 (1-3), *Get with Manager about Mid-point review
+April 13  | Session 10    | CS Fun Problem Solving #6, *Get with Manager about Mid-point review
 April 20  | Session 11    | Intro Salary Conversation with Aubrey (1-2) CS Fun Problem Solving #7 (2-4), *Midpoint sent out   April 17th
 April 27  | Session 12    | CS Fun Problem Solving #8 (1-3), Resume Lecture with Annie (3-5),*Midpoint review feedback deadline April 26th 
 May 4  | Session 13    | Working on Resumes/ interview prep 3-5, Midpoint Review  Feedback (all-day), Mock Interviews 
