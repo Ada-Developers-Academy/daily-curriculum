@@ -23,7 +23,7 @@ Nov 23  | Session 16 - WK42 | **OFF** Thanksgiving
 Nov 30  | Session 17 - WK43 | Career Path Lecture with Urmila + Work+Life Integration/Balance In Tech
 Dec 07  | Session 18 - WK44 | **Off- Office closed to C7 -- C8 placement interviews**
 Dec 14  | Session 19 - WK45 | Happy Hour Celebration with Alexandra @ The Diller Room
-Dec 21  | Session 20 - WK46 | Internship lowdown with C7 (optional for C8)
+Dec 21  | Session 20 - WK46 | Internship lowdown with C8 (optional for C7)
 Dec 28  | Session 21 - WK47 | **OFF** ADA Closed
 Jan 04  | Session 22 - WK48 | Graduation
 
