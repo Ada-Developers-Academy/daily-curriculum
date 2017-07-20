@@ -6,7 +6,7 @@ Date    | Continuing Ed         | Topics
 --------|----------------|-----------------------------
 Aug 10  | Session 1 - WK27 | CS Fundamentals Session 1
 Aug 17  | Session 2 - WK28 | CS Fundamentals Session 2
-Aug 24  | Session 3 - WK29 | Internship Check-in, Culture Shock, Ada Alumni Lecture
+Aug 24  | Session 3 - WK29 | Internship Check-in, Culture Shock, "Building Internship Resilience" By Jess Weeber- Ada Alumni
 Aug 31  | Session 4 - WK30 | CS Fundamentals Session 3
 Sep 07  | Session 5 - WK31 | CS Fundamentals Session 4
 Sep 14  | Session 6 - WK32 | CS Fundamentals Session 5
