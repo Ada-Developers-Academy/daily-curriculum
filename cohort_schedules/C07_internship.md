@@ -5,7 +5,7 @@
 Date    | Continuing Ed         | Topics
 --------|----------------|-----------------------------
 Aug 10  | Session 1 - WK27 | CS Fundamentals Session 1 (Time & space complexities, Arrays)
-Aug 17  | Session 2 - WK28 | CS Fundamentals Session 2 (Linked Lists, OOP)
+Aug 17  | Session 2 - WK28 | CS Fundamentals Session 2 (Linked Lists, OOD)
 Aug 24  | Session 3 - WK29 | Internship Check-in, Culture Shock, "Building Internship Resilience" By Jess Weeber- Ada Alumni
 Aug 31  | Session 4 - WK30 | CS Fundamentals Session 3 (Trees)
 Sep 07  | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks & Queues)
