@@ -10,8 +10,8 @@ Aug 24  | Session 3 - WK29 | Internship Check-in, Culture Shock, "Building Inter
 Aug 31  | Session 4 - WK30 | CS Fundamentals Session 3 (Trees)
 Sep 07  | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks & Queues)
 Sep 14  | Session 6 - WK32 | CS Fundamentals Session 5 (Trees continued)
-Sep 21  | Session 7 - WK33 | **OFF -- ADA closed;**
-Sep 28  | Session 8 - WK34 | CS Fundamentals Session 6 (Hashtables)
+Sep 21  | Session 7 - WK33 | CS Fundamentals Session 6 (Hashtables)
+Sep 28  | Session 8 - WK34 | **OFF -- ADA closed;**
 Oct 05  | Session 9 - WK35 | CS Fundamentals Session 7 (Algorithms) , Intro Salary Conversation, *Get with Manager about mid-point review*
 Oct 12  | Session 10 - WK36 | CS Fundamentals Session 8 (Design, Testing), *Mid-point review*
 Oct 19  | Session 11 - WK37 | CS Fundamentals Session 9 (Interview, Code challenge practice), Midpoint Review Feedback w/ Alexandra
