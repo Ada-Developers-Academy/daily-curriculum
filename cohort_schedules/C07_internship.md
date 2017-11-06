@@ -20,7 +20,7 @@ Nov 02  | Session 13 - WK39 | Resume Workshop (1-5),  Mock Interviews
 Nov 09  | Session 14 - WK40 | **Ada Service Day -- No class**
 Nov 16  | Session 15 - WK41 |HR/ Recruiter Panel Sessions, Mock Interviews, 
 Nov 23  | Session 16 - WK42 | **OFF** Thanksgiving
-Nov 30  | Session 17 - WK43 | 1:00-3:00-"Job Searching is Scary But You Can Do It!" with Mary Morrison of C6 3:00-5:00 Money Management and Saving Lecture with Brooks! 
+Nov 30  | Session 17 - WK43 | Indeed Interview Loop 1:00-3:00-"Job Searching is Scary But You Can Do It!" with Mary Morrison of C6 3:00-5:00 Money Management and Saving Lecture with Brooks! 
 Dec 07  | Session 18 - WK44 | **Off- Office closed to C7 -- C8 placement interviews**
 Dec 14  | Session 19 - WK45 | Happy Hour Celebration with Alexandra @ The Diller Room
 Dec 21  | Session 20 - WK46 | Internship lowdown with C8 (optional for C7)
