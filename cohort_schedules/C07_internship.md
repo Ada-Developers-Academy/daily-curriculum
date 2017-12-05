@@ -23,7 +23,7 @@ Nov 23  | Session 16 - WK42 | **OFF** Thanksgiving
 Nov 30  | Session 17 - WK43 | Indeed Interview Loop 1:00-3:00-"Job Searching is Scary But You Can Do It!" with Mary Morrison of C6 3:00-5:00 Money Management and Saving Lecture with Brooks! 
 Dec 07  | Session 18 - WK44 | **Off- Office closed to C7 -- C8 placement interviews**
 Dec 14  | Session 19 - WK45 | Happy Hour Celebration with Alexandra @ The Diller Room
-Dec 21  | Session 20 - WK46 | Internship lowdown with C8 (optional for C7)
+Dec 21  | Session 20 - WK46 | *Off*
 Dec 28  | Session 21 - WK47 | **OFF** ADA Closed
 Jan 04  | Session 22 - WK48 | Graduation
 
