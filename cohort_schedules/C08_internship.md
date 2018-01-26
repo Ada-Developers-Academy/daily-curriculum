@@ -24,7 +24,7 @@ May 31  | Session 17 - WK43 |"Job Searching is Scary But You Can Do It!" with Ma
 Jun 07  | Session 18 - WK44 | **Off- Office closed to C8 -- C9 placement interviews**
 Jun 14  | Session 19 - WK45 | Happy Hour Celebration with Alexandra @ The Lodge 
 Jun 21| Session 20 - WK46 | *Off*
-June 22 |  Graduation
+June 22 |  Graduation| @ Moz! From 5:00-7:30
 Jun 28  | Session 21 - WK47 | *Off*
 Jun 29  | Session 21 - WK47 | OFF
 Jul 05  | Session 22 - WK48 | *Off*
