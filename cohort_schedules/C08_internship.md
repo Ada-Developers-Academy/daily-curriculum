@@ -12,9 +12,9 @@ Mar 08  | Session 5 - WK31 | CS Fundamentals Session 4
 Mar 15  | Session 6 - WK32 | CS Fundamentals Session 5
 Mar 22  | Session 7 - WK33 | CS Fundamentals Session 6
 Mar 29  | Session 8 - WK34 | **OFF -- ADA closed;** [Optional CS Fundamentals informal conversation on Pointers in C]
-Apr 05  | Session 9 - WK35 | CS Fundamentals Session 7, Intro Salary Conversation, *Get with Manager about mid-point review*
+Apr 05  | Session 9 - WK35 | CS Fundamentals Session 7, *Get with Manager about mid-point review*
 Apr 12  | Session 10 - WK36 | CS Fundamentals Session 8, Dissecting an Offer with Blaine Mercado- 3:00-4:30
-Apr 19  | Session 11 - WK37 | CS Fundamentals Session 9, Midpoint Review Feedback w/ Alexandra
+Apr 19  | Session 11 - WK37 | CS Fundamentals Session 9,Intro Salary Conversation, Midpoint Review Feedback w/ Alexandra
 Apr 26  | Session 12 - WK38 | Resume Prep Lecture with Annie from 1:30- 3:00   3:00- Check in with Alexandra *Midpoint Review Feedback w/ Alexandra, Mock Interviews* 26th, 1st and 3rd.
 May 03  | Session 13 - WK39 | Resume Workshop (1-5),  Mock Interviews, 26th, 1st and 3rd.
 May 10  | Session 14 - WK40 | **Ada Service Day -- No class**
