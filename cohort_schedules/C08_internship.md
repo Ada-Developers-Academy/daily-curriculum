@@ -22,7 +22,7 @@ May 17  | Session 15 - WK41 |HR/ Recruiter Panel Sessions
 May 24  | Session 16 - WK42 | 5:00-7:00 Money Management and Saving Lecture with Brooks! 
 May 31  | Session 17 - WK43 |"Job Searching is Scary But You Can Do It!" with Mary Morrison 
 Jun 07  | Session 18 - WK44 | **Off- Office closed to C8 -- C9 placement interviews**
-Jun 14  | Session 19 - WK45 | Happy Hour Celebration with Alexandra @ The Lodge 
+Jun 14  | Session 19 - WK45 | The Basics of Finance with Seattle Credit Union- 1:00-2:00 Happy Hour Celebration with Alexandra @ The Lodge 2:15-5:00
 Jun 21| Session 20 - WK46 | *Off*
 June 22 |  Graduation| @ Moz! From 5:00-7:30
 Jun 28  | Session 21 - WK47 | *Off*
