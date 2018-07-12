@@ -15,7 +15,7 @@ Sep 27  | Session 8 - WK34 | **OFF -- ADA closed;**
 Oct 04  | Session 9 - WK35 | [Shruti OOO] Intro Salary Conversation 1:00-2:30  Resume Prep Lecture with *Unknown* from 3:00   5:00- Check in with Val *Midpoint Review Feedback w/ Alexandra, Mock Interviews*
 Oct 11  | Session 10 - WK36 | [Shruti OOO] Resume Workshop (1-5),  Mock Interviews   
 Oct 18  | Session 11 - WK37 | [Shruti OOO] HR/ Recruiter Panel Sessions, Mock Interviews, 
-Oct 25  | Session 12 - WK38 | CS Fundamentals Session 7 (Algorithms) ,  *Get with Manager about mid-point review*
+Oct 25  | Session 12 - WK38 | CS Fundamentals Session 7 (Algorithms),  (Tentative) Dissecting an Offer with Blaine Mercado- 3:00-4:30  *Get with Manager about mid-point review*
 Nov 01  | Session 13 - WK39 | CS Fundamentals Session 8 (Design, Testing), *Mid-point review*
 Nov 08  | Session 14 - WK40 | **Ada Service Day -- No class**
 Nov 15  | Session 15 - WK41 | CS Fundamentals Session 9 (Interview, Code challenge practice), Midpoint Review Feedback w/ Val
