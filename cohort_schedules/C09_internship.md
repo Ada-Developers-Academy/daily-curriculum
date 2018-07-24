@@ -6,15 +6,15 @@ Date    | Continuing Ed         | Topics
 --------|----------------|-----------------------------
 Aug 09  | Session 1 - WK27 | CS Fundamentals Session 1 (Time & space complexities, Arrays)
 Aug 16  | Session 2 - WK28 | CS Fundamentals Session 2 (Linked Lists, OOD)
-Aug 23  | Session 3 - WK29 | Internship Check-in, Culture Shock,"Building Internship Resilience" By Jess Weeber- Ada Alumni
+Aug 23  | Session 3 - WK29 | Internship Check-in, Culture Shock, 1:00pm - 2:00pm Val & Sarah "Building Internship Resilience" with Jess Weeber(C5) - 2:30pm - 4:00pm 
 Aug 30  | Session 4 - WK30 | CS Fundamentals Session 3 (Trees)
 Sep 06  | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks & Queues)
 Sep 13  | Session 6 - WK32 | CS Fundamentals Session 5 (Trees continued)
 Sep 20  | Session 7 - WK33 | CS Fundamentals Session 6 (Hashtables)
 Sep 27  | Session 8 - WK34 | **OFF -- ADA closed;**
-Oct 04  | Session 9 - WK35 | [Shruti OOO] Intro Salary Conversation 1:00-2:30, LinkedIn and Resume Tips & Tricks with Shami Marangwanda (Director of Talent Acquisition at Zonar Systems)  from 3:00 - 4:00pm - Check in with Val *Midpoint Review Feedback w/ Alexandra, Mock Interviews*
-Oct 11  | Session 10 - WK36 | [Shruti OOO] Resume Workshop (1-5),  Mock Interviews   
-Oct 18  | Session 11 - WK37 | [Shruti OOO] HR/Recruiter Panel Sessions, Mock Interviews, 
+Oct 04  | Session 9 - WK35 | [Shruti OOO] Intro Salary Conversation 1:00-2:30, LinkedIn and Resume Tips & Tricks with Shami Marangwanda (Director of Talent Acquisition at Zonar Systems) from 3:00 - 4:00pm - Check in with Val *Midpoint Review Feedback w/ Alexandra, Mock Interviews*
+Oct 11  | Session 10 - WK36 | [Shruti OOO] Resume Workshop (1-5),  Mock Interviews TBA  
+Oct 18  | Session 11 - WK37 | [Shruti OOO] HR/Recruiter Panel Sessions, Mock Interviews, TBA
 Oct 25  | Session 12 - WK38 | CS Fundamentals Session 7 (Algorithms), (Tentative) Dissecting an Offer with Blaine Mercado- 3:00-4:30  *Get with Manager about mid-point review*
 Nov 01  | Session 13 - WK39 | CS Fundamentals Session 8 (Design, Testing), *Mid-point review*
 Nov 08  | Session 14 - WK40 | **Ada Service Day -- No class**
