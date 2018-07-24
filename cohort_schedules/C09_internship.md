@@ -6,7 +6,7 @@ Date    | Continuing Ed         | Topics
 --------|----------------|-----------------------------
 Aug 09  | Session 1 - WK27 | CS Fundamentals Session 1 (Time & space complexities, Arrays)
 Aug 16  | Session 2 - WK28 | CS Fundamentals Session 2 (Linked Lists, OOD)
-Aug 23  | Session 3 - WK29 | Internship Check-in, Culture Shock, 1:00pm - 2:00pm Val & Sarah "Building Internship Resilience" with Jess Weeber (C5) - 2:30pm - 4:00pm 
+Aug 23  | Session 3 - WK29 | Internship Check-in, Culture Shock with Val & Sarah 1:00pm - 2:00pm "Building Internship Resilience" with Jess Weeber (C5) - 2:30pm - 4:00pm 
 Aug 30  | Session 4 - WK30 | CS Fundamentals Session 3 (Trees)
 Sep 06  | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks & Queues)
 Sep 13  | Session 6 - WK32 | CS Fundamentals Session 5 (Trees continued)
