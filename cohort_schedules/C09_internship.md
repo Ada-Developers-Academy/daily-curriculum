@@ -1,4 +1,4 @@
-# Cohort 9 (proposed, planning in progress) Internship Calendar
+# Cohort 9 Internship Calendar 
 
 ## At a Glance
 
