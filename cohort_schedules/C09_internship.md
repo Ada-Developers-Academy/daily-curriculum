@@ -12,7 +12,7 @@ Sep 06  | Session 5 - WK31 | CS Fundamentals Session 4
 Sep 13  | Session 6 - WK32 | CS Fundamentals Session 5
 Sep 20  | Session 7 - WK33 | CS Fundamentals Session 6
 Sep 27  | Session 8 - WK34 | **OFF -- ADA closed;**
-Oct 04  | Session 9 - WK35 | Intro Salary Conversation 1:00-2:30 with Lydia Frank (VP of Content Strategy at Payscale & Advocate for equity and inclusion in the workplace), LinkedIn and Resume Tips & Tricks with Shami Marangwanda (Director of Talent Acquisition at Zonar Systems) from 3:00 - 4:00pm - Check in with Val *Remember to get with your managers about upcoming Midpoint Reviews, Mock Interviews*
+Oct 04  | Session 9 - WK35 | Intro Salary Conversation 1:00-2:30 with Lydia Frank (VP of Content Strategy at Payscale & Advocate for equity and inclusion in the workplace), LinkedIn and Resume Tips & Tricks with Shami Marangwanda (Manager, Talent Acquisition – Human Resources Seattle Children's) from 3:00 - 4:00pm - Check in with Val *Remember to get with your managers about upcoming Midpoint Reviews, Mock Interviews*
 Oct 11  | Session 10 - WK36 | Resume Workshop 1:00pm - 5:00pm; Mock Interviews 1:00pm - 5:00pm 
 Oct 18  | Session 11 - WK37 | HR/Recruiter Panel Discussion Skytap + Getty Images 1:00pm-2:00pm. Mock Interviews 1:00pm - 5:00pm 
 Oct 25  | Session 12 - WK38 | CS Fundamentals Session 7, (Tentative) Dissecting an Offer with Blaine Mercado- 3:00-4:30  *Get with Manager about mid-point review*
