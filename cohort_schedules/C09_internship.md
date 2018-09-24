@@ -20,7 +20,7 @@ Nov 01  | Session 13 - WK39 | CS Fundamentals Session 8, Mid-point review feedba
 Nov 08  | Session 14 - WK40 | **Ada Service Day -- No class**
 Nov 15  | Session 15 - WK41 |  1-3:30pm CS Fundamentals Session 9, 3:30-5pm Caucusing with Diverse City
 Nov 22  | Session 16 - WK42 | **OFF** Thanksgiving
-Nov 29  | Session 17 - WK43 |  1:00-2:30- Navigating the Job Search - Shefali Shukla SR. Technical Recruiter At GoDaddy|3:00-5:00 Money Management and Saving Lecture with Brooks! 
+Nov 29  | Session 17 - WK43 |  1:00-2:30- Navigating the Job Search - Shefali Shukla SR. Technical Recruiter At GoDaddy 3:00-5:00 Money Management and Saving Lecture with Brooks! 
 Dec 06  | Session 18 - WK44 | **Off- Office closed to C8 -- C9 placement interviews**
 Dec 13  | Session 19 - WK45 | Happy Hour Celebration with Val @ The Lodge on 4th Ave--- Graduation on December 14th
 Dec 20  | Session 20 - WK46 | *Off*
