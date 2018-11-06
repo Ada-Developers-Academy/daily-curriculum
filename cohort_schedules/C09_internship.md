@@ -17,7 +17,7 @@ Oct 11  | Session 10 - WK36 | Resume Workshop 1:00pm - 5:00pm; Mock Interviews 1
 Oct 18  | Session 11 - WK37 | HR/Recruiter Panel Discussion Skytap + Getty Images 1:00pm-2:00pm. Mock Interviews 1:00pm - 5:00pm 
 Oct 25  | Session 12 - WK38 | CS Fundamentals Session 7, Dissecting an Offer with Blaine Mercado- 3:00-4:30  
 Nov 01  | Session 13 - WK39 | CS Fundamentals Session 8, Mid-point review feedback to C9 printed by Val, please pick-up
-Nov 08  | Session 14 - WK40 | **Ada Service Day -- No class**
+Nov 08  | Session 14 - WK40 | **Day off no class**
 Nov 15  | Session 15 - WK41 |  1-3:30pm CS Fundamentals Session 9, 3:30-5pm Caucusing with Diverse City
 Nov 22  | Session 16 - WK42 | **OFF** Thanksgiving
 Nov 29  | Session 17 - WK43 |  1:00-2:30- Navigating the Job Search - Shefali Shukla SR. Technical Recruiter At GoDaddy 3:00-5:00 Money Management and Saving Lecture with Brooks! 
