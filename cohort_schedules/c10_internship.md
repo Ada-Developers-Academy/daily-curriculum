@@ -2,18 +2,18 @@
 
 ## At a Glance
 
-Date    | Continuing Ed         | Topics
---------|----------------|-----------------------------
-Feb 07  | Session 1 - WK27 | CS Fundamentals Session 1
-Feb 14  | Session 2 - WK28 | CS Fundamentals Session 2
+Date    | Continuing Ed    | Topics
+--------|------------------|-----------------------------
+Feb 07  | Session 1 - WK27 | CS Fundamentals Session 1 (code reviews, Linked Lists)
+Feb 14  | Session 2 - WK28 | CS Fundamentals Session 2 (Linked Lists continued, Binary Search Trees)
 Feb 21  | Session 3 - WK29 | Internship Check-in Val 1:00 - 2:30 "Building Internship Resilience" By Jess Weeber- Ada Alumni
-Feb 28  | Session 4 - WK30 | CS Fundamentals Session 3
-Mar 7   | Session 5 - WK31 | CS Fundamentals Session 4
-Mar 14  | Session 6 - WK32 | CS Fundamentals Session 5
-Mar 21  | Session 7 - WK33 | CS Fundamentals Session 6
-Mar 28  | Session 8 - WK34 | CS Fundamentals Session 7
-Apr 04  | Session 9 - WK35 | 1:00pm - 3:00pm CS Fundamentals Session 8, *Get with Manager about mid-point review* Cacus with Sarah 3:00pm -5:00pm 
-Apr 11  | Session 10 - WK36 | 1:00pm - 3:00pm CS Fundamentals Session 9; 3:30 -5:00pm Recruiter/Hiring Manager Panel Discussion 
+Feb 28  | Session 4 - WK30 | CS Fundamentals Session 3 (Binary Search Trees continued, Stacks and Queues)
+Mar 7   | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks and Queues, Hashtables)
+Mar 14  | Session 6 - WK32 | CS Fundamentals Session 5 (Binary Search Trees continued)
+Mar 21  | Session 7 - WK33 | CS Fundamentals Session 6 (Interview practice, Algorithms)
+Mar 28  | Session 8 - WK34 | CS Fundamentals Session 7 (Algorithms continued, Graphs)
+Apr 04  | Session 9 - WK35 | 1:00pm - 3:00pm CS Fundamentals Session 8 (Graphs continued), *Get with Manager about mid-point review* Cacus with Sarah 3:00pm -5:00pm 
+Apr 11  | Session 10 - WK36 | 1:00pm - 3:00pm CS Fundamentals Session 9 (Interview practice); 3:30 -5:00pm Recruiter/Hiring Manager Panel Discussion 
 Apr 18  | Session 11 - WK37 | Mock Interviews (1) 1:00pm - 5:00pm 
 Apr 25  | Session 12 - WK38 | Mock Interviews (2) 1:00pm - 5:00pm Recruiters @ Ada
 May 02  | Session 13 - WK39 | Mock Interviews (2) 1:00pm - 5:00pm Recruiter @ Ada  
