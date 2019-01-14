@@ -1,5 +1,7 @@
 Curriculum Schedules
 --------------------
+* Cohort 10:
+  [Internship Calendar](cohort_schedules/C10_internship.md)
 * Cohort 9:  
   [Internship Calendar](cohort_schedules/C09_internship.md)
 * Cohort 8:  
