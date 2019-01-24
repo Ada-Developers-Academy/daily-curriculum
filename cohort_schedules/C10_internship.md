@@ -6,7 +6,7 @@ Date    | Continuing Ed    | Topics
 --------|------------------|-----------------------------
 Feb 07  | Session 1 - WK27 | CS Fundamentals Session 1 (code reviews, Linked Lists)
 Feb 14  | Session 2 - WK28 | CS Fundamentals Session 2 (Linked Lists continued, Binary Search Trees)
-Feb 21  | Session 3 - WK29 | Internship Check-in Val 1:00 - 2:30 "Building Internship Resilience" By Jess Weeber- Ada Alumni
+Feb 21  | Session 3 - WK29 | Internship Check-in Val 1:00 - 2:30 "Building Internship Resilience" By Jess Weeber- Ada Alum 3:30 - 5:00pm How to Manage up By Janice Wilson - Ada Alum 
 Feb 28  | Session 4 - WK30 | CS Fundamentals Session 3 (Binary Search Trees continued, Stacks and Queues)
 Mar 7   | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks and Queues, Hashtables)
 Mar 14  | Session 6 - WK32 | CS Fundamentals Session 5 (Binary Search Trees continued)
