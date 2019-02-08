@@ -17,9 +17,9 @@ Apr 11  | Session 10 - WK36 | 1:00pm - 3:00pm CS Fundamentals Session 9 (Intervi
 Apr 18  | Session 11 - WK37 | Mock Interviews (1) 1:00pm - 5:00pm 
 Apr 25  | Session 12 - WK38 | Mock Interviews (2) 1:00pm - 5:00pm Recruiters @ Ada
 May 02  | Session 13 - WK39 | Mock Interviews (3) 1:00pm - 5:00pm Recruiter @ Ada  
-May 09  | Session 14 - WK40 | Job Searching is Scary But You Can Do It!" with Mary Morrison Alum / Intro to Salary Talk, (VP Payscale) 
-May 16  | Session 15 - WK41 | Level Set Offer expectations &  Market Talk with Alums / Dissecting an offer
-May 23  | Session 16 - WK42 | Tentative* / Money Management with Brooks    
+May 09  | Session 14 - WK40 | Job Searching is Scary But You Can Do It!" with Mary Morrison Alum/ Intro to Salary Talk, Wendy Brown @ Payscale 
+May 16  | Session 15 - WK41 | Technical Whiteboarding, What to expect, deep dive with Steve @ Hulu 1:00pm - 5:00pm
+May 23  | Session 16 - WK42 | Level Set offer expectations with Alums / Disecting offers with Blaine     
 May 30  | Session 17 - WK43 | Full-time Interview Loops (Space for C10 or prepare for interviews) 
 Jun 06  | Session 18 - WK44 | Interview Week C11 
 Jun 13  | Session 19 - WK45 | Graduation @ Moz! From 5:00-7:30 (June 14th)
