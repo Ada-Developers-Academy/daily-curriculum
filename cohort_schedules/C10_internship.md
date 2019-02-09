@@ -6,7 +6,7 @@ Date    | Continuing Ed    | Topics
 --------|------------------|-----------------------------
 Feb 07  | Session 1 - WK27 | CS Fundamentals Session 1 (code reviews, Linked Lists)
 Feb 14  | Session 2 - WK28 | CS Fundamentals Session 2 (Linked Lists continued, Binary Search Trees)
-Feb 21  | Session 3 - WK29 | Internship Check-in Val 1:00 - 2:30 "Building Internship Resilience" By Jess Weeber- Ada Alum 3:30 - 5:00pm How to Manage up By Janice Wilson - Ada Alum 
+Feb 21  | Session 3 - WK29 | "Building Internship Resilience" Jess Weeber- Ada Alum 1:00 - 2:30 ; How to Manage up By Janice Wilson - Ada Alum 3:30 - 5:00pm
 Feb 28  | Session 4 - WK30 | CS Fundamentals Session 3 (Binary Search Trees continued, Stacks and Queues)
 Mar 7   | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks and Queues, Hashtables)
 Mar 14  | Session 6 - WK32 | CS Fundamentals Session 5 (Binary Search Trees continued)
@@ -17,9 +17,9 @@ Apr 11  | Session 10 - WK36 | 1:00pm - 3:00pm CS Fundamentals Session 9 (Intervi
 Apr 18  | Session 11 - WK37 | Mock Interviews (1) 1:00pm - 5:00pm 
 Apr 25  | Session 12 - WK38 | Mock Interviews (2) 1:00pm - 5:00pm Recruiters @ Ada
 May 02  | Session 13 - WK39 | Mock Interviews (3) 1:00pm - 5:00pm Recruiter @ Ada  
-May 09  | Session 14 - WK40 | Job Searching is Scary But You Can Do It!" with Mary Morrison Alum/ Intro to Salary Talk, Wendy Brown @ Payscale 
+May 09  | Session 14 - WK40 | Job Searching is Scary But You Can Do It!"(Alum)/ Intro to Salary Talk, Wendy Brown @ Payscale 2:45pm - 4:15pm 
 May 16  | Session 15 - WK41 | Technical Whiteboarding, What to expect, deep dive with Steve @ Hulu 1:00pm - 5:00pm
-May 23  | Session 16 - WK42 | Level Set offer expectations with Alums / Disecting offers with Blaine     
+May 23  | Session 16 - WK42 | Disecting offers with Blaine @ 1:30pm - 2:30pm/Level Set offer expectations with Alums 
 May 30  | Session 17 - WK43 | Full-time Interview Loops (Space for C10 or prepare for interviews) 
 Jun 06  | Session 18 - WK44 | Interview Week C11 
 Jun 13  | Session 19 - WK45 | Graduation @ Moz! From 5:00-7:30 (June 14th)
