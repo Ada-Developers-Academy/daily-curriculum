@@ -11,9 +11,9 @@ Feb 28  | Session 4 - WK30 | CS Fundamentals Session 3 (Binary Search Trees cont
 Mar 7   | Session 5 - WK31 | CS Fundamentals Session 4 (Stacks and Queues, Hashtables)
 Mar 14  | Session 6 - WK32 | CS Fundamentals Session 5 (Stacks and Queues, Binary Search Trees continued)
 Mar 21  | Session 7 - WK33 | CS Fundamentals Session 6 (Binary Search Trees continued, Algorithms)
-Mar 28  | Session 8 - WK34 | CS Fundamentals Session 7 (Algorithms continued)
-Apr 04  | Session 9 - WK35 | 1:00pm - 3:00pm CS Fundamentals Session 8 (Graphs), *Get with Manager about mid-point review* Cacus with Sarah 3:00pm -5:00pm 
-Apr 11  | Session 10 - WK36 | 1:00pm - 3:00pm CS Fundamentals Session 9 (Graphs continued); 3:30 -5:00pm Recruiter/Hiring Manager Panel Discussion 
+Mar 28  | Session 8 - WK34 | Break week
+Apr 04  | Session 9 - WK35 | 1:00pm - 3:00pm CS Fundamentals Session 7 (Graphs), *Get with Manager about mid-point review*, Cacus with Sarah 3:00pm -5:00pm 
+Apr 11  | Session 10 - WK36 | 1:00pm - 3:00pm CS Fundamentals Session 8 (Graphs continued); 3:30 -5:00pm Recruiter/Hiring Manager Panel Discussion 
 Apr 18  | Session 11 - WK37 | Mock Interviews (1) 1:00pm - 5:00pm 
 Apr 25  | Session 12 - WK38 | Mock Interviews (2) 1:00pm - 5:00pm Recruiters @ Ada
 May 02  | Session 13 - WK39 | Mock Interviews (3) 1:00pm - 5:00pm Recruiter @ Ada  
