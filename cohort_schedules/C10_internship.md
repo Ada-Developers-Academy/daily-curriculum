@@ -22,7 +22,7 @@ May 16  | Session 15 - WK41 | Technical Whiteboarding, What to expect, deep dive
 May 23  | Session 16 - WK42 | Disecting offers with Blaine @ 1:30pm - 2:30pm/Level Set offer expectations with Alums 
 May 30  | Session 17 - WK43 | Full-time Interview Loops (Space for C10 or prepare for interviews) 
 Jun 06  | Session 18 - WK44 | Interview Week C11 
-Jun 13  | Session 19 - WK45 | Graduation @ Moz! From 5:00-7:30 (June 14th)
+Jun 13  | Session 19 - WK45 | Graduation @ Arctic Club! From 5:00-7:30 (June 14th)
 Jun 20  | Session 20 - WK46 | *Off*
 June 27 | Session 21 - WK46 | Happy Hour with Val - 3:00pm - 5:00pm Location TBA
 Jun 28  | Session 23 - WK47 | *Off*
