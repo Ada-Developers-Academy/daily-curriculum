@@ -19,7 +19,7 @@ Apr 25  | Session 12 - WK38 | Mock Interviews (2) 1:00pm - 5:00pm Recruiters @ A
 May 02  | Session 13 - WK39 | Mock Interviews (3) 1:00pm - 5:00pm Recruiter @ Ada  
 May 09  | Session 14 - WK40 | Job Searching is Scary But You Can Do It!"(Alum)/ Intro to Salary Talk, Wendy Brown @ Payscale 2:45pm - 4:15pm 
 May 16  | Session 15 - WK41 | Technical Whiteboarding, What to expect, deep dive with Steve @ Hulu 1:00pm - 5:00pm
-May 23  | Session 16 - WK42 | Disecting offers with Blaine @ 1:30pm - 2:30pm/Level Set offer expectations with Alums 
+May 23  | Session 16 - WK42 | Disecting offers with Blaine @ 1:00pm - 2:30pm/Level Set offer expectations with Alums 
 May 30  | Session 17 - WK43 | Full-time Interview Loops (Space for C10 or prepare for interviews) 
 Jun 06  | Session 18 - WK44 | Interview Week C11 
 Jun 13  | Session 19 - WK45 | Graduation @ Arctic Club! From 5:30 (June 14th)
